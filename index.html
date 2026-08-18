@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Provenzano Dj</title>
+<meta name="description" content="Dj e produttore. Trent'anni a scegliere musica, produrla e proporla — in radio, in pista, sui social. Booking: booking@provenzanodj.com">
+<meta property="og:title" content="Provenzano Dj">
+<meta property="og:description" content="Trent'anni a scegliere musica, produrla e proporla — in radio, in pista, sui social.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.provenzanodj.com/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23000'/%3E%3Ccircle cx='32' cy='38' r='14' fill='%23FF3131'/%3E%3C/svg%3E">
+<style>
+@font-face{
+  font-family:'Anton';
+  src:url('fonts/Anton-Regular.ttf') format('truetype');
+  font-display:swap;
+}
+@font-face{
+  font-family:'Poppins EB';
+  src:url('fonts/Poppins-ExtraBold.ttf') format('truetype');
+  font-display:swap;
+}
+:root{
+  --nero:#000;
+  --rosso:#FF3131;
+  --bianco:#fff;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{height:100%}
+body{
+  background:var(--nero);
+  color:var(--bianco);
+  font-family:'Anton',Arial,sans-serif;
+  display:flex;
+  flex-direction:column;
+  min-height:100svh;
+}
+a{color:inherit;text-decoration:none}
+
+.pagina{
+  flex:1;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:48px 24px 32px;
+  gap:0;
+}
+
+/* logo — l'unica cosa minuscola della pagina */
+.logo{
+  font-family:'Poppins EB',Arial,sans-serif;
+  font-weight:800;
+  font-size:clamp(34px,7vw,56px);
+  letter-spacing:-0.04em;
+  line-height:1;
+}
+.logo .punto{color:var(--rosso)}
+
+/* cartello */
+.cartello{
+  margin-top:clamp(40px,9vh,88px);
+  text-transform:uppercase;
+}
+.cartello .titolo{
+  font-size:clamp(40px,9vw,96px);
+  line-height:.98;
+  letter-spacing:.01em;
+  max-width:14ch;
+  margin:0 auto;
+}
+.cartello .titolo .punto{
+  color:var(--rosso);
+  animation:batte 2.4s ease-in-out infinite;
+}
+@keyframes batte{0%,100%{opacity:1}50%{opacity:.25}}
+@media (prefers-reduced-motion:reduce){.cartello .titolo .punto{animation:none}}
+
+.cartello .tesi{
+  margin:26px auto 0;
+  font-size:clamp(15px,2.6vw,22px);
+  letter-spacing:.06em;
+  line-height:1.5;
+  color:rgba(255,255,255,.62);
+  max-width:34ch;
+}
+.cartello .tesi em{font-style:normal;color:var(--bianco)}
+
+/* booking */
+.booking{
+  margin-top:clamp(44px,9vh,88px);
+  text-transform:uppercase;
+}
+.booking .domanda{
+  font-size:clamp(20px,3.6vw,30px);
+  letter-spacing:.04em;
+}
+.booking .domanda .punto{color:var(--rosso)}
+.booking .mail{
+  display:inline-block;
+  margin-top:14px;
+  font-size:clamp(16px,3vw,22px);
+  letter-spacing:.08em;
+  color:var(--rosso);
+  border-bottom:2px solid var(--rosso);
+  padding-bottom:2px;
+}
+.booking .mail:hover{color:var(--bianco);border-color:var(--bianco)}
+
+/* social */
+.social{
+  margin-top:clamp(44px,8vh,80px);
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:26px 30px;
+  max-width:520px;
+}
+.social a{display:block;line-height:0;opacity:.7;transition:opacity .15s}
+.social a:hover{opacity:1}
+.social img{width:24px;height:24px}
+
+footer{
+  padding:20px 24px 26px;
+  text-align:center;
+  font-family:Arial,sans-serif;
+  font-size:11px;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:rgba(255,255,255,.35);
+}
+</style>
+</head>
+<body>
+
+<main class="pagina">
+  <div class="logo">provenzano<span class="punto">.</span></div>
+
+  <section class="cartello">
+    <h1 class="titolo">Il sito nuovo &egrave; in costruzione<span class="punto">.</span></h1>
+    <p class="tesi">Trent'anni a scegliere musica, produrla e proporla &mdash; <em>in radio, in pista, sui social</em>.</p>
+  </section>
+
+  <section class="booking">
+    <p class="domanda">Vuoi una data? Scrivimi<span class="punto">.</span></p>
+    <a class="mail" href="mailto:booking@provenzanodj.com">booking@provenzanodj.com</a>
+  </section>
+
+  <nav class="social" aria-label="Canali social">
+    <a href="https://www.instagram.com/provenzanodj/" aria-label="Instagram"><img src="icons/instagram.svg" alt="Instagram"></a>
+    <a href="https://www.mixcloud.com/provenzanodj/" aria-label="Mixcloud"><img src="icons/mixcloud.svg" alt="Mixcloud"></a>
+    <a href="https://open.spotify.com/intl-it/artist/0X31zioYkeZFA3GBQR937K" aria-label="Spotify"><img src="icons/spotify.svg" alt="Spotify"></a>
+    <a href="https://music.apple.com/it/artist/provenzano/278152767" aria-label="Apple Music"><img src="icons/applemusic.svg" alt="Apple Music"></a>
+    <a href="https://www.beatport.com/it/artist/provenzano/43592" aria-label="Beatport"><img src="icons/beatport.svg" alt="Beatport"></a>
+    <a href="https://soundcloud.com/provenzano_official" aria-label="SoundCloud"><img src="icons/soundcloud.svg" alt="SoundCloud"></a>
+    <a href="https://www.youtube.com/@provenzanodj_official" aria-label="YouTube"><img src="icons/youtube.svg" alt="YouTube"></a>
+    <a href="https://www.tiktok.com/@provenzanodj_official" aria-label="TikTok"><img src="icons/tiktok.svg" alt="TikTok"></a>
+    <a href="https://www.facebook.com/provenzanodj" aria-label="Facebook"><img src="icons/facebook.svg" alt="Facebook"></a>
+  </nav>
+</main>
+
+<footer>&copy; 2026 Provenzano Dj</footer>
+
+</body>
+</html>
