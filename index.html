@@ -125,13 +125,19 @@ a{color:inherit;text-decoration:none}
 
 footer{
   padding:20px 24px 26px;
-  text-align:center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:14px;
   font-family:Arial,sans-serif;
   font-size:9px;
   letter-spacing:.2em;
   text-transform:uppercase;
   color:rgba(255,255,255,.3);
 }
+.stats-link{display:block;line-height:0;opacity:.3;transition:opacity .15s}
+.stats-link:hover{opacity:1}
+.stats-link svg{width:13px;height:13px}
 </style>
 </head>
 <body>
@@ -162,7 +168,16 @@ footer{
   </nav>
 </main>
 
-<footer>&copy; 2026 Provenzano Dj</footer>
+<footer>
+  <span>&copy; 2026 Provenzano Dj</span>
+  <a class="stats-link" href="/stats/" aria-label="Stats">
+    <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="#fff">
+      <rect x="1" y="9" width="3.2" height="6" rx="1"/>
+      <rect x="6.4" y="5" width="3.2" height="10" rx="1"/>
+      <rect x="11.8" y="1" width="3.2" height="14" rx="1" fill="#FF3131"/>
+    </svg>
+  </a>
+</footer>
 
 </body>
 </html>
