@@ -109,6 +109,17 @@ a{color:inherit;text-decoration:none}
   padding-bottom:3px;
 }
 .booking .mail:hover{color:var(--bianco);border-color:var(--bianco)}
+.copiato{
+  margin-top:10px;
+  font-family:Arial,sans-serif;
+  font-size:11px;
+  letter-spacing:.18em;
+  text-transform:uppercase;
+  color:rgba(255,255,255,.55);
+  opacity:0;
+  transition:opacity .25s;
+}
+.copiato.si{opacity:1}
 
 /* social */
 .social{
@@ -152,7 +163,8 @@ footer{
 
   <section class="booking">
     <p class="domanda">Vuoi una data? Scrivimi<span class="punto">.</span></p>
-    <a class="mail" href="mailto:booking@provenzanodj.com">booking@provenzanodj.com</a>
+    <a class="mail" href="mailto:booking@provenzanodj.com" id="mail">booking@provenzanodj.com</a>
+    <div class="copiato" id="copiato">copiato negli appunti ✓</div>
   </section>
 
   <nav class="social" aria-label="Canali social">
@@ -167,6 +179,30 @@ footer{
     <a href="https://www.facebook.com/provenzanodj" aria-label="Facebook"><img src="icons/facebook.svg" alt="Facebook"></a>
   </nav>
 </main>
+
+<script>
+// Il mailto sul desktop spesso apre il popup "scegli un'app" invece della
+// posta: il click copia l'indirizzo negli appunti e lo dice. Il mailto resta
+// nell'href per chi ci arriva senza JavaScript o col client configurato
+// (tenendo premuto / tasto destro).
+document.getElementById('mail').addEventListener('click', function (ev) {
+  ev.preventDefault();
+  var mail = 'booking@provenzanodj.com';
+  var conferma = function () {
+    var c = document.getElementById('copiato');
+    c.classList.add('si');
+    setTimeout(function () { c.classList.remove('si'); }, 2200);
+  };
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(mail).then(conferma);
+  } else {
+    var t = document.createElement('textarea');
+    t.value = mail; document.body.appendChild(t);
+    t.select(); document.execCommand('copy'); t.remove();
+    conferma();
+  }
+});
+</script>
 
 <footer>
   <span>&copy; 2026 Provenzano Dj</span>
