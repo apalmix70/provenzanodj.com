@@ -94,6 +94,8 @@ a{color:inherit;text-decoration:none}
   margin-top:clamp(44px,9vh,88px);
   text-transform:uppercase;
 }
+.booking .voce{margin-top:26px}
+.booking .voce:first-child{margin-top:0}
 .booking .domanda{
   font-size:clamp(14px,2.2vw,19px);
   letter-spacing:.08em;
@@ -101,7 +103,7 @@ a{color:inherit;text-decoration:none}
 .booking .domanda .punto{color:var(--rosso)}
 .booking .mail{
   display:inline-block;
-  margin-top:12px;
+  margin-top:8px;
   font-size:clamp(12px,1.8vw,14px);
   letter-spacing:.14em;
   color:var(--rosso);
@@ -162,8 +164,18 @@ footer{
   </section>
 
   <section class="booking">
-    <p class="domanda">Vuoi una data? Scrivimi<span class="punto">.</span></p>
-    <a class="mail" href="mailto:booking@provenzanodj.com" id="mail">booking@provenzanodj.com</a>
+    <div class="voce">
+      <p class="domanda">Vuoi una data? Scrivimi<span class="punto">.</span></p>
+      <a class="mail" href="mailto:booking@provenzanodj.com">booking@provenzanodj.com</a>
+    </div>
+    <div class="voce">
+      <p class="domanda">Vuoi un remix? Scrivimi<span class="punto">.</span></p>
+      <a class="mail" href="mailto:remix@provenzanodj.com">remix@provenzanodj.com</a>
+    </div>
+    <div class="voce">
+      <p class="domanda">Vuoi altro? Scrivimi<span class="punto">.</span></p>
+      <a class="mail" href="mailto:info@provenzanodj.com">info@provenzanodj.com</a>
+    </div>
     <div class="copiato" id="copiato">copiato negli appunti ✓</div>
   </section>
 
@@ -185,22 +197,25 @@ footer{
 // posta: il click copia l'indirizzo negli appunti e lo dice. Il mailto resta
 // nell'href per chi ci arriva senza JavaScript o col client configurato
 // (tenendo premuto / tasto destro).
-document.getElementById('mail').addEventListener('click', function (ev) {
-  ev.preventDefault();
-  var mail = 'booking@provenzanodj.com';
-  var conferma = function () {
-    var c = document.getElementById('copiato');
-    c.classList.add('si');
-    setTimeout(function () { c.classList.remove('si'); }, 2200);
-  };
-  if (navigator.clipboard && navigator.clipboard.writeText) {
-    navigator.clipboard.writeText(mail).then(conferma);
-  } else {
-    var t = document.createElement('textarea');
-    t.value = mail; document.body.appendChild(t);
-    t.select(); document.execCommand('copy'); t.remove();
-    conferma();
-  }
+document.querySelectorAll('.mail').forEach(function (link) {
+  link.addEventListener('click', function (ev) {
+    ev.preventDefault();
+    var mail = link.textContent.trim();
+    var conferma = function () {
+      var c = document.getElementById('copiato');
+      c.textContent = mail + ' — copiato negli appunti ✓';
+      c.classList.add('si');
+      setTimeout(function () { c.classList.remove('si'); }, 2200);
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(mail).then(conferma);
+    } else {
+      var t = document.createElement('textarea');
+      t.value = mail; document.body.appendChild(t);
+      t.select(); document.execCommand('copy'); t.remove();
+      conferma();
+    }
+  });
 });
 </script>
 
