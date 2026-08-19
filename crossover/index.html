@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crossover — l'archivio</title>
+<meta name="description" content="Tutti i dischi passati a Crossover, il New Music Friday di Provenzano Dj: puntata per puntata dal 2019. Cerca per artista, titolo o etichetta.">
+<meta property="og:title" content="Crossover — l'archivio">
+<meta property="og:description" content="Tutti i dischi passati a Crossover dal 2019, cercabili per artista, titolo o etichetta.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.provenzanodj.com/crossover/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23000'/%3E%3Ccircle cx='32' cy='38' r='14' fill='%23FF3131'/%3E%3C/svg%3E">
+<style>
+@font-face{font-family:'Anton';src:url('../fonts/Anton-Regular.ttf') format('truetype');font-display:swap}
+@font-face{font-family:'Poppins EB';src:url('../fonts/Poppins-ExtraBold.ttf') format('truetype');font-display:swap}
+
+:root{
+  --nero:#000;
+  --rosso:#FF3131;
+  --bianco:#fff;
+  --grigio:rgba(255,255,255,.55);
+  --debole:rgba(255,255,255,.35);
+  --riga:rgba(255,255,255,.10);
+  --pannello:#0b0b0b;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  background:var(--nero);color:var(--bianco);
+  font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
+  min-height:100svh;display:flex;flex-direction:column;
+}
+a{color:inherit;text-decoration:none}
+.contenitore{width:100%;max-width:1080px;margin:0 auto;padding:0 20px}
+
+/* ---------------------------------------------------------------- testata */
+header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;
+  background:rgba(0,0,0,.92);backdrop-filter:blur(10px)}
+.testata{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 0}
+.logo{font-family:'Poppins EB',Arial,sans-serif;font-size:19px;letter-spacing:-.04em;line-height:1}
+.logo .punto{color:var(--rosso)}
+.menu{display:flex;gap:18px;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--grigio)}
+.menu a.qui{color:var(--bianco)}
+.menu a:hover{color:var(--bianco)}
+
+/* ---------------------------------------------------------------- cartello */
+.cartello{padding:34px 0 22px}
+.cartello h1{font-family:'Anton',Arial,sans-serif;font-weight:400;text-transform:uppercase;
+  font-size:clamp(30px,6vw,54px);letter-spacing:.03em;line-height:1}
+.cartello h1 .punto{color:var(--rosso)}
+.cartello .sotto{margin-top:12px;color:var(--grigio);font-size:14px;line-height:1.6;max-width:60ch}
+.cartello .sotto b{color:var(--bianco);font-weight:600}
+/* l'ascolto sta tutto qui: sul singolo disco non c'e' nessun tasto play */
+.cartello .sotto a.playlist{color:var(--bianco);border-bottom:1px solid var(--rosso);
+  padding-bottom:1px}
+.cartello .sotto a.playlist:hover{color:var(--rosso)}
+
+/* ---------------------------------------------------------------- ricerca */
+.pannello{position:sticky;top:57px;z-index:15;background:var(--nero);
+  padding:10px 0 14px;border-bottom:1px solid var(--riga)}
+.cerca{position:relative}
+.cerca input{
+  width:100%;background:var(--pannello);color:var(--bianco);
+  border:1px solid #262626;border-radius:10px;
+  padding:14px 44px 14px 44px;font-size:16px;font-family:inherit;outline:none;
+}
+.cerca input:focus{border-color:var(--rosso)}
+.cerca .lente{position:absolute;left:15px;top:50%;transform:translateY(-50%);
+  color:var(--debole);font-size:15px;pointer-events:none}
+.cerca .pulisci{position:absolute;right:8px;top:50%;transform:translateY(-50%);
+  background:none;border:0;color:var(--debole);font-size:20px;cursor:pointer;
+  padding:6px 10px;line-height:1;display:none}
+.cerca .pulisci.si{display:block}
+
+.filtri{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;align-items:center}
+select,.bottone{
+  background:var(--pannello);color:var(--bianco);border:1px solid #262626;
+  border-radius:999px;padding:8px 14px;font-size:12.5px;font-family:inherit;
+  cursor:pointer;outline:none;letter-spacing:.02em;
+}
+select:focus,.bottone:focus-visible{border-color:var(--rosso)}
+.bottone:hover{border-color:#3d3d3d}
+.attivo{background:#1a0606;border-color:var(--rosso);color:var(--bianco)}
+.conteggio{margin-left:auto;font-size:12px;color:var(--grigio);letter-spacing:.04em;
+  white-space:nowrap}
+.conteggio b{color:var(--bianco);font-variant-numeric:tabular-nums}
+
+/* ---------------------------------------------------------------- elenco */
+.elenco{padding:6px 0 40px}
+.disco{display:flex;gap:14px;align-items:center;padding:11px 0;border-bottom:1px solid var(--riga)}
+.copertina{width:54px;height:54px;flex:0 0 54px;border-radius:5px;background:#141414;
+  object-fit:cover;display:block}
+.copertina.vuota{display:flex;align-items:center;justify-content:center;
+  color:#2f2f2f;font-size:19px}
+.testo{min-width:0;flex:1}
+.titolo{font-size:15px;font-weight:600;line-height:1.25;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.artisti{font-size:13.5px;color:var(--grigio);margin-top:2px;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.artisti button{background:none;border:0;color:inherit;font:inherit;cursor:pointer;padding:0}
+.artisti button:hover{color:var(--bianco);text-decoration:underline}
+.tecnico{color:var(--debole);font-variant-numeric:tabular-nums}
+.meta{margin-top:5px;display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.tag{font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;
+  border:1px solid #242424;border-radius:999px;padding:3px 9px;color:var(--grigio);
+  background:none;font-family:inherit;cursor:pointer;white-space:nowrap}
+.tag:hover{border-color:#3d3d3d;color:var(--bianco)}
+.tag.puntata{color:var(--bianco);border-color:#333}
+.tag.puntata b{color:var(--rosso);font-weight:400}
+.tag.etichetta{max-width:230px;overflow:hidden;text-overflow:ellipsis}
+.tag.muto{cursor:default;border-style:dashed;color:var(--debole)}
+.tag.muto:hover{border-color:#242424;color:var(--debole)}
+
+.altro{display:block;width:100%;margin:26px 0;padding:14px;text-align:center;
+  background:var(--pannello);border:1px solid #262626;border-radius:10px;
+  color:var(--bianco);font-family:inherit;font-size:13px;letter-spacing:.1em;
+  text-transform:uppercase;cursor:pointer}
+.altro:hover{border-color:var(--rosso)}
+.vuoto{padding:60px 0;text-align:center;color:var(--grigio);font-size:14px;line-height:1.7}
+.vuoto b{color:var(--bianco)}
+
+footer{margin-top:auto;border-top:1px solid var(--riga);padding:20px 0 28px;
+  font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--debole);
+  display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+footer a:hover{color:var(--bianco)}
+
+@media (max-width:560px){
+  .pannello{top:53px}
+  .conteggio{margin-left:0;width:100%;order:9}
+  .copertina{width:46px;height:46px;flex-basis:46px}
+  .titolo{font-size:14px}
+  .tag.etichetta{max-width:170px}
+}
+
+@media (max-width:430px){
+  /* il logo porta gia' alla home: sul telefono la voce di menu e' solo ingombro */
+  .menu a[href="/"]{display:none}
+  .menu{gap:13px;font-size:10px;letter-spacing:.12em}
+  .testata{gap:10px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="contenitore testata">
+    <a class="logo" href="/">provenzano<span class="punto">.</span></a>
+    <nav class="menu">
+      <a class="qui" href="/crossover/">Archivio</a>
+      <a href="/crossover/numeri/">I numeri</a>
+      <a href="/">Home</a>
+    </nav>
+  </div>
+</header>
+
+<main class="contenitore">
+
+  <div class="cartello">
+    <h1>Crossover<span class="punto">.</span> l'archivio</h1>
+    <p class="sotto">Ogni disco passato in <b>New Music Friday</b> dalla prima puntata a oggi.
+      Cerca un artista, un titolo, un'etichetta — o il numero di una puntata.
+      Per ascoltarli c'è la <a class="playlist"
+      href="https://open.spotify.com/playlist/2B6hCFilLMfR00cdb81Tqp" target="_blank"
+      rel="noopener">playlist su Spotify</a>, aggiornata ogni venerdì.</p>
+  </div>
+
+  <div class="pannello">
+    <div class="cerca">
+      <span class="lente">⌕</span>
+      <input id="q" type="search" autocomplete="off" spellcheck="false"
+             placeholder="Cerca artista, titolo, etichetta, puntata…" aria-label="Cerca">
+      <button class="pulisci" id="pulisci" aria-label="Pulisci">×</button>
+    </div>
+    <div class="filtri">
+      <select id="anno" aria-label="Anno"><option value="">Tutti gli anni</option></select>
+      <select id="ordine" aria-label="Ordina">
+        <option value="recenti">Dai più recenti</option>
+        <option value="suonati">Più volte in puntata</option>
+        <option value="titolo">Titolo A→Z</option>
+        <option value="artista">Artista A→Z</option>
+      </select>
+      <button class="bottone" id="azzera" hidden>Azzera filtri</button>
+      <span class="conteggio" id="conteggio">carico…</span>
+    </div>
+  </div>
+
+  <div class="elenco" id="elenco"></div>
+  <button class="altro" id="altro" hidden>Mostra altri</button>
+
+</main>
+
+<footer class="contenitore">
+  <span>&copy; 2026 Provenzano Dj</span>
+  <span id="aggiornato"></span>
+</footer>
+
+<script>
+(function () {
+  'use strict';
+
+  var PASSO = 120;          // quanti dischi si disegnano per volta
+  var dati = null, indice = [], risultati = [], mostrati = 0;
+
+  var $q = document.getElementById('q');
+  var $anno = document.getElementById('anno');
+  var $ordine = document.getElementById('ordine');
+  var $elenco = document.getElementById('elenco');
+  var $altro = document.getElementById('altro');
+  var $conteggio = document.getElementById('conteggio');
+  var $azzera = document.getElementById('azzera');
+  var $pulisci = document.getElementById('pulisci');
+
+  // Confronto senza accenti e senza punteggiatura: "Sérgio Mendes" si trova
+  // scrivendo "sergio mendes", e "R-CHY" scrivendo "rchy".
+  function norm(s) {
+    return (s || '').toLowerCase().normalize('NFD')
+      .replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
+  }
+
+  // la copertina sta nel JSON come lettera del servizio + id: qui si rimonta
+  function indirizzoCopertina(compatta) {
+    var pezzi = dati.copertine[compatta[0]];
+    return pezzi ? pezzi[0] + compatta.slice(1) + pezzi[1] : '';
+  }
+
+  function annoDi(puntata) { var d = dati.data[puntata]; return d ? d.slice(0, 4) : null; }
+
+  function prepara(pacchetto) {
+    dati = pacchetto;
+    dati.data = {};
+    pacchetto.puntate.forEach(function (p) { dati.data[p[0]] = p[1]; });
+
+    // un solo testo normalizzato per disco: e' su questo che si cerca
+    indice = pacchetto.brani.map(function (b) {
+      var artisti = b.a.map(function (i) { return pacchetto.artisti[i]; }).join(' ');
+      var etichetta = (b.e === undefined) ? '' : pacchetto.etichette[b.e];
+      var puntate = b.p.map(function (n) { return '#' + n; }).join(' ');
+      return {
+        b: b,
+        cerca: norm(b.t + ' ' + (b.ta || '') + ' ' + artisti + ' ' + etichetta +
+                    '') + ' ' + puntate,
+        nomiArtisti: artisti,
+        anni: b.p.map(annoDi)
+      };
+    });
+
+    var anni = {};
+    pacchetto.puntate.forEach(function (p) { if (p[1]) anni[p[1].slice(0, 4)] = 1; });
+    Object.keys(anni).sort().reverse().forEach(function (a) {
+      var o = document.createElement('option'); o.value = a; o.textContent = a;
+      $anno.appendChild(o);
+    });
+
+    document.getElementById('aggiornato').textContent =
+      'Aggiornato al ' + pacchetto.aggiornato.split('-').reverse().join('/');
+    leggiIndirizzo();
+    filtra();
+  }
+
+  function filtra() {
+    var testo = norm($q.value);
+    // "#331" e "331" cercano la puntata; il resto e' testo libero
+    var puntataCercata = $q.value.trim().match(/^#?(\d{1,3})$/);
+    var parole = testo ? testo.split(' ').filter(Boolean) : [];
+    var anno = $anno.value;
+
+    risultati = indice.filter(function (v) {
+      if (anno && v.anni.indexOf(anno) === -1) return false;
+      if (puntataCercata) {
+        if (v.b.p.indexOf(parseInt(puntataCercata[1], 10)) !== -1) return true;
+      }
+      for (var i = 0; i < parole.length; i++) {
+        if (v.cerca.indexOf(parole[i]) === -1) return false;
+      }
+      return true;
+    });
+
+    var ordine = $ordine.value;
+    if (ordine === 'suonati') {
+      risultati.sort(function (x, y) {
+        return y.b.p.length - x.b.p.length || Math.max.apply(null, y.b.p) - Math.max.apply(null, x.b.p);
+      });
+    } else if (ordine === 'titolo') {
+      risultati.sort(function (x, y) { return x.b.t.localeCompare(y.b.t, 'it'); });
+    } else if (ordine === 'artista') {
+      risultati.sort(function (x, y) { return x.nomiArtisti.localeCompare(y.nomiArtisti, 'it'); });
+    } else {
+      // dentro la stessa puntata conta l'ordine di scaletta: la top 6 sta in cima
+      risultati.sort(function (x, y) {
+        return Math.max.apply(null, y.b.p) - Math.max.apply(null, x.b.p)
+            || (x.b.o || 99) - (y.b.o || 99);
+      });
+    }
+
+    var filtriAttivi = !!($q.value || anno);
+    $azzera.hidden = !filtriAttivi;
+    $pulisci.classList.toggle('si', !!$q.value);
+    scriviIndirizzo();
+    disegna(true);
+  }
+
+  function disegna(daCapo) {
+    if (daCapo) { $elenco.innerHTML = ''; mostrati = 0; }
+
+    if (!risultati.length) {
+      $elenco.innerHTML = '<div class="vuoto">Nessun disco trovato.<br>' +
+        'Prova con meno parole, o col solo cognome dell\'artista.</div>';
+      $altro.hidden = true;
+      aggiornaConteggio();
+      return;
+    }
+
+    var fetta = risultati.slice(mostrati, mostrati + PASSO);
+    var pezzo = document.createDocumentFragment();
+    fetta.forEach(function (v) { pezzo.appendChild(riga(v)); });
+    $elenco.appendChild(pezzo);
+    mostrati += fetta.length;
+
+    $altro.hidden = mostrati >= risultati.length;
+    $altro.textContent = 'Mostra altri ' +
+      Math.min(PASSO, risultati.length - mostrati) + ' dischi';
+    aggiornaConteggio();
+  }
+
+  function aggiornaConteggio() {
+    var dischi = risultati.length;
+    var volte = risultati.reduce(function (s, v) { return s + v.b.p.length; }, 0);
+    $conteggio.innerHTML = '<b>' + dischi.toLocaleString('it') + '</b> dischi · <b>' +
+      volte.toLocaleString('it') + '</b> passaggi in puntata';
+  }
+
+  function elemento(tag, classe, testo) {
+    var e = document.createElement(tag);
+    if (classe) e.className = classe;
+    if (testo !== undefined) e.textContent = testo;
+    return e;
+  }
+
+  function riga(v) {
+    var b = v.b;
+    var div = elemento('div', 'disco');
+
+    if (b.c) {
+      var img = document.createElement('img');
+      img.className = 'copertina';
+      img.loading = 'lazy';
+      img.alt = '';
+      img.src = indirizzoCopertina(b.c);
+      div.appendChild(img);
+    } else {
+      div.appendChild(elemento('div', 'copertina vuota', '♪'));
+    }
+
+    var testo = elemento('div', 'testo');
+    testo.appendChild(elemento('div', 'titolo', b.t));
+
+    var artisti = elemento('div', 'artisti');
+    // la "x" fra due nomi segnala la collaborazione: dove l'ha scritta lui, resta
+    var unione = b.j === 'x' ? ' x ' : ', ';
+    b.a.forEach(function (i, k) {
+      if (k) artisti.appendChild(document.createTextNode(unione));
+      var nome = dati.artisti[i];
+      var bottone = elemento('button', null, nome);
+      bottone.title = 'Cerca ' + nome;
+      bottone.addEventListener('click', function () { $q.value = nome; filtra(); });
+      artisti.appendChild(bottone);
+    });
+    if (!b.a.length) artisti.textContent = '—';
+    if (b.bpm || b.k) {
+      var tecnico = ' · ' + [b.bpm ? b.bpm + ' BPM' : null, b.k].filter(Boolean).join(' · ');
+      artisti.appendChild(elemento('span', 'tecnico', tecnico));
+    }
+    testo.appendChild(artisti);
+
+    var meta = elemento('div', 'meta');
+    b.p.slice().reverse().forEach(function (n) {
+      var t = elemento('button', 'tag puntata');
+      t.innerHTML = 'Puntata <b>' + n + '</b>';
+      var d = dati.data[n];
+      t.title = d ? 'In onda il ' + d.split('-').reverse().join('/') : 'Puntata ' + n;
+      t.addEventListener('click', function () { $q.value = '#' + n; $anno.value = ''; filtra(); });
+      meta.appendChild(t);
+    });
+    if (b.e !== undefined) {
+      var nomeEtichetta = dati.etichette[b.e];
+      var et = elemento('button', 'tag etichetta', nomeEtichetta);
+      et.title = 'Cerca ' + nomeEtichetta;
+      et.addEventListener('click', function () { $q.value = nomeEtichetta; filtra(); });
+      meta.appendChild(et);
+    } else {
+      meta.appendChild(elemento('span', 'tag etichetta muto', 'etichetta ignota'));
+    }
+    testo.appendChild(meta);
+    div.appendChild(testo);
+
+    // ⚠️ Niente tasto d'ascolto sul disco — deciso da Amerigo il 19/08/2026, "per il
+    // momento". L'id Deezer resta nei dati (campo `z`): per rimetterlo basta un <a>
+    // verso https://www.deezer.com/track/ + b.z, non serve rigenerare niente.
+    return div;
+  }
+
+  // l'indirizzo tiene la ricerca: un risultato si puo' mandare per messaggio
+  function scriviIndirizzo() {
+    var p = new URLSearchParams();
+    if ($q.value) p.set('cerca', $q.value);
+    if ($anno.value) p.set('anno', $anno.value);
+    if ($ordine.value !== 'recenti') p.set('ordine', $ordine.value);
+    var coda = p.toString();
+    history.replaceState(null, '', coda ? '?' + coda : location.pathname);
+  }
+
+  function leggiIndirizzo() {
+    var p = new URLSearchParams(location.search);
+    if (p.get('cerca')) $q.value = p.get('cerca');
+    if (p.get('anno')) $anno.value = p.get('anno');
+    if (p.get('ordine')) $ordine.value = p.get('ordine');
+  }
+
+  var attesa;
+  $q.addEventListener('input', function () {
+    clearTimeout(attesa);
+    attesa = setTimeout(filtra, 120);
+  });
+  $anno.addEventListener('change', filtra);
+  $ordine.addEventListener('change', filtra);
+  $altro.addEventListener('click', function () { disegna(false); });
+  $azzera.addEventListener('click', function () {
+    $q.value = ''; $anno.value = ''; $ordine.value = 'recenti'; filtra();
+  });
+  $pulisci.addEventListener('click', function () { $q.value = ''; $q.focus(); filtra(); });
+
+  fetch('dati/crossover.json')
+    .then(function (r) {
+      if (!r.ok) throw new Error(r.status);
+      return r.json();
+    })
+    .then(prepara)
+    .catch(function (errore) {
+      // il motivo va detto: un catch muto nasconde i bug invece di gestirli
+      if (window.console) console.error('Crossover:', errore);
+      $conteggio.textContent = '';
+      $elenco.innerHTML = '<div class="vuoto">Non riesco a caricare l\'archivio.<br>' +
+        'Riprova fra un momento.</div>';
+    });
+})();
+</script>
+</body>
+</html>

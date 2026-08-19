@@ -9,6 +9,11 @@ Brief, decisioni e archivio del progetto: `02-PROVENZANO-DJ/sito/` nel workspace
 (`apalmix70/provenzano-workspace`). Questo repo contiene **solo** ciò che va online.
 
 - `index.html` — la pagina, senza build: si modifica e si pusha
+- `crossover/` — l'archivio dei dischi passati in Crossover: `index.html` è la pagina di
+  ricerca, `numeri/index.html` le statistiche, `dati/` i due JSON che le alimentano.
+  **Non si modificano a mano**: sono generati dal workspace privato
+  (`02-PROVENZANO-DJ/instagram/crossover/database/`, comando `python aggiorna.py`),
+  che ogni settimana ci riversa la puntata nuova
 - `fonts/` — Anton e Poppins ExtraBold (OFL)
 - `icons/` — icone social da [simple-icons](https://simpleicons.org) (CC0)
 - `CNAME` — arriverà quando il dominio Aruba viene puntato su GitHub Pages

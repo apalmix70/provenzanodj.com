@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crossover — i numeri</title>
+<meta name="description" content="I numeri di Crossover: artisti ed etichette più presenti, dischi più suonati, anno per anno dal 2019.">
+<meta property="og:title" content="Crossover — i numeri">
+<meta property="og:description" content="Artisti ed etichette più presenti, dischi più suonati, anno per anno dal 2019.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.provenzanodj.com/crossover/numeri/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23000'/%3E%3Ccircle cx='32' cy='38' r='14' fill='%23FF3131'/%3E%3C/svg%3E">
+<style>
+@font-face{font-family:'Anton';src:url('../../fonts/Anton-Regular.ttf') format('truetype');font-display:swap}
+@font-face{font-family:'Poppins EB';src:url('../../fonts/Poppins-ExtraBold.ttf') format('truetype');font-display:swap}
+
+:root{
+  --nero:#000;--rosso:#FF3131;--bianco:#fff;
+  --grigio:rgba(255,255,255,.55);--debole:rgba(255,255,255,.35);
+  --riga:rgba(255,255,255,.10);--pannello:#0b0b0b;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--nero);color:var(--bianco);
+  font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
+  min-height:100svh;display:flex;flex-direction:column}
+a{color:inherit;text-decoration:none}
+.contenitore{width:100%;max-width:1080px;margin:0 auto;padding:0 20px}
+
+header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;
+  background:rgba(0,0,0,.92);backdrop-filter:blur(10px)}
+.testata{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 0}
+.logo{font-family:'Poppins EB',Arial,sans-serif;font-size:19px;letter-spacing:-.04em;line-height:1}
+.logo .punto{color:var(--rosso)}
+.menu{display:flex;gap:18px;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--grigio)}
+.menu a.qui{color:var(--bianco)}
+.menu a:hover{color:var(--bianco)}
+
+.cartello{padding:34px 0 8px}
+.cartello h1{font-family:'Anton',Arial,sans-serif;font-weight:400;text-transform:uppercase;
+  font-size:clamp(30px,6vw,54px);letter-spacing:.03em;line-height:1}
+.cartello h1 .punto{color:var(--rosso)}
+.cartello .sotto{margin-top:12px;color:var(--grigio);font-size:14px;line-height:1.6;max-width:62ch}
+
+/* -------------------------------------------------------- numeri grossi */
+.totali{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+  gap:1px;background:var(--riga);border:1px solid var(--riga);border-radius:12px;
+  overflow:hidden;margin:26px 0 10px}
+.totale{background:var(--nero);padding:20px 18px}
+.totale .valore{font-family:'Anton',Arial,sans-serif;font-size:clamp(28px,5vw,42px);
+  line-height:1;font-variant-numeric:tabular-nums}
+.totale .valore.rosso{color:var(--rosso)}
+.totale .voce{margin-top:8px;font-size:10.5px;letter-spacing:.15em;text-transform:uppercase;
+  color:var(--grigio)}
+
+section{padding:38px 0 0}
+h2{font-family:'Anton',Arial,sans-serif;font-weight:400;text-transform:uppercase;
+  font-size:clamp(19px,3vw,26px);letter-spacing:.05em}
+h2 .punto{color:var(--rosso)}
+.spiega{margin-top:7px;color:var(--debole);font-size:12.5px;line-height:1.6;max-width:64ch}
+
+/* -------------------------------------------------------- classifiche */
+.classifica{margin-top:18px;display:grid;gap:1px;background:var(--riga);
+  border:1px solid var(--riga);border-radius:12px;overflow:hidden}
+.voce{background:var(--nero);display:flex;align-items:center;gap:14px;
+  padding:12px 16px;position:relative}
+.voce .barra{position:absolute;left:0;top:0;bottom:0;background:rgba(255,49,49,.10);
+  z-index:0;transition:width .5s ease}
+.voce > *{position:relative;z-index:1}
+.voce .posto{font-family:'Anton',Arial,sans-serif;font-size:17px;color:var(--debole);
+  width:26px;flex:0 0 26px;font-variant-numeric:tabular-nums}
+.voce.podio .posto{color:var(--rosso)}
+.voce .nome{flex:1;min-width:0;font-size:15px;font-weight:600;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.voce .nome small{display:block;font-weight:400;font-size:12px;color:var(--grigio);
+  margin-top:2px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.voce .quanto{font-size:13px;color:var(--grigio);white-space:nowrap;
+  font-variant-numeric:tabular-nums;text-align:right}
+.voce .quanto b{color:var(--bianco);font-size:16px;font-weight:600}
+.voce a.nome:hover{color:var(--rosso)}
+.voce .cop{width:40px;height:40px;flex:0 0 40px;border-radius:4px;object-fit:cover;background:#141414}
+
+.apri{display:block;width:100%;margin-top:12px;padding:11px;text-align:center;
+  background:var(--pannello);border:1px solid #262626;border-radius:10px;color:var(--bianco);
+  font-family:inherit;font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;cursor:pointer}
+.apri:hover{border-color:var(--rosso)}
+
+/* -------------------------------------------------------- anni */
+.tabella{margin-top:18px;overflow-x:auto;border:1px solid var(--riga);border-radius:12px}
+table{border-collapse:collapse;width:100%;min-width:520px;font-size:13.5px}
+th,td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--riga);white-space:nowrap}
+th{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--grigio);font-weight:400}
+tbody tr:last-child td{border-bottom:0}
+tbody tr:hover{background:#080808}
+td.num{font-variant-numeric:tabular-nums}
+td.anno{font-family:'Anton',Arial,sans-serif;font-size:16px;letter-spacing:.04em}
+td.grande{color:var(--grigio)}
+td.grande b{color:var(--bianco);font-weight:600}
+
+.nota{margin-top:16px;color:var(--debole);font-size:12px;line-height:1.7;
+  border-left:2px solid #1e1e1e;padding-left:14px;max-width:70ch}
+.nota b{color:var(--grigio)}
+
+footer{margin-top:auto;border-top:1px solid var(--riga);padding:22px 0 30px;
+  font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--debole);
+  display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+footer a:hover{color:var(--bianco)}
+.carico{padding:60px 0;text-align:center;color:var(--grigio);font-size:14px}
+
+@media (max-width:560px){
+  .voce{padding:11px 13px;gap:11px}
+  .voce .nome{font-size:14px}
+}
+
+@media (max-width:430px){
+  /* il logo porta gia' alla home: sul telefono la voce di menu e' solo ingombro */
+  .menu a[href="/"]{display:none}
+  .menu{gap:13px;font-size:10px;letter-spacing:.12em}
+  .testata{gap:10px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="contenitore testata">
+    <a class="logo" href="/">provenzano<span class="punto">.</span></a>
+    <nav class="menu">
+      <a href="/crossover/">Archivio</a>
+      <a class="qui" href="/crossover/numeri/">I numeri</a>
+      <a href="/">Home</a>
+    </nav>
+  </div>
+</header>
+
+<main class="contenitore">
+
+  <div class="cartello">
+    <h1>Crossover<span class="punto">.</span> i numeri</h1>
+    <p class="sotto">Cosa dice l'archivio quando lo si guarda tutto insieme: chi torna
+      più spesso, quali etichette pesano, come cambia la selezione anno dopo anno.</p>
+  </div>
+
+  <div id="pagina"><div class="carico">carico i numeri…</div></div>
+
+</main>
+
+<footer class="contenitore">
+  <span>&copy; 2026 Provenzano Dj</span>
+  <span id="aggiornato"></span>
+</footer>
+
+<script>
+(function () {
+  'use strict';
+
+  var PRIMI = 5;   // quanti se ne vedono prima di "mostra tutti"
+
+  function n(x) { return (x || 0).toLocaleString('it'); }
+  function el(tag, classe, testo) {
+    var e = document.createElement(tag);
+    if (classe) e.className = classe;
+    if (testo !== undefined) e.textContent = testo;
+    return e;
+  }
+
+  function totali(t) {
+    var blocchi = [
+      ['puntate', t.puntate, true],
+      ['dischi passati in puntata', t.brani_suonati, false],
+      ['dischi diversi', t.brani_unici, false],
+      ['artisti', t.artisti, false],
+      ['etichette', t.etichette, false]
+    ];
+    var griglia = el('div', 'totali');
+    blocchi.forEach(function (b) {
+      var box = el('div', 'totale');
+      box.appendChild(el('div', 'valore' + (b[2] ? ' rosso' : ''), n(b[1])));
+      box.appendChild(el('div', 'voce', b[0]));
+      griglia.appendChild(box);
+    });
+    return griglia;
+  }
+
+  // Una classifica con la barra proporzionale al primo posto, e il resto
+  // nascosto finche' non lo si chiede.
+  function classifica(voci, opzioni) {
+    var contenitore = el('div');
+    var lista = el('div', 'classifica');
+    var massimo = voci.length ? opzioni.valore(voci[0]) : 1;
+
+    voci.forEach(function (v, i) {
+      var riga = el('div', 'voce' + (i < 3 ? ' podio' : ''));
+      if (i >= PRIMI) { riga.style.display = 'none'; riga.dataset.extra = '1'; }
+
+      var barra = el('div', 'barra');
+      barra.style.width = Math.max(2, 100 * opzioni.valore(v) / massimo) + '%';
+      riga.appendChild(barra);
+      riga.appendChild(el('div', 'posto', i + 1));
+
+      if (opzioni.copertina && opzioni.copertina(v)) {
+        var img = document.createElement('img');
+        img.className = 'cop'; img.loading = 'lazy'; img.alt = '';
+        img.src = opzioni.copertina(v);
+        riga.appendChild(img);
+      }
+
+      var nome = document.createElement(opzioni.cerca ? 'a' : 'div');
+      nome.className = 'nome';
+      nome.appendChild(document.createTextNode(opzioni.nome(v)));
+      if (opzioni.sotto && opzioni.sotto(v)) {
+        nome.appendChild(el('small', null, opzioni.sotto(v)));
+      }
+      if (opzioni.cerca) {
+        nome.href = '/crossover/?cerca=' + encodeURIComponent(opzioni.cerca(v));
+        nome.title = 'Vedi i dischi';
+      }
+      riga.appendChild(nome);
+
+      var quanto = el('div', 'quanto');
+      quanto.innerHTML = '<b>' + n(opzioni.valore(v)) + '</b> ' + opzioni.unita(v);
+      riga.appendChild(quanto);
+
+      lista.appendChild(riga);
+    });
+
+    contenitore.appendChild(lista);
+    if (voci.length > PRIMI) {
+      var bottone = el('button', 'apri', 'Mostra tutti e ' + voci.length);
+      bottone.addEventListener('click', function () {
+        var nascosti = lista.querySelectorAll('[data-extra]');
+        var apri = nascosti.length && nascosti[0].style.display === 'none';
+        for (var i = 0; i < nascosti.length; i++) {
+          nascosti[i].style.display = apri ? 'flex' : 'none';
+        }
+        bottone.textContent = apri ? 'Mostra solo i primi ' + PRIMI
+                                   : 'Mostra tutti e ' + voci.length;
+      });
+      contenitore.appendChild(bottone);
+    }
+    return contenitore;
+  }
+
+  function sezione(titolo, spiega, contenuto) {
+    var s = document.createElement('section');
+    var h = el('h2');
+    h.appendChild(document.createTextNode(titolo));
+    h.appendChild(el('span', 'punto', '.'));
+    s.appendChild(h);
+    if (spiega) s.appendChild(el('p', 'spiega', spiega));
+    s.appendChild(contenuto);
+    return s;
+  }
+
+  function tabellaAnni(anni) {
+    var box = el('div', 'tabella');
+    var t = document.createElement('table');
+    t.innerHTML = '<thead><tr><th>Anno</th><th>Puntate</th><th>Dischi</th>' +
+      '<th>Artista dell\'anno</th><th>Etichetta dell\'anno</th></tr></thead>';
+    var corpo = document.createElement('tbody');
+    anni.slice().reverse().forEach(function (a) {
+      var tr = document.createElement('tr');
+      tr.appendChild(el('td', 'anno', a.anno));
+      tr.appendChild(el('td', 'num', n(a.puntate)));
+      tr.appendChild(el('td', 'num', n(a.brani)));
+      var art = el('td', 'grande');
+      art.innerHTML = a.artista ? '<b>' + a.artista + '</b>' : '—';
+      tr.appendChild(art);
+      var et = el('td', 'grande');
+      et.innerHTML = a.etichetta ? '<b>' + a.etichetta + '</b>' : '—';
+      tr.appendChild(et);
+      corpo.appendChild(tr);
+    });
+    t.appendChild(corpo);
+    box.appendChild(t);
+    return box;
+  }
+
+  function disegna(s) {
+    var pagina = document.getElementById('pagina');
+    pagina.innerHTML = '';
+    pagina.appendChild(totali(s.totali));
+
+    pagina.appendChild(sezione('Gli artisti più presenti',
+      'Quante volte un artista è passato in puntata: si contano tutti gli accreditati, ' +
+      'non solo il primo nome. Clicca per vedere i suoi dischi nell\'archivio.',
+      classifica(s.top_artisti, {
+        nome: function (v) { return v.nome; },
+        sotto: function (v) { return v.brani + (v.brani === 1 ? ' disco' : ' dischi') + ' diversi'; },
+        valore: function (v) { return v.presenze; },
+        unita: function (v) { return v.presenze === 1 ? 'volta' : 'volte'; },
+        cerca: function (v) { return v.nome; }
+      })));
+
+    pagina.appendChild(sezione('Le etichette più presenti',
+      'L\'etichetta di ogni disco, presa dai nomi dei file, da Deezer e dal DJ pool. ' +
+      'Le sigle societarie sono unificate: "Armada Music B.V." e "Armada Music" contano ' +
+      'insieme. I mashup restano fuori: non escono su etichetta.',
+      classifica(s.top_etichette, {
+        nome: function (v) { return v.nome; },
+        sotto: function (v) { return v.brani + (v.brani === 1 ? ' disco' : ' dischi') + ' diversi'; },
+        valore: function (v) { return v.presenze; },
+        unita: function (v) { return v.presenze === 1 ? 'volta' : 'volte'; },
+        cerca: function (v) { return v.nome; }
+      })));
+
+    if (s.piu_suonati && s.piu_suonati.length) {
+      pagina.appendChild(sezione('I dischi tornati più volte',
+        'Un disco entra in scaletta una volta sola, di regola. Questi sono le eccezioni: ' +
+        'quelli ripresi in puntate diverse.',
+        classifica(s.piu_suonati, {
+          nome: function (v) { return v.titolo; },
+          sotto: function (v) { return v.artisti.join(', '); },
+          valore: function (v) { return v.volte; },
+          unita: function () { return 'puntate'; },
+          copertina: function (v) { return v.copertina ? indirizzo(v.copertina) : null; },
+          cerca: function (v) { return v.titolo; }
+        })));
+    }
+
+    pagina.appendChild(sezione('Anno per anno',
+      'Quante puntate sono andate in onda e quanti dischi ci sono passati, con il nome ' +
+      'che torna più spesso in quell\'anno.',
+      tabellaAnni(s.anni)));
+
+    var nota = el('div', 'nota');
+    nota.innerHTML = 'L\'archivio copre <b>' + n(s.totali.puntate) + ' puntate</b>, dalla prima del ' +
+      data(s.totali.prima_puntata) + ' a oggi. ' +
+      'Di <b>' + n(s.totali.brani_unici - s.totali.senza_etichetta - (s.totali.mashup || 0)) +
+      ' dischi su ' + n(s.totali.brani_unici) + '</b> si conosce l\'etichetta. ' +
+      (s.totali.mashup ? 'Altri <b>' + n(s.totali.mashup) + '</b> sono mashup, che ' +
+        'un\'etichetta non ce l\'hanno per natura: li montano i DJ per suonarli in serata, ' +
+        'non li stampa nessuno. ' : '') +
+      'I <b>' + n(s.totali.senza_etichetta) + '</b> rimasti sono promo e anteprime mai ' +
+      'pubblicati da nessuna parte — il Crossover li ha passati prima che esistessero in negozio.';
+    pagina.appendChild(nota);
+
+    document.getElementById('aggiornato').textContent = 'Aggiornato al ' + data(s.aggiornato);
+  }
+
+  var copertine = null;
+  function indirizzo(compatta) {
+    if (!copertine || !compatta) return '';
+    var pezzi = copertine[compatta[0]];
+    return pezzi ? pezzi[0] + compatta.slice(1) + pezzi[1] : '';
+  }
+  function data(iso) {
+    return iso ? iso.split('-').reverse().join('/') : '';
+  }
+
+  fetch('../dati/statistiche.json')
+    .then(function (r) {
+      if (!r.ok) throw new Error(r.status);
+      return r.json();
+    })
+    .then(function (s) { copertine = s.copertine; disegna(s); })
+    .catch(function () {
+      document.getElementById('pagina').innerHTML =
+        '<div class="carico">Non riesco a caricare i numeri. Riprova fra un momento.</div>';
+    });
+})();
+</script>
+</body>
+</html>
