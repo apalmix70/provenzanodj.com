@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crossover — le puntate</title>
+<meta name="description" content="Tutte le puntate di Crossover, il New Music Friday di Provenzano Dj: 331 numeri dal 2019 a oggi, anno per anno.">
+<meta property="og:title" content="Crossover — le puntate">
+<meta property="og:description" content="Tutte le puntate dal 2019 a oggi, anno per anno.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.provenzanodj.com/crossover/puntate/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23000'/%3E%3Ccircle cx='32' cy='38' r='14' fill='%23FF3131'/%3E%3C/svg%3E">
+<style>
+@font-face{font-family:'Anton';src:url('../../fonts/Anton-Regular.ttf') format('truetype');font-display:swap}
+@font-face{font-family:'Poppins EB';src:url('../../fonts/Poppins-ExtraBold.ttf') format('truetype');font-display:swap}
+
+:root{
+  --nero:#000;--rosso:#FF3131;--bianco:#fff;
+  --grigio:rgba(255,255,255,.55);--debole:rgba(255,255,255,.35);
+  --riga:rgba(255,255,255,.10);--pannello:#0b0b0b;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--nero);color:var(--bianco);
+  font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
+  min-height:100svh;display:flex;flex-direction:column}
+a{color:inherit;text-decoration:none}
+.contenitore{width:100%;max-width:1080px;margin:0 auto;padding:0 20px}
+
+header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;
+  background:rgba(0,0,0,.92);backdrop-filter:blur(10px)}
+.testata{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 0}
+.logo{font-family:'Poppins EB',Arial,sans-serif;font-size:19px;letter-spacing:-.04em;line-height:1}
+.logo .punto{color:var(--rosso)}
+.menu{display:flex;gap:18px;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--grigio)}
+.menu a.qui{color:var(--bianco)}
+.menu a:hover{color:var(--bianco)}
+
+.cartello{padding:34px 0 22px}
+.cartello h1{font-family:'Anton',Arial,sans-serif;font-weight:400;text-transform:uppercase;
+  font-size:clamp(30px,6vw,54px);letter-spacing:.03em;line-height:1}
+.cartello h1 .punto{color:var(--rosso)}
+.cartello .sotto{margin-top:12px;color:var(--grigio);font-size:14px;line-height:1.6;max-width:64ch}
+.cartello .sotto b{color:var(--bianco);font-weight:600}
+
+/* la legenda dice cosa cambia fra un numero e l'altro, senza farne un discorso */
+.legenda{display:flex;flex-wrap:wrap;gap:16px;margin-top:16px;
+  font-size:12px;color:var(--grigio);align-items:center}
+.legenda span{display:inline-flex;align-items:center;gap:7px}
+.segno{width:26px;height:18px;border:1px solid #242424;border-radius:5px;display:block}
+.segno.pagina{border-color:var(--rosso)}
+
+.anno{padding:26px 0 0}
+.titolo-anno{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;
+  padding-bottom:12px;border-bottom:1px solid var(--riga);margin-bottom:14px}
+.titolo-anno h2{font-family:'Anton',Arial,sans-serif;font-weight:400;
+  font-size:20px;letter-spacing:.06em}
+.titolo-anno span{font-size:12px;color:var(--grigio);letter-spacing:.04em}
+
+/* griglia e non flex: cosi' una riga con un numero solo non si allarga a tutta pagina */
+.numeri{display:grid;grid-template-columns:repeat(auto-fill,minmax(58px,1fr));gap:6px}
+.n{display:inline-flex;align-items:center;justify-content:center;
+  min-width:56px;padding:10px 8px;border:1px solid #242424;border-radius:8px;
+  font-size:13.5px;color:var(--grigio);font-variant-numeric:tabular-nums;
+  transition:border-color .15s,color .15s}
+.n:hover{border-color:#3d3d3d;color:var(--bianco)}
+/* bordo rosso: questa puntata ha una pagina sua, con le copertine */
+.n.pagina{color:var(--bianco);border-color:var(--rosso)}
+.n.pagina:hover{background:#1a0606}
+
+.vuoto{padding:60px 0;text-align:center;color:var(--grigio);font-size:14px;line-height:1.7}
+
+footer{margin-top:auto;border-top:1px solid var(--riga);padding:20px 0 28px;
+  font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--debole);
+  display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+footer a:hover{color:var(--bianco)}
+
+@media (max-width:560px){
+  .numeri{grid-template-columns:repeat(auto-fill,minmax(52px,1fr))}
+  .n{min-width:0;padding:11px 4px}
+}
+@media (max-width:430px){
+  .menu a[href="/"]{display:none}
+  .menu{gap:13px;font-size:10px;letter-spacing:.12em}
+  .testata{gap:10px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="contenitore testata">
+    <a class="logo" href="/">provenzano<span class="punto">.</span></a>
+    <nav class="menu">
+      <a href="/crossover/">Archivio</a>
+      <a class="qui" href="/crossover/puntate/">Puntate</a>
+      <a href="/crossover/numeri/">I numeri</a>
+      <a href="/">Home</a>
+    </nav>
+  </div>
+</header>
+
+<main class="contenitore">
+
+  <div class="cartello">
+    <h1>Crossover<span class="punto">.</span> le puntate</h1>
+    <p class="sotto">Ogni numero da quando è cominciato, anno per anno.
+      Premine uno e vedi <b>i suoi 18 dischi</b>.</p>
+
+    <div class="legenda">
+      <span><i class="segno pagina"></i> ha una pagina sua, con le copertine</span>
+      <span><i class="segno"></i> apre la sua scaletta nell'archivio</span>
+    </div>
+  </div>
+
+  <div id="anni"></div>
+
+</main>
+
+<footer class="contenitore">
+  <span>&copy; 2026 Provenzano Dj</span>
+  <span id="aggiornato"></span>
+</footer>
+
+<script>
+(function () {
+  'use strict';
+
+  var $anni = document.getElementById('anni');
+
+  function elemento(tag, classe, testo) {
+    var e = document.createElement(tag);
+    if (classe) e.className = classe;
+    if (testo !== undefined) e.textContent = testo;
+    return e;
+  }
+
+  function italiana(iso) {
+    return iso ? iso.split('-').reverse().join('/') : null;
+  }
+
+  function disegna(dati) {
+    var conPagina = {};
+    (dati.pagine || []).forEach(function (n) { conPagina[n] = true; });
+
+    // le puntate senza data finiscono in un gruppo a parte: nei primi anni
+    // qualche data non c'e', e non e' un motivo per nasconderle
+    var gruppi = {}, ordine = [];
+    dati.puntate.forEach(function (p) {
+      var anno = p[1] ? p[1].slice(0, 4) : 'senza data';
+      if (!gruppi[anno]) { gruppi[anno] = []; ordine.push(anno); }
+      gruppi[anno].push(p);
+    });
+    ordine.sort(function (a, b) {
+      if (a === 'senza data') return 1;
+      if (b === 'senza data') return -1;
+      return b.localeCompare(a);
+    });
+
+    var pezzo = document.createDocumentFragment();
+    ordine.forEach(function (anno) {
+      var lista = gruppi[anno].slice().sort(function (x, y) { return y[0] - x[0]; });
+
+      var sezione = elemento('section', 'anno');
+      var testa = elemento('div', 'titolo-anno');
+      testa.appendChild(elemento('h2', null, anno));
+      testa.appendChild(elemento('span', null,
+        lista.length + (lista.length === 1 ? ' puntata' : ' puntate')));
+      sezione.appendChild(testa);
+
+      var numeri = elemento('div', 'numeri');
+      lista.forEach(function (p) {
+        var n = p[0];
+        var a = elemento('a', conPagina[n] ? 'n pagina' : 'n', String(n));
+        a.href = conPagina[n] ? '/crossover/' + n + '/'
+                              : '/crossover/?cerca=%23' + n;
+        var quando = italiana(p[1]);
+        a.title = 'Puntata ' + n + (quando ? ' — in onda il ' + quando : '');
+        numeri.appendChild(a);
+      });
+      sezione.appendChild(numeri);
+      pezzo.appendChild(sezione);
+    });
+
+    $anni.innerHTML = '';
+    $anni.appendChild(pezzo);
+    document.getElementById('aggiornato').textContent =
+      'Aggiornato al ' + italiana(dati.aggiornato);
+  }
+
+  fetch('../dati/puntate.json')
+    .then(function (r) {
+      if (!r.ok) throw new Error(r.status);
+      return r.json();
+    })
+    .then(disegna)
+    .catch(function (errore) {
+      // il motivo va detto: un catch muto nasconde i bug invece di gestirli
+      if (window.console) console.error('Crossover:', errore);
+      $anni.innerHTML = '<div class="vuoto">Non riesco a caricare l\'elenco.<br>' +
+        'Riprova fra un momento.</div>';
+    });
+})();
+</script>
+</body>
+</html>
