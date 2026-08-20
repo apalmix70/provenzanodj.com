@@ -72,7 +72,18 @@ header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;
   font-family:'Anton',Arial,sans-serif;font-weight:400;font-size:18px;line-height:1;
   letter-spacing:.02em;font-variant-numeric:tabular-nums;
   text-shadow:0 1px 10px rgba(0,0,0,.7)}
+/* ⚠️ La data al passaggio del mouse c'e', ma **su una targhetta**, non appoggiata
+   alla copertina: scritta nuda cadeva su copertine di ogni colore e non si leggeva
+   (Amerigo, 20/08/2026). Fondo nero pieno, testo bianco, e si legge su qualsiasi
+   disco ci finisca sopra. ⚠️ Sta **in alto**, non in basso: il riquadro e' largo
+   novantasei pixel e la data ci sta tutta, quindi in basso finiva addosso al numero
+   della puntata e si leggeva "30" al posto di "308". */
+.d .quando{position:absolute;right:5px;top:5px;z-index:3;
+  font-size:9.5px;letter-spacing:.04em;line-height:1;color:var(--bianco);
+  background:rgba(0,0,0,.82);border-radius:5px;padding:4px 6px;
+  white-space:nowrap;opacity:0;transition:opacity .18s}
 .d:hover img,.d:focus-visible img{opacity:1;transform:scale(1.06)}
+.d:hover .quando,.d:focus-visible .quando{opacity:1}
 .d:hover,.d:focus-visible{outline-color:var(--rosso)}
 
 .vuoto{padding:60px 0;text-align:center;color:var(--grigio);font-size:14px;line-height:1.7}
@@ -85,6 +96,7 @@ footer a:hover{color:var(--bianco)}
 @media (max-width:560px){
   .dischi{grid-template-columns:repeat(auto-fill,minmax(78px,1fr));gap:6px}
   .d .num{font-size:15px;left:7px;bottom:6px}
+  .d .quando{display:none}   /* sul telefono non c'e' nessun mouse da passare */
 }
 /* chi ha chiesto meno movimento non se lo becca lo stesso */
 @media (prefers-reduced-motion:reduce){
@@ -206,10 +218,7 @@ footer a:hover{color:var(--bianco)}
           a.appendChild(img);
         }
         a.appendChild(elemento('span', 'num', String(n)));
-        // ⚠️ La data NON si scrive sopra la copertina: al passaggio del mouse
-        // cadeva su copertine di ogni colore e non si leggeva, e per trovare una
-        // puntata serve il numero, non il giorno (Amerigo, 20/08/2026). Resta nel
-        // title del link, dove il browser la mostra da sola e su fondo suo.
+        if (quando) a.appendChild(elemento('span', 'quando', quando));
         dischi.appendChild(a);
       });
       sezione.appendChild(dischi);
