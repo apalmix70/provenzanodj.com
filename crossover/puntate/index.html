@@ -72,11 +72,7 @@ header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;
   font-family:'Anton',Arial,sans-serif;font-weight:400;font-size:18px;line-height:1;
   letter-spacing:.02em;font-variant-numeric:tabular-nums;
   text-shadow:0 1px 10px rgba(0,0,0,.7)}
-.d .quando{position:absolute;right:9px;bottom:9px;z-index:2;
-  font-size:9.5px;letter-spacing:.06em;color:var(--grigio);
-  opacity:0;transition:opacity .2s}
 .d:hover img,.d:focus-visible img{opacity:1;transform:scale(1.06)}
-.d:hover .quando,.d:focus-visible .quando{opacity:1}
 .d:hover,.d:focus-visible{outline-color:var(--rosso)}
 
 .vuoto{padding:60px 0;text-align:center;color:var(--grigio);font-size:14px;line-height:1.7}
@@ -89,7 +85,6 @@ footer a:hover{color:var(--bianco)}
 @media (max-width:560px){
   .dischi{grid-template-columns:repeat(auto-fill,minmax(78px,1fr));gap:6px}
   .d .num{font-size:15px;left:7px;bottom:6px}
-  .d .quando{display:none}
 }
 /* chi ha chiesto meno movimento non se lo becca lo stesso */
 @media (prefers-reduced-motion:reduce){
@@ -211,7 +206,10 @@ footer a:hover{color:var(--bianco)}
           a.appendChild(img);
         }
         a.appendChild(elemento('span', 'num', String(n)));
-        if (quando) a.appendChild(elemento('span', 'quando', quando));
+        // ⚠️ La data NON si scrive sopra la copertina: al passaggio del mouse
+        // cadeva su copertine di ogni colore e non si leggeva, e per trovare una
+        // puntata serve il numero, non il giorno (Amerigo, 20/08/2026). Resta nel
+        // title del link, dove il browser la mostra da sola e su fondo suo.
         dischi.appendChild(a);
       });
       sezione.appendChild(dischi);
