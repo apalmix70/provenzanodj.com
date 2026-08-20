@@ -322,10 +322,7 @@ footer a:hover{color:var(--bianco)}
     pagina.innerHTML = '';
     pagina.appendChild(totali(s.totali));
 
-    pagina.appendChild(sezione('Gli artisti più presenti',
-      'Quante volte un artista è passato in puntata: si contano tutti gli accreditati, ' +
-      'non solo il primo nome. Clicca per vedere i suoi dischi nell\'archivio. ' +
-      'Con i tab passi dalla classifica di sempre a quella di un anno solo.',
+    pagina.appendChild(sezione('Gli artisti più presenti', null,
       classificaConAnni(s.top_artisti, s.classifiche_anno, {
         chiave: 'artisti',
         nome: function (v) { return v.nome; },
