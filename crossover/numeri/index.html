@@ -354,19 +354,10 @@ footer a:hover{color:var(--bianco)}
         cerca: function (v) { return v.nome; }
       })));
 
-    if (s.piu_suonati && s.piu_suonati.length) {
-      pagina.appendChild(sezione('I dischi tornati più volte',
-        'Un disco entra in scaletta una volta sola, di regola. Questi sono le eccezioni: ' +
-        'quelli ripresi in puntate diverse.',
-        classifica(s.piu_suonati, {
-          nome: function (v) { return v.titolo; },
-          sotto: function (v) { return v.artisti.join(', '); },
-          valore: function (v) { return v.volte; },
-          unita: function () { return 'puntate'; },
-          copertina: function (v) { return v.copertina ? indirizzo(v.copertina) : null; },
-          cerca: function (v) { return v.titolo; }
-        })));
-    }
+    // ⚠️ "I dischi tornati più volte" è stata tolta il 20/08/2026 su richiesta di
+    // Amerigo: non gli serve. Erano quasi tutte ripetizioni dell'era radio, quando
+    // il Disco crossover ripassava per scelta — una classifica di una regola vecchia.
+    // La riga `classifica(...)` sa ancora mostrare le copertine, se servisse rifarla.
 
     pagina.appendChild(sezione('Anno per anno',
       'Quante puntate sono andate in onda e quanti dischi ci sono passati, con il nome ' +
