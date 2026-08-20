@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Crossover — i numeri</title>
-<meta name="description" content="I numeri di Crossover: artisti ed etichette più presenti, dischi più suonati, anno per anno dal 2019.">
+<meta name="description" content="I numeri di Crossover: artisti ed etichette più presenti, di sempre e anno per anno dal 2019.">
 <meta property="og:title" content="Crossover — i numeri">
-<meta property="og:description" content="Artisti ed etichette più presenti, dischi più suonati, anno per anno dal 2019.">
+<meta property="og:description" content="Artisti ed etichette più presenti, di sempre e anno per anno dal 2019.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.provenzanodj.com/crossover/numeri/">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23000'/%3E%3Ccircle cx='32' cy='38' r='14' fill='%23FF3131'/%3E%3C/svg%3E">
@@ -106,10 +106,6 @@ td.num{font-variant-numeric:tabular-nums}
 td.anno{font-family:'Anton',Arial,sans-serif;font-size:16px;letter-spacing:.04em}
 td.grande{color:var(--grigio)}
 td.grande b{color:var(--bianco);font-weight:600}
-
-.nota{margin-top:16px;color:var(--debole);font-size:12px;line-height:1.7;
-  border-left:2px solid #1e1e1e;padding-left:14px;max-width:70ch}
-.nota b{color:var(--grigio)}
 
 footer{margin-top:auto;border-top:1px solid var(--riga);padding:22px 0 30px;
   font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--debole);
@@ -339,12 +335,10 @@ footer a:hover{color:var(--bianco)}
         cerca: function (v) { return v.nome; }
       })));
 
-    pagina.appendChild(sezione('Le etichette più presenti',
-      'L\'etichetta di ogni disco, presa dai nomi dei file, da Deezer e dal DJ pool. ' +
-      'Le sigle societarie sono unificate: "Armada Music B.V." e "Armada Music" contano ' +
-      'insieme, e le sottoetichette contano sotto la casa madre. I mashup restano ' +
-      'fuori: non escono su etichetta. Con i tab passi dalla classifica di sempre a ' +
-      'quella di un anno solo.',
+    pagina.appendChild(sezione('Le etichette più presenti', null,
+      // ⚠️ La spiegazione sotto il titolo (sigle societarie, sottoetichette,
+      // mashup) e' stata tolta il 20/08/2026: Amerigo non la vuole. Le regole
+      // restano scritte nel README del database, non sulla pagina.
       classificaConAnni(s.top_etichette, s.classifiche_anno, {
         chiave: 'etichette',
         nome: function (v) { return v.nome; },
@@ -364,17 +358,9 @@ footer a:hover{color:var(--bianco)}
       'che torna più spesso in quell\'anno.',
       tabellaAnni(s.anni)));
 
-    var nota = el('div', 'nota');
-    nota.innerHTML = 'L\'archivio copre <b>' + n(s.totali.puntate) + ' puntate</b>, dalla prima del ' +
-      data(s.totali.prima_puntata) + ' a oggi. ' +
-      'Di <b>' + n(s.totali.brani_unici - s.totali.senza_etichetta - (s.totali.mashup || 0)) +
-      ' dischi su ' + n(s.totali.brani_unici) + '</b> si conosce l\'etichetta. ' +
-      (s.totali.mashup ? 'Altri <b>' + n(s.totali.mashup) + '</b> sono mashup, che ' +
-        'un\'etichetta non ce l\'hanno per natura: li montano i DJ per suonarli in serata, ' +
-        'non li stampa nessuno. ' : '') +
-      'I <b>' + n(s.totali.senza_etichetta) + '</b> rimasti sono promo e anteprime mai ' +
-      'pubblicati da nessuna parte — il Crossover li ha passati prima che esistessero in negozio.';
-    pagina.appendChild(nota);
+    // ⚠️ La nota di copertura in fondo ("l'archivio copre N puntate, di X
+    // dischi si conosce l'etichetta…") e' stata tolta il 20/08/2026: Amerigo non
+    // la vuole sul sito. I numeri stanno gia' nei riquadri in cima alla pagina.
 
     document.getElementById('aggiornato').textContent = 'Aggiornato al ' + data(s.aggiornato);
   }
