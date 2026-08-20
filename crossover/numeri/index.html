@@ -376,7 +376,12 @@ footer a:hover{color:var(--bianco)}
     return iso ? iso.split('-').reverse().join('/') : '';
   }
 
-  fetch('../dati/statistiche.json')
+  // ⚠️ `no-cache`: non salta la cache, la fa **ricontrollare** al server a ogni
+  // apertura. Senza, dopo una pubblicazione la pagina continuava a mostrare i
+  // dati vecchi finche' il browser non li lasciava andare da solo — e sembrava
+  // che la correzione non fosse stata fatta (20/08/2026). Quando il file non e'
+  // cambiato il server risponde "uguale a prima" e non si riscarica niente.
+  fetch('../dati/statistiche.json', {cache: 'no-cache'})
     .then(function (r) {
       if (!r.ok) throw new Error(r.status);
       return r.json();
