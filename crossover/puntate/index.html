@@ -52,12 +52,14 @@ header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;
 
 /* griglia e non flex: cosi' una riga con un numero solo non si allarga a tutta pagina */
 .numeri{display:grid;grid-template-columns:repeat(auto-fill,minmax(58px,1fr));gap:6px}
-/* solo le puntate con una pagina sono premibili: le altre stanno li', spente */
+/* ogni numero porta alla cosa migliore che c'e' per quella puntata: la sua pagina
+   dove esiste, la sua scaletta nell'archivio dove ancora no */
 .n{display:inline-flex;align-items:center;justify-content:center;
   min-width:56px;padding:10px 8px;border:1px solid #242424;border-radius:8px;
-  font-size:13.5px;color:var(--debole);font-variant-numeric:tabular-nums;
-  cursor:default;transition:border-color .15s,color .15s}
-.n.pagina{color:var(--bianco);border-color:var(--rosso);cursor:pointer}
+  font-size:13.5px;color:var(--grigio);font-variant-numeric:tabular-nums;
+  transition:border-color .15s,color .15s}
+.n:hover{border-color:#3d3d3d;color:var(--bianco)}
+.n.pagina{color:var(--bianco);border-color:var(--rosso)}
 .n.pagina:hover{background:#1a0606}
 
 .vuoto{padding:60px 0;text-align:center;color:var(--grigio);font-size:14px;line-height:1.7}
@@ -157,13 +159,14 @@ footer a:hover{color:var(--bianco)}
       var numeri = elemento('div', 'numeri');
       lista.forEach(function (p) {
         var n = p[0];
-        // dove la pagina non c'e' il numero e' uno <span>, non un link morto
-        var voce = conPagina[n] ? elemento('a', 'n pagina', String(n))
-                                : elemento('span', 'n', String(n));
-        if (conPagina[n]) { voce.href = '/crossover/' + n + '/'; }
+        var a = elemento('a', conPagina[n] ? 'n pagina' : 'n', String(n));
+        // dove la pagina c'e' si va li'; dove non c'e' ancora, all'archivio
+        // filtrato su quella puntata, che i suoi 18 dischi li mostra lo stesso
+        a.href = conPagina[n] ? '/crossover/' + n + '/'
+                              : '/crossover/?cerca=%23' + n;
         var quando = italiana(p[1]);
-        voce.title = 'Puntata ' + n + (quando ? ' — in onda il ' + quando : '');
-        numeri.appendChild(voce);
+        a.title = 'Puntata ' + n + (quando ? ' — in onda il ' + quando : '');
+        numeri.appendChild(a);
       });
       sezione.appendChild(numeri);
       pezzo.appendChild(sezione);
