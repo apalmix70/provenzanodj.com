@@ -331,7 +331,9 @@ footer a:hover{color:var(--bianco)}
         sotto: function (v) { return v.brani + (v.brani === 1 ? ' disco' : ' dischi') + ' diversi'; },
         valore: function (v) { return v.presenze; },
         unita: function (v) { return v.presenze === 1 ? 'volta' : 'volte'; },
-        cerca: function (v) { return v.nome; }
+        // "artista:" perche' l'archivio cerchi solo fra gli artisti: senza, dal nome
+        // "Wh0" si finiva sui dischi altrui usciti su WH0 Plays (20/08/2026)
+        cerca: function (v) { return 'artista:' + v.nome; }
       })));
 
     pagina.appendChild(sezione('Le etichette più presenti', null,
@@ -344,7 +346,7 @@ footer a:hover{color:var(--bianco)}
         sotto: function (v) { return v.brani + (v.brani === 1 ? ' disco' : ' dischi') + ' diversi'; },
         valore: function (v) { return v.presenze; },
         unita: function (v) { return v.presenze === 1 ? 'volta' : 'volte'; },
-        cerca: function (v) { return v.nome; }
+        cerca: function (v) { return 'etichetta:' + v.nome; }
       })));
 
     // ⚠️ "I dischi tornati più volte" è stata tolta il 20/08/2026 su richiesta di

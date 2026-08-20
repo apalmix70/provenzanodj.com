@@ -1,0 +1,633 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crossover #1 — lunedì 18 novembre 2019</title>
+<meta name="description" content="I 31 dischi di Crossover #1, il radioshow di Provenzano Dj in onda lunedì 18 novembre 2019.">
+<meta property="og:title" content="Crossover #1">
+<meta property="og:description" content="I 31 dischi di Crossover #1, il radioshow di Provenzano Dj in onda lunedì 18 novembre 2019.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.provenzanodj.com/crossover/1/">
+<meta property="og:image" content="https://cdn-images.dzcdn.net/images/cover/302040e3d77672a72eea848dcfa4fe93/250x250-000000-80-0-0.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23000'/%3E%3Ccircle cx='32' cy='38' r='14' fill='%23FF3131'/%3E%3C/svg%3E">
+<style>
+@font-face{font-family:'Anton';src:url('../../fonts/Anton-Regular.ttf') format('truetype');font-display:swap}
+@font-face{font-family:'Poppins EB';src:url('../../fonts/Poppins-ExtraBold.ttf') format('truetype');font-display:swap}
+
+:root{
+  --nero:#000;--rosso:#FF3131;--bianco:#fff;
+  --grigio:rgba(255,255,255,.55);--debole:rgba(255,255,255,.35);
+  --riga:rgba(255,255,255,.10);--pannello:#0b0b0b;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{background:var(--nero);color:var(--bianco);
+  font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
+  min-height:100svh;display:flex;flex-direction:column}
+a{color:inherit;text-decoration:none}
+.contenitore{width:100%;max-width:1080px;margin:0 auto;padding:0 20px}
+
+/* ---------------------------------------------------------------- testata */
+/* opaca, non velata: su fondo nero il vetro smerigliato non si vede,
+   si vedono le copertine che ci scorrono dietro */
+header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;
+  background:var(--nero)}
+.testata{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 0}
+.logo{font-family:'Poppins EB',Arial,sans-serif;font-size:19px;letter-spacing:-.04em;line-height:1}
+.logo .punto{color:var(--rosso)}
+.menu{display:flex;gap:18px;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--grigio)}
+.menu a:hover,.menu a.qui{color:var(--bianco)}
+
+/* ---------------------------------------------------------------- cartello */
+.cartello{padding:30px 0 20px}
+.briciola{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--grigio)}
+.briciola:hover{color:var(--bianco)}
+.cartello h1{font-family:'Anton',Arial,sans-serif;font-weight:400;text-transform:uppercase;
+  font-size:clamp(32px,7vw,64px);letter-spacing:.03em;line-height:1;margin-top:12px}
+.cartello h1 .punto{color:var(--rosso)}
+/* la data d'onda e' un dato della puntata, non una nota: sta sotto il titolo, in chiaro */
+.onda{margin-top:14px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+  font-size:15px;line-height:1.4}
+.onda .eti{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--debole);
+  border:1px solid #242424;border-radius:999px;padding:4px 10px}
+.onda time{font-weight:600}
+.onda .dischi{color:var(--grigio);font-size:12.5px;letter-spacing:.16em;
+  text-transform:uppercase}
+.onda .dischi::before{content:"· "}
+
+/* ---------------------------------------------------------------- tasti */
+.tasti{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+.tasto{display:inline-flex;align-items:center;gap:9px;
+  background:var(--pannello);border:1px solid #262626;border-radius:999px;
+  padding:11px 18px;font-size:13px;letter-spacing:.02em;transition:border-color .15s}
+.tasto:hover{border-color:var(--rosso)}
+.tasto svg{width:16px;height:16px;flex:0 0 16px;fill:currentColor;opacity:.85}
+.tasto b{font-weight:600}
+.tasto span{color:var(--grigio)}
+
+/* ---------------------------------------------------------------- griglia */
+.sezione{padding:30px 0 0}
+.occhiello{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;
+  padding-bottom:14px;border-bottom:1px solid var(--riga);margin-bottom:18px}
+.occhiello h2{font-family:'Anton',Arial,sans-serif;font-weight:400;text-transform:uppercase;
+  font-size:17px;letter-spacing:.08em}
+.occhiello p{font-size:12.5px;color:var(--grigio);line-height:1.5}
+.occhiello p em{font-style:normal;color:var(--rosso)}
+
+.griglia{display:grid;grid-template-columns:repeat(6,1fr);gap:10px}
+.cop{position:relative;display:block;border-radius:6px;overflow:hidden;
+  background:#141414;aspect-ratio:1/1}
+.cop img{width:100%;height:100%;object-fit:cover;display:block;
+  transition:transform .35s ease}
+.cop:hover img{transform:scale(1.06)}
+/* un filo di bordo: le copertine bianche non si sciolgono nel fondo nero */
+.cop::after{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;
+  border:1px solid rgba(255,255,255,.09);border-radius:6px}
+.numero{position:absolute;left:0;top:0;z-index:2;
+  font-family:'Anton',Arial,sans-serif;font-size:12px;letter-spacing:.05em;
+  padding:4px 8px;background:rgba(0,0,0,.72);color:var(--bianco);
+  border-bottom-right-radius:6px;font-variant-numeric:tabular-nums}
+.cop.top .numero{background:var(--rosso)}
+.velo{position:absolute;inset:auto 0 0 0;z-index:2;
+  display:flex;flex-direction:column;gap:2px;padding:22px 9px 9px;
+  background:linear-gradient(transparent,rgba(0,0,0,.9) 55%);
+  font-size:11px;line-height:1.3;color:var(--grigio);
+  opacity:0;transition:opacity .2s ease}
+/* quando la copertina non si e' trovata da nessuna parte */
+.cop .senza{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  color:#2f2f2f;font-size:26px}
+.velo b{color:var(--bianco);font-size:11.5px;font-weight:600;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cop:hover .velo,.cop:focus-visible .velo{opacity:1}
+
+/* ---------------------------------------------------------------- tracklist */
+.tracce{list-style:none}
+.traccia{display:flex;align-items:center;gap:14px;padding:11px 2px;
+  border-bottom:1px solid var(--riga);scroll-margin-top:90px;border-radius:4px}
+.pos{font-family:'Anton',Arial,sans-serif;font-size:14px;color:var(--debole);
+  width:26px;flex:0 0 26px;text-align:right;font-variant-numeric:tabular-nums}
+.traccia.top .pos{color:var(--rosso)}
+.traccia .testo{min-width:0;flex:1;display:block}
+.traccia .titolo{display:block;font-size:15px;font-weight:600;line-height:1.25}
+.traccia .artisti{display:block;font-size:13.5px;color:var(--grigio);margin-top:2px}
+.traccia .artisti a:hover{color:var(--bianco);text-decoration:underline}
+.tag{font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;
+  border:1px solid #242424;border-radius:999px;padding:4px 10px;color:var(--grigio);
+  white-space:nowrap;flex:0 0 auto;max-width:230px;overflow:hidden;text-overflow:ellipsis}
+a.tag:hover{border-color:#3d3d3d;color:var(--bianco)}
+.tag.muto{border-style:dashed;color:var(--debole)}
+@keyframes accendi{from{background:rgba(255,49,49,.16)}to{background:transparent}}
+.traccia:target{animation:accendi 1.4s ease-out}
+
+/* ---------------------------------------------------------------- coda */
+.coda{padding:34px 0 44px;display:flex;gap:10px;flex-wrap:wrap}
+.coda a{flex:1;min-width:220px;background:var(--pannello);border:1px solid #262626;
+  border-radius:10px;padding:16px 18px;line-height:1.5}
+.coda a:hover{border-color:var(--rosso)}
+.coda .eti{display:block;font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--debole)}
+.coda .voce{display:block;font-size:14.5px;margin-top:3px}
+
+footer{margin-top:auto;border-top:1px solid var(--riga);padding:20px 0 28px;
+  font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--debole);
+  display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+footer a:hover{color:var(--bianco)}
+
+@media (max-width:760px){
+  .griglia{grid-template-columns:repeat(3,1fr);gap:8px}
+  .velo{display:none}
+}
+@media (max-width:560px){
+  .onda{gap:8px}
+  .onda .dischi{flex-basis:100%}
+  .onda .dischi::before{content:none}
+  /* il nome dell'etichetta non si taglia: va a capo sotto il titolo, incolonnato con lui */
+  .traccia{display:grid;grid-template-columns:26px 1fr;column-gap:14px;row-gap:9px;
+    align-items:start;padding:12px 2px}
+  .pos{grid-column:1;line-height:1.5}
+  .traccia .testo{grid-column:2}
+  .traccia .titolo{font-size:14px}
+  .tag{grid-column:2;justify-self:start;max-width:none}
+}
+@media (max-width:430px){
+  .menu a[href="/"]{display:none}
+  .menu{gap:13px;font-size:10px;letter-spacing:.12em}
+  .testata{gap:10px}
+  .traccia{grid-template-columns:20px 1fr;column-gap:10px}
+  .pos{width:auto;flex-basis:auto;font-size:13px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="contenitore testata">
+    <a class="logo" href="/">provenzano<span class="punto">.</span></a>
+    <nav class="menu">
+      <a href="/crossover/">Archivio</a>
+      <a class="qui" href="/crossover/puntate/">Puntate</a>
+      <a href="/crossover/numeri/">I numeri</a>
+      <a href="/">Home</a>
+    </nav>
+  </div>
+</header>
+
+<main class="contenitore">
+
+  <div class="cartello">
+    <a class="briciola" href="/crossover/puntate/">&larr; Tutte le puntate</a>
+    <h1>Crossover #1<span class="punto">.</span></h1>
+
+    <p class="onda">
+      <span class="eti">In onda</span>
+      <time datetime="2019-11-18">lunedì 18 novembre 2019</time>
+      <span class="dischi">Il radioshow</span>
+    </p>
+
+
+  </div>
+
+  <section class="sezione">
+    <div class="occhiello">
+      <h2>I 31 dischi</h2>
+    </div>
+    <div class="griglia">
+    <a class="cop top" href="#t1">
+      <img src="https://cdn-images.dzcdn.net/images/cover/302040e3d77672a72eea848dcfa4fe93/250x250-000000-80-0-0.jpg" alt="Marshall Jefferson, Solardo — Move Your Body (Extended Mix)" loading="lazy" width="600" height="600">
+      <span class="numero">1</span>
+      <span class="velo"><b>Move Your Body (Extended Mix)</b>Marshall Jefferson, Solardo</span>
+    </a>
+    <a class="cop top" href="#t2">
+      <img src="https://cdn-images.dzcdn.net/images/cover/89cf4c4a5eb528c089c454989b3d0d1c/250x250-000000-80-0-0.jpg" alt="Barbatuques — Baiana (Jack Back Remix)" loading="lazy" width="600" height="600">
+      <span class="numero">2</span>
+      <span class="velo"><b>Baiana (Jack Back Remix)</b>Barbatuques</span>
+    </a>
+    <a class="cop top" href="#t3">
+      <img src="https://cdn-images.dzcdn.net/images/cover/0aee720b2c6a8eaa2d7ea9ab38bf2d51/250x250-000000-80-0-0.jpg" alt="Marco Lys — You&#x27;ll Be Mine (Extended Mix)" loading="lazy" width="600" height="600">
+      <span class="numero">3</span>
+      <span class="velo"><b>You&#x27;ll Be Mine (Extended Mix)</b>Marco Lys</span>
+    </a>
+    <a class="cop top" href="#t4">
+      <img src="https://i.scdn.co/image/ab67616d0000b2731ed9e66a16867a0e28e908a1" alt="Dimitri Vegas &amp; Like Mike x David Guetta — Instagram - Sak Noel &amp; Salvi Remix" loading="lazy" width="600" height="600">
+      <span class="numero">4</span>
+      <span class="velo"><b>Instagram - Sak Noel &amp; Salvi Remix</b>Dimitri Vegas &amp; Like Mike x David Guetta</span>
+    </a>
+    <a class="cop top" href="#t5">
+      <img src="https://cdn-images.dzcdn.net/images/cover/14504003ff5526b59af60ef28086b782/250x250-000000-80-0-0.jpg" alt="Y2K &amp; Bbno$ — Lalala - Oliver Heldens Remix" loading="lazy" width="600" height="600">
+      <span class="numero">5</span>
+      <span class="velo"><b>Lalala - Oliver Heldens Remix</b>Y2K &amp; Bbno$</span>
+    </a>
+    <a class="cop top" href="#t6">
+      <img src="https://cdn-images.dzcdn.net/images/cover/1ab065bd575b87bd84bd94069de2c49a/250x250-000000-80-0-0.jpg" alt="PEZNT, Alaia &amp; Gallo — Burn (Extended Mix)" loading="lazy" width="600" height="600">
+      <span class="numero">6</span>
+      <span class="velo"><b>Burn (Extended Mix)</b>PEZNT, Alaia &amp; Gallo</span>
+    </a>
+    <a class="cop" href="#t7">
+      <img src="cop/7.jpg" alt="Dom Dolla — San Frandisco (Extended Mix)" loading="lazy" width="600" height="600">
+      <span class="numero">7</span>
+      <span class="velo"><b>San Frandisco (Extended Mix)</b>Dom Dolla</span>
+    </a>
+    <a class="cop" href="#t8">
+      <span class="senza">♪</span>
+      <span class="numero">8</span>
+      <span class="velo"><b>Love Sex American Express - Cristian Marchi Main Perfect Vocal Mix</b>Cristian Marchi, Dr. Feelx</span>
+    </a>
+    <a class="cop" href="#t9">
+      <img src="https://cdn-images.dzcdn.net/images/cover/3ca9782d240dbd687114612895d35d9f/250x250-000000-80-0-0.jpg" alt="Endor — Pump It Up (Extended Mix)" loading="lazy" width="600" height="600">
+      <span class="numero">9</span>
+      <span class="velo"><b>Pump It Up (Extended Mix)</b>Endor</span>
+    </a>
+    <a class="cop" href="#t10">
+      <img src="https://cdn-images.dzcdn.net/images/cover/239e4dd4987a07b5f0fd4ff7ce9842ee/250x250-000000-80-0-0.jpg" alt="Sigala &amp; Becky Hill — Wish You Well (Benny Benassi Remix)" loading="lazy" width="600" height="600">
+      <span class="numero">10</span>
+      <span class="velo"><b>Wish You Well (Benny Benassi Remix)</b>Sigala &amp; Becky Hill</span>
+    </a>
+    <a class="cop" href="#t11">
+      <img src="https://cdn-images.dzcdn.net/images/cover/6b4c12d69aafd210b11bd74836ce3311/250x250-000000-80-0-0.jpg" alt="Kesha — TiK ToK - Fred Falke Club Remix" loading="lazy" width="600" height="600">
+      <span class="numero">11</span>
+      <span class="velo"><b>TiK ToK - Fred Falke Club Remix</b>Kesha</span>
+    </a>
+    <a class="cop" href="#t12">
+      <img src="https://cdn-images.dzcdn.net/images/cover/c425d6225e788d89a04b13dc93017155/250x250-000000-80-0-0.jpg" alt="Tones And I — Dance Monkey (Andry J Bootleg Remix)" loading="lazy" width="600" height="600">
+      <span class="numero">12</span>
+      <span class="velo"><b>Dance Monkey (Andry J Bootleg Remix)</b>Tones And I</span>
+    </a>
+    <a class="cop" href="#t13">
+      <img src="https://cdn-images.dzcdn.net/images/cover/242bf2e657fc7db12e274673cdcfcb61/250x250-000000-80-0-0.jpg" alt="Promise Land x Skullwell — My My My (Extended Mix)" loading="lazy" width="600" height="600">
+      <span class="numero">13</span>
+      <span class="velo"><b>My My My (Extended Mix)</b>Promise Land x Skullwell</span>
+    </a>
+    <a class="cop" href="#t14">
+      <img src="https://cdn-images.dzcdn.net/images/cover/d6f5b443b974dd52c4b202cf7dae876c/250x250-000000-80-0-0.jpg" alt="Solardo, Eli Brown — XTC (Sosa Extended Mix)" loading="lazy" width="600" height="600">
+      <span class="numero">14</span>
+      <span class="velo"><b>XTC (Sosa Extended Mix)</b>Solardo, Eli Brown</span>
+    </a>
+    <a class="cop" href="#t15">
+      <img src="https://cdn-images.dzcdn.net/images/cover/453595cce92efa85b6cade031f59cad6/250x250-000000-80-0-0.jpg" alt="Meduza, Becky Hill &amp; GOODBOYS — Lose Control (Socievole &amp; Adalwolf Bootleg Remix)" loading="lazy" width="600" height="600">
+      <span class="numero">15</span>
+      <span class="velo"><b>Lose Control (Socievole &amp; Adalwolf Bootleg Remix)</b>Meduza, Becky Hill &amp; GOODBOYS</span>
+    </a>
+    <a class="cop" href="#t16">
+      <img src="https://cdn-images.dzcdn.net/images/cover/00bb40966029d64b001209f772b218dd/250x250-000000-80-0-0.jpg" alt="Fabri Fibra, Ernia, Rkomi — Lascia Un Segno (feat. Ernia &amp; Rkomi)" loading="lazy" width="600" height="600">
+      <span class="numero">16</span>
+      <span class="velo"><b>Lascia Un Segno (feat. Ernia &amp; Rkomi)</b>Fabri Fibra, Ernia, Rkomi</span>
+    </a>
+    <a class="cop" href="#t17">
+      <img src="https://cdn-images.dzcdn.net/images/cover/84491e654d11584b02450bdf973b79ba/250x250-000000-80-0-0.jpg" alt="Luche, Sfera Ebbasta — Stamm Fort (feat. Sfera Ebbasta)" loading="lazy" width="600" height="600">
+      <span class="numero">17</span>
+      <span class="velo"><b>Stamm Fort (feat. Sfera Ebbasta)</b>Luche, Sfera Ebbasta</span>
+    </a>
+    <a class="cop" href="#t18">
+      <img src="https://i.scdn.co/image/ab67616d0000b2735e3ddf483de0ff71e0ab3a0b" alt="MamboLosco, Boro Boro — Twerk (con Boro Boro)" loading="lazy" width="600" height="600">
+      <span class="numero">18</span>
+      <span class="velo"><b>Twerk (con Boro Boro)</b>MamboLosco, Boro Boro</span>
+    </a>
+    <a class="cop" href="#t19">
+      <img src="https://cdn-images.dzcdn.net/images/cover/94b64a999bf3200b6a87729d420172a9/250x250-000000-80-0-0.jpg" alt="Lil Wil — Bust It Open" loading="lazy" width="600" height="600">
+      <span class="numero">19</span>
+      <span class="velo"><b>Bust It Open</b>Lil Wil</span>
+    </a>
+    <a class="cop" href="#t20">
+      <span class="senza">♪</span>
+      <span class="numero">20</span>
+      <span class="velo"><b>Lakers [Master] EXTENDED FINAL MP3</b>FTampa, The Otherz &amp; NUZB</span>
+    </a>
+    <a class="cop" href="#t21">
+      <img src="https://cdn-images.dzcdn.net/images/cover/d58aefda7141a2f803d730a665b784ff/250x250-000000-80-0-0.jpg" alt="Giaime, Andry The Hitmaker, Lele Blade, Fred De Palma — MAI (feat. Lele Blade &amp; Fred De Palma)" loading="lazy" width="600" height="600">
+      <span class="numero">21</span>
+      <span class="velo"><b>MAI (feat. Lele Blade &amp; Fred De Palma)</b>Giaime, Andry The Hitmaker, Lele Blade, Fred De Palma</span>
+    </a>
+    <a class="cop" href="#t22">
+      <img src="https://cdn-images.dzcdn.net/images/cover/a3d38f0ab83992d461bc9148c12f51a3/250x250-000000-80-0-0.jpg" alt="Fred De Palma, Sofia Reyes — Il tuo profumo" loading="lazy" width="600" height="600">
+      <span class="numero">22</span>
+      <span class="velo"><b>Il tuo profumo</b>Fred De Palma, Sofia Reyes</span>
+    </a>
+    <a class="cop" href="#t23">
+      <img src="cop/23.jpg" alt="Aya Nakamura, Capo Plaza — Pookie (feat. Capo Plaza) - Remix" loading="lazy" width="600" height="600">
+      <span class="numero">23</span>
+      <span class="velo"><b>Pookie (feat. Capo Plaza) - Remix</b>Aya Nakamura, Capo Plaza</span>
+    </a>
+    <a class="cop" href="#t24">
+      <span class="senza">♪</span>
+      <span class="numero">24</span>
+      <span class="velo"><b>Bassotto</b>Dark Polo Gang, Tony Effe</span>
+    </a>
+    <a class="cop" href="#t25">
+      <img src="https://cdn-images.dzcdn.net/images/cover/161c8b8389b797b662db4f935fcbdc28/250x250-000000-80-0-0.jpg" alt="Cedric Gervais — Don&#x27;t You Want (Extended Mix)" loading="lazy" width="600" height="600">
+      <span class="numero">25</span>
+      <span class="velo"><b>Don&#x27;t You Want (Extended Mix)</b>Cedric Gervais</span>
+    </a>
+    <a class="cop" href="#t26">
+      <img src="https://cdn-images.dzcdn.net/images/cover/e9fdade7d4975f1b3488e39252798e40/250x250-000000-80-0-0.jpg" alt="Gigi D&#x27;Agostino — Bla Bla Bla" loading="lazy" width="600" height="600">
+      <span class="numero">26</span>
+      <span class="velo"><b>Bla Bla Bla</b>Gigi D&#x27;Agostino</span>
+    </a>
+    <a class="cop" href="#t27">
+      <img src="https://cdn-images.dzcdn.net/images/cover/2c00ed8af83add292924562de3f21275/250x250-000000-80-0-0.jpg" alt="The Black Eyed Peas, J Balvin — RITMO (Bad Boys For Life)" loading="lazy" width="600" height="600">
+      <span class="numero">27</span>
+      <span class="velo"><b>RITMO (Bad Boys For Life)</b>The Black Eyed Peas, J Balvin</span>
+    </a>
+    <a class="cop" href="#t28">
+      <img src="https://cdn-images.dzcdn.net/images/cover/c425d6225e788d89a04b13dc93017155/250x250-000000-80-0-0.jpg" alt="Tones and I — Dance Monkey" loading="lazy" width="600" height="600">
+      <span class="numero">28</span>
+      <span class="velo"><b>Dance Monkey</b>Tones and I</span>
+    </a>
+    <a class="cop" href="#t29">
+      <img src="https://cdn-images.dzcdn.net/images/cover/4697c97c57609a8295f097de790f9bfc/250x250-000000-80-0-0.jpg" alt="Random — Chiasso" loading="lazy" width="600" height="600">
+      <span class="numero">29</span>
+      <span class="velo"><b>Chiasso</b>Random</span>
+    </a>
+    <a class="cop" href="#t30">
+      <img src="https://cdn-images.dzcdn.net/images/cover/38f078ee3953b02d730c4f70b845c794/250x250-000000-80-0-0.jpg" alt="Lazza, Sfera Ebbasta, Capo Plaza — Gigolò (feat. Sfera Ebbasta &amp; Capo Plaza)" loading="lazy" width="600" height="600">
+      <span class="numero">30</span>
+      <span class="velo"><b>Gigolò (feat. Sfera Ebbasta &amp; Capo Plaza)</b>Lazza, Sfera Ebbasta, Capo Plaza</span>
+    </a>
+    <a class="cop" href="#t31">
+      <img src="https://cdn-images.dzcdn.net/images/cover/65de9bc743cf3f72189ed74d62370bc3/250x250-000000-80-0-0.jpg" alt="Benji &amp; Fede — Dove e quando" loading="lazy" width="600" height="600">
+      <span class="numero">31</span>
+      <span class="velo"><b>Dove e quando</b>Benji &amp; Fede</span>
+    </a>
+    </div>
+  </section>
+
+  <section class="sezione">
+    <div class="occhiello">
+      <h2>La tracklist</h2>
+    </div>
+    <ol class="tracce">
+    <li class="traccia top" id="t1">
+      <span class="pos">1</span>
+      <span class="testo">
+        <span class="titolo">Move Your Body (Extended Mix)</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3AMarshall+Jefferson">Marshall Jefferson</a>, <a href="/crossover/?cerca=artista%3ASolardo">Solardo</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3AUltra+Records">Ultra Records</a>
+    </li>
+    <li class="traccia top" id="t2">
+      <span class="pos">2</span>
+      <span class="testo">
+        <span class="titolo">Baiana (Jack Back Remix)</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3ABarbatuques">Barbatuques</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3AWM+Italy">WM Italy</a>
+    </li>
+    <li class="traccia top" id="t3">
+      <span class="pos">3</span>
+      <span class="testo">
+        <span class="titolo">You&#x27;ll Be Mine (Extended Mix)</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3AMarco+Lys">Marco Lys</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3AArmada+Music">Armada Music</a>
+    </li>
+    <li class="traccia top" id="t4">
+      <span class="pos">4</span>
+      <span class="testo">
+        <span class="titolo">Instagram - Sak Noel &amp; Salvi Remix</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3ADimitri+Vegas+%26+Like+Mike">Dimitri Vegas &amp; Like Mike</a> x <a href="/crossover/?cerca=artista%3ADavid+Guetta">David Guetta</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3ABootleg">Bootleg</a>
+    </li>
+    <li class="traccia top" id="t5">
+      <span class="pos">5</span>
+      <span class="testo">
+        <span class="titolo">Lalala - Oliver Heldens Remix</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3AY2K">Y2K</a> &amp; <a href="/crossover/?cerca=artista%3ABbno%24">Bbno$</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3AColumbia">Columbia</a>
+    </li>
+    <li class="traccia top" id="t6">
+      <span class="pos">6</span>
+      <span class="testo">
+        <span class="titolo">Burn (Extended Mix)</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3APEZNT%2C+Alaia+%26+Gallo">PEZNT, Alaia &amp; Gallo</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3ADefected+Records">Defected Records</a>
+    </li>
+    <li class="traccia" id="t7">
+      <span class="pos">7</span>
+      <span class="testo">
+        <span class="titolo">San Frandisco (Extended Mix)</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3ADom+Dolla">Dom Dolla</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3ARCA+Records">RCA Records</a>
+    </li>
+    <li class="traccia" id="t8">
+      <span class="pos">8</span>
+      <span class="testo">
+        <span class="titolo">Love Sex American Express - Cristian Marchi Main Perfect Vocal Mix</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3ACristian+Marchi">Cristian Marchi</a>, <a href="/crossover/?cerca=artista%3ADr.+Feelx">Dr. Feelx</a></span>
+      </span>
+      <span class="tag muto">etichetta ignota</span>
+    </li>
+    <li class="traccia" id="t9">
+      <span class="pos">9</span>
+      <span class="testo">
+        <span class="titolo">Pump It Up (Extended Mix)</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3AEndor">Endor</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3ADefected+Records">Defected Records</a>
+    </li>
+    <li class="traccia" id="t10">
+      <span class="pos">10</span>
+      <span class="testo">
+        <span class="titolo">Wish You Well (Benny Benassi Remix)</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3ASigala">Sigala</a> &amp; <a href="/crossover/?cerca=artista%3ABecky+Hill">Becky Hill</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3AMinistry+of+Sound+Recordings">Ministry of Sound Recordings</a>
+    </li>
+    <li class="traccia" id="t11">
+      <span class="pos">11</span>
+      <span class="testo">
+        <span class="titolo">TiK ToK - Fred Falke Club Remix</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3AKesha">Kesha</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3ARCA+Records">RCA Records</a>
+    </li>
+    <li class="traccia" id="t12">
+      <span class="pos">12</span>
+      <span class="testo">
+        <span class="titolo">Dance Monkey (Andry J Bootleg Remix)</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3ATones+And+I">Tones And I</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3AElektra+%28NEK%29">Elektra (NEK)</a>
+    </li>
+    <li class="traccia" id="t13">
+      <span class="pos">13</span>
+      <span class="testo">
+        <span class="titolo">My My My (Extended Mix)</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3APromise+Land">Promise Land</a> x <a href="/crossover/?cerca=artista%3ASkullwell">Skullwell</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3AHexagon">Hexagon</a>
+    </li>
+    <li class="traccia" id="t14">
+      <span class="pos">14</span>
+      <span class="testo">
+        <span class="titolo">XTC (Sosa Extended Mix)</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3ASolardo">Solardo</a>, <a href="/crossover/?cerca=artista%3AEli+Brown">Eli Brown</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3AUltra+Records">Ultra Records</a>
+    </li>
+    <li class="traccia" id="t15">
+      <span class="pos">15</span>
+      <span class="testo">
+        <span class="titolo">Lose Control (Socievole &amp; Adalwolf Bootleg Remix)</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3AMeduza">Meduza</a>, <a href="/crossover/?cerca=artista%3ABecky+Hill">Becky Hill</a> &amp; <a href="/crossover/?cerca=artista%3AGOODBOYS">GOODBOYS</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3AIntercord">Intercord</a>
+    </li>
+    <li class="traccia" id="t16">
+      <span class="pos">16</span>
+      <span class="testo">
+        <span class="titolo">Lascia Un Segno (feat. Ernia &amp; Rkomi)</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3AFabri+Fibra">Fabri Fibra</a>, <a href="/crossover/?cerca=artista%3AErnia">Ernia</a>, <a href="/crossover/?cerca=artista%3ARkomi">Rkomi</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3AUniversal+Music+Italia">Universal Music Italia</a>
+    </li>
+    <li class="traccia" id="t17">
+      <span class="pos">17</span>
+      <span class="testo">
+        <span class="titolo">Stamm Fort (feat. Sfera Ebbasta)</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3ALuche">Luche</a>, <a href="/crossover/?cerca=artista%3ASfera+Ebbasta">Sfera Ebbasta</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3AUniversal+Music+Italia">Universal Music Italia</a>
+    </li>
+    <li class="traccia" id="t18">
+      <span class="pos">18</span>
+      <span class="testo">
+        <span class="titolo">Twerk (con Boro Boro)</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3AMamboLosco">MamboLosco</a>, <a href="/crossover/?cerca=artista%3ABoro">Boro</a> <a href="/crossover/?cerca=artista%3ABoro">Boro</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3AEMI">EMI</a>
+    </li>
+    <li class="traccia" id="t19">
+      <span class="pos">19</span>
+      <span class="testo">
+        <span class="titolo">Bust It Open</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3ALil+Wil">Lil Wil</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3AUnauthorized+Entertainment">Unauthorized Entertainment</a>
+    </li>
+    <li class="traccia" id="t20">
+      <span class="pos">20</span>
+      <span class="testo">
+        <span class="titolo">Lakers [Master] EXTENDED FINAL MP3</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3AFTampa">FTampa</a>, <a href="/crossover/?cerca=artista%3AThe+Otherz">The Otherz</a> &amp; <a href="/crossover/?cerca=artista%3ANUZB">NUZB</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3ASpinnin%27+Records">Spinnin&#x27; Records</a>
+    </li>
+    <li class="traccia" id="t21">
+      <span class="pos">21</span>
+      <span class="testo">
+        <span class="titolo">MAI (feat. Lele Blade &amp; Fred De Palma)</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3AGiaime">Giaime</a>, <a href="/crossover/?cerca=artista%3AAndry+The+Hitmaker">Andry The Hitmaker</a>, <a href="/crossover/?cerca=artista%3ALele+Blade">Lele Blade</a>, <a href="/crossover/?cerca=artista%3AFred+De+Palma">Fred De Palma</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3AJive">Jive</a>
+    </li>
+    <li class="traccia" id="t22">
+      <span class="pos">22</span>
+      <span class="testo">
+        <span class="titolo">Il tuo profumo</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3AFred+De+Palma">Fred De Palma</a>, <a href="/crossover/?cerca=artista%3ASofia+Reyes">Sofia Reyes</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3AWM+Italy">WM Italy</a>
+    </li>
+    <li class="traccia" id="t23">
+      <span class="pos">23</span>
+      <span class="testo">
+        <span class="titolo">Pookie (feat. Capo Plaza) - Remix</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3AAya+Nakamura">Aya Nakamura</a>, <a href="/crossover/?cerca=artista%3ACapo+Plaza">Capo Plaza</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3ARec.+118">Rec. 118</a>
+    </li>
+    <li class="traccia" id="t24">
+      <span class="pos">24</span>
+      <span class="testo">
+        <span class="titolo">Bassotto</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3ADark+Polo+Gang">Dark Polo Gang</a>, <a href="/crossover/?cerca=artista%3ATony+Effe">Tony Effe</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3AUniversal+Music">Universal Music</a>
+    </li>
+    <li class="traccia" id="t25">
+      <span class="pos">25</span>
+      <span class="testo">
+        <span class="titolo">Don&#x27;t You Want (Extended Mix)</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3ACedric+Gervais">Cedric Gervais</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3ADelecta+Records">Delecta Records</a>
+    </li>
+    <li class="traccia" id="t26">
+      <span class="pos">26</span>
+      <span class="testo">
+        <span class="titolo">Bla Bla Bla</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3AGigi+D%27Agostino">Gigi D&#x27;Agostino</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3AGigi+D%27Agostino+Planet">Gigi D&#x27;Agostino Planet</a>
+    </li>
+    <li class="traccia" id="t27">
+      <span class="pos">27</span>
+      <span class="testo">
+        <span class="titolo">RITMO (Bad Boys For Life)</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3AThe">The</a><a href="/crossover/?cerca=artista%3ABlack+Eyed+Peas">Black Eyed Peas</a>, <a href="/crossover/?cerca=artista%3AJ+Balvin">J Balvin</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3AEpic%2FWe+The+Best">Epic/We The Best</a>
+    </li>
+    <li class="traccia" id="t28">
+      <span class="pos">28</span>
+      <span class="testo">
+        <span class="titolo">Dance Monkey</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3ATones+and+I">Tones and I</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3AElektra+%28NEK%29">Elektra (NEK)</a>
+    </li>
+    <li class="traccia" id="t29">
+      <span class="pos">29</span>
+      <span class="testo">
+        <span class="titolo">Chiasso</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3ARandom">Random</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3AVisory+Records+-+My+own+family+%E2%80%93+under+exclusive+license+to+Believe">Visory Records - My own family – under exclusive license to Believe</a>
+    </li>
+    <li class="traccia" id="t30">
+      <span class="pos">30</span>
+      <span class="testo">
+        <span class="titolo">Gigolò (feat. Sfera Ebbasta &amp; Capo Plaza)</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3ALazza">Lazza</a>, <a href="/crossover/?cerca=artista%3ASfera+Ebbasta">Sfera Ebbasta</a>, <a href="/crossover/?cerca=artista%3ACapo+Plaza">Capo Plaza</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3AUniversal+Music+Italia">Universal Music Italia</a>
+    </li>
+    <li class="traccia" id="t31">
+      <span class="pos">31</span>
+      <span class="testo">
+        <span class="titolo">Dove e quando</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3ABenji+%26+Fede">Benji &amp; Fede</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3AWarner+Records%2FWM+Italy">Warner Records/WM Italy</a>
+    </li>
+    </ol>
+  </section>
+
+  <nav class="coda">
+    <a href="/crossover/2/">
+      <span class="eti">Puntata successiva</span>
+      <span class="voce">Crossover #2</span>
+    </a>
+    <a href="/crossover/puntate/">
+      <span class="eti">Tutte le puntate</span>
+      <span class="voce">L&rsquo;elenco completo, dal 2019</span>
+    </a>
+    <a href="https://open.spotify.com/playlist/2B6hCFilLMfR00cdb81Tqp" target="_blank" rel="noopener">
+      <span class="eti">Playlist ufficiale</span>
+      <span class="voce">Crossover su Spotify</span>
+    </a>
+  </nav>
+
+</main>
+
+<footer class="contenitore">
+  <span>&copy; 2026 Provenzano Dj</span>
+  <span>Crossover #1 &middot; in onda lunedì 18 novembre 2019</span>
+</footer>
+
+</body>
+</html>

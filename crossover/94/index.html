@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crossover #94 — lunedì 11 ottobre 2021</title>
+<meta name="description" content="I 20 dischi di Crossover #94, il radioshow di Provenzano Dj in onda lunedì 11 ottobre 2021.">
+<meta property="og:title" content="Crossover #94">
+<meta property="og:description" content="I 20 dischi di Crossover #94, il radioshow di Provenzano Dj in onda lunedì 11 ottobre 2021.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.provenzanodj.com/crossover/94/">
+<meta property="og:image" content="https://cdn-images.dzcdn.net/images/cover/7f12cd3217964b4cda270a34eb23f969/250x250-000000-80-0-0.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23000'/%3E%3Ccircle cx='32' cy='38' r='14' fill='%23FF3131'/%3E%3C/svg%3E">
+<style>
+@font-face{font-family:'Anton';src:url('../../fonts/Anton-Regular.ttf') format('truetype');font-display:swap}
+@font-face{font-family:'Poppins EB';src:url('../../fonts/Poppins-ExtraBold.ttf') format('truetype');font-display:swap}
+
+:root{
+  --nero:#000;--rosso:#FF3131;--bianco:#fff;
+  --grigio:rgba(255,255,255,.55);--debole:rgba(255,255,255,.35);
+  --riga:rgba(255,255,255,.10);--pannello:#0b0b0b;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{background:var(--nero);color:var(--bianco);
+  font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
+  min-height:100svh;display:flex;flex-direction:column}
+a{color:inherit;text-decoration:none}
+.contenitore{width:100%;max-width:1080px;margin:0 auto;padding:0 20px}
+
+/* ---------------------------------------------------------------- testata */
+/* opaca, non velata: su fondo nero il vetro smerigliato non si vede,
+   si vedono le copertine che ci scorrono dietro */
+header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;
+  background:var(--nero)}
+.testata{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 0}
+.logo{font-family:'Poppins EB',Arial,sans-serif;font-size:19px;letter-spacing:-.04em;line-height:1}
+.logo .punto{color:var(--rosso)}
+.menu{display:flex;gap:18px;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--grigio)}
+.menu a:hover,.menu a.qui{color:var(--bianco)}
+
+/* ---------------------------------------------------------------- cartello */
+.cartello{padding:30px 0 20px}
+.briciola{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--grigio)}
+.briciola:hover{color:var(--bianco)}
+.cartello h1{font-family:'Anton',Arial,sans-serif;font-weight:400;text-transform:uppercase;
+  font-size:clamp(32px,7vw,64px);letter-spacing:.03em;line-height:1;margin-top:12px}
+.cartello h1 .punto{color:var(--rosso)}
+/* la data d'onda e' un dato della puntata, non una nota: sta sotto il titolo, in chiaro */
+.onda{margin-top:14px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+  font-size:15px;line-height:1.4}
+.onda .eti{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--debole);
+  border:1px solid #242424;border-radius:999px;padding:4px 10px}
+.onda time{font-weight:600}
+.onda .dischi{color:var(--grigio);font-size:12.5px;letter-spacing:.16em;
+  text-transform:uppercase}
+.onda .dischi::before{content:"· "}
+
+/* ---------------------------------------------------------------- tasti */
+.tasti{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+.tasto{display:inline-flex;align-items:center;gap:9px;
+  background:var(--pannello);border:1px solid #262626;border-radius:999px;
+  padding:11px 18px;font-size:13px;letter-spacing:.02em;transition:border-color .15s}
+.tasto:hover{border-color:var(--rosso)}
+.tasto svg{width:16px;height:16px;flex:0 0 16px;fill:currentColor;opacity:.85}
+.tasto b{font-weight:600}
+.tasto span{color:var(--grigio)}
+
+/* ---------------------------------------------------------------- griglia */
+.sezione{padding:30px 0 0}
+.occhiello{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;
+  padding-bottom:14px;border-bottom:1px solid var(--riga);margin-bottom:18px}
+.occhiello h2{font-family:'Anton',Arial,sans-serif;font-weight:400;text-transform:uppercase;
+  font-size:17px;letter-spacing:.08em}
+.occhiello p{font-size:12.5px;color:var(--grigio);line-height:1.5}
+.occhiello p em{font-style:normal;color:var(--rosso)}
+
+.griglia{display:grid;grid-template-columns:repeat(6,1fr);gap:10px}
+.cop{position:relative;display:block;border-radius:6px;overflow:hidden;
+  background:#141414;aspect-ratio:1/1}
+.cop img{width:100%;height:100%;object-fit:cover;display:block;
+  transition:transform .35s ease}
+.cop:hover img{transform:scale(1.06)}
+/* un filo di bordo: le copertine bianche non si sciolgono nel fondo nero */
+.cop::after{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;
+  border:1px solid rgba(255,255,255,.09);border-radius:6px}
+.numero{position:absolute;left:0;top:0;z-index:2;
+  font-family:'Anton',Arial,sans-serif;font-size:12px;letter-spacing:.05em;
+  padding:4px 8px;background:rgba(0,0,0,.72);color:var(--bianco);
+  border-bottom-right-radius:6px;font-variant-numeric:tabular-nums}
+.cop.top .numero{background:var(--rosso)}
+.velo{position:absolute;inset:auto 0 0 0;z-index:2;
+  display:flex;flex-direction:column;gap:2px;padding:22px 9px 9px;
+  background:linear-gradient(transparent,rgba(0,0,0,.9) 55%);
+  font-size:11px;line-height:1.3;color:var(--grigio);
+  opacity:0;transition:opacity .2s ease}
+/* quando la copertina non si e' trovata da nessuna parte */
+.cop .senza{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  color:#2f2f2f;font-size:26px}
+.velo b{color:var(--bianco);font-size:11.5px;font-weight:600;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cop:hover .velo,.cop:focus-visible .velo{opacity:1}
+
+/* ---------------------------------------------------------------- tracklist */
+.tracce{list-style:none}
+.traccia{display:flex;align-items:center;gap:14px;padding:11px 2px;
+  border-bottom:1px solid var(--riga);scroll-margin-top:90px;border-radius:4px}
+.pos{font-family:'Anton',Arial,sans-serif;font-size:14px;color:var(--debole);
+  width:26px;flex:0 0 26px;text-align:right;font-variant-numeric:tabular-nums}
+.traccia.top .pos{color:var(--rosso)}
+.traccia .testo{min-width:0;flex:1;display:block}
+.traccia .titolo{display:block;font-size:15px;font-weight:600;line-height:1.25}
+.traccia .artisti{display:block;font-size:13.5px;color:var(--grigio);margin-top:2px}
+.traccia .artisti a:hover{color:var(--bianco);text-decoration:underline}
+.tag{font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;
+  border:1px solid #242424;border-radius:999px;padding:4px 10px;color:var(--grigio);
+  white-space:nowrap;flex:0 0 auto;max-width:230px;overflow:hidden;text-overflow:ellipsis}
+a.tag:hover{border-color:#3d3d3d;color:var(--bianco)}
+.tag.muto{border-style:dashed;color:var(--debole)}
+@keyframes accendi{from{background:rgba(255,49,49,.16)}to{background:transparent}}
+.traccia:target{animation:accendi 1.4s ease-out}
+
+/* ---------------------------------------------------------------- coda */
+.coda{padding:34px 0 44px;display:flex;gap:10px;flex-wrap:wrap}
+.coda a{flex:1;min-width:220px;background:var(--pannello);border:1px solid #262626;
+  border-radius:10px;padding:16px 18px;line-height:1.5}
+.coda a:hover{border-color:var(--rosso)}
+.coda .eti{display:block;font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--debole)}
+.coda .voce{display:block;font-size:14.5px;margin-top:3px}
+
+footer{margin-top:auto;border-top:1px solid var(--riga);padding:20px 0 28px;
+  font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--debole);
+  display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+footer a:hover{color:var(--bianco)}
+
+@media (max-width:760px){
+  .griglia{grid-template-columns:repeat(3,1fr);gap:8px}
+  .velo{display:none}
+}
+@media (max-width:560px){
+  .onda{gap:8px}
+  .onda .dischi{flex-basis:100%}
+  .onda .dischi::before{content:none}
+  /* il nome dell'etichetta non si taglia: va a capo sotto il titolo, incolonnato con lui */
+  .traccia{display:grid;grid-template-columns:26px 1fr;column-gap:14px;row-gap:9px;
+    align-items:start;padding:12px 2px}
+  .pos{grid-column:1;line-height:1.5}
+  .traccia .testo{grid-column:2}
+  .traccia .titolo{font-size:14px}
+  .tag{grid-column:2;justify-self:start;max-width:none}
+}
+@media (max-width:430px){
+  .menu a[href="/"]{display:none}
+  .menu{gap:13px;font-size:10px;letter-spacing:.12em}
+  .testata{gap:10px}
+  .traccia{grid-template-columns:20px 1fr;column-gap:10px}
+  .pos{width:auto;flex-basis:auto;font-size:13px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="contenitore testata">
+    <a class="logo" href="/">provenzano<span class="punto">.</span></a>
+    <nav class="menu">
+      <a href="/crossover/">Archivio</a>
+      <a class="qui" href="/crossover/puntate/">Puntate</a>
+      <a href="/crossover/numeri/">I numeri</a>
+      <a href="/">Home</a>
+    </nav>
+  </div>
+</header>
+
+<main class="contenitore">
+
+  <div class="cartello">
+    <a class="briciola" href="/crossover/puntate/">&larr; Tutte le puntate</a>
+    <h1>Crossover #94<span class="punto">.</span></h1>
+
+    <p class="onda">
+      <span class="eti">In onda</span>
+      <time datetime="2021-10-11">lunedì 11 ottobre 2021</time>
+      <span class="dischi">Il radioshow</span>
+    </p>
+
+
+  </div>
+
+  <section class="sezione">
+    <div class="occhiello">
+      <h2>I 20 dischi</h2>
+    </div>
+    <div class="griglia">
+    <a class="cop top" href="#t1">
+      <img src="https://cdn-images.dzcdn.net/images/cover/7f12cd3217964b4cda270a34eb23f969/250x250-000000-80-0-0.jpg" alt="Afrojack, Lucas &amp; Steve, DubVision — Anywhere With You" loading="lazy" width="600" height="600">
+      <span class="numero">1</span>
+      <span class="velo"><b>Anywhere With You</b>Afrojack, Lucas &amp; Steve, DubVision</span>
+    </a>
+    <a class="cop top" href="#t2">
+      <img src="https://cdn-images.dzcdn.net/images/cover/79f9f94274ef47bbd9025eb37a922234/250x250-000000-80-0-0.jpg" alt="Milk Bar,F3D3 B — Soul Free" loading="lazy" width="600" height="600">
+      <span class="numero">2</span>
+      <span class="velo"><b>Soul Free</b>Milk Bar,F3D3 B</span>
+    </a>
+    <a class="cop top" href="#t3">
+      <img src="https://cdn-images.dzcdn.net/images/cover/51c429347388e6fc68b0025b9df90157/250x250-000000-80-0-0.jpg" alt="Alesso &amp; Marshmello — Chasing stars" loading="lazy" width="600" height="600">
+      <span class="numero">3</span>
+      <span class="velo"><b>Chasing stars</b>Alesso &amp; Marshmello</span>
+    </a>
+    <a class="cop top" href="#t4">
+      <img src="https://cdn-images.dzcdn.net/images/cover/bc022b9185dca36b227a2c967118fdf6/250x250-000000-80-0-0.jpg" alt="Mat.Theo, Rootbox — Missing" loading="lazy" width="600" height="600">
+      <span class="numero">4</span>
+      <span class="velo"><b>Missing</b>Mat.Theo, Rootbox</span>
+    </a>
+    <a class="cop top" href="#t5">
+      <img src="https://cdn-images.dzcdn.net/images/cover/e6e755f069bea84b2d675efc4d768163/250x250-000000-80-0-0.jpg" alt="ATFC, Gene Farris — The Payoff" loading="lazy" width="600" height="600">
+      <span class="numero">5</span>
+      <span class="velo"><b>The Payoff</b>ATFC, Gene Farris</span>
+    </a>
+    <a class="cop top" href="#t6">
+      <img src="https://cdn-images.dzcdn.net/images/cover/0fcab4ba1aab5fa752279a9fb42c6f2f/250x250-000000-80-0-0.jpg" alt="LUVE feat. Nevve — Kids" loading="lazy" width="600" height="600">
+      <span class="numero">6</span>
+      <span class="velo"><b>Kids</b>LUVE feat. Nevve</span>
+    </a>
+    <a class="cop" href="#t7">
+      <img src="https://cdn-images.dzcdn.net/images/cover/4c9cf9ce709ce3a2136507a659c27c09/250x250-000000-80-0-0.jpg" alt="Mambo Brothers — U Got 2" loading="lazy" width="600" height="600">
+      <span class="numero">7</span>
+      <span class="velo"><b>U Got 2</b>Mambo Brothers</span>
+    </a>
+    <a class="cop" href="#t8">
+      <img src="https://cdn-images.dzcdn.net/images/cover/0f15235bfec4adb739baebc63c1448b7/250x250-000000-80-0-0.jpg" alt="Niiko x SWAE — Push And Pull" loading="lazy" width="600" height="600">
+      <span class="numero">8</span>
+      <span class="velo"><b>Push And Pull</b>Niiko x SWAE</span>
+    </a>
+    <a class="cop" href="#t9">
+      <img src="https://cdn-images.dzcdn.net/images/cover/4d9ccb32ccfbb6d7b5f1777b35f0975a/250x250-000000-80-0-0.jpg" alt="Kideko, Saffron Stone — The Music - Kideko Remix" loading="lazy" width="600" height="600">
+      <span class="numero">9</span>
+      <span class="velo"><b>The Music - Kideko Remix</b>Kideko, Saffron Stone</span>
+    </a>
+    <a class="cop" href="#t10">
+      <img src="https://cdn-images.dzcdn.net/images/cover/a981223b7166759289052f466680be58/250x250-000000-80-0-0.jpg" alt="Cosmic Gate — Vertigo" loading="lazy" width="600" height="600">
+      <span class="numero">10</span>
+      <span class="velo"><b>Vertigo</b>Cosmic Gate</span>
+    </a>
+    <a class="cop" href="#t11">
+      <img src="https://cdn-images.dzcdn.net/images/cover/8af537b6282b082b383247b4c11fa746/250x250-000000-80-0-0.jpg" alt="Tchami &amp; Habstrakt — Eternity" loading="lazy" width="600" height="600">
+      <span class="numero">11</span>
+      <span class="velo"><b>Eternity</b>Tchami &amp; Habstrakt</span>
+    </a>
+    <a class="cop" href="#t12">
+      <img src="https://cdn-images.dzcdn.net/images/cover/b8b50493192080c05e9d2b6da768ef3c/250x250-000000-80-0-0.jpg" alt="7 Skies — Pressure" loading="lazy" width="600" height="600">
+      <span class="numero">12</span>
+      <span class="velo"><b>Pressure</b>7 Skies</span>
+    </a>
+    <a class="cop" href="#t13">
+      <img src="https://cdn-images.dzcdn.net/images/cover/9c9f46e2acca7e8c143a3da1c6d86045/250x250-000000-80-0-0.jpg" alt="N0 SIGNE x Emie — Here we go" loading="lazy" width="600" height="600">
+      <span class="numero">13</span>
+      <span class="velo"><b>Here we go</b>N0 SIGNE x Emie</span>
+    </a>
+    <a class="cop" href="#t14">
+      <img src="https://cdn-images.dzcdn.net/images/cover/46d0019fa4834e68bf2200e97e473cef/250x250-000000-80-0-0.jpg" alt="Loudtech — Play the game" loading="lazy" width="600" height="600">
+      <span class="numero">14</span>
+      <span class="velo"><b>Play the game</b>Loudtech</span>
+    </a>
+    <a class="cop" href="#t15">
+      <img src="https://cdn-images.dzcdn.net/images/cover/33ea42c4ad2a8a7c9ac922a06f935e57/250x250-000000-80-0-0.jpg" alt="Loris Buono &amp; Alexander Cruel — It&#x27;s A Game" loading="lazy" width="600" height="600">
+      <span class="numero">15</span>
+      <span class="velo"><b>It&#x27;s A Game</b>Loris Buono &amp; Alexander Cruel</span>
+    </a>
+    <a class="cop" href="#t16">
+      <img src="https://cdn-images.dzcdn.net/images/cover/39f9f89a8c8e81436e9062970329cfda/250x250-000000-80-0-0.jpg" alt="Return of the Jaded — Be The Reason" loading="lazy" width="600" height="600">
+      <span class="numero">16</span>
+      <span class="velo"><b>Be The Reason</b>Return of the Jaded</span>
+    </a>
+    <a class="cop" href="#t17">
+      <img src="https://cdn-images.dzcdn.net/images/cover/568bd326dafb3aa4c24d1d795406f553/250x250-000000-80-0-0.jpg" alt="Filatov &amp; Karas — Au Revoir" loading="lazy" width="600" height="600">
+      <span class="numero">17</span>
+      <span class="velo"><b>Au Revoir</b>Filatov &amp; Karas</span>
+    </a>
+    <a class="cop" href="#t18">
+      <img src="https://cdn-images.dzcdn.net/images/cover/dcf0f9a8fe6373e6f5419aa28eb48d92/250x250-000000-80-0-0.jpg" alt="Ummet Ozcan — Strange World" loading="lazy" width="600" height="600">
+      <span class="numero">18</span>
+      <span class="velo"><b>Strange World</b>Ummet Ozcan</span>
+    </a>
+    <a class="cop" href="#t19">
+      <img src="https://cdn-images.dzcdn.net/images/cover/3d186f918d20f7840cb63a7c2f15eb4a/250x250-000000-80-0-0.jpg" alt="Smalltown DJs — Nobody" loading="lazy" width="600" height="600">
+      <span class="numero">19</span>
+      <span class="velo"><b>Nobody</b>Smalltown DJs</span>
+    </a>
+    <a class="cop" href="#t20">
+      <span class="senza">♪</span>
+      <span class="numero">20</span>
+      <span class="velo"><b>Feel Good</b>Pain &amp; Rossini</span>
+    </a>
+    </div>
+  </section>
+
+  <section class="sezione">
+    <div class="occhiello">
+      <h2>La tracklist</h2>
+    </div>
+    <ol class="tracce">
+    <li class="traccia top" id="t1">
+      <span class="pos">1</span>
+      <span class="testo">
+        <span class="titolo">Anywhere With You</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3AAfrojack">Afrojack</a>, <a href="/crossover/?cerca=artista%3ALucas+%26+Steve">Lucas &amp; Steve</a>, <a href="/crossover/?cerca=artista%3ADubVision">DubVision</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3AWall+Recordings">Wall Recordings</a>
+    </li>
+    <li class="traccia top" id="t2">
+      <span class="pos">2</span>
+      <span class="testo">
+        <span class="titolo">Soul Free</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3AMilk+Bar">Milk Bar</a>,<a href="/crossover/?cerca=artista%3AF3D3+B">F3D3 B</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3ATotal+Freedom+Recordings">Total Freedom Recordings</a>
+    </li>
+    <li class="traccia top" id="t3">
+      <span class="pos">3</span>
+      <span class="testo">
+        <span class="titolo">Chasing stars</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3AAlesso">Alesso</a> &amp; <a href="/crossover/?cerca=artista%3AMarshmello">Marshmello</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3A10%3A22+pm%2FAstralwerks">10:22 pm/Astralwerks</a>
+    </li>
+    <li class="traccia top" id="t4">
+      <span class="pos">4</span>
+      <span class="testo">
+        <span class="titolo">Missing</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3AMat.Theo">Mat.Theo</a>, <a href="/crossover/?cerca=artista%3ARootbox">Rootbox</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3AReshape+Black">Reshape Black</a>
+    </li>
+    <li class="traccia top" id="t5">
+      <span class="pos">5</span>
+      <span class="testo">
+        <span class="titolo">The Payoff</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3AATFC">ATFC</a>, <a href="/crossover/?cerca=artista%3AGene+Farris">Gene Farris</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3AToolroom+Records">Toolroom Records</a>
+    </li>
+    <li class="traccia top" id="t6">
+      <span class="pos">6</span>
+      <span class="testo">
+        <span class="titolo">Kids</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3ALUVE">LUVE</a> feat. <a href="/crossover/?cerca=artista%3ANevve">Nevve</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3AArmada+Music">Armada Music</a>
+    </li>
+    <li class="traccia" id="t7">
+      <span class="pos">7</span>
+      <span class="testo">
+        <span class="titolo">U Got 2</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3AMambo+Brothers">Mambo Brothers</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3AArmada+Music">Armada Music</a>
+    </li>
+    <li class="traccia" id="t8">
+      <span class="pos">8</span>
+      <span class="testo">
+        <span class="titolo">Push And Pull</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3ANiiko+x+SWAE">Niiko x SWAE</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3AArmada+Music">Armada Music</a>
+    </li>
+    <li class="traccia" id="t9">
+      <span class="pos">9</span>
+      <span class="testo">
+        <span class="titolo">The Music - Kideko Remix</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3AKideko">Kideko</a>, <a href="/crossover/?cerca=artista%3ASaffron+Stone">Saffron Stone</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3AArmada+Music">Armada Music</a>
+    </li>
+    <li class="traccia" id="t10">
+      <span class="pos">10</span>
+      <span class="testo">
+        <span class="titolo">Vertigo</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3ACosmic+Gate">Cosmic Gate</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3AWake+Your+Mind+Records">Wake Your Mind Records</a>
+    </li>
+    <li class="traccia" id="t11">
+      <span class="pos">11</span>
+      <span class="testo">
+        <span class="titolo">Eternity</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3ATchami">Tchami</a> &amp; <a href="/crossover/?cerca=artista%3AHabstrakt">Habstrakt</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3AConfession+Records">Confession Records</a>
+    </li>
+    <li class="traccia" id="t12">
+      <span class="pos">12</span>
+      <span class="testo">
+        <span class="titolo">Pressure</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3A7+Skies">7 Skies</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3AHexagon">Hexagon</a>
+    </li>
+    <li class="traccia" id="t13">
+      <span class="pos">13</span>
+      <span class="testo">
+        <span class="titolo">Here we go</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3AN0+SIGNE">N0 SIGNE</a> x <a href="/crossover/?cerca=artista%3AEmie">Emie</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3AHexagon">Hexagon</a>
+    </li>
+    <li class="traccia" id="t14">
+      <span class="pos">14</span>
+      <span class="testo">
+        <span class="titolo">Play the game</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3ALoudtech">Loudtech</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3AHexagon">Hexagon</a>
+    </li>
+    <li class="traccia" id="t15">
+      <span class="pos">15</span>
+      <span class="testo">
+        <span class="titolo">It&#x27;s A Game</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3ALoris+Buono">Loris Buono</a> &amp; <a href="/crossover/?cerca=artista%3AAlexander+Cruel">Alexander Cruel</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3ARevealed+Radar">Revealed Radar</a>
+    </li>
+    <li class="traccia" id="t16">
+      <span class="pos">16</span>
+      <span class="testo">
+        <span class="titolo">Be The Reason</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3AReturn+of+the+Jaded">Return of the Jaded</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3ASpinnin%27+Records">Spinnin&#x27; Records</a>
+    </li>
+    <li class="traccia" id="t17">
+      <span class="pos">17</span>
+      <span class="testo">
+        <span class="titolo">Au Revoir</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3AFilatov+%26+Karas">Filatov &amp; Karas</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3AWarner+Music+Russia">Warner Music Russia</a>
+    </li>
+    <li class="traccia" id="t18">
+      <span class="pos">18</span>
+      <span class="testo">
+        <span class="titolo">Strange World</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3AUmmet+Ozcan">Ummet Ozcan</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3ASpinnin%27+Records">Spinnin&#x27; Records</a>
+    </li>
+    <li class="traccia" id="t19">
+      <span class="pos">19</span>
+      <span class="testo">
+        <span class="titolo">Nobody</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3ASmalltown+DJs">Smalltown DJs</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3ABox+of+Cats">Box of Cats</a>
+    </li>
+    <li class="traccia" id="t20">
+      <span class="pos">20</span>
+      <span class="testo">
+        <span class="titolo">Feel Good</span>
+        <span class="artisti"><a href="/crossover/?cerca=artista%3APain">Pain</a> &amp; <a href="/crossover/?cerca=artista%3ARossini">Rossini</a></span>
+      </span>
+      <a class="tag etichetta" href="/crossover/?cerca=etichetta%3ATiger+Records">Tiger Records</a>
+    </li>
+    </ol>
+  </section>
+
+  <nav class="coda">
+    <a href="/crossover/93/">
+      <span class="eti">Puntata precedente</span>
+      <span class="voce">Crossover #93</span>
+    </a>
+    <a href="/crossover/95/">
+      <span class="eti">Puntata successiva</span>
+      <span class="voce">Crossover #95</span>
+    </a>
+    <a href="/crossover/puntate/">
+      <span class="eti">Tutte le puntate</span>
+      <span class="voce">L&rsquo;elenco completo, dal 2019</span>
+    </a>
+    <a href="https://open.spotify.com/playlist/2B6hCFilLMfR00cdb81Tqp" target="_blank" rel="noopener">
+      <span class="eti">Playlist ufficiale</span>
+      <span class="voce">Crossover su Spotify</span>
+    </a>
+  </nav>
+
+</main>
+
+<footer class="contenitore">
+  <span>&copy; 2026 Provenzano Dj</span>
+  <span>Crossover #94 &middot; in onda lunedì 11 ottobre 2021</span>
+</footer>
+
+</body>
+</html>

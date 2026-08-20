@@ -169,6 +169,7 @@ footer a:hover{color:var(--bianco)}
     <h1>Crossover<span class="punto">.</span> l'archivio</h1>
     <p class="sotto">Ogni disco passato in <b>New Music Friday</b> dalla prima puntata a oggi.
       Cerca un artista, un titolo, un'etichetta — o il numero di una puntata.
+      Scrivendo <b>artista:</b> o <b>etichetta:</b> davanti si cerca solo lì.
       Per ascoltarli c'è la <a class="playlist"
       href="https://open.spotify.com/playlist/2B6hCFilLMfR00cdb81Tqp" target="_blank"
       rel="noopener">playlist su Spotify</a>, aggiornata ogni venerdì.</p>
@@ -272,6 +273,12 @@ footer a:hover{color:var(--bianco)}
         b: b,
         cerca: ' ' + norm(b.t + ' ' + (b.ta || '') + ' ' + artisti + ' ' + etichetta) +
                ' ' + b.p.join(' ') + ' ',
+        // ⚠️ Due testi separati per chi cerca *solo* fra gli artisti o *solo* fra le
+        // etichette. Serve perche' i nomi si somigliano: "Wh0" e' un artista ed e'
+        // anche l'etichetta WH0 Plays, e cercando l'artista uscivano venti dischi
+        // altrui usciti su quell'etichetta (visto da Amerigo il 20/08/2026).
+        cercaA: ' ' + norm(artisti) + ' ',
+        cercaE: ' ' + norm(etichetta) + ' ',
         nomiArtisti: artisti,
         anni: b.p.map(annoDi)
       };
@@ -291,9 +298,16 @@ footer a:hover{color:var(--bianco)}
   }
 
   function filtra() {
-    var testo = norm($q.value);
+    // "artista:Wh0" cerca solo fra gli artisti, "etichetta:Toolroom" solo fra le
+    // etichette: e' quello che fa il click su un nome. Senza prefisso si cerca
+    // dappertutto, come prima.
+    var grezzo = $q.value.trim();
+    var campo = null;
+    var conPrefisso = grezzo.match(/^(artista|etichetta)\s*:\s*([\s\S]*)$/i);
+    if (conPrefisso) { campo = conPrefisso[1].toLowerCase(); grezzo = conPrefisso[2].trim(); }
+    var testo = norm(grezzo);
     // "#331" e "331" cercano la puntata; il resto e' testo libero
-    var puntataCercata = $q.value.trim().match(/^#?(\d{1,3})$/);
+    var puntataCercata = grezzo.match(/^#?(\d{1,3})$/);
     var parole = testo ? testo.split(' ').filter(Boolean) : [];
     var anno = $anno.value;
 
@@ -306,11 +320,14 @@ footer a:hover{color:var(--bianco)}
       if (puntataCercata) {
         return v.b.p.indexOf(parseInt(puntataCercata[1], 10)) !== -1;
       }
+      var dove = campo === 'artista' ? v.cercaA
+               : campo === 'etichetta' ? v.cercaE
+               : v.cerca;
       for (var i = 0; i < parole.length; i++) {
         // inizio di parola, non un pezzo qualsiasi: "size" trova SIZE Records,
         // non "Supersized". Scrivendo a mano resta comodo, perche' "spinn" e'
         // pur sempre l'inizio di "Spinnin'".
-        if (v.cerca.indexOf(' ' + parole[i]) === -1) return false;
+        if (dove.indexOf(' ' + parole[i]) === -1) return false;
       }
       return true;
     });
@@ -399,8 +416,10 @@ footer a:hover{color:var(--bianco)}
       if (k) artisti.appendChild(document.createTextNode(unione));
       var nome = dati.artisti[i];
       var bottone = elemento('button', null, nome);
-      bottone.title = 'Cerca ' + nome;
-      bottone.addEventListener('click', function () { $q.value = nome; filtra(); });
+      bottone.title = 'Cerca ' + nome + ' fra gli artisti';
+      bottone.addEventListener('click', function () {
+        $q.value = 'artista:' + nome; filtra();
+      });
       artisti.appendChild(bottone);
     });
     if (!b.a.length) artisti.textContent = '—';
@@ -433,15 +452,19 @@ footer a:hover{color:var(--bianco)}
     if (b.e !== undefined) {
       var nomeEtichetta = dati.etichette[b.e];
       var et = elemento('button', 'tag etichetta', nomeEtichetta);
-      et.title = 'Cerca ' + nomeEtichetta;
-      et.addEventListener('click', function () { $q.value = nomeEtichetta; filtra(); });
+      et.title = 'Cerca i dischi usciti su ' + nomeEtichetta;
+      et.addEventListener('click', function () {
+        $q.value = 'etichetta:' + nomeEtichetta; filtra();
+      });
       meta.appendChild(et);
       // la sottoetichetta accanto alla casa madre: "Spinnin' Records · Spinnin' Deep"
       if (b.es !== undefined) {
         var nomeSotto = dati.etichette[b.es];
         var sub = elemento('button', 'tag etichetta sotto', nomeSotto);
-        sub.title = 'Cerca ' + nomeSotto;
-        sub.addEventListener('click', function () { $q.value = nomeSotto; filtra(); });
+        sub.title = 'Cerca i dischi usciti su ' + nomeSotto;
+        sub.addEventListener('click', function () {
+          $q.value = 'etichetta:' + nomeSotto; filtra();
+        });
         meta.appendChild(sub);
       }
     } else {
