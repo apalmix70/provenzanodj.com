@@ -80,6 +80,16 @@ h2 .punto{color:var(--rosso)}
 .voce a.nome:hover{color:var(--rosso)}
 .voce .cop{width:40px;height:40px;flex:0 0 40px;border-radius:4px;object-fit:cover;background:#141414}
 
+/* i tab dell'anno sopra una classifica: "Sempre" e poi gli anni, dal più recente */
+.anni-tab{display:flex;flex-wrap:wrap;gap:6px;margin-top:16px}
+.anni-tab button{background:var(--pannello);border:1px solid #262626;border-radius:999px;
+  padding:6px 13px;color:var(--grigio);font-family:inherit;font-size:12px;
+  font-variant-numeric:tabular-nums;cursor:pointer}
+.anni-tab button:hover{border-color:#3d3d3d;color:var(--bianco)}
+.anni-tab button.qui{background:var(--rosso);border-color:var(--rosso);color:#fff;font-weight:600}
+.vuoto{margin-top:18px;padding:18px;border:1px dashed #262626;border-radius:12px;
+  color:var(--debole);font-size:13px}
+
 .apri{display:block;width:100%;margin-top:12px;padding:11px;text-align:center;
   background:var(--pannello);border:1px solid #262626;border-radius:10px;color:var(--bianco);
   font-family:inherit;font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;cursor:pointer}
@@ -241,6 +251,41 @@ footer a:hover{color:var(--bianco)}
     return contenitore;
   }
 
+  // Una classifica con i tab dell'anno sopra: "Sempre" è quella di tutti i tempi,
+  // gli anni sono le classifiche di quel solo anno. Si ridisegna la lista al volo,
+  // i dati ci sono già tutti (statistiche.json li porta con sé).
+  function classificaConAnni(tutti, perAnno, opzioni) {
+    var box = el('div');
+    var tab = el('div', 'anni-tab');
+    var dove = el('div');
+    var anni = Object.keys(perAnno || {}).sort().reverse();
+    var scelte = [['Sempre', null]].concat(anni.map(function (a) { return [a, a]; }));
+
+    function mostra(anno, bottone) {
+      var voci = anno ? (perAnno[anno] || [])[opzioni.chiave] || [] : tutti;
+      dove.innerHTML = '';
+      if (!voci.length) {
+        dove.appendChild(el('div', 'vuoto', 'In quell\'anno non c\'è niente da mostrare.'));
+      } else {
+        dove.appendChild(classifica(voci, opzioni));
+      }
+      var vecchi = tab.querySelectorAll('button');
+      for (var i = 0; i < vecchi.length; i++) { vecchi[i].classList.remove('qui'); }
+      bottone.classList.add('qui');
+    }
+
+    scelte.forEach(function (s, i) {
+      var b = el('button', null, s[0]);
+      b.addEventListener('click', function () { mostra(s[1], b); });
+      tab.appendChild(b);
+      if (i === 0) { mostra(s[1], b); }
+    });
+
+    box.appendChild(tab);
+    box.appendChild(dove);
+    return box;
+  }
+
   function sezione(titolo, spiega, contenuto) {
     var s = document.createElement('section');
     var h = el('h2');
@@ -283,8 +328,10 @@ footer a:hover{color:var(--bianco)}
 
     pagina.appendChild(sezione('Gli artisti più presenti',
       'Quante volte un artista è passato in puntata: si contano tutti gli accreditati, ' +
-      'non solo il primo nome. Clicca per vedere i suoi dischi nell\'archivio.',
-      classifica(s.top_artisti, {
+      'non solo il primo nome. Clicca per vedere i suoi dischi nell\'archivio. ' +
+      'Con i tab passi dalla classifica di sempre a quella di un anno solo.',
+      classificaConAnni(s.top_artisti, s.classifiche_anno, {
+        chiave: 'artisti',
         nome: function (v) { return v.nome; },
         sotto: function (v) { return v.brani + (v.brani === 1 ? ' disco' : ' dischi') + ' diversi'; },
         valore: function (v) { return v.presenze; },
@@ -295,8 +342,11 @@ footer a:hover{color:var(--bianco)}
     pagina.appendChild(sezione('Le etichette più presenti',
       'L\'etichetta di ogni disco, presa dai nomi dei file, da Deezer e dal DJ pool. ' +
       'Le sigle societarie sono unificate: "Armada Music B.V." e "Armada Music" contano ' +
-      'insieme. I mashup restano fuori: non escono su etichetta.',
-      classifica(s.top_etichette, {
+      'insieme, e le sottoetichette contano sotto la casa madre. I mashup restano ' +
+      'fuori: non escono su etichetta. Con i tab passi dalla classifica di sempre a ' +
+      'quella di un anno solo.',
+      classificaConAnni(s.top_etichette, s.classifiche_anno, {
+        chiave: 'etichette',
         nome: function (v) { return v.nome; },
         sotto: function (v) { return v.brani + (v.brani === 1 ? ' disco' : ' dischi') + ' diversi'; },
         valore: function (v) { return v.presenze; },
