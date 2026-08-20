@@ -43,13 +43,6 @@ header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;
 .cartello .sotto{margin-top:12px;color:var(--grigio);font-size:14px;line-height:1.6;max-width:64ch}
 .cartello .sotto b{color:var(--bianco);font-weight:600}
 
-/* la legenda dice cosa cambia fra un numero e l'altro, senza farne un discorso */
-.legenda{display:flex;flex-wrap:wrap;gap:16px;margin-top:16px;
-  font-size:12px;color:var(--grigio);align-items:center}
-.legenda span{display:inline-flex;align-items:center;gap:7px}
-.segno{width:26px;height:18px;border:1px solid #242424;border-radius:5px;display:block}
-.segno.pagina{border-color:var(--rosso)}
-
 .anno{padding:26px 0 0}
 .titolo-anno{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;
   padding-bottom:12px;border-bottom:1px solid var(--riga);margin-bottom:14px}
@@ -59,13 +52,12 @@ header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;
 
 /* griglia e non flex: cosi' una riga con un numero solo non si allarga a tutta pagina */
 .numeri{display:grid;grid-template-columns:repeat(auto-fill,minmax(58px,1fr));gap:6px}
+/* solo le puntate con una pagina sono premibili: le altre stanno li', spente */
 .n{display:inline-flex;align-items:center;justify-content:center;
   min-width:56px;padding:10px 8px;border:1px solid #242424;border-radius:8px;
-  font-size:13.5px;color:var(--grigio);font-variant-numeric:tabular-nums;
-  transition:border-color .15s,color .15s}
-.n:hover{border-color:#3d3d3d;color:var(--bianco)}
-/* bordo rosso: questa puntata ha una pagina sua, con le copertine */
-.n.pagina{color:var(--bianco);border-color:var(--rosso)}
+  font-size:13.5px;color:var(--debole);font-variant-numeric:tabular-nums;
+  cursor:default;transition:border-color .15s,color .15s}
+.n.pagina{color:var(--bianco);border-color:var(--rosso);cursor:pointer}
 .n.pagina:hover{background:#1a0606}
 
 .vuoto{padding:60px 0;text-align:center;color:var(--grigio);font-size:14px;line-height:1.7}
@@ -104,13 +96,7 @@ footer a:hover{color:var(--bianco)}
 
   <div class="cartello">
     <h1>Crossover<span class="punto">.</span> le puntate</h1>
-    <p class="sotto">Ogni numero da quando è cominciato, anno per anno.
-      Premine uno e vedi <b>i suoi 18 dischi</b>.</p>
-
-    <div class="legenda">
-      <span><i class="segno pagina"></i> ha una pagina sua, con le copertine</span>
-      <span><i class="segno"></i> apre la sua scaletta nell'archivio</span>
-    </div>
+    <p class="sotto">Tutte le tracklist puntata per puntata, anno per anno.</p>
   </div>
 
   <div id="anni"></div>
@@ -171,12 +157,13 @@ footer a:hover{color:var(--bianco)}
       var numeri = elemento('div', 'numeri');
       lista.forEach(function (p) {
         var n = p[0];
-        var a = elemento('a', conPagina[n] ? 'n pagina' : 'n', String(n));
-        a.href = conPagina[n] ? '/crossover/' + n + '/'
-                              : '/crossover/?cerca=%23' + n;
+        // dove la pagina non c'e' il numero e' uno <span>, non un link morto
+        var voce = conPagina[n] ? elemento('a', 'n pagina', String(n))
+                                : elemento('span', 'n', String(n));
+        if (conPagina[n]) { voce.href = '/crossover/' + n + '/'; }
         var quando = italiana(p[1]);
-        a.title = 'Puntata ' + n + (quando ? ' — in onda il ' + quando : '');
-        numeri.appendChild(a);
+        voce.title = 'Puntata ' + n + (quando ? ' — in onda il ' + quando : '');
+        numeri.appendChild(voce);
       });
       sezione.appendChild(numeri);
       pezzo.appendChild(sezione);
