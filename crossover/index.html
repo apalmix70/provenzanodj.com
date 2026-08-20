@@ -359,10 +359,7 @@ footer a:hover{color:var(--bianco)}
   }
 
   function aggiornaConteggio() {
-    var dischi = risultati.length;
-    var volte = risultati.reduce(function (s, v) { return s + v.b.p.length; }, 0);
-    $conteggio.innerHTML = '<b>' + dischi.toLocaleString('it') + '</b> dischi · <b>' +
-      volte.toLocaleString('it') + '</b> passaggi in puntata';
+    $conteggio.innerHTML = '<b>' + risultati.length.toLocaleString('it') + '</b> dischi';
   }
 
   function elemento(tag, classe, testo) {
