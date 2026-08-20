@@ -50,7 +50,8 @@ header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;
 .onda .eti{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--debole);
   border:1px solid #242424;border-radius:999px;padding:4px 10px}
 .onda time{font-weight:600}
-.onda .dischi{color:var(--grigio);font-size:14px}
+.onda .dischi{color:var(--grigio);font-size:12.5px;letter-spacing:.16em;
+  text-transform:uppercase}
 .onda .dischi::before{content:"· "}
 
 /* ---------------------------------------------------------------- tasti */
@@ -81,9 +82,6 @@ header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;
 /* un filo di bordo: le copertine bianche non si sciolgono nel fondo nero */
 .cop::after{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;
   border:1px solid rgba(255,255,255,.09);border-radius:6px}
-.cop.top::after{border-color:transparent}
-/* la top 6 si riconosce dal filo rosso, anche quando le colonne diventano tre */
-.cop.top{outline:1.5px solid var(--rosso);outline-offset:-1.5px}
 .numero{position:absolute;left:0;top:0;z-index:2;
   font-family:'Anton',Arial,sans-serif;font-size:12px;letter-spacing:.05em;
   padding:4px 8px;background:rgba(0,0,0,.72);color:var(--bianco);
@@ -177,7 +175,7 @@ footer a:hover{color:var(--bianco)}
     <p class="onda">
       <span class="eti">In onda</span>
       <time datetime="2026-08-07">venerdì 7 agosto 2026</time>
-      <span class="dischi">18 dischi scelti fra le uscite della settimana</span>
+      <span class="dischi">New Music Friday</span>
     </p>
 
     <div class="tasti">
@@ -194,8 +192,7 @@ footer a:hover{color:var(--bianco)}
 
   <section class="sezione">
     <div class="occhiello">
-      <h2>I 18 dischi</h2>
-      <p>Le prime sei sono la <em>top 6</em> della puntata.</p>
+      <h2>I 18 dischi e le top 6</h2>
     </div>
     <div class="griglia">
     <a class="cop top" href="#t1">
@@ -294,7 +291,6 @@ footer a:hover{color:var(--bianco)}
   <section class="sezione">
     <div class="occhiello">
       <h2>La tracklist</h2>
-      <p>Nell&rsquo;ordine in cui sono passati.</p>
     </div>
     <ol class="tracce">
     <li class="traccia top" id="t1">
