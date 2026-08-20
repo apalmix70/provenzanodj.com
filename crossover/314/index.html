@@ -66,6 +66,15 @@ header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;
 .tasto b{font-weight:600}
 .tasto span{color:var(--grigio)}
 
+/* Il player Mixcloud compare qui dentro, al posto del tasto, solo quando lo si
+   chiede. Vuoto non occupa niente: e' un div senza altezza finche' non ha dentro
+   l'iframe. Tema scuro (light=0), se no in mezzo alla pagina nera si apre un
+   rettangolo bianco. */
+.player:empty{display:none}
+.player{margin-top:16px}
+.player iframe{display:block;width:100%;border:0;border-radius:12px;
+  background:var(--pannello)}
+
 /* ---------------------------------------------------------------- griglia */
 .sezione{padding:30px 0 0}
 .occhiello{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;
@@ -185,16 +194,18 @@ footer a:hover{color:var(--bianco)}
       <span class="dischi">New Music Friday</span>
     </p>
 
-    <div class="tasti">
+    <div class="tasti" id="tasti">
       <a class="tasto" href="https://www.instagram.com/p/DW9XDJlDA-x/" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2c3.2 0 3.6 0 4.9.07 1.2.05 1.8.25 2.2.42.6.22 1 .48 1.4.9.4.4.68.8.9 1.4.17.4.37 1 .42 2.2.06 1.3.07 1.7.07 4.9s0 3.6-.07 4.9c-.05 1.2-.25 1.8-.42 2.2-.22.6-.5 1-.9 1.4-.4.4-.8.68-1.4.9-.4.17-1 .37-2.2.42-1.3.06-1.7.07-4.9.07s-3.6 0-4.9-.07c-1.2-.05-1.8-.25-2.2-.42-.6-.22-1-.5-1.4-.9-.4-.4-.68-.8-.9-1.4-.17-.4-.37-1-.42-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.07-4.9c.05-1.2.25-1.8.42-2.2.22-.6.5-1 .9-1.4.4-.4.8-.68 1.4-.9.4-.17 1-.37 2.2-.42C8.4 2.2 8.8 2.2 12 2.2zm0 1.8c-3.1 0-3.5 0-4.7.07-1.1.05-1.7.24-2.1.4-.5.2-.9.44-1.3.84-.4.4-.64.8-.84 1.3-.16.4-.35 1-.4 2.1C2.6 9.9 2.6 10.3 2.6 12s0 2.1.06 3.3c.05 1.1.24 1.7.4 2.1.2.5.44.9.84 1.3.4.4.8.64 1.3.84.4.16 1 .35 2.1.4 1.2.06 1.6.06 4.7.06s3.5 0 4.7-.06c1.1-.05 1.7-.24 2.1-.4.5-.2.9-.44 1.3-.84.4-.4.64-.8.84-1.3.16-.4.35-1 .4-2.1.06-1.2.06-1.6.06-3.3s0-2.1-.06-3.3c-.05-1.1-.24-1.7-.4-2.1-.2-.5-.44-.9-.84-1.3-.4-.4-.8-.64-1.3-.84-.4-.16-1-.35-2.1-.4C15.5 4 15.1 4 12 4zm0 3.1a4.9 4.9 0 110 9.8 4.9 4.9 0 010-9.8zm0 1.8a3.1 3.1 0 100 6.2 3.1 3.1 0 000-6.2zm5.1-.9a1.15 1.15 0 11-2.3 0 1.15 1.15 0 012.3 0z"/></svg>
         <b>Il post su Instagram</b> <span>&middot; il carosello</span>
       </a>
-      <a class="tasto" href="https://www.mixcloud.com/provenzanodj/crossover-314/" target="_blank" rel="noopener">
+      <a class="tasto" id="ascolta" href="https://www.mixcloud.com/provenzanodj/crossover-314/" target="_blank" rel="noopener"
+         data-feed="/provenzanodj/crossover-314/">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9.5h2v5H3v-5zm3.5-2h2v9h-2v-9zm3.5-2.5h2v14h-2V5zm3.5 2.5h2v9h-2v-9zm3.5 2h2v5h-2v-5zM20.5 11h2v2h-2v-2z"/></svg>
-        <b>La puntata su Mixcloud</b> <span>&middot; il set mixato</span>
+        <b>Ascolta la puntata</b> <span>&middot; il set mixato</span>
       </a>
     </div>
+    <div class="player" id="player"></div>
   </div>
 
   <section class="sezione">
@@ -472,6 +483,30 @@ footer a:hover{color:var(--bianco)}
   <span>&copy; 2026 Provenzano Dj</span>
   <span>Crossover #314 &middot; in onda venerdì 10 aprile 2026</span>
 </footer>
+
+<script>
+// Il set si ascolta restando qui: al click il tasto sparisce e al suo posto arriva
+// il player di Mixcloud, che parte da solo (autoplay=1) — un click solo, come prima.
+// ⚠️ L'iframe si costruisce **adesso**, non e' scritto nella pagina: finche' nessuno
+// clicca, di Mixcloud non si scarica niente e nessun cookie loro entra in casa.
+(function () {
+  var tasto = document.getElementById('ascolta');
+  if (!tasto) return;                        // puntata senza indirizzo Mixcloud
+  tasto.addEventListener('click', function (ev) {
+    if (ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.button === 1) return;  // aprire in
+    ev.preventDefault();                                                     // un'altra scheda
+    var i = document.createElement('iframe');                                // resta possibile
+    i.height = 120;
+    i.setAttribute('allow', 'autoplay');
+    i.title = 'Il set mixato di questa puntata su Mixcloud';
+    i.src = 'https://player-widget.mixcloud.com/widget/iframe/'
+          + '?hide_cover=1&light=0&autoplay=1&feed='
+          + encodeURIComponent(tasto.dataset.feed);
+    document.getElementById('player').appendChild(i);
+    tasto.remove();
+  });
+})();
+</script>
 
 </body>
 </html>

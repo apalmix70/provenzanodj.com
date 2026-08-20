@@ -66,6 +66,15 @@ header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;
 .tasto b{font-weight:600}
 .tasto span{color:var(--grigio)}
 
+/* Il player Mixcloud compare qui dentro, al posto del tasto, solo quando lo si
+   chiede. Vuoto non occupa niente: e' un div senza altezza finche' non ha dentro
+   l'iframe. Tema scuro (light=0), se no in mezzo alla pagina nera si apre un
+   rettangolo bianco. */
+.player:empty{display:none}
+.player{margin-top:16px}
+.player iframe{display:block;width:100%;border:0;border-radius:12px;
+  background:var(--pannello)}
+
 /* ---------------------------------------------------------------- griglia */
 .sezione{padding:30px 0 0}
 .occhiello{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;
@@ -476,6 +485,30 @@ footer a:hover{color:var(--bianco)}
   <span>&copy; 2026 Provenzano Dj</span>
   <span>Crossover #62 &middot; in onda lunedì 18 gennaio 2021</span>
 </footer>
+
+<script>
+// Il set si ascolta restando qui: al click il tasto sparisce e al suo posto arriva
+// il player di Mixcloud, che parte da solo (autoplay=1) — un click solo, come prima.
+// ⚠️ L'iframe si costruisce **adesso**, non e' scritto nella pagina: finche' nessuno
+// clicca, di Mixcloud non si scarica niente e nessun cookie loro entra in casa.
+(function () {
+  var tasto = document.getElementById('ascolta');
+  if (!tasto) return;                        // puntata senza indirizzo Mixcloud
+  tasto.addEventListener('click', function (ev) {
+    if (ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.button === 1) return;  // aprire in
+    ev.preventDefault();                                                     // un'altra scheda
+    var i = document.createElement('iframe');                                // resta possibile
+    i.height = 120;
+    i.setAttribute('allow', 'autoplay');
+    i.title = 'Il set mixato di questa puntata su Mixcloud';
+    i.src = 'https://player-widget.mixcloud.com/widget/iframe/'
+          + '?hide_cover=1&light=0&autoplay=1&feed='
+          + encodeURIComponent(tasto.dataset.feed);
+    document.getElementById('player').appendChild(i);
+    tasto.remove();
+  });
+})();
+</script>
 
 </body>
 </html>
