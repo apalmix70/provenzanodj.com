@@ -239,11 +239,15 @@ footer a:hover{color:var(--bianco)}
       // la sottoetichetta si cerca insieme alla casa madre: chi cerca "Spinnin Deep"
       // deve trovare i suoi 44 dischi, anche se in classifica contano sotto Spinnin'
       if (b.es !== undefined) { etichetta += ' ' + pacchetto.etichette[b.es]; }
-      var puntate = b.p.map(function (n) { return '#' + n; }).join(' ');
+      // ⚠️ Il testo su cui si cerca sta fra due spazi, e ogni parola e' separata: cosi'
+      // la ricerca puo' attaccarsi all'INIZIO di una parola e non in mezzo. Senza,
+      // cercare "size" tirava dentro "Supersized" dei Bingo Players, che con SIZE
+      // Records non c'entra niente (visto da Amerigo il 20/08/2026).
+      // Il numero di puntata si scrive senza cancelletto: "#331" e "331" cercano uguale.
       return {
         b: b,
-        cerca: norm(b.t + ' ' + (b.ta || '') + ' ' + artisti + ' ' + etichetta +
-                    '') + ' ' + puntate,
+        cerca: ' ' + norm(b.t + ' ' + (b.ta || '') + ' ' + artisti + ' ' + etichetta) +
+               ' ' + b.p.join(' ') + ' ',
         nomiArtisti: artisti,
         anni: b.p.map(annoDi)
       };
@@ -275,7 +279,10 @@ footer a:hover{color:var(--bianco)}
         if (v.b.p.indexOf(parseInt(puntataCercata[1], 10)) !== -1) return true;
       }
       for (var i = 0; i < parole.length; i++) {
-        if (v.cerca.indexOf(parole[i]) === -1) return false;
+        // inizio di parola, non un pezzo qualsiasi: "size" trova SIZE Records,
+        // non "Supersized". Scrivendo a mano resta comodo, perche' "spinn" e'
+        // pur sempre l'inizio di "Spinnin'".
+        if (v.cerca.indexOf(' ' + parole[i]) === -1) return false;
       }
       return true;
     });
