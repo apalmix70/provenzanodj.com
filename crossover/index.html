@@ -107,6 +107,10 @@ select:focus,.bottone:focus-visible{border-color:var(--rosso)}
 .tag:hover{border-color:#3d3d3d;color:var(--bianco)}
 .tag.puntata{color:var(--bianco);border-color:#333}
 .tag.puntata b{color:var(--rosso);font-weight:400}
+/* la puntata che ha una pagina sua porta li'; le altre filtrano l'archivio */
+.tag.puntata.va::after{content:" ›";color:var(--debole)}
+.tag.puntata.va:hover{border-color:var(--rosso)}
+.tag.puntata.va:hover::after{color:var(--rosso)}
 .tag.etichetta{max-width:230px;overflow:hidden;text-overflow:ellipsis}
 .tag.etichetta.sotto{border-style:dashed;color:var(--debole)}
 .tag.etichetta.sotto:hover{color:var(--grigio)}
@@ -202,6 +206,7 @@ footer a:hover{color:var(--bianco)}
 
   var PASSO = 120;          // quanti dischi si disegnano per volta
   var dati = null, indice = [], risultati = [], mostrati = 0;
+  var conPagina = {};       // le puntate che hanno una pagina propria sul sito
 
   var $q = document.getElementById('q');
   var $anno = document.getElementById('anno');
@@ -231,6 +236,7 @@ footer a:hover{color:var(--bianco)}
     dati = pacchetto;
     dati.data = {};
     pacchetto.puntate.forEach(function (p) { dati.data[p[0]] = p[1]; });
+    (pacchetto.pagine || []).forEach(function (n) { conPagina[n] = true; });
 
     // un solo testo normalizzato per disco: e' su questo che si cerca
     indice = pacchetto.brani.map(function (b) {
@@ -386,11 +392,22 @@ footer a:hover{color:var(--bianco)}
 
     var meta = elemento('div', 'meta');
     b.p.slice().reverse().forEach(function (n) {
-      var t = elemento('button', 'tag puntata');
-      t.innerHTML = 'Puntata <b>' + n + '</b>';
       var d = dati.data[n];
-      t.title = d ? 'In onda il ' + d.split('-').reverse().join('/') : 'Puntata ' + n;
-      t.addEventListener('click', function () { $q.value = '#' + n; $anno.value = ''; filtra(); });
+      var quando = d ? 'In onda il ' + d.split('-').reverse().join('/') : 'Puntata ' + n;
+      var t;
+      if (conPagina[n]) {
+        // c'e' la pagina della puntata: il tasto ci porta, invece di filtrare qui
+        t = elemento('a', 'tag puntata va');
+        t.href = '/crossover/' + n + '/';
+        t.title = quando + ' — apri la puntata';
+      } else {
+        t = elemento('button', 'tag puntata');
+        t.title = quando;
+        t.addEventListener('click', function () {
+          $q.value = '#' + n; $anno.value = ''; filtra();
+        });
+      }
+      t.innerHTML = 'Puntata <b>' + n + '</b>';
       meta.appendChild(t);
     });
     if (b.e !== undefined) {
