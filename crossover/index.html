@@ -299,8 +299,12 @@ footer a:hover{color:var(--bianco)}
 
     risultati = indice.filter(function (v) {
       if (anno && v.anni.indexOf(anno) === -1) return false;
+      // Un numero da solo e' la puntata, e basta: prima usciva anche il testo che
+      // contiene quel numero, e cercando 303 spuntava un diciannovesimo disco della
+      // puntata 42 uscito sull'etichetta 303lovers. Chi cerca l'etichetta scrive il
+      // suo nome, che numero da solo non e'. (Visto da Amerigo il 20/08/2026.)
       if (puntataCercata) {
-        if (v.b.p.indexOf(parseInt(puntataCercata[1], 10)) !== -1) return true;
+        return v.b.p.indexOf(parseInt(puntataCercata[1], 10)) !== -1;
       }
       for (var i = 0; i < parole.length; i++) {
         // inizio di parola, non un pezzo qualsiasi: "size" trova SIZE Records,
@@ -359,7 +363,8 @@ footer a:hover{color:var(--bianco)}
   }
 
   function aggiornaConteggio() {
-    $conteggio.innerHTML = '<b>' + risultati.length.toLocaleString('it') + '</b> dischi';
+    $conteggio.innerHTML = '<b>' + risultati.length.toLocaleString('it') + '</b> ' +
+      (risultati.length === 1 ? 'disco' : 'dischi');
   }
 
   function elemento(tag, classe, testo) {
