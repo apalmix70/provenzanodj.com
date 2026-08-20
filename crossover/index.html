@@ -403,7 +403,14 @@ footer a:hover{color:var(--bianco)}
       img.src = indirizzoCopertina(b.c);
       div.appendChild(img);
     } else {
-      div.appendChild(elemento('div', 'copertina vuota', '♪'));
+      // ⚠️ Dove la copertina non c'e' ci va il **white label**: il vinile bianco
+      // senza stampa, che e' esattamente quello che sono questi dischi — promo che
+      // sui servizi di ascolto non esistono. Meglio di un quadrato vuoto, e non
+      // finge una copertina che non c'e' (scelta di Amerigo, 20/08/2026).
+      var bianca = elemento('img', 'copertina');
+      bianca.src = '/crossover/whitelabel.jpg';
+      bianca.alt = ''; bianca.loading = 'lazy'; bianca.decoding = 'async';
+      div.appendChild(bianca);
     }
 
     var testo = elemento('div', 'testo');

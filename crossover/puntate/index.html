@@ -200,7 +200,8 @@ footer a:hover{color:var(--bianco)}
                               : '/crossover/?cerca=%23' + n;
         a.title = 'Puntata ' + n + (quando ? ' — in onda il ' + quando : '');
 
-        var indirizzo = copertina(dati, p[2]);
+        // senza copertina ci va il white label, il vinile bianco senza stampa
+        var indirizzo = copertina(dati, p[2]) || '/crossover/whitelabel.jpg';
         if (indirizzo) {
           var img = elemento('img');
           img.src = indirizzo;
