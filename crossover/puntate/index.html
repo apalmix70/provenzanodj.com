@@ -163,7 +163,7 @@ footer a:hover{color:var(--bianco)}
         var n = p[0];
         var a = elemento('a', conPagina[n] ? 'n pagina' : 'n', String(n));
         // dove la pagina c'e' si va li'; dove non c'e' ancora, all'archivio
-        // filtrato su quella puntata, che i suoi 18 dischi li mostra lo stesso
+        // filtrato su quella puntata, che i suoi dischi li mostra lo stesso
         a.href = conPagina[n] ? '/crossover/' + n + '/'
                               : '/crossover/?cerca=%23' + n;
         var quando = italiana(p[1]);
