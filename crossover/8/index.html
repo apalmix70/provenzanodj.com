@@ -671,7 +671,10 @@ footer a:hover{color:var(--bianco)}
     i.setAttribute('allow', 'autoplay');
     i.title = 'Il set mixato di questa puntata su Mixcloud';
     i.src = 'https://player-widget.mixcloud.com/widget/iframe/'
-          + '?hide_cover=1&light=0&autoplay=1&feed='
+          // ⚠️ `hide_artwork=1`: la foto del widget e' quella caricata su Mixcloud ed e'
+          // **la stessa su tutte le puntate**, quindi in pagina non dice niente — e le
+          // copertine vere stanno gia' tutte nella griglia qui sotto (Amerigo, 20/08/2026).
+          + '?hide_cover=1&hide_artwork=1&light=0&autoplay=1&feed='
           + encodeURIComponent(tasto.dataset.feed);
     document.getElementById('player').appendChild(i);
     tasto.remove();
