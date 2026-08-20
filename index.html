@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Provenzano Dj</title>
-<meta name="description" content="Dj e produttore. Trent'anni a scegliere musica, produrla e proporla — in radio, in pista, sui social. Booking: booking@provenzanodj.com">
+<meta name="description" content="Dj e produttore. Trent&rsquo;anni a scegliere musica, produrla e proporla — in radio, in pista, sui social. Crossover, il New Music Friday: tutte le puntate. Booking: booking@provenzanodj.com">
 <meta property="og:title" content="Provenzano Dj">
 <meta property="og:description" content="Trent'anni a scegliere musica, produrla e proporla — in radio, in pista, sui social.">
 <meta property="og:type" content="website">
@@ -59,51 +59,80 @@ a{color:inherit;text-decoration:none}
 }
 .logo .punto{color:var(--rosso)}
 
-/* cartello */
+/* cartello — sotto il logo c'e' Crossover, la cosa che il sito ha davvero */
 .cartello{
   margin-top:clamp(40px,9vh,88px);
   text-transform:uppercase;
 }
-.cartello .titolo{
-  font-size:clamp(24px,4.6vw,44px);
+.cartello .nome{
+  display:inline-block;
+  font-size:clamp(38px,9.5vw,88px);
   font-weight:400;
-  line-height:1.05;
+  line-height:1;
   letter-spacing:.045em;
-  max-width:22ch;
-  margin:0 auto;
+  border-bottom:2px solid transparent;
+  padding-bottom:6px;
+  transition:border-color .18s;
 }
-.cartello .titolo .punto{
+.cartello .nome .punto{
   color:var(--rosso);
   animation:batte 2.4s ease-in-out infinite;
 }
+.cartello a:hover .nome{border-bottom-color:var(--rosso)}
+.cartello .invito{
+  margin-top:14px;
+  font-family:Arial,sans-serif;
+  font-size:11px;
+  letter-spacing:.2em;
+  color:rgba(255,255,255,.45);
+  transition:color .15s;
+}
+.cartello a:hover .invito{color:var(--rosso)}
 @keyframes batte{0%,100%{opacity:1}50%{opacity:.25}}
-@media (prefers-reduced-motion:reduce){.cartello .titolo .punto{animation:none}}
+@media (prefers-reduced-motion:reduce){.cartello .nome .punto{animation:none}}
 
 .cartello .tesi{
-  margin:20px auto 0;
+  margin:26px auto 0;
   font-size:clamp(11px,1.7vw,14px);
   letter-spacing:.12em;
   line-height:1.7;
   color:rgba(255,255,255,.55);
   max-width:44ch;
+  text-transform:none;
 }
 .cartello .tesi em{font-style:normal;color:var(--bianco)}
 
-/* booking */
+/* scrivimi — una domanda sola, tre indirizzi */
 .booking{
   margin-top:clamp(44px,9vh,88px);
   text-transform:uppercase;
 }
-.booking .voce{margin-top:26px}
-.booking .voce:first-child{margin-top:0}
 .booking .domanda{
   font-size:clamp(14px,2.2vw,19px);
   letter-spacing:.08em;
 }
 .booking .domanda .punto{color:var(--rosso)}
+.booking .mails{
+  margin-top:20px;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:18px 34px;
+}
+.booking .voce{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:7px;
+}
+.booking .eti{
+  font-family:Arial,sans-serif;
+  font-size:10px;
+  letter-spacing:.2em;
+  color:rgba(255,255,255,.4);
+}
 .booking .mail{
   display:inline-block;
-  margin-top:8px;
   font-size:clamp(12px,1.8vw,14px);
   letter-spacing:.14em;
   color:var(--rosso);
@@ -112,7 +141,7 @@ a{color:inherit;text-decoration:none}
 }
 .booking .mail:hover{color:var(--bianco);border-color:var(--bianco)}
 .copiato{
-  margin-top:10px;
+  margin-top:16px;
   font-family:Arial,sans-serif;
   font-size:11px;
   letter-spacing:.18em;
@@ -159,24 +188,30 @@ footer{
   <div class="logo">provenzano<span class="punto">.</span></div>
 
   <section class="cartello">
-    <h1 class="titolo">Il sito nuovo &egrave; in costruzione<span class="punto">.</span></h1>
+    <a href="/crossover/puntate/" aria-label="Crossover — tutte le puntate">
+      <h1 class="nome">Crossover<span class="punto">.</span></h1>
+      <p class="invito">tutte le puntate &rarr;</p>
+    </a>
     <p class="tesi">Trent'anni a scegliere musica, produrla e proporla &mdash; <em>in radio, in pista, sui social</em>.</p>
   </section>
 
   <section class="booking">
-    <div class="voce">
-      <p class="domanda">Vuoi una data? Scrivimi<span class="punto">.</span></p>
-      <a class="mail" href="mailto:booking@provenzanodj.com">booking@provenzanodj.com</a>
+    <p class="domanda">Scrivimi<span class="punto">.</span></p>
+    <div class="mails">
+      <div class="voce">
+        <span class="eti">una data</span>
+        <a class="mail" href="mailto:booking@provenzanodj.com">booking@provenzanodj.com</a>
+      </div>
+      <div class="voce">
+        <span class="eti">un remix</span>
+        <a class="mail" href="mailto:remix@provenzanodj.com">remix@provenzanodj.com</a>
+      </div>
+      <div class="voce">
+        <span class="eti">altro</span>
+        <a class="mail" href="mailto:info@provenzanodj.com">info@provenzanodj.com</a>
+      </div>
     </div>
-    <div class="voce">
-      <p class="domanda">Vuoi un remix? Scrivimi<span class="punto">.</span></p>
-      <a class="mail" href="mailto:remix@provenzanodj.com">remix@provenzanodj.com</a>
-    </div>
-    <div class="voce">
-      <p class="domanda">Vuoi altro? Scrivimi<span class="punto">.</span></p>
-      <a class="mail" href="mailto:info@provenzanodj.com">info@provenzanodj.com</a>
-    </div>
-    <div class="copiato" id="copiato">copiato negli appunti ✓</div>
+    <div class="copiato" id="copiato">copiato negli appunti &#10003;</div>
   </section>
 
   <nav class="social" aria-label="Canali social">
