@@ -259,11 +259,14 @@ footer a:hover{color:var(--bianco)}
 
     // un solo testo normalizzato per disco: e' su questo che si cerca
     indice = pacchetto.brani.map(function (b) {
-      var artisti = b.a.map(function (i) { return pacchetto.artisti[i]; }).join(' ');
-      var etichetta = (b.e === undefined) ? '' : pacchetto.etichette[b.e];
+      var nomiA = b.a.map(function (i) { return pacchetto.artisti[i]; });
+      var artisti = nomiA.join(' ');
+      var nomiE = [];
+      if (b.e !== undefined) { nomiE.push(pacchetto.etichette[b.e]); }
       // la sottoetichetta si cerca insieme alla casa madre: chi cerca "Spinnin Deep"
       // deve trovare i suoi 44 dischi, anche se in classifica contano sotto Spinnin'
-      if (b.es !== undefined) { etichetta += ' ' + pacchetto.etichette[b.es]; }
+      if (b.es !== undefined) { nomiE.push(pacchetto.etichette[b.es]); }
+      var etichetta = nomiE.join(' ');
       // ⚠️ Il testo su cui si cerca sta fra due spazi, e ogni parola e' separata: cosi'
       // la ricerca puo' attaccarsi all'INIZIO di una parola e non in mezzo. Senza,
       // cercare "size" tirava dentro "Supersized" dei Bingo Players, che con SIZE
@@ -277,8 +280,12 @@ footer a:hover{color:var(--bianco)}
         // etichette. Serve perche' i nomi si somigliano: "Wh0" e' un artista ed e'
         // anche l'etichetta WH0 Plays, e cercando l'artista uscivano venti dischi
         // altrui usciti su quell'etichetta (visto da Amerigo il 20/08/2026).
-        cercaA: ' ' + norm(artisti) + ' ',
-        cercaE: ' ' + norm(etichetta) + ' ',
+        // ⚠️ Qui i nomi restano divisi dal separatore |, e non impastati in un
+        // testo solo: cercando l'etichetta si cerca il NOME INTERO, e la barra
+        // impedisce che la frase scavalchi dalla casa madre alla sottoetichetta
+        // (o da un artista a quello dopo).
+        cercaA: ' ' + nomiA.map(norm).join(' | ') + ' ',
+        cercaE: ' ' + nomiE.map(norm).join(' | ') + ' ',
         nomiArtisti: artisti,
         anni: b.p.map(annoDi)
       };
@@ -320,9 +327,18 @@ footer a:hover{color:var(--bianco)}
       if (puntataCercata) {
         return v.b.p.indexOf(parseInt(puntataCercata[1], 10)) !== -1;
       }
-      var dove = campo === 'artista' ? v.cercaA
-               : campo === 'etichetta' ? v.cercaE
-               : v.cerca;
+      // ⚠️ Con "artista:" o "etichetta:" davanti, le parole devono stare tutte
+      // DI FILA dentro lo stesso nome, non sparse: "Golden Recordings" e
+      // "Golden Path Recordings" sono due case discografiche diverse e cliccando
+      // l'una uscivano i dischi di tutte e due, perche' bastava che ogni parola
+      // comparisse da qualche parte (visto da Amerigo il 22/08/2026). Il click su
+      // un nome scrive il nome esatto, quindi cosi' torna esatto anche il filtro;
+      // scrivendo a mano resta comodo, perche' la frase puo' sempre attaccarsi
+      // all'inizio di una parola qualsiasi ("etichetta:records" trova Toolroom Records).
+      if (campo) {
+        return (campo === 'artista' ? v.cercaA : v.cercaE).indexOf(' ' + testo) !== -1;
+      }
+      var dove = v.cerca;
       for (var i = 0; i < parole.length; i++) {
         // inizio di parola, non un pezzo qualsiasi: "size" trova SIZE Records,
         // non "Supersized". Scrivendo a mano resta comodo, perche' "spinn" e'
