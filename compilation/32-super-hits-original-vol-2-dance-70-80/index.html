@@ -78,17 +78,22 @@ header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;back
 .tracce h2{font-family:'Anton',Arial,sans-serif;font-weight:400;font-size:19px;
   letter-spacing:.06em;text-transform:uppercase;padding-bottom:11px;
   border-bottom:1px solid var(--riga)}
-/* righe strette: la scaletta e' un elenco da scorrere, non un menu */
-.traccia{display:flex;gap:14px;align-items:baseline;padding:5px 0;
+/* ⚠️ **Una traccia, una riga.** La scaletta e' un elenco da scorrere: con titolo
+   sopra e artista sotto ogni disco occupava due righe piu' l'aria in mezzo, e
+   diciassette tracce diventavano una pagina intera. Adesso stanno in fila sulla
+   stessa riga, e vanno a capo solo se non ci stanno. Amerigo, 23/08/2026. */
+.traccia{display:flex;gap:12px;align-items:baseline;padding:3px 0;
   border-bottom:1px solid var(--riga)}
-.traccia .n{font-variant-numeric:tabular-nums;color:var(--debole);font-size:12.5px;
-  flex:0 0 26px;text-align:right}
-.traccia .testo{flex:1;min-width:0}
-.traccia .tit{font-size:14.5px;font-weight:600;line-height:1.25}
-.traccia .art{font-size:13px;color:var(--grigio);margin-top:0;line-height:1.3}
+.traccia .n{font-variant-numeric:tabular-nums;color:var(--debole);font-size:12px;
+  flex:0 0 22px;text-align:right}
+.traccia .testo{flex:1;min-width:0;display:flex;flex-wrap:wrap;gap:2px 10px;
+  align-items:baseline}
+.traccia .tit{font-size:14px;font-weight:600;line-height:1.45}
+.traccia .art{font-size:12.5px;color:var(--grigio);line-height:1.45;
+  margin:0;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .traccia .art a:hover{color:var(--bianco);text-decoration:underline}
 .traccia .art .muto{color:var(--debole);font-style:italic}
-.traccia .dur{font-variant-numeric:tabular-nums;color:var(--debole);font-size:12.5px;flex:none}
+.traccia .dur{font-variant-numeric:tabular-nums;color:var(--debole);font-size:12px;flex:none}
 
 .vicine{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;
   padding:26px 0 10px;border-top:1px solid var(--riga);margin-top:22px}
@@ -168,38 +173,38 @@ footer a:hover{color:var(--bianco)}
 
       <section class="tracce">
         <h2>La tracklist</h2>
-    <div class="traccia"><span class="n">1</span><span class="testo"><span class="tit">Da Ya Think I&#x27;m Sexy?</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AN-Trance">N-Trance</a>, <a href="/compilation/archivio/?q=artista%3ARod+Stewart">Rod Stewart</a></span></span><span class="dur">3:10</span></div>
-    <div class="traccia"><span class="n">2</span><span class="testo"><span class="tit">Headbanging Music (Todd Terry Rmx)</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AGusto">Gusto</a>, <a href="/compilation/archivio/?q=artista%3AWendy+Phillips">Wendy Phillips</a></span></span><span class="dur">3:01</span></div>
-    <div class="traccia"><span class="n">3</span><span class="testo"><span class="tit">It&#x27;s Like That</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ARun-DMC">Run-DMC</a>, <a href="/compilation/archivio/?q=artista%3AJason+Nevins">Jason Nevins</a></span></span><span class="dur">3:27</span></div>
-    <div class="traccia"><span class="n">4</span><span class="testo"><span class="tit">Ain&#x27;t No Need Tohide</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ASandy+B">Sandy B</a></span></span><span class="dur">3:34</span></div>
-    <div class="traccia"><span class="n">5</span><span class="testo"><span class="tit">All We Need Is Love</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AX+Factor">X Factor</a></span></span><span class="dur">3:12</span></div>
-    <div class="traccia"><span class="n">6</span><span class="testo"><span class="tit">In 2 My Life</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AR.A.F.+By+Picotto">R.A.F. By Picotto</a></span></span><span class="dur">2:45</span></div>
-    <div class="traccia"><span class="n">7</span><span class="testo"><span class="tit">My Turn</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ACharlie+Dore">Charlie Dore</a></span></span><span class="dur">4:03</span></div>
-    <div class="traccia"><span class="n">8</span><span class="testo"><span class="tit">Show Me</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AFrank+&#x27;O+Moiraghi">Frank &#x27;O Moiraghi</a>, <a href="/compilation/archivio/?q=artista%3AAmnesia">Amnesia</a></span></span><span class="dur">3:42</span></div>
-    <div class="traccia"><span class="n">9</span><span class="testo"><span class="tit">When Will You Learn</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ABoy+George">Boy George</a></span></span><span class="dur">3:12</span></div>
-    <div class="traccia"><span class="n">10</span><span class="testo"><span class="tit">Midnight Party</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AHazard">Hazard</a></span></span><span class="dur">4:00</span></div>
-    <div class="traccia"><span class="n">11</span><span class="testo"><span class="tit">Your Love</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ANo+Line">No Line</a></span></span><span class="dur">3:12</span></div>
-    <div class="traccia"><span class="n">12</span><span class="testo"><span class="tit">I Am</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ABlackwood">Blackwood</a></span></span><span class="dur">4:47</span></div>
-    <div class="traccia"><span class="n">13</span><span class="testo"><span class="tit">Vamos A La Discoteca</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AParadisio">Paradisio</a></span></span><span class="dur">3:20</span></div>
-    <div class="traccia"><span class="n">14</span><span class="testo"><span class="tit">I Got It</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3A49ers">49ers</a></span></span><span class="dur">4:16</span></div>
-    <div class="traccia"><span class="n">15</span><span class="testo"><span class="tit">Singin&#x27; In My Mind</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ABoys-R-Us">Boys-R-Us</a></span></span><span class="dur">3:47</span></div>
-    <div class="traccia"><span class="n">16</span><span class="testo"><span class="tit">Forget Me</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AO.C.P.">O.C.P.</a>, <a href="/compilation/archivio/?q=artista%3ARobey+B.">Robey B.</a></span></span><span class="dur">3:58</span></div>
-    <div class="traccia"><span class="n">17</span><span class="testo"><span class="tit">Donquichotte</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AMagazine+60">Magazine 60</a></span></span><span class="dur">3:11</span></div>
-    <div class="traccia"><span class="n">18</span><span class="testo"><span class="tit">Rapper&#x27;s Delight</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ASugarhill+Gang">Sugarhill Gang</a></span></span><span class="dur">6:52</span></div>
-    <div class="traccia"><span class="n">19</span><span class="testo"><span class="tit">Passion</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AThe+Flirts">The Flirts</a></span></span><span class="dur">5:02</span></div>
-    <div class="traccia"><span class="n">20</span><span class="testo"><span class="tit">Can You Feel The Force</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AThe+Real+Thing">The Real Thing</a></span></span><span class="dur">4:07</span></div>
-    <div class="traccia"><span class="n">21</span><span class="testo"><span class="tit">Knock On Wood</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AAmii+Stewart">Amii Stewart</a></span></span><span class="dur">4:48</span></div>
-    <div class="traccia"><span class="n">22</span><span class="testo"><span class="tit">And The Beat Goes On</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AThe+Whispers">The Whispers</a></span></span><span class="dur">4:06</span></div>
-    <div class="traccia"><span class="n">23</span><span class="testo"><span class="tit">Black Jack</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ABaciotti">Baciotti</a></span></span><span class="dur">3:50</span></div>
-    <div class="traccia"><span class="n">24</span><span class="testo"><span class="tit">Spring Rain</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ABebu+Silvetti">Bebu Silvetti</a></span></span><span class="dur">4:13</span></div>
-    <div class="traccia"><span class="n">25</span><span class="testo"><span class="tit">Don&#x27;t Let Me Be Misunderstood</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ASanta+Esmeralda">Santa Esmeralda</a></span></span><span class="dur">4:29</span></div>
-    <div class="traccia"><span class="n">26</span><span class="testo"><span class="tit">Can&#x27;t Take My Eyes Off You</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ABoys+Town+Gang">Boys Town Gang</a></span></span><span class="dur">4:21</span></div>
-    <div class="traccia"><span class="n">27</span><span class="testo"><span class="tit">Dance Across The Floor</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AJimmy+&quot;Bo&quot;+Horne">Jimmy &quot;Bo&quot; Horne</a></span></span><span class="dur">2:37</span></div>
-    <div class="traccia"><span class="n">28</span><span class="testo"><span class="tit">Y.M.C.A.</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AVillage+People">Village People</a></span></span><span class="dur">3:42</span></div>
-    <div class="traccia"><span class="n">29</span><span class="testo"><span class="tit">Please Don&#x27;t Go</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AKC+&amp;+The+Sunshine+Band">KC &amp; The Sunshine Band</a></span></span><span class="dur">3:50</span></div>
-    <div class="traccia"><span class="n">30</span><span class="testo"><span class="tit">Jeopardy</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AGreg+Kihn+Band">Greg Kihn Band</a></span></span><span class="dur">3:34</span></div>
-    <div class="traccia"><span class="n">31</span><span class="testo"><span class="tit">Born To Be Alive</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3APatrick+Hernandez">Patrick Hernandez</a></span></span><span class="dur">5:48</span></div>
-    <div class="traccia"><span class="n">32</span><span class="testo"><span class="tit">You &amp; Me</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ASpargo">Spargo</a></span></span><span class="dur">4:08</span></div>
+    <div class="traccia"><span class="n">1</span><span class="testo"><span class="tit">Da Ya Think I&#x27;m Sexy?</span><span class="art"><a href="/compilation/archivio/?q=artista%3AN-Trance">N-Trance</a>, <a href="/compilation/archivio/?q=artista%3ARod+Stewart">Rod Stewart</a></span></span><span class="dur">3:10</span></div>
+    <div class="traccia"><span class="n">2</span><span class="testo"><span class="tit">Headbanging Music (Todd Terry Rmx)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AGusto">Gusto</a>, <a href="/compilation/archivio/?q=artista%3AWendy+Phillips">Wendy Phillips</a></span></span><span class="dur">3:01</span></div>
+    <div class="traccia"><span class="n">3</span><span class="testo"><span class="tit">It&#x27;s Like That</span><span class="art"><a href="/compilation/archivio/?q=artista%3ARun-DMC">Run-DMC</a>, <a href="/compilation/archivio/?q=artista%3AJason+Nevins">Jason Nevins</a></span></span><span class="dur">3:27</span></div>
+    <div class="traccia"><span class="n">4</span><span class="testo"><span class="tit">Ain&#x27;t No Need Tohide</span><span class="art"><a href="/compilation/archivio/?q=artista%3ASandy+B">Sandy B</a></span></span><span class="dur">3:34</span></div>
+    <div class="traccia"><span class="n">5</span><span class="testo"><span class="tit">All We Need Is Love</span><span class="art"><a href="/compilation/archivio/?q=artista%3AX+Factor">X Factor</a></span></span><span class="dur">3:12</span></div>
+    <div class="traccia"><span class="n">6</span><span class="testo"><span class="tit">In 2 My Life</span><span class="art"><a href="/compilation/archivio/?q=artista%3AR.A.F.+By+Picotto">R.A.F. By Picotto</a></span></span><span class="dur">2:45</span></div>
+    <div class="traccia"><span class="n">7</span><span class="testo"><span class="tit">My Turn</span><span class="art"><a href="/compilation/archivio/?q=artista%3ACharlie+Dore">Charlie Dore</a></span></span><span class="dur">4:03</span></div>
+    <div class="traccia"><span class="n">8</span><span class="testo"><span class="tit">Show Me</span><span class="art"><a href="/compilation/archivio/?q=artista%3AFrank+&#x27;O+Moiraghi">Frank &#x27;O Moiraghi</a>, <a href="/compilation/archivio/?q=artista%3AAmnesia">Amnesia</a></span></span><span class="dur">3:42</span></div>
+    <div class="traccia"><span class="n">9</span><span class="testo"><span class="tit">When Will You Learn</span><span class="art"><a href="/compilation/archivio/?q=artista%3ABoy+George">Boy George</a></span></span><span class="dur">3:12</span></div>
+    <div class="traccia"><span class="n">10</span><span class="testo"><span class="tit">Midnight Party</span><span class="art"><a href="/compilation/archivio/?q=artista%3AHazard">Hazard</a></span></span><span class="dur">4:00</span></div>
+    <div class="traccia"><span class="n">11</span><span class="testo"><span class="tit">Your Love</span><span class="art"><a href="/compilation/archivio/?q=artista%3ANo+Line">No Line</a></span></span><span class="dur">3:12</span></div>
+    <div class="traccia"><span class="n">12</span><span class="testo"><span class="tit">I Am</span><span class="art"><a href="/compilation/archivio/?q=artista%3ABlackwood">Blackwood</a></span></span><span class="dur">4:47</span></div>
+    <div class="traccia"><span class="n">13</span><span class="testo"><span class="tit">Vamos A La Discoteca</span><span class="art"><a href="/compilation/archivio/?q=artista%3AParadisio">Paradisio</a></span></span><span class="dur">3:20</span></div>
+    <div class="traccia"><span class="n">14</span><span class="testo"><span class="tit">I Got It</span><span class="art"><a href="/compilation/archivio/?q=artista%3A49ers">49ers</a></span></span><span class="dur">4:16</span></div>
+    <div class="traccia"><span class="n">15</span><span class="testo"><span class="tit">Singin&#x27; In My Mind</span><span class="art"><a href="/compilation/archivio/?q=artista%3ABoys-R-Us">Boys-R-Us</a></span></span><span class="dur">3:47</span></div>
+    <div class="traccia"><span class="n">16</span><span class="testo"><span class="tit">Forget Me</span><span class="art"><a href="/compilation/archivio/?q=artista%3AO.C.P.">O.C.P.</a>, <a href="/compilation/archivio/?q=artista%3ARobey+B.">Robey B.</a></span></span><span class="dur">3:58</span></div>
+    <div class="traccia"><span class="n">17</span><span class="testo"><span class="tit">Donquichotte</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMagazine+60">Magazine 60</a></span></span><span class="dur">3:11</span></div>
+    <div class="traccia"><span class="n">18</span><span class="testo"><span class="tit">Rapper&#x27;s Delight</span><span class="art"><a href="/compilation/archivio/?q=artista%3ASugarhill+Gang">Sugarhill Gang</a></span></span><span class="dur">6:52</span></div>
+    <div class="traccia"><span class="n">19</span><span class="testo"><span class="tit">Passion</span><span class="art"><a href="/compilation/archivio/?q=artista%3AThe+Flirts">The Flirts</a></span></span><span class="dur">5:02</span></div>
+    <div class="traccia"><span class="n">20</span><span class="testo"><span class="tit">Can You Feel The Force</span><span class="art"><a href="/compilation/archivio/?q=artista%3AThe+Real+Thing">The Real Thing</a></span></span><span class="dur">4:07</span></div>
+    <div class="traccia"><span class="n">21</span><span class="testo"><span class="tit">Knock On Wood</span><span class="art"><a href="/compilation/archivio/?q=artista%3AAmii+Stewart">Amii Stewart</a></span></span><span class="dur">4:48</span></div>
+    <div class="traccia"><span class="n">22</span><span class="testo"><span class="tit">And The Beat Goes On</span><span class="art"><a href="/compilation/archivio/?q=artista%3AThe+Whispers">The Whispers</a></span></span><span class="dur">4:06</span></div>
+    <div class="traccia"><span class="n">23</span><span class="testo"><span class="tit">Black Jack</span><span class="art"><a href="/compilation/archivio/?q=artista%3ABaciotti">Baciotti</a></span></span><span class="dur">3:50</span></div>
+    <div class="traccia"><span class="n">24</span><span class="testo"><span class="tit">Spring Rain</span><span class="art"><a href="/compilation/archivio/?q=artista%3ABebu+Silvetti">Bebu Silvetti</a></span></span><span class="dur">4:13</span></div>
+    <div class="traccia"><span class="n">25</span><span class="testo"><span class="tit">Don&#x27;t Let Me Be Misunderstood</span><span class="art"><a href="/compilation/archivio/?q=artista%3ASanta+Esmeralda">Santa Esmeralda</a></span></span><span class="dur">4:29</span></div>
+    <div class="traccia"><span class="n">26</span><span class="testo"><span class="tit">Can&#x27;t Take My Eyes Off You</span><span class="art"><a href="/compilation/archivio/?q=artista%3ABoys+Town+Gang">Boys Town Gang</a></span></span><span class="dur">4:21</span></div>
+    <div class="traccia"><span class="n">27</span><span class="testo"><span class="tit">Dance Across The Floor</span><span class="art"><a href="/compilation/archivio/?q=artista%3AJimmy+&quot;Bo&quot;+Horne">Jimmy &quot;Bo&quot; Horne</a></span></span><span class="dur">2:37</span></div>
+    <div class="traccia"><span class="n">28</span><span class="testo"><span class="tit">Y.M.C.A.</span><span class="art"><a href="/compilation/archivio/?q=artista%3AVillage+People">Village People</a></span></span><span class="dur">3:42</span></div>
+    <div class="traccia"><span class="n">29</span><span class="testo"><span class="tit">Please Don&#x27;t Go</span><span class="art"><a href="/compilation/archivio/?q=artista%3AKC+&amp;+The+Sunshine+Band">KC &amp; The Sunshine Band</a></span></span><span class="dur">3:50</span></div>
+    <div class="traccia"><span class="n">30</span><span class="testo"><span class="tit">Jeopardy</span><span class="art"><a href="/compilation/archivio/?q=artista%3AGreg+Kihn+Band">Greg Kihn Band</a></span></span><span class="dur">3:34</span></div>
+    <div class="traccia"><span class="n">31</span><span class="testo"><span class="tit">Born To Be Alive</span><span class="art"><a href="/compilation/archivio/?q=artista%3APatrick+Hernandez">Patrick Hernandez</a></span></span><span class="dur">5:48</span></div>
+    <div class="traccia"><span class="n">32</span><span class="testo"><span class="tit">You &amp; Me</span><span class="art"><a href="/compilation/archivio/?q=artista%3ASpargo">Spargo</a></span></span><span class="dur">4:08</span></div>
       </section>
 
     </div>

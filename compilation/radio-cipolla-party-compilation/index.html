@@ -78,17 +78,22 @@ header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;back
 .tracce h2{font-family:'Anton',Arial,sans-serif;font-weight:400;font-size:19px;
   letter-spacing:.06em;text-transform:uppercase;padding-bottom:11px;
   border-bottom:1px solid var(--riga)}
-/* righe strette: la scaletta e' un elenco da scorrere, non un menu */
-.traccia{display:flex;gap:14px;align-items:baseline;padding:5px 0;
+/* ⚠️ **Una traccia, una riga.** La scaletta e' un elenco da scorrere: con titolo
+   sopra e artista sotto ogni disco occupava due righe piu' l'aria in mezzo, e
+   diciassette tracce diventavano una pagina intera. Adesso stanno in fila sulla
+   stessa riga, e vanno a capo solo se non ci stanno. Amerigo, 23/08/2026. */
+.traccia{display:flex;gap:12px;align-items:baseline;padding:3px 0;
   border-bottom:1px solid var(--riga)}
-.traccia .n{font-variant-numeric:tabular-nums;color:var(--debole);font-size:12.5px;
-  flex:0 0 26px;text-align:right}
-.traccia .testo{flex:1;min-width:0}
-.traccia .tit{font-size:14.5px;font-weight:600;line-height:1.25}
-.traccia .art{font-size:13px;color:var(--grigio);margin-top:0;line-height:1.3}
+.traccia .n{font-variant-numeric:tabular-nums;color:var(--debole);font-size:12px;
+  flex:0 0 22px;text-align:right}
+.traccia .testo{flex:1;min-width:0;display:flex;flex-wrap:wrap;gap:2px 10px;
+  align-items:baseline}
+.traccia .tit{font-size:14px;font-weight:600;line-height:1.45}
+.traccia .art{font-size:12.5px;color:var(--grigio);line-height:1.45;
+  margin:0;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .traccia .art a:hover{color:var(--bianco);text-decoration:underline}
 .traccia .art .muto{color:var(--debole);font-style:italic}
-.traccia .dur{font-variant-numeric:tabular-nums;color:var(--debole);font-size:12.5px;flex:none}
+.traccia .dur{font-variant-numeric:tabular-nums;color:var(--debole);font-size:12px;flex:none}
 
 .vicine{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;
   padding:26px 0 10px;border-top:1px solid var(--riga);margin-top:22px}
@@ -168,22 +173,22 @@ footer a:hover{color:var(--bianco)}
 
       <section class="tracce">
         <h2>La tracklist</h2>
-    <div class="traccia"><span class="n">1</span><span class="testo"><span class="tit">Radio Cipolla</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AMauro+Marino">Mauro Marino</a>, <a href="/compilation/archivio/?q=artista%3AIke+T.+Zaengel">Ike T. Zaengel</a></span></span><span class="dur">4:03</span></div>
-    <div class="traccia"><span class="n">2</span><span class="testo"><span class="tit">Think About The Way</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AIce+MC">Ice MC</a></span></span><span class="dur">2:30</span></div>
-    <div class="traccia"><span class="n">3</span><span class="testo"><span class="tit">The Summer Is Magic</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3APlayahitty">Playahitty</a></span></span><span class="dur">2:36</span></div>
-    <div class="traccia"><span class="n">4</span><span class="testo"><span class="tit">Yo Te Siento Asi</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AG.E.M.">G.E.M.</a></span></span><span class="dur">3:43</span></div>
-    <div class="traccia"><span class="n">5</span><span class="testo"><span class="tit">I Like To Move It</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AReel+2+Real">Reel 2 Real</a>, <a href="/compilation/archivio/?q=artista%3AThe+Mad+Stuntman">The Mad Stuntman</a></span></span><span class="dur">2:34</span></div>
-    <div class="traccia"><span class="n">6</span><span class="testo"><span class="tit">Fammi Vedere La...</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ADanny+Chunga">Danny Chunga</a></span></span><span class="dur">1:50</span></div>
-    <div class="traccia"><span class="n">7</span><span class="testo"><span class="tit">All Around The World</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ASilvia+Coleman">Silvia Coleman</a></span></span><span class="dur">2:40</span></div>
-    <div class="traccia"><span class="n">8</span><span class="testo"><span class="tit">Change</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AMolella">Molella</a></span></span><span class="dur">3:30</span></div>
-    <div class="traccia"><span class="n">9</span><span class="testo"><span class="tit">Pupunanny Remix</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AAfrika+Bambaataa">Afrika Bambaataa</a></span></span><span class="dur">3:30</span></div>
-    <div class="traccia"><span class="n">10</span><span class="testo"><span class="tit">Pupunanny (Puttanate)</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ALeone+Di+Lernia">Leone Di Lernia</a></span></span><span class="dur">2:20</span></div>
-    <div class="traccia"><span class="n">11</span><span class="testo"><span class="tit">ABC</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ADr.+Felix">Dr. Felix</a></span></span><span class="dur">2:50</span></div>
-    <div class="traccia"><span class="n">12</span><span class="testo"><span class="tit">I Believe</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ADouble+Dare">Double Dare</a></span></span><span class="dur">4:20</span></div>
-    <div class="traccia"><span class="n">13</span><span class="testo"><span class="tit">Dance (If You Can Not)</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AAlter+Ego">Alter Ego</a>, <a href="/compilation/archivio/?q=artista%3ADaisy+Dee">Daisy Dee</a></span></span><span class="dur">3:20</span></div>
-    <div class="traccia"><span class="n">14</span><span class="testo"><span class="tit">All Aboard</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AAva+&amp;+Stone">Ava &amp; Stone</a></span></span><span class="dur">3:00</span></div>
-    <div class="traccia"><span class="n">15</span><span class="testo"><span class="tit">Illusion</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ATi.Pi.Cal.">Ti.Pi.Cal.</a>, <a href="/compilation/archivio/?q=artista%3AJosh+Colow">Josh Colow</a></span></span><span class="dur">3:20</span></div>
-    <div class="traccia"><span class="n">16</span><span class="testo"><span class="tit">Don&#x27;t Be Shy</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AJamie+Dee">Jamie Dee</a></span></span><span class="dur">2:40</span></div>
+    <div class="traccia"><span class="n">1</span><span class="testo"><span class="tit">Radio Cipolla</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMauro+Marino">Mauro Marino</a>, <a href="/compilation/archivio/?q=artista%3AIke+T.+Zaengel">Ike T. Zaengel</a></span></span><span class="dur">4:03</span></div>
+    <div class="traccia"><span class="n">2</span><span class="testo"><span class="tit">Think About The Way</span><span class="art"><a href="/compilation/archivio/?q=artista%3AIce+MC">Ice MC</a></span></span><span class="dur">2:30</span></div>
+    <div class="traccia"><span class="n">3</span><span class="testo"><span class="tit">The Summer Is Magic</span><span class="art"><a href="/compilation/archivio/?q=artista%3APlayahitty">Playahitty</a></span></span><span class="dur">2:36</span></div>
+    <div class="traccia"><span class="n">4</span><span class="testo"><span class="tit">Yo Te Siento Asi</span><span class="art"><a href="/compilation/archivio/?q=artista%3AG.E.M.">G.E.M.</a></span></span><span class="dur">3:43</span></div>
+    <div class="traccia"><span class="n">5</span><span class="testo"><span class="tit">I Like To Move It</span><span class="art"><a href="/compilation/archivio/?q=artista%3AReel+2+Real">Reel 2 Real</a>, <a href="/compilation/archivio/?q=artista%3AThe+Mad+Stuntman">The Mad Stuntman</a></span></span><span class="dur">2:34</span></div>
+    <div class="traccia"><span class="n">6</span><span class="testo"><span class="tit">Fammi Vedere La...</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADanny+Chunga">Danny Chunga</a></span></span><span class="dur">1:50</span></div>
+    <div class="traccia"><span class="n">7</span><span class="testo"><span class="tit">All Around The World</span><span class="art"><a href="/compilation/archivio/?q=artista%3ASilvia+Coleman">Silvia Coleman</a></span></span><span class="dur">2:40</span></div>
+    <div class="traccia"><span class="n">8</span><span class="testo"><span class="tit">Change</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMolella">Molella</a></span></span><span class="dur">3:30</span></div>
+    <div class="traccia"><span class="n">9</span><span class="testo"><span class="tit">Pupunanny Remix</span><span class="art"><a href="/compilation/archivio/?q=artista%3AAfrika+Bambaataa">Afrika Bambaataa</a></span></span><span class="dur">3:30</span></div>
+    <div class="traccia"><span class="n">10</span><span class="testo"><span class="tit">Pupunanny (Puttanate)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ALeone+Di+Lernia">Leone Di Lernia</a></span></span><span class="dur">2:20</span></div>
+    <div class="traccia"><span class="n">11</span><span class="testo"><span class="tit">ABC</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADr.+Felix">Dr. Felix</a></span></span><span class="dur">2:50</span></div>
+    <div class="traccia"><span class="n">12</span><span class="testo"><span class="tit">I Believe</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADouble+Dare">Double Dare</a></span></span><span class="dur">4:20</span></div>
+    <div class="traccia"><span class="n">13</span><span class="testo"><span class="tit">Dance (If You Can Not)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AAlter+Ego">Alter Ego</a>, <a href="/compilation/archivio/?q=artista%3ADaisy+Dee">Daisy Dee</a></span></span><span class="dur">3:20</span></div>
+    <div class="traccia"><span class="n">14</span><span class="testo"><span class="tit">All Aboard</span><span class="art"><a href="/compilation/archivio/?q=artista%3AAva+&amp;+Stone">Ava &amp; Stone</a></span></span><span class="dur">3:00</span></div>
+    <div class="traccia"><span class="n">15</span><span class="testo"><span class="tit">Illusion</span><span class="art"><a href="/compilation/archivio/?q=artista%3ATi.Pi.Cal.">Ti.Pi.Cal.</a>, <a href="/compilation/archivio/?q=artista%3AJosh+Colow">Josh Colow</a></span></span><span class="dur">3:20</span></div>
+    <div class="traccia"><span class="n">16</span><span class="testo"><span class="tit">Don&#x27;t Be Shy</span><span class="art"><a href="/compilation/archivio/?q=artista%3AJamie+Dee">Jamie Dee</a></span></span><span class="dur">2:40</span></div>
       </section>
 
     </div>

@@ -78,17 +78,22 @@ header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;back
 .tracce h2{font-family:'Anton',Arial,sans-serif;font-weight:400;font-size:19px;
   letter-spacing:.06em;text-transform:uppercase;padding-bottom:11px;
   border-bottom:1px solid var(--riga)}
-/* righe strette: la scaletta e' un elenco da scorrere, non un menu */
-.traccia{display:flex;gap:14px;align-items:baseline;padding:5px 0;
+/* ⚠️ **Una traccia, una riga.** La scaletta e' un elenco da scorrere: con titolo
+   sopra e artista sotto ogni disco occupava due righe piu' l'aria in mezzo, e
+   diciassette tracce diventavano una pagina intera. Adesso stanno in fila sulla
+   stessa riga, e vanno a capo solo se non ci stanno. Amerigo, 23/08/2026. */
+.traccia{display:flex;gap:12px;align-items:baseline;padding:3px 0;
   border-bottom:1px solid var(--riga)}
-.traccia .n{font-variant-numeric:tabular-nums;color:var(--debole);font-size:12.5px;
-  flex:0 0 26px;text-align:right}
-.traccia .testo{flex:1;min-width:0}
-.traccia .tit{font-size:14.5px;font-weight:600;line-height:1.25}
-.traccia .art{font-size:13px;color:var(--grigio);margin-top:0;line-height:1.3}
+.traccia .n{font-variant-numeric:tabular-nums;color:var(--debole);font-size:12px;
+  flex:0 0 22px;text-align:right}
+.traccia .testo{flex:1;min-width:0;display:flex;flex-wrap:wrap;gap:2px 10px;
+  align-items:baseline}
+.traccia .tit{font-size:14px;font-weight:600;line-height:1.45}
+.traccia .art{font-size:12.5px;color:var(--grigio);line-height:1.45;
+  margin:0;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .traccia .art a:hover{color:var(--bianco);text-decoration:underline}
 .traccia .art .muto{color:var(--debole);font-style:italic}
-.traccia .dur{font-variant-numeric:tabular-nums;color:var(--debole);font-size:12.5px;flex:none}
+.traccia .dur{font-variant-numeric:tabular-nums;color:var(--debole);font-size:12px;flex:none}
 
 .vicine{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;
   padding:26px 0 10px;border-top:1px solid var(--riga);margin-top:22px}
@@ -168,22 +173,22 @@ footer a:hover{color:var(--bianco)}
 
       <section class="tracce">
         <h2>La tracklist</h2>
-    <div class="traccia"><span class="n">1</span><span class="testo"><span class="tit">Insidance</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AGemini+Station">Gemini Station</a></span></span><span class="dur">1:35</span></div>
-    <div class="traccia"><span class="n">2</span><span class="testo"><span class="tit">From Space To My Life</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AMolella">Molella</a></span></span><span class="dur">4:10</span></div>
-    <div class="traccia"><span class="n">3</span><span class="testo"><span class="tit">Naughty Girl</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AM+Lady">M Lady</a></span></span><span class="dur">4:18</span></div>
-    <div class="traccia"><span class="n">4</span><span class="testo"><span class="tit">Don&#x27;t Close Your Eyes (Provenzano + Promise Land Remix)</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ABe+Angel">Be Angel</a></span></span><span class="dur">3:21</span></div>
-    <div class="traccia"><span class="n">5</span><span class="testo"><span class="tit">Melody Of Life</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AGemini+Station">Gemini Station</a></span></span><span class="dur">4:22</span></div>
-    <div class="traccia"><span class="n">6</span><span class="testo"><span class="tit">Last Day (Black Project Mix)</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AThomas">Thomas</a></span></span><span class="dur">3:55</span></div>
-    <div class="traccia"><span class="n">7</span><span class="testo"><span class="tit">Break Of Light</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AFabio+Amoroso">Fabio Amoroso</a></span></span><span class="dur">4:17</span></div>
-    <div class="traccia"><span class="n">8</span><span class="testo"><span class="tit">The Story Goes On (Original Extended)</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AItalian+Deejays">Italian Deejays</a></span></span><span class="dur">4:55</span></div>
-    <div class="traccia"><span class="n">9</span><span class="testo"><span class="tit">Souvenir (Italo Pump)</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ADJ+Jajo">DJ Jajo</a></span></span><span class="dur">4:49</span></div>
-    <div class="traccia"><span class="n">10</span><span class="testo"><span class="tit">Encanto (Italian Version)</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ADanijay">Danijay</a></span></span><span class="dur">3:05</span></div>
-    <div class="traccia"><span class="n">11</span><span class="testo"><span class="tit">I Really Mean What I Say</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3APromiseland">Promiseland</a></span></span><span class="dur">4:55</span></div>
-    <div class="traccia"><span class="n">12</span><span class="testo"><span class="tit">Again (Gigi D&#x27;Agostino Tanz)</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AGigi+D&#x27;Agostino">Gigi D&#x27;Agostino</a></span></span><span class="dur">3:43</span></div>
-    <div class="traccia"><span class="n">13</span><span class="testo"><span class="tit">Survival (DJ Manian vs Tune Up! Remix)</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3APrezioso+Feat.+Marvin">Prezioso Feat. Marvin</a></span></span><span class="dur">3:44</span></div>
-    <div class="traccia"><span class="n">14</span><span class="testo"><span class="tit">Super Tanz (Mabra Mix)</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ADJ+Lhasa">DJ Lhasa</a></span></span><span class="dur">2:51</span></div>
-    <div class="traccia"><span class="n">15</span><span class="testo"><span class="tit">Etico Elettrico (Girasole Marranza Remix)</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ABoing+Squad">Boing Squad</a></span></span><span class="dur">3:24</span></div>
-    <div class="traccia"><span class="n">16</span><span class="testo"><span class="tit">Time Goes Round</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ADavide+Farra">Davide Farra</a>, <a href="/compilation/archivio/?q=artista%3ALizzy+B">Lizzy B</a></span></span><span class="dur">5:23</span></div>
+    <div class="traccia"><span class="n">1</span><span class="testo"><span class="tit">Insidance</span><span class="art"><a href="/compilation/archivio/?q=artista%3AGemini+Station">Gemini Station</a></span></span><span class="dur">1:35</span></div>
+    <div class="traccia"><span class="n">2</span><span class="testo"><span class="tit">From Space To My Life</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMolella">Molella</a></span></span><span class="dur">4:10</span></div>
+    <div class="traccia"><span class="n">3</span><span class="testo"><span class="tit">Naughty Girl</span><span class="art"><a href="/compilation/archivio/?q=artista%3AM+Lady">M Lady</a></span></span><span class="dur">4:18</span></div>
+    <div class="traccia"><span class="n">4</span><span class="testo"><span class="tit">Don&#x27;t Close Your Eyes (Provenzano + Promise Land Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ABe+Angel">Be Angel</a></span></span><span class="dur">3:21</span></div>
+    <div class="traccia"><span class="n">5</span><span class="testo"><span class="tit">Melody Of Life</span><span class="art"><a href="/compilation/archivio/?q=artista%3AGemini+Station">Gemini Station</a></span></span><span class="dur">4:22</span></div>
+    <div class="traccia"><span class="n">6</span><span class="testo"><span class="tit">Last Day (Black Project Mix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AThomas">Thomas</a></span></span><span class="dur">3:55</span></div>
+    <div class="traccia"><span class="n">7</span><span class="testo"><span class="tit">Break Of Light</span><span class="art"><a href="/compilation/archivio/?q=artista%3AFabio+Amoroso">Fabio Amoroso</a></span></span><span class="dur">4:17</span></div>
+    <div class="traccia"><span class="n">8</span><span class="testo"><span class="tit">The Story Goes On (Original Extended)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AItalian+Deejays">Italian Deejays</a></span></span><span class="dur">4:55</span></div>
+    <div class="traccia"><span class="n">9</span><span class="testo"><span class="tit">Souvenir (Italo Pump)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADJ+Jajo">DJ Jajo</a></span></span><span class="dur">4:49</span></div>
+    <div class="traccia"><span class="n">10</span><span class="testo"><span class="tit">Encanto (Italian Version)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADanijay">Danijay</a></span></span><span class="dur">3:05</span></div>
+    <div class="traccia"><span class="n">11</span><span class="testo"><span class="tit">I Really Mean What I Say</span><span class="art"><a href="/compilation/archivio/?q=artista%3APromiseland">Promiseland</a></span></span><span class="dur">4:55</span></div>
+    <div class="traccia"><span class="n">12</span><span class="testo"><span class="tit">Again (Gigi D&#x27;Agostino Tanz)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AGigi+D&#x27;Agostino">Gigi D&#x27;Agostino</a></span></span><span class="dur">3:43</span></div>
+    <div class="traccia"><span class="n">13</span><span class="testo"><span class="tit">Survival (DJ Manian vs Tune Up! Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3APrezioso+Feat.+Marvin">Prezioso Feat. Marvin</a></span></span><span class="dur">3:44</span></div>
+    <div class="traccia"><span class="n">14</span><span class="testo"><span class="tit">Super Tanz (Mabra Mix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADJ+Lhasa">DJ Lhasa</a></span></span><span class="dur">2:51</span></div>
+    <div class="traccia"><span class="n">15</span><span class="testo"><span class="tit">Etico Elettrico (Girasole Marranza Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ABoing+Squad">Boing Squad</a></span></span><span class="dur">3:24</span></div>
+    <div class="traccia"><span class="n">16</span><span class="testo"><span class="tit">Time Goes Round</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADavide+Farra">Davide Farra</a>, <a href="/compilation/archivio/?q=artista%3ALizzy+B">Lizzy B</a></span></span><span class="dur">5:23</span></div>
       </section>
 
     </div>
