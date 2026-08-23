@@ -236,7 +236,14 @@ footer a:hover{color:var(--bianco)}
       .replace(/"/g, '&quot;');
   }
 
+  // La firma delle copertine, che arriva dal JSON: cambia solo quando cambia
+  // davvero un'immagine, e costringe il browser a riprenderle invece di tenersi
+  // quelle di ieri. Il nome del file non cambia mai, quindi senza questa il muro
+  // resta indietro anche dopo il push - successo due volte il 24/08/2026.
+  var firmaCop = '';
+
   function prepara(p) {
+    firmaCop = p.cop ? ('?v=' + p.cop) : '';
     dati = p;
     indice = p.brani.map(function (b) {
       var nomi = b.a.map(function (i) { return p.artisti[i]; });
@@ -353,7 +360,7 @@ footer a:hover{color:var(--bianco)}
       }
       return '<div class="brano">' +
         '<img class="copertina" loading="lazy" alt="" src="/compilation/cop/' +
-          v.cop.s + '-200.jpg">' +
+          v.cop.s + '-200.jpg' + firmaCop + '">' +
         '<div class="testo">' +
           '<div class="titolo">' + fuga(v.b.t) + '</div>' +
           '<div class="artisti">' + artisti + '</div>' +

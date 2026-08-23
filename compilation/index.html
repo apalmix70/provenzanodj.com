@@ -219,7 +219,14 @@ footer a:hover{color:var(--bianco)}
       .replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
   }
 
+  // La firma delle copertine, che arriva dal JSON: cambia solo quando cambia
+  // davvero un'immagine, e costringe il browser a riprenderle invece di tenersi
+  // quelle di ieri. Il nome del file non cambia mai, quindi senza questa il muro
+  // resta indietro anche dopo il push - successo due volte il 24/08/2026.
+  var firmaCop = '';
+
   function prepara(p) {
+    firmaCop = p.cop ? ('?v=' + p.cop) : '';
     dati = p;
     indice = p.compilation.map(function (c, i) {
       return { c: c, i: i, serie: p.serie[c.se],
@@ -330,7 +337,7 @@ footer a:hover{color:var(--bianco)}
         a.href = '/compilation/' + c.s + '/';
         a.setAttribute('aria-label', c.t + (c.y ? ' (' + c.y + ')' : ''));
         a.innerHTML =
-          '<img loading="lazy" src="/compilation/cop/' + c.s + '-200.jpg" alt="">' +
+          '<img loading="lazy" src="/compilation/cop/' + c.s + '-200.jpg' + firmaCop + '" alt="">' +
           (c.v ? '<span class="num">' + c.v + '</span>' : '') +
           '<span class="eti"><span class="anno">' + (c.y || '') + '</span>' +
           '<span class="tit">' + c.t + '</span></span>';
