@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>m2o — Musica Allo Stato Puro Volume 3 — Provenzano Dj</title>
+<meta name="description" content="m2o — Musica Allo Stato Puro Volume 3 (13 giugno 2003): 15 tracce, mixata da Provenzano Dj. Dentro ci sono Starsmusic, Percy Filth, The Vinylistic, Supacupa, Holy Ghost, Astroboys.">
+<meta property="og:title" content="m2o — Musica Allo Stato Puro Volume 3">
+<meta property="og:description" content="m2o — Musica Allo Stato Puro Volume 3 (13 giugno 2003): 15 tracce, mixata da Provenzano Dj. Dentro ci sono Starsmusic, Percy Filth, The Vinylistic, Supacupa, Holy Ghost, Astroboys.">
+<meta property="og:type" content="music.album">
+<meta property="og:url" content="https://www.provenzanodj.com/compilation/m2o-03/">
+<meta property="og:image" content="https://www.provenzanodj.com/compilation/cop/m2o-03.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23000'/%3E%3Ccircle cx='32' cy='38' r='14' fill='%23FF3131'/%3E%3C/svg%3E">
+<style>
+@font-face{font-family:'Anton';src:url('../../fonts/Anton-Regular.ttf') format('truetype');font-display:swap}
+@font-face{font-family:'Poppins EB';src:url('../../fonts/Poppins-ExtraBold.ttf') format('truetype');font-display:swap}
+
+:root{
+  --nero:#000;--rosso:#FF3131;--bianco:#fff;
+  --grigio:rgba(255,255,255,.55);--debole:rgba(255,255,255,.35);
+  --riga:rgba(255,255,255,.10);--pannello:#0b0b0b;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--nero);color:var(--bianco);
+  font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
+  min-height:100svh;display:flex;flex-direction:column}
+a{color:inherit;text-decoration:none}
+.contenitore{width:100%;max-width:1080px;margin:0 auto;padding:0 20px}
+
+header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;background:var(--nero)}
+.testata{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 0}
+.logo{font-family:'Poppins EB',Arial,sans-serif;font-size:19px;letter-spacing:-.04em;line-height:1}
+.logo .punto{color:var(--rosso)}
+.menu{display:flex;gap:18px;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--grigio)}
+.menu a.qui{color:var(--bianco)}
+.menu a:hover{color:var(--bianco)}
+
+.briciole{padding:22px 0 0;font-size:11px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--debole)}
+.briciole a:hover{color:var(--bianco)}
+.briciole .sep{margin:0 8px}
+
+/* il disco: copertina grande a sinistra, dati a destra */
+.disco{display:flex;gap:28px;padding:20px 0 26px;align-items:flex-start;flex-wrap:wrap}
+.disco .copertina{width:min(320px,100%);aspect-ratio:1;border-radius:6px;
+  border:1px solid var(--riga);object-fit:cover;display:block;flex:none}
+.disco .dati{flex:1;min-width:min(300px,100%)}
+.disco .serie{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--rosso)}
+.disco h1{font-family:'Anton',Arial,sans-serif;font-weight:400;text-transform:uppercase;
+  font-size:clamp(26px,4.6vw,44px);letter-spacing:.02em;line-height:1.04;margin-top:9px}
+.disco h1 .punto{color:var(--rosso)}
+.schede{margin-top:18px;display:flex;flex-wrap:wrap;gap:10px 26px}
+.scheda .eti{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--debole)}
+.scheda .val{font-size:14px;margin-top:3px;font-variant-numeric:tabular-nums}
+.fuori{margin-top:20px;display:flex;flex-wrap:wrap;gap:9px}
+.fuori a{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--grigio);
+  border:1px solid #242424;border-radius:999px;padding:7px 13px}
+.fuori a:hover{border-color:var(--rosso);color:var(--bianco)}
+
+/* la tracklist */
+.tracce{padding:6px 0 10px}
+.tracce h2{font-family:'Anton',Arial,sans-serif;font-weight:400;font-size:19px;
+  letter-spacing:.06em;text-transform:uppercase;padding-bottom:11px;
+  border-bottom:1px solid var(--riga)}
+.traccia{display:flex;gap:14px;align-items:baseline;padding:10px 0;
+  border-bottom:1px solid var(--riga)}
+.traccia .n{font-variant-numeric:tabular-nums;color:var(--debole);font-size:12.5px;
+  flex:0 0 26px;text-align:right}
+.traccia .testo{flex:1;min-width:0}
+.traccia .tit{font-size:15px;font-weight:600;line-height:1.3}
+.traccia .art{font-size:13.5px;color:var(--grigio);margin-top:2px}
+.traccia .art a:hover{color:var(--bianco);text-decoration:underline}
+.traccia .art .muto{color:var(--debole);font-style:italic}
+.traccia .dur{font-variant-numeric:tabular-nums;color:var(--debole);font-size:12.5px;flex:none}
+
+.vicine{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;
+  padding:26px 0 10px;border-top:1px solid var(--riga);margin-top:22px}
+.vicine a{display:flex;align-items:center;gap:11px;max-width:47%}
+.vicine img{width:44px;height:44px;border-radius:4px;object-fit:cover;
+  filter:grayscale(1);transition:filter .2s}
+.vicine a:hover img{filter:none}
+.vicine .dove{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--debole)}
+.vicine .come{font-size:13px;margin-top:2px;line-height:1.3}
+.vicine a:hover .come{color:var(--rosso)}
+.vicine .dopo{margin-left:auto;text-align:right;flex-direction:row-reverse}
+
+.coda{padding:26px 0 10px;color:var(--debole);font-size:12.5px;line-height:1.7;max-width:70ch}
+
+footer{margin-top:auto;border-top:1px solid var(--riga);padding:20px 0 28px;
+  font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--debole);
+  display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+footer a:hover{color:var(--bianco)}
+
+@media (max-width:640px){
+  .disco{gap:20px}
+  .disco .copertina{width:min(240px,64vw)}
+  .vicine a{max-width:100%}
+}
+@media (max-width:430px){
+  .menu a[href="/"]{display:none}
+  .menu{gap:13px;font-size:10px;letter-spacing:.12em}
+  .testata{gap:10px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="contenitore testata">
+    <a class="logo" href="/">provenzano<span class="punto">.</span></a>
+    <nav class="menu">
+      <a class="qui" href="/compilation/">Il muro</a>
+      <a href="/compilation/archivio/">Archivio</a>
+      <a href="/compilation/numeri/">I numeri</a>
+      <a href="/">Home</a>
+    </nav>
+  </div>
+</header>
+
+<main class="contenitore">
+
+  <nav class="briciole">
+    <a href="/compilation/">Compilation</a><span class="sep">/</span><a
+      href="/compilation/?serie=0">m2o</a>
+  </nav>
+
+  <section class="disco">
+    <img class="copertina" src="/compilation/cop/m2o-03.jpg" alt="Copertina di m2o — Musica Allo Stato Puro Volume 3">
+    <div class="dati">
+      <p class="serie">m2o · Volume 3</p>
+      <h1>m2o — Musica Allo Stato Puro Volume 3<span class="punto">.</span></h1>
+      <div class="schede">
+        <div class="scheda"><div class="eti">Uscita</div><div class="val">13 giugno 2003</div></div>
+        <div class="scheda"><div class="eti">Etichetta</div><div class="val">Elemedia S.p.A.</div></div>
+        <div class="scheda"><div class="eti">Tracce</div><div class="val">15</div></div>
+        <div class="scheda"><div class="eti">Mixata da</div><div class="val">Provenzano DJ</div></div>
+      </div>
+      <div class="fuori">
+        <a href="/compilation/archivio/?anno=2003">Tutti i brani del 2003</a>
+        <a href="https://www.discogs.com/release/738745" target="_blank" rel="noopener">Scheda su Discogs</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="tracce">
+    <h2>La tracklist</h2>
+    <div class="traccia"><span class="n">1</span><span class="testo"><span class="tit">Intro m2o</span><span class="art" style="display:block"><span class="muto">senza artista in copertina</span></span></span><span class="dur">0:45</span></div>
+    <div class="traccia"><span class="n">2</span><span class="testo"><span class="tit">Give Me Your Smile</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AStarsmusic">Starsmusic</a></span></span><span class="dur">3:15</span></div>
+    <div class="traccia"><span class="n">3</span><span class="testo"><span class="tit">Show Me Your Monkey</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3APercy+Filth">Percy Filth</a></span></span><span class="dur">3:38</span></div>
+    <div class="traccia"><span class="n">4</span><span class="testo"><span class="tit">I Love You</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AThe+Vinylistic">The Vinylistic</a></span></span><span class="dur">4:32</span></div>
+    <div class="traccia"><span class="n">5</span><span class="testo"><span class="tit">Keep Movin&#x27; On</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ASupacupa">Supacupa</a></span></span><span class="dur">4:17</span></div>
+    <div class="traccia"><span class="n">6</span><span class="testo"><span class="tit">Superman</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AHoly+Ghost">Holy Ghost</a></span></span><span class="dur">4:13</span></div>
+    <div class="traccia"><span class="n">7</span><span class="testo"><span class="tit">The Road</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AAstroboys">Astroboys</a></span></span><span class="dur">3:37</span></div>
+    <div class="traccia"><span class="n">8</span><span class="testo"><span class="tit">Dos Gardenias (Para Ti)</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ALatin+Lovers">Latin Lovers</a></span></span><span class="dur">3:36</span></div>
+    <div class="traccia"><span class="n">9</span><span class="testo"><span class="tit">I Don&#x27;t Know</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AErika">Erika</a></span></span><span class="dur">4:41</span></div>
+    <div class="traccia"><span class="n">10</span><span class="testo"><span class="tit">Punto G</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AVanni+Giorgilli">Vanni Giorgilli</a></span></span><span class="dur">4:00</span></div>
+    <div class="traccia"><span class="n">11</span><span class="testo"><span class="tit">Lost In You</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AHotel+Saint+George">Hotel Saint George</a></span></span><span class="dur">3:46</span></div>
+    <div class="traccia"><span class="n">12</span><span class="testo"><span class="tit">Sexy Girl</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ABrothers">Brothers</a></span></span><span class="dur">4:42</span></div>
+    <div class="traccia"><span class="n">13</span><span class="testo"><span class="tit">Play The Rhythm</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AThe+Groovers">The Groovers</a></span></span><span class="dur">3:35</span></div>
+    <div class="traccia"><span class="n">14</span><span class="testo"><span class="tit">Baby!</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AMolella">Molella</a></span></span><span class="dur">3:49</span></div>
+    <div class="traccia"><span class="n">15</span><span class="testo"><span class="tit">How Old R U</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AMaster+Blaster">Master Blaster</a></span></span><span class="dur">4:15</span></div>
+  </section>
+
+  <nav class="vicine">
+    <a class="prima" href="/compilation/m2o-02/"><img loading="lazy" src="/compilation/cop/m2o-02-200.jpg" alt=""><span><span class="dove">Prima</span><span class="come" style="display:block">m2o — Musica Allo Stato Puro Volume 2</span></span></a>
+    <a class="dopo" href="/compilation/m2o-04/"><img loading="lazy" src="/compilation/cop/m2o-04-200.jpg" alt=""><span><span class="dove">Dopo</span><span class="come" style="display:block">m2o — Musica Allo Stato Puro Volume 4</span></span></a>
+  </nav>
+
+  <p class="coda">Tracklist e crediti da Discogs, copertina dall'archivio. Cliccando un
+    artista si va a vedere tutto quello che di suo è finito nelle compilation.</p>
+
+</main>
+
+<footer class="contenitore">
+  <span>&copy; 2026 Provenzano Dj</span>
+  <span><a href="/compilation/">Tutte le compilation</a></span>
+</footer>
+
+</body>
+</html>

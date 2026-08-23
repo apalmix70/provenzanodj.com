@@ -91,6 +91,13 @@ a{color:inherit;text-decoration:none}
 @keyframes batte{0%,100%{opacity:1}50%{opacity:.25}}
 @media (prefers-reduced-motion:reduce){.cartello .nome .punto{animation:none}}
 
+/* il secondo cartello: stessa grafica, un gradino sotto. Crossover e' quello che
+   esce ogni settimana, le compilation sono il lascito - vanno letti in quest'ordine */
+.cartello.secondo{margin-top:clamp(26px,5vh,52px)}
+.cartello.secondo .nome{font-size:clamp(28px,6.4vw,58px)}
+/* il punto che batte e' uno solo: due sarebbero due cose che chiamano insieme */
+.cartello.secondo .nome .punto{animation:none}
+
 .cartello .tesi{
   margin:26px auto 0;
   font-size:clamp(11px,1.7vw,14px);
@@ -191,6 +198,13 @@ footer{
     <a href="/crossover/puntate/" aria-label="Crossover — tutte le puntate">
       <h1 class="nome">Crossover<span class="punto">.</span></h1>
       <p class="invito">tutte le puntate &rarr;</p>
+    </a>
+  </section>
+
+  <section class="cartello secondo">
+    <a href="/compilation/" aria-label="Compilation — tutte quelle mixate">
+      <h2 class="nome">Compilation<span class="punto">.</span></h2>
+      <p class="invito">83 mixate dal 1994 &rarr;</p>
     </a>
     <p class="tesi">Trent'anni a scegliere musica, produrla e proporla &mdash; <em>in radio, in pista, sui social</em>.</p>
   </section>

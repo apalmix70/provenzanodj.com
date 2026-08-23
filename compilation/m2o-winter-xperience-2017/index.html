@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>m2o Winter Xperience — Provenzano Dj</title>
+<meta name="description" content="m2o Winter Xperience (1 dicembre 2017): 56 tracce, mixata da Provenzano Dj. Dentro ci sono Hi-Quality, ZAYN, Sia, Jemima Kirke, Iceleak, Karl Michael.">
+<meta property="og:title" content="m2o Winter Xperience">
+<meta property="og:description" content="m2o Winter Xperience (1 dicembre 2017): 56 tracce, mixata da Provenzano Dj. Dentro ci sono Hi-Quality, ZAYN, Sia, Jemima Kirke, Iceleak, Karl Michael.">
+<meta property="og:type" content="music.album">
+<meta property="og:url" content="https://www.provenzanodj.com/compilation/m2o-winter-xperience-2017/">
+<meta property="og:image" content="https://www.provenzanodj.com/compilation/cop/m2o-winter-xperience-2017.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23000'/%3E%3Ccircle cx='32' cy='38' r='14' fill='%23FF3131'/%3E%3C/svg%3E">
+<style>
+@font-face{font-family:'Anton';src:url('../../fonts/Anton-Regular.ttf') format('truetype');font-display:swap}
+@font-face{font-family:'Poppins EB';src:url('../../fonts/Poppins-ExtraBold.ttf') format('truetype');font-display:swap}
+
+:root{
+  --nero:#000;--rosso:#FF3131;--bianco:#fff;
+  --grigio:rgba(255,255,255,.55);--debole:rgba(255,255,255,.35);
+  --riga:rgba(255,255,255,.10);--pannello:#0b0b0b;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--nero);color:var(--bianco);
+  font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
+  min-height:100svh;display:flex;flex-direction:column}
+a{color:inherit;text-decoration:none}
+.contenitore{width:100%;max-width:1080px;margin:0 auto;padding:0 20px}
+
+header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;background:var(--nero)}
+.testata{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 0}
+.logo{font-family:'Poppins EB',Arial,sans-serif;font-size:19px;letter-spacing:-.04em;line-height:1}
+.logo .punto{color:var(--rosso)}
+.menu{display:flex;gap:18px;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--grigio)}
+.menu a.qui{color:var(--bianco)}
+.menu a:hover{color:var(--bianco)}
+
+.briciole{padding:22px 0 0;font-size:11px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--debole)}
+.briciole a:hover{color:var(--bianco)}
+.briciole .sep{margin:0 8px}
+
+/* il disco: copertina grande a sinistra, dati a destra */
+.disco{display:flex;gap:28px;padding:20px 0 26px;align-items:flex-start;flex-wrap:wrap}
+.disco .copertina{width:min(320px,100%);aspect-ratio:1;border-radius:6px;
+  border:1px solid var(--riga);object-fit:cover;display:block;flex:none}
+.disco .dati{flex:1;min-width:min(300px,100%)}
+.disco .serie{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--rosso)}
+.disco h1{font-family:'Anton',Arial,sans-serif;font-weight:400;text-transform:uppercase;
+  font-size:clamp(26px,4.6vw,44px);letter-spacing:.02em;line-height:1.04;margin-top:9px}
+.disco h1 .punto{color:var(--rosso)}
+.schede{margin-top:18px;display:flex;flex-wrap:wrap;gap:10px 26px}
+.scheda .eti{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--debole)}
+.scheda .val{font-size:14px;margin-top:3px;font-variant-numeric:tabular-nums}
+.fuori{margin-top:20px;display:flex;flex-wrap:wrap;gap:9px}
+.fuori a{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--grigio);
+  border:1px solid #242424;border-radius:999px;padding:7px 13px}
+.fuori a:hover{border-color:var(--rosso);color:var(--bianco)}
+
+/* la tracklist */
+.tracce{padding:6px 0 10px}
+.tracce h2{font-family:'Anton',Arial,sans-serif;font-weight:400;font-size:19px;
+  letter-spacing:.06em;text-transform:uppercase;padding-bottom:11px;
+  border-bottom:1px solid var(--riga)}
+.traccia{display:flex;gap:14px;align-items:baseline;padding:10px 0;
+  border-bottom:1px solid var(--riga)}
+.traccia .n{font-variant-numeric:tabular-nums;color:var(--debole);font-size:12.5px;
+  flex:0 0 26px;text-align:right}
+.traccia .testo{flex:1;min-width:0}
+.traccia .tit{font-size:15px;font-weight:600;line-height:1.3}
+.traccia .art{font-size:13.5px;color:var(--grigio);margin-top:2px}
+.traccia .art a:hover{color:var(--bianco);text-decoration:underline}
+.traccia .art .muto{color:var(--debole);font-style:italic}
+.traccia .dur{font-variant-numeric:tabular-nums;color:var(--debole);font-size:12.5px;flex:none}
+
+.vicine{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;
+  padding:26px 0 10px;border-top:1px solid var(--riga);margin-top:22px}
+.vicine a{display:flex;align-items:center;gap:11px;max-width:47%}
+.vicine img{width:44px;height:44px;border-radius:4px;object-fit:cover;
+  filter:grayscale(1);transition:filter .2s}
+.vicine a:hover img{filter:none}
+.vicine .dove{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--debole)}
+.vicine .come{font-size:13px;margin-top:2px;line-height:1.3}
+.vicine a:hover .come{color:var(--rosso)}
+.vicine .dopo{margin-left:auto;text-align:right;flex-direction:row-reverse}
+
+.coda{padding:26px 0 10px;color:var(--debole);font-size:12.5px;line-height:1.7;max-width:70ch}
+
+footer{margin-top:auto;border-top:1px solid var(--riga);padding:20px 0 28px;
+  font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--debole);
+  display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+footer a:hover{color:var(--bianco)}
+
+@media (max-width:640px){
+  .disco{gap:20px}
+  .disco .copertina{width:min(240px,64vw)}
+  .vicine a{max-width:100%}
+}
+@media (max-width:430px){
+  .menu a[href="/"]{display:none}
+  .menu{gap:13px;font-size:10px;letter-spacing:.12em}
+  .testata{gap:10px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="contenitore testata">
+    <a class="logo" href="/">provenzano<span class="punto">.</span></a>
+    <nav class="menu">
+      <a class="qui" href="/compilation/">Il muro</a>
+      <a href="/compilation/archivio/">Archivio</a>
+      <a href="/compilation/numeri/">I numeri</a>
+      <a href="/">Home</a>
+    </nav>
+  </div>
+</header>
+
+<main class="contenitore">
+
+  <nav class="briciole">
+    <a href="/compilation/">Compilation</a><span class="sep">/</span><a
+      href="/compilation/?serie=1">m2o Xperience</a>
+  </nav>
+
+  <section class="disco">
+    <img class="copertina" src="/compilation/cop/m2o-winter-xperience-2017.jpg" alt="Copertina di m2o Winter Xperience">
+    <div class="dati">
+      <p class="serie">m2o Xperience</p>
+      <h1>m2o Winter Xperience<span class="punto">.</span></h1>
+      <div class="schede">
+        <div class="scheda"><div class="eti">Uscita</div><div class="val">1 dicembre 2017</div></div>
+        <div class="scheda"><div class="eti">Etichetta</div><div class="val">Sony Music</div></div>
+        <div class="scheda"><div class="eti">Tracce</div><div class="val">56</div></div>
+        <div class="scheda"><div class="eti">Mixata da</div><div class="val">Provenzano DJ</div></div>
+      </div>
+      <div class="fuori">
+        <a href="/compilation/archivio/?anno=2017">Tutti i brani del 2017</a>
+        <a href="https://www.discogs.com/release/16299809" target="_blank" rel="noopener">Scheda su Discogs</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="tracce">
+    <h2>La tracklist</h2>
+    <div class="traccia"><span class="n">1</span><span class="testo"><span class="tit">Hide</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AHi-Quality">Hi-Quality</a></span></span></div>
+    <div class="traccia"><span class="n">2</span><span class="testo"><span class="tit">Dusk Till Dawn (John &quot;J-C&quot; Carr Mix)</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AZAYN">ZAYN</a>, <a href="/compilation/archivio/?q=artista%3ASia">Sia</a>, <a href="/compilation/archivio/?q=artista%3AJemima+Kirke">Jemima Kirke</a></span></span></div>
+    <div class="traccia"><span class="n">3</span><span class="testo"><span class="tit">Don&#x27;t Leave Me</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AIceleak">Iceleak</a>, <a href="/compilation/archivio/?q=artista%3AKarl+Michael">Karl Michael</a></span></span></div>
+    <div class="traccia"><span class="n">4</span><span class="testo"><span class="tit">Alanna</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ASerge+Belmonte">Serge Belmonte</a></span></span></div>
+    <div class="traccia"><span class="n">5</span><span class="testo"><span class="tit">17</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AMarc+Kinchen">Marc Kinchen</a></span></span></div>
+    <div class="traccia"><span class="n">6</span><span class="testo"><span class="tit">What About Us (Cash Cash Mix)</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AP!NK">P!NK</a></span></span></div>
+    <div class="traccia"><span class="n">7</span><span class="testo"><span class="tit">More Than You Know</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AAxwell+Λ+Ingrosso">Axwell Λ Ingrosso</a></span></span></div>
+    <div class="traccia"><span class="n">8</span><span class="testo"><span class="tit">More Than Friends</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AJames+Hype">James Hype</a>, <a href="/compilation/archivio/?q=artista%3AKelli-Leigh+Henry-Davila">Kelli-Leigh Henry-Davila</a></span></span></div>
+    <div class="traccia"><span class="n">9</span><span class="testo"><span class="tit">Isla Bonita</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AWlady">Wlady</a>, <a href="/compilation/archivio/?q=artista%3AGigi+ATN">Gigi ATN</a></span></span></div>
+    <div class="traccia"><span class="n">10</span><span class="testo"><span class="tit">Get Low</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ASystem3">System3</a></span></span></div>
+    <div class="traccia"><span class="n">11</span><span class="testo"><span class="tit">Bodyman</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ADenny+Berland">Denny Berland</a></span></span></div>
+    <div class="traccia"><span class="n">12</span><span class="testo"><span class="tit">Rio De La Negra</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AMario+Saso">Mario Saso</a></span></span></div>
+    <div class="traccia"><span class="n">13</span><span class="testo"><span class="tit">Get Down</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3APromiseland">Promiseland</a>, <a href="/compilation/archivio/?q=artista%3AWill+K">Will K</a></span></span></div>
+    <div class="traccia"><span class="n">14</span><span class="testo"><span class="tit">Magalenha</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ASimon+Fava">Simon Fava</a>, <a href="/compilation/archivio/?q=artista%3AGregor+Salto">Gregor Salto</a>, <a href="/compilation/archivio/?q=artista%3ASérgio+Mendes">Sérgio Mendes</a></span></span></div>
+    <div class="traccia"><span class="n">15</span><span class="testo"><span class="tit">2U (Tujamo Remix)</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ADavid+Guetta">David Guetta</a>, <a href="/compilation/archivio/?q=artista%3AJustin+Bieber">Justin Bieber</a></span></span></div>
+    <div class="traccia"><span class="n">16</span><span class="testo"><span class="tit">Coco&#x27;s Miracle</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AFedde+Le+Grand">Fedde Le Grand</a>, <a href="/compilation/archivio/?q=artista%3ADannic">Dannic</a>, <a href="/compilation/archivio/?q=artista%3ACoco">Coco</a></span></span></div>
+    <div class="traccia"><span class="n">17</span><span class="testo"><span class="tit">Younger Now (Niko The Kid Remix)</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AMiley+Cyrus">Miley Cyrus</a></span></span></div>
+    <div class="traccia"><span class="n">18</span><span class="testo"><span class="tit">Til The Sun Rise Up</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ABob+Sinclar">Bob Sinclar</a>, <a href="/compilation/archivio/?q=artista%3AAkon">Akon</a></span></span></div>
+    <div class="traccia"><span class="n">19</span><span class="testo"><span class="tit">Go 2.0</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ABurak+Yeter">Burak Yeter</a>, <a href="/compilation/archivio/?q=artista%3ARyan+Riback">Ryan Riback</a></span></span></div>
+    <div class="traccia"><span class="n">20</span><span class="testo"><span class="tit">Silence</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AMarshmello">Marshmello</a>, <a href="/compilation/archivio/?q=artista%3AKhalid">Khalid</a></span></span></div>
+    <div class="traccia"><span class="n">21</span><span class="testo"><span class="tit">Never Too Late</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AAlle+Farben">Alle Farben</a>, <a href="/compilation/archivio/?q=artista%3ASam+Gray">Sam Gray</a></span></span></div>
+    <div class="traccia"><span class="n">22</span><span class="testo"><span class="tit">Tell Me Who (Slider &amp; Magnit Remix)</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AVanotek">Vanotek</a>, <a href="/compilation/archivio/?q=artista%3AEneli">Eneli</a></span></span></div>
+    <div class="traccia"><span class="n">23</span><span class="testo"><span class="tit">Listen For Once Now (Alessandro Viale Edit)</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ANRD1">NRD1</a>, <a href="/compilation/archivio/?q=artista%3APiweer">Piweer</a>, <a href="/compilation/archivio/?q=artista%3AChiaro">Chiaro</a></span></span></div>
+    <div class="traccia"><span class="n">24</span><span class="testo"><span class="tit">I Believe I&#x27;m Fine</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ARobin+Schulz">Robin Schulz</a>, <a href="/compilation/archivio/?q=artista%3AHugel">Hugel</a></span></span></div>
+    <div class="traccia"><span class="n">25</span><span class="testo"><span class="tit">Best Friend</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ASofi+Tukker">Sofi Tukker</a>, <a href="/compilation/archivio/?q=artista%3ANervo">Nervo</a>, <a href="/compilation/archivio/?q=artista%3AThe+Knocks">The Knocks</a>, <a href="/compilation/archivio/?q=artista%3AAlisa+Ueno">Alisa Ueno</a></span></span></div>
+    <div class="traccia"><span class="n">26</span><span class="testo"><span class="tit">Pumped Up</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AKlingande">Klingande</a></span></span></div>
+    <div class="traccia"><span class="n">27</span><span class="testo"><span class="tit">Together</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ATW3LV">TW3LV</a>, <a href="/compilation/archivio/?q=artista%3AJack+Wilby">Jack Wilby</a></span></span></div>
+    <div class="traccia"><span class="n">28</span><span class="testo"><span class="tit">Gonna Live My Life</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ATom+&amp;+Hills">Tom &amp; Hills</a>, <a href="/compilation/archivio/?q=artista%3ALeandro+Da+Silva">Leandro Da Silva</a>, <a href="/compilation/archivio/?q=artista%3AJutty+Ranx">Jutty Ranx</a></span></span></div>
+    <div class="traccia"><span class="n">29</span><span class="testo"><span class="tit">Never Give Up On Love</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AAlex+Gaudino">Alex Gaudino</a>, <a href="/compilation/archivio/?q=artista%3APolina">Polina</a></span></span></div>
+    <div class="traccia"><span class="n">30</span><span class="testo"><span class="tit">Feel You</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AnaBBoo">naBBoo</a>, <a href="/compilation/archivio/?q=artista%3AMisha+Miller">Misha Miller</a></span></span></div>
+    <div class="traccia"><span class="n">31</span><span class="testo"><span class="tit">Say A Prayer</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ATIEKS">TIEKS</a>, <a href="/compilation/archivio/?q=artista%3AChaka+Khan">Chaka Khan</a>, <a href="/compilation/archivio/?q=artista%3APopcaan">Popcaan</a></span></span></div>
+    <div class="traccia"><span class="n">32</span><span class="testo"><span class="tit">Dum Dum</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AKideko">Kideko</a>, <a href="/compilation/archivio/?q=artista%3ATinie+Tempah">Tinie Tempah</a>, <a href="/compilation/archivio/?q=artista%3ABecky+G">Becky G</a></span></span></div>
+    <div class="traccia"><span class="n">33</span><span class="testo"><span class="tit">I Want You (Alessandro Viale Remix)</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AMargeaux">Margeaux</a></span></span></div>
+    <div class="traccia"><span class="n">34</span><span class="testo"><span class="tit">Rock The Party</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ADimo">Dimo</a>, <a href="/compilation/archivio/?q=artista%3AJoe+Hill">Joe Hill</a></span></span></div>
+    <div class="traccia"><span class="n">35</span><span class="testo"><span class="tit">Wishing Girl (Rivaz Remix)</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ALola+Marsh">Lola Marsh</a></span></span></div>
+    <div class="traccia"><span class="n">36</span><span class="testo"><span class="tit">Saturday Night (DJ Ross 2K17 Remix)</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AWhigfield">Whigfield</a></span></span></div>
+    <div class="traccia"><span class="n">37</span><span class="testo"><span class="tit">Don&#x27;t Give Up On Me (DJ Ross Remix)</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AWaser">Waser</a>, <a href="/compilation/archivio/?q=artista%3ARobbie+Rosen">Robbie Rosen</a></span></span></div>
+    <div class="traccia"><span class="n">38</span><span class="testo"><span class="tit">Complicated</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ADimitri+Vegas+&amp;+Like+Mike">Dimitri Vegas &amp; Like Mike</a>, <a href="/compilation/archivio/?q=artista%3ADavid+Guetta">David Guetta</a>, <a href="/compilation/archivio/?q=artista%3AKiiara">Kiiara</a></span></span></div>
+    <div class="traccia"><span class="n">39</span><span class="testo"><span class="tit">Reggaetón Lento (Remix)</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ACNCO">CNCO</a>, <a href="/compilation/archivio/?q=artista%3ALittle+Mix">Little Mix</a></span></span></div>
+    <div class="traccia"><span class="n">40</span><span class="testo"><span class="tit">Guaya</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AEva+Simons">Eva Simons</a></span></span></div>
+    <div class="traccia"><span class="n">41</span><span class="testo"><span class="tit">El Party</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AJake+La+Furia">Jake La Furia</a>, <a href="/compilation/archivio/?q=artista%3AAlessio+La+Profunda+Melodia">Alessio La Profunda Melodia</a></span></span></div>
+    <div class="traccia"><span class="n">42</span><span class="testo"><span class="tit">All We Need Is Love</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ARobbie+Rivera">Robbie Rivera</a>, <a href="/compilation/archivio/?q=artista%3AKymani+Marley">Kymani Marley</a></span></span></div>
+    <div class="traccia"><span class="n">43</span><span class="testo"><span class="tit">Paradise</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ANiko+Noise">Niko Noise</a></span></span></div>
+    <div class="traccia"><span class="n">44</span><span class="testo"><span class="tit">The Sign</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AR.I.O">R.I.O</a>, <a href="/compilation/archivio/?q=artista%3AVengaboys">Vengaboys</a></span></span></div>
+    <div class="traccia"><span class="n">45</span><span class="testo"><span class="tit">Viento</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AGianluca+Vacchi">Gianluca Vacchi</a></span></span></div>
+    <div class="traccia"><span class="n">46</span><span class="testo"><span class="tit">Make Me Free</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ABroswave">Broswave</a></span></span></div>
+    <div class="traccia"><span class="n">47</span><span class="testo"><span class="tit">Harlem (Manovski Edit)</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ADJs+From+Mars">DJs From Mars</a></span></span></div>
+    <div class="traccia"><span class="n">48</span><span class="testo"><span class="tit">Verdad</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ADD+Jump">DD Jump</a></span></span></div>
+    <div class="traccia"><span class="n">49</span><span class="testo"><span class="tit">Need You Tonight, Together</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AFelicity">Felicity</a>, <a href="/compilation/archivio/?q=artista%3AThomas+Feelman">Thomas Feelman</a>, <a href="/compilation/archivio/?q=artista%3AJytte">Jytte</a></span></span></div>
+    <div class="traccia"><span class="n">50</span><span class="testo"><span class="tit">Keep On Rising</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AFedde+Le+Grand">Fedde Le Grand</a>, <a href="/compilation/archivio/?q=artista%3AIan+Carey">Ian Carey</a></span></span></div>
+    <div class="traccia"><span class="n">51</span><span class="testo"><span class="tit">In The Town</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AGabry+Ponte">Gabry Ponte</a>, <a href="/compilation/archivio/?q=artista%3ASergio+Sylvestre">Sergio Sylvestre</a></span></span></div>
+    <div class="traccia"><span class="n">52</span><span class="testo"><span class="tit">The Spectre</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AAlan+Walker">Alan Walker</a></span></span></div>
+    <div class="traccia"><span class="n">53</span><span class="testo"><span class="tit">Without You</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AAvicii">Avicii</a>, <a href="/compilation/archivio/?q=artista%3ASandro+Cavazza">Sandro Cavazza</a></span></span></div>
+    <div class="traccia"><span class="n">54</span><span class="testo"><span class="tit">Far Away</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ASocievole">Socievole</a>, <a href="/compilation/archivio/?q=artista%3AWild+Fox">Wild Fox</a></span></span></div>
+    <div class="traccia"><span class="n">55</span><span class="testo"><span class="tit">The Greatest</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AAnton+Pars">Anton Pars</a>, <a href="/compilation/archivio/?q=artista%3AGianni+Camelia">Gianni Camelia</a>, <a href="/compilation/archivio/?q=artista%3AMax+Landry">Max Landry</a></span></span></div>
+    <div class="traccia"><span class="n">56</span><span class="testo"><span class="tit">Anymore</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ANico+Del+Prato">Nico Del Prato</a></span></span></div>
+  </section>
+
+  <nav class="vicine">
+    <a class="prima" href="/compilation/m2o-summer-xperience-2017/"><img loading="lazy" src="/compilation/cop/m2o-summer-xperience-2017-200.jpg" alt=""><span><span class="dove">Prima</span><span class="come" style="display:block">m2o Summer Xperience</span></span></a>
+    <a class="dopo" href="/compilation/m2o-dance-xperience-2018/"><img loading="lazy" src="/compilation/cop/m2o-dance-xperience-2018-200.jpg" alt=""><span><span class="dove">Dopo</span><span class="come" style="display:block">m2o Dance Xperience</span></span></a>
+  </nav>
+
+  <p class="coda">Tracklist e crediti da Discogs, copertina dall'archivio. Cliccando un
+    artista si va a vedere tutto quello che di suo è finito nelle compilation.</p>
+
+</main>
+
+<footer class="contenitore">
+  <span>&copy; 2026 Provenzano Dj</span>
+  <span><a href="/compilation/">Tutte le compilation</a></span>
+</footer>
+
+</body>
+</html>

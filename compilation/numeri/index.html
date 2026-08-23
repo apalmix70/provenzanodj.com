@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Compilation — i numeri</title>
+<meta name="description" content="I numeri delle compilation mixate da Provenzano Dj: quante sono, quante tracce, gli artisti più presenti, i brani ripresi più volte, anno per anno dal 1994.">
+<meta property="og:title" content="Compilation — i numeri">
+<meta property="og:description" content="Quante compilation, quante tracce, quali artisti tornano più spesso.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.provenzanodj.com/compilation/numeri/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23000'/%3E%3Ccircle cx='32' cy='38' r='14' fill='%23FF3131'/%3E%3C/svg%3E">
+<style>
+@font-face{font-family:'Anton';src:url('../../fonts/Anton-Regular.ttf') format('truetype');font-display:swap}
+@font-face{font-family:'Poppins EB';src:url('../../fonts/Poppins-ExtraBold.ttf') format('truetype');font-display:swap}
+
+:root{
+  --nero:#000;--rosso:#FF3131;--bianco:#fff;
+  --grigio:rgba(255,255,255,.55);--debole:rgba(255,255,255,.35);
+  --riga:rgba(255,255,255,.10);--pannello:#0b0b0b;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--nero);color:var(--bianco);
+  font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
+  min-height:100svh;display:flex;flex-direction:column}
+a{color:inherit;text-decoration:none}
+.contenitore{width:100%;max-width:1080px;margin:0 auto;padding:0 20px}
+
+header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;background:var(--nero)}
+.testata{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 0}
+.logo{font-family:'Poppins EB',Arial,sans-serif;font-size:19px;letter-spacing:-.04em;line-height:1}
+.logo .punto{color:var(--rosso)}
+.menu{display:flex;gap:18px;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--grigio)}
+.menu a.qui{color:var(--bianco)}
+.menu a:hover{color:var(--bianco)}
+
+.cartello{padding:34px 0 20px}
+.cartello h1{font-family:'Anton',Arial,sans-serif;font-weight:400;text-transform:uppercase;
+  font-size:clamp(30px,6vw,54px);letter-spacing:.03em;line-height:1}
+.cartello h1 .punto{color:var(--rosso)}
+.cartello .sotto{margin-top:12px;color:var(--grigio);font-size:14px;line-height:1.6;max-width:62ch}
+.cartello .sotto b{color:var(--bianco);font-weight:600}
+
+/* i totali, in cifre grosse */
+.totali{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;
+  background:var(--riga);border:1px solid var(--riga);border-radius:8px;overflow:hidden;
+  margin-bottom:8px}
+.totale{background:var(--nero);padding:18px 16px}
+.totale .cifra{font-family:'Anton',Arial,sans-serif;font-size:clamp(26px,4vw,38px);
+  line-height:1;font-variant-numeric:tabular-nums}
+.totale .cifra .punto{color:var(--rosso)}
+.totale .eti{margin-top:7px;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--debole);line-height:1.5}
+
+section.blocco{padding:34px 0 0}
+.titolo-blocco{padding-bottom:11px;border-bottom:1px solid var(--riga);margin-bottom:6px}
+.titolo-blocco h2{font-family:'Anton',Arial,sans-serif;font-weight:400;font-size:20px;
+  letter-spacing:.06em;text-transform:uppercase}
+.titolo-blocco p{margin-top:7px;color:var(--grigio);font-size:13px;line-height:1.6;max-width:66ch}
+
+/* classifica: una riga, una barra che dice quanto */
+.classifica{padding-top:6px}
+.voce{display:flex;gap:13px;align-items:center;padding:9px 0;border-bottom:1px solid var(--riga)}
+.voce .pos{font-variant-numeric:tabular-nums;color:var(--debole);font-size:12px;
+  flex:0 0 24px;text-align:right}
+.voce .chi{flex:1;min-width:0}
+.voce .nome{font-size:14.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.voce .nome a:hover{color:var(--rosso)}
+.voce .barra{margin-top:7px;height:3px;background:#161616;border-radius:2px;overflow:hidden}
+.voce .barra i{display:block;height:100%;background:var(--rosso)}
+.voce .quanto{font-variant-numeric:tabular-nums;font-size:13px;flex:none;text-align:right}
+.voce .quanto span{color:var(--debole);font-size:11px;display:block;margin-top:2px;
+  letter-spacing:.08em;text-transform:uppercase}
+
+/* anno per anno */
+.tabella{width:100%;border-collapse:collapse;margin-top:6px}
+.tabella th{text-align:left;font-size:10px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--debole);font-weight:400;padding:9px 10px 9px 0;border-bottom:1px solid var(--riga)}
+.tabella td{padding:9px 10px 9px 0;border-bottom:1px solid var(--riga);font-size:14px;
+  font-variant-numeric:tabular-nums}
+.tabella td.testo{font-variant-numeric:normal}
+.tabella .anno{color:var(--rosso)}
+.scorre{overflow-x:auto}
+
+.coda{padding:34px 0 10px;color:var(--debole);font-size:12.5px;line-height:1.7;max-width:70ch}
+.caricando{padding:60px 0;color:var(--grigio);font-size:14px}
+
+footer{margin-top:auto;border-top:1px solid var(--riga);padding:20px 0 28px;
+  font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--debole);
+  display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+footer a:hover{color:var(--bianco)}
+
+@media (max-width:430px){
+  .menu a[href="/"]{display:none}
+  .menu{gap:13px;font-size:10px;letter-spacing:.12em}
+  .testata{gap:10px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="contenitore testata">
+    <a class="logo" href="/">provenzano<span class="punto">.</span></a>
+    <nav class="menu">
+      <a href="/compilation/">Il muro</a>
+      <a href="/compilation/archivio/">Archivio</a>
+      <a class="qui" href="/compilation/numeri/">I numeri</a>
+      <a href="/">Home</a>
+    </nav>
+  </div>
+</header>
+
+<main class="contenitore">
+
+  <div class="cartello">
+    <h1>I numeri<span class="punto">.</span></h1>
+    <p class="sotto">Cosa viene fuori a contare le compilation mixate una per una: quante
+      sono, quanta musica ci è passata dentro, chi torna più spesso. Sono i dati
+      dimostrabili titolo per titolo — <b>quelle uscite senza credito in copertina non
+      ci sono</b>, e sono soprattutto serie degli anni '90.</p>
+  </div>
+
+  <div id="pagina"><p class="caricando">carico i numeri…</p></div>
+
+  <p class="coda">Fonte dei dati: le schede Discogs delle singole uscite. "Presenze" conta
+    quante volte un artista è finito dentro una compilation: se lo stesso brano è passato
+    in tre, vale tre.</p>
+
+</main>
+
+<footer class="contenitore">
+  <span>&copy; 2026 Provenzano Dj</span>
+  <span id="aggiornato"></span>
+</footer>
+
+<script>
+(function () {
+  'use strict';
+
+  var $pagina = document.getElementById('pagina');
+
+  function fuga(s) {
+    return (s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+  function num(n) { return (n || 0).toLocaleString('it-IT'); }
+
+  function blocco(titolo, spiega, dentro) {
+    return '<section class="blocco"><div class="titolo-blocco"><h2>' + titolo + '</h2>' +
+      (spiega ? '<p>' + spiega + '</p>' : '') + '</div>' + dentro + '</section>';
+  }
+
+  // ⚠️ `r.nome` arriva gia' pronto per la pagina: chi chiama passa il testo con
+  // fuga() fatta, cosi' una riga puo' avere dentro anche un pezzo in grigio senza
+  // che qui si debba disfare e rifare l'escape.
+  function classifica(righe, massimo, indirizzo) {
+    return '<div class="classifica">' + righe.map(function (r, i) {
+      var nome = indirizzo ? '<a href="' + indirizzo(r) + '">' + r.nome + '</a>' : r.nome;
+      return '<div class="voce"><span class="pos">' + (i + 1) + '</span>' +
+        '<span class="chi"><span class="nome">' + nome + '</span>' +
+        '<span class="barra" style="display:block"><i style="width:' +
+          Math.max(2, Math.round(r.quanto / massimo * 100)) + '%"></i></span></span>' +
+        '<span class="quanto">' + num(r.quanto) + '<span>' + r.unita + '</span></span></div>';
+    }).join('') + '</div>';
+  }
+
+  function disegna(s) {
+    var t = s.totali;
+    var html = '';
+
+    html += '<div class="totali">' +
+      totale(num(t.compilation), 'compilation mixate') +
+      totale(num(t.tracce_totali), 'tracce in scaletta') +
+      totale(num(t.brani_unici), 'brani diversi') +
+      totale(num(t.artisti), 'artisti') +
+      totale(t.primo_anno + '<span class="punto">→</span>' + t.ultimo_anno, 'anni di uscite') +
+      '</div>';
+
+    var maxA = s.top_artisti.length ? s.top_artisti[0].presenze : 1;
+    html += blocco('Gli artisti più presenti', null,
+      classifica(s.top_artisti.slice(0, 30).map(function (a) {
+        return { nome: fuga(a.nome), grezzo: a.nome, quanto: a.presenze,
+                 unita: a.brani === 1 ? '1 brano' : a.brani + ' brani' };
+      }), maxA, function (r) {
+        return '/compilation/archivio/?q=' + encodeURIComponent('artista:' + r.grezzo);
+      }));
+
+    var maxS = Math.max.apply(null, s.serie.map(function (x) { return x.tracce; }));
+    html += blocco('Le serie',
+      'Quanto pesa ognuna delle famiglie in cui si dividono le uscite.',
+      classifica(s.serie.map(function (x) {
+        return { nome: fuga(x.nome) +
+                   (x.dal ? ' · ' + x.dal + (x.al !== x.dal ? '–' + x.al : '') : ''),
+                 quanto: x.tracce,
+                 unita: x.compilation + (x.compilation === 1 ? ' disco' : ' dischi') };
+      }), maxS, null));
+
+    if (s.piu_volte && s.piu_volte.length) {
+      var maxV = s.piu_volte[0].n;
+      html += blocco('I brani rimessi più volte',
+        'Un brano che torna in più compilation è un brano che ha tenuto: qui ci sono ' +
+        'quelli che sono rientrati in scaletta più di una volta.',
+        classifica(s.piu_volte.slice(0, 20).map(function (b) {
+          return { nome: fuga(b.t) + (b.a.length
+                     ? ' <span style="color:rgba(255,255,255,.35)">· ' +
+                       fuga(b.a.join(', ')) + '</span>' : ''),
+                   quanto: b.n, unita: 'compilation' };
+        }), maxV, null));
+    }
+
+    html += blocco('Anno per anno', null,
+      '<div class="scorre"><table class="tabella"><thead><tr>' +
+      '<th>Anno</th><th>Compilation</th><th>Tracce</th></tr></thead><tbody>' +
+      s.anni.map(function (a) {
+        return '<tr><td class="anno">' + a.anno + '</td><td>' + a.compilation +
+          '</td><td>' + num(a.tracce) + '</td></tr>';
+      }).join('') + '</tbody></table></div>');
+
+    var maxE = s.etichette.length ? s.etichette[0].compilation : 1;
+    html += blocco('Le etichette', 'Chi le pubblicava.',
+      classifica(s.etichette.slice(0, 12).map(function (x) {
+        return { nome: fuga(x.nome), quanto: x.compilation, unita: 'compilation' };
+      }), maxE, null));
+
+    $pagina.innerHTML = html;
+    document.getElementById('aggiornato').textContent =
+      'Aggiornato al ' + s.aggiornato.split('-').reverse().join('/');
+  }
+
+  function totale(cifra, eti) {
+    return '<div class="totale"><div class="cifra">' + cifra +
+      '</div><div class="eti">' + eti + '</div></div>';
+  }
+
+  fetch('/compilation/dati/statistiche.json')
+    .then(function (r) { return r.json(); })
+    .then(disegna)
+    .catch(function () {
+      $pagina.innerHTML = '<p class="caricando">Non riesco a caricare i numeri. ' +
+        'Riprova fra un momento.</p>';
+    });
+})();
+</script>
+
+</body>
+</html>

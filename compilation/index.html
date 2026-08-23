@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Compilation — il muro</title>
+<meta name="description" content="Tutte le compilation mixate da Provenzano Dj dal 1994: i 40 volumi di m2o, la serie Xperience, i DualDisc, Hit Mania, Studio Dance, RDS. Copertina per copertina, con la tracklist di ognuna.">
+<meta property="og:title" content="Compilation — il muro">
+<meta property="og:description" content="Tutte le compilation mixate da Provenzano Dj dal 1994, copertina per copertina.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.provenzanodj.com/compilation/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23000'/%3E%3Ccircle cx='32' cy='38' r='14' fill='%23FF3131'/%3E%3C/svg%3E">
+<style>
+@font-face{font-family:'Anton';src:url('../fonts/Anton-Regular.ttf') format('truetype');font-display:swap}
+@font-face{font-family:'Poppins EB';src:url('../fonts/Poppins-ExtraBold.ttf') format('truetype');font-display:swap}
+
+:root{
+  --nero:#000;--rosso:#FF3131;--bianco:#fff;
+  --grigio:rgba(255,255,255,.55);--debole:rgba(255,255,255,.35);
+  --riga:rgba(255,255,255,.10);--pannello:#0b0b0b;
+  --testata:47px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--nero);color:var(--bianco);
+  font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
+  min-height:100svh;display:flex;flex-direction:column}
+a{color:inherit;text-decoration:none}
+.contenitore{width:100%;max-width:1080px;margin:0 auto;padding:0 20px}
+
+header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;background:var(--nero)}
+.testata{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 0}
+.logo{font-family:'Poppins EB',Arial,sans-serif;font-size:19px;letter-spacing:-.04em;line-height:1}
+.logo .punto{color:var(--rosso)}
+.menu{display:flex;gap:18px;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--grigio)}
+.menu a.qui{color:var(--bianco)}
+.menu a:hover{color:var(--bianco)}
+
+.cartello{padding:34px 0 20px}
+.cartello h1{font-family:'Anton',Arial,sans-serif;font-weight:400;text-transform:uppercase;
+  font-size:clamp(30px,6vw,54px);letter-spacing:.03em;line-height:1}
+.cartello h1 .punto{color:var(--rosso)}
+.cartello .sotto{margin-top:12px;color:var(--grigio);font-size:14px;line-height:1.6;max-width:62ch}
+.cartello .sotto b{color:var(--bianco);font-weight:600}
+.cartello .sotto a.dentro{color:var(--bianco);border-bottom:1px solid var(--rosso);padding-bottom:1px}
+.cartello .sotto a.dentro:hover{color:var(--rosso)}
+
+.pannello{position:sticky;top:var(--testata);z-index:15;background:var(--nero);
+  padding:10px 0 12px;border-bottom:1px solid var(--riga)}
+.cerca{position:relative}
+.cerca input{width:100%;background:var(--pannello);color:var(--bianco);
+  border:1px solid #262626;border-radius:10px;
+  padding:13px 44px 13px 44px;font-size:16px;font-family:inherit;outline:none}
+.cerca input:focus{border-color:var(--rosso)}
+.cerca .lente{position:absolute;left:15px;top:50%;transform:translateY(-50%);
+  color:var(--debole);font-size:15px;pointer-events:none}
+.cerca .pulisci{position:absolute;right:8px;top:50%;transform:translateY(-50%);
+  background:none;border:0;color:var(--debole);font-size:20px;cursor:pointer;
+  padding:6px 10px;line-height:1;display:none}
+.cerca .pulisci.si{display:block}
+.filtri{display:flex;flex-wrap:wrap;gap:7px;margin-top:10px;align-items:center}
+.bottone{background:var(--pannello);color:var(--grigio);border:1px solid #262626;
+  border-radius:999px;padding:7px 13px;font-size:12.5px;font-family:inherit;
+  cursor:pointer;outline:none;letter-spacing:.02em;white-space:nowrap}
+.bottone:hover{border-color:#3d3d3d;color:var(--bianco)}
+.bottone.attivo{background:#1a0606;border-color:var(--rosso);color:var(--bianco)}
+.conteggio{margin-left:auto;font-size:12px;color:var(--grigio);letter-spacing:.04em;white-space:nowrap}
+.conteggio b{color:var(--bianco);font-variant-numeric:tabular-nums}
+
+/* ------------------------------------------------------------------- muro */
+.gruppo{padding:26px 0 0}
+.titolo-gruppo{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;
+  padding-bottom:11px;border-bottom:1px solid var(--riga);margin-bottom:14px}
+.titolo-gruppo h2{font-family:'Anton',Arial,sans-serif;font-weight:400;
+  font-size:20px;letter-spacing:.06em;text-transform:uppercase}
+.titolo-gruppo span{font-size:12px;color:var(--grigio);letter-spacing:.04em}
+
+.muro{display:grid;grid-template-columns:repeat(auto-fill,minmax(118px,1fr));gap:10px}
+/* Il tassello e' la copertina e basta: il titolo arriva sopra quando ci passi
+   il dito o il mouse. In grigio finche' non lo guardi, a colori quando lo fai. */
+.cd{position:relative;display:block;aspect-ratio:1;border:1px solid var(--riga);
+  border-radius:4px;overflow:hidden;background:#0d0d0d;
+  transition:border-color .2s,transform .2s}
+.cd:hover,.cd:focus-visible{border-color:var(--rosso);transform:translateY(-2px);outline:none}
+.cd img{width:100%;height:100%;object-fit:cover;display:block;
+  filter:grayscale(1) contrast(1.06);transition:filter .25s}
+.cd:hover img,.cd:focus-visible img{filter:none}
+.cd .eti{position:absolute;left:0;right:0;bottom:0;padding:24px 8px 7px;
+  background:linear-gradient(to top,rgba(0,0,0,.94) 34%,transparent);
+  opacity:0;transition:opacity .2s}
+.cd:hover .eti,.cd:focus-visible .eti{opacity:1}
+.cd .eti .anno{font-size:10px;color:var(--rosso);font-variant-numeric:tabular-nums;
+  letter-spacing:.06em}
+.cd .eti .tit{font-size:11px;line-height:1.3;margin-top:2px;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+/* il numero di volume si vede sempre: e' la cosa che tiene in fila i quaranta m2o */
+.cd .num{position:absolute;top:6px;left:7px;font-family:'Anton',Arial,sans-serif;
+  font-size:13px;line-height:1;color:var(--bianco);text-shadow:0 1px 6px rgba(0,0,0,.9);
+  letter-spacing:.04em}
+
+.vuoto{padding:60px 0;text-align:center;color:var(--grigio);font-size:14px;line-height:1.7}
+.vuoto b{color:var(--bianco)}
+.coda{padding:34px 0 10px;color:var(--debole);font-size:12.5px;line-height:1.7;max-width:70ch}
+
+footer{margin-top:auto;border-top:1px solid var(--riga);padding:20px 0 28px;
+  font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--debole);
+  display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+footer a:hover{color:var(--bianco)}
+
+@media (max-width:560px){
+  .muro{grid-template-columns:repeat(auto-fill,minmax(96px,1fr));gap:8px}
+  .conteggio{margin-left:0;width:100%;order:9}
+}
+@media (max-width:430px){
+  .menu a[href="/"]{display:none}
+  .menu{gap:13px;font-size:10px;letter-spacing:.12em}
+  .testata{gap:10px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="contenitore testata">
+    <a class="logo" href="/">provenzano<span class="punto">.</span></a>
+    <nav class="menu">
+      <a class="qui" href="/compilation/">Il muro</a>
+      <a href="/compilation/archivio/">Archivio</a>
+      <a href="/compilation/numeri/">I numeri</a>
+      <a href="/">Home</a>
+    </nav>
+  </div>
+</header>
+
+<main class="contenitore">
+
+  <div class="cartello">
+    <h1>Compilation<span class="punto">.</span></h1>
+    <p class="sotto">Tutte le compilation mixate dal <b>1994</b>: i quaranta volumi di
+      <b>m2o — Musica Allo Stato Puro</b>, la serie Xperience, i DualDisc, e le serie
+      degli anni '90 firmate Bolognesi &amp; Provenzano. Clicca una copertina per la
+      tracklist. Per cercare un brano dentro tutte, c'è
+      <a class="dentro" href="/compilation/archivio/">l'archivio</a>.</p>
+  </div>
+
+  <div class="pannello">
+    <div class="cerca">
+      <span class="lente">⌕</span>
+      <input id="q" type="search" autocomplete="off" spellcheck="false"
+             placeholder="Cerca un titolo, una serie, un anno…" aria-label="Cerca">
+      <button class="pulisci" id="pulisci" aria-label="Pulisci">×</button>
+    </div>
+    <div class="filtri" id="filtri"></div>
+  </div>
+
+  <div id="muro"></div>
+  <div class="vuoto" id="vuoto" hidden>Niente che corrisponda. <b>Prova con meno parole.</b></div>
+
+  <p class="coda">Le copertine sono le scansioni dell'archivio, i dati e le tracklist vengono
+    da Discogs. Le serie anni '90 uscivano spesso senza credito in copertina: quelle che si
+    possono dimostrare titolo per titolo sono queste.</p>
+
+</main>
+
+<footer class="contenitore">
+  <span>&copy; 2026 Provenzano Dj</span>
+  <span id="aggiornato"></span>
+</footer>
+
+<script>
+(function () {
+  'use strict';
+
+  var $testata = document.querySelector('header');
+  function misuraTestata() {
+    document.documentElement.style.setProperty(
+      '--testata', Math.floor($testata.getBoundingClientRect().height) + 'px');
+  }
+  misuraTestata();
+  window.addEventListener('resize', misuraTestata);
+  if (document.fonts && document.fonts.ready) { document.fonts.ready.then(misuraTestata); }
+
+  var dati = null, indice = [], serieScelta = null;
+  var $q = document.getElementById('q');
+  var $muro = document.getElementById('muro');
+  var $filtri = document.getElementById('filtri');
+  var $vuoto = document.getElementById('vuoto');
+  var $pulisci = document.getElementById('pulisci');
+
+  function norm(s) {
+    return (s || '').toLowerCase().normalize('NFD')
+      .replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
+  }
+
+  function prepara(p) {
+    dati = p;
+    indice = p.compilation.map(function (c, i) {
+      return { c: c, i: i, serie: p.serie[c.se],
+               cerca: ' ' + norm(c.t + ' ' + p.serie[c.se] + ' ' + (c.e || '')) + ' ' + c.y + ' ' };
+    });
+
+    // un tasto per serie, col numero di dischi dentro: e' anche il sommario
+    var tutti = document.createElement('button');
+    tutti.className = 'bottone attivo'; tutti.textContent = 'Tutte';
+    tutti.onclick = function () { serieScelta = null; segnaFiltri(); disegna(); };
+    $filtri.appendChild(tutti);
+    p.serie.forEach(function (nome, si) {
+      var quante = p.compilation.filter(function (c) { return c.se === si; }).length;
+      var b = document.createElement('button');
+      b.className = 'bottone'; b.dataset.serie = si;
+      b.textContent = nome + ' · ' + quante;
+      b.onclick = function () { serieScelta = si; segnaFiltri(); disegna(); };
+      $filtri.appendChild(b);
+    });
+    var conta = document.createElement('span');
+    conta.className = 'conteggio'; conta.id = 'conteggio';
+    $filtri.appendChild(conta);
+
+    document.getElementById('aggiornato').textContent =
+      'Aggiornato al ' + p.aggiornato.split('-').reverse().join('/');
+    disegna();
+  }
+
+  function segnaFiltri() {
+    Array.prototype.forEach.call($filtri.querySelectorAll('.bottone'), function (b) {
+      var suo = b.dataset.serie === undefined ? null : parseInt(b.dataset.serie, 10);
+      b.classList.toggle('attivo', suo === serieScelta);
+    });
+  }
+
+  function disegna() {
+    var parole = norm($q.value).split(' ').filter(Boolean);
+    $pulisci.classList.toggle('si', $q.value.length > 0);
+    var visti = indice.filter(function (v) {
+      if (serieScelta !== null && v.c.se !== serieScelta) return false;
+      for (var i = 0; i < parole.length; i++) {
+        if (v.cerca.indexOf(' ' + parole[i]) === -1) return false;
+      }
+      return true;
+    });
+
+    document.getElementById('conteggio').innerHTML =
+      '<b>' + visti.length + '</b> compilation · <b>' +
+      visti.reduce(function (t, v) { return t + v.c.n; }, 0) + '</b> tracce';
+
+    $muro.innerHTML = '';
+    $vuoto.hidden = visti.length > 0;
+
+    // raggruppate per serie, nell'ordine in cui stanno nel JSON: e' l'ordine
+    // di produzione, che e' anche quello che si riconosce a occhio
+    var gruppi = [], corrente = null;
+    visti.forEach(function (v) {
+      if (!corrente || corrente.se !== v.c.se) {
+        corrente = { se: v.c.se, nome: v.serie, righe: [] };
+        gruppi.push(corrente);
+      }
+      corrente.righe.push(v);
+    });
+
+    gruppi.forEach(function (g) {
+      var anni = g.righe.map(function (v) { return v.c.y; }).filter(Boolean);
+      var sez = document.createElement('section');
+      sez.className = 'gruppo';
+      var testa = document.createElement('div');
+      testa.className = 'titolo-gruppo';
+      testa.innerHTML = '<h2>' + g.nome + '</h2><span>' + g.righe.length +
+        (g.righe.length === 1 ? ' compilation' : ' compilation') +
+        (anni.length ? ' · ' + Math.min.apply(null, anni) +
+          (Math.max.apply(null, anni) !== Math.min.apply(null, anni)
+            ? '–' + Math.max.apply(null, anni) : '') : '') + '</span>';
+      sez.appendChild(testa);
+
+      var griglia = document.createElement('div');
+      griglia.className = 'muro';
+      g.righe.forEach(function (v) {
+        var c = v.c;
+        var a = document.createElement('a');
+        a.className = 'cd';
+        a.href = '/compilation/' + c.s + '/';
+        a.setAttribute('aria-label', c.t + (c.y ? ' (' + c.y + ')' : ''));
+        a.innerHTML =
+          '<img loading="lazy" src="/compilation/cop/' + c.s + '-200.jpg" alt="">' +
+          (c.v ? '<span class="num">' + c.v + '</span>' : '') +
+          '<span class="eti"><span class="anno">' + (c.y || '') + '</span>' +
+          '<span class="tit">' + c.t + '</span></span>';
+        griglia.appendChild(a);
+      });
+      sez.appendChild(griglia);
+      $muro.appendChild(sez);
+    });
+  }
+
+  $q.addEventListener('input', disegna);
+  $pulisci.addEventListener('click', function () { $q.value = ''; $q.focus(); disegna(); });
+
+  fetch('/compilation/dati/compilation.json')
+    .then(function (r) { return r.json(); })
+    .then(prepara)
+    .catch(function () {
+      $muro.innerHTML = '<div class="vuoto">Non riesco a caricare l\'archivio. ' +
+        '<b>Riprova fra un momento.</b></div>';
+    });
+})();
+</script>
+
+</body>
+</html>

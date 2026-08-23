@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Compilation — l'archivio dei brani</title>
+<meta name="description" content="Tutti i brani inseriti nelle compilation mixate da Provenzano Dj dal 1994: titolo, artista e in quale compilation sono finiti. Cerca per artista o per titolo.">
+<meta property="og:title" content="Compilation — l'archivio dei brani">
+<meta property="og:description" content="Tutti i brani inseriti nelle compilation mixate da Provenzano Dj dal 1994.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.provenzanodj.com/compilation/archivio/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23000'/%3E%3Ccircle cx='32' cy='38' r='14' fill='%23FF3131'/%3E%3C/svg%3E">
+<style>
+@font-face{font-family:'Anton';src:url('../../fonts/Anton-Regular.ttf') format('truetype');font-display:swap}
+@font-face{font-family:'Poppins EB';src:url('../../fonts/Poppins-ExtraBold.ttf') format('truetype');font-display:swap}
+
+:root{
+  --nero:#000;--rosso:#FF3131;--bianco:#fff;
+  --grigio:rgba(255,255,255,.55);--debole:rgba(255,255,255,.35);
+  --riga:rgba(255,255,255,.10);--pannello:#0b0b0b;
+  --testata:47px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--nero);color:var(--bianco);
+  font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
+  min-height:100svh;display:flex;flex-direction:column}
+a{color:inherit;text-decoration:none}
+.contenitore{width:100%;max-width:1080px;margin:0 auto;padding:0 20px}
+
+header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;background:var(--nero)}
+.testata{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 0}
+.logo{font-family:'Poppins EB',Arial,sans-serif;font-size:19px;letter-spacing:-.04em;line-height:1}
+.logo .punto{color:var(--rosso)}
+.menu{display:flex;gap:18px;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--grigio)}
+.menu a.qui{color:var(--bianco)}
+.menu a:hover{color:var(--bianco)}
+
+.cartello{padding:34px 0 20px}
+.cartello h1{font-family:'Anton',Arial,sans-serif;font-weight:400;text-transform:uppercase;
+  font-size:clamp(30px,6vw,54px);letter-spacing:.03em;line-height:1}
+.cartello h1 .punto{color:var(--rosso)}
+.cartello .sotto{margin-top:12px;color:var(--grigio);font-size:14px;line-height:1.6;max-width:62ch}
+.cartello .sotto b{color:var(--bianco);font-weight:600}
+.cartello .sotto a.dentro{color:var(--bianco);border-bottom:1px solid var(--rosso);padding-bottom:1px}
+.cartello .sotto a.dentro:hover{color:var(--rosso)}
+
+.pannello{position:sticky;top:var(--testata);z-index:15;background:var(--nero);
+  padding:10px 0 12px;border-bottom:1px solid var(--riga)}
+.cerca{position:relative}
+.cerca input{width:100%;background:var(--pannello);color:var(--bianco);
+  border:1px solid #262626;border-radius:10px;
+  padding:13px 44px 13px 44px;font-size:16px;font-family:inherit;outline:none}
+.cerca input:focus{border-color:var(--rosso)}
+.cerca .lente{position:absolute;left:15px;top:50%;transform:translateY(-50%);
+  color:var(--debole);font-size:15px;pointer-events:none}
+.cerca .pulisci{position:absolute;right:8px;top:50%;transform:translateY(-50%);
+  background:none;border:0;color:var(--debole);font-size:20px;cursor:pointer;
+  padding:6px 10px;line-height:1;display:none}
+.cerca .pulisci.si{display:block}
+.filtri{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;align-items:center}
+select,.bottone{background:var(--pannello);color:var(--bianco);border:1px solid #262626;
+  border-radius:999px;padding:8px 14px;font-size:12.5px;font-family:inherit;
+  cursor:pointer;outline:none;letter-spacing:.02em}
+select:focus,.bottone:focus-visible{border-color:var(--rosso)}
+.bottone:hover{border-color:#3d3d3d}
+.bottone.attivo{background:#1a0606;border-color:var(--rosso);color:var(--bianco)}
+.conteggio{margin-left:auto;font-size:12px;color:var(--grigio);letter-spacing:.04em;white-space:nowrap}
+.conteggio b{color:var(--bianco);font-variant-numeric:tabular-nums}
+
+.elenco{padding:6px 0 40px}
+.brano{display:flex;gap:14px;align-items:center;padding:11px 0;border-bottom:1px solid var(--riga)}
+.copertina{width:54px;height:54px;flex:0 0 54px;border-radius:5px;background:#141414;
+  object-fit:cover;display:block}
+.testo{min-width:0;flex:1}
+.titolo{font-size:15px;font-weight:600;line-height:1.25;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.artisti{font-size:13.5px;color:var(--grigio);margin-top:2px;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.artisti button{background:none;border:0;color:inherit;font:inherit;cursor:pointer;padding:0}
+.artisti button:hover{color:var(--bianco);text-decoration:underline}
+.artisti .muto{color:var(--debole);font-style:italic}
+.meta{margin-top:5px;display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.tag{font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;
+  border:1px solid #242424;border-radius:999px;padding:3px 9px;color:var(--grigio);
+  background:none;font-family:inherit;white-space:nowrap;display:inline-block;
+  max-width:260px;overflow:hidden;text-overflow:ellipsis}
+.tag:hover{border-color:var(--rosso);color:var(--bianco)}
+.tag b{color:var(--rosso);font-weight:400}
+.tag::after{content:" ›";color:var(--debole)}
+.tag:hover::after{color:var(--rosso)}
+.quante{font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--debole);
+  border:1px dashed #242424;border-radius:999px;padding:3px 9px;white-space:nowrap}
+
+.altro{display:block;width:100%;margin:26px 0;padding:14px;text-align:center;
+  background:var(--pannello);border:1px solid #262626;border-radius:10px;
+  color:var(--bianco);font-family:inherit;font-size:13px;letter-spacing:.1em;
+  text-transform:uppercase;cursor:pointer}
+.altro:hover{border-color:var(--rosso)}
+.vuoto{padding:60px 0;text-align:center;color:var(--grigio);font-size:14px;line-height:1.7}
+.vuoto b{color:var(--bianco)}
+
+footer{margin-top:auto;border-top:1px solid var(--riga);padding:20px 0 28px;
+  font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--debole);
+  display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+footer a:hover{color:var(--bianco)}
+
+@media (max-width:560px){
+  .conteggio{margin-left:0;width:100%;order:9}
+  .copertina{width:46px;height:46px;flex-basis:46px}
+  .titolo{font-size:14px}
+  .tag{max-width:180px}
+}
+@media (max-width:430px){
+  .menu a[href="/"]{display:none}
+  .menu{gap:13px;font-size:10px;letter-spacing:.12em}
+  .testata{gap:10px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="contenitore testata">
+    <a class="logo" href="/">provenzano<span class="punto">.</span></a>
+    <nav class="menu">
+      <a href="/compilation/">Il muro</a>
+      <a class="qui" href="/compilation/archivio/">Archivio</a>
+      <a href="/compilation/numeri/">I numeri</a>
+      <a href="/">Home</a>
+    </nav>
+  </div>
+</header>
+
+<main class="contenitore">
+
+  <div class="cartello">
+    <h1>L'archivio<span class="punto">.</span></h1>
+    <p class="sotto">Ogni brano finito dentro una compilation mixata, dal <b>1994</b> a oggi,
+      con la compilation in cui è stato inserito. Cerca un titolo o un artista — scrivendo
+      <b>artista:</b> davanti si cerca solo fra i nomi. Le copertine, una per una, stanno sul
+      <a class="dentro" href="/compilation/">muro</a>.</p>
+  </div>
+
+  <div class="pannello">
+    <div class="cerca">
+      <span class="lente">⌕</span>
+      <input id="q" type="search" autocomplete="off" spellcheck="false"
+             placeholder="Cerca un titolo, un artista…" aria-label="Cerca">
+      <button class="pulisci" id="pulisci" aria-label="Pulisci">×</button>
+    </div>
+    <div class="filtri">
+      <select id="serie" aria-label="Serie"><option value="">Tutte le serie</option></select>
+      <select id="anno" aria-label="Anno"><option value="">Tutti gli anni</option></select>
+      <select id="ordine" aria-label="Ordina">
+        <option value="anno">Dai più vecchi</option>
+        <option value="recenti">Dai più recenti</option>
+        <option value="ripetuti">Ripresi più volte</option>
+        <option value="titolo">Titolo A→Z</option>
+        <option value="artista">Artista A→Z</option>
+      </select>
+      <button class="bottone" id="azzera" hidden>Azzera filtri</button>
+      <span class="conteggio" id="conteggio">carico…</span>
+    </div>
+  </div>
+
+  <div class="elenco" id="elenco"></div>
+  <button class="altro" id="altro" hidden>Mostra altri</button>
+
+</main>
+
+<footer class="contenitore">
+  <span>&copy; 2026 Provenzano Dj</span>
+  <span id="aggiornato"></span>
+</footer>
+
+<script>
+(function () {
+  'use strict';
+
+  var $testata = document.querySelector('header');
+  function misuraTestata() {
+    document.documentElement.style.setProperty(
+      '--testata', Math.floor($testata.getBoundingClientRect().height) + 'px');
+  }
+  misuraTestata();
+  window.addEventListener('resize', misuraTestata);
+  if (document.fonts && document.fonts.ready) { document.fonts.ready.then(misuraTestata); }
+
+  var PASSO = 120;
+  var dati = null, indice = [], risultati = [], mostrati = 0;
+
+  var $q = document.getElementById('q');
+  var $serie = document.getElementById('serie');
+  var $anno = document.getElementById('anno');
+  var $ordine = document.getElementById('ordine');
+  var $elenco = document.getElementById('elenco');
+  var $altro = document.getElementById('altro');
+  var $conteggio = document.getElementById('conteggio');
+  var $azzera = document.getElementById('azzera');
+  var $pulisci = document.getElementById('pulisci');
+
+  function norm(s) {
+    return (s || '').toLowerCase().normalize('NFD')
+      .replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
+  }
+  var MESI = ['gennaio', 'febbraio', 'marzo', 'aprile', 'maggio', 'giugno', 'luglio',
+              'agosto', 'settembre', 'ottobre', 'novembre', 'dicembre'];
+
+  // Discogs mette 00 dove non sa il giorno o il mese: si scrive quello che si sa,
+  // senza inventare un primo gennaio che poi qualcuno legge come vero
+  function dataItaliana(grezza) {
+    var p = (grezza || '').split('-');
+    var a = parseInt(p[0], 10);
+    if (!a) return '';
+    var mese = p.length > 1 ? parseInt(p[1], 10) : 0;
+    var giorno = p.length > 2 ? parseInt(p[2], 10) : 0;
+    if (mese && giorno) return giorno + ' ' + MESI[mese - 1] + ' ' + a;
+    if (mese) return MESI[mese - 1] + ' ' + a;
+    return '' + a;
+  }
+
+  function fuga(s) {
+    return (s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+
+  function prepara(p) {
+    dati = p;
+    indice = p.brani.map(function (b) {
+      var nomi = b.a.map(function (i) { return p.artisti[i]; });
+      var comp = b.c.map(function (i) { return p.compilation[i]; });
+      var anni = comp.map(function (c) { return c.y; }).filter(Boolean);
+      return {
+        b: b,
+        nomi: nomi,
+        comp: comp,
+        // ⚠️ La copertina e' quella della compilation piu' VECCHIA in cui il brano
+        // e' passato: e' li' che e' entrato la prima volta, ed e' l'unica scelta che
+        // non cambia sotto i piedi quando il database cresce.
+        cop: comp.slice().sort(function (x, y) { return (x.y || 0) - (y.y || 0); })[0],
+        serie: comp.map(function (c) { return c.se; }),
+        anni: anni,
+        primo: anni.length ? Math.min.apply(null, anni) : 9999,
+        ultimo: anni.length ? Math.max.apply(null, anni) : 0,
+        // fra due spazi e con le parole separate: la ricerca si attacca all'inizio
+        // di una parola, non in mezzo (stessa regola dell'archivio Crossover)
+        cerca: ' ' + norm(b.t + ' ' + nomi.join(' ')) + ' ',
+        cercaA: ' ' + nomi.map(norm).join(' | ') + ' ',
+        ordTitolo: norm(b.t),
+        ordArtista: norm(nomi[0] || 'zzz')
+      };
+    });
+
+    p.serie.forEach(function (nome, si) {
+      var o = document.createElement('option');
+      o.value = si; o.textContent = nome;
+      $serie.appendChild(o);
+    });
+    var anni = {};
+    p.compilation.forEach(function (c) { if (c.y) anni[c.y] = 1; });
+    Object.keys(anni).sort().reverse().forEach(function (a) {
+      var o = document.createElement('option'); o.value = a; o.textContent = a;
+      $anno.appendChild(o);
+    });
+
+    document.getElementById('aggiornato').textContent =
+      'Aggiornato al ' + p.aggiornato.split('-').reverse().join('/');
+    leggiIndirizzo();
+    filtra();
+  }
+
+  function filtra() {
+    var grezzo = $q.value.trim();
+    var soloArtista = false;
+    var conPrefisso = grezzo.match(/^artista\s*:\s*([\s\S]*)$/i);
+    if (conPrefisso) { soloArtista = true; grezzo = conPrefisso[1].trim(); }
+    var parole = norm(grezzo).split(' ').filter(Boolean);
+    var serie = $serie.value === '' ? null : parseInt($serie.value, 10);
+    var anno = $anno.value === '' ? null : parseInt($anno.value, 10);
+
+    risultati = indice.filter(function (v) {
+      if (serie !== null && v.serie.indexOf(serie) === -1) return false;
+      if (anno !== null && v.anni.indexOf(anno) === -1) return false;
+      var dove = soloArtista ? v.cercaA : v.cerca;
+      for (var i = 0; i < parole.length; i++) {
+        if (dove.indexOf(' ' + parole[i]) === -1) return false;
+      }
+      return true;
+    });
+
+    var ordine = $ordine.value;
+    risultati.sort(function (x, y) {
+      if (ordine === 'titolo') return x.ordTitolo < y.ordTitolo ? -1 : 1;
+      if (ordine === 'artista') return x.ordArtista < y.ordArtista ? -1 : 1;
+      if (ordine === 'ripetuti') {
+        if (y.b.c.length !== x.b.c.length) return y.b.c.length - x.b.c.length;
+        return x.primo - y.primo;
+      }
+      if (ordine === 'recenti') {
+        if (y.ultimo !== x.ultimo) return y.ultimo - x.ultimo;
+        return x.ordTitolo < y.ordTitolo ? -1 : 1;
+      }
+      if (x.primo !== y.primo) return x.primo - y.primo;
+      return x.ordTitolo < y.ordTitolo ? -1 : 1;
+    });
+
+    $conteggio.innerHTML = '<b>' + risultati.length + '</b> ' +
+      (risultati.length === 1 ? 'brano' : 'brani');
+    $azzera.hidden = !($q.value || serie !== null || anno !== null || ordine !== 'anno');
+    $pulisci.classList.toggle('si', $q.value.length > 0);
+
+    $elenco.innerHTML = '';
+    mostrati = 0;
+    if (!risultati.length) {
+      $elenco.innerHTML = '<div class="vuoto">Nessun brano trovato. ' +
+        '<b>Prova con meno parole.</b></div>';
+      $altro.hidden = true;
+      return;
+    }
+    disegnaAltri();
+    scriviIndirizzo();
+  }
+
+  function disegnaAltri() {
+    var pezzo = risultati.slice(mostrati, mostrati + PASSO);
+    var html = pezzo.map(function (v) {
+      var artisti = v.nomi.length
+        ? v.nomi.map(function (n) {
+            return '<button type="button" data-artista="' + fuga(n) + '">' + fuga(n) + '</button>';
+          }).join(', ')
+        : '<span class="muto">senza artista in copertina</span>';
+      var tag = v.comp.map(function (c) {
+        // nel titolo che appare fermandosi sopra c'e' la data d'uscita per intero,
+        // dove Discogs ce l'ha: nella targhetta non ci starebbe mai
+        return '<a class="tag" href="/compilation/' + c.s + '/" title="' + fuga(c.t) +
+          (c.d && c.d.length > 4 ? ' — uscita ' + dataItaliana(c.d) : '') + '">' +
+          (c.y ? '<b>' + c.y + '</b> ' : '') + fuga(c.tc || c.t) + '</a>';
+      }).join('');
+      if (v.comp.length > 1) {
+        tag = '<span class="quante">' + v.comp.length + ' volte</span>' + tag;
+      }
+      return '<div class="brano">' +
+        '<img class="copertina" loading="lazy" alt="" src="/compilation/cop/' +
+          v.cop.s + '-200.jpg">' +
+        '<div class="testo">' +
+          '<div class="titolo">' + fuga(v.b.t) + '</div>' +
+          '<div class="artisti">' + artisti + '</div>' +
+          '<div class="meta">' + tag + '</div>' +
+        '</div></div>';
+    }).join('');
+    $elenco.insertAdjacentHTML('beforeend', html);
+    mostrati += pezzo.length;
+    $altro.hidden = mostrati >= risultati.length;
+    $altro.textContent = 'Mostra altri ' +
+      Math.min(PASSO, risultati.length - mostrati) + ' di ' + (risultati.length - mostrati);
+  }
+
+  // il click su un artista cerca solo fra gli artisti: e' il modo di dire
+  // "fammi vedere tutto quello che ho messo di questo qui"
+  $elenco.addEventListener('click', function (ev) {
+    var b = ev.target.closest('button[data-artista]');
+    if (!b) return;
+    $q.value = 'artista:' + b.dataset.artista;
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    filtra();
+  });
+
+  function scriviIndirizzo() {
+    var p = new URLSearchParams();
+    if ($q.value) p.set('q', $q.value);
+    if ($serie.value) p.set('serie', $serie.value);
+    if ($anno.value) p.set('anno', $anno.value);
+    if ($ordine.value !== 'anno') p.set('ordine', $ordine.value);
+    var s = p.toString();
+    history.replaceState(null, '', s ? '?' + s : location.pathname);
+  }
+  function leggiIndirizzo() {
+    var p = new URLSearchParams(location.search);
+    if (p.get('q')) $q.value = p.get('q');
+    if (p.get('serie')) $serie.value = p.get('serie');
+    if (p.get('anno')) $anno.value = p.get('anno');
+    if (p.get('ordine')) $ordine.value = p.get('ordine');
+  }
+
+  $q.addEventListener('input', filtra);
+  $serie.addEventListener('change', filtra);
+  $anno.addEventListener('change', filtra);
+  $ordine.addEventListener('change', filtra);
+  $altro.addEventListener('click', disegnaAltri);
+  $pulisci.addEventListener('click', function () { $q.value = ''; $q.focus(); filtra(); });
+  $azzera.addEventListener('click', function () {
+    $q.value = ''; $serie.value = ''; $anno.value = ''; $ordine.value = 'anno'; filtra();
+  });
+
+  fetch('/compilation/dati/compilation.json')
+    .then(function (r) { return r.json(); })
+    .then(prepara)
+    .catch(function () {
+      $elenco.innerHTML = '<div class="vuoto">Non riesco a caricare l\'archivio. ' +
+        '<b>Riprova fra un momento.</b></div>';
+      $conteggio.textContent = '';
+    });
+})();
+</script>
+
+</body>
+</html>
