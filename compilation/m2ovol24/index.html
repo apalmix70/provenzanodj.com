@@ -53,6 +53,13 @@ header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;back
 .disco .copertina{width:100%;aspect-ratio:1;border-radius:6px;
   border:1px solid var(--riga);object-fit:cover;display:block}
 .disco .foto{width:100%;border-radius:6px;border:1px solid var(--riga);display:block}
+/* Il minimix: 16:9 che si adatta alla colonna, come le copertine. */
+.minimix{margin-top:30px}
+.minimix h2{font-family:'Anton',Arial,sans-serif;font-weight:400;font-size:15px;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--grigio);margin-bottom:12px}
+.minimix .video{position:relative;padding-top:56.25%;border-radius:6px;
+  overflow:hidden;border:1px solid var(--riga);background:#000}
+.minimix .video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 .disco .serie{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--rosso)}
 .disco h1{font-family:'Anton',Arial,sans-serif;font-weight:400;text-transform:uppercase;
   font-size:clamp(26px,4.6vw,44px);letter-spacing:.02em;line-height:1.04;margin-top:9px}
@@ -93,6 +100,13 @@ header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;back
 .traccia .art .muto{color:var(--debole);font-style:italic}
 /* chi ha fatto le sigle: sta accanto alla parola "sigla", piu' spento del titolo */
 .traccia .art .firma{color:var(--debole)}
+/* la traccia video della parte CD-ROM: una targhetta davanti al titolo, cosi' si
+   capisce a colpo d'occhio che quella riga non e' musica mixata */
+.traccia .vd{font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--debole);border:1px solid var(--riga);border-radius:3px;
+  padding:1px 5px;flex:none;align-self:center}
+.traccia .guarda{border-bottom:1px solid var(--debole)}
+.traccia .guarda:hover{color:var(--rosso);border-bottom-color:var(--rosso)}
 .traccia .dur{font-variant-numeric:tabular-nums;color:var(--debole);font-size:12px;flex:none}
 
 .vicine{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;
@@ -189,14 +203,14 @@ footer a:hover{color:var(--bianco)}
     </div>
 
     <aside class="immagini">
-      <img class="copertina" src="/compilation/cop/m2ovol24.jpg?v=89ddc018" alt="Copertina di m2o vol.24">
+      <img class="copertina" src="/compilation/cop/m2ovol24.jpg?v=bce45593" alt="Copertina di m2o vol.24">
     </aside>
 
   </div>
 
   <nav class="vicine">
-    <a class="prima" href="/compilation/m2ovol23/"><img loading="lazy" src="/compilation/cop/m2ovol23-200.jpg?v=89ddc018" alt=""><span><span class="dove">Prima</span><span class="come" style="display:block">m2o vol.23</span></span></a>
-    <a class="dopo" href="/compilation/m2ovol25/"><img loading="lazy" src="/compilation/cop/m2ovol25-200.jpg?v=89ddc018" alt=""><span><span class="dove">Dopo</span><span class="come" style="display:block">m2o vol.25</span></span></a>
+    <a class="prima" href="/compilation/m2ovol23/"><img loading="lazy" src="/compilation/cop/m2ovol23-200.jpg?v=bce45593" alt=""><span><span class="dove">Prima</span><span class="come" style="display:block">m2o vol.23</span></span></a>
+    <a class="dopo" href="/compilation/m2ovol25/"><img loading="lazy" src="/compilation/cop/m2ovol25-200.jpg?v=bce45593" alt=""><span><span class="dove">Dopo</span><span class="come" style="display:block">m2o vol.25</span></span></a>
   </nav>
 
 </main>

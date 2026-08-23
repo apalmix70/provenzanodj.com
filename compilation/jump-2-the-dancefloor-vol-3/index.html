@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>[Jump]² The Dancefloor Vol. 3 — Provenzano Dj</title>
+<meta name="description" content="[Jump]² The Dancefloor Vol. 3 (27 giugno 2006): 22 tracce, mixata da Provenzano Dj. Dentro ci sono Sophie, Italian Deejays, Promise Land, Fabio Amoroso, Thomas, Azora.">
+<meta property="og:title" content="[Jump]² The Dancefloor Vol. 3">
+<meta property="og:description" content="[Jump]² The Dancefloor Vol. 3 (27 giugno 2006): 22 tracce, mixata da Provenzano Dj. Dentro ci sono Sophie, Italian Deejays, Promise Land, Fabio Amoroso, Thomas, Azora.">
+<meta property="og:type" content="music.album">
+<meta property="og:url" content="https://www.provenzanodj.com/compilation/jump-2-the-dancefloor-vol-3/">
+<meta property="og:image" content="https://www.provenzanodj.com/compilation/cop/jump-2-the-dancefloor-vol-3.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23000'/%3E%3Ccircle cx='32' cy='38' r='14' fill='%23FF3131'/%3E%3C/svg%3E">
+<style>
+@font-face{font-family:'Anton';src:url('../../fonts/Anton-Regular.ttf') format('truetype');font-display:swap}
+@font-face{font-family:'Poppins EB';src:url('../../fonts/Poppins-ExtraBold.ttf') format('truetype');font-display:swap}
+
+:root{
+  --nero:#000;--rosso:#FF3131;--bianco:#fff;
+  --grigio:rgba(255,255,255,.55);--debole:rgba(255,255,255,.35);
+  --riga:rgba(255,255,255,.10);--pannello:#0b0b0b;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--nero);color:var(--bianco);
+  font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
+  min-height:100svh;display:flex;flex-direction:column}
+a{color:inherit;text-decoration:none}
+.contenitore{width:100%;max-width:1080px;margin:0 auto;padding:0 20px}
+
+header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;background:var(--nero)}
+.testata{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 0}
+.logo{font-family:'Poppins EB',Arial,sans-serif;font-size:19px;letter-spacing:-.04em;line-height:1}
+.logo .punto{color:var(--rosso)}
+.menu{display:flex;gap:18px;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--grigio)}
+.menu a.qui{color:var(--bianco)}
+.menu a:hover{color:var(--bianco)}
+
+.briciole{padding:22px 0 0;font-size:11px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--debole)}
+.briciole a:hover{color:var(--bianco)}
+.briciole .sep{margin:0 8px}
+
+/* ⚠️ **Il testo a sinistra, le foto a destra.** Voluto da Amerigo il 23/08/2026:
+   la pagina si legge, e quello che si legge sta dove si comincia a leggere. Sul
+   telefono l'ordine si ribalta - prima la copertina, poi il testo - perche' in
+   colonna il disco che si sta guardando deve arrivare prima della sua scaletta. */
+.disco{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:34px;
+  padding:20px 0 6px;align-items:start}
+.disco .testo{grid-column:1;min-width:0}
+.disco .immagini{grid-column:2;position:sticky;top:78px;display:flex;
+  flex-direction:column;gap:12px}
+.disco .copertina{width:100%;aspect-ratio:1;border-radius:6px;
+  border:1px solid var(--riga);object-fit:cover;display:block}
+.disco .foto{width:100%;border-radius:6px;border:1px solid var(--riga);display:block}
+/* Il minimix: 16:9 che si adatta alla colonna, come le copertine. */
+.minimix{margin-top:30px}
+.minimix h2{font-family:'Anton',Arial,sans-serif;font-weight:400;font-size:15px;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--grigio);margin-bottom:12px}
+.minimix .video{position:relative;padding-top:56.25%;border-radius:6px;
+  overflow:hidden;border:1px solid var(--riga);background:#000}
+.minimix .video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.disco .serie{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--rosso)}
+.disco h1{font-family:'Anton',Arial,sans-serif;font-weight:400;text-transform:uppercase;
+  font-size:clamp(26px,4.6vw,44px);letter-spacing:.02em;line-height:1.04;margin-top:9px}
+.disco h1 .punto{color:var(--rosso)}
+/* ⚠️ **m2o si scrive SEMPRE minuscolo**: e' il nome della radio, non una sigla.
+   Il maiuscolo dei titoli lo stava trasformando in "M2O". Regola di Amerigo, 23/08/2026. */
+.m2o{text-transform:lowercase}
+/* il nome proprio del volume - "Ten Years", "Inside" - non e' il nome del disco:
+   sta sotto, in chiaro, e non entra mai nel titolo */
+.disco .sottotitolo{margin-top:9px;font-size:15px;color:var(--grigio);letter-spacing:.02em}
+.schede{margin-top:18px;display:flex;flex-wrap:wrap;gap:10px 26px}
+.scheda .eti{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--debole)}
+.scheda .val{font-size:14px;margin-top:3px;font-variant-numeric:tabular-nums}
+.fuori{margin-top:20px;display:flex;flex-wrap:wrap;gap:9px}
+.fuori a{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--grigio);
+  border:1px solid #242424;border-radius:999px;padding:7px 13px}
+.fuori a:hover{border-color:var(--rosso);color:var(--bianco)}
+
+/* la tracklist */
+.tracce{padding:26px 0 10px}
+.tracce h2{font-family:'Anton',Arial,sans-serif;font-weight:400;font-size:19px;
+  letter-spacing:.06em;text-transform:uppercase;padding-bottom:11px;
+  border-bottom:1px solid var(--riga)}
+/* ⚠️ **Una traccia, una riga.** La scaletta e' un elenco da scorrere: con titolo
+   sopra e artista sotto ogni disco occupava due righe piu' l'aria in mezzo, e
+   diciassette tracce diventavano una pagina intera. Adesso stanno in fila sulla
+   stessa riga, e vanno a capo solo se non ci stanno. Amerigo, 23/08/2026. */
+.traccia{display:flex;gap:12px;align-items:baseline;padding:3px 0;
+  border-bottom:1px solid var(--riga)}
+.traccia .n{font-variant-numeric:tabular-nums;color:var(--debole);font-size:12px;
+  flex:0 0 22px;text-align:right}
+.traccia .testo{flex:1;min-width:0;display:flex;flex-wrap:wrap;gap:2px 10px;
+  align-items:baseline}
+.traccia .tit{font-size:14px;font-weight:600;line-height:1.45}
+.traccia .art{font-size:12.5px;color:var(--grigio);line-height:1.45;
+  margin:0;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.traccia .art a:hover{color:var(--bianco);text-decoration:underline}
+.traccia .art .muto{color:var(--debole);font-style:italic}
+/* chi ha fatto le sigle: sta accanto alla parola "sigla", piu' spento del titolo */
+.traccia .art .firma{color:var(--debole)}
+/* la traccia video della parte CD-ROM: una targhetta davanti al titolo, cosi' si
+   capisce a colpo d'occhio che quella riga non e' musica mixata */
+.traccia .vd{font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--debole);border:1px solid var(--riga);border-radius:3px;
+  padding:1px 5px;flex:none;align-self:center}
+.traccia .guarda{border-bottom:1px solid var(--debole)}
+.traccia .guarda:hover{color:var(--rosso);border-bottom-color:var(--rosso)}
+.traccia .dur{font-variant-numeric:tabular-nums;color:var(--debole);font-size:12px;flex:none}
+
+.vicine{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;
+  padding:26px 0 10px;border-top:1px solid var(--riga);margin-top:22px}
+.vicine a{display:flex;align-items:center;gap:11px;max-width:47%}
+.vicine img{width:44px;height:44px;border-radius:4px;object-fit:cover}
+.vicine .dove{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--debole)}
+.vicine .come{font-size:13px;margin-top:2px;line-height:1.3}
+.vicine a:hover .come{color:var(--rosso)}
+.vicine .dopo{margin-left:auto;text-align:right;flex-direction:row-reverse}
+
+
+footer{margin-top:auto;border-top:1px solid var(--riga);padding:20px 0 28px;
+  font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--debole);
+  display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+footer a:hover{color:var(--bianco)}
+
+
+@media (max-width:860px){
+  .disco{grid-template-columns:1fr;gap:22px}
+  .disco .testo{grid-column:1;grid-row:2}
+  .disco .immagini{grid-column:1;grid-row:1;position:static;
+    flex-direction:row;flex-wrap:wrap;align-items:flex-start}
+  .disco .copertina{width:min(260px,58vw);aspect-ratio:1}
+  .disco .foto{width:min(260px,58vw)}
+}
+@media (max-width:640px){
+  .vicine a{max-width:100%}
+}
+@media (max-width:430px){
+  .menu a[href="/"]{display:none}
+  .menu{gap:13px;font-size:10px;letter-spacing:.12em}
+  .testata{gap:10px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="contenitore testata">
+    <a class="logo" href="/">provenzano<span class="punto">.</span></a>
+    <nav class="menu">
+      <a class="qui" href="/compilation/">I CD</a>
+      <a href="/compilation/archivio/">Archivio</a>
+      <a href="/compilation/numeri/">I numeri</a>
+      <a href="/">Home</a>
+    </nav>
+  </div>
+</header>
+
+<main class="contenitore">
+
+  <nav class="briciole">
+    <a href="/compilation/">Compilation</a><span class="sep">/</span><a
+      href="/compilation/?serie=8">[Jump]²</a>
+  </nav>
+
+  <div class="disco">
+
+    <div class="testo">
+      <p class="serie">[Jump]² · Volume 3</p>
+      <h1>[Jump]² The Dancefloor Vol. 3<span class="punto">.</span></h1>
+      <div class="schede">
+        <div class="scheda"><div class="eti">Uscita</div><div class="val">27 giugno 2006</div></div>
+        <div class="scheda"><div class="eti">Etichetta</div><div class="val">[Jump]²</div></div>
+        <div class="scheda"><div class="eti">Tracce</div><div class="val">22</div></div>
+        <div class="scheda"><div class="eti">Mixata da</div><div class="val">Provenzano DJ</div></div>
+      </div>
+      <div class="fuori">
+        <a href="/compilation/archivio/?anno=2006">Tutti i brani del 2006</a>
+        <a href="https://www.discogs.com/release/1060120" target="_blank" rel="noopener">Scheda su Discogs</a>
+      </div>
+
+      <section class="tracce">
+        <h2>La tracklist</h2>
+    <div class="traccia"><span class="n">1</span><span class="testo"><span class="tit">C&#x27;est L&#x27;Amour (Provenzano + Promiseland Hard Dance Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ASophie">Sophie</a></span></span><span class="dur">5:10</span></div>
+    <div class="traccia"><span class="n">2</span><span class="testo"><span class="tit">The Story Goes On (Original Extended)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AItalian+Deejays">Italian Deejays</a></span></span><span class="dur">6:20</span></div>
+    <div class="traccia"><span class="n">3</span><span class="testo"><span class="tit">I Really Mean What I Say</span><span class="art"><a href="/compilation/archivio/?q=artista%3APromise+Land">Promise Land</a></span></span><span class="dur">8:50</span></div>
+    <div class="traccia"><span class="n">4</span><span class="testo"><span class="tit">Break Of Light</span><span class="art"><a href="/compilation/archivio/?q=artista%3AFabio+Amoroso">Fabio Amoroso</a></span></span><span class="dur">5:50</span></div>
+    <div class="traccia"><span class="n">5</span><span class="testo"><span class="tit">Last Day (Dance Extended)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AThomas">Thomas</a></span></span><span class="dur">5:02</span></div>
+    <div class="traccia"><span class="n">6</span><span class="testo"><span class="tit">Sensazii (Amoroso Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AAzora">Azora</a></span></span><span class="dur">6:44</span></div>
+    <div class="traccia"><span class="n">7</span><span class="testo"><span class="tit">Electric Camel</span><span class="art"><a href="/compilation/archivio/?q=artista%3AShazan">Shazan</a></span></span><span class="dur">5:47</span></div>
+    <div class="traccia"><span class="n">8</span><span class="testo"><span class="tit">Melody Of Life</span><span class="art"><a href="/compilation/archivio/?q=artista%3AGemini+Station">Gemini Station</a></span></span><span class="dur">5:40</span></div>
+    <div class="traccia"><span class="n">9</span><span class="testo"><span class="tit">Insidance (Extended)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AGemini+Station">Gemini Station</a></span></span><span class="dur">4:01</span></div>
+    <div class="traccia"><span class="n">10</span><span class="testo"><span class="tit">The Launch 06</span><span class="art"><a href="/compilation/archivio/?q=artista%3AHypertraxx">Hypertraxx</a></span></span><span class="dur">4:26</span></div>
+    <div class="traccia"><span class="n">11</span><span class="testo"><span class="tit">Etico Elettrico (Girasole Marranza Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ABoing+Squad">Boing Squad</a></span></span><span class="dur">6:19</span></div>
+    <div class="traccia"><span class="n">12</span><span class="testo"><span class="tit">I&#x27;ll Be Missing You (Hard Dance Style Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AAfterclub">Afterclub</a></span></span><span class="dur">5:52</span></div>
+    <div class="traccia"><span class="n">13</span><span class="testo"><span class="tit">Tweak (Hard Dance Style Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AGroundbeat">Groundbeat</a></span></span><span class="dur">5:44</span></div>
+    <div class="traccia"><span class="n">14</span><span class="testo"><span class="tit">Don&#x27;t Leave Me Now (Hard Dance Style Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ATrilogy">Trilogy</a></span></span><span class="dur">5:57</span></div>
+    <div class="traccia"><span class="n">15</span><span class="testo"><span class="tit">Naughty Girl (Elettro Mix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AM+Lady">M Lady</a></span></span><span class="dur">6:11</span></div>
+    <div class="traccia"><span class="n">16</span><span class="testo"><span class="tit">I&#x27;m The Conductor</span><span class="art"><a href="/compilation/archivio/?q=artista%3ACarlo+Oliva">Carlo Oliva</a>, <a href="/compilation/archivio/?q=artista%3AThe+Conductor">The Conductor</a></span></span><span class="dur">6:51</span></div>
+    <div class="traccia"><span class="n">17</span><span class="testo"><span class="tit">L&#x27;Été (Atomicboy&#x27;s HardBass Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ALes+Amis">Les Amis</a></span></span><span class="dur">5:16</span></div>
+    <div class="traccia"><span class="n">18</span><span class="testo"><span class="tit">Time Goes Round (Original Ext.)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADavide+Farra">Davide Farra</a>, <a href="/compilation/archivio/?q=artista%3ALizzy+B">Lizzy B</a></span></span><span class="dur">5:41</span></div>
+    <div class="traccia"><span class="n">19</span><span class="testo"><span class="tit">Monotema</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMars+Trek">Mars Trek</a></span></span><span class="dur">6:21</span></div>
+    <div class="traccia"><span class="n">20</span><span class="testo"><span class="tit">Funky Town (Original Extended)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ABbenergy">Bbenergy</a></span></span><span class="dur">6:13</span></div>
+    <div class="traccia"><span class="n">21</span><span class="testo"><span class="tit">Velenosa</span><span class="art"><a href="/compilation/archivio/?q=artista%3ASabroso&#x27;s+Gang">Sabroso&#x27;s Gang</a></span></span><span class="dur">5:53</span></div>
+    <div class="traccia"><span class="n">22</span><span class="testo"><span class="tit">Real Love (Trance Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ASygma">Sygma</a></span></span><span class="dur">8:00</span></div>
+      </section>
+    </div>
+
+    <aside class="immagini">
+      <img class="copertina" src="/compilation/cop/jump-2-the-dancefloor-vol-3.jpg?v=bce45593" alt="Copertina di [Jump]² The Dancefloor Vol. 3">
+    </aside>
+
+  </div>
+
+  <nav class="vicine">
+    <a class="prima" href="/compilation/jump-2-the-dancefloor-vol-2/"><img loading="lazy" src="/compilation/cop/jump-2-the-dancefloor-vol-2-200.jpg?v=bce45593" alt=""><span><span class="dove">Prima</span><span class="come" style="display:block">[Jump]² The Dancefloor Vol. 2</span></span></a>
+  </nav>
+
+</main>
+
+<footer class="contenitore">
+  <span>&copy; 2026 Provenzano Dj</span>
+  <span><a href="/compilation/">Tutte le compilation</a></span>
+</footer>
+
+</body>
+</html>
