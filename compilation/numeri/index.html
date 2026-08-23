@@ -83,6 +83,12 @@ section.blocco{padding:34px 0 0}
 .tabella .anno{color:var(--rosso)}
 .scorre{overflow-x:auto}
 
+
+/* ⚠️ **m2o si scrive SEMPRE minuscolo.** E' il nome della radio, non una sigla:
+   il maiuscolo dei titoli lo stava trasformando in "M2O" dappertutto. Ogni testo
+   che passa da un elemento in maiuscolo si porta dietro questo span, che spegne
+   la trasformazione solo su quelle tre lettere. Regola di Amerigo, 23/08/2026. */
+.m2o{text-transform:lowercase}
 .coda{padding:34px 0 10px;color:var(--debole);font-size:12.5px;line-height:1.7;max-width:70ch}
 .caricando{padding:60px 0;color:var(--grigio);font-size:14px}
 
@@ -191,7 +197,7 @@ footer a:hover{color:var(--bianco)}
     html += blocco('Le serie',
       'Quanto pesa ognuna delle famiglie in cui si dividono le uscite.',
       classifica(s.serie.map(function (x) {
-        return { nome: fuga(x.nome) +
+        return { nome: fuga(x.nome).replace(/m2o/gi, '<span class="m2o">m2o</span>') +
                    (x.dal ? ' · ' + x.dal + (x.al !== x.dal ? '–' + x.al : '') : ''),
                  quanto: x.tracce,
                  unita: x.compilation + (x.compilation === 1 ? ' disco' : ' dischi') };

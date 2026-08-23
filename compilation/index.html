@@ -77,14 +77,15 @@ header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;back
 
 .muro{display:grid;grid-template-columns:repeat(auto-fill,minmax(118px,1fr));gap:10px}
 /* Il tassello e' la copertina e basta: il titolo arriva sopra quando ci passi
-   il dito o il mouse. In grigio finche' non lo guardi, a colori quando lo fai. */
+   il dito o il mouse. ⚠️ Le copertine stanno **a colori da subito** - il grigio
+   che si accendeva al passaggio l'ha tolto Amerigo il 23/08/2026: qui la copertina
+   e' il contenuto, non la decorazione. */
 .cd{position:relative;display:block;aspect-ratio:1;border:1px solid var(--riga);
   border-radius:4px;overflow:hidden;background:#0d0d0d;
   transition:border-color .2s,transform .2s}
 .cd:hover,.cd:focus-visible{border-color:var(--rosso);transform:translateY(-2px);outline:none}
-.cd img{width:100%;height:100%;object-fit:cover;display:block;
-  filter:grayscale(1) contrast(1.06);transition:filter .25s}
-.cd:hover img,.cd:focus-visible img{filter:none}
+/* le copertine stanno a colori: sono la cosa da guardare, non un effetto */
+.cd img{width:100%;height:100%;object-fit:cover;display:block}
 .cd .eti{position:absolute;left:0;right:0;bottom:0;padding:24px 8px 7px;
   background:linear-gradient(to top,rgba(0,0,0,.94) 34%,transparent);
   opacity:0;transition:opacity .2s}
@@ -93,11 +94,19 @@ header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;back
   letter-spacing:.06em}
 .cd .eti .tit{font-size:11px;line-height:1.3;margin-top:2px;
   display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-/* il numero di volume si vede sempre: e' la cosa che tiene in fila i quaranta m2o */
-.cd .num{position:absolute;top:6px;left:7px;font-family:'Anton',Arial,sans-serif;
-  font-size:13px;line-height:1;color:var(--bianco);text-shadow:0 1px 6px rgba(0,0,0,.9);
-  letter-spacing:.04em}
+/* Il numero di volume si vede sempre: e' la cosa che tiene in fila i quaranta m2o.
+   ⚠️ Con le copertine a colori serve la pastiglia dietro: in bianco con la sola
+   ombra spariva sulle copertine chiare - la 10 su verde, la 15 su bianco. */
+.cd .num{position:absolute;top:5px;left:5px;font-family:'Anton',Arial,sans-serif;
+  font-size:12px;line-height:1;color:var(--bianco);letter-spacing:.04em;
+  padding:4px 6px;border-radius:3px;background:rgba(0,0,0,.62)}
 
+
+/* ⚠️ **m2o si scrive SEMPRE minuscolo.** E' il nome della radio, non una sigla:
+   il maiuscolo dei titoli lo stava trasformando in "M2O" dappertutto. Ogni testo
+   che passa da un elemento in maiuscolo si porta dietro questo span, che spegne
+   la trasformazione solo su quelle tre lettere. Regola di Amerigo, 23/08/2026. */
+.m2o{text-transform:lowercase}
 .vuoto{padding:60px 0;text-align:center;color:var(--grigio);font-size:14px;line-height:1.7}
 .vuoto b{color:var(--bianco)}
 .coda{padding:34px 0 10px;color:var(--debole);font-size:12.5px;line-height:1.7;max-width:70ch}
@@ -187,6 +196,16 @@ footer a:hover{color:var(--bianco)}
   var $vuoto = document.getElementById('vuoto');
   var $pulisci = document.getElementById('pulisci');
 
+  // m2o non diventa mai M2O: lo span spegne il maiuscolo su quelle tre lettere
+  function nome(s) {
+    return fuga(s).replace(/m2o/gi, '<span class="m2o">m2o</span>');
+  }
+
+  function fuga(s) {
+    return (s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+
   function norm(s) {
     return (s || '').toLowerCase().normalize('NFD')
       .replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
@@ -218,7 +237,31 @@ footer a:hover{color:var(--bianco)}
 
     document.getElementById('aggiornato').textContent =
       'Aggiornato al ' + p.aggiornato.split('-').reverse().join('/');
+    leggiIndirizzo();
+    segnaFiltri();
     disegna();
+  }
+
+  // ⚠️ **Il parametro `?serie=` non e' un lusso: e' dove arrivano le briciole.**
+  // Ogni pagina di un disco ha in cima "Compilation / m2o", e quel secondo pezzo
+  // porta qui col numero della serie. Finche' questa pagina il parametro non lo
+  // leggeva, tutte e 83 le briciole scaricavano sul muro intero.
+  function leggiIndirizzo() {
+    var p = new URLSearchParams(location.search);
+    var s = p.get('serie');
+    if (s !== null && s !== '' && !isNaN(parseInt(s, 10))) {
+      var n = parseInt(s, 10);
+      if (n >= 0 && n < dati.serie.length) { serieScelta = n; }
+    }
+    if (p.get('q')) { $q.value = p.get('q'); }
+  }
+
+  function scriviIndirizzo() {
+    var p = new URLSearchParams();
+    if (serieScelta !== null) p.set('serie', serieScelta);
+    if ($q.value) p.set('q', $q.value);
+    var s = p.toString();
+    history.replaceState(null, '', s ? '?' + s : location.pathname);
   }
 
   function segnaFiltri() {
@@ -263,7 +306,7 @@ footer a:hover{color:var(--bianco)}
       sez.className = 'gruppo';
       var testa = document.createElement('div');
       testa.className = 'titolo-gruppo';
-      testa.innerHTML = '<h2>' + g.nome + '</h2><span>' + g.righe.length +
+      testa.innerHTML = '<h2>' + nome(g.nome) + '</h2><span>' + g.righe.length +
         (g.righe.length === 1 ? ' compilation' : ' compilation') +
         (anni.length ? ' · ' + Math.min.apply(null, anni) +
           (Math.max.apply(null, anni) !== Math.min.apply(null, anni)
@@ -288,6 +331,8 @@ footer a:hover{color:var(--bianco)}
       sez.appendChild(griglia);
       $muro.appendChild(sez);
     });
+
+    scriviIndirizzo();
   }
 
   $q.addEventListener('input', disegna);

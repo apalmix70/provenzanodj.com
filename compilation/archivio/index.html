@@ -89,6 +89,12 @@ select:focus,.bottone:focus-visible{border-color:var(--rosso)}
 .tag b{color:var(--rosso);font-weight:400}
 .tag::after{content:" ›";color:var(--debole)}
 .tag:hover::after{color:var(--rosso)}
+
+/* ⚠️ **m2o si scrive SEMPRE minuscolo.** E' il nome della radio, non una sigla:
+   il maiuscolo dei titoli lo stava trasformando in "M2O" dappertutto. Ogni testo
+   che passa da un elemento in maiuscolo si porta dietro questo span, che spegne
+   la trasformazione solo su quelle tre lettere. Regola di Amerigo, 23/08/2026. */
+.m2o{text-transform:lowercase}
 .quante{font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--debole);
   border:1px dashed #242424;border-radius:999px;padding:3px 9px;white-space:nowrap}
 
@@ -220,6 +226,11 @@ footer a:hover{color:var(--bianco)}
     return '' + a;
   }
 
+  // m2o non diventa mai M2O nelle targhette, che sono tutte maiuscole
+  function nome(s) {
+    return fuga(s).replace(/m2o/gi, '<span class="m2o">m2o</span>');
+  }
+
   function fuga(s) {
     return (s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;');
@@ -335,7 +346,7 @@ footer a:hover{color:var(--bianco)}
         // dove Discogs ce l'ha: nella targhetta non ci starebbe mai
         return '<a class="tag" href="/compilation/' + c.s + '/" title="' + fuga(c.t) +
           (c.d && c.d.length > 4 ? ' — uscita ' + dataItaliana(c.d) : '') + '">' +
-          (c.y ? '<b>' + c.y + '</b> ' : '') + fuga(c.tc || c.t) + '</a>';
+          (c.y ? '<b>' + c.y + '</b> ' : '') + nome(c.tc || c.t) + '</a>';
       }).join('');
       if (v.comp.length > 1) {
         tag = '<span class="quante">' + v.comp.length + ' volte</span>' + tag;
