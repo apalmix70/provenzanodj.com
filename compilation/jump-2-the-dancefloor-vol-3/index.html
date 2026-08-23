@@ -54,6 +54,14 @@ header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;back
   border:1px solid var(--riga);object-fit:cover;display:block}
 .disco .foto{width:100%;border-radius:6px;border:1px solid var(--riga);display:block}
 /* Il minimix: 16:9 che si adatta alla colonna, come le copertine. */
+/* L'intestazione di un disco dentro un cofanetto: si vede che si ricomincia. */
+.disco-n{display:flex;align-items:baseline;gap:10px;margin:22px 0 8px;
+  padding-bottom:6px;border-bottom:1px solid var(--riga);
+  font-family:'Anton',Arial,sans-serif;font-weight:400;font-size:13px;
+  letter-spacing:.16em;text-transform:uppercase}
+.disco-n:first-child{margin-top:0}
+.disco-n span{font-family:inherit;font-size:11px;letter-spacing:.08em;
+  color:var(--debole);text-transform:none}
 .minimix{margin-top:30px}
 .minimix h2{font-family:'Anton',Arial,sans-serif;font-weight:400;font-size:15px;
   letter-spacing:.14em;text-transform:uppercase;color:var(--grigio);margin-bottom:12px}
@@ -182,6 +190,7 @@ footer a:hover{color:var(--bianco)}
 
       <section class="tracce">
         <h2>La tracklist</h2>
+    <p class="disco-n">CD 1<span>11 tracce</span></p>
     <div class="traccia"><span class="n">1</span><span class="testo"><span class="tit">C&#x27;est L&#x27;Amour (Provenzano + Promiseland Hard Dance Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ASophie">Sophie</a></span></span><span class="dur">5:10</span></div>
     <div class="traccia"><span class="n">2</span><span class="testo"><span class="tit">The Story Goes On (Original Extended)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AItalian+Deejays">Italian Deejays</a></span></span><span class="dur">6:20</span></div>
     <div class="traccia"><span class="n">3</span><span class="testo"><span class="tit">I Really Mean What I Say</span><span class="art"><a href="/compilation/archivio/?q=artista%3APromise+Land">Promise Land</a></span></span><span class="dur">8:50</span></div>
@@ -193,17 +202,18 @@ footer a:hover{color:var(--bianco)}
     <div class="traccia"><span class="n">9</span><span class="testo"><span class="tit">Insidance (Extended)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AGemini+Station">Gemini Station</a></span></span><span class="dur">4:01</span></div>
     <div class="traccia"><span class="n">10</span><span class="testo"><span class="tit">The Launch 06</span><span class="art"><a href="/compilation/archivio/?q=artista%3AHypertraxx">Hypertraxx</a></span></span><span class="dur">4:26</span></div>
     <div class="traccia"><span class="n">11</span><span class="testo"><span class="tit">Etico Elettrico (Girasole Marranza Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ABoing+Squad">Boing Squad</a></span></span><span class="dur">6:19</span></div>
-    <div class="traccia"><span class="n">12</span><span class="testo"><span class="tit">I&#x27;ll Be Missing You (Hard Dance Style Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AAfterclub">Afterclub</a></span></span><span class="dur">5:52</span></div>
-    <div class="traccia"><span class="n">13</span><span class="testo"><span class="tit">Tweak (Hard Dance Style Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AGroundbeat">Groundbeat</a></span></span><span class="dur">5:44</span></div>
-    <div class="traccia"><span class="n">14</span><span class="testo"><span class="tit">Don&#x27;t Leave Me Now (Hard Dance Style Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ATrilogy">Trilogy</a></span></span><span class="dur">5:57</span></div>
-    <div class="traccia"><span class="n">15</span><span class="testo"><span class="tit">Naughty Girl (Elettro Mix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AM+Lady">M Lady</a></span></span><span class="dur">6:11</span></div>
-    <div class="traccia"><span class="n">16</span><span class="testo"><span class="tit">I&#x27;m The Conductor</span><span class="art"><a href="/compilation/archivio/?q=artista%3ACarlo+Oliva">Carlo Oliva</a>, <a href="/compilation/archivio/?q=artista%3AThe+Conductor">The Conductor</a></span></span><span class="dur">6:51</span></div>
-    <div class="traccia"><span class="n">17</span><span class="testo"><span class="tit">L&#x27;Été (Atomicboy&#x27;s HardBass Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ALes+Amis">Les Amis</a></span></span><span class="dur">5:16</span></div>
-    <div class="traccia"><span class="n">18</span><span class="testo"><span class="tit">Time Goes Round (Original Ext.)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADavide+Farra">Davide Farra</a>, <a href="/compilation/archivio/?q=artista%3ALizzy+B">Lizzy B</a></span></span><span class="dur">5:41</span></div>
-    <div class="traccia"><span class="n">19</span><span class="testo"><span class="tit">Monotema</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMars+Trek">Mars Trek</a></span></span><span class="dur">6:21</span></div>
-    <div class="traccia"><span class="n">20</span><span class="testo"><span class="tit">Funky Town (Original Extended)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ABbenergy">Bbenergy</a></span></span><span class="dur">6:13</span></div>
-    <div class="traccia"><span class="n">21</span><span class="testo"><span class="tit">Velenosa</span><span class="art"><a href="/compilation/archivio/?q=artista%3ASabroso&#x27;s+Gang">Sabroso&#x27;s Gang</a></span></span><span class="dur">5:53</span></div>
-    <div class="traccia"><span class="n">22</span><span class="testo"><span class="tit">Real Love (Trance Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ASygma">Sygma</a></span></span><span class="dur">8:00</span></div>
+    <p class="disco-n">CD 2<span>11 tracce</span></p>
+    <div class="traccia"><span class="n">1</span><span class="testo"><span class="tit">I&#x27;ll Be Missing You (Hard Dance Style Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AAfterclub">Afterclub</a></span></span><span class="dur">5:52</span></div>
+    <div class="traccia"><span class="n">2</span><span class="testo"><span class="tit">Tweak (Hard Dance Style Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AGroundbeat">Groundbeat</a></span></span><span class="dur">5:44</span></div>
+    <div class="traccia"><span class="n">3</span><span class="testo"><span class="tit">Don&#x27;t Leave Me Now (Hard Dance Style Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ATrilogy">Trilogy</a></span></span><span class="dur">5:57</span></div>
+    <div class="traccia"><span class="n">4</span><span class="testo"><span class="tit">Naughty Girl (Elettro Mix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AM+Lady">M Lady</a></span></span><span class="dur">6:11</span></div>
+    <div class="traccia"><span class="n">5</span><span class="testo"><span class="tit">I&#x27;m The Conductor</span><span class="art"><a href="/compilation/archivio/?q=artista%3ACarlo+Oliva">Carlo Oliva</a>, <a href="/compilation/archivio/?q=artista%3AThe+Conductor">The Conductor</a></span></span><span class="dur">6:51</span></div>
+    <div class="traccia"><span class="n">6</span><span class="testo"><span class="tit">L&#x27;Été (Atomicboy&#x27;s HardBass Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ALes+Amis">Les Amis</a></span></span><span class="dur">5:16</span></div>
+    <div class="traccia"><span class="n">7</span><span class="testo"><span class="tit">Time Goes Round (Original Ext.)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADavide+Farra">Davide Farra</a>, <a href="/compilation/archivio/?q=artista%3ALizzy+B">Lizzy B</a></span></span><span class="dur">5:41</span></div>
+    <div class="traccia"><span class="n">8</span><span class="testo"><span class="tit">Monotema</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMars+Trek">Mars Trek</a></span></span><span class="dur">6:21</span></div>
+    <div class="traccia"><span class="n">9</span><span class="testo"><span class="tit">Funky Town (Original Extended)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ABbenergy">Bbenergy</a></span></span><span class="dur">6:13</span></div>
+    <div class="traccia"><span class="n">10</span><span class="testo"><span class="tit">Velenosa</span><span class="art"><a href="/compilation/archivio/?q=artista%3ASabroso&#x27;s+Gang">Sabroso&#x27;s Gang</a></span></span><span class="dur">5:53</span></div>
+    <div class="traccia"><span class="n">11</span><span class="testo"><span class="tit">Real Love (Trance Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ASygma">Sygma</a></span></span><span class="dur">8:00</span></div>
       </section>
     </div>
 

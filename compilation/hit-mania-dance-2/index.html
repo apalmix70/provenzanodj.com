@@ -54,6 +54,14 @@ header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;back
   border:1px solid var(--riga);object-fit:cover;display:block}
 .disco .foto{width:100%;border-radius:6px;border:1px solid var(--riga);display:block}
 /* Il minimix: 16:9 che si adatta alla colonna, come le copertine. */
+/* L'intestazione di un disco dentro un cofanetto: si vede che si ricomincia. */
+.disco-n{display:flex;align-items:baseline;gap:10px;margin:22px 0 8px;
+  padding-bottom:6px;border-bottom:1px solid var(--riga);
+  font-family:'Anton',Arial,sans-serif;font-weight:400;font-size:13px;
+  letter-spacing:.16em;text-transform:uppercase}
+.disco-n:first-child{margin-top:0}
+.disco-n span{font-family:inherit;font-size:11px;letter-spacing:.08em;
+  color:var(--debole);text-transform:none}
 .minimix{margin-top:30px}
 .minimix h2{font-family:'Anton',Arial,sans-serif;font-weight:400;font-size:15px;
   letter-spacing:.14em;text-transform:uppercase;color:var(--grigio);margin-bottom:12px}
@@ -182,6 +190,7 @@ footer a:hover{color:var(--bianco)}
 
       <section class="tracce">
         <h2>La tracklist</h2>
+    <p class="disco-n">CD 1<span>16 tracce</span></p>
     <div class="traccia"><span class="n">1</span><span class="testo"><span class="tit">Gam Gam</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMauro+Pilato">Mauro Pilato</a>, <a href="/compilation/archivio/?q=artista%3AMax+Monti">Max Monti</a></span></span><span class="dur">3:24</span></div>
     <div class="traccia"><span class="n">2</span><span class="testo"><span class="tit">Take My Breath Away</span><span class="art"><a href="/compilation/archivio/?q=artista%3ASilvia+Coleman">Silvia Coleman</a></span></span><span class="dur">3:08</span></div>
     <div class="traccia"><span class="n">3</span><span class="testo"><span class="tit">Live My Life (Rmx)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AJT+Company">JT Company</a></span></span><span class="dur">3:01</span></div>
@@ -198,22 +207,23 @@ footer a:hover{color:var(--bianco)}
     <div class="traccia"><span class="n">14</span><span class="testo"><span class="tit">I&#x27;m A Bitch</span><span class="art"><a href="/compilation/archivio/?q=artista%3AOlga">Olga</a></span></span><span class="dur">2:41</span></div>
     <div class="traccia"><span class="n">15</span><span class="testo"><span class="tit">I&#x27;m Standing</span><span class="art"><a href="/compilation/archivio/?q=artista%3AX-Static">X-Static</a></span></span><span class="dur">2:33</span></div>
     <div class="traccia"><span class="n">16</span><span class="testo"><span class="tit">Love Ya (Need Ya)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AWorkin&#x27;+Happily">Workin&#x27; Happily</a></span></span><span class="dur">3:08</span></div>
-    <div class="traccia"><span class="n">17</span><span class="testo"><span class="tit">Move It Up</span><span class="art"><a href="/compilation/archivio/?q=artista%3ACappella">Cappella</a></span></span><span class="dur">3:16</span></div>
-    <div class="traccia"><span class="n">18</span><span class="testo"><span class="tit">Rockin&#x27; Me</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADJ+Professor">DJ Professor</a></span></span><span class="dur">3:18</span></div>
-    <div class="traccia"><span class="n">19</span><span class="testo"><span class="tit">Bomba</span><span class="art"><a href="/compilation/archivio/?q=artista%3ARamirez">Ramirez</a></span></span><span class="dur">2:47</span></div>
-    <div class="traccia"><span class="n">20</span><span class="testo"><span class="tit">La Fuerza Pagana</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMoratto">Moratto</a></span></span><span class="dur">3:14</span></div>
-    <div class="traccia"><span class="n">21</span><span class="testo"><span class="tit">You Got Me Burnin&#x27; Up (Rmx)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMephisto">Mephisto</a>, <a href="/compilation/archivio/?q=artista%3AShunza">Shunza</a></span></span><span class="dur">3:05</span></div>
-    <div class="traccia"><span class="n">22</span><span class="testo"><span class="tit">Mistery (Rmx)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMato+Grosso">Mato Grosso</a></span></span><span class="dur">3:06</span></div>
-    <div class="traccia"><span class="n">23</span><span class="testo"><span class="tit">El Sueño</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADatura">Datura</a></span></span><span class="dur">2:55</span></div>
-    <div class="traccia"><span class="n">24</span><span class="testo"><span class="tit">Let Me Be</span><span class="art"><a href="/compilation/archivio/?q=artista%3ABlack+Diamond">Black Diamond</a></span></span><span class="dur">2:39</span></div>
-    <div class="traccia"><span class="n">25</span><span class="testo"><span class="tit">I Found Love</span><span class="art"><a href="/compilation/archivio/?q=artista%3ATaleesa">Taleesa</a></span></span><span class="dur">3:12</span></div>
-    <div class="traccia"><span class="n">26</span><span class="testo"><span class="tit">Open Your Heart</span><span class="art"><a href="/compilation/archivio/?q=artista%3ACB+Milton">CB Milton</a></span></span><span class="dur">3:09</span></div>
-    <div class="traccia"><span class="n">27</span><span class="testo"><span class="tit">Everybody&#x27;s Dancing</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADeadly+Sins">Deadly Sins</a></span></span><span class="dur">3:30</span></div>
-    <div class="traccia"><span class="n">28</span><span class="testo"><span class="tit">Take Me To Your Heart</span><span class="art"><a href="/compilation/archivio/?q=artista%3AHumanize">Humanize</a></span></span><span class="dur">3:19</span></div>
-    <div class="traccia"><span class="n">29</span><span class="testo"><span class="tit">Sing, Oh!</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMarvellous+Melodicos">Marvellous Melodicos</a></span></span><span class="dur">3:12</span></div>
-    <div class="traccia"><span class="n">30</span><span class="testo"><span class="tit">Callin&#x27; You Love</span><span class="art"><a href="/compilation/archivio/?q=artista%3AJoy+Salinas">Joy Salinas</a></span></span><span class="dur">3:43</span></div>
-    <div class="traccia"><span class="n">31</span><span class="testo"><span class="tit">Dance (If You Cannot) (Rmx)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AAlter+Ego">Alter Ego</a>, <a href="/compilation/archivio/?q=artista%3ADaisy+Dee">Daisy Dee</a></span></span><span class="dur">2:59</span></div>
-    <div class="traccia"><span class="n">32</span><span class="testo"><span class="tit">Can&#x27;t Stop The Movin&#x27;</span><span class="art"><a href="/compilation/archivio/?q=artista%3AOmnia+Tria">Omnia Tria</a></span></span><span class="dur">3:47</span></div>
+    <p class="disco-n">CD 2<span>16 tracce</span></p>
+    <div class="traccia"><span class="n">1</span><span class="testo"><span class="tit">Move It Up</span><span class="art"><a href="/compilation/archivio/?q=artista%3ACappella">Cappella</a></span></span><span class="dur">3:16</span></div>
+    <div class="traccia"><span class="n">2</span><span class="testo"><span class="tit">Rockin&#x27; Me</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADJ+Professor">DJ Professor</a></span></span><span class="dur">3:18</span></div>
+    <div class="traccia"><span class="n">3</span><span class="testo"><span class="tit">Bomba</span><span class="art"><a href="/compilation/archivio/?q=artista%3ARamirez">Ramirez</a></span></span><span class="dur">2:47</span></div>
+    <div class="traccia"><span class="n">4</span><span class="testo"><span class="tit">La Fuerza Pagana</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMoratto">Moratto</a></span></span><span class="dur">3:14</span></div>
+    <div class="traccia"><span class="n">5</span><span class="testo"><span class="tit">You Got Me Burnin&#x27; Up (Rmx)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMephisto">Mephisto</a>, <a href="/compilation/archivio/?q=artista%3AShunza">Shunza</a></span></span><span class="dur">3:05</span></div>
+    <div class="traccia"><span class="n">6</span><span class="testo"><span class="tit">Mistery (Rmx)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMato+Grosso">Mato Grosso</a></span></span><span class="dur">3:06</span></div>
+    <div class="traccia"><span class="n">7</span><span class="testo"><span class="tit">El Sueño</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADatura">Datura</a></span></span><span class="dur">2:55</span></div>
+    <div class="traccia"><span class="n">8</span><span class="testo"><span class="tit">Let Me Be</span><span class="art"><a href="/compilation/archivio/?q=artista%3ABlack+Diamond">Black Diamond</a></span></span><span class="dur">2:39</span></div>
+    <div class="traccia"><span class="n">9</span><span class="testo"><span class="tit">I Found Love</span><span class="art"><a href="/compilation/archivio/?q=artista%3ATaleesa">Taleesa</a></span></span><span class="dur">3:12</span></div>
+    <div class="traccia"><span class="n">10</span><span class="testo"><span class="tit">Open Your Heart</span><span class="art"><a href="/compilation/archivio/?q=artista%3ACB+Milton">CB Milton</a></span></span><span class="dur">3:09</span></div>
+    <div class="traccia"><span class="n">11</span><span class="testo"><span class="tit">Everybody&#x27;s Dancing</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADeadly+Sins">Deadly Sins</a></span></span><span class="dur">3:30</span></div>
+    <div class="traccia"><span class="n">12</span><span class="testo"><span class="tit">Take Me To Your Heart</span><span class="art"><a href="/compilation/archivio/?q=artista%3AHumanize">Humanize</a></span></span><span class="dur">3:19</span></div>
+    <div class="traccia"><span class="n">13</span><span class="testo"><span class="tit">Sing, Oh!</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMarvellous+Melodicos">Marvellous Melodicos</a></span></span><span class="dur">3:12</span></div>
+    <div class="traccia"><span class="n">14</span><span class="testo"><span class="tit">Callin&#x27; You Love</span><span class="art"><a href="/compilation/archivio/?q=artista%3AJoy+Salinas">Joy Salinas</a></span></span><span class="dur">3:43</span></div>
+    <div class="traccia"><span class="n">15</span><span class="testo"><span class="tit">Dance (If You Cannot) (Rmx)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AAlter+Ego">Alter Ego</a>, <a href="/compilation/archivio/?q=artista%3ADaisy+Dee">Daisy Dee</a></span></span><span class="dur">2:59</span></div>
+    <div class="traccia"><span class="n">16</span><span class="testo"><span class="tit">Can&#x27;t Stop The Movin&#x27;</span><span class="art"><a href="/compilation/archivio/?q=artista%3AOmnia+Tria">Omnia Tria</a></span></span><span class="dur">3:47</span></div>
       </section>
     </div>
 

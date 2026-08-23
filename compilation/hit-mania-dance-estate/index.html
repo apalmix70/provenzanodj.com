@@ -54,6 +54,14 @@ header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;back
   border:1px solid var(--riga);object-fit:cover;display:block}
 .disco .foto{width:100%;border-radius:6px;border:1px solid var(--riga);display:block}
 /* Il minimix: 16:9 che si adatta alla colonna, come le copertine. */
+/* L'intestazione di un disco dentro un cofanetto: si vede che si ricomincia. */
+.disco-n{display:flex;align-items:baseline;gap:10px;margin:22px 0 8px;
+  padding-bottom:6px;border-bottom:1px solid var(--riga);
+  font-family:'Anton',Arial,sans-serif;font-weight:400;font-size:13px;
+  letter-spacing:.16em;text-transform:uppercase}
+.disco-n:first-child{margin-top:0}
+.disco-n span{font-family:inherit;font-size:11px;letter-spacing:.08em;
+  color:var(--debole);text-transform:none}
 .minimix{margin-top:30px}
 .minimix h2{font-family:'Anton',Arial,sans-serif;font-weight:400;font-size:15px;
   letter-spacing:.14em;text-transform:uppercase;color:var(--grigio);margin-bottom:12px}
@@ -182,6 +190,7 @@ footer a:hover{color:var(--bianco)}
 
       <section class="tracce">
         <h2>La tracklist</h2>
+    <p class="disco-n">CD 1<span>18 tracce</span></p>
     <div class="traccia"><span class="n">1</span><span class="testo"><span class="tit">The Bomb EP</span><span class="art"><a href="/compilation/archivio/?q=artista%3AThe+Bucketheads">The Bucketheads</a></span></span><span class="dur">2:44</span></div>
     <div class="traccia"><span class="n">2</span><span class="testo"><span class="tit">Wrap Me Up</span><span class="art"><a href="/compilation/archivio/?q=artista%3AAlex+Party">Alex Party</a></span></span><span class="dur">3:19</span></div>
     <div class="traccia"><span class="n">3</span><span class="testo"><span class="tit">Sex &amp; Infidelity</span><span class="art"><a href="/compilation/archivio/?q=artista%3ABlast">Blast</a>, <a href="/compilation/archivio/?q=artista%3AV.D.C.">V.D.C.</a></span></span><span class="dur">1:58</span></div>
@@ -200,24 +209,25 @@ footer a:hover{color:var(--bianco)}
     <div class="traccia"><span class="n">16</span><span class="testo"><span class="tit">Nothing Like The Rain</span><span class="art"><a href="/compilation/archivio/?q=artista%3A2+Unlimited">2 Unlimited</a></span></span><span class="dur">3:22</span></div>
     <div class="traccia"><span class="n">17</span><span class="testo"><span class="tit">Men Adore Whore</span><span class="art"><a href="/compilation/archivio/?q=artista%3AFierce+Child">Fierce Child</a></span></span><span class="dur">2:24</span></div>
     <div class="traccia"><span class="n">18</span><span class="testo"><span class="tit">Tears On My Face (I Can See The Rain)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AIndiana">Indiana</a></span></span><span class="dur">4:23</span></div>
-    <div class="traccia"><span class="n">19</span><span class="testo"><span class="tit">Memories</span><span class="art"><a href="/compilation/archivio/?q=artista%3ANetzwerk">Netzwerk</a></span></span><span class="dur">2:45</span></div>
-    <div class="traccia"><span class="n">20</span><span class="testo"><span class="tit">Baby Baby</span><span class="art"><a href="/compilation/archivio/?q=artista%3ACorona">Corona</a></span></span><span class="dur">3:32</span></div>
-    <div class="traccia"><span class="n">21</span><span class="testo"><span class="tit">Quiero Volar</span><span class="art"><a href="/compilation/archivio/?q=artista%3AG.E.M.">G.E.M.</a></span></span><span class="dur">2:57</span></div>
-    <div class="traccia"><span class="n">22</span><span class="testo"><span class="tit">I Want You</span><span class="art"><a href="/compilation/archivio/?q=artista%3APolo">Polo</a></span></span><span class="dur">2:30</span></div>
-    <div class="traccia"><span class="n">23</span><span class="testo"><span class="tit">Dancing With An Angel</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADouble+You">Double You</a></span></span><span class="dur">3:18</span></div>
-    <div class="traccia"><span class="n">24</span><span class="testo"><span class="tit">Infinity</span><span class="art"><a href="/compilation/archivio/?q=artista%3AU.S.U.R.A.">U.S.U.R.A.</a>, <a href="/compilation/archivio/?q=artista%3ADatura">Datura</a></span></span><span class="dur">3:00</span></div>
-    <div class="traccia"><span class="n">25</span><span class="testo"><span class="tit">Don&#x27;t Stop</span><span class="art"><a href="/compilation/archivio/?q=artista%3APrezioso">Prezioso</a></span></span><span class="dur">3:20</span></div>
-    <div class="traccia"><span class="n">26</span><span class="testo"><span class="tit">Burning Up</span><span class="art"><a href="/compilation/archivio/?q=artista%3ATaleesa">Taleesa</a></span></span><span class="dur">3:07</span></div>
-    <div class="traccia"><span class="n">27</span><span class="testo"><span class="tit">I See You (Rmx)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AGeneral+Base">General Base</a></span></span><span class="dur">2:29</span></div>
-    <div class="traccia"><span class="n">28</span><span class="testo"><span class="tit">Cla Clap</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMauro+Pilato">Mauro Pilato</a>, <a href="/compilation/archivio/?q=artista%3AMax+Monti">Max Monti</a></span></span><span class="dur">3:50</span></div>
-    <div class="traccia"><span class="n">29</span><span class="testo"><span class="tit">Moai</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMato+Grosso">Mato Grosso</a></span></span><span class="dur">3:19</span></div>
-    <div class="traccia"><span class="n">30</span><span class="testo"><span class="tit">Macarena</span><span class="art"><a href="/compilation/archivio/?q=artista%3ALos+Tres+Amigos">Los Tres Amigos</a>, <a href="/compilation/archivio/?q=artista%3AChaly+Albert">Chaly Albert</a></span></span><span class="dur">2:18</span></div>
-    <div class="traccia"><span class="n">31</span><span class="testo"><span class="tit">Wanna Be With U</span><span class="art"><a href="/compilation/archivio/?q=artista%3AJinny">Jinny</a></span></span><span class="dur">2:57</span></div>
-    <div class="traccia"><span class="n">32</span><span class="testo"><span class="tit">Take Me Over</span><span class="art"><a href="/compilation/archivio/?q=artista%3AD.D.+Why">D.D. Why</a></span></span><span class="dur">3:32</span></div>
-    <div class="traccia"><span class="n">33</span><span class="testo"><span class="tit">XS</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMolella">Molella</a></span></span><span class="dur">2:45</span></div>
-    <div class="traccia"><span class="n">34</span><span class="testo"><span class="tit">Friends</span><span class="art"><a href="/compilation/archivio/?q=artista%3AScooter">Scooter</a></span></span><span class="dur">3:19</span></div>
-    <div class="traccia"><span class="n">35</span><span class="testo"><span class="tit">Love Me In The Space</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMagic+Illusion">Magic Illusion</a></span></span><span class="dur">2:38</span></div>
-    <div class="traccia"><span class="n">36</span><span class="testo"><span class="tit">Tell Me The Way</span><span class="art"><a href="/compilation/archivio/?q=artista%3ACappella">Cappella</a></span></span><span class="dur">3:48</span></div>
+    <p class="disco-n">CD 2<span>18 tracce</span></p>
+    <div class="traccia"><span class="n">1</span><span class="testo"><span class="tit">Memories</span><span class="art"><a href="/compilation/archivio/?q=artista%3ANetzwerk">Netzwerk</a></span></span><span class="dur">2:45</span></div>
+    <div class="traccia"><span class="n">2</span><span class="testo"><span class="tit">Baby Baby</span><span class="art"><a href="/compilation/archivio/?q=artista%3ACorona">Corona</a></span></span><span class="dur">3:32</span></div>
+    <div class="traccia"><span class="n">3</span><span class="testo"><span class="tit">Quiero Volar</span><span class="art"><a href="/compilation/archivio/?q=artista%3AG.E.M.">G.E.M.</a></span></span><span class="dur">2:57</span></div>
+    <div class="traccia"><span class="n">4</span><span class="testo"><span class="tit">I Want You</span><span class="art"><a href="/compilation/archivio/?q=artista%3APolo">Polo</a></span></span><span class="dur">2:30</span></div>
+    <div class="traccia"><span class="n">5</span><span class="testo"><span class="tit">Dancing With An Angel</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADouble+You">Double You</a></span></span><span class="dur">3:18</span></div>
+    <div class="traccia"><span class="n">6</span><span class="testo"><span class="tit">Infinity</span><span class="art"><a href="/compilation/archivio/?q=artista%3AU.S.U.R.A.">U.S.U.R.A.</a>, <a href="/compilation/archivio/?q=artista%3ADatura">Datura</a></span></span><span class="dur">3:00</span></div>
+    <div class="traccia"><span class="n">7</span><span class="testo"><span class="tit">Don&#x27;t Stop</span><span class="art"><a href="/compilation/archivio/?q=artista%3APrezioso">Prezioso</a></span></span><span class="dur">3:20</span></div>
+    <div class="traccia"><span class="n">8</span><span class="testo"><span class="tit">Burning Up</span><span class="art"><a href="/compilation/archivio/?q=artista%3ATaleesa">Taleesa</a></span></span><span class="dur">3:07</span></div>
+    <div class="traccia"><span class="n">9</span><span class="testo"><span class="tit">I See You (Rmx)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AGeneral+Base">General Base</a></span></span><span class="dur">2:29</span></div>
+    <div class="traccia"><span class="n">10</span><span class="testo"><span class="tit">Cla Clap</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMauro+Pilato">Mauro Pilato</a>, <a href="/compilation/archivio/?q=artista%3AMax+Monti">Max Monti</a></span></span><span class="dur">3:50</span></div>
+    <div class="traccia"><span class="n">11</span><span class="testo"><span class="tit">Moai</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMato+Grosso">Mato Grosso</a></span></span><span class="dur">3:19</span></div>
+    <div class="traccia"><span class="n">12</span><span class="testo"><span class="tit">Macarena</span><span class="art"><a href="/compilation/archivio/?q=artista%3ALos+Tres+Amigos">Los Tres Amigos</a>, <a href="/compilation/archivio/?q=artista%3AChaly+Albert">Chaly Albert</a></span></span><span class="dur">2:18</span></div>
+    <div class="traccia"><span class="n">13</span><span class="testo"><span class="tit">Wanna Be With U</span><span class="art"><a href="/compilation/archivio/?q=artista%3AJinny">Jinny</a></span></span><span class="dur">2:57</span></div>
+    <div class="traccia"><span class="n">14</span><span class="testo"><span class="tit">Take Me Over</span><span class="art"><a href="/compilation/archivio/?q=artista%3AD.D.+Why">D.D. Why</a></span></span><span class="dur">3:32</span></div>
+    <div class="traccia"><span class="n">15</span><span class="testo"><span class="tit">XS</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMolella">Molella</a></span></span><span class="dur">2:45</span></div>
+    <div class="traccia"><span class="n">16</span><span class="testo"><span class="tit">Friends</span><span class="art"><a href="/compilation/archivio/?q=artista%3AScooter">Scooter</a></span></span><span class="dur">3:19</span></div>
+    <div class="traccia"><span class="n">17</span><span class="testo"><span class="tit">Love Me In The Space</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMagic+Illusion">Magic Illusion</a></span></span><span class="dur">2:38</span></div>
+    <div class="traccia"><span class="n">18</span><span class="testo"><span class="tit">Tell Me The Way</span><span class="art"><a href="/compilation/archivio/?q=artista%3ACappella">Cappella</a></span></span><span class="dur">3:48</span></div>
       </section>
     </div>
 

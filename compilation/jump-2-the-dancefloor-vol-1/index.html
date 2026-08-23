@@ -54,6 +54,14 @@ header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;back
   border:1px solid var(--riga);object-fit:cover;display:block}
 .disco .foto{width:100%;border-radius:6px;border:1px solid var(--riga);display:block}
 /* Il minimix: 16:9 che si adatta alla colonna, come le copertine. */
+/* L'intestazione di un disco dentro un cofanetto: si vede che si ricomincia. */
+.disco-n{display:flex;align-items:baseline;gap:10px;margin:22px 0 8px;
+  padding-bottom:6px;border-bottom:1px solid var(--riga);
+  font-family:'Anton',Arial,sans-serif;font-weight:400;font-size:13px;
+  letter-spacing:.16em;text-transform:uppercase}
+.disco-n:first-child{margin-top:0}
+.disco-n span{font-family:inherit;font-size:11px;letter-spacing:.08em;
+  color:var(--debole);text-transform:none}
 .minimix{margin-top:30px}
 .minimix h2{font-family:'Anton',Arial,sans-serif;font-weight:400;font-size:15px;
   letter-spacing:.14em;text-transform:uppercase;color:var(--grigio);margin-bottom:12px}
@@ -182,6 +190,7 @@ footer a:hover{color:var(--bianco)}
 
       <section class="tracce">
         <h2>La tracklist</h2>
+    <p class="disco-n">CD 1<span>16 tracce</span></p>
     <div class="traccia"><span class="n">1</span><span class="testo"><span class="tit">To The Beat (DJ Ato Mix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AAtomask">Atomask</a></span></span><span class="dur">4:29</span></div>
     <div class="traccia"><span class="n">2</span><span class="testo"><span class="tit">To The Beat (B-Side)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AAtomask">Atomask</a></span></span><span class="dur">4:52</span></div>
     <div class="traccia"><span class="n">3</span><span class="testo"><span class="tit">To The Beat (JM Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AAtomask">Atomask</a></span></span><span class="dur">4:14</span></div>
@@ -198,18 +207,19 @@ footer a:hover{color:var(--bianco)}
     <div class="traccia"><span class="n">14</span><span class="testo"><span class="tit">Crazy Star (Club Mix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AFlyers">Flyers</a></span></span><span class="dur">4:24</span></div>
     <div class="traccia"><span class="n">15</span><span class="testo"><span class="tit">Crazy Star (Hypertraxx Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AFlyers">Flyers</a></span></span><span class="dur">4:38</span></div>
     <div class="traccia"><span class="n">16</span><span class="testo"><span class="tit">Crazy Star (Hpella)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AFlyers">Flyers</a></span></span><span class="dur">2:08</span></div>
-    <div class="traccia"><span class="n">17</span><span class="testo"><span class="tit">I Belong To You (Promise&amp;DJNick Radio Mix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3APromise+Land">Promise Land</a></span></span><span class="dur">3:59</span></div>
-    <div class="traccia"><span class="n">18</span><span class="testo"><span class="tit">I Belong To You (Promise&amp;DJNick Extended Mix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3APromise+Land">Promise Land</a></span></span><span class="dur">6:34</span></div>
-    <div class="traccia"><span class="n">19</span><span class="testo"><span class="tit">I Belong To You (È Stupendo Vieni Da Me)</span><span class="art"><a href="/compilation/archivio/?q=artista%3APromise+Land">Promise Land</a></span></span><span class="dur">6:18</span></div>
-    <div class="traccia"><span class="n">20</span><span class="testo"><span class="tit">I Belong To You (Emozione Mix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3APromise+Land">Promise Land</a></span></span><span class="dur">7:07</span></div>
-    <div class="traccia"><span class="n">21</span><span class="testo"><span class="tit">I Belong To You (Hpella)</span><span class="art"><a href="/compilation/archivio/?q=artista%3APromise+Land">Promise Land</a></span></span><span class="dur">3:30</span></div>
-    <div class="traccia"><span class="n">22</span><span class="testo"><span class="tit">Yes All Night (DJ Nick&#x27;Land Light Radio)</span><span class="art"><a href="/compilation/archivio/?q=artista%3APaper+Boy">Paper Boy</a></span></span><span class="dur">3:05</span></div>
-    <div class="traccia"><span class="n">23</span><span class="testo"><span class="tit">Yes All Night (DJ Nick&#x27;Land Light Extended)</span><span class="art"><a href="/compilation/archivio/?q=artista%3APaper+Boy">Paper Boy</a></span></span><span class="dur">4:48</span></div>
-    <div class="traccia"><span class="n">24</span><span class="testo"><span class="tit">Yes All Night (DJ Nick&#x27;Land Hard Extended)</span><span class="art"><a href="/compilation/archivio/?q=artista%3APaper+Boy">Paper Boy</a></span></span><span class="dur">4:56</span></div>
-    <div class="traccia"><span class="n">25</span><span class="testo"><span class="tit">Yes All Night (Hpella)</span><span class="art"><a href="/compilation/archivio/?q=artista%3APaper+Boy">Paper Boy</a></span></span><span class="dur">3:14</span></div>
-    <div class="traccia"><span class="n">26</span><span class="testo"><span class="tit">No Alla Pirateria (Original Extended)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ARumble+Pit">Rumble Pit</a></span></span><span class="dur">6:48</span></div>
-    <div class="traccia"><span class="n">27</span><span class="testo"><span class="tit">No Alla Pirateria (Instrumental)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ARumble+Pit">Rumble Pit</a></span></span><span class="dur">6:35</span></div>
-    <div class="traccia"><span class="n">28</span><span class="testo"><span class="tit">No Alla Pirateria (Hpella)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ARumble+Pit">Rumble Pit</a></span></span><span class="dur">2:10</span></div>
+    <p class="disco-n">CD 2<span>12 tracce</span></p>
+    <div class="traccia"><span class="n">1</span><span class="testo"><span class="tit">I Belong To You (Promise&amp;DJNick Radio Mix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3APromise+Land">Promise Land</a></span></span><span class="dur">3:59</span></div>
+    <div class="traccia"><span class="n">2</span><span class="testo"><span class="tit">I Belong To You (Promise&amp;DJNick Extended Mix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3APromise+Land">Promise Land</a></span></span><span class="dur">6:34</span></div>
+    <div class="traccia"><span class="n">3</span><span class="testo"><span class="tit">I Belong To You (È Stupendo Vieni Da Me)</span><span class="art"><a href="/compilation/archivio/?q=artista%3APromise+Land">Promise Land</a></span></span><span class="dur">6:18</span></div>
+    <div class="traccia"><span class="n">4</span><span class="testo"><span class="tit">I Belong To You (Emozione Mix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3APromise+Land">Promise Land</a></span></span><span class="dur">7:07</span></div>
+    <div class="traccia"><span class="n">5</span><span class="testo"><span class="tit">I Belong To You (Hpella)</span><span class="art"><a href="/compilation/archivio/?q=artista%3APromise+Land">Promise Land</a></span></span><span class="dur">3:30</span></div>
+    <div class="traccia"><span class="n">6</span><span class="testo"><span class="tit">Yes All Night (DJ Nick&#x27;Land Light Radio)</span><span class="art"><a href="/compilation/archivio/?q=artista%3APaper+Boy">Paper Boy</a></span></span><span class="dur">3:05</span></div>
+    <div class="traccia"><span class="n">7</span><span class="testo"><span class="tit">Yes All Night (DJ Nick&#x27;Land Light Extended)</span><span class="art"><a href="/compilation/archivio/?q=artista%3APaper+Boy">Paper Boy</a></span></span><span class="dur">4:48</span></div>
+    <div class="traccia"><span class="n">8</span><span class="testo"><span class="tit">Yes All Night (DJ Nick&#x27;Land Hard Extended)</span><span class="art"><a href="/compilation/archivio/?q=artista%3APaper+Boy">Paper Boy</a></span></span><span class="dur">4:56</span></div>
+    <div class="traccia"><span class="n">9</span><span class="testo"><span class="tit">Yes All Night (Hpella)</span><span class="art"><a href="/compilation/archivio/?q=artista%3APaper+Boy">Paper Boy</a></span></span><span class="dur">3:14</span></div>
+    <div class="traccia"><span class="n">10</span><span class="testo"><span class="tit">No Alla Pirateria (Original Extended)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ARumble+Pit">Rumble Pit</a></span></span><span class="dur">6:48</span></div>
+    <div class="traccia"><span class="n">11</span><span class="testo"><span class="tit">No Alla Pirateria (Instrumental)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ARumble+Pit">Rumble Pit</a></span></span><span class="dur">6:35</span></div>
+    <div class="traccia"><span class="n">12</span><span class="testo"><span class="tit">No Alla Pirateria (Hpella)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ARumble+Pit">Rumble Pit</a></span></span><span class="dur">2:10</span></div>
       </section>
     </div>
 

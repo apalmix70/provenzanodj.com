@@ -54,6 +54,14 @@ header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;back
   border:1px solid var(--riga);object-fit:cover;display:block}
 .disco .foto{width:100%;border-radius:6px;border:1px solid var(--riga);display:block}
 /* Il minimix: 16:9 che si adatta alla colonna, come le copertine. */
+/* L'intestazione di un disco dentro un cofanetto: si vede che si ricomincia. */
+.disco-n{display:flex;align-items:baseline;gap:10px;margin:22px 0 8px;
+  padding-bottom:6px;border-bottom:1px solid var(--riga);
+  font-family:'Anton',Arial,sans-serif;font-weight:400;font-size:13px;
+  letter-spacing:.16em;text-transform:uppercase}
+.disco-n:first-child{margin-top:0}
+.disco-n span{font-family:inherit;font-size:11px;letter-spacing:.08em;
+  color:var(--debole);text-transform:none}
 .minimix{margin-top:30px}
 .minimix h2{font-family:'Anton',Arial,sans-serif;font-weight:400;font-size:15px;
   letter-spacing:.14em;text-transform:uppercase;color:var(--grigio);margin-bottom:12px}
@@ -185,6 +193,7 @@ footer a:hover{color:var(--bianco)}
 
       <section class="tracce">
         <h2>La tracklist</h2>
+    <p class="disco-n">CD 1<span>15 tracce</span></p>
     <div class="traccia"><span class="n">1</span><span class="testo"><span class="tit">Faded</span><span class="art"><a href="/compilation/archivio/?q=artista%3AZhu">Zhu</a></span></span></div>
     <div class="traccia"><span class="n">2</span><span class="testo"><span class="tit">Outlines</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMike+Mago">Mike Mago</a>, <a href="/compilation/archivio/?q=artista%3ADragonette">Dragonette</a></span></span></div>
     <div class="traccia"><span class="n">3</span><span class="testo"><span class="tit">Starlight (Provenzano Rework)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AProvenzano+DJ">Provenzano DJ</a>, <a href="/compilation/archivio/?q=artista%3ADaniele+Macchi">Daniele Macchi</a>, <a href="/compilation/archivio/?q=artista%3ARuby+Friedman">Ruby Friedman</a></span></span></div>
@@ -200,26 +209,27 @@ footer a:hover{color:var(--bianco)}
     <div class="traccia"><span class="n">13</span><span class="testo"><span class="tit">Drop It Hard</span><span class="art"><a href="/compilation/archivio/?q=artista%3ABlaster+Key">Blaster Key</a></span></span></div>
     <div class="traccia"><span class="n">14</span><span class="testo"><span class="tit">Inflatables</span><span class="art"><a href="/compilation/archivio/?q=artista%3AKeysernoize">Keysernoize</a></span></span></div>
     <div class="traccia"><span class="n">15</span><span class="testo"><span class="tit">Quiet</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMastro+J">Mastro J</a>, <a href="/compilation/archivio/?q=artista%3AAndrea+Bellicapelli">Andrea Bellicapelli</a></span></span></div>
-    <div class="traccia"><span class="n">16</span><span class="testo"><span class="tit">Run Wild (Deeprock Extended Mix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ATruss+Rod">Truss Rod</a></span></span></div>
-    <div class="traccia"><span class="n">17</span><span class="testo"><span class="tit">Are You With Me</span><span class="art"><a href="/compilation/archivio/?q=artista%3ALost+Frequencies">Lost Frequencies</a></span></span></div>
-    <div class="traccia"><span class="n">18</span><span class="testo"><span class="tit">We Are Beautiful</span><span class="art"><a href="/compilation/archivio/?q=artista%3APanzer+Flower">Panzer Flower</a>, <a href="/compilation/archivio/?q=artista%3AHubert+Tubbs">Hubert Tubbs</a></span></span></div>
-    <div class="traccia"><span class="n">19</span><span class="testo"><span class="tit">Sugar Daddy</span><span class="art"><a href="/compilation/archivio/?q=artista%3ASpada">Spada</a></span></span></div>
-    <div class="traccia"><span class="n">20</span><span class="testo"><span class="tit">Girls In Luv (Bodybangers Remix Edit)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADJane+HouseKat">DJane HouseKat</a>, <a href="/compilation/archivio/?q=artista%3ARameez">Rameez</a></span></span></div>
-    <div class="traccia"><span class="n">21</span><span class="testo"><span class="tit">Que Guapa</span><span class="art"><a href="/compilation/archivio/?q=artista%3AEllenBeat">EllenBeat</a></span></span></div>
-    <div class="traccia"><span class="n">22</span><span class="testo"><span class="tit">Wicked Wonderland</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMartin+Tungevaag">Martin Tungevaag</a></span></span></div>
-    <div class="traccia"><span class="n">23</span><span class="testo"><span class="tit">Remember It&#x27;s You</span><span class="art"><a href="/compilation/archivio/?q=artista%3APaolo+Ortelli">Paolo Ortelli</a>, <a href="/compilation/archivio/?q=artista%3AMarco+Mazzoli">Marco Mazzoli</a>, <a href="/compilation/archivio/?q=artista%3AJoedna">Joedna</a></span></span></div>
-    <div class="traccia"><span class="n">24</span><span class="testo"><span class="tit">Nova</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADimitri+Vegas+&amp;+Like+Mike">Dimitri Vegas &amp; Like Mike</a>, <a href="/compilation/archivio/?q=artista%3ATujamo">Tujamo</a>, <a href="/compilation/archivio/?q=artista%3AFelguk">Felguk</a></span></span></div>
-    <div class="traccia"><span class="n">25</span><span class="testo"><span class="tit">Bullit (Rudeejay &amp; Andry J Vs Street Housers Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AWatermät">Watermät</a></span></span></div>
-    <div class="traccia"><span class="n">26</span><span class="testo"><span class="tit">Turbulence (Nicola Fasano &amp; Miami Rockets Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ALemon+Party+People">Lemon Party People</a></span></span></div>
-    <div class="traccia"><span class="n">27</span><span class="testo"><span class="tit">Can&#x27;t Stop Drinking About You</span><span class="art"><a href="/compilation/archivio/?q=artista%3AOtto+Knows">Otto Knows</a>, <a href="/compilation/archivio/?q=artista%3ABebe+Rexha">Bebe Rexha</a></span></span></div>
-    <div class="traccia"><span class="n">28</span><span class="testo"><span class="tit">Tear It Down</span><span class="art"><a href="/compilation/archivio/?q=artista%3AThe+Aston+Shuffle">The Aston Shuffle</a></span></span></div>
-    <div class="traccia"><span class="n">29</span><span class="testo"><span class="tit">Wicked Games (Carl Muren &amp; Etienne Ozborne Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AParra+for+Cuva">Parra for Cuva</a>, <a href="/compilation/archivio/?q=artista%3AAnna+Naklab">Anna Naklab</a></span></span></div>
-    <div class="traccia"><span class="n">30</span><span class="testo"><span class="tit">Beyond Wonderful (Davis Redfield Extended Mix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AGold+1">Gold 1</a>, <a href="/compilation/archivio/?q=artista%3AFlo+Rida">Flo Rida</a></span></span></div>
-    <div class="traccia"><span class="n">31</span><span class="testo"><span class="tit">Still Be The One</span><span class="art"><a href="/compilation/archivio/?q=artista%3ANRD1">NRD1</a>, <a href="/compilation/archivio/?q=artista%3ACozi">Cozi</a></span></span></div>
-    <div class="traccia"><span class="n">32</span><span class="testo"><span class="tit">Namibia</span><span class="art"><a href="/compilation/archivio/?q=artista%3AGil+Sanders">Gil Sanders</a>, <a href="/compilation/archivio/?q=artista%3AJenny+Jackson">Jenny Jackson</a></span></span></div>
-    <div class="traccia"><span class="n">33</span><span class="testo"><span class="tit">Way Out</span><span class="art"><a href="/compilation/archivio/?q=artista%3ASystem+3">System 3</a></span></span></div>
-    <div class="traccia"><span class="n">34</span><span class="testo"><span class="tit">Twisted (Nocera &amp; Montorsi Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AFedde+Le+Grand">Fedde Le Grand</a></span></span></div>
-    <div class="traccia"><span class="n">35</span><span class="testo"><span class="tit">Carpedm</span><span class="art"><a href="/compilation/archivio/?q=artista%3AThe+Alphadogz">The Alphadogz</a></span></span></div>
+    <p class="disco-n">CD 2<span>20 tracce</span></p>
+    <div class="traccia"><span class="n">1</span><span class="testo"><span class="tit">Run Wild (Deeprock Extended Mix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ATruss+Rod">Truss Rod</a></span></span></div>
+    <div class="traccia"><span class="n">2</span><span class="testo"><span class="tit">Are You With Me</span><span class="art"><a href="/compilation/archivio/?q=artista%3ALost+Frequencies">Lost Frequencies</a></span></span></div>
+    <div class="traccia"><span class="n">3</span><span class="testo"><span class="tit">We Are Beautiful</span><span class="art"><a href="/compilation/archivio/?q=artista%3APanzer+Flower">Panzer Flower</a>, <a href="/compilation/archivio/?q=artista%3AHubert+Tubbs">Hubert Tubbs</a></span></span></div>
+    <div class="traccia"><span class="n">4</span><span class="testo"><span class="tit">Sugar Daddy</span><span class="art"><a href="/compilation/archivio/?q=artista%3ASpada">Spada</a></span></span></div>
+    <div class="traccia"><span class="n">5</span><span class="testo"><span class="tit">Girls In Luv (Bodybangers Remix Edit)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADJane+HouseKat">DJane HouseKat</a>, <a href="/compilation/archivio/?q=artista%3ARameez">Rameez</a></span></span></div>
+    <div class="traccia"><span class="n">6</span><span class="testo"><span class="tit">Que Guapa</span><span class="art"><a href="/compilation/archivio/?q=artista%3AEllenBeat">EllenBeat</a></span></span></div>
+    <div class="traccia"><span class="n">7</span><span class="testo"><span class="tit">Wicked Wonderland</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMartin+Tungevaag">Martin Tungevaag</a></span></span></div>
+    <div class="traccia"><span class="n">8</span><span class="testo"><span class="tit">Remember It&#x27;s You</span><span class="art"><a href="/compilation/archivio/?q=artista%3APaolo+Ortelli">Paolo Ortelli</a>, <a href="/compilation/archivio/?q=artista%3AMarco+Mazzoli">Marco Mazzoli</a>, <a href="/compilation/archivio/?q=artista%3AJoedna">Joedna</a></span></span></div>
+    <div class="traccia"><span class="n">9</span><span class="testo"><span class="tit">Nova</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADimitri+Vegas+&amp;+Like+Mike">Dimitri Vegas &amp; Like Mike</a>, <a href="/compilation/archivio/?q=artista%3ATujamo">Tujamo</a>, <a href="/compilation/archivio/?q=artista%3AFelguk">Felguk</a></span></span></div>
+    <div class="traccia"><span class="n">10</span><span class="testo"><span class="tit">Bullit (Rudeejay &amp; Andry J Vs Street Housers Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AWatermät">Watermät</a></span></span></div>
+    <div class="traccia"><span class="n">11</span><span class="testo"><span class="tit">Turbulence (Nicola Fasano &amp; Miami Rockets Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ALemon+Party+People">Lemon Party People</a></span></span></div>
+    <div class="traccia"><span class="n">12</span><span class="testo"><span class="tit">Can&#x27;t Stop Drinking About You</span><span class="art"><a href="/compilation/archivio/?q=artista%3AOtto+Knows">Otto Knows</a>, <a href="/compilation/archivio/?q=artista%3ABebe+Rexha">Bebe Rexha</a></span></span></div>
+    <div class="traccia"><span class="n">13</span><span class="testo"><span class="tit">Tear It Down</span><span class="art"><a href="/compilation/archivio/?q=artista%3AThe+Aston+Shuffle">The Aston Shuffle</a></span></span></div>
+    <div class="traccia"><span class="n">14</span><span class="testo"><span class="tit">Wicked Games (Carl Muren &amp; Etienne Ozborne Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AParra+for+Cuva">Parra for Cuva</a>, <a href="/compilation/archivio/?q=artista%3AAnna+Naklab">Anna Naklab</a></span></span></div>
+    <div class="traccia"><span class="n">15</span><span class="testo"><span class="tit">Beyond Wonderful (Davis Redfield Extended Mix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AGold+1">Gold 1</a>, <a href="/compilation/archivio/?q=artista%3AFlo+Rida">Flo Rida</a></span></span></div>
+    <div class="traccia"><span class="n">16</span><span class="testo"><span class="tit">Still Be The One</span><span class="art"><a href="/compilation/archivio/?q=artista%3ANRD1">NRD1</a>, <a href="/compilation/archivio/?q=artista%3ACozi">Cozi</a></span></span></div>
+    <div class="traccia"><span class="n">17</span><span class="testo"><span class="tit">Namibia</span><span class="art"><a href="/compilation/archivio/?q=artista%3AGil+Sanders">Gil Sanders</a>, <a href="/compilation/archivio/?q=artista%3AJenny+Jackson">Jenny Jackson</a></span></span></div>
+    <div class="traccia"><span class="n">18</span><span class="testo"><span class="tit">Way Out</span><span class="art"><a href="/compilation/archivio/?q=artista%3ASystem+3">System 3</a></span></span></div>
+    <div class="traccia"><span class="n">19</span><span class="testo"><span class="tit">Twisted (Nocera &amp; Montorsi Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AFedde+Le+Grand">Fedde Le Grand</a></span></span></div>
+    <div class="traccia"><span class="n">20</span><span class="testo"><span class="tit">Carpedm</span><span class="art"><a href="/compilation/archivio/?q=artista%3AThe+Alphadogz">The Alphadogz</a></span></span></div>
       </section>
       <section class="minimix">
         <h2>Il minimix</h2>

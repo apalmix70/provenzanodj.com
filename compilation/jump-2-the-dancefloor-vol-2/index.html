@@ -54,6 +54,14 @@ header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;back
   border:1px solid var(--riga);object-fit:cover;display:block}
 .disco .foto{width:100%;border-radius:6px;border:1px solid var(--riga);display:block}
 /* Il minimix: 16:9 che si adatta alla colonna, come le copertine. */
+/* L'intestazione di un disco dentro un cofanetto: si vede che si ricomincia. */
+.disco-n{display:flex;align-items:baseline;gap:10px;margin:22px 0 8px;
+  padding-bottom:6px;border-bottom:1px solid var(--riga);
+  font-family:'Anton',Arial,sans-serif;font-weight:400;font-size:13px;
+  letter-spacing:.16em;text-transform:uppercase}
+.disco-n:first-child{margin-top:0}
+.disco-n span{font-family:inherit;font-size:11px;letter-spacing:.08em;
+  color:var(--debole);text-transform:none}
 .minimix{margin-top:30px}
 .minimix h2{font-family:'Anton',Arial,sans-serif;font-weight:400;font-size:15px;
   letter-spacing:.14em;text-transform:uppercase;color:var(--grigio);margin-bottom:12px}
@@ -182,6 +190,7 @@ footer a:hover{color:var(--bianco)}
 
       <section class="tracce">
         <h2>La tracklist</h2>
+    <p class="disco-n">CD 1<span>11 tracce</span></p>
     <div class="traccia"><span class="n">1</span><span class="testo"><span class="tit">Vibe (Promiseland Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AProvenzano+DJ">Provenzano DJ</a>, <a href="/compilation/archivio/?q=artista%3ALizzy+B">Lizzy B</a></span></span><span class="dur">6:54</span></div>
     <div class="traccia"><span class="n">2</span><span class="testo"><span class="tit">Sumatra (Girasole Vs. Hypertraxx Mix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ALegend">Legend</a></span></span><span class="dur">8:08</span></div>
     <div class="traccia"><span class="n">3</span><span class="testo"><span class="tit">Break One</span><span class="art"><a href="/compilation/archivio/?q=artista%3AGhost+DJ">Ghost DJ</a></span></span><span class="dur">6:36</span></div>
@@ -193,17 +202,18 @@ footer a:hover{color:var(--bianco)}
     <div class="traccia"><span class="n">9</span><span class="testo"><span class="tit">Saturday (Hypertraxx Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AGrooveback">Grooveback</a></span></span><span class="dur">5:34</span></div>
     <div class="traccia"><span class="n">10</span><span class="testo"><span class="tit">Pac Dance</span><span class="art"><a href="/compilation/archivio/?q=artista%3AGame+Brothers">Game Brothers</a></span></span><span class="dur">6:32</span></div>
     <div class="traccia"><span class="n">11</span><span class="testo"><span class="tit">Japan DJ</span><span class="art"><a href="/compilation/archivio/?q=artista%3AJapan+Girl">Japan Girl</a></span></span><span class="dur">5:32</span></div>
-    <div class="traccia"><span class="n">12</span><span class="testo"><span class="tit">Gigi&#x27;s Violin (Hard Dance Style Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AAfterclub">Afterclub</a></span></span><span class="dur">5:45</span></div>
-    <div class="traccia"><span class="n">13</span><span class="testo"><span class="tit">Vibrazii (Amoroso Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AAzora">Azora</a></span></span><span class="dur">5:39</span></div>
-    <div class="traccia"><span class="n">14</span><span class="testo"><span class="tit">Style</span><span class="art"><a href="/compilation/archivio/?q=artista%3AGroundbeat">Groundbeat</a></span></span><span class="dur">6:17</span></div>
-    <div class="traccia"><span class="n">15</span><span class="testo"><span class="tit">Il Mio Canto Libero (Promise Land Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AItalian+Style">Italian Style</a></span></span><span class="dur">6:51</span></div>
-    <div class="traccia"><span class="n">16</span><span class="testo"><span class="tit">Put Your Hands</span><span class="art"><a href="/compilation/archivio/?q=artista%3ANiny+&amp;+Alby">Niny &amp; Alby</a></span></span><span class="dur">5:39</span></div>
-    <div class="traccia"><span class="n">17</span><span class="testo"><span class="tit">Don&#x27;t Leave Me Now</span><span class="art"><a href="/compilation/archivio/?q=artista%3ATrilogy">Trilogy</a></span></span><span class="dur">6:21</span></div>
-    <div class="traccia"><span class="n">18</span><span class="testo"><span class="tit">Poem Without Words</span><span class="art"><a href="/compilation/archivio/?q=artista%3ATerminal+Dream">Terminal Dream</a></span></span><span class="dur">6:04</span></div>
-    <div class="traccia"><span class="n">19</span><span class="testo"><span class="tit">Storm (Dark Angel Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMars+Trek">Mars Trek</a></span></span><span class="dur">6:00</span></div>
-    <div class="traccia"><span class="n">20</span><span class="testo"><span class="tit">I Know Is Your Time</span><span class="art"><a href="/compilation/archivio/?q=artista%3ALilù">Lilù</a></span></span><span class="dur">6:42</span></div>
-    <div class="traccia"><span class="n">21</span><span class="testo"><span class="tit">A Part Of Your Life</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMargaret">Margaret</a></span></span><span class="dur">3:56</span></div>
-    <div class="traccia"><span class="n">22</span><span class="testo"><span class="tit">Hardcore Floor</span><span class="art"><a href="/compilation/archivio/?q=artista%3ACriminal+Gang">Criminal Gang</a></span></span><span class="dur">6:07</span></div>
+    <p class="disco-n">CD 2<span>11 tracce</span></p>
+    <div class="traccia"><span class="n">1</span><span class="testo"><span class="tit">Gigi&#x27;s Violin (Hard Dance Style Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AAfterclub">Afterclub</a></span></span><span class="dur">5:45</span></div>
+    <div class="traccia"><span class="n">2</span><span class="testo"><span class="tit">Vibrazii (Amoroso Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AAzora">Azora</a></span></span><span class="dur">5:39</span></div>
+    <div class="traccia"><span class="n">3</span><span class="testo"><span class="tit">Style</span><span class="art"><a href="/compilation/archivio/?q=artista%3AGroundbeat">Groundbeat</a></span></span><span class="dur">6:17</span></div>
+    <div class="traccia"><span class="n">4</span><span class="testo"><span class="tit">Il Mio Canto Libero (Promise Land Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AItalian+Style">Italian Style</a></span></span><span class="dur">6:51</span></div>
+    <div class="traccia"><span class="n">5</span><span class="testo"><span class="tit">Put Your Hands</span><span class="art"><a href="/compilation/archivio/?q=artista%3ANiny+&amp;+Alby">Niny &amp; Alby</a></span></span><span class="dur">5:39</span></div>
+    <div class="traccia"><span class="n">6</span><span class="testo"><span class="tit">Don&#x27;t Leave Me Now</span><span class="art"><a href="/compilation/archivio/?q=artista%3ATrilogy">Trilogy</a></span></span><span class="dur">6:21</span></div>
+    <div class="traccia"><span class="n">7</span><span class="testo"><span class="tit">Poem Without Words</span><span class="art"><a href="/compilation/archivio/?q=artista%3ATerminal+Dream">Terminal Dream</a></span></span><span class="dur">6:04</span></div>
+    <div class="traccia"><span class="n">8</span><span class="testo"><span class="tit">Storm (Dark Angel Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMars+Trek">Mars Trek</a></span></span><span class="dur">6:00</span></div>
+    <div class="traccia"><span class="n">9</span><span class="testo"><span class="tit">I Know Is Your Time</span><span class="art"><a href="/compilation/archivio/?q=artista%3ALilù">Lilù</a></span></span><span class="dur">6:42</span></div>
+    <div class="traccia"><span class="n">10</span><span class="testo"><span class="tit">A Part Of Your Life</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMargaret">Margaret</a></span></span><span class="dur">3:56</span></div>
+    <div class="traccia"><span class="n">11</span><span class="testo"><span class="tit">Hardcore Floor</span><span class="art"><a href="/compilation/archivio/?q=artista%3ACriminal+Gang">Criminal Gang</a></span></span><span class="dur">6:07</span></div>
       </section>
     </div>
 

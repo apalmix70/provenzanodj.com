@@ -54,6 +54,14 @@ header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;back
   border:1px solid var(--riga);object-fit:cover;display:block}
 .disco .foto{width:100%;border-radius:6px;border:1px solid var(--riga);display:block}
 /* Il minimix: 16:9 che si adatta alla colonna, come le copertine. */
+/* L'intestazione di un disco dentro un cofanetto: si vede che si ricomincia. */
+.disco-n{display:flex;align-items:baseline;gap:10px;margin:22px 0 8px;
+  padding-bottom:6px;border-bottom:1px solid var(--riga);
+  font-family:'Anton',Arial,sans-serif;font-weight:400;font-size:13px;
+  letter-spacing:.16em;text-transform:uppercase}
+.disco-n:first-child{margin-top:0}
+.disco-n span{font-family:inherit;font-size:11px;letter-spacing:.08em;
+  color:var(--debole);text-transform:none}
 .minimix{margin-top:30px}
 .minimix h2{font-family:'Anton',Arial,sans-serif;font-weight:400;font-size:15px;
   letter-spacing:.14em;text-transform:uppercase;color:var(--grigio);margin-bottom:12px}
@@ -184,6 +192,7 @@ footer a:hover{color:var(--bianco)}
 
       <section class="tracce">
         <h2>La tracklist</h2>
+    <p class="disco-n">CD 1<span>15 tracce</span></p>
     <div class="traccia"><span class="n">1</span><span class="testo"><span class="tit">Celebration</span><span class="art"><a href="/compilation/archivio/?q=artista%3ALizzy+B">Lizzy B</a>, <a href="/compilation/archivio/?q=artista%3ADavide+Borri">Davide Borri</a></span></span></div>
     <div class="traccia"><span class="n">2</span><span class="testo"><span class="tit">Get On The Move</span><span class="art"><a href="/compilation/archivio/?q=artista%3ABingo+Players">Bingo Players</a></span></span></div>
     <div class="traccia"><span class="n">3</span><span class="testo"><span class="tit">La Frisa</span><span class="art"><a href="/compilation/archivio/?q=artista%3AStoneyes">Stoneyes</a></span></span></div>
@@ -199,21 +208,22 @@ footer a:hover{color:var(--bianco)}
     <div class="traccia"><span class="n">13</span><span class="testo"><span class="tit">Amazing (Promiseland Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AReder8">Reder8</a></span></span></div>
     <div class="traccia"><span class="n">14</span><span class="testo"><span class="tit">Feel The Same (Stefan Greg Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ATriple+X">Triple X</a></span></span></div>
     <div class="traccia"><span class="n">15</span><span class="testo"><span class="tit">Starchild (Max Zotti &amp; DJ Martin Club Mix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMax+Zotti">Max Zotti</a></span></span></div>
-    <div class="traccia"><span class="n">16</span><span class="testo"><span class="tit">Gypsy Moves (Nah Neh Nah)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AVanity">Vanity</a></span></span></div>
-    <div class="traccia"><span class="n">17</span><span class="testo"><span class="tit">Shake Da Booty (Move)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AFunky+Junction">Funky Junction</a>, <a href="/compilation/archivio/?q=artista%3ASplashfunk">Splashfunk</a>, <a href="/compilation/archivio/?q=artista%3A2+In+A+Room">2 In A Room</a></span></span></div>
-    <div class="traccia"><span class="n">18</span><span class="testo"><span class="tit">Scream!</span><span class="art"><a href="/compilation/archivio/?q=artista%3AAaron">Aaron</a></span></span></div>
-    <div class="traccia"><span class="n">19</span><span class="testo"><span class="tit">I Make You Gaga (Molella &amp; Jerma Extended Mix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADavid+Morales">David Morales</a>, <a href="/compilation/archivio/?q=artista%3AJanice+Robinson">Janice Robinson</a></span></span></div>
-    <div class="traccia"><span class="n">20</span><span class="testo"><span class="tit">Last Summer (Rivaz Club)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ANicko">Nicko</a></span></span></div>
-    <div class="traccia"><span class="n">21</span><span class="testo"><span class="tit">Goes Deeper (Viale &amp; Sandrini Mix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AAlessandro+Viale">Alessandro Viale</a>, <a href="/compilation/archivio/?q=artista%3AVaanya+Diva">Vaanya Diva</a></span></span></div>
-    <div class="traccia"><span class="n">22</span><span class="testo"><span class="tit">Con Te Partirò</span><span class="art"><a href="/compilation/archivio/?q=artista%3APaul+&amp;+Luke">Paul &amp; Luke</a>, <a href="/compilation/archivio/?q=artista%3ASimon+De+Jano">Simon De Jano</a></span></span></div>
-    <div class="traccia"><span class="n">23</span><span class="testo"><span class="tit">Amazing (Buzz Junkies Mix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AInna">Inna</a></span></span></div>
-    <div class="traccia"><span class="n">24</span><span class="testo"><span class="tit">Freefallin&#x27; (Denzal Park Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AZoë+Badwi">Zoë Badwi</a></span></span></div>
-    <div class="traccia"><span class="n">25</span><span class="testo"><span class="tit">Last Ones Standing (Benny Benassi Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AExample">Example</a></span></span></div>
-    <div class="traccia"><span class="n">26</span><span class="testo"><span class="tit">Nothing But Love</span><span class="art"><a href="/compilation/archivio/?q=artista%3AAxwell">Axwell</a>, <a href="/compilation/archivio/?q=artista%3AErrol+Reid">Errol Reid</a></span></span></div>
-    <div class="traccia"><span class="n">27</span><span class="testo"><span class="tit">Waiting</span><span class="art"><a href="/compilation/archivio/?q=artista%3ANicola+Zucchi">Nicola Zucchi</a></span></span></div>
-    <div class="traccia"><span class="n">28</span><span class="testo"><span class="tit">Illmerica</span><span class="art"><a href="/compilation/archivio/?q=artista%3AWolfgang+Gartner">Wolfgang Gartner</a></span></span></div>
-    <div class="traccia"><span class="n">29</span><span class="testo"><span class="tit">Here We Go</span><span class="art"><a href="/compilation/archivio/?q=artista%3AAlterlead">Alterlead</a></span></span></div>
-    <div class="traccia"><span class="n">30</span><span class="testo"><span class="tit">5 Seconds</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMaurizio+Gubellini">Maurizio Gubellini</a></span></span></div>
+    <p class="disco-n">CD 2<span>15 tracce</span></p>
+    <div class="traccia"><span class="n">1</span><span class="testo"><span class="tit">Gypsy Moves (Nah Neh Nah)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AVanity">Vanity</a></span></span></div>
+    <div class="traccia"><span class="n">2</span><span class="testo"><span class="tit">Shake Da Booty (Move)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AFunky+Junction">Funky Junction</a>, <a href="/compilation/archivio/?q=artista%3ASplashfunk">Splashfunk</a>, <a href="/compilation/archivio/?q=artista%3A2+In+A+Room">2 In A Room</a></span></span></div>
+    <div class="traccia"><span class="n">3</span><span class="testo"><span class="tit">Scream!</span><span class="art"><a href="/compilation/archivio/?q=artista%3AAaron">Aaron</a></span></span></div>
+    <div class="traccia"><span class="n">4</span><span class="testo"><span class="tit">I Make You Gaga (Molella &amp; Jerma Extended Mix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADavid+Morales">David Morales</a>, <a href="/compilation/archivio/?q=artista%3AJanice+Robinson">Janice Robinson</a></span></span></div>
+    <div class="traccia"><span class="n">5</span><span class="testo"><span class="tit">Last Summer (Rivaz Club)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ANicko">Nicko</a></span></span></div>
+    <div class="traccia"><span class="n">6</span><span class="testo"><span class="tit">Goes Deeper (Viale &amp; Sandrini Mix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AAlessandro+Viale">Alessandro Viale</a>, <a href="/compilation/archivio/?q=artista%3AVaanya+Diva">Vaanya Diva</a></span></span></div>
+    <div class="traccia"><span class="n">7</span><span class="testo"><span class="tit">Con Te Partirò</span><span class="art"><a href="/compilation/archivio/?q=artista%3APaul+&amp;+Luke">Paul &amp; Luke</a>, <a href="/compilation/archivio/?q=artista%3ASimon+De+Jano">Simon De Jano</a></span></span></div>
+    <div class="traccia"><span class="n">8</span><span class="testo"><span class="tit">Amazing (Buzz Junkies Mix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AInna">Inna</a></span></span></div>
+    <div class="traccia"><span class="n">9</span><span class="testo"><span class="tit">Freefallin&#x27; (Denzal Park Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AZoë+Badwi">Zoë Badwi</a></span></span></div>
+    <div class="traccia"><span class="n">10</span><span class="testo"><span class="tit">Last Ones Standing (Benny Benassi Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AExample">Example</a></span></span></div>
+    <div class="traccia"><span class="n">11</span><span class="testo"><span class="tit">Nothing But Love</span><span class="art"><a href="/compilation/archivio/?q=artista%3AAxwell">Axwell</a>, <a href="/compilation/archivio/?q=artista%3AErrol+Reid">Errol Reid</a></span></span></div>
+    <div class="traccia"><span class="n">12</span><span class="testo"><span class="tit">Waiting</span><span class="art"><a href="/compilation/archivio/?q=artista%3ANicola+Zucchi">Nicola Zucchi</a></span></span></div>
+    <div class="traccia"><span class="n">13</span><span class="testo"><span class="tit">Illmerica</span><span class="art"><a href="/compilation/archivio/?q=artista%3AWolfgang+Gartner">Wolfgang Gartner</a></span></span></div>
+    <div class="traccia"><span class="n">14</span><span class="testo"><span class="tit">Here We Go</span><span class="art"><a href="/compilation/archivio/?q=artista%3AAlterlead">Alterlead</a></span></span></div>
+    <div class="traccia"><span class="n">15</span><span class="testo"><span class="tit">5 Seconds</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMaurizio+Gubellini">Maurizio Gubellini</a></span></span></div>
       </section>
     </div>
 

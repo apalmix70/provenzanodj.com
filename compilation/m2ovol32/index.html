@@ -54,6 +54,14 @@ header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;back
   border:1px solid var(--riga);object-fit:cover;display:block}
 .disco .foto{width:100%;border-radius:6px;border:1px solid var(--riga);display:block}
 /* Il minimix: 16:9 che si adatta alla colonna, come le copertine. */
+/* L'intestazione di un disco dentro un cofanetto: si vede che si ricomincia. */
+.disco-n{display:flex;align-items:baseline;gap:10px;margin:22px 0 8px;
+  padding-bottom:6px;border-bottom:1px solid var(--riga);
+  font-family:'Anton',Arial,sans-serif;font-weight:400;font-size:13px;
+  letter-spacing:.16em;text-transform:uppercase}
+.disco-n:first-child{margin-top:0}
+.disco-n span{font-family:inherit;font-size:11px;letter-spacing:.08em;
+  color:var(--debole);text-transform:none}
 .minimix{margin-top:30px}
 .minimix h2{font-family:'Anton',Arial,sans-serif;font-weight:400;font-size:15px;
   letter-spacing:.14em;text-transform:uppercase;color:var(--grigio);margin-bottom:12px}
@@ -185,6 +193,7 @@ footer a:hover{color:var(--bianco)}
 
       <section class="tracce">
         <h2>La tracklist</h2>
+    <p class="disco-n">CD 1<span>15 tracce</span></p>
     <div class="traccia"><span class="n">1</span><span class="testo"><span class="tit">I Could Be The One (Nicktim)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AAvicii">Avicii</a>, <a href="/compilation/archivio/?q=artista%3ANicky+Romero">Nicky Romero</a></span></span></div>
     <div class="traccia"><span class="n">2</span><span class="testo"><span class="tit">Apollo</span><span class="art"><a href="/compilation/archivio/?q=artista%3AHardwell">Hardwell</a>, <a href="/compilation/archivio/?q=artista%3AAmba+Shepherd">Amba Shepherd</a></span></span></div>
     <div class="traccia"><span class="n">3</span><span class="testo"><span class="tit">Better Than Yesterday</span><span class="art"><a href="/compilation/archivio/?q=artista%3ASidney+Samson">Sidney Samson</a>, <a href="/compilation/archivio/?q=artista%3AWill+I+Am">Will I Am</a></span></span></div>
@@ -200,21 +209,22 @@ footer a:hover{color:var(--bianco)}
     <div class="traccia"><span class="n">13</span><span class="testo"><span class="tit">Raw</span><span class="art"><a href="/compilation/archivio/?q=artista%3AFedde+Le+Grand">Fedde Le Grand</a></span></span></div>
     <div class="traccia"><span class="n">14</span><span class="testo"><span class="tit">This Is The Time (Club Mix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AItalian+Vibe+Culture">Italian Vibe Culture</a></span></span></div>
     <div class="traccia"><span class="n">15</span><span class="testo"><span class="tit">Heartquake</span><span class="art"><a href="/compilation/archivio/?q=artista%3ASystem3">System3</a></span></span></div>
-    <div class="traccia"><span class="n">16</span><span class="testo"><span class="tit">Fiesta (Michael Mind Project Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ACarlprit">Carlprit</a></span></span></div>
-    <div class="traccia"><span class="n">17</span><span class="testo"><span class="tit">Still The Same Man</span><span class="art"><a href="/compilation/archivio/?q=artista%3ANicky+Romero">Nicky Romero</a>, <a href="/compilation/archivio/?q=artista%3AJohn+Christian">John Christian</a>, <a href="/compilation/archivio/?q=artista%3ANilson">Nilson</a></span></span></div>
-    <div class="traccia"><span class="n">18</span><span class="testo"><span class="tit">Breath</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADirty+Impact">Dirty Impact</a>, <a href="/compilation/archivio/?q=artista%3AGordon+&amp;+Doyle">Gordon &amp; Doyle</a></span></span></div>
-    <div class="traccia"><span class="n">19</span><span class="testo"><span class="tit">I Follow Rivers (Club Mix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ANRD1">NRD1</a>, <a href="/compilation/archivio/?q=artista%3ASarah">Sarah</a></span></span></div>
-    <div class="traccia"><span class="n">20</span><span class="testo"><span class="tit">Clobber</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADannic">Dannic</a></span></span></div>
-    <div class="traccia"><span class="n">21</span><span class="testo"><span class="tit">Ode To Oi</span><span class="art"><a href="/compilation/archivio/?q=artista%3ATJR">TJR</a></span></span></div>
-    <div class="traccia"><span class="n">22</span><span class="testo"><span class="tit">Crump</span><span class="art"><a href="/compilation/archivio/?q=artista%3ATujamo">Tujamo</a></span></span></div>
-    <div class="traccia"><span class="n">23</span><span class="testo"><span class="tit">Satisfaction (Dada Life Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ABenny+Benassi">Benny Benassi</a>, <a href="/compilation/archivio/?q=artista%3AThe+Biz">The Biz</a></span></span></div>
-    <div class="traccia"><span class="n">24</span><span class="testo"><span class="tit">Fly Away (Provenzano Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AClaudio+Caccini">Claudio Caccini</a>, <a href="/compilation/archivio/?q=artista%3ACe+Ce+Rogers">Ce Ce Rogers</a></span></span></div>
-    <div class="traccia"><span class="n">25</span><span class="testo"><span class="tit">Burn The Disco</span><span class="art"><a href="/compilation/archivio/?q=artista%3AFelix+Da+Housecat">Felix Da Housecat</a>, <a href="/compilation/archivio/?q=artista%3AWill+I+Am">Will I Am</a></span></span></div>
-    <div class="traccia"><span class="n">26</span><span class="testo"><span class="tit">Wild Horses</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADiego+Donati">Diego Donati</a>, <a href="/compilation/archivio/?q=artista%3AFranco+Amato">Franco Amato</a></span></span></div>
-    <div class="traccia"><span class="n">27</span><span class="testo"><span class="tit">Turn Off The Lights (Ivan Gough Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AVincenzo+Callea">Vincenzo Callea</a>, <a href="/compilation/archivio/?q=artista%3AWilliam+Naraine">William Naraine</a></span></span></div>
-    <div class="traccia"><span class="n">28</span><span class="testo"><span class="tit">Breakin&#x27; The Heart (Provenzano Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AAndrea+Masullo">Andrea Masullo</a></span></span></div>
-    <div class="traccia"><span class="n">29</span><span class="testo"><span class="tit">Stormchaser</span><span class="art"><a href="/compilation/archivio/?q=artista%3ABasto!">Basto!</a></span></span></div>
-    <div class="traccia"><span class="n">30</span><span class="testo"><span class="tit">Hinsanity</span><span class="art"><a href="/compilation/archivio/?q=artista%3AFeelhype">Feelhype</a></span></span></div>
+    <p class="disco-n">CD 2<span>15 tracce</span></p>
+    <div class="traccia"><span class="n">1</span><span class="testo"><span class="tit">Fiesta (Michael Mind Project Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ACarlprit">Carlprit</a></span></span></div>
+    <div class="traccia"><span class="n">2</span><span class="testo"><span class="tit">Still The Same Man</span><span class="art"><a href="/compilation/archivio/?q=artista%3ANicky+Romero">Nicky Romero</a>, <a href="/compilation/archivio/?q=artista%3AJohn+Christian">John Christian</a>, <a href="/compilation/archivio/?q=artista%3ANilson">Nilson</a></span></span></div>
+    <div class="traccia"><span class="n">3</span><span class="testo"><span class="tit">Breath</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADirty+Impact">Dirty Impact</a>, <a href="/compilation/archivio/?q=artista%3AGordon+&amp;+Doyle">Gordon &amp; Doyle</a></span></span></div>
+    <div class="traccia"><span class="n">4</span><span class="testo"><span class="tit">I Follow Rivers (Club Mix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ANRD1">NRD1</a>, <a href="/compilation/archivio/?q=artista%3ASarah">Sarah</a></span></span></div>
+    <div class="traccia"><span class="n">5</span><span class="testo"><span class="tit">Clobber</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADannic">Dannic</a></span></span></div>
+    <div class="traccia"><span class="n">6</span><span class="testo"><span class="tit">Ode To Oi</span><span class="art"><a href="/compilation/archivio/?q=artista%3ATJR">TJR</a></span></span></div>
+    <div class="traccia"><span class="n">7</span><span class="testo"><span class="tit">Crump</span><span class="art"><a href="/compilation/archivio/?q=artista%3ATujamo">Tujamo</a></span></span></div>
+    <div class="traccia"><span class="n">8</span><span class="testo"><span class="tit">Satisfaction (Dada Life Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ABenny+Benassi">Benny Benassi</a>, <a href="/compilation/archivio/?q=artista%3AThe+Biz">The Biz</a></span></span></div>
+    <div class="traccia"><span class="n">9</span><span class="testo"><span class="tit">Fly Away (Provenzano Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AClaudio+Caccini">Claudio Caccini</a>, <a href="/compilation/archivio/?q=artista%3ACe+Ce+Rogers">Ce Ce Rogers</a></span></span></div>
+    <div class="traccia"><span class="n">10</span><span class="testo"><span class="tit">Burn The Disco</span><span class="art"><a href="/compilation/archivio/?q=artista%3AFelix+Da+Housecat">Felix Da Housecat</a>, <a href="/compilation/archivio/?q=artista%3AWill+I+Am">Will I Am</a></span></span></div>
+    <div class="traccia"><span class="n">11</span><span class="testo"><span class="tit">Wild Horses</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADiego+Donati">Diego Donati</a>, <a href="/compilation/archivio/?q=artista%3AFranco+Amato">Franco Amato</a></span></span></div>
+    <div class="traccia"><span class="n">12</span><span class="testo"><span class="tit">Turn Off The Lights (Ivan Gough Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AVincenzo+Callea">Vincenzo Callea</a>, <a href="/compilation/archivio/?q=artista%3AWilliam+Naraine">William Naraine</a></span></span></div>
+    <div class="traccia"><span class="n">13</span><span class="testo"><span class="tit">Breakin&#x27; The Heart (Provenzano Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AAndrea+Masullo">Andrea Masullo</a></span></span></div>
+    <div class="traccia"><span class="n">14</span><span class="testo"><span class="tit">Stormchaser</span><span class="art"><a href="/compilation/archivio/?q=artista%3ABasto!">Basto!</a></span></span></div>
+    <div class="traccia"><span class="n">15</span><span class="testo"><span class="tit">Hinsanity</span><span class="art"><a href="/compilation/archivio/?q=artista%3AFeelhype">Feelhype</a></span></span></div>
       </section>
       <section class="minimix">
         <h2>Il minimix</h2>

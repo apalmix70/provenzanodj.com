@@ -54,6 +54,14 @@ header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;back
   border:1px solid var(--riga);object-fit:cover;display:block}
 .disco .foto{width:100%;border-radius:6px;border:1px solid var(--riga);display:block}
 /* Il minimix: 16:9 che si adatta alla colonna, come le copertine. */
+/* L'intestazione di un disco dentro un cofanetto: si vede che si ricomincia. */
+.disco-n{display:flex;align-items:baseline;gap:10px;margin:22px 0 8px;
+  padding-bottom:6px;border-bottom:1px solid var(--riga);
+  font-family:'Anton',Arial,sans-serif;font-weight:400;font-size:13px;
+  letter-spacing:.16em;text-transform:uppercase}
+.disco-n:first-child{margin-top:0}
+.disco-n span{font-family:inherit;font-size:11px;letter-spacing:.08em;
+  color:var(--debole);text-transform:none}
 .minimix{margin-top:30px}
 .minimix h2{font-family:'Anton',Arial,sans-serif;font-weight:400;font-size:15px;
   letter-spacing:.14em;text-transform:uppercase;color:var(--grigio);margin-bottom:12px}
@@ -185,6 +193,7 @@ footer a:hover{color:var(--bianco)}
 
       <section class="tracce">
         <h2>La tracklist</h2>
+    <p class="disco-n">CD 1<span>15 tracce</span></p>
     <div class="traccia"><span class="n">1</span><span class="testo"><span class="tit">Get On The Floor (Vamos Dancar) (E-Partment Extended Mix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ACarolina+Marquez">Carolina Marquez</a>, <a href="/compilation/archivio/?q=artista%3APitbull">Pitbull</a>, <a href="/compilation/archivio/?q=artista%3ADale+Saunders">Dale Saunders</a>, <a href="/compilation/archivio/?q=artista%3ARoscoe+Umali">Roscoe Umali</a></span></span></div>
     <div class="traccia"><span class="n">2</span><span class="testo"><span class="tit">Toca Toca</span><span class="art"><a href="/compilation/archivio/?q=artista%3AFly+Project">Fly Project</a></span></span></div>
     <div class="traccia"><span class="n">3</span><span class="testo"><span class="tit">Boom Boom (Heartbeat)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ARay+Foxx">Ray Foxx</a>, <a href="/compilation/archivio/?q=artista%3ARachel+K+Collier">Rachel K Collier</a></span></span></div>
@@ -200,21 +209,22 @@ footer a:hover{color:var(--bianco)}
     <div class="traccia"><span class="n">13</span><span class="testo"><span class="tit">Animals</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMartin+Garrix">Martin Garrix</a></span></span></div>
     <div class="traccia"><span class="n">14</span><span class="testo"><span class="tit">Overtime</span><span class="art"><a href="/compilation/archivio/?q=artista%3ASystem+3">System 3</a></span></span></div>
     <div class="traccia"><span class="n">15</span><span class="testo"><span class="tit">Disco Beat (Bassline)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AGirasole">Girasole</a>, <a href="/compilation/archivio/?q=artista%3AAsco">Asco</a></span></span></div>
-    <div class="traccia"><span class="n">16</span><span class="testo"><span class="tit">Out Of Control</span><span class="art"><a href="/compilation/archivio/?q=artista%3AGet-Far">Get-Far</a></span></span></div>
-    <div class="traccia"><span class="n">17</span><span class="testo"><span class="tit">Ready For Love (Provenzano Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AClaudio+Caccini">Claudio Caccini</a>, <a href="/compilation/archivio/?q=artista%3ACarl+Fanini">Carl Fanini</a></span></span></div>
-    <div class="traccia"><span class="n">18</span><span class="testo"><span class="tit">Surrender</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADave+Doringo">Dave Doringo</a>, <a href="/compilation/archivio/?q=artista%3AJenson+David+Aubrey+Vaughan">Jenson David Aubrey Vaughan</a></span></span></div>
-    <div class="traccia"><span class="n">19</span><span class="testo"><span class="tit">Yee</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADeorro">Deorro</a></span></span></div>
-    <div class="traccia"><span class="n">20</span><span class="testo"><span class="tit">Something (Nocera &amp; Montorsi Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ASmoke+Bros">Smoke Bros</a></span></span></div>
-    <div class="traccia"><span class="n">21</span><span class="testo"><span class="tit">Noise</span><span class="art"><a href="/compilation/archivio/?q=artista%3APromise+Land">Promise Land</a>, <a href="/compilation/archivio/?q=artista%3AJunior+Black">Junior Black</a></span></span></div>
-    <div class="traccia"><span class="n">22</span><span class="testo"><span class="tit">Project T (Martin Garrix Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADimitri+Vegas+&amp;+Like+Mike">Dimitri Vegas &amp; Like Mike</a>, <a href="/compilation/archivio/?q=artista%3ASander+Van+Doorn">Sander Van Doorn</a></span></span></div>
-    <div class="traccia"><span class="n">23</span><span class="testo"><span class="tit">Fifteen (Hardwell Edit)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ABlasterjaxx">Blasterjaxx</a></span></span></div>
-    <div class="traccia"><span class="n">24</span><span class="testo"><span class="tit">Tsunami</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADVBBS">DVBBS</a>, <a href="/compilation/archivio/?q=artista%3ABorgeous">Borgeous</a></span></span></div>
-    <div class="traccia"><span class="n">25</span><span class="testo"><span class="tit">Drop Da Beat</span><span class="art"><a href="/compilation/archivio/?q=artista%3AProvenzano+DJ">Provenzano DJ</a></span></span></div>
-    <div class="traccia"><span class="n">26</span><span class="testo"><span class="tit">Countdown</span><span class="art"><a href="/compilation/archivio/?q=artista%3AHardwell">Hardwell</a>, <a href="/compilation/archivio/?q=artista%3AMAKJ">MAKJ</a></span></span></div>
-    <div class="traccia"><span class="n">27</span><span class="testo"><span class="tit">Sicko</span><span class="art"><a href="/compilation/archivio/?q=artista%3AGeorge+Acosta">George Acosta</a>, <a href="/compilation/archivio/?q=artista%3AHenry+John+Morgan">Henry John Morgan</a></span></span></div>
-    <div class="traccia"><span class="n">28</span><span class="testo"><span class="tit">Strength Of Dreams (Gianni Donzelli &amp; Gil Sanders Original Mix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AGianni+Donzelli">Gianni Donzelli</a>, <a href="/compilation/archivio/?q=artista%3AGil+Sanders">Gil Sanders</a>, <a href="/compilation/archivio/?q=artista%3AKim">Kim</a></span></span></div>
-    <div class="traccia"><span class="n">29</span><span class="testo"><span class="tit">What&#x27;s Your Name Girl? (The Only Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AJealous+Much?">Jealous Much?</a>, <a href="/compilation/archivio/?q=artista%3AThe+Airplane+Boys">The Airplane Boys</a></span></span></div>
-    <div class="traccia"><span class="n">30</span><span class="testo"><span class="tit">Tomorrow</span><span class="art"><a href="/compilation/archivio/?q=artista%3AShotbaxx">Shotbaxx</a></span></span></div>
+    <p class="disco-n">CD 2<span>15 tracce</span></p>
+    <div class="traccia"><span class="n">1</span><span class="testo"><span class="tit">Out Of Control</span><span class="art"><a href="/compilation/archivio/?q=artista%3AGet-Far">Get-Far</a></span></span></div>
+    <div class="traccia"><span class="n">2</span><span class="testo"><span class="tit">Ready For Love (Provenzano Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AClaudio+Caccini">Claudio Caccini</a>, <a href="/compilation/archivio/?q=artista%3ACarl+Fanini">Carl Fanini</a></span></span></div>
+    <div class="traccia"><span class="n">3</span><span class="testo"><span class="tit">Surrender</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADave+Doringo">Dave Doringo</a>, <a href="/compilation/archivio/?q=artista%3AJenson+David+Aubrey+Vaughan">Jenson David Aubrey Vaughan</a></span></span></div>
+    <div class="traccia"><span class="n">4</span><span class="testo"><span class="tit">Yee</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADeorro">Deorro</a></span></span></div>
+    <div class="traccia"><span class="n">5</span><span class="testo"><span class="tit">Something (Nocera &amp; Montorsi Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ASmoke+Bros">Smoke Bros</a></span></span></div>
+    <div class="traccia"><span class="n">6</span><span class="testo"><span class="tit">Noise</span><span class="art"><a href="/compilation/archivio/?q=artista%3APromise+Land">Promise Land</a>, <a href="/compilation/archivio/?q=artista%3AJunior+Black">Junior Black</a></span></span></div>
+    <div class="traccia"><span class="n">7</span><span class="testo"><span class="tit">Project T (Martin Garrix Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADimitri+Vegas+&amp;+Like+Mike">Dimitri Vegas &amp; Like Mike</a>, <a href="/compilation/archivio/?q=artista%3ASander+Van+Doorn">Sander Van Doorn</a></span></span></div>
+    <div class="traccia"><span class="n">8</span><span class="testo"><span class="tit">Fifteen (Hardwell Edit)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ABlasterjaxx">Blasterjaxx</a></span></span></div>
+    <div class="traccia"><span class="n">9</span><span class="testo"><span class="tit">Tsunami</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADVBBS">DVBBS</a>, <a href="/compilation/archivio/?q=artista%3ABorgeous">Borgeous</a></span></span></div>
+    <div class="traccia"><span class="n">10</span><span class="testo"><span class="tit">Drop Da Beat</span><span class="art"><a href="/compilation/archivio/?q=artista%3AProvenzano+DJ">Provenzano DJ</a></span></span></div>
+    <div class="traccia"><span class="n">11</span><span class="testo"><span class="tit">Countdown</span><span class="art"><a href="/compilation/archivio/?q=artista%3AHardwell">Hardwell</a>, <a href="/compilation/archivio/?q=artista%3AMAKJ">MAKJ</a></span></span></div>
+    <div class="traccia"><span class="n">12</span><span class="testo"><span class="tit">Sicko</span><span class="art"><a href="/compilation/archivio/?q=artista%3AGeorge+Acosta">George Acosta</a>, <a href="/compilation/archivio/?q=artista%3AHenry+John+Morgan">Henry John Morgan</a></span></span></div>
+    <div class="traccia"><span class="n">13</span><span class="testo"><span class="tit">Strength Of Dreams (Gianni Donzelli &amp; Gil Sanders Original Mix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AGianni+Donzelli">Gianni Donzelli</a>, <a href="/compilation/archivio/?q=artista%3AGil+Sanders">Gil Sanders</a>, <a href="/compilation/archivio/?q=artista%3AKim">Kim</a></span></span></div>
+    <div class="traccia"><span class="n">14</span><span class="testo"><span class="tit">What&#x27;s Your Name Girl? (The Only Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AJealous+Much?">Jealous Much?</a>, <a href="/compilation/archivio/?q=artista%3AThe+Airplane+Boys">The Airplane Boys</a></span></span></div>
+    <div class="traccia"><span class="n">15</span><span class="testo"><span class="tit">Tomorrow</span><span class="art"><a href="/compilation/archivio/?q=artista%3AShotbaxx">Shotbaxx</a></span></span></div>
       </section>
       <section class="minimix">
         <h2>Il minimix</h2>

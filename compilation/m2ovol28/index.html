@@ -54,6 +54,14 @@ header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;back
   border:1px solid var(--riga);object-fit:cover;display:block}
 .disco .foto{width:100%;border-radius:6px;border:1px solid var(--riga);display:block}
 /* Il minimix: 16:9 che si adatta alla colonna, come le copertine. */
+/* L'intestazione di un disco dentro un cofanetto: si vede che si ricomincia. */
+.disco-n{display:flex;align-items:baseline;gap:10px;margin:22px 0 8px;
+  padding-bottom:6px;border-bottom:1px solid var(--riga);
+  font-family:'Anton',Arial,sans-serif;font-weight:400;font-size:13px;
+  letter-spacing:.16em;text-transform:uppercase}
+.disco-n:first-child{margin-top:0}
+.disco-n span{font-family:inherit;font-size:11px;letter-spacing:.08em;
+  color:var(--debole);text-transform:none}
 .minimix{margin-top:30px}
 .minimix h2{font-family:'Anton',Arial,sans-serif;font-weight:400;font-size:15px;
   letter-spacing:.14em;text-transform:uppercase;color:var(--grigio);margin-bottom:12px}
@@ -184,6 +192,7 @@ footer a:hover{color:var(--bianco)}
 
       <section class="tracce">
         <h2>La tracklist</h2>
+    <p class="disco-n">CD 1<span>15 tracce</span></p>
     <div class="traccia"><span class="n">1</span><span class="testo"><span class="tit">Bring Us All Together (Intro)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ALizzy+B">Lizzy B</a>, <a href="/compilation/archivio/?q=artista%3ADavide+Borri">Davide Borri</a></span></span></div>
     <div class="traccia"><span class="n">2</span><span class="testo"><span class="tit">Jump</span><span class="art"><a href="/compilation/archivio/?q=artista%3ACube+Guys">Cube Guys</a>, <a href="/compilation/archivio/?q=artista%3ALuciana+Caporaso">Luciana Caporaso</a></span></span></div>
     <div class="traccia"><span class="n">3</span><span class="testo"><span class="tit">Taxi</span><span class="art"><a href="/compilation/archivio/?q=artista%3AFelipe+C">Felipe C</a></span></span></div>
@@ -199,21 +208,22 @@ footer a:hover{color:var(--bianco)}
     <div class="traccia"><span class="n">13</span><span class="testo"><span class="tit">Cobra (Official Energy Anthem 2012)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AHardwell">Hardwell</a></span></span></div>
     <div class="traccia"><span class="n">14</span><span class="testo"><span class="tit">Drink To Get Drunk</span><span class="art"><a href="/compilation/archivio/?q=artista%3ASander+Van+Doorn">Sander Van Doorn</a></span></span></div>
     <div class="traccia"><span class="n">15</span><span class="testo"><span class="tit">Come Into This Side</span><span class="art"><a href="/compilation/archivio/?q=artista%3APhunkerz">Phunkerz</a></span></span></div>
-    <div class="traccia"><span class="n">16</span><span class="testo"><span class="tit">Strump!</span><span class="art"><a href="/compilation/archivio/?q=artista%3AFederico+Scavo">Federico Scavo</a>, <a href="/compilation/archivio/?q=artista%3AAndrea+Guzzoletti">Andrea Guzzoletti</a></span></span></div>
-    <div class="traccia"><span class="n">17</span><span class="testo"><span class="tit">Big In Japan</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMartin+Solveig">Martin Solveig</a>, <a href="/compilation/archivio/?q=artista%3ADragonette">Dragonette</a>, <a href="/compilation/archivio/?q=artista%3AIdoling!!!">Idoling!!!</a></span></span></div>
-    <div class="traccia"><span class="n">18</span><span class="testo"><span class="tit">This Is How To Feels</span><span class="art"><a href="/compilation/archivio/?q=artista%3AGet-Far">Get-Far</a>, <a href="/compilation/archivio/?q=artista%3AJill+Jones">Jill Jones</a></span></span></div>
-    <div class="traccia"><span class="n">19</span><span class="testo"><span class="tit">I Wonder</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADAB+&amp;+Sissa">DAB &amp; Sissa</a></span></span></div>
-    <div class="traccia"><span class="n">20</span><span class="testo"><span class="tit">Blessed</span><span class="art"><a href="/compilation/archivio/?q=artista%3ATom+Hangs">Tom Hangs</a>, <a href="/compilation/archivio/?q=artista%3AShermanology">Shermanology</a></span></span></div>
-    <div class="traccia"><span class="n">21</span><span class="testo"><span class="tit">Again And Again</span><span class="art"><a href="/compilation/archivio/?q=artista%3ABasto!">Basto!</a></span></span></div>
-    <div class="traccia"><span class="n">22</span><span class="testo"><span class="tit">I Like It (Provenzano DJ Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ALuca+Ruco">Luca Ruco</a></span></span></div>
-    <div class="traccia"><span class="n">23</span><span class="testo"><span class="tit">Superstar</span><span class="art"><a href="/compilation/archivio/?q=artista%3ALuca+Martinelli">Luca Martinelli</a>, <a href="/compilation/archivio/?q=artista%3ATerry+Jee">Terry Jee</a></span></span></div>
-    <div class="traccia"><span class="n">24</span><span class="testo"><span class="tit">Celebration</span><span class="art"><a href="/compilation/archivio/?q=artista%3AGuy&#x27;Do">Guy&#x27;Do</a>, <a href="/compilation/archivio/?q=artista%3ADJ+Rebel">DJ Rebel</a>, <a href="/compilation/archivio/?q=artista%3AM.O.">M.O.</a></span></span></div>
-    <div class="traccia"><span class="n">25</span><span class="testo"><span class="tit">One More Time</span><span class="art"><a href="/compilation/archivio/?q=artista%3ABodybangers">Bodybangers</a>, <a href="/compilation/archivio/?q=artista%3ACarlprit">Carlprit</a>, <a href="/compilation/archivio/?q=artista%3ALinda+Teodosiu">Linda Teodosiu</a></span></span></div>
-    <div class="traccia"><span class="n">26</span><span class="testo"><span class="tit">Never Be Lonely</span><span class="art"><a href="/compilation/archivio/?q=artista%3APromise+Land">Promise Land</a>, <a href="/compilation/archivio/?q=artista%3ASandy+B">Sandy B</a></span></span></div>
-    <div class="traccia"><span class="n">27</span><span class="testo"><span class="tit">Blood Pressure</span><span class="art"><a href="/compilation/archivio/?q=artista%3AGio+Di+Leva">Gio Di Leva</a></span></span></div>
-    <div class="traccia"><span class="n">28</span><span class="testo"><span class="tit">Tung!</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADeniz+Koyu">Deniz Koyu</a></span></span></div>
-    <div class="traccia"><span class="n">29</span><span class="testo"><span class="tit">Slash</span><span class="art"><a href="/compilation/archivio/?q=artista%3ANari+&amp;+Milani">Nari &amp; Milani</a>, <a href="/compilation/archivio/?q=artista%3AMaurizio+Gubellini">Maurizio Gubellini</a></span></span></div>
-    <div class="traccia"><span class="n">30</span><span class="testo"><span class="tit">Get Out (Pizza Brothers Club Mix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AKristina+Casolani">Kristina Casolani</a>, <a href="/compilation/archivio/?q=artista%3APizza+Brothers">Pizza Brothers</a></span></span></div>
+    <p class="disco-n">CD 2<span>15 tracce</span></p>
+    <div class="traccia"><span class="n">1</span><span class="testo"><span class="tit">Strump!</span><span class="art"><a href="/compilation/archivio/?q=artista%3AFederico+Scavo">Federico Scavo</a>, <a href="/compilation/archivio/?q=artista%3AAndrea+Guzzoletti">Andrea Guzzoletti</a></span></span></div>
+    <div class="traccia"><span class="n">2</span><span class="testo"><span class="tit">Big In Japan</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMartin+Solveig">Martin Solveig</a>, <a href="/compilation/archivio/?q=artista%3ADragonette">Dragonette</a>, <a href="/compilation/archivio/?q=artista%3AIdoling!!!">Idoling!!!</a></span></span></div>
+    <div class="traccia"><span class="n">3</span><span class="testo"><span class="tit">This Is How To Feels</span><span class="art"><a href="/compilation/archivio/?q=artista%3AGet-Far">Get-Far</a>, <a href="/compilation/archivio/?q=artista%3AJill+Jones">Jill Jones</a></span></span></div>
+    <div class="traccia"><span class="n">4</span><span class="testo"><span class="tit">I Wonder</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADAB+&amp;+Sissa">DAB &amp; Sissa</a></span></span></div>
+    <div class="traccia"><span class="n">5</span><span class="testo"><span class="tit">Blessed</span><span class="art"><a href="/compilation/archivio/?q=artista%3ATom+Hangs">Tom Hangs</a>, <a href="/compilation/archivio/?q=artista%3AShermanology">Shermanology</a></span></span></div>
+    <div class="traccia"><span class="n">6</span><span class="testo"><span class="tit">Again And Again</span><span class="art"><a href="/compilation/archivio/?q=artista%3ABasto!">Basto!</a></span></span></div>
+    <div class="traccia"><span class="n">7</span><span class="testo"><span class="tit">I Like It (Provenzano DJ Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ALuca+Ruco">Luca Ruco</a></span></span></div>
+    <div class="traccia"><span class="n">8</span><span class="testo"><span class="tit">Superstar</span><span class="art"><a href="/compilation/archivio/?q=artista%3ALuca+Martinelli">Luca Martinelli</a>, <a href="/compilation/archivio/?q=artista%3ATerry+Jee">Terry Jee</a></span></span></div>
+    <div class="traccia"><span class="n">9</span><span class="testo"><span class="tit">Celebration</span><span class="art"><a href="/compilation/archivio/?q=artista%3AGuy&#x27;Do">Guy&#x27;Do</a>, <a href="/compilation/archivio/?q=artista%3ADJ+Rebel">DJ Rebel</a>, <a href="/compilation/archivio/?q=artista%3AM.O.">M.O.</a></span></span></div>
+    <div class="traccia"><span class="n">10</span><span class="testo"><span class="tit">One More Time</span><span class="art"><a href="/compilation/archivio/?q=artista%3ABodybangers">Bodybangers</a>, <a href="/compilation/archivio/?q=artista%3ACarlprit">Carlprit</a>, <a href="/compilation/archivio/?q=artista%3ALinda+Teodosiu">Linda Teodosiu</a></span></span></div>
+    <div class="traccia"><span class="n">11</span><span class="testo"><span class="tit">Never Be Lonely</span><span class="art"><a href="/compilation/archivio/?q=artista%3APromise+Land">Promise Land</a>, <a href="/compilation/archivio/?q=artista%3ASandy+B">Sandy B</a></span></span></div>
+    <div class="traccia"><span class="n">12</span><span class="testo"><span class="tit">Blood Pressure</span><span class="art"><a href="/compilation/archivio/?q=artista%3AGio+Di+Leva">Gio Di Leva</a></span></span></div>
+    <div class="traccia"><span class="n">13</span><span class="testo"><span class="tit">Tung!</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADeniz+Koyu">Deniz Koyu</a></span></span></div>
+    <div class="traccia"><span class="n">14</span><span class="testo"><span class="tit">Slash</span><span class="art"><a href="/compilation/archivio/?q=artista%3ANari+&amp;+Milani">Nari &amp; Milani</a>, <a href="/compilation/archivio/?q=artista%3AMaurizio+Gubellini">Maurizio Gubellini</a></span></span></div>
+    <div class="traccia"><span class="n">15</span><span class="testo"><span class="tit">Get Out (Pizza Brothers Club Mix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AKristina+Casolani">Kristina Casolani</a>, <a href="/compilation/archivio/?q=artista%3APizza+Brothers">Pizza Brothers</a></span></span></div>
       </section>
       <section class="minimix">
         <h2>Il minimix</h2>

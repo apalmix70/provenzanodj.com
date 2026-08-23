@@ -54,6 +54,14 @@ header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;back
   border:1px solid var(--riga);object-fit:cover;display:block}
 .disco .foto{width:100%;border-radius:6px;border:1px solid var(--riga);display:block}
 /* Il minimix: 16:9 che si adatta alla colonna, come le copertine. */
+/* L'intestazione di un disco dentro un cofanetto: si vede che si ricomincia. */
+.disco-n{display:flex;align-items:baseline;gap:10px;margin:22px 0 8px;
+  padding-bottom:6px;border-bottom:1px solid var(--riga);
+  font-family:'Anton',Arial,sans-serif;font-weight:400;font-size:13px;
+  letter-spacing:.16em;text-transform:uppercase}
+.disco-n:first-child{margin-top:0}
+.disco-n span{font-family:inherit;font-size:11px;letter-spacing:.08em;
+  color:var(--debole);text-transform:none}
 .minimix{margin-top:30px}
 .minimix h2{font-family:'Anton',Arial,sans-serif;font-weight:400;font-size:15px;
   letter-spacing:.14em;text-transform:uppercase;color:var(--grigio);margin-bottom:12px}
@@ -182,6 +190,7 @@ footer a:hover{color:var(--bianco)}
 
       <section class="tracce">
         <h2>La tracklist</h2>
+    <p class="disco-n">CD 1<span>19 tracce</span></p>
     <div class="traccia"><span class="n">1</span><span class="testo"><span class="tit">Intro</span><span class="art"><span class="muto">sigla</span></span></span><span class="dur">0:27</span></div>
     <div class="traccia"><span class="n">2</span><span class="testo"><span class="tit">Round &amp; Around</span><span class="art"><a href="/compilation/archivio/?q=artista%3ATi.Pi.Cal.">Ti.Pi.Cal.</a></span></span><span class="dur">3:18</span></div>
     <div class="traccia"><span class="n">3</span><span class="testo"><span class="tit">Another Day</span><span class="art"><a href="/compilation/archivio/?q=artista%3AWhigfield">Whigfield</a></span></span><span class="dur">3:08</span></div>
@@ -201,24 +210,25 @@ footer a:hover{color:var(--bianco)}
     <div class="traccia"><span class="n">17</span><span class="testo"><span class="tit">Anybody, Anyway</span><span class="art"><a href="/compilation/archivio/?q=artista%3APrezioso">Prezioso</a>, <a href="/compilation/archivio/?q=artista%3ADaphnes">Daphnes</a></span></span><span class="dur">2:27</span></div>
     <div class="traccia"><span class="n">18</span><span class="testo"><span class="tit">You Make Me Cry</span><span class="art"><a href="/compilation/archivio/?q=artista%3ABliss+Team">Bliss Team</a></span></span><span class="dur">2:33</span></div>
     <div class="traccia"><span class="n">19</span><span class="testo"><span class="tit">Fluxland E.P. (Rmx)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AFluxland">Fluxland</a></span></span><span class="dur">3:09</span></div>
-    <div class="traccia"><span class="n">20</span><span class="testo"><span class="tit">Upside Down</span><span class="art"><a href="/compilation/archivio/?q=artista%3AChambre">Chambre</a></span></span><span class="dur">2:50</span></div>
-    <div class="traccia"><span class="n">21</span><span class="testo"><span class="tit">The Sun And The Moon</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMarvellous+Melodicos">Marvellous Melodicos</a></span></span><span class="dur">2:48</span></div>
-    <div class="traccia"><span class="n">22</span><span class="testo"><span class="tit">Pyramid</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMato+Grosso">Mato Grosso</a></span></span><span class="dur">3:14</span></div>
-    <div class="traccia"><span class="n">23</span><span class="testo"><span class="tit">Flying High</span><span class="art"><a href="/compilation/archivio/?q=artista%3ACaptain+Hollywood+Project">Captain Hollywood Project</a></span></span><span class="dur">2:50</span></div>
-    <div class="traccia"><span class="n">24</span><span class="testo"><span class="tit">La Bruja</span><span class="art"><a href="/compilation/archivio/?q=artista%3ANikita">Nikita</a></span></span><span class="dur">3:38</span></div>
-    <div class="traccia"><span class="n">25</span><span class="testo"><span class="tit">All I Need Is Love</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADiana&#x27;s">Diana&#x27;s</a></span></span><span class="dur">3:34</span></div>
-    <div class="traccia"><span class="n">26</span><span class="testo"><span class="tit">When I Fall In Love</span><span class="art"><a href="/compilation/archivio/?q=artista%3AGiorgio+Paganini">Giorgio Paganini</a></span></span><span class="dur">2:53</span></div>
-    <div class="traccia"><span class="n">27</span><span class="testo"><span class="tit">O-Le-Le</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMasoko+Solo">Masoko Solo</a></span></span><span class="dur">3:15</span></div>
-    <div class="traccia"><span class="n">28</span><span class="testo"><span class="tit">Warriors</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMoratto">Moratto</a></span></span><span class="dur">2:44</span></div>
-    <div class="traccia"><span class="n">29</span><span class="testo"><span class="tit">Dancing With Tears In My Eyes</span><span class="art"><a href="/compilation/archivio/?q=artista%3ACabballero">Cabballero</a></span></span><span class="dur">2:43</span></div>
-    <div class="traccia"><span class="n">30</span><span class="testo"><span class="tit">Wonder</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADJ+Cerla">DJ Cerla</a>, <a href="/compilation/archivio/?q=artista%3AMoratto">Moratto</a></span></span><span class="dur">3:25</span></div>
-    <div class="traccia"><span class="n">31</span><span class="testo"><span class="tit">Strange Love</span><span class="art"><a href="/compilation/archivio/?q=artista%3AKina">Kina</a></span></span><span class="dur">3:09</span></div>
-    <div class="traccia"><span class="n">32</span><span class="testo"><span class="tit">Take Away The Colour (&#x27;95 Reconstruction)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AIce+MC">Ice MC</a></span></span><span class="dur">3:19</span></div>
-    <div class="traccia"><span class="n">33</span><span class="testo"><span class="tit">Welcome To The Future</span><span class="art"><a href="/compilation/archivio/?q=artista%3AExit+Way">Exit Way</a></span></span><span class="dur">3:04</span></div>
-    <div class="traccia"><span class="n">34</span><span class="testo"><span class="tit">Only Pip</span><span class="art"><a href="/compilation/archivio/?q=artista%3APacific+People">Pacific People</a></span></span><span class="dur">3:09</span></div>
-    <div class="traccia"><span class="n">35</span><span class="testo"><span class="tit">Passion (Rmx)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ANetzwerk">Netzwerk</a></span></span><span class="dur">3:03</span></div>
-    <div class="traccia"><span class="n">36</span><span class="testo"><span class="tit">Originale Radicale Musicale</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMolella">Molella</a></span></span><span class="dur">3:20</span></div>
-    <div class="traccia"><span class="n">37</span><span class="testo"><span class="tit">Move Your Ass</span><span class="art"><a href="/compilation/archivio/?q=artista%3AScooter">Scooter</a></span></span><span class="dur">1:57</span></div>
+    <p class="disco-n">CD 2<span>18 tracce</span></p>
+    <div class="traccia"><span class="n">1</span><span class="testo"><span class="tit">Upside Down</span><span class="art"><a href="/compilation/archivio/?q=artista%3AChambre">Chambre</a></span></span><span class="dur">2:50</span></div>
+    <div class="traccia"><span class="n">2</span><span class="testo"><span class="tit">The Sun And The Moon</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMarvellous+Melodicos">Marvellous Melodicos</a></span></span><span class="dur">2:48</span></div>
+    <div class="traccia"><span class="n">3</span><span class="testo"><span class="tit">Pyramid</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMato+Grosso">Mato Grosso</a></span></span><span class="dur">3:14</span></div>
+    <div class="traccia"><span class="n">4</span><span class="testo"><span class="tit">Flying High</span><span class="art"><a href="/compilation/archivio/?q=artista%3ACaptain+Hollywood+Project">Captain Hollywood Project</a></span></span><span class="dur">2:50</span></div>
+    <div class="traccia"><span class="n">5</span><span class="testo"><span class="tit">La Bruja</span><span class="art"><a href="/compilation/archivio/?q=artista%3ANikita">Nikita</a></span></span><span class="dur">3:38</span></div>
+    <div class="traccia"><span class="n">6</span><span class="testo"><span class="tit">All I Need Is Love</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADiana&#x27;s">Diana&#x27;s</a></span></span><span class="dur">3:34</span></div>
+    <div class="traccia"><span class="n">7</span><span class="testo"><span class="tit">When I Fall In Love</span><span class="art"><a href="/compilation/archivio/?q=artista%3AGiorgio+Paganini">Giorgio Paganini</a></span></span><span class="dur">2:53</span></div>
+    <div class="traccia"><span class="n">8</span><span class="testo"><span class="tit">O-Le-Le</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMasoko+Solo">Masoko Solo</a></span></span><span class="dur">3:15</span></div>
+    <div class="traccia"><span class="n">9</span><span class="testo"><span class="tit">Warriors</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMoratto">Moratto</a></span></span><span class="dur">2:44</span></div>
+    <div class="traccia"><span class="n">10</span><span class="testo"><span class="tit">Dancing With Tears In My Eyes</span><span class="art"><a href="/compilation/archivio/?q=artista%3ACabballero">Cabballero</a></span></span><span class="dur">2:43</span></div>
+    <div class="traccia"><span class="n">11</span><span class="testo"><span class="tit">Wonder</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADJ+Cerla">DJ Cerla</a>, <a href="/compilation/archivio/?q=artista%3AMoratto">Moratto</a></span></span><span class="dur">3:25</span></div>
+    <div class="traccia"><span class="n">12</span><span class="testo"><span class="tit">Strange Love</span><span class="art"><a href="/compilation/archivio/?q=artista%3AKina">Kina</a></span></span><span class="dur">3:09</span></div>
+    <div class="traccia"><span class="n">13</span><span class="testo"><span class="tit">Take Away The Colour (&#x27;95 Reconstruction)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AIce+MC">Ice MC</a></span></span><span class="dur">3:19</span></div>
+    <div class="traccia"><span class="n">14</span><span class="testo"><span class="tit">Welcome To The Future</span><span class="art"><a href="/compilation/archivio/?q=artista%3AExit+Way">Exit Way</a></span></span><span class="dur">3:04</span></div>
+    <div class="traccia"><span class="n">15</span><span class="testo"><span class="tit">Only Pip</span><span class="art"><a href="/compilation/archivio/?q=artista%3APacific+People">Pacific People</a></span></span><span class="dur">3:09</span></div>
+    <div class="traccia"><span class="n">16</span><span class="testo"><span class="tit">Passion (Rmx)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ANetzwerk">Netzwerk</a></span></span><span class="dur">3:03</span></div>
+    <div class="traccia"><span class="n">17</span><span class="testo"><span class="tit">Originale Radicale Musicale</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMolella">Molella</a></span></span><span class="dur">3:20</span></div>
+    <div class="traccia"><span class="n">18</span><span class="testo"><span class="tit">Move Your Ass</span><span class="art"><a href="/compilation/archivio/?q=artista%3AScooter">Scooter</a></span></span><span class="dur">1:57</span></div>
       </section>
     </div>
 

@@ -54,6 +54,14 @@ header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;back
   border:1px solid var(--riga);object-fit:cover;display:block}
 .disco .foto{width:100%;border-radius:6px;border:1px solid var(--riga);display:block}
 /* Il minimix: 16:9 che si adatta alla colonna, come le copertine. */
+/* L'intestazione di un disco dentro un cofanetto: si vede che si ricomincia. */
+.disco-n{display:flex;align-items:baseline;gap:10px;margin:22px 0 8px;
+  padding-bottom:6px;border-bottom:1px solid var(--riga);
+  font-family:'Anton',Arial,sans-serif;font-weight:400;font-size:13px;
+  letter-spacing:.16em;text-transform:uppercase}
+.disco-n:first-child{margin-top:0}
+.disco-n span{font-family:inherit;font-size:11px;letter-spacing:.08em;
+  color:var(--debole);text-transform:none}
 .minimix{margin-top:30px}
 .minimix h2{font-family:'Anton',Arial,sans-serif;font-weight:400;font-size:15px;
   letter-spacing:.14em;text-transform:uppercase;color:var(--grigio);margin-bottom:12px}
@@ -185,6 +193,7 @@ footer a:hover{color:var(--bianco)}
 
       <section class="tracce">
         <h2>La tracklist</h2>
+    <p class="disco-n">CD 1<span>28 tracce</span></p>
     <div class="traccia"><span class="n">1</span><span class="testo"><span class="tit">Jubel</span><span class="art"><a href="/compilation/archivio/?q=artista%3AKlingande">Klingande</a></span></span></div>
     <div class="traccia"><span class="n">2</span><span class="testo"><span class="tit">Rich &amp; Young</span><span class="art"><a href="/compilation/archivio/?q=artista%3AOla">Ola</a></span></span></div>
     <div class="traccia"><span class="n">3</span><span class="testo"><span class="tit">Radio Stereo (Extended Club Mix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADuck+Sauce">Duck Sauce</a></span></span></div>
@@ -200,34 +209,35 @@ footer a:hover{color:var(--bianco)}
     <div class="traccia"><span class="n">13</span><span class="testo"><span class="tit">Emilia</span><span class="art"><a href="/compilation/archivio/?q=artista%3AAlex+Nocera">Alex Nocera</a>, <a href="/compilation/archivio/?q=artista%3AAndrea+Montorsi">Andrea Montorsi</a></span></span></div>
     <div class="traccia"><span class="n">14</span><span class="testo"><span class="tit">Let It Spin</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMastro+J">Mastro J</a>, <a href="/compilation/archivio/?q=artista%3ADa+Brozz">Da Brozz</a></span></span></div>
     <div class="traccia"><span class="n">15</span><span class="testo"><span class="tit">Maori</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADavide+Meli">Davide Meli</a></span></span></div>
-    <div class="traccia"><span class="n">16</span><span class="testo"><span class="tit">La Verité</span><span class="art"><a href="/compilation/archivio/?q=artista%3ACube+Guys">Cube Guys</a></span></span></div>
-    <div class="traccia"><span class="n">17</span><span class="testo"><span class="tit">House Party</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADJ+Antoine+vs.+Mad+Mark">DJ Antoine vs. Mad Mark</a>, <a href="/compilation/archivio/?q=artista%3AB-Case">B-Case</a>, <a href="/compilation/archivio/?q=artista%3AU-Jean">U-Jean</a></span></span></div>
-    <div class="traccia"><span class="n">18</span><span class="testo"><span class="tit">No Limit</span><span class="art"><a href="/compilation/archivio/?q=artista%3ABodybangers">Bodybangers</a>, <a href="/compilation/archivio/?q=artista%3AVictoria+Kern">Victoria Kern</a>, <a href="/compilation/archivio/?q=artista%3AGodfrey+Egbon">Godfrey Egbon</a></span></span></div>
-    <div class="traccia"><span class="n">19</span><span class="testo"><span class="tit">Rockstar</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADino+Brown">Dino Brown</a>, <a href="/compilation/archivio/?q=artista%3AKenny+Ray">Kenny Ray</a></span></span></div>
-    <div class="traccia"><span class="n">20</span><span class="testo"><span class="tit">You &amp; Me</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADavid+Jones">David Jones</a>, <a href="/compilation/archivio/?q=artista%3ARon+Carroll">Ron Carroll</a></span></span></div>
-    <div class="traccia"><span class="n">21</span><span class="testo"><span class="tit">Lights Go Out (Frankie &amp; Nocera Mix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AI-Fan">I-Fan</a>, <a href="/compilation/archivio/?q=artista%3ASteve+Edwards">Steve Edwards</a></span></span></div>
-    <div class="traccia"><span class="n">22</span><span class="testo"><span class="tit">Fade To Love</span><span class="art"><a href="/compilation/archivio/?q=artista%3APolina">Polina</a></span></span></div>
-    <div class="traccia"><span class="n">23</span><span class="testo"><span class="tit">Don&#x27;t Need To Run</span><span class="art"><a href="/compilation/archivio/?q=artista%3APaolo+Aliberti">Paolo Aliberti</a>, <a href="/compilation/archivio/?q=artista%3ASagi+Rei">Sagi Rei</a></span></span></div>
-    <div class="traccia"><span class="n">24</span><span class="testo"><span class="tit">Howl At The Moon</span><span class="art"><a href="/compilation/archivio/?q=artista%3AStadiumx">Stadiumx</a>, <a href="/compilation/archivio/?q=artista%3ATaylr+Renee">Taylr Renee</a></span></span></div>
-    <div class="traccia"><span class="n">25</span><span class="testo"><span class="tit">Sun Shine Down (Laidback Luke Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3APromise+Land">Promise Land</a>, <a href="/compilation/archivio/?q=artista%3AAlicia+Madison">Alicia Madison</a></span></span></div>
-    <div class="traccia"><span class="n">26</span><span class="testo"><span class="tit">Give (Promise Land Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMalea+McGuinness">Malea McGuinness</a></span></span></div>
-    <div class="traccia"><span class="n">27</span><span class="testo"><span class="tit">Wizard</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMartin+Garrix">Martin Garrix</a>, <a href="/compilation/archivio/?q=artista%3AJay+Hardway">Jay Hardway</a></span></span></div>
-    <div class="traccia"><span class="n">28</span><span class="testo"><span class="tit">Flute (Danny Howard Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ANew+World+Sound">New World Sound</a>, <a href="/compilation/archivio/?q=artista%3AThomas+Newson">Thomas Newson</a></span></span></div>
-    <div class="traccia"><span class="n">29</span><span class="testo"><span class="tit">Black Pearl (He&#x27;s A Pirate)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADJ+Rebel">DJ Rebel</a>, <a href="/compilation/archivio/?q=artista%3ASidney+Housen">Sidney Housen</a></span></span></div>
-    <div class="traccia"><span class="n">30</span><span class="testo"><span class="tit">Brooklyn</span><span class="art"><a href="/compilation/archivio/?q=artista%3AHadu">Hadu</a></span></span></div>
-    <div class="traccia"><span class="n">31</span><span class="testo"><span class="vd">dati</span><span class="tit">Covers + Posters</span><span class="art"></span></span></div>
-    <div class="traccia"><span class="n">32</span><span class="testo"><span class="vd">video</span><span class="tit">AqHappy</span><span class="art"></span></span></div>
-    <div class="traccia"><span class="n">33</span><span class="testo"><span class="vd">video</span><span class="tit">AQPP</span><span class="art"></span></span></div>
-    <div class="traccia"><span class="n">34</span><span class="testo"><span class="vd">video</span><span class="tit">MarioAndTheCity</span><span class="art"></span></span></div>
-    <div class="traccia"><span class="n">35</span><span class="testo"><span class="vd">video</span><span class="tit">BoulevardRobiony</span><span class="art"></span></span></div>
-    <div class="traccia"><span class="n">36</span><span class="testo"><span class="vd">video</span><span class="tit">TheBomb</span><span class="art"></span></span></div>
-    <div class="traccia"><span class="n">37</span><span class="testo"><span class="vd">video</span><span class="tit">Mollybox</span><span class="art"></span></span></div>
-    <div class="traccia"><span class="n">38</span><span class="testo"><span class="vd">video</span><span class="tit">Prezioso</span><span class="art"></span></span></div>
-    <div class="traccia"><span class="n">39</span><span class="testo"><span class="vd">video</span><span class="tit">Provenzano</span><span class="art"></span></span></div>
-    <div class="traccia"><span class="n">40</span><span class="testo"><span class="vd">video</span><span class="tit">Dualcore</span><span class="art"></span></span></div>
-    <div class="traccia"><span class="n">41</span><span class="testo"><span class="vd">video</span><span class="tit">Lafinedelmondo</span><span class="art"></span></span></div>
-    <div class="traccia"><span class="n">42</span><span class="testo"><span class="vd">video</span><span class="tit">m2oparty</span><span class="art"></span></span></div>
-    <div class="traccia"><span class="n">43</span><span class="testo"><span class="vd">video</span><span class="tit">CNN Da Strada</span><span class="art"></span></span></div>
+    <div class="traccia"><span class="n">16</span><span class="testo"><span class="vd">dati</span><span class="tit">Covers + Posters</span><span class="art"></span></span></div>
+    <div class="traccia"><span class="n">17</span><span class="testo"><span class="vd">video</span><span class="tit">AqHappy</span><span class="art"></span></span></div>
+    <div class="traccia"><span class="n">18</span><span class="testo"><span class="vd">video</span><span class="tit">AQPP</span><span class="art"></span></span></div>
+    <div class="traccia"><span class="n">19</span><span class="testo"><span class="vd">video</span><span class="tit">MarioAndTheCity</span><span class="art"></span></span></div>
+    <div class="traccia"><span class="n">20</span><span class="testo"><span class="vd">video</span><span class="tit">BoulevardRobiony</span><span class="art"></span></span></div>
+    <div class="traccia"><span class="n">21</span><span class="testo"><span class="vd">video</span><span class="tit">TheBomb</span><span class="art"></span></span></div>
+    <div class="traccia"><span class="n">22</span><span class="testo"><span class="vd">video</span><span class="tit">Mollybox</span><span class="art"></span></span></div>
+    <div class="traccia"><span class="n">23</span><span class="testo"><span class="vd">video</span><span class="tit">Prezioso</span><span class="art"></span></span></div>
+    <div class="traccia"><span class="n">24</span><span class="testo"><span class="vd">video</span><span class="tit">Provenzano</span><span class="art"></span></span></div>
+    <div class="traccia"><span class="n">25</span><span class="testo"><span class="vd">video</span><span class="tit">Dualcore</span><span class="art"></span></span></div>
+    <div class="traccia"><span class="n">26</span><span class="testo"><span class="vd">video</span><span class="tit">Lafinedelmondo</span><span class="art"></span></span></div>
+    <div class="traccia"><span class="n">27</span><span class="testo"><span class="vd">video</span><span class="tit">m2oparty</span><span class="art"></span></span></div>
+    <div class="traccia"><span class="n">28</span><span class="testo"><span class="vd">video</span><span class="tit">CNN Da Strada</span><span class="art"></span></span></div>
+    <p class="disco-n">CD 2<span>15 tracce</span></p>
+    <div class="traccia"><span class="n">1</span><span class="testo"><span class="tit">La Verité</span><span class="art"><a href="/compilation/archivio/?q=artista%3ACube+Guys">Cube Guys</a></span></span></div>
+    <div class="traccia"><span class="n">2</span><span class="testo"><span class="tit">House Party</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADJ+Antoine+vs.+Mad+Mark">DJ Antoine vs. Mad Mark</a>, <a href="/compilation/archivio/?q=artista%3AB-Case">B-Case</a>, <a href="/compilation/archivio/?q=artista%3AU-Jean">U-Jean</a></span></span></div>
+    <div class="traccia"><span class="n">3</span><span class="testo"><span class="tit">No Limit</span><span class="art"><a href="/compilation/archivio/?q=artista%3ABodybangers">Bodybangers</a>, <a href="/compilation/archivio/?q=artista%3AVictoria+Kern">Victoria Kern</a>, <a href="/compilation/archivio/?q=artista%3AGodfrey+Egbon">Godfrey Egbon</a></span></span></div>
+    <div class="traccia"><span class="n">4</span><span class="testo"><span class="tit">Rockstar</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADino+Brown">Dino Brown</a>, <a href="/compilation/archivio/?q=artista%3AKenny+Ray">Kenny Ray</a></span></span></div>
+    <div class="traccia"><span class="n">5</span><span class="testo"><span class="tit">You &amp; Me</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADavid+Jones">David Jones</a>, <a href="/compilation/archivio/?q=artista%3ARon+Carroll">Ron Carroll</a></span></span></div>
+    <div class="traccia"><span class="n">6</span><span class="testo"><span class="tit">Lights Go Out (Frankie &amp; Nocera Mix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AI-Fan">I-Fan</a>, <a href="/compilation/archivio/?q=artista%3ASteve+Edwards">Steve Edwards</a></span></span></div>
+    <div class="traccia"><span class="n">7</span><span class="testo"><span class="tit">Fade To Love</span><span class="art"><a href="/compilation/archivio/?q=artista%3APolina">Polina</a></span></span></div>
+    <div class="traccia"><span class="n">8</span><span class="testo"><span class="tit">Don&#x27;t Need To Run</span><span class="art"><a href="/compilation/archivio/?q=artista%3APaolo+Aliberti">Paolo Aliberti</a>, <a href="/compilation/archivio/?q=artista%3ASagi+Rei">Sagi Rei</a></span></span></div>
+    <div class="traccia"><span class="n">9</span><span class="testo"><span class="tit">Howl At The Moon</span><span class="art"><a href="/compilation/archivio/?q=artista%3AStadiumx">Stadiumx</a>, <a href="/compilation/archivio/?q=artista%3ATaylr+Renee">Taylr Renee</a></span></span></div>
+    <div class="traccia"><span class="n">10</span><span class="testo"><span class="tit">Sun Shine Down (Laidback Luke Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3APromise+Land">Promise Land</a>, <a href="/compilation/archivio/?q=artista%3AAlicia+Madison">Alicia Madison</a></span></span></div>
+    <div class="traccia"><span class="n">11</span><span class="testo"><span class="tit">Give (Promise Land Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMalea+McGuinness">Malea McGuinness</a></span></span></div>
+    <div class="traccia"><span class="n">12</span><span class="testo"><span class="tit">Wizard</span><span class="art"><a href="/compilation/archivio/?q=artista%3AMartin+Garrix">Martin Garrix</a>, <a href="/compilation/archivio/?q=artista%3AJay+Hardway">Jay Hardway</a></span></span></div>
+    <div class="traccia"><span class="n">13</span><span class="testo"><span class="tit">Flute (Danny Howard Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ANew+World+Sound">New World Sound</a>, <a href="/compilation/archivio/?q=artista%3AThomas+Newson">Thomas Newson</a></span></span></div>
+    <div class="traccia"><span class="n">14</span><span class="testo"><span class="tit">Black Pearl (He&#x27;s A Pirate)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADJ+Rebel">DJ Rebel</a>, <a href="/compilation/archivio/?q=artista%3ASidney+Housen">Sidney Housen</a></span></span></div>
+    <div class="traccia"><span class="n">15</span><span class="testo"><span class="tit">Brooklyn</span><span class="art"><a href="/compilation/archivio/?q=artista%3AHadu">Hadu</a></span></span></div>
       </section>
       <section class="minimix">
         <h2>Il minimix</h2>

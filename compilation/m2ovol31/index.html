@@ -54,6 +54,14 @@ header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;back
   border:1px solid var(--riga);object-fit:cover;display:block}
 .disco .foto{width:100%;border-radius:6px;border:1px solid var(--riga);display:block}
 /* Il minimix: 16:9 che si adatta alla colonna, come le copertine. */
+/* L'intestazione di un disco dentro un cofanetto: si vede che si ricomincia. */
+.disco-n{display:flex;align-items:baseline;gap:10px;margin:22px 0 8px;
+  padding-bottom:6px;border-bottom:1px solid var(--riga);
+  font-family:'Anton',Arial,sans-serif;font-weight:400;font-size:13px;
+  letter-spacing:.16em;text-transform:uppercase}
+.disco-n:first-child{margin-top:0}
+.disco-n span{font-family:inherit;font-size:11px;letter-spacing:.08em;
+  color:var(--debole);text-transform:none}
 .minimix{margin-top:30px}
 .minimix h2{font-family:'Anton',Arial,sans-serif;font-weight:400;font-size:15px;
   letter-spacing:.14em;text-transform:uppercase;color:var(--grigio);margin-bottom:12px}
@@ -185,6 +193,7 @@ footer a:hover{color:var(--bianco)}
 
       <section class="tracce">
         <h2>La tracklist</h2>
+    <p class="disco-n">CD 1<span>15 tracce</span></p>
     <div class="traccia"><span class="n">1</span><span class="testo"><span class="tit">Il Cuore Della Notte (Intro)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ANick+Corline">Nick Corline</a>, <a href="/compilation/archivio/?q=artista%3ARoby+Rossini">Roby Rossini</a></span></span></div>
     <div class="traccia"><span class="n">2</span><span class="testo"><span class="tit">Fail In Love</span><span class="art"><a href="/compilation/archivio/?q=artista%3ASharon+Doorson">Sharon Doorson</a></span></span></div>
     <div class="traccia"><span class="n">3</span><span class="testo"><span class="tit">Crazy Sexy Wild</span><span class="art"><a href="/compilation/archivio/?q=artista%3AInna">Inna</a></span></span></div>
@@ -200,22 +209,23 @@ footer a:hover{color:var(--bianco)}
     <div class="traccia"><span class="n">13</span><span class="testo"><span class="tit">Musica (Pizza Brothers Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AFly+Project">Fly Project</a></span></span></div>
     <div class="traccia"><span class="n">14</span><span class="testo"><span class="tit">Party Go (Provenzano Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AAndrea+Masullo">Andrea Masullo</a>, <a href="/compilation/archivio/?q=artista%3AWendy+Lewis">Wendy Lewis</a></span></span></div>
     <div class="traccia"><span class="n">15</span><span class="testo"><span class="tit">Seven Days</span><span class="art"><a href="/compilation/archivio/?q=artista%3APhunkerz">Phunkerz</a></span></span></div>
-    <div class="traccia"><span class="n">16</span><span class="testo"><span class="tit">Who</span><span class="art"><a href="/compilation/archivio/?q=artista%3ATujamo">Tujamo</a>, <a href="/compilation/archivio/?q=artista%3APlastik+Funk">Plastik Funk</a></span></span></div>
-    <div class="traccia"><span class="n">17</span><span class="testo"><span class="tit">Last Dance</span><span class="art"><a href="/compilation/archivio/?q=artista%3AAvicii">Avicii</a></span></span></div>
-    <div class="traccia"><span class="n">18</span><span class="testo"><span class="tit">Turn You On (Pizza Brothers Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AHenry+John+Morgan">Henry John Morgan</a>, <a href="/compilation/archivio/?q=artista%3AProvenzano+DJ">Provenzano DJ</a>, <a href="/compilation/archivio/?q=artista%3AThe+Audio+Dogs">The Audio Dogs</a></span></span></div>
-    <div class="traccia"><span class="n">19</span><span class="testo"><span class="tit">Nothing Inside</span><span class="art"><a href="/compilation/archivio/?q=artista%3ASander+Van+Doorn">Sander Van Doorn</a>, <a href="/compilation/archivio/?q=artista%3AMayaeni">Mayaeni</a></span></span></div>
-    <div class="traccia"><span class="n">20</span><span class="testo"><span class="tit">Follow You</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADeniz+Koyu">Deniz Koyu</a>, <a href="/compilation/archivio/?q=artista%3AWynter+Gordon">Wynter Gordon</a></span></span></div>
-    <div class="traccia"><span class="n">21</span><span class="testo"><span class="tit">Reason</span><span class="art"><a href="/compilation/archivio/?q=artista%3ANervo">Nervo</a>, <a href="/compilation/archivio/?q=artista%3AHook+N+Sling">Hook N Sling</a></span></span></div>
-    <div class="traccia"><span class="n">22</span><span class="testo"><span class="tit">Years</span><span class="art"><a href="/compilation/archivio/?q=artista%3AAlesso">Alesso</a>, <a href="/compilation/archivio/?q=artista%3AMatthew+Koma">Matthew Koma</a></span></span></div>
-    <div class="traccia"><span class="n">23</span><span class="testo"><span class="tit">Touch The Sky</span><span class="art"><a href="/compilation/archivio/?q=artista%3AProvenzano+DJ">Provenzano DJ</a>, <a href="/compilation/archivio/?q=artista%3AAmanda+Wilson">Amanda Wilson</a></span></span></div>
-    <div class="traccia"><span class="n">24</span><span class="testo"><span class="tit">Emotion (Miami 305 Vocal Mix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3APromise+Land">Promise Land</a>, <a href="/compilation/archivio/?q=artista%3AGeorgi+Kay">Georgi Kay</a></span></span></div>
-    <div class="traccia"><span class="n">25</span><span class="testo"><span class="tit">Sparks (Turn Off Your Mind)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AFedde+Le+Grand">Fedde Le Grand</a>, <a href="/compilation/archivio/?q=artista%3ANicky+Romero">Nicky Romero</a>, <a href="/compilation/archivio/?q=artista%3AMatthew+Koma">Matthew Koma</a></span></span></div>
-    <div class="traccia"><span class="n">26</span><span class="testo"><span class="tit">Feed The Dada</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADada+Life">Dada Life</a></span></span></div>
-    <div class="traccia"><span class="n">27</span><span class="testo"><span class="tit">I Rave You (Give It To Me)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ABasto!">Basto!</a></span></span></div>
-    <div class="traccia"><span class="n">28</span><span class="testo"><span class="tit">Earthquake</span><span class="art"><a href="/compilation/archivio/?q=artista%3AThe+Redeemerz">The Redeemerz</a></span></span></div>
-    <div class="traccia"><span class="n">29</span><span class="testo"><span class="tit">How We Do</span><span class="art"><a href="/compilation/archivio/?q=artista%3AHardwell">Hardwell</a>, <a href="/compilation/archivio/?q=artista%3AShowtek">Showtek</a></span></span></div>
-    <div class="traccia"><span class="n">30</span><span class="testo"><span class="tit">Move On Baby</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADa+Brozz">Da Brozz</a></span></span></div>
-    <div class="traccia"><span class="n">31</span><span class="testo"><span class="tit">Rock Some Noise (Provenzano &amp; Mastro J Edit)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ARainbowlead">Rainbowlead</a></span></span></div>
+    <p class="disco-n">CD 2<span>16 tracce</span></p>
+    <div class="traccia"><span class="n">1</span><span class="testo"><span class="tit">Who</span><span class="art"><a href="/compilation/archivio/?q=artista%3ATujamo">Tujamo</a>, <a href="/compilation/archivio/?q=artista%3APlastik+Funk">Plastik Funk</a></span></span></div>
+    <div class="traccia"><span class="n">2</span><span class="testo"><span class="tit">Last Dance</span><span class="art"><a href="/compilation/archivio/?q=artista%3AAvicii">Avicii</a></span></span></div>
+    <div class="traccia"><span class="n">3</span><span class="testo"><span class="tit">Turn You On (Pizza Brothers Remix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AHenry+John+Morgan">Henry John Morgan</a>, <a href="/compilation/archivio/?q=artista%3AProvenzano+DJ">Provenzano DJ</a>, <a href="/compilation/archivio/?q=artista%3AThe+Audio+Dogs">The Audio Dogs</a></span></span></div>
+    <div class="traccia"><span class="n">4</span><span class="testo"><span class="tit">Nothing Inside</span><span class="art"><a href="/compilation/archivio/?q=artista%3ASander+Van+Doorn">Sander Van Doorn</a>, <a href="/compilation/archivio/?q=artista%3AMayaeni">Mayaeni</a></span></span></div>
+    <div class="traccia"><span class="n">5</span><span class="testo"><span class="tit">Follow You</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADeniz+Koyu">Deniz Koyu</a>, <a href="/compilation/archivio/?q=artista%3AWynter+Gordon">Wynter Gordon</a></span></span></div>
+    <div class="traccia"><span class="n">6</span><span class="testo"><span class="tit">Reason</span><span class="art"><a href="/compilation/archivio/?q=artista%3ANervo">Nervo</a>, <a href="/compilation/archivio/?q=artista%3AHook+N+Sling">Hook N Sling</a></span></span></div>
+    <div class="traccia"><span class="n">7</span><span class="testo"><span class="tit">Years</span><span class="art"><a href="/compilation/archivio/?q=artista%3AAlesso">Alesso</a>, <a href="/compilation/archivio/?q=artista%3AMatthew+Koma">Matthew Koma</a></span></span></div>
+    <div class="traccia"><span class="n">8</span><span class="testo"><span class="tit">Touch The Sky</span><span class="art"><a href="/compilation/archivio/?q=artista%3AProvenzano+DJ">Provenzano DJ</a>, <a href="/compilation/archivio/?q=artista%3AAmanda+Wilson">Amanda Wilson</a></span></span></div>
+    <div class="traccia"><span class="n">9</span><span class="testo"><span class="tit">Emotion (Miami 305 Vocal Mix)</span><span class="art"><a href="/compilation/archivio/?q=artista%3APromise+Land">Promise Land</a>, <a href="/compilation/archivio/?q=artista%3AGeorgi+Kay">Georgi Kay</a></span></span></div>
+    <div class="traccia"><span class="n">10</span><span class="testo"><span class="tit">Sparks (Turn Off Your Mind)</span><span class="art"><a href="/compilation/archivio/?q=artista%3AFedde+Le+Grand">Fedde Le Grand</a>, <a href="/compilation/archivio/?q=artista%3ANicky+Romero">Nicky Romero</a>, <a href="/compilation/archivio/?q=artista%3AMatthew+Koma">Matthew Koma</a></span></span></div>
+    <div class="traccia"><span class="n">11</span><span class="testo"><span class="tit">Feed The Dada</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADada+Life">Dada Life</a></span></span></div>
+    <div class="traccia"><span class="n">12</span><span class="testo"><span class="tit">I Rave You (Give It To Me)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ABasto!">Basto!</a></span></span></div>
+    <div class="traccia"><span class="n">13</span><span class="testo"><span class="tit">Earthquake</span><span class="art"><a href="/compilation/archivio/?q=artista%3AThe+Redeemerz">The Redeemerz</a></span></span></div>
+    <div class="traccia"><span class="n">14</span><span class="testo"><span class="tit">How We Do</span><span class="art"><a href="/compilation/archivio/?q=artista%3AHardwell">Hardwell</a>, <a href="/compilation/archivio/?q=artista%3AShowtek">Showtek</a></span></span></div>
+    <div class="traccia"><span class="n">15</span><span class="testo"><span class="tit">Move On Baby</span><span class="art"><a href="/compilation/archivio/?q=artista%3ADa+Brozz">Da Brozz</a></span></span></div>
+    <div class="traccia"><span class="n">16</span><span class="testo"><span class="tit">Rock Some Noise (Provenzano &amp; Mastro J Edit)</span><span class="art"><a href="/compilation/archivio/?q=artista%3ARainbowlead">Rainbowlead</a></span></span></div>
       </section>
     </div>
 
