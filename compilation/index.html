@@ -72,7 +72,7 @@ header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;back
 .titolo-gruppo{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;
   padding-bottom:11px;border-bottom:1px solid var(--riga);margin-bottom:14px}
 .titolo-gruppo h2{font-family:'Anton',Arial,sans-serif;font-weight:400;
-  font-size:20px;letter-spacing:.06em;text-transform:uppercase}
+  font-size:20px;letter-spacing:.06em;text-transform:uppercase;color:var(--bianco)}
 .titolo-gruppo span{font-size:12px;color:var(--grigio);letter-spacing:.04em}
 
 .muro{display:grid;grid-template-columns:repeat(auto-fill,minmax(118px,1fr));gap:10px}
@@ -201,6 +201,14 @@ footer a:hover{color:var(--bianco)}
     return fuga(s).replace(/m2o/gi, '<span class="m2o">m2o</span>');
   }
 
+  // ⚠️ "m2o" da solo e' il nome della radio, non di questi dischi: in testa al
+  // gruppo ci vuole "m2o compilation". Detto da Amerigo il 24/08/2026 - "non sono
+  // m2o". Le altre serie il nome ce l'hanno gia' buono ("m2o Xperience", "Hit
+  // Mania"): si tocca solo quella che si chiama m2o e basta.
+  function testataGruppo(s) {
+    return nome(s === 'm2o' ? 'm2o compilation' : s);
+  }
+
   function fuga(s) {
     return (s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;');
@@ -306,7 +314,7 @@ footer a:hover{color:var(--bianco)}
       sez.className = 'gruppo';
       var testa = document.createElement('div');
       testa.className = 'titolo-gruppo';
-      testa.innerHTML = '<h2>' + nome(g.nome) + '</h2><span>' + g.righe.length +
+      testa.innerHTML = '<h2>' + testataGruppo(g.nome) + '</h2><span>' + g.righe.length +
         (g.righe.length === 1 ? ' compilation' : ' compilation') +
         (anni.length ? ' · ' + Math.min.apply(null, anni) +
           (Math.max.apply(null, anni) !== Math.min.apply(null, anni)
