@@ -41,11 +41,20 @@ header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;back
 .briciole a:hover{color:var(--bianco)}
 .briciole .sep{margin:0 8px}
 
-/* il disco: copertina grande a sinistra, dati a destra */
-.disco{display:flex;gap:28px;padding:20px 0 26px;align-items:flex-start;flex-wrap:wrap}
-.disco .copertina{width:min(320px,100%);aspect-ratio:1;border-radius:6px;
-  border:1px solid var(--riga);object-fit:cover;display:block;flex:none}
-.disco .dati{flex:1;min-width:min(300px,100%)}
+/* ⚠️ **Il testo a sinistra, le foto a destra.** Voluto da Amerigo il 23/08/2026:
+   la pagina si legge, e quello che si legge sta dove si comincia a leggere. Sul
+   telefono l'ordine si ribalta - prima la copertina, poi il testo - perche' in
+   colonna il disco che si sta guardando deve arrivare prima della sua scaletta. */
+.disco{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:34px;
+  padding:20px 0 6px;align-items:start}
+.disco .testo{grid-column:1;min-width:0}
+.disco .immagini{grid-column:2;position:sticky;top:78px;display:flex;
+  flex-direction:column;gap:12px}
+.disco .copertina{width:100%;aspect-ratio:1;border-radius:6px;
+  border:1px solid var(--riga);object-fit:cover;display:block}
+.disco .foto{width:100%;border-radius:6px;border:1px solid var(--riga);display:block}
+.disco .didascalia{font-size:11px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--debole);text-align:right}
 .disco .serie{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--rosso)}
 .disco h1{font-family:'Anton',Arial,sans-serif;font-weight:400;text-transform:uppercase;
   font-size:clamp(26px,4.6vw,44px);letter-spacing:.02em;line-height:1.04;margin-top:9px}
@@ -65,7 +74,7 @@ header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;back
 .fuori a:hover{border-color:var(--rosso);color:var(--bianco)}
 
 /* la tracklist */
-.tracce{padding:6px 0 10px}
+.tracce{padding:26px 0 10px}
 .tracce h2{font-family:'Anton',Arial,sans-serif;font-weight:400;font-size:19px;
   letter-spacing:.06em;text-transform:uppercase;padding-bottom:11px;
   border-bottom:1px solid var(--riga)}
@@ -96,9 +105,20 @@ footer{margin-top:auto;border-top:1px solid var(--riga);padding:20px 0 28px;
   display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
 footer a:hover{color:var(--bianco)}
 
+.nota{margin-top:16px;padding:12px 14px;border-left:2px solid var(--rosso);
+  background:var(--pannello);border-radius:0 6px 6px 0;
+  color:var(--grigio);font-size:13px;line-height:1.65}
+
+@media (max-width:860px){
+  .disco{grid-template-columns:1fr;gap:22px}
+  .disco .testo{grid-column:1;grid-row:2}
+  .disco .immagini{grid-column:1;grid-row:1;position:static;
+    flex-direction:row;flex-wrap:wrap;align-items:flex-start}
+  .disco .copertina{width:min(260px,58vw);aspect-ratio:1}
+  .disco .foto{width:min(260px,58vw)}
+  .disco .didascalia{display:none}
+}
 @media (max-width:640px){
-  .disco{gap:20px}
-  .disco .copertina{width:min(240px,64vw)}
   .vicine a{max-width:100%}
 }
 @media (max-width:430px){
@@ -129,9 +149,9 @@ footer a:hover{color:var(--bianco)}
       href="/compilation/?serie=8">Altre</a>
   </nav>
 
-  <section class="disco">
-    <img class="copertina" src="/compilation/cop/non-stop-dance.jpg" alt="Copertina di Non Stop Dance">
-    <div class="dati">
+  <div class="disco">
+
+    <div class="testo">
       <p class="serie">Altre</p>
       <h1>Non Stop Dance<span class="punto">.</span></h1>
       <div class="schede">
@@ -144,11 +164,9 @@ footer a:hover{color:var(--bianco)}
         <a href="/compilation/archivio/?anno=1994">Tutti i brani del 1994</a>
         <a href="https://www.discogs.com/release/3548036" target="_blank" rel="noopener">Scheda su Discogs</a>
       </div>
-    </div>
-  </section>
 
-  <section class="tracce">
-    <h2>La tracklist</h2>
+      <section class="tracce">
+        <h2>La tracklist</h2>
     <div class="traccia"><span class="n">1</span><span class="testo"><span class="tit">Pass The Toilet Paper (Rmx)</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AThe+Outhere+Brothers">The Outhere Brothers</a></span></span></div>
     <div class="traccia"><span class="n">2</span><span class="testo"><span class="tit">Do You Know My Name</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AHumanize">Humanize</a></span></span></div>
     <div class="traccia"><span class="n">3</span><span class="testo"><span class="tit">One More Time (Rmx)</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AJinny">Jinny</a></span></span></div>
@@ -175,14 +193,23 @@ footer a:hover{color:var(--bianco)}
     <div class="traccia"><span class="n">24</span><span class="testo"><span class="tit">Light My Fire (Rmx)</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AClub+House">Club House</a></span></span></div>
     <div class="traccia"><span class="n">25</span><span class="testo"><span class="tit">Promise</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3ANo+Name">No Name</a></span></span></div>
     <div class="traccia"><span class="n">26</span><span class="testo"><span class="tit">No War</span><span class="art" style="display:block"><a href="/compilation/archivio/?q=artista%3AHarmonya">Harmonya</a></span></span></div>
-  </section>
+      </section>
+
+    </div>
+
+    <aside class="immagini">
+      <img class="copertina" src="/compilation/cop/non-stop-dance.jpg" alt="Copertina di Non Stop Dance">
+    </aside>
+
+  </div>
 
   <nav class="vicine">
     <a class="dopo" href="/compilation/radio-cipolla-party-compilation/"><img loading="lazy" src="/compilation/cop/radio-cipolla-party-compilation-200.jpg" alt=""><span><span class="dove">Dopo</span><span class="come" style="display:block">Radio Cipolla Party Compilation</span></span></a>
   </nav>
 
-  <p class="coda">Tracklist e crediti da Discogs, copertina dall'archivio. Cliccando un
-    artista si va a vedere tutto quello che di suo è finito nelle compilation.</p>
+  <p class="coda">Tracklist e crediti da Discogs dove non c'è scritto altro, copertina
+    dall'archivio. Cliccando un artista si va a vedere tutto quello che di suo è finito
+    nelle compilation.</p>
 
 </main>
 
