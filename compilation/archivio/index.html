@@ -254,9 +254,14 @@ footer a:hover{color:var(--bianco)}
       // anche quelli firmati Hypertraxx. Non il contrario: l'alias non tira dentro
       // il lavoro della persona. In pagina invece si legge sempre e solo "a".
       var cercabili = nomi.concat((b.r || []).map(function (i) { return p.artisti[i]; }));
-      cercabili = cercabili.concat(cercabili.map(function (x) {
-        return (p.alias || {})[x] || '';
-      }).filter(Boolean));
+      // ⚠ **Un alias puo' valere per PIU' persone.** "Remote Zero" e' Provenzano
+      // DJ e Promise Land insieme: il valore e' una lista, e cercando l'uno o l'altro
+      // quelle tracce devono uscire. Gli alias a una persona sola restano una stringa.
+      cercabili = cercabili.concat(cercabili.reduce(function (acc, x) {
+        var v = (p.alias || {})[x];
+        if (!v) return acc;
+        return acc.concat(typeof v === 'string' ? [v] : v);
+      }, []));
       var comp = b.c.map(function (i) { return p.compilation[i]; });
       var anni = comp.map(function (c) { return c.y; }).filter(Boolean);
       return {
