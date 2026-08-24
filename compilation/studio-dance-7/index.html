@@ -78,6 +78,14 @@ header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;back
 /* il nome proprio del volume - "Ten Years", "Inside" - non e' il nome del disco:
    sta sotto, in chiaro, e non entra mai nel titolo */
 .disco .sottotitolo{margin-top:9px;font-size:15px;color:var(--grigio);letter-spacing:.02em}
+/* La targhetta di un premio: oro, ma spento - il disco resta il protagonista. */
+.disco .premi{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.disco .premio{display:inline-flex;align-items:center;gap:7px;
+  padding:5px 12px 5px 10px;border-radius:999px;font-size:11px;letter-spacing:.14em;
+  text-transform:uppercase;color:#E8C46A;border:1px solid rgba(232,196,106,.42);
+  background:rgba(232,196,106,.09)}
+.disco .premio::before{content:"";width:9px;height:9px;border-radius:50%;
+  background:linear-gradient(135deg,#F3DFA6,#C9992F);flex:none}
 .schede{margin-top:18px;display:flex;flex-wrap:wrap;gap:10px 26px}
 .scheda .eti{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--debole)}
 .scheda .val{font-size:14px;margin-top:3px;font-variant-numeric:tabular-nums}
@@ -207,14 +215,14 @@ footer a:hover{color:var(--bianco)}
     </div>
 
     <aside class="immagini">
-      <img class="copertina" src="/compilation/cop/studio-dance-7.jpg?v=a3ba5929" alt="Copertina di Studio Dance 7">
+      <img class="copertina" src="/compilation/cop/studio-dance-7.jpg?v=b1d36374" alt="Copertina di Studio Dance 7">
     </aside>
 
   </div>
 
   <nav class="vicine">
-    <a class="prima" href="/compilation/studio-dance-6/"><img loading="lazy" src="/compilation/cop/studio-dance-6-200.jpg?v=a3ba5929" alt=""><span><span class="dove">Prima</span><span class="come" style="display:block">Studio Dance 6</span></span></a>
-    <a class="dopo" href="/compilation/studio-dance-9/"><img loading="lazy" src="/compilation/cop/studio-dance-9-200.jpg?v=a3ba5929" alt=""><span><span class="dove">Dopo</span><span class="come" style="display:block">Studio Dance 9</span></span></a>
+    <a class="prima" href="/compilation/studio-dance-6/"><img loading="lazy" src="/compilation/cop/studio-dance-6-200.jpg?v=b1d36374" alt=""><span><span class="dove">Prima</span><span class="come" style="display:block">Studio Dance 6</span></span></a>
+    <a class="dopo" href="/compilation/studio-dance-9/"><img loading="lazy" src="/compilation/cop/studio-dance-9-200.jpg?v=b1d36374" alt=""><span><span class="dove">Dopo</span><span class="come" style="display:block">Studio Dance 9</span></span></a>
   </nav>
 
 </main>
