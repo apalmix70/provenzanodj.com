@@ -247,6 +247,16 @@ footer a:hover{color:var(--bianco)}
     dati = p;
     indice = p.brani.map(function (b) {
       var nomi = b.a.map(function (i) { return p.artisti[i]; });
+      // ⚠ **Chi si cerca non e' solo chi sta in copertina.** "cercabili" mette
+      // insieme tre cose: il credito ("a"), chi ha remixato il pezzo ("r") e, per
+      // ogni nome d'arte, la PERSONA dietro ("alias"). Cosi' cercando un artista
+      // escono anche i pezzi che ha solo remixato, e cercando Carlo Marani escono
+      // anche quelli firmati Hypertraxx. Non il contrario: l'alias non tira dentro
+      // il lavoro della persona. In pagina invece si legge sempre e solo "a".
+      var cercabili = nomi.concat((b.r || []).map(function (i) { return p.artisti[i]; }));
+      cercabili = cercabili.concat(cercabili.map(function (x) {
+        return (p.alias || {})[x] || '';
+      }).filter(Boolean));
       var comp = b.c.map(function (i) { return p.compilation[i]; });
       var anni = comp.map(function (c) { return c.y; }).filter(Boolean);
       return {
@@ -264,7 +274,15 @@ footer a:hover{color:var(--bianco)}
         // fra due spazi e con le parole separate: la ricerca si attacca all'inizio
         // di una parola, non in mezzo (stessa regola dell'archivio Crossover)
         cerca: ' ' + norm(b.t + ' ' + nomi.join(' ')) + ' ',
-        cercaA: ' ' + nomi.map(norm).join(' | ') + ' ',
+        // ⚠ **Un alias si cerca anche col nome della persona, ma non viceversa.**
+        // "Hypertraxx" e "Carlo Marani" sono lo stesso uomo: cercando la persona
+        // devono uscire anche i pezzi firmati col nome d'arte. Il contrario no -
+        // cercando "Hypertraxx" escono solo i suoi. Per questo la riga qui sotto
+        // aggiunge la PERSONA ai nomi cercabili di una traccia firmata dall'alias,
+        // e non l'alias a quelle firmate dalla persona.
+        // "5 Hypertraxx + 3 Carlo Marani vuol dire Hypertraxx 5, Carlo Marani 8"
+        // (Amerigo, 24/08/2026).
+        cercaA: ' ' + cercabili.map(norm).join(' | ') + ' ',
         ordTitolo: norm(b.t),
         ordArtista: norm(nomi[0] || 'zzz')
       };
