@@ -67,6 +67,17 @@ header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;back
 .conteggio{margin-left:auto;font-size:12px;color:var(--grigio);letter-spacing:.04em;white-space:nowrap}
 .conteggio b{color:var(--bianco);font-variant-numeric:tabular-nums}
 
+/* ⚠️ **La scorciatoia all'archivio, che compare solo quando si sta cercando.**
+   Il muro adesso trova anche i brani, ma mostra i DISCHI: chi cerca una canzone
+   vede accendersi tre copertine e non sa quale traccia le ha accese. Questa riga
+   porta la stessa ricerca dove le tracce si vedono una per una. Nascosta a vuoto,
+   o sarebbe un invito ad andarsene dalla pagina. */
+.altrove{margin-top:11px;font-size:12.5px;color:var(--grigio);line-height:1.5}
+.altrove[hidden]{display:none}
+.altrove a{color:var(--bianco);border-bottom:1px solid var(--rosso);padding-bottom:1px}
+.altrove a:hover{color:var(--rosso)}
+.altrove .voce{color:var(--bianco)}
+
 /* ------------------------------------------------------------------- muro */
 .gruppo{padding:26px 0 0}
 .titolo-gruppo{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;
@@ -148,18 +159,20 @@ footer a:hover{color:var(--bianco)}
     <p class="sotto">Tutte le compilation mixate dal <b>1994</b>: i quaranta volumi di
       <b>m2o — Musica Allo Stato Puro</b>, la serie Xperience, i DualDisc, e le serie
       degli anni '90 firmate Bolognesi &amp; Provenzano. Clicca una copertina per la
-      tracklist. Per cercare un brano dentro tutte, c'è
-      <a class="dentro" href="/compilation/archivio/">l'archivio</a>.</p>
+      tracklist. La ricerca qui sopra guarda anche <b>dentro le tracklist</b>: scrivi il
+      titolo di un brano e restano accesi i dischi che lo contengono. Per vedere i brani
+      uno per uno c'è <a class="dentro" href="/compilation/archivio/">l'archivio</a>.</p>
   </div>
 
   <div class="pannello">
     <div class="cerca">
       <span class="lente">⌕</span>
       <input id="q" type="search" autocomplete="off" spellcheck="false"
-             placeholder="Cerca un titolo, una serie, un anno…" aria-label="Cerca">
+             placeholder="Cerca un titolo, un brano, una serie, un anno…" aria-label="Cerca">
       <button class="pulisci" id="pulisci" aria-label="Pulisci">×</button>
     </div>
     <div class="filtri" id="filtri"></div>
+    <p class="altrove" id="altrove" hidden></p>
   </div>
 
   <div id="muro"></div>
@@ -228,9 +241,49 @@ footer a:hover{color:var(--bianco)}
   function prepara(p) {
     firmaCop = p.cop ? ('?v=' + p.cop) : '';
     dati = p;
+
+    // ⚠️ **Il muro cerca anche dentro le tracklist.** *"Qui dice cerca un titolo,
+    // forse si dovrebbe poter cercare anche il titolo di un brano"* (Amerigo,
+    // 25/08/2026). I brani sono gia' nel JSON che questa pagina carica - `p.brani`,
+    // con `c` che dice in quali compilation sta ognuno - quindi non serve scaricare
+    // niente in piu': si impasta il titolo di ogni traccia nella stringa di ricerca
+    // del suo disco, una volta sola al caricamento. Sono 2.177 titoli, ~65 KB di
+    // testo normalizzato: il filtro resta quello di prima, un indexOf per parola.
+    //
+    // ⚠️ **Anche gli artisti, e non era la prima idea.** Avevo indicizzato i soli
+    // titoli, per non accendere mezzo muro a ogni nome. Provato: *laurent wolf*
+    // trovava il **vol.18** - dove sta dentro un titolo, *"Ulysse (Laurent Wolf &
+    // Anton Wick Remix)"* - e non il **vol.19**, che e' il disco dove *Wash My World*
+    // e' sua. Una risposta a meta' e' peggio del rumore: chi la legge capisce "sta
+    // solo sul 18", che e' falso. Dentro ci vanno i nomi accreditati e i remixer.
+    //
+    // ⚠️ **Si tengono le PAROLE, non le frasi.** Il filtro qui sotto cerca una parola
+    // per volta (`indexOf(' ' + parola)`) e non ha mai guardato se sono vicine:
+    // tenere un insieme di parole senza doppioni e' identico per chi cerca, ma il
+    // disco da 57 tracce passa da 1,5 KB di stringa a poche centinaia di byte, e i
+    // 2.177 titoli con i loro 1.746 artisti stanno tutti in memoria senza appesantire
+    // il caricamento.
+    var tracceDi = p.compilation.map(function () { return {}; });
+    function parolePer(k, testo) {
+      var t = norm(testo);
+      if (!t || tracceDi[k] === undefined) return;
+      t.split(' ').forEach(function (w) { if (w) tracceDi[k][w] = 1; });
+    }
+    (p.brani || []).forEach(function (b) {
+      (b.c || []).forEach(function (k) {
+        parolePer(k, b.t);
+        (b.a || []).forEach(function (ai) { parolePer(k, p.artisti[ai]); });
+        (b.r || []).forEach(function (ri) { parolePer(k, p.artisti[ri]); });
+      });
+    });
+    var blobDi = tracceDi.map(function (m) {
+      return ' ' + Object.keys(m).join(' ') + ' ';
+    });
+
     indice = p.compilation.map(function (c, i) {
       return { c: c, i: i, serie: p.serie[c.se],
-               cerca: ' ' + norm(c.t + ' ' + p.serie[c.se] + ' ' + (c.e || '')) + ' ' + c.y + ' ' };
+               cerca: ' ' + norm(c.t + ' ' + p.serie[c.se] + ' ' + (c.e || '')) + ' ' + c.y +
+                      blobDi[i] };
     });
 
     // un tasto per serie, col numero di dischi dentro: e' anche il sommario
@@ -300,6 +353,17 @@ footer a:hover{color:var(--bianco)}
     document.getElementById('conteggio').innerHTML =
       '<b>' + visti.length + '</b> compilation · <b>' +
       visti.reduce(function (t, v) { return t + v.c.n; }, 0) + '</b> tracce';
+
+    var $altrove = document.getElementById('altrove');
+    if ($q.value.trim()) {
+      $altrove.hidden = false;
+      $altrove.innerHTML = 'Cerchi un brano? <a href="/compilation/archivio/?q=' +
+        encodeURIComponent($q.value.trim()) + '">Vedi <span class="voce">«' +
+        fuga($q.value.trim()) + '»</span> nell\'archivio dei brani</a>';
+    } else {
+      $altrove.hidden = true;
+      $altrove.innerHTML = '';
+    }
 
     $muro.innerHTML = '';
     $vuoto.hidden = visti.length > 0;
