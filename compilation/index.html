@@ -202,7 +202,7 @@ footer a:hover{color:var(--bianco)}
   window.addEventListener('resize', misuraTestata);
   if (document.fonts && document.fonts.ready) { document.fonts.ready.then(misuraTestata); }
 
-  var dati = null, indice = [], serieScelta = null;
+  var dati = null, indice = [], serieScelta = null, numerata = {};
   var $q = document.getElementById('q');
   var $muro = document.getElementById('muro');
   var $filtri = document.getElementById('filtri');
@@ -278,6 +278,25 @@ footer a:hover{color:var(--bianco)}
     });
     var blobDi = tracceDi.map(function (m) {
       return ' ' + Object.keys(m).join(' ') + ' ';
+    });
+
+    // ⚠️ **Il numero di volume si vede solo dove e' una fila, non un caso.**
+    // *"Ci sono dei numeri accanto al cd a che servono?"* (Amerigo, 26/08/2026): fra
+    // le **Altre** comparivano due **2**, su *32 Super Hits Original Vol.2* e *Balla
+    // Italiano Vol.2*. Il numero c'e' perche' sta nel titolo, ma li' non tiene in fila
+    // niente - sono due dischi singoli di due cose diverse - e un 2 senza un 1 accanto
+    // e' solo una domanda.
+    //
+    // ⚠️ **La prova e' "quanti della serie ce l'hanno", non "quanti sono".** Basta
+    // meta': m2o 40 su 40, Studio Dance 7 su 8, Hit Parade 5 su 7, RDS 5 su 7,
+    // [Jump]² 4 su 4 - tutte file vere, e il numero le tiene insieme. Le **Altre**
+    // sono 2 su 7 e non passano. Contare i numeri **distinti** non funzionava: dentro
+    // RDS ci sono due volumi 2 (il *Vol. 2* e *Toptendance Volume Due*) ed e' lo
+    // stesso una serie numerata.
+    p.serie.forEach(function (_, si) {
+      var suoi = p.compilation.filter(function (c) { return c.se === si; });
+      var conNumero = suoi.filter(function (c) { return c.v; }).length;
+      numerata[si] = suoi.length > 0 && conNumero * 2 >= suoi.length;
     });
 
     indice = p.compilation.map(function (c, i) {
@@ -402,7 +421,7 @@ footer a:hover{color:var(--bianco)}
         a.setAttribute('aria-label', c.t + (c.y ? ' (' + c.y + ')' : ''));
         a.innerHTML =
           '<img loading="lazy" src="/compilation/cop/' + c.s + '-200.jpg' + firmaCop + '" alt="">' +
-          (c.v ? '<span class="num">' + c.v + '</span>' : '') +
+          '<span class="num">' + c.i + '</span>' +
           '<span class="eti"><span class="anno">' + (c.y || '') + '</span>' +
           '<span class="tit">' + c.t + '</span></span>';
         griglia.appendChild(a);
