@@ -236,9 +236,15 @@ footer a:hover{color:var(--bianco)}
 
     var maxA = s.top_artisti.length ? s.top_artisti[0].presenze : 1;
     html += blocco('Gli artisti più presenti', null,
+      /* ⚠ Solo le presenze, non il conto dei brani sotto: *"metti il numero di volte
+         e basta non il numero di brani"* (Amerigo, 27/08/2026). Un artista con 63
+         presenze e 58 brani obbligava a chiedersi che differenza ci fosse fra i due
+         numeri per capire una classifica che dice una cosa sola - chi torna piu'
+         spesso. Il conto dei brani si vede aprendo l'archivio, che e' dove uno va se
+         quella domanda se la fa davvero. */
       classifica(s.top_artisti.slice(0, 30).map(function (a) {
         return { nome: fuga(a.nome), grezzo: a.nome, quanto: a.presenze,
-                 unita: a.brani === 1 ? '1 brano' : a.brani + ' brani' };
+                 unita: a.presenze === 1 ? 'volta' : 'volte' };
       }), maxA, function (r) {
         return '/compilation/archivio/?q=' + encodeURIComponent('artista:' + r.grezzo);
       }));
