@@ -283,11 +283,17 @@ footer a:hover{color:var(--bianco)}
           '</td><td>' + num(a.tracce) + '</td></tr>';
       }).join('') + '</tbody></table></div>');
 
-    var maxE = s.etichette.length ? s.etichette[0].compilation : 1;
-    html += blocco('Le etichette', 'Chi le pubblicava.',
-      classifica(s.etichette.slice(0, 12).map(function (x) {
-        return { nome: fuga(x.nome), quanto: x.compilation, unita: 'compilation' };
-      }), maxE, null));
+    /* ⚠ Il blocco **Le etichette** l'ha fatto togliere Amerigo il 27/08/2026: *"il
+       dato sulle etichette non mi interessa"*. Chi ha pubblicato un disco resta scritto
+       nella pagina di quel disco, che e' dove uno lo va a cercare; in classifica non
+       diceva niente di lui - diceva quali case discografiche stampavano compilation
+       negli anni '90, che e' una storia di qualcun altro.
+
+       ⚠ Tolto anche il conto da `costruisci.py`, non solo il blocco: un dato che
+       nessuno legge, dentro un JSON che si scarica a ogni visita, e' peso che nessuno
+       si ricorda piu' perche' c'e'. Per rimetterlo servono le due righe - `etichette`
+       nelle statistiche e questo blocco - e stanno entrambe nel commit che le ha
+       tolte. */
 
     $pagina.innerHTML = html;
     document.getElementById('aggiornato').textContent =
