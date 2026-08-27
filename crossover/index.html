@@ -491,7 +491,12 @@ footer a:hover{color:var(--bianco)}
         meta.appendChild(sub);
       }
     } else {
-      meta.appendChild(elemento('span', 'tag etichetta muto', 'etichetta ignota'));
+      // ⚠️ Tre trattini, non "etichetta ignota" (Amerigo, 26/08/2026): il disco esce
+      // lo stesso il venerdi' e il dato si sistema quando arriva, quindi il segno
+      // deve dire "manca ancora" senza sembrare una sentenza. Il `title` spiega.
+      var vuota = elemento('span', 'tag etichetta muto', '---');
+      vuota.title = 'Etichetta non ancora inserita';
+      meta.appendChild(vuota);
     }
     testo.appendChild(meta);
     div.appendChild(testo);
