@@ -314,12 +314,34 @@ footer a:hover{color:var(--bianco)}
        dato contato uno per uno. I due decimali restano perche' sono la somma vera:
        arrotondare a 2,9 sarebbe gonfiarla di quarantamila copie per fare piu' bella
        figura. Il numero esatto sta nel blocco qui sotto, serie per serie. */
-    var mln = v.totale / 1000000;
-    var cifra = mln.toLocaleString('it-IT',
-      { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-    return '<div class="vendite"><div class="cifra">' + cifra +
-      '<span class="mln">mln</span></div>' +
-      '<div class="eti">compilation vendute</div></div>';
+    /* ⚠ **"2 mln 860 mila"**, scelto da Amerigo il 27/08/2026 fra dieci modi di
+       scrivere lo stesso numero. Non e' quello che avrei messo io - gliel'ho detto -
+       ma e' il suo lavoro e sono i suoi dischi, e la scelta e' registrata qui perche'
+       fra sei mesi non torni fuori come una svista da correggere.
+
+       Si ricava dal totale, non e' scritto: milioni e migliaia si spezzano dal numero,
+       e il pezzo delle migliaia sparisce se e' zero (a 3.000.000 tondi la riga direbbe
+       "3 mln", non "3 mln 0 mila"). Sotto il milione resta il solo blocco delle
+       migliaia. */
+    /* ⚠ **La cifra sopra, la stessa cifra a parole sotto**: *"2.860.000 e sotto metti
+       2 milioni 860 mila compilation vendute"* (Amerigo, 27/08/2026), dopo aver visto
+       le due versioni una accanto all'altra. Le parole non aggiungono un dato, danno
+       il modo di **dirlo**: 2.860.000 lo si legge, "due milioni e ottocentosessantamila"
+       lo si ripete. Su un numero che serve a essere raccontato non e' un doppione.
+
+       Le parole si ricavano dal totale, non sono scritte: se un giorno la somma cambia,
+       cambiano tutte e due le righe insieme. Il pezzo delle migliaia sparisce se e'
+       zero, e il singolare c'e' per l'anno in cui dovesse servire. */
+    var milioni = Math.floor(v.totale / 1000000);
+    var migliaia = Math.round((v.totale - milioni * 1000000) / 1000);
+    var parole = [];
+    if (milioni) {
+      parole.push(num(milioni) + (milioni === 1 ? ' milione' : ' milioni'));
+    }
+    if (migliaia) { parole.push(num(migliaia) + ' mila'); }
+    parole.push('compilation vendute');
+    return '<div class="vendite"><div class="cifra">' + num(v.totale) + '</div>' +
+      '<div class="eti">' + parole.join(' ') + '</div></div>';
   }
 
   /* Le certificazioni non stanno scritte: si contano dai premi dei dischi, e la
