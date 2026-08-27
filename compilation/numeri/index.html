@@ -97,6 +97,8 @@ section.blocco{padding:34px 0 0}
 .voce .chi{flex:1;min-width:0}
 .voce .nome{font-size:14.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .voce .nome a:hover{color:var(--rosso)}
+/* Gli alias accanto al nome: si leggono se uno li cerca, non rubano la riga. */
+.voce .nome .alias{color:var(--debole);font-size:12.5px}
 .voce .barra{margin-top:7px;height:3px;background:#161616;border-radius:2px;overflow:hidden}
 .voce .barra i{display:block;height:100%;background:var(--rosso)}
 .voce .quanto{font-variant-numeric:tabular-nums;font-size:13px;flex:none;text-align:right}
@@ -245,8 +247,15 @@ footer a:hover{color:var(--bianco)}
          numeri per capire una classifica che dice una cosa sola - chi torna piu'
          spesso. Il conto dei brani si vede aprendo l'archivio, che e' dove uno va se
          quella domanda se la fa davvero. */
+      /* ⚠ Gli altri nomi dello stesso progetto stanno **in parentesi accanto**, non
+         su righe loro: *"Promise Land (Ranucci & Pelusi, System 3) e il conteggio si
+         somma sotto Promise Land"* (Amerigo, 27/08/2026). Il link resta sul nome
+         grande, che e' quello che l'archivio conosce - e li' dentro i due nomi ci sono
+         tutti e due, ognuno coi suoi dischi. */
       classifica(s.top_artisti.slice(0, 30).map(function (a) {
-        return { nome: fuga(a.nome), grezzo: a.nome, quanto: a.presenze,
+        return { nome: fuga(a.nome) + (a.alias
+                   ? ' <span class="alias">(' + fuga(a.alias.join(', ')) + ')</span>' : ''),
+                 grezzo: a.nome, quanto: a.presenze,
                  unita: a.presenze === 1 ? 'volta' : 'volte' };
       }), maxA, function (r) {
         return '/compilation/archivio/?q=' + encodeURIComponent('artista:' + r.grezzo);
