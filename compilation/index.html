@@ -434,7 +434,15 @@ footer a:hover{color:var(--bianco)}
   $q.addEventListener('input', disegna);
   $pulisci.addEventListener('click', function () { $q.value = ''; $q.focus(); disegna(); });
 
-  fetch('/compilation/dati/compilation.json')
+  /* ⚠ `no-cache` non e' pignoleria: GitHub Pages serve tutto con `max-age=600`, e per
+     dieci minuti il browser puo' tenersi il JSON vecchio. Il guaio non e' l'attesa, e'
+     l'accoppiata: pagina nuova appena arrivata e dati vecchi ancora in cache, cioe'
+     numeri sbagliati dentro un impaginato giusto - e nessuno se ne accorge. Con
+     `no-cache` la richiesta parte comunque e l'ETag decide: se non e' cambiato niente
+     la risposta e' un 304 e non costa banda. Le pagine del Crossover lo facevano gia'
+     dal primo giorno; qui era rimasto indietro, ed e' saltato fuori il 27/08/2026 con
+     Amerigo che guardava una pagina vecchia mentre quella online era gia' aggiornata. */
+  fetch('/compilation/dati/compilation.json', {cache: 'no-cache'})
     .then(function (r) { return r.json(); })
     .then(prepara)
     .catch(function () {
