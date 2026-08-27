@@ -211,7 +211,10 @@ footer a:hover{color:var(--bianco)}
 
     html += copie(s.vendite);
     html += '<div class="totali">' +
-      totale(num(t.compilation), 'compilation mixate') +
+      /* ⚠ "compilation" e basta, non "compilation mixate" (Amerigo, 27/08/2026):
+         due righe sopra c'e' gia' scritto *compilation vendute*, e la parola in piu'
+         faceva sembrare i due numeri due cose diverse invece che le stesse 90. */
+      totale(num(t.compilation), 'compilation') +
       /* ⚠ "tracce in scaletta" (2.177) tolta il 27/08/2026: *"metti solo il numero dei
          brani diversi 1995"*. Erano due cifre quasi uguali una accanto all'altra - il
          totale delle righe di scaletta e i titoli diversi - e chi legge non ha modo di
