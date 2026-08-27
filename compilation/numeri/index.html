@@ -52,6 +52,15 @@ header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;back
 .totale .cifra .punto{color:var(--rosso)}
 .totale .eti{margin-top:7px;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;
   color:var(--debole);line-height:1.5}
+/* Le certificazioni prendono lo stesso oro e lo stesso argento delle targhette che
+   stanno sulla pagina del disco: sono la stessa cosa contata, non un dato nuovo.
+   Il pallino davanti all'etichetta e' il disco. */
+.totale.oro .cifra{color:#E8C86A}
+.totale.platino .cifra{color:#D9DEE6}
+.totale.oro .eti::before,.totale.platino .eti::before{content:"";display:inline-block;
+  width:8px;height:8px;border-radius:50%;margin-right:7px;vertical-align:1px}
+.totale.oro .eti::before{background:linear-gradient(135deg,#F3DFA2,#B98F2E)}
+.totale.platino .eti::before{background:linear-gradient(135deg,#FFFFFF,#98A2B0)}
 
 section.blocco{padding:34px 0 0}
 .titolo-blocco{padding-bottom:11px;border-bottom:1px solid var(--riga);margin-bottom:6px}
@@ -182,6 +191,7 @@ footer a:hover{color:var(--bianco)}
       totale(num(t.brani_unici), 'brani diversi') +
       totale(num(t.artisti), 'artisti') +
       totale(t.primo_anno + '<span class="punto">→</span>' + t.ultimo_anno, 'anni di uscite') +
+      certificate(s.certificazioni) +
       '</div>';
 
     var maxA = s.top_artisti.length ? s.top_artisti[0].presenze : 1;
@@ -235,9 +245,26 @@ footer a:hover{color:var(--bianco)}
       'Aggiornato al ' + s.aggiornato.split('-').reverse().join('/');
   }
 
-  function totale(cifra, eti) {
-    return '<div class="totale"><div class="cifra">' + cifra +
-      '</div><div class="eti">' + eti + '</div></div>';
+  /* Le certificazioni non stanno scritte: si contano dai premi dei dischi, e la
+     casella compare solo se ce n'e' almeno una. Al sesto disco d'oro qui cambia da
+     solo, che e' il motivo per cui non c'e' un 5 scritto a mano da nessuna parte. */
+  function certificate(c) {
+    if (!c) { return ''; }
+    var fuori = '';
+    if (c.platino && c.platino.length) {
+      fuori += totale(num(c.platino.length),
+        c.platino.length === 1 ? 'disco di platino' : 'dischi di platino', 'platino');
+    }
+    if (c.oro && c.oro.length) {
+      fuori += totale(num(c.oro.length),
+        c.oro.length === 1 ? "disco d'oro" : "dischi d'oro", 'oro');
+    }
+    return fuori;
+  }
+
+  function totale(cifra, eti, classe) {
+    return '<div class="totale' + (classe ? ' ' + classe : '') + '"><div class="cifra">' +
+      cifra + '</div><div class="eti">' + eti + '</div></div>';
   }
 
   fetch('/compilation/dati/statistiche.json')
