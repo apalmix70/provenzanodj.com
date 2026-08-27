@@ -43,18 +43,39 @@ header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;back
 .cartello .sotto b{color:var(--bianco);font-weight:600}
 
 /* i totali, in cifre grosse */
-.totali{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;
-  background:var(--riga);border:1px solid var(--riga);border-radius:8px;overflow:hidden;
-  margin-bottom:8px}
-.totale{background:var(--nero);padding:18px 16px}
-.totale .cifra{font-family:'Anton',Arial,sans-serif;font-size:clamp(26px,4vw,38px);
-  line-height:1;font-variant-numeric:tabular-nums}
+/* ⚠ Le righe di separazione le disegnano le CASELLE, non lo sfondo del contenitore.
+   Prima il contenitore era grigio e le caselle nere, e il grigio si vedeva nel `gap`:
+   funzionava finche' le caselle riempivano le righe. Da quando sono otto - copie,
+   platino e oro in piu' - l'ultima riga ne ha due e restavano quattro buchi grigi,
+   che sembravano un blocco vuoto invece di niente. Ogni casella si porta il filo a
+   destra e sotto, il contenitore quello sopra e a sinistra: cosi' il numero di
+   caselle non conta piu'. */
+.totali{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+  background:var(--nero);border-top:1px solid var(--riga);border-left:1px solid var(--riga);
+  border-radius:8px;overflow:hidden;margin-bottom:8px}
+.totale{background:var(--nero);padding:18px 16px;
+  border-right:1px solid var(--riga);border-bottom:1px solid var(--riga)}
+/* ⚠ `nowrap` e una misura piu' prudente: "1994→2018" e' la cifra piu' lunga della
+   riga e a 38px usciva dalla sua casella appena le colonne sono diventate sei. */
+.totale .cifra{font-family:'Anton',Arial,sans-serif;font-size:clamp(24px,3vw,34px);
+  line-height:1;font-variant-numeric:tabular-nums;white-space:nowrap}
 .totale .cifra .punto{color:var(--rosso)}
 .totale .eti{margin-top:7px;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;
   color:var(--debole);line-height:1.5}
 /* Le certificazioni prendono lo stesso oro e lo stesso argento delle targhette che
    stanno sulla pagina del disco: sono la stessa cosa contata, non un dato nuovo.
    Il pallino davanti all'etichetta e' il disco. */
+/* La fascia delle vendite: il numero piu' grosso che questa pagina ha da dire, e si
+   vede. Sta sopra la griglia e non dentro, perche' fra sei caselle uguali qualunque
+   cifra diventa una delle sei. */
+.vendite{padding:6px 0 26px}
+.vendite .cifra{font-family:'Anton',Arial,sans-serif;color:var(--rosso);
+  font-size:clamp(58px,13vw,132px);line-height:.92;letter-spacing:.01em;
+  font-variant-numeric:tabular-nums;white-space:nowrap}
+.vendite .cifra .mln{font-size:.3em;margin-left:.12em;letter-spacing:.06em;
+  color:var(--grigio);vertical-align:.35em}
+.vendite .eti{margin-top:10px;font-size:12px;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--grigio)}
 .totale.oro .cifra{color:#E8C86A}
 .totale.platino .cifra{color:#D9DEE6}
 .totale.oro .eti::before,.totale.platino .eti::before{content:"";display:inline-block;
@@ -131,17 +152,20 @@ footer a:hover{color:var(--bianco)}
 
   <div class="cartello">
     <h1>I numeri<span class="punto">.</span></h1>
-    <p class="sotto">Cosa viene fuori a contare le compilation mixate una per una: quante
-      sono, quanta musica ci è passata dentro, chi torna più spesso. Sono i dati
-      dimostrabili titolo per titolo — <b>quelle uscite senza credito in copertina non
-      ci sono</b>, e sono soprattutto serie degli anni '90.</p>
+    <!-- ⚠ Il paragrafo sotto il titolo l'ha fatto togliere Amerigo il 27/08/2026
+         (*"togli le info sotto il titolo i numeri"*), nello stesso giro in cui e' uscita
+         la nota sulla fonte dei dati e il dettaglio delle copie. La pagina adesso apre
+         sul numero delle vendite: e' quello il colpo, e ogni riga messa prima gli toglie
+         il posto. Le spiegazioni su cosa entra nel conto restano nel README. -->
   </div>
 
   <div id="pagina"><p class="caricando">carico i numeri…</p></div>
 
-  <p class="coda">Fonte dei dati: le schede Discogs delle singole uscite. "Presenze" conta
-    quante volte un artista è finito dentro una compilation: se lo stesso brano è passato
-    in tre, vale tre.</p>
+  <!-- ⚠ La nota "Fonte dei dati: le schede Discogs" l'ha fatta togliere Amerigo il
+       27/08/2026. Da quando in pagina ci sono anche le copie vendute, che Discogs non
+       ha e non avra' mai, quella riga era diventata falsa: diceva che tutto veniva da
+       li'. Se un domani serve rimettere una nota, va scritta per quello che la pagina
+       mostra davvero, non ricopiata da com'era. -->
 
 </main>
 
@@ -185,14 +209,30 @@ footer a:hover{color:var(--bianco)}
     var t = s.totali;
     var html = '';
 
+    html += copie(s.vendite);
     html += '<div class="totali">' +
       totale(num(t.compilation), 'compilation mixate') +
-      totale(num(t.tracce_totali), 'tracce in scaletta') +
+      /* ⚠ "tracce in scaletta" (2.177) tolta il 27/08/2026: *"metti solo il numero dei
+         brani diversi 1995"*. Erano due cifre quasi uguali una accanto all'altra - il
+         totale delle righe di scaletta e i titoli diversi - e chi legge non ha modo di
+         sapere quale delle due sta guardando. Resta quella che dice qualcosa: quanti
+         brani diversi sono passati. */
       totale(num(t.brani_unici), 'brani diversi') +
       totale(num(t.artisti), 'artisti') +
-      totale(t.primo_anno + '<span class="punto">→</span>' + t.ultimo_anno, 'anni di uscite') +
       certificate(s.certificazioni) +
       '</div>';
+
+    /* ⚠ Due cose tolte da Amerigo il 27/08/2026, appena viste in pagina.
+
+       La casella **1994→2018**: *"il numero 1994 2018 non e' utile"*. Non era un
+       numero, era un intervallo - non dice quanto, dice quando - e in una riga di
+       quantita' faceva rumore senza aggiungere niente. Gli anni si vedono gia' nel
+       blocco Anno per anno, dove sono una tabella e non una cifra grossa.
+
+       Il **dettaglio delle copie serie per serie**: resta il solo totale, in grande.
+       Il conto pero' continua a girare - `stime-vendite.json` e `stima_vendite()` in
+       costruisci.py - perche' il totale viene da li'. Per rimettere il blocco, i dati
+       sono in `s.vendite.serie`. */
 
     var maxA = s.top_artisti.length ? s.top_artisti[0].presenze : 1;
     html += blocco('Gli artisti più presenti', null,
@@ -243,6 +283,37 @@ footer a:hover{color:var(--bianco)}
     $pagina.innerHTML = html;
     document.getElementById('aggiornato').textContent =
       'Aggiornato al ' + s.aggiornato.split('-').reverse().join('/');
+  }
+
+  /* La casella apre la riga perche' e' il numero piu' grosso che questa pagina ha da
+     dire. L'etichetta porta "stima" con se': una cifra a sette cifre senza quella
+     parola si legge come un dato certificato, e non lo e'. */
+  /* ⚠ **Fuori dalla riga, non dentro.** Come una casella fra sette era un numero come
+     gli altri; *"rendi piu impattante il numero sulle vendite"* (Amerigo, 27/08/2026),
+     e l'unico modo vero di rendere impattante una cifra e' non metterle accanto sei
+     cifre uguali. Adesso e' una fascia sua sopra la griglia.
+
+     ⚠ **E senza la parola "stima"**: tolta da Amerigo nello stesso momento. Che siano
+     stime resta scritto dove i numeri stanno davvero - `stime-vendite.json`, con dentro
+     chi li ha dati e quando - e la pagina non lo ripete. Decisione sua: e' il suo
+     lavoro e sono i suoi dischi. */
+  function copie(v) {
+    if (!v || !v.totale) { return ''; }
+    /* In milioni, non in cifre: *"fai la somma totale e scriviamo tot mln di dischi
+       venduti"* (Amerigo, 27/08/2026), corretto subito dopo in **compilation** e non
+       dischi: quello che si contava e' quante copie di queste 90 uscite sono state
+       vendute, e chiamarle dischi le confondeva con i CD dentro le confezioni - il
+       vol.30 da solo e' tre CD. Gli ingredienti sono stime a scaglioni tondi -
+       20.000, 40.000 - e scrivere 2.860.000 darebbe a una somma di stime l'aria di un
+       dato contato uno per uno. I due decimali restano perche' sono la somma vera:
+       arrotondare a 2,9 sarebbe gonfiarla di quarantamila copie per fare piu' bella
+       figura. Il numero esatto sta nel blocco qui sotto, serie per serie. */
+    var mln = v.totale / 1000000;
+    var cifra = mln.toLocaleString('it-IT',
+      { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    return '<div class="vendite"><div class="cifra">' + cifra +
+      '<span class="mln">mln</span></div>' +
+      '<div class="eti">compilation vendute</div></div>';
   }
 
   /* Le certificazioni non stanno scritte: si contano dai premi dei dischi, e la
