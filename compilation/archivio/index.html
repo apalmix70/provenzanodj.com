@@ -278,7 +278,16 @@ footer a:hover{color:var(--bianco)}
         ultimo: anni.length ? Math.max.apply(null, anni) : 0,
         // fra due spazi e con le parole separate: la ricerca si attacca all'inizio
         // di una parola, non in mezzo (stessa regola dell'archivio Crossover)
-        cerca: ' ' + norm(b.t + ' ' + nomi.join(' ')) + ' ',
+        // ⚠ **Anche la ricerca libera guarda gli alias e i remixer.** Fino al
+        // 28/08/2026 qui c'era solo il titolo piu' i nomi in copertina: scrivendo
+        // "provenzano" nella casella non uscivano i pezzi firmati System3,
+        // Phunkerz, Double Dare - uscivano solo cliccando il nome dell'artista,
+        // che cerca con "artista:" e guarda un altro campo. *"Se nell'archivio
+        // compilation metto Provenzano gli alias non escono"* (Amerigo). Due
+        // caselle che rispondono in modo diverso alla stessa domanda erano un
+        // bug, non una scelta: adesso la ricerca libera e' titolo + tutto quello
+        // che c'e' in "cercabili".
+        cerca: ' ' + norm(b.t) + ' | ' + cercabili.map(norm).join(' | ') + ' ',
         // ⚠ **Un alias si cerca anche col nome della persona, ma non viceversa.**
         // "Hypertraxx" e "Carlo Marani" sono lo stesso uomo: cercando la persona
         // devono uscire anche i pezzi firmati col nome d'arte. Il contrario no -
