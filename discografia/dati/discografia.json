@@ -3053,7 +3053,7 @@
    "slug": "starlight",
    "titolo": "Starlight",
    "versioni": [
-    "Provenzano Rework"
+    "Provenzano Rework, + Mattei & Omich Remix"
    ],
    "data": null,
    "anno": 2014,
@@ -3064,7 +3064,7 @@
    ],
    "firma": null,
    "etichetta": null,
-   "nota": "inedito per la compilation: mai uscito a sé, stampato su m2o vol.37. Su Amazon Music sta dentro «M2o 37 — Are You Radio?», ASIN B00PLM41U2, come «Starlight (feat. Ruby Friedman) [Provenzano Rework]» di Provenzano & Macchi. Esiste anche un HJM Edit, ma quella che vale è la Provenzano Rework. Amerigo valuta di caricare l'audio su SoundCloud per avere il player",
+   "nota": "inedito per la compilation: mai uscito a sé, stampato su m2o vol.37. Su Amazon Music sta dentro «M2o 37 — Are You Radio?», ASIN B00PLM41U2, come «Starlight (feat. Ruby Friedman) [Provenzano Rework]» di Provenzano & Macchi. Esiste anche un HJM Edit, ma quella che vale è la Provenzano Rework. Sul suo profilo SoundCloud ci sono due versioni caricate: la Provenzano Rework e il Mattei & Omich Remix — non l'HJM. Player presi da lì il 29/08/2026. Amerigo valuta di caricare l'audio su SoundCloud per avere il player",
    "escluso": false,
    "da_guardare": false,
    "sezione": "2010 → 2019",
@@ -3080,7 +3080,16 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": [
+    {
+     "url": "https://soundcloud.com/provenzano_official/provenzano-macchi-featuring-1",
+     "cosa": "Provenzano Rework, la versione stampata su m2o vol.37"
+    },
+    {
+     "url": "https://soundcloud.com/provenzano_official/provenzano-macchi-featuring",
+     "cosa": "Mattei & Omich Remix"
+    }
+   ],
    "traxsource": null,
    "copertina": {
     "tipo": "compilation",
@@ -7913,7 +7922,7 @@
   "con_copertina": 179,
   "con_video": 42,
   "con_spotify": 54,
-  "con_soundcloud": 3,
+  "con_soundcloud": 4,
   "con_traxsource": 1,
   "in_compilation": 120,
   "primo_anno": 1994,
