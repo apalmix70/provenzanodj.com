@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-08-29",
+ "aggiornato": "2026-08-30",
  "numeri": {
   "etichette": [
    [
@@ -7449,7 +7449,14 @@
    "artista_diverso": [],
    "versioni_uscita": [],
    "spotify": null,
-   "video": null,
+   "video": {
+    "youtube": "dA3NZiomjqU",
+    "tipo": "audio",
+    "canale": "Andrea Masullo - Topic",
+    "titolo": "Breakin' The Heart (Provenzano Remix)",
+    "verticale": false,
+    "formato": null
+   },
    "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
@@ -8138,7 +8145,7 @@
   "remix": 62,
   "inediti": 36,
   "con_copertina": 179,
-  "con_video": 43,
+  "con_video": 44,
   "con_spotify": 56,
   "con_soundcloud": 5,
   "con_traxsource": 1,
