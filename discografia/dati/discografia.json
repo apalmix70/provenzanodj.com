@@ -7174,16 +7174,19 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "spotify": null,
+   "spotify": {
+    "tipo": "track",
+    "album": "5ye2bBTORol7IveIEqKT3K",
+    "titolo": "We Got A Love"
+   },
    "video": null,
    "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
-    "tipo": "compilation",
-    "file": "/compilation/cop/m2ovol29.jpg",
-    "da": "m2o vol.29"
+    "tipo": "propria",
+    "file": "cop/claudio-caccini-we-got-a-love.jpg"
    },
    "inedito": false,
    "anno_incerto": false
@@ -7287,7 +7290,11 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "spotify": null,
+   "spotify": {
+    "tipo": "track",
+    "album": "23TbHomi5YRr4YJWAbXD9T",
+    "titolo": "Party Go! (feat. Wendy D. Lewis)"
+   },
    "video": null,
    "video_altri": [],
    "soundcloud": null,
@@ -8148,7 +8155,7 @@
   "inediti": 36,
   "con_copertina": 179,
   "con_video": 46,
-  "con_spotify": 60,
+  "con_spotify": 62,
   "con_soundcloud": 6,
   "con_traxsource": 1,
   "con_apple": 2,
