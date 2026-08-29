@@ -7402,7 +7402,14 @@
     "album": "3ca8Z2Yaepvvn4hSVCBEVE",
     "titolo": "Party Don't Stop"
    },
-   "video": null,
+   "video": {
+    "youtube": "4fGULbbGZYo",
+    "tipo": "audio",
+    "canale": "Molto Recordings",
+    "titolo": "Party Don't Stop (Provenzano Remix)",
+    "verticale": false,
+    "formato": null
+   },
    "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
@@ -8127,7 +8134,7 @@
   "remix": 62,
   "inediti": 36,
   "con_copertina": 179,
-  "con_video": 42,
+  "con_video": 43,
   "con_spotify": 56,
   "con_soundcloud": 4,
   "con_traxsource": 1,
