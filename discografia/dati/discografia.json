@@ -7472,7 +7472,11 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://soundcloud.com/claudiocaccini/caccini-ft-carl-waterfall-provenzano-rmx",
+    "cosa": "il remix su SoundCloud, dal profilo di Claudio Caccini",
+    "perche": "caricato da Funkatomic aka Claudio Caccini, cioe' l'artista del pezzo originale. Link mandato da Amerigo il 29/08/2026. L'immagine della traccia su SoundCloud e' solo il logo m2o radio, quindi in pagina resta la copertina di m2o vol.38, il disco dove il remix e' stampato."
+   },
    "traxsource": null,
    "copertina": {
     "tipo": "compilation",
@@ -7909,7 +7913,7 @@
   "con_copertina": 179,
   "con_video": 42,
   "con_spotify": 54,
-  "con_soundcloud": 2,
+  "con_soundcloud": 3,
   "con_traxsource": 1,
   "in_compilation": 120,
   "primo_anno": 1994,
