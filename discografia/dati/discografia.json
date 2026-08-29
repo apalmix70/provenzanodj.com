@@ -380,7 +380,10 @@
    },
    "inedito": false,
    "anno_incerto": false,
-   "nota_pubblica": "È la prima uscita in assoluto di Provenzano Dj. La copertina e il logo del progetto li ha disegnati lui, a mano."
+   "nota_pubblica": {
+    "forte": "La prima uscita in assoluto.",
+    "testo": "Copertina e logo di Double Dare disegnati da lui, a mano."
+   }
   },
   {
    "tipo": "produzione",
