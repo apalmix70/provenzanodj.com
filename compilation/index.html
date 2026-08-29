@@ -156,8 +156,8 @@ footer a:hover{color:var(--bianco)}
 
   <div class="cartello">
     <h1>Compilation<span class="punto">.</span></h1>
-    <p class="sotto">In questa pagina trovi tutte le compilation mixate e selezionate
-      da <b>Provenzano</b>: dai <b>40 volumi</b> di
+    <p class="sotto">In questa pagina trovi tutte le <b><span id="quante">90</span>
+      compilation</b> mixate e selezionate da <b>Provenzano</b>: dai <b>40 volumi</b> di
       <b><span class="m2o">m2o</span> compilation</b>, la serie <b><span class="m2o">m2o</span>
       Xperience</b> e i <b>DualDisc</b>, alle serie degli anni '90 firmate <b>Bolognesi
       &amp; Provenzano</b>. Clicca una copertina per vedere la tracklist, oppure scrivi il
@@ -239,6 +239,13 @@ footer a:hover{color:var(--bianco)}
   function prepara(p) {
     firmaCop = p.cop ? ('?v=' + p.cop) : '';
     dati = p;
+
+    /* ⚠️ **Quante sono lo dice il database, non la frase.** Il numero e' scritto
+       anche nell'HTML cosi' la pagina si legge prima che il json arrivi, ma appena
+       arriva vince lui: una compilation in piu' domani non deve lasciare in cima
+       una cifra vecchia. */
+    var $quante = document.getElementById('quante');
+    if ($quante) $quante.textContent = p.compilation.length;
 
     // ⚠️ **Il muro cerca anche dentro le tracklist.** *"Qui dice cerca un titolo,
     // forse si dovrebbe poter cercare anche il titolo di un brano"* (Amerigo,
