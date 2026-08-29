@@ -4,7 +4,7 @@
   "etichette": [
    [
     "Netswork Records",
-    9
+    10
    ],
    [
     "Ego",
@@ -7080,42 +7080,6 @@
   },
   {
    "tipo": "remix",
-   "slug": "liviu-hodor-feat-mona-sweet-love",
-   "artista": "Liviu Hodor feat. Mona",
-   "titolo": "Sweet Love",
-   "data": null,
-   "anno": 2012,
-   "data_esatta": false,
-   "firma": "PDJ & Felipe C",
-   "etichetta": null,
-   "nota": null,
-   "escluso": false,
-   "sezione": "Remix",
-   "in_compilation": [
-    {
-     "slug": "m2ovol29",
-     "titolo": "m2o vol.29",
-     "anno": 2012,
-     "come": "Sweet Love (Provenzano DJ & Felipe C. Remix)"
-    }
-   ],
-   "artista_diverso": [],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": null,
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "propria",
-    "file": "cop/liviu-hodor-feat-mona-sweet-love.jpg"
-   },
-   "inedito": false,
-   "anno_incerto": false
-  },
-  {
-   "tipo": "remix",
    "slug": "jack-ross-ricky-castelli-ldb-la19-criminal-4-love",
    "artista": "Jack Ross, Ricky Castelli, LDB, LA19",
    "titolo": "Criminal 4 Love",
@@ -7137,6 +7101,46 @@
    "traxsource": null,
    "apple": null,
    "copertina": null,
+   "inedito": false,
+   "anno_incerto": false
+  },
+  {
+   "tipo": "remix",
+   "slug": "liviu-hodor-feat-mona-sweet-love",
+   "artista": "Liviu Hodor feat. Mona",
+   "titolo": "Sweet Love",
+   "data": "2012-03-27",
+   "anno": 2012,
+   "data_esatta": true,
+   "firma": "PDJ & Felipe C",
+   "etichetta": "Netswork Records",
+   "nota": "fonte Beatport, 30/08/2026: «Sweet Love (feat. Mona)», Provenzano & Felipe C Remix, ISRC ROCMA1208944. L'originale rumeno è del 2011 su Cat Music; questa è l'uscita italiana",
+   "escluso": false,
+   "sezione": "Remix",
+   "in_compilation": [
+    {
+     "slug": "m2ovol29",
+     "titolo": "m2o vol.29",
+     "anno": 2012,
+     "come": "Sweet Love (Provenzano DJ & Felipe C. Remix)"
+    }
+   ],
+   "artista_diverso": [],
+   "versioni_uscita": [],
+   "spotify": {
+    "tipo": "track",
+    "album": "2cXqoBe9L54UZZBGixKmFO",
+    "titolo": "Sweet Love"
+   },
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "propria",
+    "file": "cop/liviu-hodor-feat-mona-sweet-love.jpg"
+   },
    "inedito": false,
    "anno_incerto": false
   },
@@ -8126,7 +8130,7 @@
   "inediti": 36,
   "con_copertina": 178,
   "con_video": 45,
-  "con_spotify": 57,
+  "con_spotify": 58,
   "con_soundcloud": 6,
   "con_traxsource": 1,
   "con_apple": 2,
