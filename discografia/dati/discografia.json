@@ -2278,11 +2278,20 @@
     }
    ],
    "versioni_uscita": [],
-   "spotify": {
-    "tipo": "album",
-    "album": "17oaXIlbXQgLf7wqJkFz6h",
-    "titolo": "Rock Some Noise"
-   },
+   "spotify": [
+    {
+     "tipo": "album",
+     "album": "17oaXIlbXQgLf7wqJkFz6h",
+     "titolo": "Rock Some Noise",
+     "cosa": null
+    },
+    {
+     "tipo": "album",
+     "album": "2TTDsOMql783yHNM7XmAjy",
+     "titolo": "Rock Some Noise",
+     "cosa": "i remix: Danilo Seclì, Da Brozz, Baby Bitcher & Rudeejay"
+    }
+   ],
    "video": {
     "youtube": "XytDufV3Ung",
     "tipo": "ufficiale",
@@ -3185,7 +3194,8 @@
    "spotify": {
     "tipo": "track",
     "album": "6m7BUzVvsLDY2WXkSSW0OL",
-    "titolo": "You And Me"
+    "titolo": "You And Me",
+    "cosa": null
    },
    "video": {
     "youtube": "PQA05XdI3yw",
@@ -4169,7 +4179,8 @@
    "spotify": {
     "tipo": "album",
     "album": "6XR1grKYnLBCdD9faYstFY",
-    "titolo": "Saxophone"
+    "titolo": "Saxophone",
+    "cosa": null
    },
    "video": null,
    "video_altri": [],
@@ -5267,7 +5278,8 @@
    "spotify": {
     "tipo": "track",
     "album": "45autG3w9G3ZpDyXMs9Hwb",
-    "titolo": "LEWA"
+    "titolo": "LEWA",
+    "cosa": null
    },
    "video": null,
    "video_altri": [],
@@ -7097,7 +7109,8 @@
    "spotify": {
     "tipo": "track",
     "album": "4Bp9wHXmYsThkGmmKGoCRC",
-    "titolo": "Criminal 4 Love"
+    "titolo": "Criminal 4 Love",
+    "cosa": null
    },
    "video": null,
    "video_altri": [],
@@ -7137,7 +7150,8 @@
    "spotify": {
     "tipo": "track",
     "album": "2cXqoBe9L54UZZBGixKmFO",
-    "titolo": "Sweet Love"
+    "titolo": "Sweet Love",
+    "cosa": null
    },
    "video": null,
    "video_altri": [],
@@ -7177,7 +7191,8 @@
    "spotify": {
     "tipo": "track",
     "album": "5ye2bBTORol7IveIEqKT3K",
-    "titolo": "We Got A Love"
+    "titolo": "We Got A Love",
+    "cosa": null
    },
    "video": null,
    "video_altri": [],
@@ -7253,7 +7268,8 @@
    "spotify": {
     "tipo": "track",
     "album": "6KMvjoLsxlvSanyy9fIql4",
-    "titolo": "You Got To Release"
+    "titolo": "You Got To Release",
+    "cosa": null
    },
    "video": null,
    "video_altri": [],
@@ -7293,7 +7309,8 @@
    "spotify": {
     "tipo": "track",
     "album": "23TbHomi5YRr4YJWAbXD9T",
-    "titolo": "Party Go! (feat. Wendy D. Lewis)"
+    "titolo": "Party Go! (feat. Wendy D. Lewis)",
+    "cosa": null
    },
    "video": null,
    "video_altri": [],
@@ -7406,7 +7423,8 @@
    "spotify": {
     "tipo": "track",
     "album": "3ca8Z2Yaepvvn4hSVCBEVE",
-    "titolo": "Party Don't Stop"
+    "titolo": "Party Don't Stop",
+    "cosa": null
    },
    "video": {
     "youtube": "4fGULbbGZYo",
@@ -7780,7 +7798,8 @@
    "spotify": {
     "tipo": "track",
     "album": "17fdADR6a0p3fk3m88bvhn",
-    "titolo": "Drop The Bass"
+    "titolo": "Drop The Bass",
+    "cosa": null
    },
    "video": {
     "youtube": "M82IhJrYdmw",
@@ -7864,7 +7883,8 @@
    "spotify": {
     "tipo": "track",
     "album": "3188je1TP0EUFtP3GT91kh",
-    "titolo": "Canta Canta"
+    "titolo": "Canta Canta",
+    "cosa": null
    },
    "video": null,
    "video_altri": [],
