@@ -7320,13 +7320,7 @@
    "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
-   "apple": {
-    "album": "1722385284",
-    "traccia": "1722385286",
-    "nome": "party-go-feat-wendy-d-lewis-ep",
-    "cosa": "il suo remix su Apple Music",
-    "perche": "l'EP ha cinque versioni: la 2 e' il Provenzano Remix (1722385286) e la 5 il suo Radio Edit (1722385290). Si punta al Remix, la stessa versione del player Spotify. Da qui viene anche la copertina, che su Beatport era un link morto. Link mandato da Amerigo il 30/08/2026."
-   },
+   "apple": null,
    "copertina": {
     "tipo": "propria",
     "file": "cop/andrea-masullo-party-go-feat-wendy-d-lewis.jpg"
@@ -8187,7 +8181,7 @@
   "con_spotify": 63,
   "con_soundcloud": 6,
   "con_traxsource": 1,
-  "con_apple": 3,
+  "con_apple": 2,
   "in_compilation": 120,
   "primo_anno": 1994,
   "ultimo_anno": 2026
