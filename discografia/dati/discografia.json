@@ -7553,7 +7553,11 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://soundcloud.com/hjm/george-acosta-and-henry-john-1",
+    "cosa": "il remix su SoundCloud, dal profilo di Henry John Morgan",
+    "perche": "caricato da HJM promotion, cioe' uno dei due artisti del pezzo originale. Link mandato da Amerigo il 29/08/2026."
+   },
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -8147,7 +8151,7 @@
   "con_copertina": 179,
   "con_video": 44,
   "con_spotify": 56,
-  "con_soundcloud": 5,
+  "con_soundcloud": 6,
   "con_traxsource": 1,
   "con_apple": 2,
   "in_compilation": 120,
