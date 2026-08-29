@@ -6948,7 +6948,12 @@
    "in_compilation": [],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "spotify": null,
+   "spotify": {
+    "tipo": "track",
+    "album": "2ODlMgsse68GgeJjKSSyNI",
+    "titolo": "La Musica Tremenda",
+    "cosa": null
+   },
    "video": null,
    "video_altri": [],
    "soundcloud": null,
@@ -8179,7 +8184,7 @@
   "inediti": 36,
   "con_copertina": 179,
   "con_video": 46,
-  "con_spotify": 62,
+  "con_spotify": 63,
   "con_soundcloud": 6,
   "con_traxsource": 1,
   "con_apple": 3,
