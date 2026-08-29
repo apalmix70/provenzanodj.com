@@ -211,7 +211,7 @@
     1
    ]
   ],
-  "quante_etichette": 63,
+  "quante_etichette": 64,
   "piu_compilation": [
    {
     "titolo": "I Believe",
@@ -6871,43 +6871,6 @@
   },
   {
    "tipo": "remix",
-   "slug": "leonia-fantasy",
-   "artista": "Leonia",
-   "titolo": "Fantasy",
-   "data": null,
-   "anno": 2011,
-   "data_esatta": false,
-   "firma": "Provenzano",
-   "etichetta": null,
-   "nota": "ritrovata nel database delle compilation, stampata su m2o vol.27; anno non confermato",
-   "escluso": false,
-   "sezione": "Remix",
-   "in_compilation": [
-    {
-     "slug": "m2ovol27",
-     "titolo": "m2o vol.27",
-     "anno": 2011,
-     "come": "Fantasy (Provenzano DJ Remix)"
-    }
-   ],
-   "artista_diverso": [],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": null,
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "compilation",
-    "file": "/compilation/cop/m2ovol27.jpg",
-    "da": "m2o vol.27"
-   },
-   "inedito": false,
-   "anno_incerto": true
-  },
-  {
-   "tipo": "remix",
    "slug": "andrea-paci-and-francesco-ienco-feat-andrea-love-twilight",
    "artista": "Andrea Paci & Francesco Ienco feat. Andrea Love",
    "titolo": "Twilight",
@@ -6962,6 +6925,47 @@
    "copertina": {
     "tipo": "propria",
     "file": "cop/pee4tee-feat-emmanuela-la-musica-tremenda.jpg"
+   },
+   "inedito": false,
+   "anno_incerto": false
+  },
+  {
+   "tipo": "remix",
+   "slug": "leonia-fantasy",
+   "artista": "Leonia",
+   "titolo": "Fantasy",
+   "data": "2011-05-26",
+   "anno": 2011,
+   "data_esatta": true,
+   "firma": "Provenzano",
+   "etichetta": "Engroove",
+   "nota": "ritrovata nel database delle compilation, stampata su m2o vol.27. Data, etichetta e copertina vengono da Spotify il 30/08/2026 — su Beatport Leonia non è in catalogo: il suo remix è la traccia 7 dell'album «FANTASY», accreditata «Remix Version by Amerigo Provenzano Dj»",
+   "escluso": false,
+   "sezione": "Remix",
+   "in_compilation": [
+    {
+     "slug": "m2ovol27",
+     "titolo": "m2o vol.27",
+     "anno": 2011,
+     "come": "Fantasy (Provenzano DJ Remix)"
+    }
+   ],
+   "artista_diverso": [],
+   "versioni_uscita": [],
+   "spotify": {
+    "tipo": "track",
+    "album": "6ghSLGt2o9ozzb1WHelyBO",
+    "titolo": "Fantasy",
+    "cosa": null
+   },
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "propria",
+    "file": "cop/leonia-fantasy.jpg"
    },
    "inedito": false,
    "anno_incerto": false
@@ -8178,7 +8182,7 @@
   "inediti": 36,
   "con_copertina": 179,
   "con_video": 46,
-  "con_spotify": 63,
+  "con_spotify": 64,
   "con_soundcloud": 6,
   "con_traxsource": 1,
   "con_apple": 2,
