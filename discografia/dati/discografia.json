@@ -54,7 +54,7 @@
   "anni": [
    [
     2012,
-    18
+    17
    ],
    [
     2013,
@@ -104,7 +104,7 @@
    ],
    [
     2010,
-    94
+    93
    ],
    [
     2020,
@@ -2189,38 +2189,6 @@
    "copertina": {
     "tipo": "propria",
     "file": "cop/mariguana-cha-cha-cha.jpg"
-   },
-   "inedito": false,
-   "anno_incerto": false
-  },
-  {
-   "tipo": "produzione",
-   "slug": "fantasia",
-   "titolo": "Fantasia",
-   "versioni": [],
-   "data": null,
-   "anno": 2012,
-   "data_esatta": false,
-   "con": [
-    "Alex Addea"
-   ],
-   "firma": null,
-   "etichetta": null,
-   "nota": "l'anno viene dalla comp. m2o dell'estate 2012, dove però è accreditata «Fuck 'n' Size & Alex Addea»",
-   "escluso": false,
-   "da_guardare": false,
-   "sezione": "2010 → 2019",
-   "in_compilation": [],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": null,
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "propria",
-    "file": "cop/fantasia.jpg"
    },
    "inedito": false,
    "anno_incerto": false
@@ -8096,7 +8064,7 @@
    "remix": 7
   },
   "2012": {
-   "singoli": 10,
+   "singoli": 9,
    "remix": 8
   },
   "2011": {
@@ -8153,10 +8121,10 @@
   }
  },
  "totali": {
-  "singoli": 125,
+  "singoli": 124,
   "remix": 62,
   "inediti": 36,
-  "con_copertina": 179,
+  "con_copertina": 178,
   "con_video": 45,
   "con_spotify": 56,
   "con_soundcloud": 6,
