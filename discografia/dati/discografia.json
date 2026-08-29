@@ -355,11 +355,20 @@
      "slug": "i-believe-remix"
     }
    ],
-   "spotify": {
-    "tipo": "album",
-    "album": "5ndWzDe7ySF2z4lZY2CfIQ",
-    "titolo": "I Believe (Paradise Orchestra Remix)"
-   },
+   "spotify": [
+    {
+     "tipo": "album",
+     "album": "5O4kTIUGDI4YyJ4BpkelHY",
+     "titolo": "I Believe",
+     "cosa": null
+    },
+    {
+     "tipo": "album",
+     "album": "5ndWzDe7ySF2z4lZY2CfIQ",
+     "titolo": "I Believe",
+     "cosa": "il remix di Paradise Orchestra"
+    }
+   ],
    "video": null,
    "video_altri": [],
    "soundcloud": null,
@@ -370,7 +379,8 @@
     "file": "cop/i-believe.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": "È la prima uscita in assoluto di Provenzano Dj. La copertina e il logo del progetto li ha disegnati lui, a mano."
   },
   {
    "tipo": "produzione",
@@ -408,7 +418,8 @@
     "da": "Hit Mania Dance 3"
    },
    "inedito": false,
-   "anno_incerto": true
+   "anno_incerto": true,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -457,7 +468,8 @@
     "file": "cop/take-me-over-d-d-why.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -504,7 +516,8 @@
     "file": "cop/we-belong.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -545,7 +558,8 @@
     "file": "cop/take-me-to-the-river.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -577,7 +591,8 @@
     "file": "cop/un-altro-giorno-e-gia-andato.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -627,7 +642,8 @@
     "file": "cop/believe-in-me.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -662,7 +678,8 @@
     "file": "cop/feel-the-force.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -722,7 +739,8 @@
     "file": "cop/funny-day.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -763,7 +781,8 @@
     "file": "cop/go-go-to-the-disco.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -795,7 +814,8 @@
     "file": "cop/le-canzoni-dell-estate.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -833,7 +853,8 @@
     "da": "m2o vol.5"
    },
    "inedito": true,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -884,7 +905,8 @@
     "file": "cop/sound-is-back.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -929,7 +951,8 @@
     "file": "cop/let-me-be.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -980,7 +1003,8 @@
     "file": "cop/running-up-it-s-gonna-be.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -1018,7 +1042,8 @@
     "da": "m2o vol.8"
    },
    "inedito": true,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -1062,7 +1087,8 @@
     "da": "[Jump]² The Dancefloor Vol. 1"
    },
    "inedito": true,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -1100,7 +1126,8 @@
     "da": "m2o vol.8"
    },
    "inedito": true,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -1145,7 +1172,8 @@
     "file": "cop/vibe.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -1202,7 +1230,8 @@
     "da": "[Jump]² The Dancefloor Vol. 1"
    },
    "inedito": true,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -1253,7 +1282,8 @@
     "da": "[Jump]² The Dancefloor Vol. 3"
    },
    "inedito": true,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -1306,7 +1336,8 @@
     "da": "[Jump]² The Dancefloor Vol. 4"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -1345,7 +1376,8 @@
     "file": "cop/i-m-waiting.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -1387,7 +1419,8 @@
     "da": "m2o vol.15"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -1431,7 +1464,8 @@
     "da": "[Jump]² The Dancefloor Vol. 4"
    },
    "inedito": true,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -1469,7 +1503,8 @@
     "da": "m2o vol.15"
    },
    "inedito": true,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -1509,7 +1544,8 @@
     "da": "m2o vol.16"
    },
    "inedito": true,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -1547,7 +1583,8 @@
     "da": "m2o vol.17"
    },
    "inedito": true,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -1586,7 +1623,8 @@
     "file": "cop/chains-of-love.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -1629,7 +1667,8 @@
     "file": "cop/midory-shower.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -1678,7 +1717,8 @@
     "file": "cop/devotion.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -1724,7 +1764,8 @@
     "da": "[Jump]² The Dancefloor Vol. 4"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -1763,7 +1804,8 @@
     "file": "cop/a-r-i-a.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -1803,7 +1845,8 @@
     "da": "m2o vol.19"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -1852,7 +1895,8 @@
     "file": "cop/life-goes-on.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -1900,7 +1944,8 @@
     "file": "cop/side-by-side.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -1944,7 +1989,8 @@
     "file": "cop/amazing.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -1982,7 +2028,8 @@
     "da": "m2o vol.24"
    },
    "inedito": true,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -2027,7 +2074,8 @@
     "file": "cop/you-can-t-stop-the-love.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -2065,7 +2113,8 @@
     "da": "m2o vol.27"
    },
    "inedito": true,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -2103,7 +2152,8 @@
     "da": "m2o vol.28"
    },
    "inedito": true,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -2141,7 +2191,8 @@
     "da": "m2o vol.28"
    },
    "inedito": true,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -2191,7 +2242,8 @@
     "file": "cop/mariguana-cha-cha-cha.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -2250,7 +2302,8 @@
     "file": "cop/turn-you-on.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -2309,7 +2362,8 @@
     "file": "cop/rock-some-noise.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -2347,7 +2401,8 @@
     "da": "m2o vol.29"
    },
    "inedito": true,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -2385,7 +2440,8 @@
     "da": "m2o vol.29"
    },
    "inedito": true,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -2423,7 +2479,8 @@
     "da": "m2o vol.30"
    },
    "inedito": true,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -2461,7 +2518,8 @@
     "da": "m2o vol.31"
    },
    "inedito": true,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -2505,7 +2563,8 @@
     "file": "cop/cattivik.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -2555,7 +2614,8 @@
     "file": "cop/you-re.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -2605,7 +2665,8 @@
     "file": "cop/tiger.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -2652,7 +2713,8 @@
     "da": "m2o vol.33"
    },
    "inedito": false,
-   "anno_incerto": true
+   "anno_incerto": true,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -2690,7 +2752,8 @@
     "da": "m2o vol.32"
    },
    "inedito": true,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -2728,7 +2791,8 @@
     "da": "m2o vol.32"
    },
    "inedito": true,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -2766,7 +2830,8 @@
     "da": "m2o vol.34"
    },
    "inedito": true,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -2824,7 +2889,8 @@
     "file": "cop/touch-the-sky.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -2882,7 +2948,8 @@
     "file": "cop/mash-app.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -2923,7 +2990,8 @@
     "file": "cop/stormy-winds.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -2967,7 +3035,8 @@
     "file": "cop/drop-da-beat.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -3020,7 +3089,8 @@
     "file": "cop/believe-in-me-2014.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -3064,7 +3134,8 @@
     "da": "m2o vol.36"
    },
    "inedito": true,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -3116,7 +3187,8 @@
     "da": "m2o vol.37"
    },
    "inedito": true,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -3155,7 +3227,8 @@
     "file": "cop/just-the-way-you-are.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -3214,7 +3287,8 @@
     "file": "cop/you-and-me.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -3252,7 +3326,8 @@
     "file": "cop/mundoo.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -3293,7 +3368,8 @@
     "file": "cop/gorbaciov.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -3343,7 +3419,8 @@
     "file": "cop/take-your-breath.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -3379,7 +3456,8 @@
     "file": "cop/mork.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -3417,7 +3495,8 @@
     "da": "m2o vol.38"
    },
    "inedito": true,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -3455,7 +3534,8 @@
     "da": "m2o vol.38"
    },
    "inedito": true,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -3493,7 +3573,8 @@
     "da": "m2o vol.39"
    },
    "inedito": true,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -3531,7 +3612,8 @@
     "da": "m2o vol.40"
    },
    "inedito": true,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -3584,7 +3666,8 @@
     "file": "cop/party-with-you.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -3713,7 +3796,8 @@
     "file": "cop/ain-t-no-sunshine.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -3765,7 +3849,8 @@
     "file": "cop/sunshine-and-happiness.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -3809,7 +3894,8 @@
     "file": "cop/calling-you.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -3857,7 +3943,8 @@
     "file": "cop/what-about.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -3895,7 +3982,8 @@
     "da": "m2o Music Xperience"
    },
    "inedito": true,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -3933,7 +4021,8 @@
     "da": "m2o Winter Xperience"
    },
    "inedito": true,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -3986,7 +4075,8 @@
     "file": "cop/we-are-one.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -4035,7 +4125,8 @@
     "file": "cop/bam-bam.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -4073,7 +4164,8 @@
     "da": "m2o Summer Xperience"
    },
    "inedito": true,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -4111,7 +4203,8 @@
     "da": "m2o Winter Xperience"
    },
    "inedito": true,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -4192,7 +4285,8 @@
     "file": "cop/saxophone.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -4245,7 +4339,8 @@
     "file": "cop/folegandros.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -4283,7 +4378,8 @@
     "da": "IBIZA UNLIMITED"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -4326,7 +4422,8 @@
     "file": "cop/serifos.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -4364,7 +4461,8 @@
     "da": "m2o Dance Xperience"
    },
    "inedito": true,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -4402,7 +4500,8 @@
     "da": "m2o Dance Xperience"
    },
    "inedito": true,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -4440,7 +4539,8 @@
     "da": "m2o Summer Xperience"
    },
    "inedito": true,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -4478,7 +4578,8 @@
     "da": "m2o Winter Xperience"
    },
    "inedito": true,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -4516,7 +4617,8 @@
     "da": "m2o Winter Xperience"
    },
    "inedito": true,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -4568,7 +4670,8 @@
     "file": "cop/babele.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -4612,7 +4715,8 @@
     "file": "cop/a-little-higher.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -4656,7 +4760,8 @@
     "file": "cop/gig.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -4694,7 +4799,8 @@
     "file": "cop/crazy.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -4732,7 +4838,8 @@
     "file": "cop/venus.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -4770,7 +4877,8 @@
     "file": "cop/katmandu.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -4806,7 +4914,8 @@
     "file": "cop/to-the-top.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -4847,7 +4956,8 @@
     "file": "cop/canzoni-dell-estate-2022.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -4885,7 +4995,8 @@
     "file": "cop/el-sol.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -4931,7 +5042,8 @@
     "file": "cop/next-to-you.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -4971,7 +5083,8 @@
     "file": "cop/everybody.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -5008,7 +5121,8 @@
     "file": "cop/la-trompeta.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -5045,7 +5159,8 @@
     "file": "cop/faded.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -5089,7 +5204,8 @@
     "file": "cop/run-run-run.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -5136,7 +5252,8 @@
     "file": "cop/conga.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -5179,7 +5296,8 @@
     "file": "cop/show-me-love.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -5216,7 +5334,8 @@
     "file": "cop/santa-fe.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -5252,7 +5371,8 @@
     "file": "cop/gnor.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -5291,7 +5411,8 @@
     "file": "cop/lewa.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -5332,7 +5453,8 @@
     "file": "cop/super-paradise.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -5371,7 +5493,8 @@
     "file": "cop/barranquilla.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -5410,7 +5533,8 @@
     "file": "cop/life-is-so-strong.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -5448,7 +5572,8 @@
     "file": "cop/easy.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -5486,7 +5611,8 @@
     "file": "cop/feel-so-long.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -5531,7 +5657,8 @@
     "file": "cop/malawi.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -5576,7 +5703,8 @@
     "file": "cop/tiki-taka.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -5619,7 +5747,8 @@
     "file": "cop/la-playa.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -5662,7 +5791,8 @@
     "file": "cop/anima-libera.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -5698,7 +5828,8 @@
     "file": "cop/la-flauta-magica.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -5742,7 +5873,8 @@
     "file": "cop/baila.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "produzione",
@@ -5772,7 +5904,8 @@
    "apple": null,
    "copertina": null,
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   }
  ],
  "remix": [
@@ -5803,7 +5936,8 @@
     "file": "cop/leandro-barsotti-voglio-che-mi-ami-mi-piace.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -5832,7 +5966,8 @@
     "file": "cop/enrico-sognato-tra-le-gambe-tue.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -5861,7 +5996,8 @@
     "file": "cop/mauro-bandini-abc.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -5890,7 +6026,8 @@
     "file": "cop/liotti-dimmi-parole.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -5919,7 +6056,8 @@
     "file": "cop/clubraiders-move-your-hands-up.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -5948,7 +6086,8 @@
     "file": "cop/zero-assoluto-semplicemente.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -5977,7 +6116,8 @@
     "file": "cop/crazy-frog-crazy-hits-crazy-christmas-edition.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -6006,7 +6146,8 @@
     "file": "cop/haiducii-more-n-more-i-love-you.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -6048,7 +6189,8 @@
     "file": "cop/manu-l-j-feel-alright.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -6085,7 +6227,8 @@
     "da": "Altromondo Compilation"
    },
    "inedito": false,
-   "anno_incerto": true
+   "anno_incerto": true,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -6121,7 +6264,8 @@
     "file": "cop/sophie-c-est-l-amour.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -6150,7 +6294,8 @@
     "file": "cop/danijay-dance-and-breakfast.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -6186,7 +6331,8 @@
     "file": "cop/manu-l-j-until-the-morning.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -6212,7 +6358,8 @@
    "apple": null,
    "copertina": null,
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -6248,7 +6395,8 @@
     "file": "cop/be-angel-don-t-close-your-eyes.jpg"
    },
    "inedito": false,
-   "anno_incerto": true
+   "anno_incerto": true,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -6285,7 +6433,8 @@
     "da": "[Jump]² The Dancefloor Vol. 2"
    },
    "inedito": false,
-   "anno_incerto": true
+   "anno_incerto": true,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -6327,7 +6476,8 @@
     "file": "cop/be-angel-feat-dee-bee-say-you-love-me.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -6364,7 +6514,8 @@
     "da": "[Jump]² The Dancefloor Vol. 4"
    },
    "inedito": false,
-   "anno_incerto": true
+   "anno_incerto": true,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -6400,7 +6551,8 @@
     "file": "cop/fiorello-and-baldini-chi-siamo-noi.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -6429,7 +6581,8 @@
     "file": "cop/juice-string-sex-weed.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -6466,7 +6619,8 @@
     "da": "m2o vol.18"
    },
    "inedito": false,
-   "anno_incerto": true
+   "anno_incerto": true,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -6495,7 +6649,8 @@
     "file": "cop/falaska-contest-once-again.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -6533,7 +6688,8 @@
    "apple": null,
    "copertina": null,
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -6575,7 +6731,8 @@
     "file": "cop/axwell-ingrosso-angello-laidback-luke-feat-deborah-cox-leave-the-world-behind.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -6604,7 +6761,8 @@
     "file": "cop/falaska-contest-enjoy-the-silence.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -6633,7 +6791,8 @@
     "file": "cop/be-angel-sunshine-child.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -6670,7 +6829,8 @@
     "da": "m2o vol.22"
    },
    "inedito": false,
-   "anno_incerto": true
+   "anno_incerto": true,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -6707,7 +6867,8 @@
     "da": "m2o vol.22"
    },
    "inedito": false,
-   "anno_incerto": true
+   "anno_incerto": true,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -6743,7 +6904,8 @@
     "file": "cop/fedde-le-grand-feat-mitch-crown-scared-of-me.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -6769,7 +6931,8 @@
    "apple": null,
    "copertina": null,
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -6805,7 +6968,8 @@
     "file": "cop/dabruck-and-klein-feat-michael-feiner-the-feeling.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -6841,7 +7005,8 @@
     "file": "cop/fedde-le-grand-feat-mr-v-back-and-forth.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -6867,7 +7032,8 @@
    "apple": null,
    "copertina": null,
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -6901,7 +7067,8 @@
     "file": "cop/pee4tee-feat-emmanuela-la-musica-tremenda.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -6935,7 +7102,8 @@
     "file": "cop/monnalisa-non-ce-l-hai.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -6976,7 +7144,8 @@
     "file": "cop/leonia-fantasy.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -7005,7 +7174,8 @@
     "file": "cop/luca-ruco-feat-sherrita-just-believe.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -7034,7 +7204,8 @@
     "file": "cop/edward-maya-feat-vika-jigulina-desert-rain.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -7075,7 +7246,8 @@
     "file": "cop/luca-ruco-i-like-it.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -7109,7 +7281,8 @@
     "file": "cop/jack-ross-ricky-castelli-ldb-la19-criminal-4-love.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -7150,7 +7323,8 @@
     "file": "cop/liviu-hodor-feat-mona-sweet-love.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -7191,7 +7365,8 @@
     "file": "cop/claudio-caccini-we-got-a-love.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -7227,7 +7402,8 @@
     "file": "cop/andrea-masullo-chaka-blackmon-dream-girl.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -7270,7 +7446,8 @@
     "file": "cop/falaska-contest-i-can-change.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -7304,7 +7481,8 @@
     "file": "cop/samuele-sartini-and-peyton-you-got-to-release.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -7345,7 +7523,8 @@
     "file": "cop/andrea-masullo-party-go-feat-wendy-d-lewis.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -7382,7 +7561,8 @@
     "da": "m2o vol.34"
    },
    "inedito": false,
-   "anno_incerto": true
+   "anno_incerto": true,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -7424,7 +7604,8 @@
     "file": "cop/claudio-caccini-and-cece-rogers-fly-away.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -7469,7 +7650,8 @@
     "file": "cop/sergio-mauri-feat-shelly-poole-party-don-t-stop.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -7512,7 +7694,8 @@
     "file": "cop/andrea-masullo-breakin-the-heart.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -7541,7 +7724,8 @@
     "file": "cop/andrea-masullo-bringing-me-down.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -7577,7 +7761,8 @@
     "file": "cop/don-cash-and-baudo-ahi-na-ma.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -7610,7 +7795,8 @@
     "file": "cop/george-acosta-and-henry-john-morgan-sicko.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -7647,7 +7833,8 @@
     "da": "m2o vol.35"
    },
    "inedito": false,
-   "anno_incerto": true
+   "anno_incerto": true,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -7684,7 +7871,8 @@
     "da": "m2o vol.36"
    },
    "inedito": false,
-   "anno_incerto": true
+   "anno_incerto": true,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -7721,7 +7909,8 @@
     "da": "m2o vol.36"
    },
    "inedito": false,
-   "anno_incerto": true
+   "anno_incerto": true,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -7762,7 +7951,8 @@
     "da": "m2o vol.38"
    },
    "inedito": false,
-   "anno_incerto": true
+   "anno_incerto": true,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -7799,7 +7989,8 @@
     "da": "m2o Summer Xperience"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -7840,7 +8031,8 @@
     "file": "cop/robbie-rivera-drop-the-bass.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -7877,7 +8069,8 @@
     "da": "m2o Summer Xperience"
    },
    "inedito": false,
-   "anno_incerto": true
+   "anno_incerto": true,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -7918,7 +8111,8 @@
     "file": "cop/dj-shorty-canta-canta.jpg"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   },
   {
    "tipo": "remix",
@@ -7955,7 +8149,8 @@
     "da": "m2o vol.39"
    },
    "inedito": false,
-   "anno_incerto": false
+   "anno_incerto": false,
+   "nota_pubblica": null
   }
  ],
  "alias": [
