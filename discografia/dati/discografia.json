@@ -2278,7 +2278,11 @@
     }
    ],
    "versioni_uscita": [],
-   "spotify": null,
+   "spotify": {
+    "tipo": "album",
+    "album": "17oaXIlbXQgLf7wqJkFz6h",
+    "titolo": "Rock Some Noise"
+   },
    "video": {
     "youtube": "XytDufV3Ung",
     "tipo": "ufficiale",
@@ -8126,7 +8130,7 @@
   "inediti": 36,
   "con_copertina": 178,
   "con_video": 45,
-  "con_spotify": 56,
+  "con_spotify": 57,
   "con_soundcloud": 6,
   "con_traxsource": 1,
   "con_apple": 2,
