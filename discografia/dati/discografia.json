@@ -211,7 +211,7 @@
     1
    ]
   ],
-  "quante_etichette": 64,
+  "quante_etichette": 65,
   "piu_compilation": [
    {
     "titolo": "I Believe",
@@ -6845,32 +6845,6 @@
   },
   {
    "tipo": "remix",
-   "slug": "monnalisa-non-ce-l-hai",
-   "artista": "Monnalisa",
-   "titolo": "Non Ce L'Hai",
-   "data": null,
-   "anno": 2011,
-   "data_esatta": false,
-   "firma": "Provenzano",
-   "etichetta": null,
-   "nota": "era finito tra le produzioni: è un remix, corretto da lui il 06/08/2026",
-   "escluso": false,
-   "sezione": "Remix",
-   "in_compilation": [],
-   "artista_diverso": [],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": null,
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": null,
-   "inedito": false,
-   "anno_incerto": false
-  },
-  {
-   "tipo": "remix",
    "slug": "andrea-paci-and-francesco-ienco-feat-andrea-love-twilight",
    "artista": "Andrea Paci & Francesco Ienco feat. Andrea Love",
    "titolo": "Twilight",
@@ -6925,6 +6899,40 @@
    "copertina": {
     "tipo": "propria",
     "file": "cop/pee4tee-feat-emmanuela-la-musica-tremenda.jpg"
+   },
+   "inedito": false,
+   "anno_incerto": false
+  },
+  {
+   "tipo": "remix",
+   "slug": "monnalisa-non-ce-l-hai",
+   "artista": "Monnalisa",
+   "titolo": "Non Ce L'Hai",
+   "data": "2011-05-22",
+   "anno": 2011,
+   "data_esatta": true,
+   "firma": "Provenzano",
+   "etichetta": "music valley",
+   "nota": "fonte Spotify, 30/08/2026: il singolo «Non ce l'hai REMIX» è accreditato «Monnalisa Feat. Provenzano» e ha tre versioni — Radio cut, Extended, Radio cut strumentale. Su Beatport Monnalisa non è in catalogo, e da Amazon non si ricava niente. La copertina viene da lì e porta il suo nome",
+   "escluso": false,
+   "sezione": "Remix",
+   "in_compilation": [],
+   "artista_diverso": [],
+   "versioni_uscita": [],
+   "spotify": {
+    "tipo": "album",
+    "album": "01kDIqEJ99at1foXYEflUA",
+    "titolo": "Non Ce L'Hai",
+    "cosa": null
+   },
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "propria",
+    "file": "cop/monnalisa-non-ce-l-hai.jpg"
    },
    "inedito": false,
    "anno_incerto": false
@@ -8187,9 +8195,9 @@
   "singoli": 124,
   "remix": 62,
   "inediti": 36,
-  "con_copertina": 180,
+  "con_copertina": 181,
   "con_video": 46,
-  "con_spotify": 65,
+  "con_spotify": 66,
   "con_soundcloud": 6,
   "con_traxsource": 1,
   "con_apple": 2,
