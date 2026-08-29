@@ -7411,7 +7411,11 @@
     "formato": null
    },
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://soundcloud.com/djsergiomauri/4-sergio-mauri-feat-shelly",
+    "cosa": "il remix su SoundCloud, dal profilo di Sergio Mauri",
+    "perche": "caricato dall'artista del pezzo originale. Link mandato da Amerigo il 29/08/2026: su questa pagina si arriva al terzo modo di ascoltarlo, dopo Spotify e il video di Molto Recordings."
+   },
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -8136,7 +8140,7 @@
   "con_copertina": 179,
   "con_video": 43,
   "con_spotify": 56,
-  "con_soundcloud": 4,
+  "con_soundcloud": 5,
   "con_traxsource": 1,
   "con_apple": 2,
   "in_compilation": 120,
