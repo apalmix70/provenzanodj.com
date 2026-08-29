@@ -7304,35 +7304,6 @@
   },
   {
    "tipo": "remix",
-   "slug": "sergio-mauri-feat-shelly-poole-party-don-t-stop",
-   "artista": "Sergio Mauri feat. Shelly Poole",
-   "titolo": "Party Don't Stop",
-   "data": null,
-   "anno": 2013,
-   "data_esatta": false,
-   "firma": "Provenzano",
-   "etichetta": "Molto Recordings",
-   "nota": null,
-   "escluso": false,
-   "sezione": "Remix",
-   "in_compilation": [],
-   "artista_diverso": [],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": null,
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "propria",
-    "file": "cop/sergio-mauri-feat-shelly-poole-party-don-t-stop.jpg"
-   },
-   "inedito": false,
-   "anno_incerto": false
-  },
-  {
-   "tipo": "remix",
    "slug": "claudio-caccini-carl-fanini-ready-for-love",
    "artista": "Claudio Caccini, Carl Fanini",
    "titolo": "Ready For Love",
@@ -7396,10 +7367,49 @@
    "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
-   "apple": null,
+   "apple": {
+    "album": "1312778616",
+    "traccia": "1312779611",
+    "nome": "fly-away-remixes-ep",
+    "cosa": "il suo remix su Apple Music, dentro «Fly Away (Remixes) - EP»",
+    "perche": "l'EP ha cinque versioni e la sua e' la quinta: si punta alla traccia, non all'album, se no il player fa sentire i mix degli altri. Link mandato da Amerigo il 29/08/2026."
+   },
    "copertina": {
     "tipo": "propria",
     "file": "cop/claudio-caccini-and-cece-rogers-fly-away.jpg"
+   },
+   "inedito": false,
+   "anno_incerto": false
+  },
+  {
+   "tipo": "remix",
+   "slug": "sergio-mauri-feat-shelly-poole-party-don-t-stop",
+   "artista": "Sergio Mauri feat. Shelly Poole",
+   "titolo": "Party Don't Stop",
+   "data": "2013-03-11",
+   "anno": 2013,
+   "data_esatta": true,
+   "firma": "Provenzano",
+   "etichetta": "Molto Recordings",
+   "nota": "data e credito confermati su Beatport il 29/08/2026: release «Party Don't Stop Ft. Shelly Poole», il remix è accreditato a Provenzano, ISRC ITC151300091, 128 bpm, 5:15",
+   "escluso": false,
+   "sezione": "Remix",
+   "in_compilation": [],
+   "artista_diverso": [],
+   "versioni_uscita": [],
+   "spotify": {
+    "tipo": "track",
+    "album": "3ca8Z2Yaepvvn4hSVCBEVE",
+    "titolo": "Party Don't Stop"
+   },
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "propria",
+    "file": "cop/sergio-mauri-feat-shelly-poole-party-don-t-stop.jpg"
    },
    "inedito": false,
    "anno_incerto": false
@@ -8118,10 +8128,10 @@
   "inediti": 36,
   "con_copertina": 179,
   "con_video": 42,
-  "con_spotify": 55,
+  "con_spotify": 56,
   "con_soundcloud": 4,
   "con_traxsource": 1,
-  "con_apple": 1,
+  "con_apple": 2,
   "in_compilation": 120,
   "primo_anno": 1994,
   "ultimo_anno": 2026
