@@ -6980,7 +6980,7 @@
    "data_esatta": true,
    "firma": "Provenzano",
    "etichetta": "Smilax Records",
-   "nota": null,
+   "nota": "Beatport, 30/08/2026: la release Smilax del 27/07/2011 ha «PROVENZANO REMIX» scritto in copertina — da lì viene l'immagine, che prima mancava. Il pezzo gira anche su Gardenia Records, 19/08/2011, ISRC FR6V80558869",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [],
@@ -6992,7 +6992,10 @@
    "soundcloud": null,
    "traxsource": null,
    "apple": null,
-   "copertina": null,
+   "copertina": {
+    "tipo": "propria",
+    "file": "cop/luca-ruco-feat-sherrita-just-believe.jpg"
+   },
    "inedito": false,
    "anno_incerto": false
   },
@@ -7035,7 +7038,7 @@
    "data_esatta": true,
    "firma": "Provenzano Fixed",
    "etichetta": "Smilax Records",
-   "nota": null,
+   "nota": "Beatport, 30/08/2026: la release del 31/12/2011 porta in copertina «including remix by Provenzano from Radio M2O»; il Provenzano Fixed Remix ha ISRC FR6V80364608",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [
@@ -7048,16 +7051,20 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "spotify": null,
+   "spotify": {
+    "tipo": "track",
+    "album": "372ogdcLRenXrr2FdrfQ3J",
+    "titolo": "I Like It",
+    "cosa": null
+   },
    "video": null,
    "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
-    "tipo": "compilation",
-    "file": "/compilation/cop/m2ovol28.jpg",
-    "da": "m2o vol.28"
+    "tipo": "propria",
+    "file": "cop/luca-ruco-i-like-it.jpg"
    },
    "inedito": false,
    "anno_incerto": false
@@ -8180,9 +8187,9 @@
   "singoli": 124,
   "remix": 62,
   "inediti": 36,
-  "con_copertina": 179,
+  "con_copertina": 180,
   "con_video": 46,
-  "con_spotify": 64,
+  "con_spotify": 65,
   "con_soundcloud": 6,
   "con_traxsource": 1,
   "con_apple": 2,
