@@ -3207,7 +3207,7 @@
    ],
    "firma": null,
    "etichetta": null,
-   "nota": "promo annunciato il 28/05/2015, non nel foglio né nei database",
+   "nota": "promo annunciato il 28/05/2015, non nel foglio né nei database; sta su SoundCloud, caricato da Castellari — copertina e player presi da lì il 29/08/2026",
    "escluso": false,
    "da_guardare": false,
    "sezione": "2010 → 2019",
@@ -3215,7 +3215,11 @@
    "versioni_uscita": [],
    "video": null,
    "spotify": null,
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://soundcloud.com/albertocastellari/provenzano-castellari-mork",
+    "cosa": "il brano su SoundCloud, dal profilo di Alberto Castellari",
+    "perche": "il pezzo non e' mai uscito come disco: sta solo qui, caricato da Castellari (KASTE) che l'ha fatto con lui. Link mandato da Amerigo il 29/08/2026, e da questa pagina viene anche la copertina, che prima era un segnaposto."
+   },
    "traxsource": null,
    "copertina": {
     "tipo": "propria",
@@ -7686,7 +7690,7 @@
   "con_copertina": 179,
   "con_video": 41,
   "con_spotify": 54,
-  "con_soundcloud": 1,
+  "con_soundcloud": 2,
   "con_traxsource": 1,
   "in_compilation": 120,
   "primo_anno": 1994,
