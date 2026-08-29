@@ -211,7 +211,7 @@
     1
    ]
   ],
-  "quante_etichette": 62,
+  "quante_etichette": 63,
   "piu_compilation": [
    {
     "titolo": "I Believe",
@@ -7055,43 +7055,6 @@
   },
   {
    "tipo": "remix",
-   "slug": "andrea-masullo-chaka-blackmon-dream-girl",
-   "artista": "Andrea Masullo, Chaka Blackmon",
-   "titolo": "Dream Girl",
-   "data": null,
-   "anno": 2012,
-   "data_esatta": false,
-   "firma": "Provenzano",
-   "etichetta": null,
-   "nota": "ritrovata nel database delle compilation, stampata su m2o vol.30; anno non confermato",
-   "escluso": false,
-   "sezione": "Remix",
-   "in_compilation": [
-    {
-     "slug": "m2ovol30",
-     "titolo": "m2o vol.30",
-     "anno": 2012,
-     "come": "Dream Girl (Provenzano DJ Remix)"
-    }
-   ],
-   "artista_diverso": [],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": null,
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "compilation",
-    "file": "/compilation/cop/m2ovol30.jpg",
-    "da": "m2o vol.30"
-   },
-   "inedito": false,
-   "anno_incerto": true
-  },
-  {
-   "tipo": "remix",
    "slug": "jack-ross-ricky-castelli-ldb-la19-criminal-4-love",
    "artista": "Jack Ross, Ricky Castelli, LDB, LA19",
    "titolo": "Criminal 4 Love",
@@ -7202,6 +7165,42 @@
    "copertina": {
     "tipo": "propria",
     "file": "cop/claudio-caccini-we-got-a-love.jpg"
+   },
+   "inedito": false,
+   "anno_incerto": false
+  },
+  {
+   "tipo": "remix",
+   "slug": "andrea-masullo-chaka-blackmon-dream-girl",
+   "artista": "Andrea Masullo, Chaka Blackmon",
+   "titolo": "Dream Girl",
+   "data": "2012-06-27",
+   "anno": 2012,
+   "data_esatta": true,
+   "firma": "Provenzano",
+   "etichetta": "Netswork Digital Records",
+   "nota": "ritrovata nel database delle compilation, stampata su m2o vol.30; data, etichetta e copertina confermate su Beatport il 30/08/2026 — Provenzano Remix, ISRC ITU031200282, e c'è anche un suo Remix Radio, ITU031200281, nella riedizione «feat. Chaka Blackmon» del 13/07/2012",
+   "escluso": false,
+   "sezione": "Remix",
+   "in_compilation": [
+    {
+     "slug": "m2ovol30",
+     "titolo": "m2o vol.30",
+     "anno": 2012,
+     "come": "Dream Girl (Provenzano DJ Remix)"
+    }
+   ],
+   "artista_diverso": [],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "propria",
+    "file": "cop/andrea-masullo-chaka-blackmon-dream-girl.jpg"
    },
    "inedito": false,
    "anno_incerto": false
