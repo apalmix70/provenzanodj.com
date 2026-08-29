@@ -355,12 +355,13 @@
      "slug": "i-believe-remix"
     }
    ],
-   "video": null,
    "spotify": {
     "tipo": "album",
     "album": "5ndWzDe7ySF2z4lZY2CfIQ",
     "titolo": "I Believe (Paradise Orchestra Remix)"
    },
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -394,8 +395,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -442,8 +444,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -483,12 +486,13 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": {
     "tipo": "album",
     "album": "6DWjNbdYhXDeygSMrZneYZ",
     "titolo": "We Belong"
    },
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -522,12 +526,13 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": {
     "tipo": "album",
     "album": "2thy7YrahQHXeSLHkylewa",
     "titolo": "Take Me to the River"
    },
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -556,8 +561,9 @@
    "sezione": "1992 → 2009",
    "in_compilation": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -597,6 +603,7 @@
     }
    ],
    "versioni_uscita": [],
+   "spotify": null,
    "video": {
     "youtube": "tunTyE50Rsc",
     "tipo": "ufficiale",
@@ -605,7 +612,7 @@
     "verticale": false,
     "formato": null
    },
-   "spotify": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -637,8 +644,9 @@
    "sezione": "1992 → 2009",
    "in_compilation": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -688,6 +696,7 @@
     }
    ],
    "versioni_uscita": [],
+   "spotify": null,
    "video": {
     "youtube": "U33PJg10D5k",
     "tipo": "audio",
@@ -696,7 +705,7 @@
     "verticale": false,
     "formato": null
    },
-   "spotify": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -727,6 +736,7 @@
    "sezione": "1992 → 2009",
    "in_compilation": [],
    "versioni_uscita": [],
+   "spotify": null,
    "video": {
     "youtube": "E_6tqZIGkBY",
     "tipo": "audio",
@@ -735,7 +745,7 @@
     "verticale": false,
     "formato": null
    },
-   "spotify": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -764,8 +774,9 @@
    "sezione": "1992 → 2009",
    "in_compilation": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -799,8 +810,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -849,8 +861,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -892,8 +905,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -941,8 +955,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -976,8 +991,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -1018,8 +1034,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -1054,8 +1071,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -1098,8 +1116,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -1145,6 +1164,7 @@
     }
    ],
    "versioni_uscita": [],
+   "spotify": null,
    "video": {
     "youtube": "Vwi1UMyeTYg",
     "tipo": "audio",
@@ -1153,7 +1173,7 @@
     "verticale": false,
     "formato": null
    },
-   "spotify": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -1193,6 +1213,7 @@
     }
    ],
    "versioni_uscita": [],
+   "spotify": null,
    "video": {
     "youtube": "sYT0QvA_078",
     "tipo": "audio",
@@ -1201,7 +1222,7 @@
     "verticale": false,
     "formato": null
    },
-   "spotify": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -1243,6 +1264,7 @@
     }
    ],
    "versioni_uscita": [],
+   "spotify": null,
    "video": {
     "youtube": "wqD3LlbMjYU",
     "tipo": "audio",
@@ -1251,7 +1273,7 @@
     "verticale": false,
     "formato": null
    },
-   "spotify": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -1287,8 +1309,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -1326,8 +1349,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -1367,8 +1391,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -1403,8 +1428,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -1441,8 +1467,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -1477,8 +1504,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -1515,8 +1543,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -1552,12 +1581,13 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": {
     "tipo": "album",
     "album": "19NCS9bfpa4GoRAd4SXEfI",
     "titolo": "Midory Shower"
    },
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -1603,8 +1633,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -1646,8 +1677,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -1683,8 +1715,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -1720,8 +1753,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -1763,12 +1797,13 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": {
     "tipo": "album",
     "album": "60dyu4NK7HD6T5bRVVe8pL",
     "titolo": "Life Goes On"
    },
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -1806,6 +1841,7 @@
     }
    ],
    "versioni_uscita": [],
+   "spotify": null,
    "video": {
     "youtube": "LqXXKRjcglw",
     "tipo": "audio",
@@ -1814,7 +1850,7 @@
     "verticale": false,
     "formato": null
    },
-   "spotify": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -1848,6 +1884,7 @@
     }
    ],
    "versioni_uscita": [],
+   "spotify": null,
    "video": {
     "youtube": "3ah5jPLgQCo",
     "tipo": "audio",
@@ -1856,7 +1893,7 @@
     "verticale": false,
     "formato": null
    },
-   "spotify": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -1890,8 +1927,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -1930,12 +1968,13 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": {
     "tipo": "album",
     "album": "1oyYPOujkmOe124Sd8VOqS",
     "titolo": "You Can't Stop the Love"
    },
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -1969,8 +2008,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -2005,8 +2045,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -2041,8 +2082,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -2079,6 +2121,11 @@
     }
    ],
    "versioni_uscita": [],
+   "spotify": {
+    "tipo": "album",
+    "album": "7MgmbFMmRWdMZ7lQaXtmMJ",
+    "titolo": "Mariguana Cha-Cha-Cha"
+   },
    "video": {
     "youtube": "I8GPyxrPRSY",
     "tipo": "ufficiale",
@@ -2087,11 +2134,7 @@
     "verticale": false,
     "formato": null
    },
-   "spotify": {
-    "tipo": "album",
-    "album": "7MgmbFMmRWdMZ7lQaXtmMJ",
-    "titolo": "Mariguana Cha-Cha-Cha"
-   },
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -2120,8 +2163,9 @@
    "sezione": "2010 → 2019",
    "in_compilation": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -2166,6 +2210,11 @@
     }
    ],
    "versioni_uscita": [],
+   "spotify": {
+    "tipo": "album",
+    "album": "7fdJ3IYtFT0gcFbXX1Y65V",
+    "titolo": "Turn You On (Remixes)"
+   },
    "video": {
     "youtube": "bBDpEKCY6gs",
     "tipo": "ufficiale",
@@ -2174,11 +2223,7 @@
     "verticale": false,
     "formato": null
    },
-   "spotify": {
-    "tipo": "album",
-    "album": "7fdJ3IYtFT0gcFbXX1Y65V",
-    "titolo": "Turn You On (Remixes)"
-   },
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -2214,6 +2259,7 @@
     }
    ],
    "versioni_uscita": [],
+   "spotify": null,
    "video": {
     "youtube": "XytDufV3Ung",
     "tipo": "ufficiale",
@@ -2222,7 +2268,7 @@
     "verticale": false,
     "formato": null
    },
-   "spotify": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -2256,8 +2302,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -2292,8 +2339,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -2328,8 +2376,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -2364,8 +2413,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -2405,12 +2455,13 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": {
     "tipo": "album",
     "album": "20yjwMtpoGZ91XMV9RJ3BG",
     "titolo": "Cattivik (Provenzano & Mastro J Edit)"
    },
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -2446,6 +2497,11 @@
     }
    ],
    "versioni_uscita": [],
+   "spotify": {
+    "tipo": "album",
+    "album": "19PMnYOqd5L14TCUDVUxBX",
+    "titolo": "You're (Original Club Mix)"
+   },
    "video": {
     "youtube": "0QxuS7E5M3k",
     "tipo": "ufficiale",
@@ -2454,11 +2510,7 @@
     "verticale": false,
     "formato": null
    },
-   "spotify": {
-    "tipo": "album",
-    "album": "19PMnYOqd5L14TCUDVUxBX",
-    "titolo": "You're (Original Club Mix)"
-   },
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -2494,6 +2546,11 @@
     }
    ],
    "versioni_uscita": [],
+   "spotify": {
+    "tipo": "album",
+    "album": "0dEA4U1LvaROwHkoRKL11N",
+    "titolo": "Tiger"
+   },
    "video": {
     "youtube": "E3e5S8g2R8g",
     "tipo": "ufficiale",
@@ -2502,11 +2559,7 @@
     "verticale": false,
     "formato": null
    },
-   "spotify": {
-    "tipo": "album",
-    "album": "0dEA4U1LvaROwHkoRKL11N",
-    "titolo": "Tiger"
-   },
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -2542,8 +2595,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -2578,8 +2632,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -2614,8 +2669,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -2650,8 +2706,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -2696,6 +2753,11 @@
     }
    ],
    "versioni_uscita": [],
+   "spotify": {
+    "tipo": "album",
+    "album": "5X7Uqzo61VVTySpMWyiBgB",
+    "titolo": "Touch the Sky"
+   },
    "video": {
     "youtube": "8uL56sZs0tM",
     "tipo": "ufficiale",
@@ -2704,11 +2766,7 @@
     "verticale": false,
     "formato": null
    },
-   "spotify": {
-    "tipo": "album",
-    "album": "5X7Uqzo61VVTySpMWyiBgB",
-    "titolo": "Touch the Sky"
-   },
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -2752,6 +2810,11 @@
     }
    ],
    "versioni_uscita": [],
+   "spotify": {
+    "tipo": "album",
+    "album": "3KD1pDSg04ZWxkoHIY1vog",
+    "titolo": "Mash App (The Remixes)"
+   },
    "video": {
     "youtube": "bu48mapsTj8",
     "tipo": "ufficiale",
@@ -2760,11 +2823,7 @@
     "verticale": false,
     "formato": null
    },
-   "spotify": {
-    "tipo": "album",
-    "album": "3KD1pDSg04ZWxkoHIY1vog",
-    "titolo": "Mash App (The Remixes)"
-   },
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -2791,6 +2850,11 @@
    "sezione": "2010 → 2019",
    "in_compilation": [],
    "versioni_uscita": [],
+   "spotify": {
+    "tipo": "album",
+    "album": "6lNtIUvN8BitW0hDZk24Ea",
+    "titolo": "Stormy Winds"
+   },
    "video": {
     "youtube": "DNvIbE_rY6s",
     "tipo": "ufficiale",
@@ -2799,11 +2863,7 @@
     "verticale": false,
     "formato": null
    },
-   "spotify": {
-    "tipo": "album",
-    "album": "6lNtIUvN8BitW0hDZk24Ea",
-    "titolo": "Stormy Winds"
-   },
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -2837,6 +2897,7 @@
     }
    ],
    "versioni_uscita": [],
+   "spotify": null,
    "video": {
     "youtube": "f9bXWjldQSI",
     "tipo": "ufficiale",
@@ -2845,7 +2906,7 @@
     "verticale": false,
     "formato": null
    },
-   "spotify": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -2888,6 +2949,7 @@
     }
    ],
    "versioni_uscita": [],
+   "spotify": null,
    "video": {
     "youtube": "tunTyE50Rsc",
     "tipo": "ufficiale",
@@ -2896,7 +2958,7 @@
     "verticale": false,
     "formato": null
    },
-   "spotify": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -2925,8 +2987,9 @@
    "sezione": "2010 → 2019",
    "in_compilation": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -2966,8 +3029,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -3004,8 +3068,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -3049,6 +3114,7 @@
     }
    ],
    "versioni_uscita": [],
+   "spotify": null,
    "video": {
     "youtube": "PQA05XdI3yw",
     "tipo": "ufficiale",
@@ -3057,7 +3123,7 @@
     "verticale": false,
     "formato": null
    },
-   "spotify": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -3091,12 +3157,13 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": {
     "tipo": "album",
     "album": "1vaVb3YRVzIfRGRrMKEoaa",
     "titolo": "Gorbaciov"
    },
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -3132,6 +3199,11 @@
     }
    ],
    "versioni_uscita": [],
+   "spotify": {
+    "tipo": "album",
+    "album": "0OSCZCD9bYqpbFdqVmdVbl",
+    "titolo": "Take Your Breath"
+   },
    "video": {
     "youtube": "HDAXEeiHQ9w",
     "tipo": "ufficiale",
@@ -3140,11 +3212,7 @@
     "verticale": false,
     "formato": null
    },
-   "spotify": {
-    "tipo": "album",
-    "album": "0OSCZCD9bYqpbFdqVmdVbl",
-    "titolo": "Take Your Breath"
-   },
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -3183,8 +3251,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -3213,8 +3282,9 @@
    "sezione": "2010 → 2019",
    "in_compilation": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": {
     "url": "https://soundcloud.com/albertocastellari/provenzano-castellari-mork",
     "cosa": "il brano su SoundCloud, dal profilo di Alberto Castellari",
@@ -3252,8 +3322,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -3288,8 +3359,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -3324,8 +3396,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -3360,8 +3433,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -3401,6 +3475,11 @@
     }
    ],
    "versioni_uscita": [],
+   "spotify": {
+    "tipo": "album",
+    "album": "6sbf9lG3seR7eVCZZtjYVt",
+    "titolo": "Party with You"
+   },
    "video": {
     "youtube": "xtgTmjsz0LE",
     "tipo": "ufficiale",
@@ -3409,11 +3488,7 @@
     "verticale": false,
     "formato": null
    },
-   "spotify": {
-    "tipo": "album",
-    "album": "6sbf9lG3seR7eVCZZtjYVt",
-    "titolo": "Party with You"
-   },
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -3519,6 +3594,11 @@
      "slug": "ain-t-no-sunshine-2025"
     }
    ],
+   "spotify": {
+    "tipo": "album",
+    "album": "5ejvKMlgCybKOdINTIQDDT",
+    "titolo": "Ain't No Sunshine (Dave Silcox Remix)"
+   },
    "video": {
     "youtube": "8CVtWV6E_Is",
     "tipo": "ufficiale",
@@ -3527,11 +3607,16 @@
     "verticale": false,
     "formato": null
    },
-   "spotify": {
-    "tipo": "album",
-    "album": "5ejvKMlgCybKOdINTIQDDT",
-    "titolo": "Ain't No Sunshine (Dave Silcox Remix)"
-   },
+   "video_altri": [
+    {
+     "youtube": "Fghb0hJsuEg",
+     "tipo": "ufficiale",
+     "canale": "EGO TV, Official Visual",
+     "titolo": "Ain't No Sunshine (Tropea)",
+     "verticale": false,
+     "formato": null
+    }
+   ],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -3569,6 +3654,11 @@
     }
    ],
    "versioni_uscita": [],
+   "spotify": {
+    "tipo": "album",
+    "album": "5XsG7457jLYj8KgpEdiOmq",
+    "titolo": "Sunshine & Happiness"
+   },
    "video": {
     "youtube": "_mnxziIunzc",
     "tipo": "ufficiale",
@@ -3577,11 +3667,7 @@
     "verticale": false,
     "formato": null
    },
-   "spotify": {
-    "tipo": "album",
-    "album": "5XsG7457jLYj8KgpEdiOmq",
-    "titolo": "Sunshine & Happiness"
-   },
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -3611,6 +3697,11 @@
    "sezione": "2010 → 2019",
    "in_compilation": [],
    "versioni_uscita": [],
+   "spotify": {
+    "tipo": "album",
+    "album": "0wKLYHVgV9Nzos2dgJWEeM",
+    "titolo": "Calling You"
+   },
    "video": {
     "youtube": "DvgOSid-XN8",
     "tipo": "ufficiale",
@@ -3619,11 +3710,7 @@
     "verticale": false,
     "formato": null
    },
-   "spotify": {
-    "tipo": "album",
-    "album": "0wKLYHVgV9Nzos2dgJWEeM",
-    "titolo": "Calling You"
-   },
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -3661,6 +3748,7 @@
     }
    ],
    "versioni_uscita": [],
+   "spotify": null,
    "video": {
     "youtube": "OFvjfNM-amU",
     "tipo": "ufficiale",
@@ -3669,7 +3757,7 @@
     "verticale": false,
     "formato": null
    },
-   "spotify": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -3703,8 +3791,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -3739,8 +3828,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -3780,6 +3870,11 @@
     }
    ],
    "versioni_uscita": [],
+   "spotify": {
+    "tipo": "album",
+    "album": "6yGsG7wT7vNuEJHTkhWlUF",
+    "titolo": "We Are One"
+   },
    "video": {
     "youtube": "5PLquRNmAPM",
     "tipo": "ufficiale",
@@ -3788,11 +3883,7 @@
     "verticale": false,
     "formato": null
    },
-   "spotify": {
-    "tipo": "album",
-    "album": "6yGsG7wT7vNuEJHTkhWlUF",
-    "titolo": "We Are One"
-   },
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -3822,6 +3913,7 @@
    "sezione": "2010 → 2019",
    "in_compilation": [],
    "versioni_uscita": [],
+   "spotify": null,
    "video": {
     "youtube": "S40NP5EbRBY",
     "tipo": "audio",
@@ -3830,7 +3922,16 @@
     "verticale": false,
     "formato": null
    },
-   "spotify": null,
+   "video_altri": [
+    {
+     "youtube": "fPGVRyYZ9Nw",
+     "tipo": "audio",
+     "canale": "canale Wlady",
+     "titolo": "Bam Bam",
+     "verticale": false,
+     "formato": null
+    }
+   ],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -3864,8 +3965,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -3900,8 +4002,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -3975,12 +4078,13 @@
      }
     }
    ],
-   "video": null,
    "spotify": {
     "tipo": "album",
     "album": "6XR1grKYnLBCdD9faYstFY",
     "titolo": "Saxophone"
    },
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -4019,6 +4123,11 @@
     }
    ],
    "versioni_uscita": [],
+   "spotify": {
+    "tipo": "album",
+    "album": "48dz1PuqsCYnYMltZFlfVP",
+    "titolo": "Folegandros (Kryder Extended Mix)"
+   },
    "video": {
     "youtube": "XePw6TjWXkk",
     "tipo": "ufficiale",
@@ -4027,11 +4136,7 @@
     "verticale": false,
     "formato": null
    },
-   "spotify": {
-    "tipo": "album",
-    "album": "48dz1PuqsCYnYMltZFlfVP",
-    "titolo": "Folegandros (Kryder Extended Mix)"
-   },
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -4060,8 +4165,9 @@
    "sezione": "2010 → 2019",
    "in_compilation": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": {
     "tipo": "track",
@@ -4096,6 +4202,11 @@
    "sezione": "2010 → 2019",
    "in_compilation": [],
    "versioni_uscita": [],
+   "spotify": {
+    "tipo": "album",
+    "album": "6RwrNXGztO55PniZCoyucy",
+    "titolo": "Serifos"
+   },
    "video": {
     "youtube": "2Rh4SEyd4Hk",
     "tipo": "ufficiale",
@@ -4104,11 +4215,7 @@
     "verticale": false,
     "formato": null
    },
-   "spotify": {
-    "tipo": "album",
-    "album": "6RwrNXGztO55PniZCoyucy",
-    "titolo": "Serifos"
-   },
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -4142,8 +4249,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -4178,8 +4286,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -4214,8 +4323,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -4250,8 +4360,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -4286,8 +4397,9 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -4326,6 +4438,11 @@
     }
    ],
    "versioni_uscita": [],
+   "spotify": {
+    "tipo": "album",
+    "album": "1E0UXiHxSnrEEMGXJhv5NV",
+    "titolo": "Babele (Extended Mix)"
+   },
    "video": {
     "youtube": "mj31TAvl2VI",
     "tipo": "ufficiale",
@@ -4334,11 +4451,7 @@
     "verticale": false,
     "formato": null
    },
-   "spotify": {
-    "tipo": "album",
-    "album": "1E0UXiHxSnrEEMGXJhv5NV",
-    "titolo": "Babele (Extended Mix)"
-   },
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -4372,6 +4485,7 @@
     }
    ],
    "versioni_uscita": [],
+   "spotify": null,
    "video": {
     "youtube": "Eyx8rIX0FP0",
     "tipo": "audio",
@@ -4380,7 +4494,7 @@
     "verticale": false,
     "formato": null
    },
-   "spotify": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -4417,12 +4531,13 @@
     }
    ],
    "versioni_uscita": [],
-   "video": null,
    "spotify": {
     "tipo": "album",
     "album": "08A3VwYmB9wMhEObbNxxz9",
     "titolo": "Gig"
    },
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -4453,12 +4568,13 @@
    "sezione": "2010 → 2019",
    "in_compilation": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": {
     "tipo": "album",
     "album": "4gJcHP4hwdZZgxNfvziksD",
     "titolo": "Crazy"
    },
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -4489,8 +4605,9 @@
    "sezione": "2010 → 2019",
    "in_compilation": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": {
     "url": "https://soundcloud.com/woofrec/sets/venus",
     "cosa": "le tre versioni — Mattei & Omich edit, Game Over DJs remix, Tava remix — in anteprima dal profilo di Woof Records",
@@ -4525,12 +4642,13 @@
    "sezione": "2020 →",
    "in_compilation": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": {
     "tipo": "album",
     "album": "5vsOvdPG35IB4QuuOvD3ld",
     "titolo": "Katmandu (HJM Mix)"
    },
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -4559,12 +4677,13 @@
    "sezione": "2020 →",
    "in_compilation": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": {
     "tipo": "album",
     "album": "78NOH6qUTVtqNsNwHIqysX",
     "titolo": "To The Top"
    },
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -4598,12 +4717,13 @@
    "sezione": "2020 →",
    "in_compilation": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": {
     "tipo": "album",
     "album": "3xaC6shiJd5EoLcwkA1c8F",
     "titolo": "Canzoni Dell'Estate 2022 (Nick Peloso Mix)"
    },
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -4634,12 +4754,13 @@
    "sezione": "2020 →",
    "in_compilation": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": {
     "tipo": "album",
     "album": "1zEN5Q946DfkX74HE7bYIt",
     "titolo": "El Sol (HJM Mix)"
    },
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -4671,6 +4792,11 @@
    "sezione": "2020 →",
    "in_compilation": [],
    "versioni_uscita": [],
+   "spotify": {
+    "tipo": "album",
+    "album": "7Fa7rEqL2dO6Cze9U9kZaQ",
+    "titolo": "Next to You (Hjm Mix)"
+   },
    "video": {
     "youtube": "K-nwy1P5e6g",
     "tipo": "ufficiale",
@@ -4679,11 +4805,7 @@
     "verticale": false,
     "formato": null
    },
-   "spotify": {
-    "tipo": "album",
-    "album": "7Fa7rEqL2dO6Cze9U9kZaQ",
-    "titolo": "Next to You (Hjm Mix)"
-   },
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -4716,12 +4838,13 @@
    "sezione": "2020 →",
    "in_compilation": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": {
     "tipo": "album",
     "album": "3p5gnfs8i8I42WroXP8IE4",
     "titolo": "Everybody"
    },
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -4751,12 +4874,13 @@
    "sezione": "2020 →",
    "in_compilation": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": {
     "tipo": "album",
     "album": "45AS3aH96yaQP3PYK3Klnx",
     "titolo": "La Trompeta"
    },
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -4786,12 +4910,13 @@
    "sezione": "2020 →",
    "in_compilation": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": {
     "tipo": "album",
     "album": "112AykXXYzD8G2hy2LqZw1",
     "titolo": "Faded"
    },
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -4821,6 +4946,11 @@
    "sezione": "2020 →",
    "in_compilation": [],
    "versioni_uscita": [],
+   "spotify": {
+    "tipo": "album",
+    "album": "4TTpYiSruxCLU8oEErPR8s",
+    "titolo": "Run Run Run"
+   },
    "video": {
     "youtube": "tYM1RF1dJQU",
     "tipo": "ufficiale",
@@ -4829,11 +4959,7 @@
     "verticale": false,
     "formato": null
    },
-   "spotify": {
-    "tipo": "album",
-    "album": "4TTpYiSruxCLU8oEErPR8s",
-    "titolo": "Run Run Run"
-   },
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -4866,6 +4992,11 @@
    "sezione": "2020 →",
    "in_compilation": [],
    "versioni_uscita": [],
+   "spotify": {
+    "tipo": "album",
+    "album": "0aYCxpOv5zWbMRR2deVSGF",
+    "titolo": "Conga"
+   },
    "video": {
     "youtube": "8kzzUY0F4rE",
     "tipo": "ufficiale",
@@ -4874,11 +5005,7 @@
     "verticale": false,
     "formato": null
    },
-   "spotify": {
-    "tipo": "album",
-    "album": "0aYCxpOv5zWbMRR2deVSGF",
-    "titolo": "Conga"
-   },
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -4907,6 +5034,11 @@
    "sezione": "2020 →",
    "in_compilation": [],
    "versioni_uscita": [],
+   "spotify": {
+    "tipo": "album",
+    "album": "01FoJHef1sffpfxPU38Kom",
+    "titolo": "Show Me Love"
+   },
    "video": {
     "youtube": "5iL5IhD3d3U",
     "tipo": "ufficiale",
@@ -4915,11 +5047,7 @@
     "verticale": false,
     "formato": null
    },
-   "spotify": {
-    "tipo": "album",
-    "album": "01FoJHef1sffpfxPU38Kom",
-    "titolo": "Show Me Love"
-   },
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -4949,12 +5077,13 @@
    "sezione": "2020 →",
    "in_compilation": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": {
     "tipo": "album",
     "album": "2YaaPhu05ZDCiypZHj8wVN",
     "titolo": "Santa Fe"
    },
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -4983,12 +5112,13 @@
    "sezione": "2020 →",
    "in_compilation": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": {
     "tipo": "album",
     "album": "0s1N8nHJoCwNCestcxsDMm",
     "titolo": "GNOR"
    },
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -5019,12 +5149,13 @@
    "sezione": "2020 →",
    "in_compilation": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": {
     "tipo": "track",
     "album": "45autG3w9G3ZpDyXMs9Hwb",
     "titolo": "LEWA"
    },
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -5051,6 +5182,11 @@
    "sezione": "2020 →",
    "in_compilation": [],
    "versioni_uscita": [],
+   "spotify": {
+    "tipo": "album",
+    "album": "5LjIF9UHtrexRJhmctrU5k",
+    "titolo": "Super Paradise"
+   },
    "video": {
     "youtube": "Y8CtlX_DkZQ",
     "tipo": "ufficiale",
@@ -5059,11 +5195,7 @@
     "verticale": false,
     "formato": null
    },
-   "spotify": {
-    "tipo": "album",
-    "album": "5LjIF9UHtrexRJhmctrU5k",
-    "titolo": "Super Paradise"
-   },
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -5095,12 +5227,13 @@
    "sezione": "2020 →",
    "in_compilation": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": {
     "tipo": "album",
     "album": "6M1L1VoHdYraMzUOh5XKz8",
     "titolo": "Barranquilla"
    },
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -5132,12 +5265,13 @@
    "sezione": "2020 →",
    "in_compilation": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": {
     "tipo": "album",
     "album": "03URvjLBFbVEJZ2nA3zzYE",
     "titolo": "Life Is So Strong"
    },
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -5168,12 +5302,13 @@
    "sezione": "2020 →",
    "in_compilation": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": {
     "tipo": "album",
     "album": "6GdaaZVUjkBBdXvO9cEHJs",
     "titolo": "Easy (Dyson Kellerman Edit)"
    },
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -5204,12 +5339,13 @@
    "sezione": "2020 →",
    "in_compilation": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": {
     "tipo": "album",
     "album": "36oIJX0HtwGDK2hsV2E80c",
     "titolo": "Feel So Long"
    },
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -5240,6 +5376,11 @@
    "sezione": "2020 →",
    "in_compilation": [],
    "versioni_uscita": [],
+   "spotify": {
+    "tipo": "album",
+    "album": "3gDfu2SUVVw7Qu3aaFu2dQ",
+    "titolo": "MALAWI"
+   },
    "video": {
     "youtube": "CPYTjtput5U",
     "tipo": "ufficiale",
@@ -5248,11 +5389,7 @@
     "verticale": true,
     "formato": null
    },
-   "spotify": {
-    "tipo": "album",
-    "album": "3gDfu2SUVVw7Qu3aaFu2dQ",
-    "titolo": "MALAWI"
-   },
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -5283,6 +5420,11 @@
    "sezione": "2020 →",
    "in_compilation": [],
    "versioni_uscita": [],
+   "spotify": {
+    "tipo": "album",
+    "album": "614r2BnPGJ0tNrJJd84uOV",
+    "titolo": "TIKI TAKA"
+   },
    "video": {
     "youtube": "7rp1hqeAP-w",
     "tipo": "ufficiale",
@@ -5291,11 +5433,7 @@
     "verticale": true,
     "formato": "reel"
    },
-   "spotify": {
-    "tipo": "album",
-    "album": "614r2BnPGJ0tNrJJd84uOV",
-    "titolo": "TIKI TAKA"
-   },
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -5324,6 +5462,11 @@
    "sezione": "2020 →",
    "in_compilation": [],
    "versioni_uscita": [],
+   "spotify": {
+    "tipo": "album",
+    "album": "7ytXERN4PCFdmGBeI8seEH",
+    "titolo": "La Playa"
+   },
    "video": {
     "youtube": "6Sq3xt7Ndes",
     "tipo": "ufficiale",
@@ -5332,11 +5475,7 @@
     "verticale": true,
     "formato": null
    },
-   "spotify": {
-    "tipo": "album",
-    "album": "7ytXERN4PCFdmGBeI8seEH",
-    "titolo": "La Playa"
-   },
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -5365,6 +5504,11 @@
    "sezione": "2020 →",
    "in_compilation": [],
    "versioni_uscita": [],
+   "spotify": {
+    "tipo": "album",
+    "album": "3MqlZzqdG67wQKHNRlRrbU",
+    "titolo": "Anima Libera"
+   },
    "video": {
     "youtube": "GunF5a_ZVzs",
     "tipo": "ufficiale",
@@ -5373,11 +5517,7 @@
     "verticale": false,
     "formato": null
    },
-   "spotify": {
-    "tipo": "album",
-    "album": "3MqlZzqdG67wQKHNRlRrbU",
-    "titolo": "Anima Libera"
-   },
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -5406,12 +5546,13 @@
    "sezione": "2020 →",
    "in_compilation": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": {
     "tipo": "album",
     "album": "6twPfdxR2v3JwPivKEFohn",
     "titolo": "La Flauta Magica"
    },
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -5441,6 +5582,11 @@
    "sezione": "2020 →",
    "in_compilation": [],
    "versioni_uscita": [],
+   "spotify": {
+    "tipo": "album",
+    "album": "0IcZlTBaeFN5Bs4ryV9ahq",
+    "titolo": "Baila"
+   },
    "video": {
     "youtube": "wltTM1tJXZg",
     "tipo": "ufficiale",
@@ -5449,11 +5595,7 @@
     "verticale": false,
     "formato": null
    },
-   "spotify": {
-    "tipo": "album",
-    "album": "0IcZlTBaeFN5Bs4ryV9ahq",
-    "titolo": "Baila"
-   },
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -5483,8 +5625,9 @@
    "sezione": "2010 → 2019",
    "in_compilation": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": null,
@@ -5509,8 +5652,9 @@
    "in_compilation": [],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -5536,8 +5680,9 @@
    "in_compilation": [],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -5563,8 +5708,9 @@
    "in_compilation": [],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -5590,8 +5736,9 @@
    "in_compilation": [],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -5617,8 +5764,9 @@
    "in_compilation": [],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -5644,8 +5792,9 @@
    "in_compilation": [],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -5671,8 +5820,9 @@
    "in_compilation": [],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -5698,8 +5848,9 @@
    "in_compilation": [],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -5738,8 +5889,9 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -5772,8 +5924,9 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -5807,8 +5960,9 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -5834,8 +5988,9 @@
    "in_compilation": [],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -5868,8 +6023,9 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -5895,8 +6051,9 @@
    "in_compilation": [],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": null,
@@ -5926,8 +6083,9 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -5960,8 +6118,9 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -6001,8 +6160,9 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -6035,8 +6195,9 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -6070,8 +6231,9 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -6097,8 +6259,9 @@
    "in_compilation": [],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -6131,8 +6294,9 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -6159,8 +6323,9 @@
    "in_compilation": [],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -6198,8 +6363,9 @@
      "slug": "s-p-w-t-wash-the-floor"
     }
    ],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": null,
@@ -6235,8 +6401,9 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -6262,8 +6429,9 @@
    "in_compilation": [],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -6289,8 +6457,9 @@
    "in_compilation": [],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -6323,8 +6492,9 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -6358,8 +6528,9 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -6393,8 +6564,9 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -6420,8 +6592,9 @@
    "in_compilation": [],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": null,
@@ -6451,8 +6624,9 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -6485,8 +6659,9 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -6512,8 +6687,9 @@
    "in_compilation": [],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": null,
@@ -6543,8 +6719,9 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -6571,8 +6748,9 @@
    "in_compilation": [],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": null,
@@ -6595,8 +6773,9 @@
    "in_compilation": [],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -6622,8 +6801,9 @@
    "in_compilation": [],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": null,
@@ -6653,8 +6833,9 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -6688,8 +6869,9 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -6716,8 +6898,9 @@
    "in_compilation": [],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -6750,8 +6933,9 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -6777,8 +6961,9 @@
    "in_compilation": [],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": null,
@@ -6808,8 +6993,9 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -6843,8 +7029,9 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -6870,8 +7057,9 @@
    "in_compilation": [],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -6904,8 +7092,9 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -6932,8 +7121,9 @@
    "in_compilation": [],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -6966,8 +7156,9 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -7001,8 +7192,9 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -7035,8 +7227,9 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -7062,8 +7255,9 @@
    "in_compilation": [],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -7096,8 +7290,9 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -7124,8 +7319,9 @@
    "in_compilation": [],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -7158,8 +7354,9 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -7193,8 +7390,9 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -7228,8 +7426,9 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -7263,8 +7462,9 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -7298,8 +7498,9 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -7326,12 +7527,20 @@
    "in_compilation": [],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": {
     "tipo": "track",
     "album": "17fdADR6a0p3fk3m88bvhn",
     "titolo": "Drop The Bass"
    },
+   "video": {
+    "youtube": "M82IhJrYdmw",
+    "tipo": "audio",
+    "canale": "Robbie Rivera, Juicy Music",
+    "titolo": "Drop The Bass (Provenzano Mix)",
+    "verticale": false,
+    "formato": null
+   },
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -7364,8 +7573,9 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -7399,12 +7609,13 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": {
     "tipo": "track",
     "album": "3188je1TP0EUFtP3GT91kh",
     "titolo": "Canta Canta"
    },
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -7437,8 +7648,9 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "video": null,
    "spotify": null,
+   "video": null,
+   "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -7688,7 +7900,7 @@
   "remix": 62,
   "inediti": 35,
   "con_copertina": 179,
-  "con_video": 41,
+  "con_video": 42,
   "con_spotify": 54,
   "con_soundcloud": 2,
   "con_traxsource": 1,
