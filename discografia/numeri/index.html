@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Discografia — i numeri</title>
+<meta name="description" content="Trent'anni di uscite contati: dischi, etichette, collaborazioni, gli anni più pieni e i pezzi ripescati più volte.">
+<meta property="og:title" content="Discografia — i numeri">
+<meta property="og:description" content="Trent'anni di uscite contati: dischi, etichette, collaborazioni, gli anni più pieni e i pezzi ripescati più volte.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23000'/%3E%3Ccircle cx='32' cy='38' r='14' fill='%23FF3131'/%3E%3C/svg%3E">
+<style>
+@font-face{font-family:'Anton';src:url('../fonts/Anton-Regular.ttf') format('truetype');font-display:swap}
+@font-face{font-family:'Poppins EB';src:url('../fonts/Poppins-ExtraBold.ttf') format('truetype');font-display:swap}
+:root{--nero:#000;--rosso:#FF3131;--bianco:#fff;
+  --grigio:rgba(255,255,255,.55);--debole:rgba(255,255,255,.35);
+  --riga:rgba(255,255,255,.10);--pannello:#0b0b0b;--testata:47px}
+*{margin:0;padding:0;box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--nero);color:var(--bianco);
+  font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
+  min-height:100svh;display:flex;flex-direction:column}
+a{color:inherit;text-decoration:none}
+.contenitore{width:100%;max-width:1080px;margin:0 auto;padding:0 20px}
+header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;background:var(--nero)}
+.testata{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 0}
+.logo{font-family:'Poppins EB',Arial,sans-serif;font-size:19px;letter-spacing:-.04em;line-height:1}
+.logo .punto{color:var(--rosso)}
+.menu{display:flex;gap:18px;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--grigio)}
+.menu a.qui{color:var(--bianco)}
+.menu a:hover{color:var(--bianco)}
+h1,h2,h3{font-family:'Anton',Arial,sans-serif;font-weight:400;text-transform:uppercase;letter-spacing:.03em}
+footer{margin-top:auto;border-top:1px solid var(--riga);padding:22px 0 26px;
+  font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--debole)}
+footer .contenitore{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+
+.cartello{padding:26px 0 16px}
+.cartello h1{font-size:clamp(26px,5vw,44px);line-height:1}
+.cartello h1 .punto{color:var(--rosso)}
+.cartello .sotto{margin-top:10px;color:var(--grigio);font-size:14px;line-height:1.6;max-width:62ch}
+.caselle{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;
+  background:var(--riga);border:1px solid var(--riga);border-radius:6px;overflow:hidden}
+.casella{background:var(--nero);padding:18px 16px}
+.casella .cifra{font-family:'Anton',Arial,sans-serif;font-size:clamp(28px,5vw,40px);line-height:1}
+.casella .eti{margin-top:6px;font-size:11px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--grigio)}
+.casella .nota{margin-top:4px;font-size:11.5px;color:var(--debole)}
+.blocco{margin-top:34px}
+.blocco h2{font-size:17px}
+.spiega{margin-top:6px;color:var(--grigio);font-size:13px;line-height:1.6;max-width:60ch}
+.classifica{list-style:none;margin-top:14px}
+.classifica li{display:grid;grid-template-columns:26px minmax(0,1fr) auto;
+  gap:4px 10px;align-items:baseline;padding:8px 0;border-bottom:1px solid var(--riga)}
+.classifica .pos{color:var(--debole);font-size:11px}
+.classifica .nome{font-size:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+a.nome:hover{color:var(--rosso)}
+.classifica .quanto{color:var(--grigio);font-size:12px;text-align:right}
+.classifica .barra{grid-column:2/4;height:3px;background:#161616;border-radius:2px;overflow:hidden}
+.classifica .barra i{display:block;height:100%;background:var(--rosso)}
+</style>
+</head>
+<body>
+<header><div class="contenitore testata">
+  <a class="logo" href="/">provenzano<span class="punto">.</span></a>
+  <nav class="menu"><a href="/discografia/">Discografia</a><a href="/discografia/archivio/">Archivio</a><a class="qui" href="/discografia/numeri/">I numeri</a><a href="/">Home</a></nav>
+</div></header>
+
+<main class="contenitore">
+  <div class="cartello">
+    <h1>I numeri<span class="punto">.</span></h1>
+    <p class="sotto">Trent&rsquo;anni di uscite contati uno per uno. I conti li fa il database
+    a ogni pubblicazione: nessuna cifra qui dentro &egrave; scritta a mano.</p>
+  </div>
+
+  <div class="caselle"><div class="casella"><div class="cifra">188</div><div class="eti">dischi in tutto</div><div class="nota">126 singoli, 62 remix</div></div><div class="casella"><div class="cifra">33</div><div class="eti">anni di uscite</div><div class="nota">dal 1994 al 2026</div></div><div class="casella"><div class="cifra">63</div><div class="eti">etichette diverse</div></div><div class="casella"><div class="cifra">35</div><div class="eti">inediti da compilation</div><div class="nota">mai usciti come disco</div></div><div class="casella"><div class="cifra">121</div><div class="eti">finiti in una compilation</div></div><div class="casella"><div class="cifra">12</div><div class="eti">nomi d&#x27;arte</div><div class="nota">oltre al suo</div></div></div>
+
+  <section class="blocco"><h2>I pezzi ripescati più volte</h2><p class="spiega">Su quante sue compilation è finito lo stesso brano, contando anche i mix diversi.</p><ol class="classifica"><li><span class="pos">1</span><a class="nome" href="/discografia/i-believe/">I Believe</a><span class="quanto">4</span><span class="barra"><i style="width:100.0%"></i></span></li><li><span class="pos">2</span><a class="nome" href="/discografia/take-me-over-d-d-why/">Take Me Over</a><span class="quanto">3</span><span class="barra"><i style="width:75.0%"></i></span></li><li><span class="pos">3</span><a class="nome" href="/discografia/funny-day/">Funny Day</a><span class="quanto">3</span><span class="barra"><i style="width:75.0%"></i></span></li><li><span class="pos">4</span><a class="nome" href="/discografia/sound-is-back/">Sound Is Back</a><span class="quanto">3</span><span class="barra"><i style="width:75.0%"></i></span></li><li><span class="pos">5</span><a class="nome" href="/discografia/running-up-it-s-gonna-be/">Running Up / It&#x27;s Gonna Be</a><span class="quanto">3</span><span class="barra"><i style="width:75.0%"></i></span></li><li><span class="pos">6</span><a class="nome" href="/discografia/eurofolk/">Eurofolk</a><span class="quanto">3</span><span class="barra"><i style="width:75.0%"></i></span></li><li><span class="pos">7</span><a class="nome" href="/discografia/devotion/">Devotion</a><span class="quanto">3</span><span class="barra"><i style="width:75.0%"></i></span></li><li><span class="pos">8</span><a class="nome" href="/discografia/we-belong/">We Belong</a><span class="quanto">2</span><span class="barra"><i style="width:50.0%"></i></span></li><li><span class="pos">9</span><a class="nome" href="/discografia/believe-in-me/">Believe In Me</a><span class="quanto">2</span><span class="barra"><i style="width:50.0%"></i></span></li><li><span class="pos">10</span><a class="nome" href="/discografia/let-me-be/">Let Me Be</a><span class="quanto">2</span><span class="barra"><i style="width:50.0%"></i></span></li></ol></section>
+  <section class="blocco"><h2>Le etichette</h2><p class="spiega">Quante uscite per ognuna. L&#x27;etichetta è quella dell&#x27;uscita originale, non delle ristampe.</p><ol class="classifica"><li><span class="pos">1</span><span class="nome">Netswork Records</span><span class="quanto">8</span><span class="barra"><i style="width:100.0%"></i></span></li><li><span class="pos">2</span><span class="nome">Ego</span><span class="quanto">8</span><span class="barra"><i style="width:100.0%"></i></span></li><li><span class="pos">3</span><span class="nome">Oxyd Records</span><span class="quanto">6</span><span class="barra"><i style="width:75.0%"></i></span></li><li><span class="pos">4</span><span class="nome">Netswork Digital</span><span class="quanto">5</span><span class="barra"><i style="width:62.5%"></i></span></li><li><span class="pos">5</span><span class="nome">Bang Record</span><span class="quanto">4</span><span class="barra"><i style="width:50.0%"></i></span></li><li><span class="pos">6</span><span class="nome">Jump Records</span><span class="quanto">3</span><span class="barra"><i style="width:37.5%"></i></span></li><li><span class="pos">7</span><span class="nome">Time</span><span class="quanto">3</span><span class="barra"><i style="width:37.5%"></i></span></li><li><span class="pos">8</span><span class="nome">Do It Yourself</span><span class="quanto">2</span><span class="barra"><i style="width:25.0%"></i></span></li><li><span class="pos">9</span><span class="nome">Go Dooria Records</span><span class="quanto">2</span><span class="barra"><i style="width:25.0%"></i></span></li><li><span class="pos">10</span><span class="nome">Net&#x27;s Work International</span><span class="quanto">2</span><span class="barra"><i style="width:25.0%"></i></span></li><li><span class="pos">11</span><span class="nome">Netswork</span><span class="quanto">2</span><span class="barra"><i style="width:25.0%"></i></span></li><li><span class="pos">12</span><span class="nome">Juicy Music (Armada)</span><span class="quanto">2</span><span class="barra"><i style="width:25.0%"></i></span></li></ol></section>
+  <section class="blocco"><h2>Gli anni più pieni</h2><ol class="classifica"><li><span class="pos">1</span><span class="nome">2012</span><span class="quanto">18</span><span class="barra"><i style="width:100.0%"></i></span></li><li><span class="pos">2</span><span class="nome">2013</span><span class="quanto">15</span><span class="barra"><i style="width:83.3%"></i></span></li><li><span class="pos">3</span><span class="nome">2015</span><span class="quanto">12</span><span class="barra"><i style="width:66.7%"></i></span></li><li><span class="pos">4</span><span class="nome">2005</span><span class="quanto">11</span><span class="barra"><i style="width:61.1%"></i></span></li><li><span class="pos">5</span><span class="nome">2009</span><span class="quanto">11</span><span class="barra"><i style="width:61.1%"></i></span></li><li><span class="pos">6</span><span class="nome">2008</span><span class="quanto">10</span><span class="barra"><i style="width:55.6%"></i></span></li><li><span class="pos">7</span><span class="nome">2011</span><span class="quanto">10</span><span class="barra"><i style="width:55.6%"></i></span></li><li><span class="pos">8</span><span class="nome">2018</span><span class="quanto">10</span><span class="barra"><i style="width:55.6%"></i></span></li><li><span class="pos">9</span><span class="nome">2006</span><span class="quanto">9</span><span class="barra"><i style="width:50.0%"></i></span></li><li><span class="pos">10</span><span class="nome">2014</span><span class="quanto">9</span><span class="barra"><i style="width:50.0%"></i></span></li></ol></section>
+  <section class="blocco"><h2>Con chi ha firmato</h2><p class="spiega">I nomi che tornano più spesso sui suoi dischi.</p><ol class="classifica"><li><span class="pos">1</span><span class="nome">Lizzy B.</span><span class="quanto">5</span><span class="barra"><i style="width:100.0%"></i></span></li><li><span class="pos">2</span><span class="nome">Scarlet</span><span class="quanto">4</span><span class="barra"><i style="width:80.0%"></i></span></li><li><span class="pos">3</span><span class="nome">HJM</span><span class="quanto">4</span><span class="barra"><i style="width:80.0%"></i></span></li><li><span class="pos">4</span><span class="nome">Fedo Mora</span><span class="quanto">4</span><span class="barra"><i style="width:80.0%"></i></span></li><li><span class="pos">5</span><span class="nome">Andrea Gulisano</span><span class="quanto">4</span><span class="barra"><i style="width:80.0%"></i></span></li><li><span class="pos">6</span><span class="nome">Andrea Masullo</span><span class="quanto">3</span><span class="barra"><i style="width:60.0%"></i></span></li><li><span class="pos">7</span><span class="nome">Simioli</span><span class="quanto">3</span><span class="barra"><i style="width:60.0%"></i></span></li><li><span class="pos">8</span><span class="nome">Wlady</span><span class="quanto">3</span><span class="barra"><i style="width:60.0%"></i></span></li><li><span class="pos">9</span><span class="nome">Paul Jockey</span><span class="quanto">3</span><span class="barra"><i style="width:60.0%"></i></span></li><li><span class="pos">10</span><span class="nome">Daniele Macchi</span><span class="quanto">2</span><span class="barra"><i style="width:40.0%"></i></span></li><li><span class="pos">11</span><span class="nome">Promise Land</span><span class="quanto">2</span><span class="barra"><i style="width:40.0%"></i></span></li><li><span class="pos">12</span><span class="nome">Danijay</span><span class="quanto">2</span><span class="barra"><i style="width:40.0%"></i></span></li></ol></section>
+  <section class="blocco"><h2>Chi ha remixato</h2><p class="spiega">Gli artisti sui cui pezzi ha messo le mani.</p><ol class="classifica"><li><span class="pos">1</span><span class="nome">Falaska Contest</span><span class="quanto">3</span><span class="barra"><i style="width:100.0%"></i></span></li><li><span class="pos">2</span><span class="nome">Andrea Masullo</span><span class="quanto">3</span><span class="barra"><i style="width:100.0%"></i></span></li><li><span class="pos">3</span><span class="nome">Haiducii</span><span class="quanto">2</span><span class="barra"><i style="width:66.7%"></i></span></li><li><span class="pos">4</span><span class="nome">Manu L.J.</span><span class="quanto">2</span><span class="barra"><i style="width:66.7%"></i></span></li><li><span class="pos">5</span><span class="nome">Be Angel</span><span class="quanto">2</span><span class="barra"><i style="width:66.7%"></i></span></li><li><span class="pos">6</span><span class="nome">Claudio Caccini, Carl Fanini</span><span class="quanto">2</span><span class="barra"><i style="width:66.7%"></i></span></li><li><span class="pos">7</span><span class="nome">Don Cash</span><span class="quanto">2</span><span class="barra"><i style="width:66.7%"></i></span></li><li><span class="pos">8</span><span class="nome">Leandro Barsotti</span><span class="quanto">1</span><span class="barra"><i style="width:33.3%"></i></span></li><li><span class="pos">9</span><span class="nome">Enrico Sognato</span><span class="quanto">1</span><span class="barra"><i style="width:33.3%"></i></span></li><li><span class="pos">10</span><span class="nome">Mauro Bandini</span><span class="quanto">1</span><span class="barra"><i style="width:33.3%"></i></span></li><li><span class="pos">11</span><span class="nome">Liotti</span><span class="quanto">1</span><span class="barra"><i style="width:33.3%"></i></span></li><li><span class="pos">12</span><span class="nome">Clubraiders</span><span class="quanto">1</span><span class="barra"><i style="width:33.3%"></i></span></li></ol></section>
+</main>
+
+<footer><div class="contenitore">
+  <span>&copy; 2026 Provenzano Dj</span>
+  <span>aggiornato il 2026-08-29</span>
+</div></footer>
+</body>
+</html>
