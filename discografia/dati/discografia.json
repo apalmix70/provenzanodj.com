@@ -3819,9 +3819,9 @@
    "in_compilation": [],
    "versioni_uscita": [],
    "video": {
-    "youtube": "fPGVRyYZ9Nw",
+    "youtube": "S40NP5EbRBY",
     "tipo": "audio",
-    "canale": "canale Wlady",
+    "canale": "canale Paadyp",
     "titolo": "Bam Bam",
     "verticale": false,
     "formato": null
@@ -7323,7 +7323,11 @@
    "artista_diverso": [],
    "versioni_uscita": [],
    "video": null,
-   "spotify": null,
+   "spotify": {
+    "tipo": "track",
+    "album": "17fdADR6a0p3fk3m88bvhn",
+    "titolo": "Drop The Bass"
+   },
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
@@ -7681,7 +7685,7 @@
   "inediti": 35,
   "con_copertina": 179,
   "con_video": 41,
-  "con_spotify": 53,
+  "con_spotify": 54,
   "con_soundcloud": 1,
   "con_traxsource": 1,
   "in_compilation": 120,
