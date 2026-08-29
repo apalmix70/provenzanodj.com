@@ -3405,7 +3405,11 @@
        "come": "Ain't No Sunshine"
       }
      ],
-     "slug": "ain-t-no-sunshine-2024"
+     "slug": "ain-t-no-sunshine-2024",
+     "spotify": {
+      "tipo": "album",
+      "album": "0rrQfStPBdAboOg4kVjYRk"
+     }
     },
     {
      "titolo": "Ain't No Sunshine",
@@ -3875,17 +3879,14 @@
        "come": "Saxophone (Wlady Remix)"
       }
      ],
-     "slug": "saxophone-wlady"
+     "slug": "saxophone-wlady",
+     "spotify": {
+      "tipo": "album",
+      "album": "6aEZe8AuGN6AG1aJAev4es"
+     }
     }
    ],
-   "video": {
-    "youtube": "it2VBHwnfV8",
-    "tipo": "ufficiale",
-    "canale": "Saifam, Official Teaser",
-    "titolo": "Saxophone",
-    "verticale": false,
-    "formato": null
-   },
+   "video": null,
    "spotify": {
     "tipo": "album",
     "album": "6XR1grKYnLBCdD9faYstFY",
@@ -7486,7 +7487,7 @@
   "remix": 62,
   "inediti": 35,
   "con_copertina": 179,
-  "con_video": 42,
+  "con_video": 41,
   "con_spotify": 53,
   "con_soundcloud": 1,
   "in_compilation": 120,
