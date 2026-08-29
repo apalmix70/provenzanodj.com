@@ -65,6 +65,9 @@ footer .contenitore{display:flex;justify-content:space-between;gap:14px;flex-wra
 .video{position:relative;padding-top:56.25%;border:1px solid var(--riga);
   border-radius:6px;overflow:hidden;background:var(--pannello)}
 .video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+/* Gli short sono verticali: 9:16 e larghezza contenuta, se no occupano tre
+   schermate di pagina per un video di trenta secondi. */
+.video.verticale{padding-top:min(177.78%,620px);max-width:349px}
 .didascalia{margin-top:7px;color:var(--debole);font-size:11px;letter-spacing:.06em}
 .spotify{width:100%;border-radius:12px;display:block}
 .torna{display:inline-block;margin:26px 0 6px;font-size:11px;letter-spacing:.16em;
@@ -93,7 +96,7 @@ footer .contenitore{display:flex;justify-content:space-between;gap:14px;flex-wra
   
   
   <section class="blocco"><h3>Ascolta</h3><iframe class="spotify" loading="lazy" src="https://open.spotify.com/embed/album/3gDfu2SUVVw7Qu3aaFu2dQ" height="152" frameborder="0" allow="encrypted-media"></iframe></section>
-  
+  <section class="blocco"><h3>Il video</h3><div class="video verticale"><iframe src="https://www.youtube-nocookie.com/embed/CPYTjtput5U" title="Malawi" loading="lazy" frameborder="0" allowfullscreen allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe></div><div class="didascalia">videoclip ufficiale · l&#x27;audio d&#x27;etichetta era 3gM6KKuZtuM</div></section>
 
   <a class="torna" href="/discografia/">&larr; tutta la discografia</a>
 </main>
