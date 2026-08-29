@@ -317,44 +317,7 @@
      "come": "I Believe"
     }
    ],
-   "versioni_uscita": [
-    {
-     "titolo": "I Believe",
-     "come": "Remix, Paradise Orchestra Remix",
-     "anno": 1994,
-     "data": null,
-     "etichetta": null,
-     "con": [],
-     "nota": "due uscite a sé sul profilo Spotify di Double Dare",
-     "in_compilation": [
-      {
-       "slug": "hit-mania-dance-2",
-       "titolo": "Hit Mania Dance 2",
-       "anno": 1994,
-       "come": "I Believe (Rmx)"
-      },
-      {
-       "slug": "hit-parade-dance-7",
-       "titolo": "Hit Parade Dance 7",
-       "anno": 1994,
-       "come": "I Believe (Rmx)"
-      },
-      {
-       "slug": "radio-cipolla-party-compilation",
-       "titolo": "Radio Cipolla Party Compilation",
-       "anno": 1994,
-       "come": "I Believe"
-      },
-      {
-       "slug": "studio-dance-5",
-       "titolo": "Studio Dance 5",
-       "anno": 1995,
-       "come": "I Believe"
-      }
-     ],
-     "slug": "i-believe-remix"
-    }
-   ],
+   "versioni_uscita": [],
    "spotify": [
     {
      "tipo": "album",
@@ -382,7 +345,7 @@
    "anno_incerto": false,
    "nota_pubblica": {
     "forte": "La prima uscita in assoluto.",
-    "testo": "Copertina e logo di Double Dare disegnati da lui, a mano."
+    "testo": "Copertina e logo di Double Dare disegnati da Provenzano, a mano."
    }
   },
   {
