@@ -61,6 +61,10 @@
     15
    ],
    [
+    2015,
+    12
+   ],
+   [
     2005,
     11
    ],
@@ -70,10 +74,6 @@
    ],
    [
     2011,
-    11
-   ],
-   [
-    2015,
     11
    ],
    [
@@ -104,7 +104,7 @@
    ],
    [
     2010,
-    93
+    94
    ],
    [
     2020,
@@ -211,7 +211,7 @@
     1
    ]
   ],
-  "quante_etichette": 65,
+  "quante_etichette": 66,
   "piu_compilation": [
    {
     "titolo": "I Believe",
@@ -5841,37 +5841,6 @@
    "inedito": false,
    "anno_incerto": false,
    "nota_pubblica": null
-  },
-  {
-   "tipo": "produzione",
-   "slug": "party-people",
-   "titolo": "Party People",
-   "versioni": [],
-   "data": null,
-   "anno": null,
-   "data_esatta": false,
-   "con": [
-    "Get Far",
-    "Jeffrey Jey"
-   ],
-   "firma": null,
-   "etichetta": null,
-   "nota": "stessa squadra di* Party With You*, ma è un'uscita a sé. Anno sconosciuto: non è in nessun database e non se lo ricorda",
-   "escluso": false,
-   "da_guardare": false,
-   "sezione": "2010 → 2019",
-   "in_compilation": [],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": null,
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": null,
-   "inedito": false,
-   "anno_incerto": false,
-   "nota_pubblica": null
   }
  ],
  "remix": [
@@ -7922,6 +7891,50 @@
   },
   {
    "tipo": "remix",
+   "slug": "don-cash-carry-on",
+   "artista": "Don Cash",
+   "titolo": "Carry On",
+   "data": "2015-07-07",
+   "anno": 2015,
+   "data_esatta": true,
+   "firma": "Provenzano",
+   "etichetta": "Nocolors",
+   "nota": "fonte Beatport, 30/08/2026: release «Carry on», Nocolors, 07/07/2015, quattro tracce — Original, Provenzano Rmx (ISRC ITA891500039), Dj Lhasa Remix e Remix Edit. Prima era senza data e senza etichetta: il video ufficiale del 17/07/2015 sul canale NoColors Records ha dato la traccia da seguire",
+   "escluso": false,
+   "sezione": "Remix",
+   "in_compilation": [
+    {
+     "slug": "m2ovol39",
+     "titolo": "m2o vol.39",
+     "anno": 2015,
+     "come": "Carry On (Provenzano DJ Rmx)"
+    }
+   ],
+   "artista_diverso": [],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": {
+    "youtube": "9TtEguS0thA",
+    "tipo": "ufficiale",
+    "canale": "NoColors Records, Official Video",
+    "titolo": "Carry On",
+    "verticale": false,
+    "formato": null
+   },
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "propria",
+    "file": "cop/don-cash-carry-on.jpg"
+   },
+   "inedito": false,
+   "anno_incerto": false,
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "remix",
    "slug": "don-cash-abusadora",
    "artista": "Don Cash",
    "titolo": "Abusadora",
@@ -8075,44 +8088,6 @@
    "copertina": {
     "tipo": "propria",
     "file": "cop/dj-shorty-canta-canta.jpg"
-   },
-   "inedito": false,
-   "anno_incerto": false,
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "remix",
-   "slug": "don-cash-carry-on",
-   "artista": "Don Cash",
-   "titolo": "Carry On",
-   "data": null,
-   "anno": null,
-   "data_esatta": false,
-   "firma": "Provenzano",
-   "etichetta": null,
-   "nota": "anno sconosciuto, non è in nessun database",
-   "escluso": false,
-   "sezione": "Remix",
-   "in_compilation": [
-    {
-     "slug": "m2ovol39",
-     "titolo": "m2o vol.39",
-     "anno": 2015,
-     "come": "Carry On (Provenzano DJ Rmx)"
-    }
-   ],
-   "artista_diverso": [],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": null,
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "compilation",
-    "file": "/compilation/cop/m2ovol39.jpg",
-    "da": "m2o vol.39"
    },
    "inedito": false,
    "anno_incerto": false,
@@ -8285,7 +8260,7 @@
   },
   "2015": {
    "singoli": 10,
-   "remix": 1
+   "remix": 2
   },
   "2014": {
    "singoli": 7,
@@ -8353,11 +8328,11 @@
   }
  },
  "totali": {
-  "singoli": 124,
+  "singoli": 123,
   "remix": 62,
   "inediti": 36,
   "con_copertina": 181,
-  "con_video": 46,
+  "con_video": 47,
   "con_spotify": 66,
   "con_soundcloud": 6,
   "con_traxsource": 1,
