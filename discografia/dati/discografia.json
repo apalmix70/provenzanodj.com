@@ -211,7 +211,7 @@
     1
    ]
   ],
-  "quante_etichette": 62,
+  "quante_etichette": 63,
   "piu_compilation": [
    {
     "titolo": "I Believe",
@@ -1177,8 +1177,9 @@
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
-    "tipo": "propria",
-    "file": "cop/eurofolk.jpg"
+    "tipo": "compilation",
+    "file": "/compilation/cop/jump-2-the-dancefloor-vol-1.jpg",
+    "da": "[Jump]² The Dancefloor Vol. 1"
    },
    "inedito": true,
    "anno_incerto": false
@@ -1226,8 +1227,9 @@
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
-    "tipo": "propria",
-    "file": "cop/the-story-goes-on.jpg"
+    "tipo": "compilation",
+    "file": "/compilation/cop/jump-2-the-dancefloor-vol-3.jpg",
+    "da": "[Jump]² The Dancefloor Vol. 3"
    },
    "inedito": true,
    "anno_incerto": false
@@ -1277,8 +1279,9 @@
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
-    "tipo": "propria",
-    "file": "cop/right-or-wrong.jpg"
+    "tipo": "compilation",
+    "file": "/compilation/cop/jump-2-the-dancefloor-vol-4.jpg",
+    "da": "[Jump]² The Dancefloor Vol. 4"
    },
    "inedito": false,
    "anno_incerto": false
@@ -1355,8 +1358,9 @@
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
-    "tipo": "propria",
-    "file": "cop/ride-the-way.jpg"
+    "tipo": "compilation",
+    "file": "/compilation/cop/m2ovol15.jpg",
+    "da": "m2o vol.15"
    },
    "inedito": false,
    "anno_incerto": false
@@ -1683,8 +1687,9 @@
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
-    "tipo": "propria",
-    "file": "cop/catch-me.jpg"
+    "tipo": "compilation",
+    "file": "/compilation/cop/jump-2-the-dancefloor-vol-4.jpg",
+    "da": "[Jump]² The Dancefloor Vol. 4"
    },
    "inedito": false,
    "anno_incerto": false
@@ -1759,8 +1764,9 @@
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
-    "tipo": "propria",
-    "file": "cop/where-did-you-go.jpg"
+    "tipo": "compilation",
+    "file": "/compilation/cop/m2ovol19.jpg",
+    "da": "m2o vol.19"
    },
    "inedito": false,
    "anno_incerto": false
@@ -3237,8 +3243,8 @@
     "Ruby Friedman"
    ],
    "firma": null,
-   "etichetta": null,
-   "nota": "non su Spotify/Beatport/Discogs. Esiste anche un HJM Edit, ma quella che vale è la Provenzano Rework",
+   "etichetta": "*(non su Spotify/Beatport/Discogs. Esiste anche un HJM Edit, ma quella che vale è la Provenzano Rework. Su Amazon Music c'è: «Starlight (feat. Ruby Friedman) [Provenzano Rework]» di Provenzano & Macchi, dentro «M2o 37",
+   "nota": "Are You Radio?», ASIN B00PLM41U2 — cioè m2o vol.37, 24/11/2014, Time Records. Da qui il dubbio sull'anno: qui è segnato 2015)*",
    "escluso": false,
    "da_guardare": false,
    "sezione": "2010 → 2019",
@@ -3257,8 +3263,9 @@
    "soundcloud": null,
    "traxsource": null,
    "copertina": {
-    "tipo": "propria",
-    "file": "cop/starlight.jpg"
+    "tipo": "compilation",
+    "file": "/compilation/cop/m2ovol37.jpg",
+    "da": "m2o vol.37"
    },
    "inedito": false,
    "anno_incerto": false
