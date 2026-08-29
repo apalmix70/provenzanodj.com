@@ -61,15 +61,15 @@
     15
    ],
    [
-    2015,
-    12
-   ],
-   [
     2005,
     11
    ],
    [
     2009,
+    11
+   ],
+   [
+    2015,
     11
    ],
    [
@@ -81,15 +81,15 @@
     10
    ],
    [
+    2014,
+    10
+   ],
+   [
     2018,
     10
    ],
    [
     2006,
-    9
-   ],
-   [
-    2014,
     9
    ]
   ],
@@ -211,7 +211,7 @@
     1
    ]
   ],
-  "quante_etichette": 63,
+  "quante_etichette": 62,
   "piu_compilation": [
    {
     "titolo": "I Believe",
@@ -3050,6 +3050,48 @@
   },
   {
    "tipo": "produzione",
+   "slug": "starlight",
+   "titolo": "Starlight",
+   "versioni": [
+    "Provenzano Rework"
+   ],
+   "data": null,
+   "anno": 2014,
+   "data_esatta": false,
+   "con": [
+    "Daniele Macchi",
+    "Ruby Friedman"
+   ],
+   "firma": null,
+   "etichetta": null,
+   "nota": "inedito per la compilation: mai uscito a sé, stampato su m2o vol.37. Su Amazon Music sta dentro «M2o 37 — Are You Radio?», ASIN B00PLM41U2, come «Starlight (feat. Ruby Friedman) [Provenzano Rework]» di Provenzano & Macchi. Esiste anche un HJM Edit, ma quella che vale è la Provenzano Rework. Amerigo valuta di caricare l'audio su SoundCloud per avere il player",
+   "escluso": false,
+   "da_guardare": false,
+   "sezione": "2010 → 2019",
+   "in_compilation": [
+    {
+     "slug": "m2ovol37",
+     "titolo": "m2o vol.37",
+     "anno": 2014,
+     "come": "Starlight (Provenzano DJ Rework)"
+    }
+   ],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "copertina": {
+    "tipo": "compilation",
+    "file": "/compilation/cop/m2ovol37.jpg",
+    "da": "m2o vol.37"
+   },
+   "inedito": true,
+   "anno_incerto": false
+  },
+  {
+   "tipo": "produzione",
    "slug": "just-the-way-you-are",
    "titolo": "Just The Way You Are",
    "versioni": [
@@ -3224,48 +3266,6 @@
    "copertina": {
     "tipo": "propria",
     "file": "cop/take-your-breath.jpg"
-   },
-   "inedito": false,
-   "anno_incerto": false
-  },
-  {
-   "tipo": "produzione",
-   "slug": "starlight",
-   "titolo": "Starlight",
-   "versioni": [
-    "Provenzano Rework"
-   ],
-   "data": null,
-   "anno": 2015,
-   "data_esatta": false,
-   "con": [
-    "Daniele Macchi",
-    "Ruby Friedman"
-   ],
-   "firma": null,
-   "etichetta": "*(non su Spotify/Beatport/Discogs. Esiste anche un HJM Edit, ma quella che vale è la Provenzano Rework. Su Amazon Music c'è: «Starlight (feat. Ruby Friedman) [Provenzano Rework]» di Provenzano & Macchi, dentro «M2o 37",
-   "nota": "Are You Radio?», ASIN B00PLM41U2 — cioè m2o vol.37, 24/11/2014, Time Records. Da qui il dubbio sull'anno: qui è segnato 2015)*",
-   "escluso": false,
-   "da_guardare": false,
-   "sezione": "2010 → 2019",
-   "in_compilation": [
-    {
-     "slug": "m2ovol37",
-     "titolo": "m2o vol.37",
-     "anno": 2014,
-     "come": "Starlight (Provenzano DJ Rework)"
-    }
-   ],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": null,
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "copertina": {
-    "tipo": "compilation",
-    "file": "/compilation/cop/m2ovol37.jpg",
-    "da": "m2o vol.37"
    },
    "inedito": false,
    "anno_incerto": false
@@ -7834,11 +7834,11 @@
    "remix": 2
   },
   "2015": {
-   "singoli": 11,
+   "singoli": 10,
    "remix": 1
   },
   "2014": {
-   "singoli": 6,
+   "singoli": 7,
    "remix": 3
   },
   "2013": {
@@ -7905,7 +7905,7 @@
  "totali": {
   "singoli": 125,
   "remix": 62,
-  "inediti": 35,
+  "inediti": 36,
   "con_copertina": 179,
   "con_video": 42,
   "con_spotify": 54,
