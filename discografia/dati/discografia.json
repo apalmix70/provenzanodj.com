@@ -4,7 +4,7 @@
   "etichette": [
    [
     "Netswork Records",
-    8
+    9
    ],
    [
     "Ego",
@@ -54,7 +54,7 @@
   "anni": [
    [
     2012,
-    17
+    16
    ],
    [
     2013,
@@ -69,15 +69,15 @@
     11
    ],
    [
+    2011,
+    11
+   ],
+   [
     2015,
     11
    ],
    [
     2008,
-    10
-   ],
-   [
-    2011,
     10
    ],
    [
@@ -6977,6 +6977,35 @@
   },
   {
    "tipo": "remix",
+   "slug": "edward-maya-feat-vika-jigulina-desert-rain",
+   "artista": "Edward Maya feat. Vika Jigulina",
+   "titolo": "Desert Rain",
+   "data": "2011-12-06",
+   "anno": 2011,
+   "data_esatta": true,
+   "firma": "Provenzano",
+   "etichetta": "Netswork Records",
+   "nota": "fonte Beatport, 30/08/2026: il Provenzano Remix esce dentro «Desert Rain (feat. Vika Jigulina)» del 06/12/2011 — ISRC ITD451100976, 128 bpm — insieme ai remix di Pee4Tee e Alex Addea, e torna nella release «Desert Rain» del 10/01/2012. Prima qui era segnato 2012 senza etichetta. Su Spotify il remix non c'è; il caricamento su SoundCloud è di SoundBitMusic, profilo di terzi, quindi niente player",
+   "escluso": false,
+   "sezione": "Remix",
+   "in_compilation": [],
+   "artista_diverso": [],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "propria",
+    "file": "cop/edward-maya-feat-vika-jigulina-desert-rain.jpg"
+   },
+   "inedito": false,
+   "anno_incerto": false
+  },
+  {
+   "tipo": "remix",
    "slug": "luca-ruco-i-like-it",
    "artista": "Luca Ruco",
    "titolo": "I Like It",
@@ -7048,35 +7077,6 @@
    },
    "inedito": false,
    "anno_incerto": true
-  },
-  {
-   "tipo": "remix",
-   "slug": "edward-maya-feat-vika-jigulina-desert-rain",
-   "artista": "Edward Maya feat. Vika Jigulina",
-   "titolo": "Desert Rain",
-   "data": null,
-   "anno": 2012,
-   "data_esatta": false,
-   "firma": "Provenzano",
-   "etichetta": null,
-   "nota": null,
-   "escluso": false,
-   "sezione": "Remix",
-   "in_compilation": [],
-   "artista_diverso": [],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": null,
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "propria",
-    "file": "cop/edward-maya-feat-vika-jigulina-desert-rain.jpg"
-   },
-   "inedito": false,
-   "anno_incerto": false
   },
   {
    "tipo": "remix",
@@ -8065,11 +8065,11 @@
   },
   "2012": {
    "singoli": 9,
-   "remix": 8
+   "remix": 7
   },
   "2011": {
    "singoli": 4,
-   "remix": 6
+   "remix": 7
   },
   "2010": {
    "singoli": 3,
