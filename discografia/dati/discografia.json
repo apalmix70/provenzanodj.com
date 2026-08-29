@@ -3205,7 +3205,11 @@
     }
    ],
    "versioni_uscita": [],
-   "spotify": null,
+   "spotify": {
+    "tipo": "track",
+    "album": "6m7BUzVvsLDY2WXkSSW0OL",
+    "titolo": "You And Me"
+   },
    "video": {
     "youtube": "PQA05XdI3yw",
     "tipo": "ufficiale",
@@ -8114,7 +8118,7 @@
   "inediti": 36,
   "con_copertina": 179,
   "con_video": 42,
-  "con_spotify": 54,
+  "con_spotify": 55,
   "con_soundcloud": 4,
   "con_traxsource": 1,
   "con_apple": 1,
