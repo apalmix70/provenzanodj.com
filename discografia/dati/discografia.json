@@ -619,7 +619,12 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2391490068",
+    "secret": "s-wTPdW0fWIkA",
+    "cosa": "estratto, 58 secondi",
+    "perche": "caricato da Amerigo il 31/08/2026, e da lui stesso intitolato «(estratto)»: del 12\" del 1997 in rete non esiste il brano intero, solo tre video da 58 secondi del canale «Vinylminded», uno per mix. ⚠️ La didascalia in pagina deve dire che e' un estratto: 58 secondi non sono il pezzo, e un player che non lo dichiara fa credere che il disco sia quello. Amerigo: «prendiamoci quello che c'e'»."
+   },
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -8841,7 +8846,7 @@
   "con_copertina": 184,
   "con_video": 46,
   "con_spotify": 68,
-  "con_soundcloud": 16,
+  "con_soundcloud": 17,
   "con_traxsource": 1,
   "con_apple": 2,
   "in_compilation": 119,
