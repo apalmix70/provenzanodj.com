@@ -588,7 +588,12 @@
    },
    "inedito": false,
    "anno_incerto": false,
-   "foto": [],
+   "foto": [
+    {
+     "file": "cop/foto/un-altro-giorno-e-gia-andato-1.jpg",
+     "cosa": "il retro del CD: alla traccia 3, «Bolognesi & Provenzano — Un altro giorno e' gia' andato», in mezzo alle voci di RDS"
+    }
+   ],
    "nota_pubblica": {
     "forte": "Qui la voce è la loro.",
     "testo": "«Cento X Cento RDS» è il disco che la radio fece con le proprie voci: ogni speaker dell'emittente un brano. Questo è quello di **Paolo Bolognesi e Amerigo Provenzano**, e sul disco i due non figurano come produttori ma come **interpreti** — lo cantano loro. È uscito solo lì dentro, e una copertina sua non l'ha mai avuta."
@@ -6610,7 +6615,10 @@
    "soundcloud": null,
    "traxsource": null,
    "apple": null,
-   "copertina": null,
+   "copertina": {
+    "tipo": "propria",
+    "file": "cop/cosmo-inno-di-mameli.jpg"
+   },
    "inedito": false,
    "anno_incerto": false,
    "foto": [],
@@ -8802,7 +8810,7 @@
   "singoli": 123,
   "remix": 64,
   "inediti": 36,
-  "con_copertina": 182,
+  "con_copertina": 183,
   "con_video": 46,
   "con_spotify": 68,
   "con_soundcloud": 13,
