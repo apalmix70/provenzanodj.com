@@ -1406,7 +1406,12 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2391441831",
+    "secret": "s-O9N1nedqMz9",
+    "perche": "l'audio caricato da Amerigo sul suo profilo il 30/08/2026, traccia privata: è l'unico ascolto del disco. Link corto: on.soundcloud.com/AQv1yipvBnE4JXIYBN. ⚠️ È **una versione sola**, non il 12\" intero: le altre tre restano scritte nell'elenco delle versioni, che qui non si toglie.",
+    "cosa": null
+   },
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -8593,7 +8598,7 @@
   "con_copertina": 181,
   "con_video": 45,
   "con_spotify": 67,
-  "con_soundcloud": 9,
+  "con_soundcloud": 10,
   "con_traxsource": 1,
   "con_apple": 2,
   "in_compilation": 119,
