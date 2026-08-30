@@ -31,15 +31,15 @@
     3
    ],
    [
+    "Go Dooria Records",
+    3
+   ],
+   [
     "Time",
     3
    ],
    [
     "Do It Yourself",
-    2
-   ],
-   [
-    "Go Dooria Records",
     2
    ],
    [
@@ -6266,13 +6266,15 @@
    "slug": "clubraiders-move-your-hands-up",
    "artista": "Clubraiders",
    "titolo": "Move Your Hands Up",
-   "versioni": [],
+   "versioni": [
+    "Provenzano & Promiseland Hard Dance Style Mix"
+   ],
    "data": null,
    "anno": 2004,
    "data_esatta": false,
-   "firma": "Provenzano",
-   "etichetta": null,
-   "nota": null,
+   "firma": "Provenzano, Promise Land",
+   "etichetta": "Go Dooria Records",
+   "nota": "certificata il 31/08/2026 sulla scheda Discogs 501763 e sulle foto delle etichette. 12\" Go Dooria Records GDR 0509, Italia, barcode 8 019991 858134, ℗ 2004 Baloon Records GmbH e © 2005 Go Dooria / Go Records snc. Quattro versioni, e la loro è la A1: «Move Your Hands Up (Provenzano & Promiseland Hard Dance Style Mix)» 6:50, ISRC AT B35 05 00068. Le altre sono di altri: A2 «Sygma NuZone Rmx» 5:51, B1 «DJ Andy Garcia Rmx» 7:09, B2 «Original Club Mix» 5:40, prodotta da Alexander Wyhnalek. Il brano è di Helmut Stephan e Michael Nemeth, testo con Alexander Wyhnalek, voce di Helga. ⚠️ Tre correzioni alla riga, che prima diceva solo «Provenzano» e nessuna etichetta: il remix è con Promise Land, l'etichetta è Go Dooria Records, e la versione ha un nome. ⭐ Sull'etichetta è stampato dove l'hanno fatto: «A1 Remixed by Provenzano Dj & Promise Land @ “Promiseland Studio” - Anzio (Italy)», e accanto ai due nomi ci sono i due indirizzi — www.provenzanodj.com e www.djpromiseland.com. Il sito che sta leggendo questa riga era già stampato su un vinile del 2004. ⭐ E qui nasce “Hard Dance Style”: non era una collana altrui ma la sigla delle loro riedizioni hard dance, quella che in sezione 2 compare come «la lista Hard Dance Style» del 2005-2007",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [],
@@ -6290,7 +6292,12 @@
    },
    "inedito": false,
    "anno_incerto": false,
-   "foto": [],
+   "foto": [
+    {
+     "file": "cop/foto/clubraiders-move-your-hands-up-1.jpg",
+     "cosa": "l'etichetta del vinile: «A1. Provenzano&Promiseland Hard Dance Style Rmx 6:50», e sotto «Remixed by Provenzano Dj & Promise Land @ Promiseland Studio - Anzio»"
+    }
+   ],
    "nota_pubblica": null
   },
   {
