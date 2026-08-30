@@ -6648,7 +6648,11 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2391484527",
+    "secret": "s-a0z1pWeuYjo",
+    "perche": "l'audio caricato da Amerigo sul suo profilo il 31/08/2026, traccia privata: «Checco Zalone - Siamo Una Squadra Fortissimi (Provenzano & Promise Land Remix)». Link corto mandato da lui, on.soundcloud.com/Ju3I5S6MJM4GHbwcG9, che risolve su soundcloud.com/provenzano_official/checco-zalone-siamo-una/s-a0z1pWeuYjo. Il remix del 2006 esiste solo dentro Hit Mania Club Dance Vol. 4 e in digitale non c'e'. L'audio viene dal canale «Italodance Rare by Mysterioboy84» (djgiONCg2ck), 4:32, col titolo esatto, ed e' stato ricaricato dove lo controlla lui."
+   },
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -8825,7 +8829,7 @@
   "con_copertina": 184,
   "con_video": 46,
   "con_spotify": 68,
-  "con_soundcloud": 14,
+  "con_soundcloud": 15,
   "con_traxsource": 1,
   "con_apple": 2,
   "in_compilation": 119,
