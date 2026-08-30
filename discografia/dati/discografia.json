@@ -6159,7 +6159,7 @@
    "data_esatta": false,
    "firma": "Provenzano, Paolo Bolognesi",
    "etichetta": "Flying Records Italia",
-   "nota": "certificato il 30/08/2026 e riverificato il 31/08/2026 sull'API Discogs, release 14706273 — la pagina web restituisce 403, i dati completi si leggono su `api.discogs.com/releases/14706273`. CD Single, Flying Records Italia FIT 033 CDs, Italia 1996, barcode 8013744083361, timbro S.I.A.E. Tre tracce, e la sua è la traccia 2: «Dimmi Parole (Remix)» 6:29, «Remix — Amerigo Provenzano, Paolo Bolognesi». Luca Leonori è produttore, arrangiatore, esecutore, mixaggio e coautore insieme a Liotti — lo stesso filo di ABC e di Barsotti. ⚠️ Le note di copertina dicono (P) 1995 Flying Records Productions, (C) 1996: inciso nel 1995, uscito nel 1996. Il disco esiste anche fuori da Discogs: lo stesso EAN sta nei cataloghi IBS e Feltrinelli («CD singolo, 3 tracce»), e una copia fisica è passata su eBay descritta come «CD singolo 3 tracks timbro SIAE rosso a secco» — inserzione oggi rimossa, nessuna copia nella Wayback Machine. Del remix non esiste un ascolto: Roberto Liotti ha caricato sul suo canale YouTube la traccia 1 (`JzpbC86eZyA`, 4:03) e la traccia 3, non la sua. ⭐ Nella descrizione di quel video scrive: «Nel lontano 1996 io e mio fratello Marco vivevamo una breve ma intensa avventura nel mondo discografico, i nostri singoli passarono anche in importanti radio tra cui la prestigiosa RDS» — e nel 1996 Amerigo era su RDS (database radio, 1990-1999). Non prova il remix, ma spiega come ci è arrivato",
+   "nota": "certificato il 30/08/2026 e riverificato il 31/08/2026 sull'API Discogs, release 14706273 — la pagina web restituisce 403, i dati completi si leggono su `api.discogs.com/releases/14706273`. CD Single, Flying Records Italia FIT 033 CDs, Italia 1996, barcode 8013744083361, timbro S.I.A.E. Tre tracce, e la sua è la traccia 2: «Dimmi Parole (Remix)» 6:29, «Remix — Amerigo Provenzano, Paolo Bolognesi». Luca Leonori è produttore, arrangiatore, esecutore, mixaggio e coautore insieme a Liotti — lo stesso filo di ABC e di Barsotti. ⚠️ Le note di copertina dicono (P) 1995 Flying Records Productions, (C) 1996: inciso nel 1995, uscito nel 1996. Il disco esiste anche fuori da Discogs: lo stesso EAN sta nei cataloghi IBS e Feltrinelli («CD singolo, 3 tracce»), e una copia fisica è passata su eBay descritta come «CD singolo 3 tracks timbro SIAE rosso a secco» — inserzione oggi rimossa, nessuna copia nella Wayback Machine. ⭐ Il credito è stampato sul disco, e dal 31/08/2026 la foto sta in pagina: sul retro del libretto, sotto la lista delle tre tracce, c'è scritto «Remix di Bolognesi e Provenzano». Lo stesso foglio dà la produzione per esteso: prodotto da Venanzio Marsili e Luca Leonori per «Marsili Musica», arrangiato e suonato da Luca Leonori, cori di Donatella Paserio e Gioia Rebecchi, registrato da Mauro Laficara con Simone e Alessandro Rocchini, mixato da Mauro Laficara e Luca Leonori ad Attico Studio e Industree Studio, masterizzato da Rolando Alberti al Logic Studios, foto di A. F. Dobici. Gli autori sono «Liotti-Leo» su tutte e tre le tracce, e «Leo» è Leonori. ⚠️ Sul disco il suo cognome è stampato in due modi, Leonori nella riga della produzione e Leonari in quella del mixaggio: refuso della stampa. ⚠️ E la “copertina” che il sito usa non è il fronte: è il retro del jewel case, quello col codice a barre e la foto del duo. Il fronte del libretto su Discogs non c'è, e non l'ha nessun'altra fonte. Del remix non esiste un ascolto: Roberto Liotti ha caricato sul suo canale YouTube la traccia 1 — `JzpbC86eZyA`, 4:03 — e la traccia 3, non la sua. ⭐ Nella descrizione di quel video scrive: «Nel lontano 1996 io e mio fratello Marco vivevamo una breve ma intensa avventura nel mondo discografico, i nostri singoli passarono anche in importanti radio tra cui la prestigiosa RDS» — e nel 1996 Amerigo era su RDS (database radio, 1990-1999). Non prova il remix, ma spiega come ci è arrivato",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [],
@@ -6177,7 +6177,12 @@
    },
    "inedito": false,
    "anno_incerto": false,
-   "foto": [],
+   "foto": [
+    {
+     "file": "cop/foto/liotti-dimmi-parole-1.jpg",
+     "cosa": "il retro del libretto: «2. Dimmi Parole Remix 6'29″» e, fra i crediti, «Remix di Bolognesi e Provenzano»"
+    }
+   ],
    "nota_pubblica": null
   },
   {
