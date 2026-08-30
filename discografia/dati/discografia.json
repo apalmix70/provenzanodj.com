@@ -931,12 +931,7 @@
     "formato": null
    },
    "video_altri": [],
-   "soundcloud": {
-    "url": "https://api.soundcloud.com/tracks/2391445515",
-    "secret": "s-IRb0xS2Vz4i",
-    "perche": "l'audio caricato da Amerigo sul suo profilo il 30/08/2026, traccia privata. Il titolo su SoundCloud dice «original», quindi è la prima delle sei versioni del 12\": le altre cinque restano nell'elenco, che il player non rifa'. Link corto: on.soundcloud.com/UD8lkhHuVrUhgq6HU4. ⚠️ Da qui il video di Davide Fara non è più l'unico ascolto del disco, che era la ragione della leva `video_di_terzi`: da decidere se resta o esce.",
-    "cosa": "Original"
-   },
+   "soundcloud": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -8612,7 +8607,7 @@
   "con_copertina": 181,
   "con_video": 46,
   "con_spotify": 67,
-  "con_soundcloud": 11,
+  "con_soundcloud": 10,
   "con_traxsource": 1,
   "con_apple": 2,
   "in_compilation": 119,
