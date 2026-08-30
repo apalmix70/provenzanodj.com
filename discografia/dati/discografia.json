@@ -1358,7 +1358,12 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2391434397",
+    "secret": "s-wRwv0sgNGMN",
+    "perche": "l'audio caricato da Amerigo sul suo profilo il 30/08/2026, traccia privata: è l'unico ascolto del disco. Link corto mandato da lui: on.soundcloud.com/GhUF8kBjVh5ksozPHP, risolto via oEmbed — il widget sull'indirizzo della pagina risponde 404, vuole l'id della traccia più il token in secret_token. ⚠️ Se rigenera il link privato, il player muore.",
+    "cosa": null
+   },
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -8586,7 +8591,7 @@
   "con_copertina": 181,
   "con_video": 45,
   "con_spotify": 67,
-  "con_soundcloud": 8,
+  "con_soundcloud": 9,
   "con_traxsource": 1,
   "con_apple": 2,
   "in_compilation": 119,
