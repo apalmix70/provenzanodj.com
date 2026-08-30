@@ -6612,7 +6612,11 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2391481005",
+    "secret": "s-sKA3EizoJ0P",
+    "perche": "l'audio caricato da Amerigo sul suo profilo il 31/08/2026, traccia privata: «Cosmo - Inno Di Mameli (Provenzano DJ Remix)». Link corto mandato da lui, on.soundcloud.com/QIZM96d9bgGnxfKB54, che risolve su soundcloud.com/provenzano_official/cosmo-inno-di-mameli/s-sKA3EizoJ0P — id numerico e token dall'oEmbed. Il remix del 2006 non ha mai avuto una release sua ed esiste solo dentro tre compilation: in digitale non c'e'. L'audio viene dal canale «DANCE 4 PASSION» (H5FjBSu5IcM), che porta il brano intero col titolo esatto — 2:20 — e da li' e' stato ricaricato dove lo controlla lui."
+   },
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -8813,7 +8817,7 @@
   "con_copertina": 183,
   "con_video": 46,
   "con_spotify": 68,
-  "con_soundcloud": 13,
+  "con_soundcloud": 14,
   "con_traxsource": 1,
   "con_apple": 2,
   "in_compilation": 119,
