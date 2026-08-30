@@ -566,7 +566,7 @@
    ],
    "firma": null,
    "etichetta": null,
-   "nota": "uscita solo dentro la compilation Cento X Cento RDS Radio Dimensione Suono, EMI/P.M. Records — non ha una copertina sua, si usa quella",
+   "nota": "uscita solo dentro la compilation Cento X Cento RDS Radio Dimensione Suono, EMI/P.M. Records — non ha una copertina sua, si usa quella. Certificata il 31/08/2026 sulla scheda Discogs 9948683: CD, EMI / P. M. Records 7243 8 33222 2 0, Italia 1997, e la traccia 3 è intestata «Paolo Bolognesi, Amerigo Provenzano» — cioè a loro due come artisti, non come produttori di qualcun altro. La tracklist conferma il progetto: Anna Pettinelli, Carlo Elli, Luca Lazzari, Maurizio Modica, Rosaria Renna, Dr. Felix — le voci di RDS, un brano a testa. ⚠️ Resta fra i singoli e conta come disco, deciso da Amerigo il 31/08/2026: *«non è una compilation mixata, è un singolo contato»*, *«va tra i singoli»*. E non va nel database delle compilation, che raccoglie le 90 mixate da lui: questa non l'ha mixata, ci sta dentro con un pezzo. ⚠️ Il 31/08/2026 dice *«cantato da me e bolognesi»*; il 06/08/2026 aveva detto che ci rappano sopra. Le due cose convivono — è la loro voce sul pezzo — e restano scritte tutte e due. L'audio c'è: staccato il 31/08/2026 dal lato A della compilation caricato su YouTube dal canale «TC84 - Records», `pn55kBfXJcI`, fra 8:16 e 12:53, che sono i due silenzi fra le tracce; 4:37, in `D:\\Archivio\\discografia\u0007udio\\`. Manca solo il caricamento su SoundCloud per avere il player",
    "escluso": false,
    "da_guardare": false,
    "sezione": "1992 → 2009",
@@ -585,7 +585,10 @@
    "inedito": false,
    "anno_incerto": false,
    "foto": [],
-   "nota_pubblica": null
+   "nota_pubblica": {
+    "forte": "Qui la voce è la loro.",
+    "testo": "«Cento X Cento RDS» è il disco che la radio fece con le proprie voci: ogni speaker dell'emittente un brano. Questo è quello di **Paolo Bolognesi e Amerigo Provenzano**, e sul disco i due non figurano come produttori ma come **interpreti** — lo cantano loro. È uscito solo lì dentro, e una copertina sua non l'ha mai avuta."
+   }
   },
   {
    "tipo": "produzione",
