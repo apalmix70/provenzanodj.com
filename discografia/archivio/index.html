@@ -61,12 +61,20 @@ footer .contenitore{display:flex;justify-content:space-between;gap:14px;flex-wra
 .filtri button.acceso i{opacity:1}
 .filtri .conto{margin-left:auto;color:var(--debole);font-size:11px;letter-spacing:.14em;
   text-transform:uppercase}
-/* il colore del tipo, lo stesso di tutto il sito: qui e' un filetto sul bordo
-   sinistro della riga, che e' il posto dove la stanghetta del muro sta in alto */
+/* Il colore del tipo, lo stesso di tutto il sito. ⚠️ Qui e' un **pallino
+   davanti all'anno**, non un filetto sul bordo: le uscite sono ordinate per
+   anno, i dischi dello stesso tipo finiscono in fila, e i filetti si saldavano
+   in una barra unica lunga tutta la pagina — leggeva come il bordo del riquadro
+   invece che come il segno di una riga (Amerigo, 30/08/2026: «non mi piace
+   questa riga rossa», poi «usa il pallino colorato» fra le quattro provate).
+   Due pallini non si toccano mai, quindi non si saldano, e stanno nella colonna
+   dell'anno che c'e' gia'. */
 .t-singolo{--tinta:var(--rosso)}
 .t-remix{--tinta:var(--verde)}
 .t-alias{--tinta:var(--bianco)}
-.riga{border-left:3px solid var(--tinta);padding-left:11px}
+.riga .anno{display:flex;align-items:center;gap:7px}
+.riga .anno::before{content:"";width:6px;height:6px;border-radius:50%;
+  background:var(--tinta);flex:0 0 6px}
 .elenco{padding:6px 0 30px}
 .riga{display:grid;grid-template-columns:52px minmax(0,1.4fr) minmax(0,1.1fr) minmax(0,.9fr);
   gap:10px;align-items:baseline;padding:11px 0;border-bottom:1px solid var(--riga);font-size:14px}
