@@ -23,6 +23,10 @@
     4
    ],
    [
+    "X-Energy",
+    3
+   ],
+   [
     "Jump Records",
     3
    ],
@@ -44,10 +48,6 @@
    ],
    [
     "Netswork",
-    2
-   ],
-   [
-    "Juicy Music (Armada)",
     2
    ]
   ],
@@ -117,11 +117,11 @@
     5
    ],
    [
-    "Scarlet",
-    4
+    "HJM",
+    5
    ],
    [
-    "HJM",
+    "Scarlet",
     4
    ],
    [
@@ -281,13 +281,13 @@
    "slug": "i-believe",
    "titolo": "I Believe",
    "versioni": [],
-   "data": null,
+   "data": "1994-06-13",
    "anno": 1994,
-   "data_esatta": false,
+   "data_esatta": true,
    "con": [],
    "firma": "Double Dare",
-   "etichetta": null,
-   "nota": "feat. Yvonne F.",
+   "etichetta": "X-Energy",
+   "nota": null,
    "escluso": false,
    "da_guardare": false,
    "sezione": "Double Dare",
@@ -446,15 +446,58 @@
   },
   {
    "tipo": "produzione",
+   "slug": "take-me-to-the-river",
+   "titolo": "Take Me To The River",
+   "versioni": [],
+   "data": "1996-01-25",
+   "anno": 1996,
+   "data_esatta": true,
+   "con": [],
+   "firma": "Double Dare",
+   "etichetta": "X-Energy",
+   "nota": null,
+   "escluso": false,
+   "da_guardare": false,
+   "sezione": "Double Dare",
+   "in_compilation": [
+    {
+     "slug": "rds-dance-estate-volumequattro",
+     "titolo": "RDS Dance Estate Vol. 4",
+     "anno": 1996,
+     "come": "Take Me To The River"
+    }
+   ],
+   "versioni_uscita": [],
+   "spotify": {
+    "tipo": "album",
+    "album": "2thy7YrahQHXeSLHkylewa",
+    "titolo": "Take Me to the River"
+   },
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "propria",
+    "file": "cop/take-me-to-the-river.jpg"
+   },
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "produzione",
    "slug": "we-belong",
    "titolo": "We Belong",
    "versioni": [],
-   "data": null,
+   "data": "1996-01-30",
    "anno": 1996,
-   "data_esatta": false,
+   "data_esatta": true,
    "con": [],
    "firma": "Double Dare",
-   "etichetta": null,
+   "etichetta": "X-Energy",
    "nota": null,
    "escluso": false,
    "da_guardare": false,
@@ -487,49 +530,6 @@
    "copertina": {
     "tipo": "propria",
     "file": "cop/we-belong.jpg"
-   },
-   "inedito": false,
-   "anno_incerto": false,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "produzione",
-   "slug": "take-me-to-the-river",
-   "titolo": "Take Me To The River",
-   "versioni": [],
-   "data": null,
-   "anno": 1996,
-   "data_esatta": false,
-   "con": [],
-   "firma": "Double Dare",
-   "etichetta": "X-Energy",
-   "nota": null,
-   "escluso": false,
-   "da_guardare": false,
-   "sezione": "Double Dare",
-   "in_compilation": [
-    {
-     "slug": "rds-dance-estate-volumequattro",
-     "titolo": "RDS Dance Estate Vol. 4",
-     "anno": 1996,
-     "come": "Take Me To The River"
-    }
-   ],
-   "versioni_uscita": [],
-   "spotify": {
-    "tipo": "album",
-    "album": "2thy7YrahQHXeSLHkylewa",
-    "titolo": "Take Me to the River"
-   },
-   "video": null,
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "propria",
-    "file": "cop/take-me-to-the-river.jpg"
    },
    "inedito": false,
    "anno_incerto": false,
@@ -1771,89 +1771,6 @@
   },
   {
    "tipo": "produzione",
-   "slug": "a-r-i-a",
-   "titolo": "A.R.I.A.",
-   "versioni": [],
-   "data": null,
-   "anno": 2009,
-   "data_esatta": false,
-   "con": [
-    "Ranucci & Pelusi"
-   ],
-   "firma": null,
-   "etichetta": "Time",
-   "nota": null,
-   "escluso": false,
-   "da_guardare": false,
-   "sezione": "1992 → 2009",
-   "in_compilation": [
-    {
-     "slug": "m2ovol20",
-     "titolo": "m2o vol.20",
-     "anno": 2009,
-     "come": "A.R.I.A. (To The Floor Remix)"
-    }
-   ],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": null,
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "propria",
-    "file": "cop/a-r-i-a.jpg"
-   },
-   "inedito": false,
-   "anno_incerto": false,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "produzione",
-   "slug": "where-did-you-go",
-   "titolo": "Where Did You Go",
-   "versioni": [],
-   "data": null,
-   "anno": 2009,
-   "data_esatta": false,
-   "con": [
-    "Max C"
-   ],
-   "firma": null,
-   "etichetta": null,
-   "nota": null,
-   "escluso": false,
-   "da_guardare": false,
-   "sezione": "1992 → 2009",
-   "in_compilation": [
-    {
-     "slug": "m2ovol19",
-     "titolo": "m2o vol.19",
-     "anno": 2008,
-     "come": "Where Did You Go (Ya Mix)"
-    }
-   ],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": null,
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "compilation",
-    "file": "/compilation/cop/m2ovol19.jpg",
-    "da": "m2o vol.19"
-   },
-   "inedito": false,
-   "anno_incerto": false,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "produzione",
    "slug": "life-goes-on",
    "titolo": "Life Goes On",
    "versioni": [
@@ -1955,6 +1872,136 @@
   },
   {
    "tipo": "produzione",
+   "slug": "a-r-i-a",
+   "titolo": "A.R.I.A.",
+   "versioni": [],
+   "data": null,
+   "anno": 2009,
+   "data_esatta": false,
+   "con": [
+    "Ranucci & Pelusi"
+   ],
+   "firma": null,
+   "etichetta": "Time",
+   "nota": null,
+   "escluso": false,
+   "da_guardare": false,
+   "sezione": "1992 → 2009",
+   "in_compilation": [
+    {
+     "slug": "m2ovol20",
+     "titolo": "m2o vol.20",
+     "anno": 2009,
+     "come": "A.R.I.A. (To The Floor Remix)"
+    }
+   ],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "propria",
+    "file": "cop/a-r-i-a.jpg"
+   },
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "produzione",
+   "slug": "where-did-you-go",
+   "titolo": "Where Did You Go",
+   "versioni": [],
+   "data": null,
+   "anno": 2009,
+   "data_esatta": false,
+   "con": [
+    "Max C"
+   ],
+   "firma": null,
+   "etichetta": null,
+   "nota": null,
+   "escluso": false,
+   "da_guardare": false,
+   "sezione": "1992 → 2009",
+   "in_compilation": [
+    {
+     "slug": "m2ovol19",
+     "titolo": "m2o vol.19",
+     "anno": 2008,
+     "come": "Where Did You Go (Ya Mix)"
+    }
+   ],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "compilation",
+    "file": "/compilation/cop/m2ovol19.jpg",
+    "da": "m2o vol.19"
+   },
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "produzione",
+   "slug": "you-can-t-stop-the-love",
+   "titolo": "You Can't Stop The Love",
+   "versioni": [
+    "+ MNM Club Remix"
+   ],
+   "data": "2010-02-02",
+   "anno": 2010,
+   "data_esatta": true,
+   "con": [
+    "Promise Land"
+   ],
+   "firma": null,
+   "etichetta": "Netswork Records",
+   "nota": null,
+   "escluso": false,
+   "da_guardare": false,
+   "sezione": "2010 → 2019",
+   "in_compilation": [
+    {
+     "slug": "m2ovol23",
+     "titolo": "m2o vol.23",
+     "anno": 2010,
+     "come": "You Can't Stop The Love (Klub Mix)"
+    }
+   ],
+   "versioni_uscita": [],
+   "spotify": {
+    "tipo": "album",
+    "album": "1oyYPOujkmOe124Sd8VOqS",
+    "titolo": "You Can't Stop the Love"
+   },
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "propria",
+    "file": "cop/you-can-t-stop-the-love.jpg"
+   },
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "produzione",
    "slug": "amazing",
    "titolo": "Amazing",
    "versioni": [],
@@ -2041,18 +2088,16 @@
   },
   {
    "tipo": "produzione",
-   "slug": "you-can-t-stop-the-love",
-   "titolo": "You Can't Stop The Love",
+   "slug": "mariguana-cha-cha-cha",
+   "titolo": "Mariguana Cha-Cha-Cha",
    "versioni": [
-    "+ MNM Club Remix"
+    "+ Felipe C, Gigi Soriani & Sika"
    ],
-   "data": "2010-02-02",
-   "anno": 2010,
+   "data": "2011-07-11",
+   "anno": 2011,
    "data_esatta": true,
-   "con": [
-    "Promise Land"
-   ],
-   "firma": null,
+   "con": [],
+   "firma": "The Fabulous",
    "etichetta": "Netswork Records",
    "nota": null,
    "escluso": false,
@@ -2060,26 +2105,33 @@
    "sezione": "2010 → 2019",
    "in_compilation": [
     {
-     "slug": "m2ovol23",
-     "titolo": "m2o vol.23",
-     "anno": 2010,
-     "come": "You Can't Stop The Love (Klub Mix)"
+     "slug": "m2ovol27",
+     "titolo": "m2o vol.27",
+     "anno": 2011,
+     "come": "Mariguana Cha-Cha-Cha (Felipe C Remix)"
     }
    ],
    "versioni_uscita": [],
    "spotify": {
     "tipo": "album",
-    "album": "1oyYPOujkmOe124Sd8VOqS",
-    "titolo": "You Can't Stop the Love"
+    "album": "7MgmbFMmRWdMZ7lQaXtmMJ",
+    "titolo": "Mariguana Cha-Cha-Cha"
    },
-   "video": null,
+   "video": {
+    "youtube": "I8GPyxrPRSY",
+    "tipo": "ufficiale",
+    "canale": "Netswork, Official Video",
+    "titolo": "Mariguana Cha-Cha-Cha",
+    "verticale": false,
+    "formato": null
+   },
    "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
     "tipo": "propria",
-    "file": "cop/you-can-t-stop-the-love.jpg"
+    "file": "cop/mariguana-cha-cha-cha.jpg"
    },
    "inedito": false,
    "anno_incerto": false,
@@ -2208,16 +2260,17 @@
   },
   {
    "tipo": "produzione",
-   "slug": "mariguana-cha-cha-cha",
-   "titolo": "Mariguana Cha-Cha-Cha",
-   "versioni": [
-    "+ Felipe C, Gigi Soriani & Sika"
-   ],
-   "data": "2011-07-11",
-   "anno": 2011,
+   "slug": "cattivik",
+   "titolo": "Cattivik",
+   "versioni": [],
+   "data": "2012-07-09",
+   "anno": 2012,
    "data_esatta": true,
-   "con": [],
-   "firma": "The Fabulous",
+   "con": [
+    "Rainbowlead",
+    "Mastro J"
+   ],
+   "firma": null,
    "etichetta": "Netswork Records",
    "nota": null,
    "escluso": false,
@@ -2225,23 +2278,68 @@
    "sezione": "2010 → 2019",
    "in_compilation": [
     {
-     "slug": "m2ovol27",
-     "titolo": "m2o vol.27",
-     "anno": 2011,
-     "come": "Mariguana Cha-Cha-Cha (Felipe C Remix)"
+     "slug": "m2ovol30",
+     "titolo": "m2o vol.30",
+     "anno": 2012,
+     "come": "Cattivik (Provenzano DJ & Mastro J Edit)"
     }
    ],
    "versioni_uscita": [],
    "spotify": {
     "tipo": "album",
-    "album": "7MgmbFMmRWdMZ7lQaXtmMJ",
-    "titolo": "Mariguana Cha-Cha-Cha"
+    "album": "20yjwMtpoGZ91XMV9RJ3BG",
+    "titolo": "Cattivik (Provenzano & Mastro J Edit)"
+   },
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "propria",
+    "file": "cop/cattivik.jpg"
+   },
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "produzione",
+   "slug": "you-re",
+   "titolo": "You're",
+   "versioni": [],
+   "data": "2012-07-16",
+   "anno": 2012,
+   "data_esatta": true,
+   "con": [
+    "Formal Monkeys"
+   ],
+   "firma": null,
+   "etichetta": "Netswork Records",
+   "nota": null,
+   "escluso": false,
+   "da_guardare": false,
+   "sezione": "2010 → 2019",
+   "in_compilation": [
+    {
+     "slug": "m2ovol30",
+     "titolo": "m2o vol.30",
+     "anno": 2012,
+     "come": "You're"
+    }
+   ],
+   "versioni_uscita": [],
+   "spotify": {
+    "tipo": "album",
+    "album": "19PMnYOqd5L14TCUDVUxBX",
+    "titolo": "You're (Original Club Mix)"
    },
    "video": {
-    "youtube": "I8GPyxrPRSY",
+    "youtube": "0QxuS7E5M3k",
     "tipo": "ufficiale",
     "canale": "Netswork, Official Video",
-    "titolo": "Mariguana Cha-Cha-Cha",
+    "titolo": "You're",
     "verticale": false,
     "formato": null
    },
@@ -2251,7 +2349,7 @@
    "apple": null,
    "copertina": {
     "tipo": "propria",
-    "file": "cop/mariguana-cha-cha-cha.jpg"
+    "file": "cop/you-re.jpg"
    },
    "inedito": false,
    "anno_incerto": false,
@@ -2265,16 +2363,16 @@
    "versioni": [
     "+ 7 remix"
    ],
-   "data": null,
+   "data": "2012-09-21",
    "anno": 2012,
-   "data_esatta": false,
+   "data_esatta": true,
    "con": [
     "Henry John Morgan (HJM)",
     "The Audio Dogs"
    ],
    "firma": null,
    "etichetta": "Time",
-   "nota": null,
+   "nota": "data dal profilo Spotify, 30/08/2026: su Beatport la release non risulta",
    "escluso": false,
    "da_guardare": false,
    "sezione": "2010 → 2019",
@@ -2321,18 +2419,71 @@
   },
   {
    "tipo": "produzione",
+   "slug": "tiger",
+   "titolo": "Tiger",
+   "versioni": [],
+   "data": "2012-11-08",
+   "anno": 2012,
+   "data_esatta": true,
+   "con": [
+    "Alex Addea"
+   ],
+   "firma": null,
+   "etichetta": "Netswork Digital",
+   "nota": null,
+   "escluso": false,
+   "da_guardare": false,
+   "sezione": "2010 → 2019",
+   "in_compilation": [
+    {
+     "slug": "m2ovol31",
+     "titolo": "m2o vol.31",
+     "anno": 2012,
+     "come": "Tiger"
+    }
+   ],
+   "versioni_uscita": [],
+   "spotify": {
+    "tipo": "album",
+    "album": "0dEA4U1LvaROwHkoRKL11N",
+    "titolo": "Tiger"
+   },
+   "video": {
+    "youtube": "E3e5S8g2R8g",
+    "tipo": "ufficiale",
+    "canale": "Netswork, teaser",
+    "titolo": "Tiger",
+    "verticale": false,
+    "formato": null
+   },
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "propria",
+    "file": "cop/tiger.jpg"
+   },
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "produzione",
    "slug": "rock-some-noise",
    "titolo": "Rock Some Noise",
    "versioni": [],
-   "data": null,
+   "data": "2012-11-20",
    "anno": 2012,
-   "data_esatta": false,
+   "data_esatta": true,
    "con": [
-    "Rainbowlead"
+    "Rainbowlead",
+    "Mastro J"
    ],
    "firma": null,
    "etichetta": "Net's Work Digital",
-   "nota": null,
+   "nota": "data e crediti confermati su Beatport il 30/08/2026: release del 20/11/2012, Netswork Digital Records, con «Provenzano & Mastro J Radio Cut» e «Provenzano & Mastro J Mix». Mastro J mancava fra i nomi",
    "escluso": false,
    "da_guardare": false,
    "sezione": "2010 → 2019",
@@ -2534,325 +2685,6 @@
     "tipo": "compilation",
     "file": "/compilation/cop/m2ovol31.jpg",
     "da": "m2o vol.31"
-   },
-   "inedito": true,
-   "anno_incerto": false,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "produzione",
-   "slug": "cattivik",
-   "titolo": "Cattivik",
-   "versioni": [],
-   "data": "2012-07-09",
-   "anno": 2012,
-   "data_esatta": true,
-   "con": [
-    "Rainbowlead",
-    "Mastro J"
-   ],
-   "firma": null,
-   "etichetta": "Netswork Records",
-   "nota": null,
-   "escluso": false,
-   "da_guardare": false,
-   "sezione": "2010 → 2019",
-   "in_compilation": [
-    {
-     "slug": "m2ovol30",
-     "titolo": "m2o vol.30",
-     "anno": 2012,
-     "come": "Cattivik (Provenzano DJ & Mastro J Edit)"
-    }
-   ],
-   "versioni_uscita": [],
-   "spotify": {
-    "tipo": "album",
-    "album": "20yjwMtpoGZ91XMV9RJ3BG",
-    "titolo": "Cattivik (Provenzano & Mastro J Edit)"
-   },
-   "video": null,
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "propria",
-    "file": "cop/cattivik.jpg"
-   },
-   "inedito": false,
-   "anno_incerto": false,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "produzione",
-   "slug": "you-re",
-   "titolo": "You're",
-   "versioni": [],
-   "data": "2012-07-16",
-   "anno": 2012,
-   "data_esatta": true,
-   "con": [
-    "Formal Monkeys"
-   ],
-   "firma": null,
-   "etichetta": "Netswork Records",
-   "nota": null,
-   "escluso": false,
-   "da_guardare": false,
-   "sezione": "2010 → 2019",
-   "in_compilation": [
-    {
-     "slug": "m2ovol30",
-     "titolo": "m2o vol.30",
-     "anno": 2012,
-     "come": "You're"
-    }
-   ],
-   "versioni_uscita": [],
-   "spotify": {
-    "tipo": "album",
-    "album": "19PMnYOqd5L14TCUDVUxBX",
-    "titolo": "You're (Original Club Mix)"
-   },
-   "video": {
-    "youtube": "0QxuS7E5M3k",
-    "tipo": "ufficiale",
-    "canale": "Netswork, Official Video",
-    "titolo": "You're",
-    "verticale": false,
-    "formato": null
-   },
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "propria",
-    "file": "cop/you-re.jpg"
-   },
-   "inedito": false,
-   "anno_incerto": false,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "produzione",
-   "slug": "tiger",
-   "titolo": "Tiger",
-   "versioni": [],
-   "data": "2012-11-08",
-   "anno": 2012,
-   "data_esatta": true,
-   "con": [
-    "Alex Addea"
-   ],
-   "firma": null,
-   "etichetta": "Netswork Digital",
-   "nota": null,
-   "escluso": false,
-   "da_guardare": false,
-   "sezione": "2010 → 2019",
-   "in_compilation": [
-    {
-     "slug": "m2ovol31",
-     "titolo": "m2o vol.31",
-     "anno": 2012,
-     "come": "Tiger"
-    }
-   ],
-   "versioni_uscita": [],
-   "spotify": {
-    "tipo": "album",
-    "album": "0dEA4U1LvaROwHkoRKL11N",
-    "titolo": "Tiger"
-   },
-   "video": {
-    "youtube": "E3e5S8g2R8g",
-    "tipo": "ufficiale",
-    "canale": "Netswork, teaser",
-    "titolo": "Tiger",
-    "verticale": false,
-    "formato": null
-   },
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "propria",
-    "file": "cop/tiger.jpg"
-   },
-   "inedito": false,
-   "anno_incerto": false,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "produzione",
-   "slug": "be-like-me",
-   "titolo": "Be Like Me",
-   "versioni": [],
-   "data": null,
-   "anno": 2013,
-   "data_esatta": false,
-   "con": [
-    "Eako"
-   ],
-   "firma": null,
-   "etichetta": null,
-   "nota": "ritrovata nel database delle compilation, stampata su m2o vol.33; anno non confermato. Esiste un teaser sul suo canale YouTube, firmato «Dj Eako And Provenzano», messo in pagina il 29/08/2026",
-   "escluso": false,
-   "da_guardare": false,
-   "sezione": "2010 → 2019",
-   "in_compilation": [
-    {
-     "slug": "m2ovol33",
-     "titolo": "m2o vol.33",
-     "anno": 2013,
-     "come": "Be Like Me (Main Room Mix)"
-    }
-   ],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": {
-    "youtube": "54CDa8cEfDs",
-    "tipo": "ufficiale",
-    "canale": "tuo canale, teaser",
-    "titolo": "Be Like Me",
-    "verticale": false,
-    "formato": null
-   },
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "compilation",
-    "file": "/compilation/cop/m2ovol33.jpg",
-    "da": "m2o vol.33"
-   },
-   "inedito": false,
-   "anno_incerto": true,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "produzione",
-   "slug": "tears",
-   "titolo": "Tears",
-   "versioni": [],
-   "data": null,
-   "anno": 2013,
-   "data_esatta": false,
-   "con": [],
-   "firma": "Phunkerz",
-   "etichetta": null,
-   "nota": "inedito per la compilation: mai uscito a sé, stampato su m2o vol.32",
-   "escluso": false,
-   "da_guardare": false,
-   "sezione": "2010 → 2019",
-   "in_compilation": [
-    {
-     "slug": "m2ovol32",
-     "titolo": "m2o vol.32",
-     "anno": 2013,
-     "come": "Tears"
-    }
-   ],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": null,
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "compilation",
-    "file": "/compilation/cop/m2ovol32.jpg",
-    "da": "m2o vol.32"
-   },
-   "inedito": true,
-   "anno_incerto": false,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "produzione",
-   "slug": "heartquake",
-   "titolo": "Heartquake",
-   "versioni": [],
-   "data": null,
-   "anno": 2013,
-   "data_esatta": false,
-   "con": [],
-   "firma": "System3",
-   "etichetta": null,
-   "nota": "inedito per la compilation: mai uscito a sé, stampato su m2o vol.32",
-   "escluso": false,
-   "da_guardare": false,
-   "sezione": "2010 → 2019",
-   "in_compilation": [
-    {
-     "slug": "m2ovol32",
-     "titolo": "m2o vol.32",
-     "anno": 2013,
-     "come": "Heartquake"
-    }
-   ],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": null,
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "compilation",
-    "file": "/compilation/cop/m2ovol32.jpg",
-    "da": "m2o vol.32"
-   },
-   "inedito": true,
-   "anno_incerto": false,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "produzione",
-   "slug": "overtime",
-   "titolo": "Overtime",
-   "versioni": [],
-   "data": null,
-   "anno": 2013,
-   "data_esatta": false,
-   "con": [],
-   "firma": "System3",
-   "etichetta": null,
-   "nota": "inedito per la compilation: mai uscito a sé, stampato su m2o vol.34",
-   "escluso": false,
-   "da_guardare": false,
-   "sezione": "2010 → 2019",
-   "in_compilation": [
-    {
-     "slug": "m2ovol34",
-     "titolo": "m2o vol.34",
-     "anno": 2013,
-     "come": "Overtime"
-    }
-   ],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": null,
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "compilation",
-    "file": "/compilation/cop/m2ovol34.jpg",
-    "da": "m2o vol.34"
    },
    "inedito": true,
    "anno_incerto": false,
@@ -3070,43 +2902,36 @@
   },
   {
    "tipo": "produzione",
-   "slug": "believe-in-me-2014",
-   "titolo": "Believe In Me",
+   "slug": "be-like-me",
+   "titolo": "Be Like Me",
    "versioni": [],
    "data": null,
-   "anno": 2014,
+   "anno": 2013,
    "data_esatta": false,
    "con": [
-    "Alex Gaudino",
-    "Max C"
+    "Eako"
    ],
    "firma": null,
-   "etichetta": "The Gaudino's",
-   "nota": null,
+   "etichetta": null,
+   "nota": "ritrovata nel database delle compilation, stampata su m2o vol.33; anno non confermato. Esiste un teaser sul suo canale YouTube, firmato «Dj Eako And Provenzano», messo in pagina il 29/08/2026",
    "escluso": false,
    "da_guardare": false,
    "sezione": "2010 → 2019",
    "in_compilation": [
     {
-     "slug": "m2ovol35",
-     "titolo": "m2o vol.35",
-     "anno": 2014,
-     "come": "Believe In Me"
-    },
-    {
-     "slug": "m2ovol36",
-     "titolo": "m2o vol.36",
-     "anno": 2014,
-     "come": "Believe In Me (Dyson Kellerman Remix)"
+     "slug": "m2ovol33",
+     "titolo": "m2o vol.33",
+     "anno": 2013,
+     "come": "Be Like Me (Main Room Mix)"
     }
    ],
    "versioni_uscita": [],
    "spotify": null,
    "video": {
-    "youtube": "tunTyE50Rsc",
+    "youtube": "54CDa8cEfDs",
     "tipo": "ufficiale",
-    "canale": "The Gaudino's",
-    "titolo": "Believe In Me (Gaudino)",
+    "canale": "tuo canale, teaser",
+    "titolo": "Be Like Me",
     "verticale": false,
     "formato": null
    },
@@ -3115,41 +2940,36 @@
    "traxsource": null,
    "apple": null,
    "copertina": {
-    "tipo": "propria",
-    "file": "cop/believe-in-me-2014.jpg"
+    "tipo": "compilation",
+    "file": "/compilation/cop/m2ovol33.jpg",
+    "da": "m2o vol.33"
    },
    "inedito": false,
-   "anno_incerto": false,
+   "anno_incerto": true,
    "foto": [],
    "nota_pubblica": null
   },
   {
    "tipo": "produzione",
-   "slug": "way-out",
-   "titolo": "Way Out",
+   "slug": "tears",
+   "titolo": "Tears",
    "versioni": [],
    "data": null,
-   "anno": 2014,
+   "anno": 2013,
    "data_esatta": false,
    "con": [],
-   "firma": "System3",
+   "firma": "Phunkerz",
    "etichetta": null,
-   "nota": "inedito per le compilation: mai uscito a sé, stampato su m2o vol.36, m2o vol.37",
+   "nota": "inedito per la compilation: mai uscito a sé, stampato su m2o vol.32",
    "escluso": false,
    "da_guardare": false,
    "sezione": "2010 → 2019",
    "in_compilation": [
     {
-     "slug": "m2ovol36",
-     "titolo": "m2o vol.36",
-     "anno": 2014,
-     "come": "Way Out"
-    },
-    {
-     "slug": "m2ovol37",
-     "titolo": "m2o vol.37",
-     "anno": 2014,
-     "come": "Way Out"
+     "slug": "m2ovol32",
+     "titolo": "m2o vol.32",
+     "anno": 2013,
+     "come": "Tears"
     }
    ],
    "versioni_uscita": [],
@@ -3161,8 +2981,8 @@
    "apple": null,
    "copertina": {
     "tipo": "compilation",
-    "file": "/compilation/cop/m2ovol36.jpg",
-    "da": "m2o vol.36"
+    "file": "/compilation/cop/m2ovol32.jpg",
+    "da": "m2o vol.32"
    },
    "inedito": true,
    "anno_incerto": false,
@@ -3171,52 +2991,78 @@
   },
   {
    "tipo": "produzione",
-   "slug": "starlight",
-   "titolo": "Starlight",
-   "versioni": [
-    "Provenzano Rework, + Mattei & Omich Remix"
-   ],
+   "slug": "heartquake",
+   "titolo": "Heartquake",
+   "versioni": [],
    "data": null,
-   "anno": 2014,
+   "anno": 2013,
    "data_esatta": false,
-   "con": [
-    "Daniele Macchi",
-    "Ruby Friedman"
-   ],
-   "firma": null,
+   "con": [],
+   "firma": "System3",
    "etichetta": null,
-   "nota": "inedito per la compilation: mai uscito a sé, stampato su m2o vol.37. Su Amazon Music sta dentro «M2o 37 — Are You Radio?», ASIN B00PLM41U2, come «Starlight (feat. Ruby Friedman) [Provenzano Rework]» di Provenzano & Macchi. Esiste anche un HJM Edit, ma quella che vale è la Provenzano Rework. Sul suo profilo SoundCloud ci sono due versioni caricate: la Provenzano Rework e il Mattei & Omich Remix — non l'HJM. Player presi da lì il 29/08/2026. Amerigo valuta di caricare l'audio su SoundCloud per avere il player",
+   "nota": "inedito per la compilation: mai uscito a sé, stampato su m2o vol.32",
    "escluso": false,
    "da_guardare": false,
    "sezione": "2010 → 2019",
    "in_compilation": [
     {
-     "slug": "m2ovol37",
-     "titolo": "m2o vol.37",
-     "anno": 2014,
-     "come": "Starlight (Provenzano DJ Rework)"
+     "slug": "m2ovol32",
+     "titolo": "m2o vol.32",
+     "anno": 2013,
+     "come": "Heartquake"
     }
    ],
    "versioni_uscita": [],
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": [
-    {
-     "url": "https://soundcloud.com/provenzano_official/provenzano-macchi-featuring-1",
-     "cosa": "Provenzano Rework, la versione stampata su m2o vol.37"
-    },
-    {
-     "url": "https://soundcloud.com/provenzano_official/provenzano-macchi-featuring",
-     "cosa": "Mattei & Omich Remix"
-    }
-   ],
+   "soundcloud": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
     "tipo": "compilation",
-    "file": "/compilation/cop/m2ovol37.jpg",
-    "da": "m2o vol.37"
+    "file": "/compilation/cop/m2ovol32.jpg",
+    "da": "m2o vol.32"
+   },
+   "inedito": true,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "produzione",
+   "slug": "overtime",
+   "titolo": "Overtime",
+   "versioni": [],
+   "data": null,
+   "anno": 2013,
+   "data_esatta": false,
+   "con": [],
+   "firma": "System3",
+   "etichetta": null,
+   "nota": "inedito per la compilation: mai uscito a sé, stampato su m2o vol.34",
+   "escluso": false,
+   "da_guardare": false,
+   "sezione": "2010 → 2019",
+   "in_compilation": [
+    {
+     "slug": "m2ovol34",
+     "titolo": "m2o vol.34",
+     "anno": 2013,
+     "come": "Overtime"
+    }
+   ],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "compilation",
+    "file": "/compilation/cop/m2ovol34.jpg",
+    "da": "m2o vol.34"
    },
    "inedito": true,
    "anno_incerto": false,
@@ -3410,18 +3256,173 @@
   },
   {
    "tipo": "produzione",
+   "slug": "believe-in-me-2014",
+   "titolo": "Believe In Me",
+   "versioni": [],
+   "data": null,
+   "anno": 2014,
+   "data_esatta": false,
+   "con": [
+    "Alex Gaudino",
+    "Max C"
+   ],
+   "firma": null,
+   "etichetta": "The Gaudino's",
+   "nota": null,
+   "escluso": false,
+   "da_guardare": false,
+   "sezione": "2010 → 2019",
+   "in_compilation": [
+    {
+     "slug": "m2ovol35",
+     "titolo": "m2o vol.35",
+     "anno": 2014,
+     "come": "Believe In Me"
+    },
+    {
+     "slug": "m2ovol36",
+     "titolo": "m2o vol.36",
+     "anno": 2014,
+     "come": "Believe In Me (Dyson Kellerman Remix)"
+    }
+   ],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": {
+    "youtube": "tunTyE50Rsc",
+    "tipo": "ufficiale",
+    "canale": "The Gaudino's",
+    "titolo": "Believe In Me (Gaudino)",
+    "verticale": false,
+    "formato": null
+   },
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "propria",
+    "file": "cop/believe-in-me-2014.jpg"
+   },
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "produzione",
+   "slug": "way-out",
+   "titolo": "Way Out",
+   "versioni": [],
+   "data": null,
+   "anno": 2014,
+   "data_esatta": false,
+   "con": [],
+   "firma": "System3",
+   "etichetta": null,
+   "nota": "inedito per le compilation: mai uscito a sé, stampato su m2o vol.36, m2o vol.37",
+   "escluso": false,
+   "da_guardare": false,
+   "sezione": "2010 → 2019",
+   "in_compilation": [
+    {
+     "slug": "m2ovol36",
+     "titolo": "m2o vol.36",
+     "anno": 2014,
+     "come": "Way Out"
+    },
+    {
+     "slug": "m2ovol37",
+     "titolo": "m2o vol.37",
+     "anno": 2014,
+     "come": "Way Out"
+    }
+   ],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "compilation",
+    "file": "/compilation/cop/m2ovol36.jpg",
+    "da": "m2o vol.36"
+   },
+   "inedito": true,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "produzione",
+   "slug": "starlight",
+   "titolo": "Starlight",
+   "versioni": [
+    "Provenzano Rework, + Mattei & Omich Remix"
+   ],
+   "data": null,
+   "anno": 2014,
+   "data_esatta": false,
+   "con": [
+    "Daniele Macchi",
+    "Ruby Friedman"
+   ],
+   "firma": null,
+   "etichetta": null,
+   "nota": "inedito per la compilation: mai uscito a sé, stampato su m2o vol.37. Su Amazon Music sta dentro «M2o 37 — Are You Radio?», ASIN B00PLM41U2, come «Starlight (feat. Ruby Friedman) [Provenzano Rework]» di Provenzano & Macchi. Esiste anche un HJM Edit, ma quella che vale è la Provenzano Rework. Sul suo profilo SoundCloud ci sono due versioni caricate: la Provenzano Rework e il Mattei & Omich Remix — non l'HJM. Player presi da lì il 29/08/2026. Amerigo valuta di caricare l'audio su SoundCloud per avere il player",
+   "escluso": false,
+   "da_guardare": false,
+   "sezione": "2010 → 2019",
+   "in_compilation": [
+    {
+     "slug": "m2ovol37",
+     "titolo": "m2o vol.37",
+     "anno": 2014,
+     "come": "Starlight (Provenzano DJ Rework)"
+    }
+   ],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": [
+    {
+     "url": "https://soundcloud.com/provenzano_official/provenzano-macchi-featuring-1",
+     "cosa": "Provenzano Rework, la versione stampata su m2o vol.37"
+    },
+    {
+     "url": "https://soundcloud.com/provenzano_official/provenzano-macchi-featuring",
+     "cosa": "Mattei & Omich Remix"
+    }
+   ],
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "compilation",
+    "file": "/compilation/cop/m2ovol37.jpg",
+    "da": "m2o vol.37"
+   },
+   "inedito": true,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "produzione",
    "slug": "take-your-breath",
    "titolo": "Take Your Breath",
    "versioni": [],
-   "data": null,
+   "data": "2015-03-17",
    "anno": 2015,
-   "data_esatta": false,
+   "data_esatta": true,
    "con": [
     "Andrea Masullo"
    ],
    "firma": null,
    "etichetta": "Bang Record",
-   "nota": null,
+   "nota": "data confermata il 30/08/2026 da Beatport e da Spotify, tutte e due 17/03/2015: la release Bang Record ha Radio Edit, Radio Hook, Extended Mix ed Extended Hook, firmate «Provenzano & Masullo»",
    "escluso": false,
    "da_guardare": false,
    "sezione": "2010 → 2019",
@@ -3456,204 +3457,6 @@
     "file": "cop/take-your-breath.jpg"
    },
    "inedito": false,
-   "anno_incerto": false,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "produzione",
-   "slug": "mork",
-   "titolo": "Mork",
-   "versioni": [],
-   "data": null,
-   "anno": 2015,
-   "data_esatta": false,
-   "con": [
-    "Castellari"
-   ],
-   "firma": null,
-   "etichetta": null,
-   "nota": "promo annunciato il 28/05/2015, non nel foglio né nei database; sta su SoundCloud, caricato da Castellari — copertina e player presi da lì il 29/08/2026",
-   "escluso": false,
-   "da_guardare": false,
-   "sezione": "2010 → 2019",
-   "in_compilation": [],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": null,
-   "video_altri": [],
-   "soundcloud": {
-    "url": "https://soundcloud.com/albertocastellari/provenzano-castellari-mork",
-    "cosa": "il brano su SoundCloud, dal profilo di Alberto Castellari",
-    "perche": "il pezzo non e' mai uscito come disco: sta solo qui, caricato da Castellari (KASTE) che l'ha fatto con lui. Link mandato da Amerigo il 29/08/2026, e da questa pagina viene anche la copertina, che prima era un segnaposto."
-   },
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "propria",
-    "file": "cop/mork.jpg"
-   },
-   "inedito": false,
-   "anno_incerto": false,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "produzione",
-   "slug": "oh-song",
-   "titolo": "Oh Song",
-   "versioni": [],
-   "data": null,
-   "anno": 2015,
-   "data_esatta": false,
-   "con": [],
-   "firma": "Phunkerz",
-   "etichetta": null,
-   "nota": "inedito per la compilation: mai uscito a sé, stampato su m2o vol.38",
-   "escluso": false,
-   "da_guardare": false,
-   "sezione": "2010 → 2019",
-   "in_compilation": [
-    {
-     "slug": "m2ovol38",
-     "titolo": "m2o vol.38",
-     "anno": 2015,
-     "come": "Oh Song"
-    }
-   ],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": null,
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "compilation",
-    "file": "/compilation/cop/m2ovol38.jpg",
-    "da": "m2o vol.38"
-   },
-   "inedito": true,
-   "anno_incerto": false,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "produzione",
-   "slug": "pump-up-the-house",
-   "titolo": "Pump Up The House",
-   "versioni": [],
-   "data": null,
-   "anno": 2015,
-   "data_esatta": false,
-   "con": [],
-   "firma": "System3",
-   "etichetta": null,
-   "nota": "inedito per la compilation: mai uscito a sé, stampato su m2o vol.38",
-   "escluso": false,
-   "da_guardare": false,
-   "sezione": "2010 → 2019",
-   "in_compilation": [
-    {
-     "slug": "m2ovol38",
-     "titolo": "m2o vol.38",
-     "anno": 2015,
-     "come": "Pump Up The House"
-    }
-   ],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": null,
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "compilation",
-    "file": "/compilation/cop/m2ovol38.jpg",
-    "da": "m2o vol.38"
-   },
-   "inedito": true,
-   "anno_incerto": false,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "produzione",
-   "slug": "gettin-up",
-   "titolo": "Gettin' Up",
-   "versioni": [],
-   "data": null,
-   "anno": 2015,
-   "data_esatta": false,
-   "con": [],
-   "firma": "Phunkerz",
-   "etichetta": null,
-   "nota": "inedito per la compilation: mai uscito a sé, stampato su m2o vol.39",
-   "escluso": false,
-   "da_guardare": false,
-   "sezione": "2010 → 2019",
-   "in_compilation": [
-    {
-     "slug": "m2ovol39",
-     "titolo": "m2o vol.39",
-     "anno": 2015,
-     "come": "Gettin' Up"
-    }
-   ],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": null,
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "compilation",
-    "file": "/compilation/cop/m2ovol39.jpg",
-    "da": "m2o vol.39"
-   },
-   "inedito": true,
-   "anno_incerto": false,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "produzione",
-   "slug": "be-your",
-   "titolo": "Be Your",
-   "versioni": [],
-   "data": null,
-   "anno": 2015,
-   "data_esatta": false,
-   "con": [],
-   "firma": "System3",
-   "etichetta": null,
-   "nota": "inedito per la compilation: mai uscito a sé, stampato su m2o vol.40",
-   "escluso": false,
-   "da_guardare": false,
-   "sezione": "2010 → 2019",
-   "in_compilation": [
-    {
-     "slug": "m2ovol40",
-     "titolo": "m2o vol.40",
-     "anno": 2015,
-     "come": "Be Your"
-    }
-   ],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": null,
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "compilation",
-    "file": "/compilation/cop/m2ovol40.jpg",
-    "da": "m2o vol.40"
-   },
-   "inedito": true,
    "anno_incerto": false,
    "foto": [],
    "nota_pubblica": null
@@ -3946,6 +3749,310 @@
   },
   {
    "tipo": "produzione",
+   "slug": "mork",
+   "titolo": "Mork",
+   "versioni": [],
+   "data": null,
+   "anno": 2015,
+   "data_esatta": false,
+   "con": [
+    "Castellari"
+   ],
+   "firma": null,
+   "etichetta": null,
+   "nota": "promo annunciato il 28/05/2015, non nel foglio né nei database; sta su SoundCloud, caricato da Castellari — copertina e player presi da lì il 29/08/2026",
+   "escluso": false,
+   "da_guardare": false,
+   "sezione": "2010 → 2019",
+   "in_compilation": [],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": {
+    "url": "https://soundcloud.com/albertocastellari/provenzano-castellari-mork",
+    "cosa": "il brano su SoundCloud, dal profilo di Alberto Castellari",
+    "perche": "il pezzo non e' mai uscito come disco: sta solo qui, caricato da Castellari (KASTE) che l'ha fatto con lui. Link mandato da Amerigo il 29/08/2026, e da questa pagina viene anche la copertina, che prima era un segnaposto."
+   },
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "propria",
+    "file": "cop/mork.jpg"
+   },
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "produzione",
+   "slug": "oh-song",
+   "titolo": "Oh Song",
+   "versioni": [],
+   "data": null,
+   "anno": 2015,
+   "data_esatta": false,
+   "con": [],
+   "firma": "Phunkerz",
+   "etichetta": null,
+   "nota": "inedito per la compilation: mai uscito a sé, stampato su m2o vol.38",
+   "escluso": false,
+   "da_guardare": false,
+   "sezione": "2010 → 2019",
+   "in_compilation": [
+    {
+     "slug": "m2ovol38",
+     "titolo": "m2o vol.38",
+     "anno": 2015,
+     "come": "Oh Song"
+    }
+   ],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "compilation",
+    "file": "/compilation/cop/m2ovol38.jpg",
+    "da": "m2o vol.38"
+   },
+   "inedito": true,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "produzione",
+   "slug": "pump-up-the-house",
+   "titolo": "Pump Up The House",
+   "versioni": [],
+   "data": null,
+   "anno": 2015,
+   "data_esatta": false,
+   "con": [],
+   "firma": "System3",
+   "etichetta": null,
+   "nota": "inedito per la compilation: mai uscito a sé, stampato su m2o vol.38",
+   "escluso": false,
+   "da_guardare": false,
+   "sezione": "2010 → 2019",
+   "in_compilation": [
+    {
+     "slug": "m2ovol38",
+     "titolo": "m2o vol.38",
+     "anno": 2015,
+     "come": "Pump Up The House"
+    }
+   ],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "compilation",
+    "file": "/compilation/cop/m2ovol38.jpg",
+    "da": "m2o vol.38"
+   },
+   "inedito": true,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "produzione",
+   "slug": "gettin-up",
+   "titolo": "Gettin' Up",
+   "versioni": [],
+   "data": null,
+   "anno": 2015,
+   "data_esatta": false,
+   "con": [],
+   "firma": "Phunkerz",
+   "etichetta": null,
+   "nota": "inedito per la compilation: mai uscito a sé, stampato su m2o vol.39",
+   "escluso": false,
+   "da_guardare": false,
+   "sezione": "2010 → 2019",
+   "in_compilation": [
+    {
+     "slug": "m2ovol39",
+     "titolo": "m2o vol.39",
+     "anno": 2015,
+     "come": "Gettin' Up"
+    }
+   ],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "compilation",
+    "file": "/compilation/cop/m2ovol39.jpg",
+    "da": "m2o vol.39"
+   },
+   "inedito": true,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "produzione",
+   "slug": "be-your",
+   "titolo": "Be Your",
+   "versioni": [],
+   "data": null,
+   "anno": 2015,
+   "data_esatta": false,
+   "con": [],
+   "firma": "System3",
+   "etichetta": null,
+   "nota": "inedito per la compilation: mai uscito a sé, stampato su m2o vol.40",
+   "escluso": false,
+   "da_guardare": false,
+   "sezione": "2010 → 2019",
+   "in_compilation": [
+    {
+     "slug": "m2ovol40",
+     "titolo": "m2o vol.40",
+     "anno": 2015,
+     "come": "Be Your"
+    }
+   ],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "compilation",
+    "file": "/compilation/cop/m2ovol40.jpg",
+    "da": "m2o vol.40"
+   },
+   "inedito": true,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "produzione",
+   "slug": "we-are-one",
+   "titolo": "We Are One",
+   "versioni": [
+    "+ Gregor Salto Rmx"
+   ],
+   "data": "2016-03-21",
+   "anno": 2016,
+   "data_esatta": true,
+   "con": [
+    "Carl Fanini",
+    "Gregor Salto"
+   ],
+   "firma": null,
+   "etichetta": "Ego",
+   "nota": null,
+   "escluso": false,
+   "da_guardare": false,
+   "sezione": "2010 → 2019",
+   "in_compilation": [
+    {
+     "slug": "m2o-music-xperience",
+     "titolo": "m2o Music Xperience",
+     "anno": 2016,
+     "come": "We Are One (Gregor Salto Remix)"
+    }
+   ],
+   "versioni_uscita": [],
+   "spotify": {
+    "tipo": "album",
+    "album": "6yGsG7wT7vNuEJHTkhWlUF",
+    "titolo": "We Are One"
+   },
+   "video": {
+    "youtube": "5PLquRNmAPM",
+    "tipo": "ufficiale",
+    "canale": "EGO TV",
+    "titolo": "We Are One (Gregor Salto Rmx)",
+    "verticale": false,
+    "formato": null
+   },
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "propria",
+    "file": "cop/we-are-one.jpg"
+   },
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "produzione",
+   "slug": "bam-bam",
+   "titolo": "Bam Bam",
+   "versioni": [],
+   "data": "2016-11-08",
+   "anno": 2016,
+   "data_esatta": true,
+   "con": [
+    "Wlady",
+    "Denny Berland"
+   ],
+   "firma": null,
+   "etichetta": "Panda Funk",
+   "nota": null,
+   "escluso": false,
+   "da_guardare": false,
+   "sezione": "2010 → 2019",
+   "in_compilation": [],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": {
+    "youtube": "S40NP5EbRBY",
+    "tipo": "audio",
+    "canale": "fan page",
+    "titolo": "Bam Bam",
+    "verticale": false,
+    "formato": null
+   },
+   "video_altri": [
+    {
+     "youtube": "fPGVRyYZ9Nw",
+     "tipo": "audio",
+     "canale": "canale Wlady",
+     "titolo": "Bam Bam",
+     "verticale": false,
+     "formato": null
+    }
+   ],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "propria",
+    "file": "cop/bam-bam.jpg"
+   },
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "produzione",
    "slug": "what-about",
    "titolo": "What About",
    "versioni": [
@@ -4067,192 +4174,6 @@
    "copertina": {
     "tipo": "compilation",
     "file": "/compilation/cop/m2o-winter-xperience.jpg",
-    "da": "m2o Winter Xperience"
-   },
-   "inedito": true,
-   "anno_incerto": false,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "produzione",
-   "slug": "we-are-one",
-   "titolo": "We Are One",
-   "versioni": [
-    "+ Gregor Salto Rmx"
-   ],
-   "data": "2016-03-21",
-   "anno": 2016,
-   "data_esatta": true,
-   "con": [
-    "Carl Fanini",
-    "Gregor Salto"
-   ],
-   "firma": null,
-   "etichetta": "Ego",
-   "nota": null,
-   "escluso": false,
-   "da_guardare": false,
-   "sezione": "2010 → 2019",
-   "in_compilation": [
-    {
-     "slug": "m2o-music-xperience",
-     "titolo": "m2o Music Xperience",
-     "anno": 2016,
-     "come": "We Are One (Gregor Salto Remix)"
-    }
-   ],
-   "versioni_uscita": [],
-   "spotify": {
-    "tipo": "album",
-    "album": "6yGsG7wT7vNuEJHTkhWlUF",
-    "titolo": "We Are One"
-   },
-   "video": {
-    "youtube": "5PLquRNmAPM",
-    "tipo": "ufficiale",
-    "canale": "EGO TV",
-    "titolo": "We Are One (Gregor Salto Rmx)",
-    "verticale": false,
-    "formato": null
-   },
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "propria",
-    "file": "cop/we-are-one.jpg"
-   },
-   "inedito": false,
-   "anno_incerto": false,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "produzione",
-   "slug": "bam-bam",
-   "titolo": "Bam Bam",
-   "versioni": [],
-   "data": "2016-11-08",
-   "anno": 2016,
-   "data_esatta": true,
-   "con": [
-    "Wlady",
-    "Denny Berland"
-   ],
-   "firma": null,
-   "etichetta": "Panda Funk",
-   "nota": null,
-   "escluso": false,
-   "da_guardare": false,
-   "sezione": "2010 → 2019",
-   "in_compilation": [],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": {
-    "youtube": "S40NP5EbRBY",
-    "tipo": "audio",
-    "canale": "fan page",
-    "titolo": "Bam Bam",
-    "verticale": false,
-    "formato": null
-   },
-   "video_altri": [
-    {
-     "youtube": "fPGVRyYZ9Nw",
-     "tipo": "audio",
-     "canale": "canale Wlady",
-     "titolo": "Bam Bam",
-     "verticale": false,
-     "formato": null
-    }
-   ],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "propria",
-    "file": "cop/bam-bam.jpg"
-   },
-   "inedito": false,
-   "anno_incerto": false,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "produzione",
-   "slug": "f-ing-beatz",
-   "titolo": "F...ing Beatz",
-   "versioni": [],
-   "data": null,
-   "anno": 2017,
-   "data_esatta": false,
-   "con": [],
-   "firma": "System3",
-   "etichetta": null,
-   "nota": "inedito per la compilation: mai uscito a sé, stampato su m2o Summer Xperience",
-   "escluso": false,
-   "da_guardare": false,
-   "sezione": "2010 → 2019",
-   "in_compilation": [
-    {
-     "slug": "m2o-summer-xperience-2017",
-     "titolo": "m2o Summer Xperience",
-     "anno": 2017,
-     "come": "F...ing Beatz"
-    }
-   ],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": null,
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "compilation",
-    "file": "/compilation/cop/m2o-summer-xperience-2017.jpg",
-    "da": "m2o Summer Xperience"
-   },
-   "inedito": true,
-   "anno_incerto": false,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "produzione",
-   "slug": "get-low",
-   "titolo": "Get Low",
-   "versioni": [],
-   "data": null,
-   "anno": 2017,
-   "data_esatta": false,
-   "con": [],
-   "firma": "System3",
-   "etichetta": null,
-   "nota": "inedito per la compilation: mai uscito a sé, stampato su m2o Winter Xperience",
-   "escluso": false,
-   "da_guardare": false,
-   "sezione": "2010 → 2019",
-   "in_compilation": [
-    {
-     "slug": "m2o-winter-xperience-2017",
-     "titolo": "m2o Winter Xperience",
-     "anno": 2017,
-     "come": "Get Low"
-    }
-   ],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": null,
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "compilation",
-    "file": "/compilation/cop/m2o-winter-xperience-2017.jpg",
     "da": "m2o Winter Xperience"
    },
    "inedito": true,
@@ -4485,6 +4406,232 @@
   },
   {
    "tipo": "produzione",
+   "slug": "f-ing-beatz",
+   "titolo": "F...ing Beatz",
+   "versioni": [],
+   "data": null,
+   "anno": 2017,
+   "data_esatta": false,
+   "con": [],
+   "firma": "System3",
+   "etichetta": null,
+   "nota": "inedito per la compilation: mai uscito a sé, stampato su m2o Summer Xperience",
+   "escluso": false,
+   "da_guardare": false,
+   "sezione": "2010 → 2019",
+   "in_compilation": [
+    {
+     "slug": "m2o-summer-xperience-2017",
+     "titolo": "m2o Summer Xperience",
+     "anno": 2017,
+     "come": "F...ing Beatz"
+    }
+   ],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "compilation",
+    "file": "/compilation/cop/m2o-summer-xperience-2017.jpg",
+    "da": "m2o Summer Xperience"
+   },
+   "inedito": true,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "produzione",
+   "slug": "get-low",
+   "titolo": "Get Low",
+   "versioni": [],
+   "data": null,
+   "anno": 2017,
+   "data_esatta": false,
+   "con": [],
+   "firma": "System3",
+   "etichetta": null,
+   "nota": "inedito per la compilation: mai uscito a sé, stampato su m2o Winter Xperience",
+   "escluso": false,
+   "da_guardare": false,
+   "sezione": "2010 → 2019",
+   "in_compilation": [
+    {
+     "slug": "m2o-winter-xperience-2017",
+     "titolo": "m2o Winter Xperience",
+     "anno": 2017,
+     "come": "Get Low"
+    }
+   ],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "compilation",
+    "file": "/compilation/cop/m2o-winter-xperience-2017.jpg",
+    "da": "m2o Winter Xperience"
+   },
+   "inedito": true,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "produzione",
+   "slug": "babele",
+   "titolo": "Babele",
+   "versioni": [
+    "+ Extended"
+   ],
+   "data": "2018-02-26",
+   "anno": 2018,
+   "data_esatta": true,
+   "con": [
+    "The Cube Guys"
+   ],
+   "firma": null,
+   "etichetta": "SPRS (Spinnin')",
+   "nota": null,
+   "escluso": false,
+   "da_guardare": false,
+   "sezione": "2010 → 2019",
+   "in_compilation": [
+    {
+     "slug": "m2o-dance-xperience-2018",
+     "titolo": "m2o Dance Xperience",
+     "anno": 2018,
+     "come": "Babele"
+    }
+   ],
+   "versioni_uscita": [],
+   "spotify": {
+    "tipo": "album",
+    "album": "1E0UXiHxSnrEEMGXJhv5NV",
+    "titolo": "Babele (Extended Mix)"
+   },
+   "video": {
+    "youtube": "mj31TAvl2VI",
+    "tipo": "ufficiale",
+    "canale": "Spinnin' Records",
+    "titolo": "Babele",
+    "verticale": false,
+    "formato": null
+   },
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "propria",
+    "file": "cop/babele.jpg"
+   },
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "produzione",
+   "slug": "a-little-higher",
+   "titolo": "A Little Higher",
+   "versioni": [],
+   "data": "2018-10-08",
+   "anno": 2018,
+   "data_esatta": true,
+   "con": [],
+   "firma": null,
+   "etichetta": "La Pera Records (comp. ADE 2018)",
+   "nota": null,
+   "escluso": false,
+   "da_guardare": false,
+   "sezione": "2010 → 2019",
+   "in_compilation": [
+    {
+     "slug": "m2o-winter-xperience-2018",
+     "titolo": "m2o Winter Xperience",
+     "anno": 2018,
+     "come": "A Little Higher"
+    }
+   ],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": {
+    "youtube": "Eyx8rIX0FP0",
+    "tipo": "audio",
+    "canale": "La Pera Records",
+    "titolo": "A Little Higher",
+    "verticale": false,
+    "formato": null
+   },
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "propria",
+    "file": "cop/a-little-higher.jpg"
+   },
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "produzione",
+   "slug": "gig",
+   "titolo": "Gig",
+   "versioni": [],
+   "data": "2018-11-23",
+   "anno": 2018,
+   "data_esatta": true,
+   "con": [
+    "Wlady",
+    "T.N.Y."
+   ],
+   "firma": null,
+   "etichetta": "Under Town Music",
+   "nota": null,
+   "escluso": false,
+   "da_guardare": false,
+   "sezione": "2010 → 2019",
+   "in_compilation": [
+    {
+     "slug": "m2o-winter-xperience-2018",
+     "titolo": "m2o Winter Xperience",
+     "anno": 2018,
+     "come": "Gig"
+    }
+   ],
+   "versioni_uscita": [],
+   "spotify": {
+    "tipo": "album",
+    "album": "08A3VwYmB9wMhEObbNxxz9",
+    "titolo": "Gig"
+   },
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "propria",
+    "file": "cop/gig.jpg"
+   },
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "produzione",
    "slug": "dancin",
    "titolo": "Dancin'",
    "versioni": [],
@@ -4685,152 +4832,6 @@
   },
   {
    "tipo": "produzione",
-   "slug": "babele",
-   "titolo": "Babele",
-   "versioni": [
-    "+ Extended"
-   ],
-   "data": "2018-02-26",
-   "anno": 2018,
-   "data_esatta": true,
-   "con": [
-    "The Cube Guys"
-   ],
-   "firma": null,
-   "etichetta": "SPRS (Spinnin')",
-   "nota": null,
-   "escluso": false,
-   "da_guardare": false,
-   "sezione": "2010 → 2019",
-   "in_compilation": [
-    {
-     "slug": "m2o-dance-xperience-2018",
-     "titolo": "m2o Dance Xperience",
-     "anno": 2018,
-     "come": "Babele"
-    }
-   ],
-   "versioni_uscita": [],
-   "spotify": {
-    "tipo": "album",
-    "album": "1E0UXiHxSnrEEMGXJhv5NV",
-    "titolo": "Babele (Extended Mix)"
-   },
-   "video": {
-    "youtube": "mj31TAvl2VI",
-    "tipo": "ufficiale",
-    "canale": "Spinnin' Records",
-    "titolo": "Babele",
-    "verticale": false,
-    "formato": null
-   },
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "propria",
-    "file": "cop/babele.jpg"
-   },
-   "inedito": false,
-   "anno_incerto": false,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "produzione",
-   "slug": "a-little-higher",
-   "titolo": "A Little Higher",
-   "versioni": [],
-   "data": "2018-10-08",
-   "anno": 2018,
-   "data_esatta": true,
-   "con": [],
-   "firma": null,
-   "etichetta": "La Pera Records (comp. ADE 2018)",
-   "nota": null,
-   "escluso": false,
-   "da_guardare": false,
-   "sezione": "2010 → 2019",
-   "in_compilation": [
-    {
-     "slug": "m2o-winter-xperience-2018",
-     "titolo": "m2o Winter Xperience",
-     "anno": 2018,
-     "come": "A Little Higher"
-    }
-   ],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": {
-    "youtube": "Eyx8rIX0FP0",
-    "tipo": "audio",
-    "canale": "La Pera Records",
-    "titolo": "A Little Higher",
-    "verticale": false,
-    "formato": null
-   },
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "propria",
-    "file": "cop/a-little-higher.jpg"
-   },
-   "inedito": false,
-   "anno_incerto": false,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "produzione",
-   "slug": "gig",
-   "titolo": "Gig",
-   "versioni": [],
-   "data": "2018-11-23",
-   "anno": 2018,
-   "data_esatta": true,
-   "con": [
-    "Wlady",
-    "T.N.Y."
-   ],
-   "firma": null,
-   "etichetta": "Under Town Music",
-   "nota": null,
-   "escluso": false,
-   "da_guardare": false,
-   "sezione": "2010 → 2019",
-   "in_compilation": [
-    {
-     "slug": "m2o-winter-xperience-2018",
-     "titolo": "m2o Winter Xperience",
-     "anno": 2018,
-     "come": "Gig"
-    }
-   ],
-   "versioni_uscita": [],
-   "spotify": {
-    "tipo": "album",
-    "album": "08A3VwYmB9wMhEObbNxxz9",
-    "titolo": "Gig"
-   },
-   "video": null,
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "propria",
-    "file": "cop/gig.jpg"
-   },
-   "inedito": false,
-   "anno_incerto": false,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "produzione",
    "slug": "crazy",
    "titolo": "Crazy",
    "versioni": [
@@ -4989,49 +4990,6 @@
   },
   {
    "tipo": "produzione",
-   "slug": "canzoni-dell-estate-2022",
-   "titolo": "Canzoni Dell'Estate 2022",
-   "versioni": [
-    "Nick Peloso Mix"
-   ],
-   "data": null,
-   "anno": 2022,
-   "data_esatta": false,
-   "con": [
-    "Fedo Mora",
-    "HJM",
-    "Scarlet",
-    "Nick Peloso"
-   ],
-   "firma": null,
-   "etichetta": "Ego",
-   "nota": "*la versione recente, a suo nome*",
-   "escluso": false,
-   "da_guardare": false,
-   "sezione": "2020 →",
-   "in_compilation": [],
-   "versioni_uscita": [],
-   "spotify": {
-    "tipo": "album",
-    "album": "3xaC6shiJd5EoLcwkA1c8F",
-    "titolo": "Canzoni Dell'Estate 2022 (Nick Peloso Mix)"
-   },
-   "video": null,
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "propria",
-    "file": "cop/canzoni-dell-estate-2022.jpg"
-   },
-   "inedito": false,
-   "anno_incerto": false,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "produzione",
    "slug": "el-sol",
    "titolo": "El Sol",
    "versioni": [
@@ -5082,11 +5040,12 @@
    "data_esatta": true,
    "con": [
     "Fedo Mora",
-    "John Blaylock"
+    "John Blaylock",
+    "HJM"
    ],
    "firma": null,
    "etichetta": "Ego",
-   "nota": "l'annuncio su IG diceva Happy Music, etichetta francese",
+   "nota": "l'annuncio su IG diceva Happy Music, etichetta francese. HJM aggiunto il 30/08/2026: su Spotify l'uscita è accreditata a Fedo Mora, Provenzano e HJM",
    "escluso": false,
    "da_guardare": false,
    "sezione": "2020 →",
@@ -5162,6 +5121,49 @@
   },
   {
    "tipo": "produzione",
+   "slug": "canzoni-dell-estate-2022",
+   "titolo": "Canzoni Dell'Estate 2022",
+   "versioni": [
+    "Nick Peloso Mix"
+   ],
+   "data": "2022-07-08",
+   "anno": 2022,
+   "data_esatta": true,
+   "con": [
+    "Fedo Mora",
+    "HJM",
+    "Scarlet",
+    "Nick Peloso"
+   ],
+   "firma": null,
+   "etichetta": "Ego",
+   "nota": "*la versione recente, a suo nome; data dal profilo Spotify, 30/08/2026, dove l'uscita è accreditata a Provenzano, Fedo Mora e HJM*",
+   "escluso": false,
+   "da_guardare": false,
+   "sezione": "2020 →",
+   "in_compilation": [],
+   "versioni_uscita": [],
+   "spotify": {
+    "tipo": "album",
+    "album": "3xaC6shiJd5EoLcwkA1c8F",
+    "titolo": "Canzoni Dell'Estate 2022 (Nick Peloso Mix)"
+   },
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "propria",
+    "file": "cop/canzoni-dell-estate-2022.jpg"
+   },
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "produzione",
    "slug": "la-trompeta",
    "titolo": "La Trompeta",
    "versioni": [],
@@ -5204,16 +5206,16 @@
    "slug": "faded",
    "titolo": "Faded",
    "versioni": [],
-   "data": null,
+   "data": "2023-01-30",
    "anno": 2023,
-   "data_esatta": false,
+   "data_esatta": true,
    "con": [
     "Luca Testa",
     "Sound Made Clearer"
    ],
    "firma": null,
    "etichetta": "Alter K",
-   "nota": null,
+   "nota": "data dal profilo Spotify, 30/08/2026: prima c'era solo l'anno, su Beatport la release non risulta",
    "escluso": false,
    "da_guardare": false,
    "sezione": "2020 →",
@@ -6617,6 +6619,77 @@
   },
   {
    "tipo": "remix",
+   "slug": "falaska-contest-once-again",
+   "artista": "Falaska Contest",
+   "titolo": "Once Again",
+   "data": "2008-04-04",
+   "anno": 2008,
+   "data_esatta": true,
+   "firma": "Provenzano & Promise Land",
+   "etichetta": "Gardenia Records",
+   "nota": null,
+   "escluso": false,
+   "sezione": "Remix",
+   "in_compilation": [],
+   "artista_diverso": [],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "propria",
+    "file": "cop/falaska-contest-once-again.jpg"
+   },
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "remix",
+   "slug": "supawet-wash-the-floor",
+   "artista": "Supawet",
+   "titolo": "Wash The Floor",
+   "data": "2008-07-08",
+   "anno": 2008,
+   "data_esatta": true,
+   "firma": "Provenzano",
+   "etichetta": "J Records",
+   "nota": null,
+   "escluso": false,
+   "sezione": "Remix",
+   "in_compilation": [],
+   "artista_diverso": [],
+   "versioni_uscita": [
+    {
+     "titolo": "Wash The Floor",
+     "come": null,
+     "anno": 2012,
+     "data": "2012-08-29",
+     "etichetta": "Delirious",
+     "con": [],
+     "nota": null,
+     "in_compilation": [],
+     "slug": "s-p-w-t-wash-the-floor"
+    }
+   ],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": null,
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "remix",
    "slug": "fiorello-and-baldini-chi-siamo-noi",
    "artista": "Fiorello & Baldini",
    "titolo": "Chi Siamo Noi",
@@ -6725,18 +6798,25 @@
   },
   {
    "tipo": "remix",
-   "slug": "falaska-contest-once-again",
-   "artista": "Falaska Contest",
-   "titolo": "Once Again",
-   "data": "2008-04-04",
-   "anno": 2008,
+   "slug": "fedde-le-grand-feat-mitch-crown-scared-of-me",
+   "artista": "Fedde Le Grand feat. Mitch Crown",
+   "titolo": "Scared Of Me",
+   "data": "2009-05-18",
+   "anno": 2009,
    "data_esatta": true,
-   "firma": "Provenzano & Promise Land",
-   "etichetta": "Gardenia Records",
+   "firma": "Promise Land & Provenzano",
+   "etichetta": "Altra Moda",
    "nota": null,
    "escluso": false,
    "sezione": "Remix",
-   "in_compilation": [],
+   "in_compilation": [
+    {
+     "slug": "m2ovol21",
+     "titolo": "m2o vol.21",
+     "anno": 2009,
+     "come": "Scared Of Me (Promise Land & Provenzano DJ Remix)"
+    }
+   ],
    "artista_diverso": [],
    "versioni_uscita": [],
    "spotify": null,
@@ -6747,7 +6827,7 @@
    "apple": null,
    "copertina": {
     "tipo": "propria",
-    "file": "cop/falaska-contest-once-again.jpg"
+    "file": "cop/fedde-le-grand-feat-mitch-crown-scared-of-me.jpg"
    },
    "inedito": false,
    "anno_incerto": false,
@@ -6756,32 +6836,20 @@
   },
   {
    "tipo": "remix",
-   "slug": "supawet-wash-the-floor",
-   "artista": "Supawet",
-   "titolo": "Wash The Floor",
-   "data": "2008-07-08",
-   "anno": 2008,
+   "slug": "greg-cerrone-taking-control-of-you",
+   "artista": "Greg Cerrone",
+   "titolo": "Taking Control Of You",
+   "data": "2009-06-29",
+   "anno": 2009,
    "data_esatta": true,
-   "firma": "Provenzano",
-   "etichetta": "J Records",
+   "firma": "Provenzano, Ranucci & Pelusi",
+   "etichetta": "On The Air Music",
    "nota": null,
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [],
    "artista_diverso": [],
-   "versioni_uscita": [
-    {
-     "titolo": "Wash The Floor",
-     "come": null,
-     "anno": 2012,
-     "data": "2012-08-29",
-     "etichetta": "Delirious",
-     "con": [],
-     "nota": null,
-     "in_compilation": [],
-     "slug": "s-p-w-t-wash-the-floor"
-    }
-   ],
+   "versioni_uscita": [],
    "spotify": null,
    "video": null,
    "video_altri": [],
@@ -6980,11 +7048,11 @@
   },
   {
    "tipo": "remix",
-   "slug": "fedde-le-grand-feat-mitch-crown-scared-of-me",
-   "artista": "Fedde Le Grand feat. Mitch Crown",
-   "titolo": "Scared Of Me",
-   "data": "2009-05-18",
-   "anno": 2009,
+   "slug": "fedde-le-grand-feat-mr-v-back-and-forth",
+   "artista": "Fedde Le Grand feat. Mr. V",
+   "titolo": "Back & Forth",
+   "data": "2010-02-22",
+   "anno": 2010,
    "data_esatta": true,
    "firma": "Promise Land & Provenzano",
    "etichetta": "Altra Moda",
@@ -6993,10 +7061,10 @@
    "sezione": "Remix",
    "in_compilation": [
     {
-     "slug": "m2ovol21",
-     "titolo": "m2o vol.21",
-     "anno": 2009,
-     "come": "Scared Of Me (Promise Land & Provenzano DJ Remix)"
+     "slug": "m2ovol23",
+     "titolo": "m2o vol.23",
+     "anno": 2010,
+     "come": "Back & Forth (Promise Land & Provenzano DJ Remix)"
     }
    ],
    "artista_diverso": [],
@@ -7009,36 +7077,8 @@
    "apple": null,
    "copertina": {
     "tipo": "propria",
-    "file": "cop/fedde-le-grand-feat-mitch-crown-scared-of-me.jpg"
+    "file": "cop/fedde-le-grand-feat-mr-v-back-and-forth.jpg"
    },
-   "inedito": false,
-   "anno_incerto": false,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "remix",
-   "slug": "greg-cerrone-taking-control-of-you",
-   "artista": "Greg Cerrone",
-   "titolo": "Taking Control Of You",
-   "data": "2009-06-29",
-   "anno": 2009,
-   "data_esatta": true,
-   "firma": "Provenzano, Ranucci & Pelusi",
-   "etichetta": "On The Air Music",
-   "nota": null,
-   "escluso": false,
-   "sezione": "Remix",
-   "in_compilation": [],
-   "artista_diverso": [],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": null,
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": null,
    "inedito": false,
    "anno_incerto": false,
    "foto": [],
@@ -7076,44 +7116,6 @@
    "copertina": {
     "tipo": "propria",
     "file": "cop/dabruck-and-klein-feat-michael-feiner-the-feeling.jpg"
-   },
-   "inedito": false,
-   "anno_incerto": false,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "remix",
-   "slug": "fedde-le-grand-feat-mr-v-back-and-forth",
-   "artista": "Fedde Le Grand feat. Mr. V",
-   "titolo": "Back & Forth",
-   "data": "2010-02-22",
-   "anno": 2010,
-   "data_esatta": true,
-   "firma": "Promise Land & Provenzano",
-   "etichetta": "Altra Moda",
-   "nota": null,
-   "escluso": false,
-   "sezione": "Remix",
-   "in_compilation": [
-    {
-     "slug": "m2ovol23",
-     "titolo": "m2o vol.23",
-     "anno": 2010,
-     "come": "Back & Forth (Promise Land & Provenzano DJ Remix)"
-    }
-   ],
-   "artista_diverso": [],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": null,
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "propria",
-    "file": "cop/fedde-le-grand-feat-mr-v-back-and-forth.jpg"
    },
    "inedito": false,
    "anno_incerto": false,
@@ -7654,45 +7656,6 @@
   },
   {
    "tipo": "remix",
-   "slug": "claudio-caccini-carl-fanini-ready-for-love",
-   "artista": "Claudio Caccini, Carl Fanini",
-   "titolo": "Ready For Love",
-   "data": null,
-   "anno": 2013,
-   "data_esatta": false,
-   "firma": "Provenzano",
-   "etichetta": null,
-   "nota": "ritrovata nel database delle compilation, stampata su m2o vol.34; anno non confermato",
-   "escluso": false,
-   "sezione": "Remix",
-   "in_compilation": [
-    {
-     "slug": "m2ovol34",
-     "titolo": "m2o vol.34",
-     "anno": 2013,
-     "come": "Ready For Love (Provenzano DJ Remix)"
-    }
-   ],
-   "artista_diverso": [],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": null,
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "compilation",
-    "file": "/compilation/cop/m2ovol34.jpg",
-    "da": "m2o vol.34"
-   },
-   "inedito": false,
-   "anno_incerto": true,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "remix",
    "slug": "claudio-caccini-and-cece-rogers-fly-away",
    "artista": "Claudio Caccini & CeCe Rogers",
    "titolo": "Fly Away",
@@ -7933,6 +7896,45 @@
   },
   {
    "tipo": "remix",
+   "slug": "claudio-caccini-carl-fanini-ready-for-love",
+   "artista": "Claudio Caccini, Carl Fanini",
+   "titolo": "Ready For Love",
+   "data": null,
+   "anno": 2013,
+   "data_esatta": false,
+   "firma": "Provenzano",
+   "etichetta": null,
+   "nota": "ritrovata nel database delle compilation, stampata su m2o vol.34; anno non confermato",
+   "escluso": false,
+   "sezione": "Remix",
+   "in_compilation": [
+    {
+     "slug": "m2ovol34",
+     "titolo": "m2o vol.34",
+     "anno": 2013,
+     "come": "Ready For Love (Provenzano DJ Remix)"
+    }
+   ],
+   "artista_diverso": [],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "compilation",
+    "file": "/compilation/cop/m2ovol34.jpg",
+    "da": "m2o vol.34"
+   },
+   "inedito": false,
+   "anno_incerto": true,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "remix",
    "slug": "samuel-kimko-edward-sanchez-laura-s-la-rumba",
    "artista": "Samuel Kimko', Edward Sanchez, Laura S.",
    "titolo": "La Rumba",
@@ -8050,49 +8052,6 @@
   },
   {
    "tipo": "remix",
-   "slug": "claudio-caccini-carl-fanini-waterfall",
-   "artista": "Claudio Caccini, Carl Fanini",
-   "titolo": "Waterfall",
-   "data": null,
-   "anno": 2015,
-   "data_esatta": false,
-   "firma": "Provenzano",
-   "etichetta": null,
-   "nota": "ritrovata nel database delle compilation, stampata su m2o vol.38; anno non confermato",
-   "escluso": false,
-   "sezione": "Remix",
-   "in_compilation": [
-    {
-     "slug": "m2ovol38",
-     "titolo": "m2o vol.38",
-     "anno": 2015,
-     "come": "Waterfall (Provenzano DJ Remix)"
-    }
-   ],
-   "artista_diverso": [],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": null,
-   "video_altri": [],
-   "soundcloud": {
-    "url": "https://soundcloud.com/claudiocaccini/caccini-ft-carl-waterfall-provenzano-rmx",
-    "cosa": "il remix su SoundCloud, dal profilo di Claudio Caccini",
-    "perche": "caricato da Funkatomic aka Claudio Caccini, cioe' l'artista del pezzo originale. Link mandato da Amerigo il 29/08/2026. L'immagine della traccia su SoundCloud e' solo il logo m2o radio, quindi in pagina resta la copertina di m2o vol.38, il disco dove il remix e' stampato."
-   },
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "compilation",
-    "file": "/compilation/cop/m2ovol38.jpg",
-    "da": "m2o vol.38"
-   },
-   "inedito": false,
-   "anno_incerto": true,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "remix",
    "slug": "don-cash-carry-on",
    "artista": "Don Cash",
    "titolo": "Carry On",
@@ -8138,23 +8097,23 @@
   },
   {
    "tipo": "remix",
-   "slug": "don-cash-abusadora",
-   "artista": "Don Cash",
-   "titolo": "Abusadora",
+   "slug": "claudio-caccini-carl-fanini-waterfall",
+   "artista": "Claudio Caccini, Carl Fanini",
+   "titolo": "Waterfall",
    "data": null,
-   "anno": 2016,
+   "anno": 2015,
    "data_esatta": false,
    "firma": "Provenzano",
    "etichetta": null,
-   "nota": "Traxsource exclusive — solo archivio social",
+   "nota": "ritrovata nel database delle compilation, stampata su m2o vol.38; anno non confermato",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [
     {
-     "slug": "m2o-summer-xperience",
-     "titolo": "m2o Summer Xperience",
-     "anno": 2016,
-     "come": "Abusadora (Provenzano DJ Remix)"
+     "slug": "m2ovol38",
+     "titolo": "m2o vol.38",
+     "anno": 2015,
+     "come": "Waterfall (Provenzano DJ Remix)"
     }
    ],
    "artista_diverso": [],
@@ -8162,16 +8121,20 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://soundcloud.com/claudiocaccini/caccini-ft-carl-waterfall-provenzano-rmx",
+    "cosa": "il remix su SoundCloud, dal profilo di Claudio Caccini",
+    "perche": "caricato da Funkatomic aka Claudio Caccini, cioe' l'artista del pezzo originale. Link mandato da Amerigo il 29/08/2026. L'immagine della traccia su SoundCloud e' solo il logo m2o radio, quindi in pagina resta la copertina di m2o vol.38, il disco dove il remix e' stampato."
+   },
    "traxsource": null,
    "apple": null,
    "copertina": {
     "tipo": "compilation",
-    "file": "/compilation/cop/m2o-summer-xperience.jpg",
-    "da": "m2o Summer Xperience"
+    "file": "/compilation/cop/m2ovol38.jpg",
+    "da": "m2o vol.38"
    },
    "inedito": false,
-   "anno_incerto": false,
+   "anno_incerto": true,
    "foto": [],
    "nota_pubblica": null
   },
@@ -8220,23 +8183,23 @@
   },
   {
    "tipo": "remix",
-   "slug": "joe-berte-daniel-tek-el-3mendo-bailando",
-   "artista": "Joe Berte', Daniel Tek, El 3mendo",
-   "titolo": "Bailando",
+   "slug": "don-cash-abusadora",
+   "artista": "Don Cash",
+   "titolo": "Abusadora",
    "data": null,
-   "anno": 2018,
+   "anno": 2016,
    "data_esatta": false,
-   "firma": "Provenzano & Gian Nobilee",
+   "firma": "Provenzano",
    "etichetta": null,
-   "nota": "ritrovata nel database delle compilation, stampata su m2o Summer Xperience; anno non confermato",
+   "nota": "Traxsource exclusive — solo archivio social",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [
     {
-     "slug": "m2o-summer-xperience-2018",
+     "slug": "m2o-summer-xperience",
      "titolo": "m2o Summer Xperience",
-     "anno": 2018,
-     "come": "Bailando (Provenzano DJ & Gian Nobilee Remix)"
+     "anno": 2016,
+     "come": "Abusadora (Provenzano DJ Remix)"
     }
    ],
    "artista_diverso": [],
@@ -8249,11 +8212,11 @@
    "apple": null,
    "copertina": {
     "tipo": "compilation",
-    "file": "/compilation/cop/m2o-summer-xperience-2018.jpg",
+    "file": "/compilation/cop/m2o-summer-xperience.jpg",
     "da": "m2o Summer Xperience"
    },
    "inedito": false,
-   "anno_incerto": true,
+   "anno_incerto": false,
    "foto": [],
    "nota_pubblica": null
   },
@@ -8297,6 +8260,45 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "remix",
+   "slug": "joe-berte-daniel-tek-el-3mendo-bailando",
+   "artista": "Joe Berte', Daniel Tek, El 3mendo",
+   "titolo": "Bailando",
+   "data": null,
+   "anno": 2018,
+   "data_esatta": false,
+   "firma": "Provenzano & Gian Nobilee",
+   "etichetta": null,
+   "nota": "ritrovata nel database delle compilation, stampata su m2o Summer Xperience; anno non confermato",
+   "escluso": false,
+   "sezione": "Remix",
+   "in_compilation": [
+    {
+     "slug": "m2o-summer-xperience-2018",
+     "titolo": "m2o Summer Xperience",
+     "anno": 2018,
+     "come": "Bailando (Provenzano DJ & Gian Nobilee Remix)"
+    }
+   ],
+   "artista_diverso": [],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "compilation",
+    "file": "/compilation/cop/m2o-summer-xperience-2018.jpg",
+    "da": "m2o Summer Xperience"
+   },
+   "inedito": false,
+   "anno_incerto": true,
    "foto": [],
    "nota_pubblica": null
   }
