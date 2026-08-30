@@ -6193,7 +6193,7 @@
    "data_esatta": false,
    "firma": "Provenzano, Paolo Bolognesi",
    "etichetta": "ZAC Records",
-   "nota": "trovata da Amerigo il 31/08/2026 — *«ho trovato un'uscita di cui non avevo traccia»* — e non c'era in nessuna delle sei fonti del workspace. 12\" ZAC Records ZAC 195, Italia 1997, barcode 8018951011114, Discogs 2416791: tre versioni, A1 «Extended Remix» 5:58, A2 «Radio Remix» 3:25, B1 «Energy Dub Mix» 6:38. Il brano viene dal programma di Rai 2 Macao (1997-98). ⚠️ Discogs non elenca i remixer: della scheda sono creditati solo gli autori del pezzo (Boncompagni, Mostazo, Perelló, Cantabrana, Morales). Che il remix sia suo e di Bolognesi lo dice lui, e lo provano le copertine che ha in archivio: qui la fonte è il disco in mano sua, non il database. Esiste anche un CD Single Nuova Fonit Cetra MCD 27 con Extended e Radio ma una «T.V. Remix» 2:39 al posto della Energy Dub. ⚠️ Discogs annota che le durate stampate sul retro e sulle etichette sono sbagliate. L'audio: il 12\" intero sta sul canale «DJ DISCO secondario» (pIConhp4fmk, 21/12/2024), le tre versioni sono state staccate e messe in `D:\\Archivio\\discografia\u0007udio\\`. Amerigo il 31/08/2026: *«ci serve audio da 9'25''»* — cioè la Energy Dub Mix, che nel video parte a 9:26. ⚠️ Delle tre versioni del 12\" la loro è solo la Energy Dub, detto da lui il 31/08/2026: *«noi solo la energy dub»*. Extended e Radio stanno sullo stesso disco ma sono di altri, e in pagina non si elencano — su una pagina intestata «remix di Provenzano e Bolognesi» un elenco di tre mix se le prende tutte e tre. L'audio delle altre due resta in archivio come contesto, non come uscita sua",
+   "nota": "trovata da Amerigo il 31/08/2026 — *«ho trovato un'uscita di cui non avevo traccia»* — e non c'era in nessuna delle sei fonti del workspace. ⭐ La prova è l'etichetta del lato B, fotografata da lui e messa in pagina: «ENERGY DUB MIX 6:38 — (Bolognesi, Provenzano, Nicormano)», ZAC 195, stereo 33 giri, SIAE, (P)1997 Nuova Fonit Cetra, edizioni Publy Music Snc, «Track B1: Recorded and mixed at Nicormano Studio, Roma», su licenza Nuova Fonit Cetra / Desaster / DJ Only, distribuito da ZAC Music. ⚠️ Sull'etichetta i nomi sono tre, in pagina sono due — ed è una scelta di Amerigo, non una svista. La stampa dice «Bolognesi, Provenzano, Nicormano»: il terzo è Nicoromano («Nicormano» sul disco è un refuso, manca una o), dj produttore romano col suo studio, artista Discogs 74010 con le varianti «Nico Romano» e «Nicoromano Project»; è lo stesso Nicormano Studio dove il pezzo è stato registrato e mixato, e la scheda della Eurodance Encyclopædia lo conferma dal suo lato — nel 1997, come «The House Of Sound», realizzò lì la versione dance di *Ahi Limon Limonero*. Segnalato ad Amerigo il 31/08/2026, che ha deciso di non accreditarlo: *«non metterlo»*. Il credito in pagina resta «Provenzano, Paolo Bolognesi». Il nome resta scritto qui, e si legge nella foto dell'etichetta: un documento che cancella quello che il disco dice non serve a niente. Il 12\" è ZAC Records ZAC 195, Italia 1997, barcode 8018951011114, Discogs 2416791 — e Discogs i remixer non li elenca affatto, sulla scheda ci sono solo gli autori del brano (Boncompagni, Mostazo, Perelló, Cantabrana, Morales). Tre versioni: A1 «Extended Remix» 5:58, A2 «Radio Remix» 3:25, B1 «Energy Dub Mix» 6:38. ⚠️ La loro è solo la Energy Dub, detto da lui il 31/08/2026: *«noi solo la energy dub»* — e infatti è l'unica versione che porta i loro nomi sull'etichetta. Extended e Radio stanno sullo stesso disco ma sono di altri, e in pagina non si elencano. Il brano viene dal programma di Rai 2 Macao (1997-98). Esiste anche un CD Single Nuova Fonit Cetra MCD 27 con Extended e Radio ma una «T.V. Remix» 2:39 al posto della Energy Dub — e il (P) del 12\" spiega il legame: ZAC stampa su licenza Fonit Cetra. ⚠️ Sull'etichetta la durata 6.30 è barrata e corretta a mano in 6:38, che è la stessa cosa annotata da Discogs («wrong times printed on back cover and labels»). L'audio: il 12\" intero sta sul canale «DJ DISCO secondario» (pIConhp4fmk, 21/12/2024), le tre versioni staccate e messe in `D:\\Archivio\\discografia\u0007udio\\`; la Energy Dub parte a 9:26 — *«ci serve audio da 9'25''»* — ed è quella caricata da lui su SoundCloud. L'audio di Extended e Radio resta in archivio come contesto, non come uscita sua",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [],
@@ -6210,10 +6210,18 @@
    },
    "traxsource": null,
    "apple": null,
-   "copertina": null,
+   "copertina": {
+    "tipo": "propria",
+    "file": "cop/i-ragazzi-di-macao-ahi-limon-limonero.jpg"
+   },
    "inedito": false,
    "anno_incerto": false,
-   "foto": [],
+   "foto": [
+    {
+     "file": "cop/foto/i-ragazzi-di-macao-ahi-limon-limonero-1.jpg",
+     "cosa": "l'etichetta del lato B, dove il remix è accreditato: «Energy Dub Mix»"
+    }
+   ],
    "nota_pubblica": {
     "forte": "Una sola delle tre.",
     "testo": "Il 12″ del 1997 porta tre mix di «Ahi Limon Limonero». Quello di Bolognesi e Provenzano è la **Energy Dub Mix**, sul lato B: le altre due sono di altri."
@@ -8723,7 +8731,7 @@
   "singoli": 123,
   "remix": 63,
   "inediti": 36,
-  "con_copertina": 181,
+  "con_copertina": 182,
   "con_video": 46,
   "con_spotify": 67,
   "con_soundcloud": 12,
