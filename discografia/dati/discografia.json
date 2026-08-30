@@ -61,23 +61,23 @@
     15
    ],
    [
-    2015,
+    2005,
     12
    ],
    [
-    2005,
-    11
-   ],
-   [
-    2009,
-    11
+    2015,
+    12
    ],
    [
     2011,
     11
    ],
    [
-    2008,
+    2007,
+    10
+   ],
+   [
+    2009,
     10
    ],
    [
@@ -89,7 +89,7 @@
     10
    ],
    [
-    2006,
+    2008,
     9
    ]
   ],
@@ -232,6 +232,12 @@
     "anno": 2004
    },
    {
+    "titolo": "Eurofolk",
+    "slug": "eurofolk",
+    "quante": 3,
+    "anno": 2005
+   },
+   {
     "titolo": "Sound Is Back",
     "slug": "sound-is-back",
     "quante": 3,
@@ -244,16 +250,10 @@
     "anno": 2005
    },
    {
-    "titolo": "Eurofolk",
-    "slug": "eurofolk",
-    "quante": 3,
-    "anno": 2006
-   },
-   {
     "titolo": "Devotion",
     "slug": "devotion",
     "quante": 3,
-    "anno": 2008
+    "anno": 2007
    },
    {
     "titolo": "We Belong",
@@ -262,14 +262,14 @@
     "anno": 1996
    },
    {
-    "titolo": "Believe In Me",
-    "slug": "believe-in-me",
-    "quante": 2,
-    "anno": 1997
-   },
-   {
     "titolo": "Let Me Be",
     "slug": "let-me-be",
+    "quante": 2,
+    "anno": 2005
+   },
+   {
+    "titolo": "No Alla Pirateria",
+    "slug": "no-alla-pirateria",
     "quante": 2,
     "anno": 2005
    }
@@ -346,7 +346,7 @@
    "foto": [],
    "nota_pubblica": {
     "forte": "La prima uscita in assoluto.",
-    "testo": "Copertina e logo di Double Dare disegnati da Provenzano, a mano."
+    "testo": "Double Dare è il progetto di Paolo Bolognesi e Amerigo Provenzano, e segna la loro prima esperienza discografica. Copertina e logo disegnati da Provenzano, a mano."
    }
   },
   {
@@ -485,7 +485,10 @@
    "inedito": false,
    "anno_incerto": false,
    "foto": [],
-   "nota_pubblica": null
+   "nota_pubblica": {
+    "forte": "Le iniziali sono la firma.",
+    "testo": "Double Dare — Paolo Bolognesi e Amerigo Provenzano — firmava le versioni dei propri dischi con le iniziali dei loro nomi: la «Post Bone» mix è di Paolo Bolognesi, la «Add Power» mix di Amerigo Provenzano."
+   }
   },
   {
    "tipo": "produzione",
@@ -585,30 +588,10 @@
    "escluso": false,
    "da_guardare": false,
    "sezione": "Double Dare",
-   "in_compilation": [
-    {
-     "slug": "m2ovol35",
-     "titolo": "m2o vol.35",
-     "anno": 2014,
-     "come": "Believe In Me"
-    },
-    {
-     "slug": "m2ovol36",
-     "titolo": "m2o vol.36",
-     "anno": 2014,
-     "come": "Believe In Me (Dyson Kellerman Remix)"
-    }
-   ],
+   "in_compilation": [],
    "versioni_uscita": [],
    "spotify": null,
-   "video": {
-    "youtube": "tunTyE50Rsc",
-    "tipo": "ufficiale",
-    "canale": "The Gaudino's",
-    "titolo": "Believe In Me (Gaudino)",
-    "verticale": false,
-    "formato": null
-   },
+   "video": null,
    "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
@@ -836,6 +819,65 @@
    "inedito": true,
    "anno_incerto": false,
    "data_da_compilation": true,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "produzione",
+   "slug": "eurofolk",
+   "titolo": "Eurofolk",
+   "versioni": [],
+   "data": null,
+   "anno": 2005,
+   "data_esatta": false,
+   "con": [],
+   "firma": "Italian Deejays",
+   "etichetta": "Jump Records",
+   "nota": "inedito per le compilation: mai uscito a sé, stampato su [Jump]² The Dancefloor Vol. 1, m2o vol.10 e m2o — m2ALL Shock, tutte e tre del 2005; il foglio diceva 2006, anno spostato indietro da Amerigo il 30/08/2026",
+   "escluso": false,
+   "da_guardare": false,
+   "sezione": "1992 → 2009",
+   "in_compilation": [
+    {
+     "slug": "jump-2-the-dancefloor-vol-1",
+     "titolo": "[Jump]² The Dancefloor Vol. 1",
+     "anno": 2005,
+     "come": "Eurofolk (Original)"
+    },
+    {
+     "slug": "m2ovol10",
+     "titolo": "m2o vol.10",
+     "anno": 2005,
+     "come": "Eurofolk (Original Extended)"
+    },
+    {
+     "slug": "m2o-m2all-shock",
+     "titolo": "m2o — m2ALL Shock",
+     "anno": 2005,
+     "come": "Eurofolk (Szone vs. Dark Angel Rmx)"
+    }
+   ],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": {
+    "youtube": "Vwi1UMyeTYg",
+    "tipo": "audio",
+    "canale": null,
+    "titolo": "Eurofolk (Italian Deejays)",
+    "verticale": false,
+    "formato": null
+   },
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "compilation",
+    "file": "/compilation/cop/jump-2-the-dancefloor-vol-1.jpg",
+    "da": "[Jump]² The Dancefloor Vol. 1"
+   },
+   "inedito": true,
+   "anno_incerto": false,
    "foto": [],
    "nota_pubblica": null
   },
@@ -1170,65 +1212,6 @@
   },
   {
    "tipo": "produzione",
-   "slug": "eurofolk",
-   "titolo": "Eurofolk",
-   "versioni": [],
-   "data": null,
-   "anno": 2006,
-   "data_esatta": false,
-   "con": [],
-   "firma": "Italian Deejays",
-   "etichetta": "Jump Records",
-   "nota": "inedito per le compilation: mai uscito a sé, stampato su [Jump]² The Dancefloor Vol. 1, m2o vol.10 e m2o — m2ALL Shock",
-   "escluso": false,
-   "da_guardare": false,
-   "sezione": "1992 → 2009",
-   "in_compilation": [
-    {
-     "slug": "jump-2-the-dancefloor-vol-1",
-     "titolo": "[Jump]² The Dancefloor Vol. 1",
-     "anno": 2005,
-     "come": "Eurofolk (Original)"
-    },
-    {
-     "slug": "m2ovol10",
-     "titolo": "m2o vol.10",
-     "anno": 2005,
-     "come": "Eurofolk (Original Extended)"
-    },
-    {
-     "slug": "m2o-m2all-shock",
-     "titolo": "m2o — m2ALL Shock",
-     "anno": 2005,
-     "come": "Eurofolk (Szone vs. Dark Angel Rmx)"
-    }
-   ],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": {
-    "youtube": "Vwi1UMyeTYg",
-    "tipo": "audio",
-    "canale": null,
-    "titolo": "Eurofolk (Italian Deejays)",
-    "verticale": false,
-    "formato": null
-   },
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "compilation",
-    "file": "/compilation/cop/jump-2-the-dancefloor-vol-1.jpg",
-    "da": "[Jump]² The Dancefloor Vol. 1"
-   },
-   "inedito": true,
-   "anno_incerto": false,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "produzione",
    "slug": "the-story-goes-on",
    "titolo": "The Story Goes On",
    "versioni": [],
@@ -1285,9 +1268,9 @@
    "slug": "right-or-wrong",
    "titolo": "Right Or Wrong",
    "versioni": [],
-   "data": null,
+   "data": "2007-03-09",
    "anno": 2007,
-   "data_esatta": false,
+   "data_esatta": true,
    "con": [
     "Lizzy B."
    ],
@@ -1329,6 +1312,58 @@
     "tipo": "compilation",
     "file": "/compilation/cop/jump-2-the-dancefloor-vol-4.jpg",
     "da": "[Jump]² The Dancefloor Vol. 4"
+   },
+   "inedito": false,
+   "anno_incerto": false,
+   "data_da_compilation": true,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "produzione",
+   "slug": "devotion",
+   "titolo": "Devotion",
+   "versioni": [],
+   "data": null,
+   "anno": 2007,
+   "data_esatta": false,
+   "con": [],
+   "firma": null,
+   "etichetta": "Net's Work International",
+   "nota": "il foglio diceva 2008; stampato su m2o vol.16 e m2o — m2ALL Shock 4, tutte e due del 2007, anno spostato indietro da Amerigo il 30/08/2026",
+   "escluso": false,
+   "da_guardare": false,
+   "sezione": "1992 → 2009",
+   "in_compilation": [
+    {
+     "slug": "m2ovol16",
+     "titolo": "m2o vol.16",
+     "anno": 2007,
+     "come": "Devotion"
+    },
+    {
+     "slug": "m2o-m2all-shock-4",
+     "titolo": "m2o — m2ALL Shock 4",
+     "anno": 2007,
+     "come": "Devotion (The House Keepers Remix)"
+    },
+    {
+     "slug": "m2ovol30",
+     "titolo": "m2o vol.30",
+     "anno": 2012,
+     "come": "Devotion"
+    }
+   ],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "propria",
+    "file": "cop/devotion.jpg"
    },
    "inedito": false,
    "anno_incerto": false,
@@ -1426,9 +1461,9 @@
    "slug": "stupid",
    "titolo": "Stupid!",
    "versioni": [],
-   "data": null,
+   "data": "2007-03-09",
    "anno": 2007,
-   "data_esatta": false,
+   "data_esatta": true,
    "con": [],
    "firma": "Blastaar",
    "etichetta": null,
@@ -1464,6 +1499,7 @@
    },
    "inedito": true,
    "anno_incerto": false,
+   "data_da_compilation": true,
    "foto": [],
    "nota_pubblica": null
   },
@@ -1680,63 +1716,12 @@
   },
   {
    "tipo": "produzione",
-   "slug": "devotion",
-   "titolo": "Devotion",
-   "versioni": [],
-   "data": null,
-   "anno": 2008,
-   "data_esatta": false,
-   "con": [],
-   "firma": null,
-   "etichetta": "Net's Work International",
-   "nota": null,
-   "escluso": false,
-   "da_guardare": false,
-   "sezione": "1992 → 2009",
-   "in_compilation": [
-    {
-     "slug": "m2ovol16",
-     "titolo": "m2o vol.16",
-     "anno": 2007,
-     "come": "Devotion"
-    },
-    {
-     "slug": "m2o-m2all-shock-4",
-     "titolo": "m2o — m2ALL Shock 4",
-     "anno": 2007,
-     "come": "Devotion (The House Keepers Remix)"
-    },
-    {
-     "slug": "m2ovol30",
-     "titolo": "m2o vol.30",
-     "anno": 2012,
-     "come": "Devotion"
-    }
-   ],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": null,
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "propria",
-    "file": "cop/devotion.jpg"
-   },
-   "inedito": false,
-   "anno_incerto": false,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "produzione",
    "slug": "catch-me",
    "titolo": "Catch Me",
    "versioni": [],
-   "data": null,
-   "anno": 2008,
-   "data_esatta": false,
+   "data": "2007-03-09",
+   "anno": 2007,
+   "data_esatta": true,
    "con": [
     "Danijay"
    ],
@@ -1774,6 +1759,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "data_da_compilation": true,
    "foto": [],
    "nota_pubblica": null
   },
@@ -1924,9 +1910,9 @@
    "slug": "where-did-you-go",
    "titolo": "Where Did You Go",
    "versioni": [],
-   "data": null,
-   "anno": 2009,
-   "data_esatta": false,
+   "data": "2008-10-24",
+   "anno": 2008,
+   "data_esatta": true,
    "con": [
     "Max C"
    ],
@@ -1958,6 +1944,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "data_da_compilation": true,
    "foto": [],
    "nota_pubblica": null
   },
@@ -7819,15 +7806,13 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "spotify": null,
-   "video": {
-    "youtube": "dA3NZiomjqU",
-    "tipo": "audio",
-    "canale": "Andrea Masullo - Topic",
-    "titolo": "Breakin' The Heart (Provenzano Remix)",
-    "verticale": false,
-    "formato": null
+   "spotify": {
+    "tipo": "track",
+    "album": "6N7G77DLHByQ87st9sF0bZ",
+    "titolo": "Breakin' The Heart",
+    "cosa": null
    },
+   "video": null,
    "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
@@ -8365,7 +8350,7 @@
   {
    "nome": "Double Dare",
    "slug": "double-dare",
-   "cosa": "il progetto d'esordio italo dance, 1994–97",
+   "cosa": "il progetto d'esordio italo dance di Paolo Bolognesi e Amerigo Provenzano, 1994–97: la loro prima esperienza discografica",
    "uscite": [
     "I Believe (1994)",
     "We Belong (1996)",
@@ -8550,23 +8535,23 @@
    "remix": 2
   },
   "2009": {
-   "singoli": 4,
+   "singoli": 3,
    "remix": 7
   },
   "2008": {
-   "singoli": 5,
+   "singoli": 4,
    "remix": 5
   },
   "2007": {
-   "singoli": 6,
+   "singoli": 8,
    "remix": 2
   },
   "2006": {
-   "singoli": 3,
+   "singoli": 2,
    "remix": 6
   },
   "2005": {
-   "singoli": 6,
+   "singoli": 7,
    "remix": 5
   },
   "2004": {
@@ -8599,12 +8584,12 @@
   "remix": 62,
   "inediti": 36,
   "con_copertina": 181,
-  "con_video": 47,
-  "con_spotify": 66,
+  "con_video": 45,
+  "con_spotify": 67,
   "con_soundcloud": 8,
   "con_traxsource": 1,
   "con_apple": 2,
-  "in_compilation": 120,
+  "in_compilation": 119,
   "primo_anno": 1994,
   "ultimo_anno": 2026
  }
