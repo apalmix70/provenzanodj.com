@@ -35,10 +35,6 @@
     3
    ],
    [
-    "Universo",
-    3
-   ],
-   [
     "Do It Yourself",
     2
    ],
@@ -48,6 +44,10 @@
    ],
    [
     "Net's Work International",
+    2
+   ],
+   [
+    "Netswork",
     2
    ]
   ],
@@ -211,7 +211,7 @@
     1
    ]
   ],
-  "quante_etichette": 69,
+  "quante_etichette": 70,
   "piu_compilation": [
    {
     "titolo": "I Believe",
@@ -6638,8 +6638,8 @@
    "anno": 2006,
    "data_esatta": false,
    "firma": "Provenzano & Promise Land",
-   "etichetta": "Universo",
-   "nota": null,
+   "etichetta": "Magika",
+   "nota": "⚠️ L'etichetta era sbagliata: era scritto Universo, ed è Magika. Corretto il 31/08/2026 sulle foto del disco che ha mandato Amerigo e sulla scheda Discogs 7807972. Il remix sta su Hit Mania Club Dance Volume 4, Magika MGK 082/CD, Italia ottobre 2006, ℗© 2006 Magika S.r.l., allegato a Hit Mania Magazine anno V n. 14: traccia 20, «Siamo Una Squadra Fortissimi — Provenzano + Promiseland Remix», con i due crediti separati «Provenzano DJ — Remix» e «Promiseland — Remix». Sta anche stampato sul fronte e sul retro della busta, in fondo, sotto «Bonus Tracks». Il disco è mixato da Pinko & Pallino. ⚠️ Universo veniva da un altro disco: la compilation «Campioni Del Mondo — Siamo Una Squadra Fortissimi», Universo 80278511461, che alla traccia 1 porta lo stesso titolo ma accreditato al solo Checco Zalone, senza nessun credito di remix — né su Discogs né sulla busta fotografata. Sono due dischi diversi, detto da Amerigo il 31/08/2026: *«e' un disco a parte»*, e l'etichetta giusta è quella che stampa il credito. ⚠️ Sul disco la firma è «Provenzano + Promiseland», tutto attaccato; in tabella resta la forma usata ovunque, «Provenzano & Promise Land». ⭐ Coordinamento di Corrado Rizza, che stanotte esce per la terza volta: è nella Paradise Orchestra Mix di We Belong e accanto a Nicoromano sulla scheda Eurodance. L'audio c'è: 4:32, dal canale «Italodance Rare by Mysterioboy84», `djgiONCg2ck`, in `D:\\Archivio\\discografia\\audio\\`",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [],
@@ -6651,10 +6651,18 @@
    "soundcloud": null,
    "traxsource": null,
    "apple": null,
-   "copertina": null,
+   "copertina": {
+    "tipo": "propria",
+    "file": "cop/checco-zalone-siamo-una-squadra-fortissimi.jpg"
+   },
    "inedito": false,
    "anno_incerto": false,
-   "foto": [],
+   "foto": [
+    {
+     "file": "cop/foto/checco-zalone-siamo-una-squadra-fortissimi-1.jpg",
+     "cosa": "il retro di Hit Mania Club Dance Vol. 4: in fondo, fra le bonus tracks, «Checco Zalone “Siamo Una Squadra Fortissimi” Provenzano + Promiseland Remix»"
+    }
+   ],
    "nota_pubblica": null
   },
   {
@@ -8814,7 +8822,7 @@
   "singoli": 123,
   "remix": 64,
   "inediti": 36,
-  "con_copertina": 183,
+  "con_copertina": 184,
   "con_video": 46,
   "con_spotify": 68,
   "con_soundcloud": 14,
