@@ -72,6 +72,14 @@ footer .contenitore{display:flex;justify-content:space-between;gap:14px;flex-wra
 .didascalia a{color:var(--grigio);border-bottom:1px solid rgba(255,49,49,.4)}
 .didascalia a:hover{color:var(--rosso)}
 .spotify{width:100%;border-radius:12px;display:block}
+/* Le foto del disco fisico. Affiancate finche' c'e' spazio, e **non ritagliate**:
+   su una si leggono i crediti stampati, tagliarla vorrebbe dire buttare via
+   proprio la riga che dimostra quello che la pagina dice. */
+.foto{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.foto figure{margin:0}
+.foto img{width:100%;height:auto;display:block;border:1px solid var(--riga);
+  border-radius:3px;background:var(--pannello)}
+.foto figcaption{margin-top:7px;color:var(--debole);font-size:11px;letter-spacing:.06em}
 .soundcloud{width:100%;display:block;border-radius:8px}
 .traxsource{width:100%;display:block;border-radius:8px;background:#111}
 .apple{width:100%;display:block;border:0;border-radius:8px;overflow:hidden;background:#111}
@@ -102,6 +110,7 @@ footer .contenitore{display:flex;justify-content:space-between;gap:14px;flex-wra
   <section class="blocco"><h3>Inserita in una compilation</h3><ul class="compilation"><li><a href="/compilation/m2ovol39/">m2o vol.39</a><span class="anno">2015</span></li></ul></section>
   <section class="blocco"><h3>Ascolta</h3><iframe class="spotify" loading="lazy" src="https://open.spotify.com/embed/album/6sbf9lG3seR7eVCZZtjYVt" height="152" frameborder="0" allow="encrypted-media"></iframe></section>
   <section class="blocco"><h3>Il video</h3><div class="video"><iframe src="https://www.youtube-nocookie.com/embed/xtgTmjsz0LE" title="Party With You" loading="lazy" frameborder="0" allowfullscreen allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe></div><div class="didascalia">videoclip ufficiale · EGO TV</div></section>
+  
 
   <a class="torna" href="/discografia/">&larr; tutta la discografia</a>
 </main>

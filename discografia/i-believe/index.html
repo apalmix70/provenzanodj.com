@@ -72,6 +72,14 @@ footer .contenitore{display:flex;justify-content:space-between;gap:14px;flex-wra
 .didascalia a{color:var(--grigio);border-bottom:1px solid rgba(255,49,49,.4)}
 .didascalia a:hover{color:var(--rosso)}
 .spotify{width:100%;border-radius:12px;display:block}
+/* Le foto del disco fisico. Affiancate finche' c'e' spazio, e **non ritagliate**:
+   su una si leggono i crediti stampati, tagliarla vorrebbe dire buttare via
+   proprio la riga che dimostra quello che la pagina dice. */
+.foto{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.foto figure{margin:0}
+.foto img{width:100%;height:auto;display:block;border:1px solid var(--riga);
+  border-radius:3px;background:var(--pannello)}
+.foto figcaption{margin-top:7px;color:var(--debole);font-size:11px;letter-spacing:.06em}
 .soundcloud{width:100%;display:block;border-radius:8px}
 .traxsource{width:100%;display:block;border-radius:8px;background:#111}
 .apple{width:100%;display:block;border:0;border-radius:8px;overflow:hidden;background:#111}
@@ -101,6 +109,7 @@ footer .contenitore{display:flex;justify-content:space-between;gap:14px;flex-wra
   
   <section class="blocco"><h3>Inserita in 4 compilation</h3><ul class="compilation"><li><a href="/compilation/hit-mania-dance-2/">Hit Mania Dance 2</a><span class="anno">1994</span></li><li><a href="/compilation/hit-parade-dance-7/">Hit Parade Dance 7</a><span class="anno">1994</span></li><li><a href="/compilation/radio-cipolla-party-compilation/">Radio Cipolla Party Compilation</a><span class="anno">1994</span></li><li><a href="/compilation/studio-dance-5/">Studio Dance 5</a><span class="anno">1995</span></li></ul></section>
   <section class="blocco"><h3>Ascolta</h3><iframe class="spotify" loading="lazy" src="https://open.spotify.com/embed/album/5O4kTIUGDI4YyJ4BpkelHY" height="152" frameborder="0" allow="encrypted-media"></iframe><div class="didascalia">il remix di Paradise Orchestra</div><iframe class="spotify" loading="lazy" src="https://open.spotify.com/embed/album/5ndWzDe7ySF2z4lZY2CfIQ" height="152" frameborder="0" allow="encrypted-media"></iframe></section>
+  
   
 
   <a class="torna" href="/discografia/">&larr; tutta la discografia</a>

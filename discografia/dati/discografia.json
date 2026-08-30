@@ -211,7 +211,7 @@
     1
    ]
   ],
-  "quante_etichette": 66,
+  "quante_etichette": 67,
   "piu_compilation": [
    {
     "titolo": "I Believe",
@@ -343,6 +343,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": {
     "forte": "La prima uscita in assoluto.",
     "testo": "Copertina e logo di Double Dare disegnati da Provenzano, a mano."
@@ -385,6 +386,7 @@
    },
    "inedito": false,
    "anno_incerto": true,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -442,6 +444,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -490,6 +493,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -532,6 +536,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -565,6 +570,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -616,6 +622,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -652,6 +659,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -713,6 +721,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -755,6 +764,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -788,6 +798,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -827,6 +838,7 @@
    },
    "inedito": true,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -879,6 +891,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -925,6 +938,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -977,6 +991,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -1016,6 +1031,7 @@
    },
    "inedito": true,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -1061,6 +1077,7 @@
    },
    "inedito": true,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -1100,6 +1117,7 @@
    },
    "inedito": true,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -1146,6 +1164,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -1204,6 +1223,7 @@
    },
    "inedito": true,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -1256,6 +1276,7 @@
    },
    "inedito": true,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -1310,6 +1331,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -1350,6 +1372,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -1393,6 +1416,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -1438,6 +1462,7 @@
    },
    "inedito": true,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -1477,6 +1502,7 @@
    },
    "inedito": true,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -1518,6 +1544,7 @@
    },
    "inedito": true,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -1557,6 +1584,7 @@
    },
    "inedito": true,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -1597,6 +1625,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -1641,6 +1670,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -1691,6 +1721,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -1738,6 +1769,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -1778,6 +1810,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -1819,6 +1852,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -1869,6 +1903,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -1918,6 +1953,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -1963,6 +1999,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -2002,6 +2039,7 @@
    },
    "inedito": true,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -2048,6 +2086,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -2087,6 +2126,7 @@
    },
    "inedito": true,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -2126,6 +2166,7 @@
    },
    "inedito": true,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -2165,6 +2206,7 @@
    },
    "inedito": true,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -2216,6 +2258,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -2276,6 +2319,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -2336,6 +2380,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -2375,6 +2420,7 @@
    },
    "inedito": true,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -2414,6 +2460,7 @@
    },
    "inedito": true,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -2453,6 +2500,7 @@
    },
    "inedito": true,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -2492,6 +2540,7 @@
    },
    "inedito": true,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -2537,6 +2586,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -2588,6 +2638,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -2639,6 +2690,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -2687,6 +2739,7 @@
    },
    "inedito": false,
    "anno_incerto": true,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -2726,6 +2779,7 @@
    },
    "inedito": true,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -2765,6 +2819,7 @@
    },
    "inedito": true,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -2804,6 +2859,7 @@
    },
    "inedito": true,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -2863,6 +2919,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -2922,6 +2979,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -2964,6 +3022,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -3009,6 +3068,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -3063,6 +3123,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -3108,6 +3169,7 @@
    },
    "inedito": true,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -3161,6 +3223,7 @@
    },
    "inedito": true,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -3201,6 +3264,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -3261,6 +3325,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -3300,6 +3365,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -3342,6 +3408,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -3393,6 +3460,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -3430,6 +3498,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -3469,6 +3538,7 @@
    },
    "inedito": true,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -3508,6 +3578,7 @@
    },
    "inedito": true,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -3547,6 +3618,7 @@
    },
    "inedito": true,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -3586,6 +3658,7 @@
    },
    "inedito": true,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -3640,6 +3713,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -3770,6 +3844,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -3823,6 +3898,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -3868,6 +3944,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -3917,6 +3994,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -3956,6 +4034,7 @@
    },
    "inedito": true,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -3995,6 +4074,7 @@
    },
    "inedito": true,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -4049,6 +4129,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -4099,6 +4180,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -4138,6 +4220,7 @@
    },
    "inedito": true,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -4177,6 +4260,7 @@
    },
    "inedito": true,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -4259,6 +4343,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -4313,6 +4398,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -4352,6 +4438,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -4396,6 +4483,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -4435,6 +4523,7 @@
    },
    "inedito": true,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -4474,6 +4563,7 @@
    },
    "inedito": true,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -4513,6 +4603,7 @@
    },
    "inedito": true,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -4552,6 +4643,7 @@
    },
    "inedito": true,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -4591,6 +4683,7 @@
    },
    "inedito": true,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -4644,6 +4737,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -4689,6 +4783,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -4734,6 +4829,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -4773,6 +4869,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -4812,6 +4909,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -4851,6 +4949,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -4888,6 +4987,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -4930,6 +5030,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -4969,6 +5070,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -5016,6 +5118,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -5057,6 +5160,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -5095,6 +5199,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -5133,6 +5238,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -5178,6 +5284,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -5226,6 +5333,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -5270,6 +5378,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -5308,6 +5417,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -5345,6 +5455,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -5385,6 +5496,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -5427,6 +5539,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -5467,6 +5580,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -5507,6 +5621,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -5546,6 +5661,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -5585,6 +5701,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -5631,6 +5748,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -5677,6 +5795,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -5721,6 +5840,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -5765,6 +5885,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -5802,6 +5923,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -5847,6 +5969,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   }
  ],
@@ -5879,6 +6002,16 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [
+    {
+     "file": "cop/foto/leandro-barsotti-voglio-che-mi-ami-mi-piace-1.jpg",
+     "cosa": "il fronte del CD promo"
+    },
+    {
+     "file": "cop/foto/leandro-barsotti-voglio-che-mi-ami-mi-piace-2.jpg",
+     "cosa": "il retro, con i crediti stampati del remix"
+    }
+   ],
    "nota_pubblica": null
   },
   {
@@ -5909,6 +6042,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -5919,9 +6053,9 @@
    "data": null,
    "anno": 1995,
    "data_esatta": false,
-   "firma": "Amerigo Provenzano",
-   "etichetta": null,
-   "nota": null,
+   "firma": "Amerigo Provenzano, Paolo Bolognesi, I. Leonori",
+   "etichetta": "Agile (BMG Ricordi)",
+   "nota": "certificato il 30/08/2026 sulla scheda Discogs del CD promo 3279825 e sul retro fotografato: Agile 74321-30767-2, edizione fuori commercio, Italia 1995. Due tracce — «ABC» 3:43 (arr. David Sabiu e Mauro Bandini) e «ABC (Remix) Short Version» 4:24, che è la sua: «Remix by Bolognesi, Provenzano e Leonori per La Radio Srl», Remix Producer Carlo Mancini. Discogs scrive «Luca Leonori»; sul disco è stampato «I. Leonori». Stessa squadra e stesso produttore del remix per Leandro Barsotti",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [],
@@ -5939,6 +6073,16 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [
+    {
+     "file": "cop/foto/mauro-bandini-abc-1.jpg",
+     "cosa": "il fronte del CD promo"
+    },
+    {
+     "file": "cop/foto/mauro-bandini-abc-2.jpg",
+     "cosa": "il retro: il remix è la traccia 2, firmata Bolognesi, Provenzano e Leonori"
+    }
+   ],
    "nota_pubblica": null
   },
   {
@@ -5969,6 +6113,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -5999,6 +6144,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -6029,6 +6175,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -6059,6 +6206,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -6089,6 +6237,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -6132,6 +6281,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -6170,6 +6320,7 @@
    },
    "inedito": false,
    "anno_incerto": true,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -6207,6 +6358,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -6237,6 +6389,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -6274,6 +6427,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -6301,6 +6455,7 @@
    "copertina": null,
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -6338,6 +6493,7 @@
    },
    "inedito": false,
    "anno_incerto": true,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -6376,6 +6532,7 @@
    },
    "inedito": false,
    "anno_incerto": true,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -6419,6 +6576,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -6457,6 +6615,7 @@
    },
    "inedito": false,
    "anno_incerto": true,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -6494,6 +6653,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -6524,6 +6684,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -6562,6 +6723,7 @@
    },
    "inedito": false,
    "anno_incerto": true,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -6592,6 +6754,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -6631,6 +6794,7 @@
    "copertina": null,
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -6674,6 +6838,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -6704,6 +6869,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -6734,6 +6900,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -6772,6 +6939,7 @@
    },
    "inedito": false,
    "anno_incerto": true,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -6810,6 +6978,7 @@
    },
    "inedito": false,
    "anno_incerto": true,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -6847,6 +7016,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -6874,6 +7044,7 @@
    "copertina": null,
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -6911,6 +7082,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -6948,6 +7120,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -6975,6 +7148,7 @@
    "copertina": null,
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -7010,6 +7184,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -7045,6 +7220,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -7087,6 +7263,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -7117,6 +7294,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -7147,6 +7325,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -7189,6 +7368,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -7224,6 +7404,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -7266,6 +7447,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -7308,6 +7490,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -7345,6 +7528,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -7389,6 +7573,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -7424,6 +7609,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -7466,6 +7652,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -7504,6 +7691,7 @@
    },
    "inedito": false,
    "anno_incerto": true,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -7547,6 +7735,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -7593,6 +7782,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -7637,6 +7827,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -7667,6 +7858,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -7704,6 +7896,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -7738,6 +7931,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -7776,6 +7970,7 @@
    },
    "inedito": false,
    "anno_incerto": true,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -7814,6 +8009,7 @@
    },
    "inedito": false,
    "anno_incerto": true,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -7852,6 +8048,7 @@
    },
    "inedito": false,
    "anno_incerto": true,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -7894,6 +8091,7 @@
    },
    "inedito": false,
    "anno_incerto": true,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -7938,6 +8136,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -7976,6 +8175,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -8018,6 +8218,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -8056,6 +8257,7 @@
    },
    "inedito": false,
    "anno_incerto": true,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -8098,6 +8300,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   }
  ],
