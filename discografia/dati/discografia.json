@@ -19,12 +19,12 @@
     5
    ],
    [
-    "Bang Record",
+    "X-Energy",
     4
    ],
    [
-    "X-Energy",
-    3
+    "Bang Record",
+    4
    ],
    [
     "Jump Records",
@@ -353,14 +353,16 @@
    "tipo": "produzione",
    "slug": "i-b",
    "titolo": "I.B.",
-   "versioni": [],
+   "versioni": [
+    "+ Club Mix, Airplay Edit"
+   ],
    "data": null,
-   "anno": 1995,
+   "anno": 1994,
    "data_esatta": false,
    "con": [],
    "firma": "Double Dare",
-   "etichetta": null,
-   "nota": "ritrovata nel database delle compilation, stampata su Hit Mania Dance 3; anno non confermato",
+   "etichetta": "X-Energy",
+   "nota": "sta sul lato B del 12\" «I Believe (Remix)», X-Energy XR-12150, 1994: B2 «I. B. (Club Mix)» 5:46 mixata da Double Dare e Frank Minoia, B3 «I. B. (Airplay Edit)» 3:26 mixata da Amerigo Provenzano e Paolo Bolognesi — Discogs 1032019. Stampata anche su Hit Mania Dance 3, febbraio 1995. ⚠️ Non è “I Believe” abbreviato: sono due brani diversi e due uscite distinte, detto da Amerigo il 30/08/2026",
    "escluso": false,
    "da_guardare": false,
    "sezione": "1992 → 2009",
@@ -385,9 +387,12 @@
     "da": "Hit Mania Dance 3"
    },
    "inedito": false,
-   "anno_incerto": true,
+   "anno_incerto": false,
    "foto": [],
-   "nota_pubblica": null
+   "nota_pubblica": {
+    "forte": "Nata per poterla firmare.",
+    "testo": "«I Believe» era una cover: per avere un pezzo loro da depositare in SIAE, Bolognesi e Provenzano scrissero **I.B.** — che esce sul lato B del 12\" dei remix, in due versioni."
+   }
   },
   {
    "tipo": "produzione",
@@ -8601,11 +8606,11 @@
    "remix": 1
   },
   "1995": {
-   "singoli": 2,
+   "singoli": 1,
    "remix": 2
   },
   "1994": {
-   "singoli": 1,
+   "singoli": 2,
    "remix": 1
   }
  },
