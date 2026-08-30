@@ -575,7 +575,11 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2391479406",
+    "secret": "s-BH3ykT1wXJy",
+    "perche": "l'audio caricato da Amerigo sul suo profilo il 31/08/2026, traccia privata: «Bolognesi & Provenzano - Un altro giorno è già andato». Link corto mandato da lui, on.soundcloud.com/h5ZrDdqFPSSgmnbfqs, che risolve su soundcloud.com/provenzano_official/bolognesi-provenzano-un-altro/s-BH3ykT1wXJy — id numerico e token dall'oEmbed. Il pezzo del 1997 in digitale non esiste e su nessuna piattaforma si trova: questo e' l'unico modo per ascoltarlo. L'audio e' stato staccato dal lato A della compilation caricato dal canale «TC84 - Records», fra 8:16 e 12:53, che sono i due silenzi fra le tracce — 4:37."
+   },
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -8801,7 +8805,7 @@
   "con_copertina": 182,
   "con_video": 46,
   "con_spotify": 68,
-  "con_soundcloud": 12,
+  "con_soundcloud": 13,
   "con_traxsource": 1,
   "con_apple": 2,
   "in_compilation": 119,
