@@ -6200,7 +6200,12 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2391361815",
+    "secret": "s-efHb2pmyiGE",
+    "perche": "l'audio caricato da Amerigo sul suo profilo il 30/08/2026, traccia privata: il 12\" Moremoney del 2005 non e' mai passato in digitale, e questo e' l'unico ascolto. E' il «Faccio Quello Che Mi Pare Radio Cut» (4:36), non l'Extended da 4:58. Il file viene da D:/MUSIC 2/Discografia. Link corto: on.soundcloud.com/Dzy1egvJ2JFJplD9co.",
+    "cosa": "Provenzano & Carlo Marani Remix"
+   },
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -8596,7 +8601,7 @@
   "con_copertina": 181,
   "con_video": 47,
   "con_spotify": 66,
-  "con_soundcloud": 7,
+  "con_soundcloud": 8,
   "con_traxsource": 1,
   "con_apple": 2,
   "in_compilation": 120,
