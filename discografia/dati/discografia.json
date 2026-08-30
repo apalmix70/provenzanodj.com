@@ -5976,15 +5976,15 @@
  "remix": [
   {
    "tipo": "remix",
-   "slug": "leandro-barsotti-voglio-che-mi-ami-mi-piace",
+   "slug": "leandro-barsotti-mi-piace",
    "artista": "Leandro Barsotti",
-   "titolo": "Voglio Che Mi Ami / Mi Piace",
+   "titolo": "Mi Piace",
    "data": null,
    "anno": 1994,
    "data_esatta": false,
    "firma": "Amerigo Provenzano, Max Di Mario, Paolo Bolognesi",
    "etichetta": "RCA Italiana",
-   "nota": "certificato il 30/08/2026 sulla scheda Discogs del CD promo 9247547: RCA Italiana 74321-25666-2, CD Single Promo, Italia 1994, tre tracce — Voglio Che Mi Ami Remix Radio Edit 4:05, Voglio Che Mi Ami Remix 5:30, Mi Piace Remix 4:06. Sul disco il remix è firmato «Provenzano, Di Mario, Bolognesi», arrangiamento loro tre più Mike Francis, produttore del remix Carlo Mancini. Non è mai finito in digitale: su Spotify c'è solo l'album «Vitamina», con le versioni originali. ⚠️ Il 12\" «Mi Piace (Remix)» del 1995 su Palmares NON è suo: quei remix sono di Lamby e Canova/Cesaroni/Cifelli/Vecchia",
+   "nota": "certificato il 30/08/2026 sul retro fotografato del CD promo, Discogs 9247547: RCA Italiana 74321-25666-2, edizione fuori commercio, Italia 1994. Il CD ha tre tracce ma la sua è solo la terza, «Mi Piace (Remix)» 4:06 — «Remix by Provenzano, Bolognesi & Di Mario for La Radio Srl», Remix Producer Carlo Mancini. Le due «Voglio Che Mi Ami» sono remix di Mike Francis, e per questo il titolo qui è passato da «Voglio Che Mi Ami / Mi Piace» a «Mi Piace» (deciso da Amerigo il 30/08/2026). Non è mai finito in digitale: su Spotify c'è solo l'album «Vitamina», con le versioni originali. ⚠️ Il 12\" «Mi Piace (Remix)» del 1995 su Palmares NON è suo: quei remix sono di Lamby e Canova/Cesaroni/Cifelli/Vecchia",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [],
@@ -5998,18 +5998,18 @@
    "apple": null,
    "copertina": {
     "tipo": "propria",
-    "file": "cop/leandro-barsotti-voglio-che-mi-ami-mi-piace.jpg"
+    "file": "cop/leandro-barsotti-mi-piace.jpg"
    },
    "inedito": false,
    "anno_incerto": false,
    "foto": [
     {
-     "file": "cop/foto/leandro-barsotti-voglio-che-mi-ami-mi-piace-1.jpg",
+     "file": "cop/foto/leandro-barsotti-mi-piace-1.jpg",
      "cosa": "il fronte del CD promo"
     },
     {
-     "file": "cop/foto/leandro-barsotti-voglio-che-mi-ami-mi-piace-2.jpg",
-     "cosa": "il retro, con i crediti stampati del remix"
+     "file": "cop/foto/leandro-barsotti-mi-piace-2.jpg",
+     "cosa": "il retro: la sua è la traccia 3, «Mi Piace (Remix)»"
     }
    ],
    "nota_pubblica": null
