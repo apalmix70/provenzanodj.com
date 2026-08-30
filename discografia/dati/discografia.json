@@ -323,13 +323,15 @@
      "tipo": "album",
      "album": "5O4kTIUGDI4YyJ4BpkelHY",
      "titolo": "I Believe",
-     "cosa": null
+     "cosa": null,
+     "alto": false
     },
     {
      "tipo": "album",
      "album": "5ndWzDe7ySF2z4lZY2CfIQ",
      "titolo": "I Believe",
-     "cosa": "il remix di Paradise Orchestra"
+     "cosa": "il remix di Paradise Orchestra",
+     "alto": false
     }
    ],
    "video": null,
@@ -621,9 +623,7 @@
    "tipo": "produzione",
    "slug": "feel-the-force",
    "titolo": "Feel The Force",
-   "versioni": [
-    "album"
-   ],
+   "versioni": [],
    "data": null,
    "anno": 2003,
    "data_esatta": false,
@@ -633,13 +633,19 @@
    ],
    "firma": null,
    "etichetta": "Primrose Music",
-   "nota": null,
+   "nota": "⚠️ non è un singolo: è un album di library music, detto da Amerigo il 31/08/2026 — *«non è un singolo, è un album di tracce che possono essere usate come basi per creare spot e cose del genere»* — e la struttura del disco lo conferma da sola: 30 tracce, 15 titoli × 2 versioni, la piena da 2:26-3:03 e il taglio da 33 secondi, che è la misura dello spot. CD Album Primrose Music PRCD 142, Italia 2003, Discogs 7232909, a nome Daniele Macchi, Paolo Bolognesi e Amerigo Provenzano; Discogs lo cataloga sotto «Stage & Screen — Theme», e sulla copertina c'è la riga di servizio della library: «Thrash Guitars - Distorted Vocals - Sonic Assault». I quindici titoli: Wired, Riff-O-Rama, Manhunt, Electribe, Rasputin, Nevermore, Sirius, Spider2, Skorpio, Asylum, Mnemo, Walk On, Bankrobbin', Supernova, Innervoice. ⚠️ È l'unico disco del genere in discografia, confermato da lui il 31/08/2026: «e' unico». Per questo non si apre un quarto tipo nel muro e nel filtro dell'archivio — un filtro con dentro un disco solo non lo usa nessuno — e a dire cos'è ci pensa la nota della sua pagina. Prima qui il titolo portava un «(album)» fra parentesi, che il lettore interpretava come una versione chiamata “album”: tolto. ⚠️ La copertina in archivio era una miniatura da 150×150; il 31/08/2026 Amerigo ha dato quella buona, 961×961",
    "escluso": false,
    "da_guardare": false,
    "sezione": "1992 → 2009",
    "in_compilation": [],
    "versioni_uscita": [],
-   "spotify": null,
+   "spotify": {
+    "tipo": "album",
+    "album": "61o3ukCnbwxxwzw7IhUQtr",
+    "titolo": "Feel The Force",
+    "cosa": null,
+    "alto": true
+   },
    "video": null,
    "video_altri": [],
    "soundcloud": null,
@@ -652,7 +658,10 @@
    "inedito": false,
    "anno_incerto": false,
    "foto": [],
-   "nota_pubblica": null
+   "nota_pubblica": {
+    "forte": "Non un disco da ascoltare: un disco da usare.",
+    "testo": "**Feel The Force** è un album di **library music** per Primrose Music: quindici brani scritti per essere concessi in licenza come basi di spot, sigle e montaggi. Ognuno c'è in due versioni — quella piena e il **taglio da trenta secondi**, la misura dello spot — e per questo le tracce sono trenta. Con Daniele Macchi e Paolo Bolognesi."
+   }
   },
   {
    "tipo": "produzione",
@@ -2533,13 +2542,15 @@
      "tipo": "album",
      "album": "17oaXIlbXQgLf7wqJkFz6h",
      "titolo": "Rock Some Noise",
-     "cosa": null
+     "cosa": null,
+     "alto": false
     },
     {
      "tipo": "album",
      "album": "2TTDsOMql783yHNM7XmAjy",
      "titolo": "Rock Some Noise",
-     "cosa": "i remix: Danilo Seclì, Da Brozz, Baby Bitcher & Rudeejay"
+     "cosa": "i remix: Danilo Seclì, Da Brozz, Baby Bitcher & Rudeejay",
+     "alto": false
     }
    ],
    "video": {
@@ -3188,7 +3199,8 @@
     "tipo": "track",
     "album": "6m7BUzVvsLDY2WXkSSW0OL",
     "titolo": "You And Me",
-    "cosa": null
+    "cosa": null,
+    "alto": false
    },
    "video": {
     "youtube": "PQA05XdI3yw",
@@ -4296,7 +4308,8 @@
     "tipo": "album",
     "album": "6XR1grKYnLBCdD9faYstFY",
     "titolo": "Saxophone",
-    "cosa": null
+    "cosa": null,
+    "alto": false
    },
    "video": null,
    "video_altri": [],
@@ -5537,7 +5550,8 @@
     "tipo": "track",
     "album": "45autG3w9G3ZpDyXMs9Hwb",
     "titolo": "LEWA",
-    "cosa": null
+    "cosa": null,
+    "alto": false
    },
    "video": null,
    "video_altri": [],
@@ -7336,7 +7350,8 @@
     "tipo": "track",
     "album": "2ODlMgsse68GgeJjKSSyNI",
     "titolo": "La Musica Tremenda",
-    "cosa": null
+    "cosa": null,
+    "alto": false
    },
    "video": null,
    "video_altri": [],
@@ -7373,7 +7388,8 @@
     "tipo": "album",
     "album": "01kDIqEJ99at1foXYEflUA",
     "titolo": "Non Ce L'Hai",
-    "cosa": null
+    "cosa": null,
+    "alto": false
    },
    "video": null,
    "video_altri": [],
@@ -7417,7 +7433,8 @@
     "tipo": "track",
     "album": "6ghSLGt2o9ozzb1WHelyBO",
     "titolo": "Fantasy",
-    "cosa": null
+    "cosa": null,
+    "alto": false
    },
    "video": null,
    "video_altri": [],
@@ -7525,7 +7542,8 @@
     "tipo": "track",
     "album": "372ogdcLRenXrr2FdrfQ3J",
     "titolo": "I Like It",
-    "cosa": null
+    "cosa": null,
+    "alto": false
    },
    "video": null,
    "video_altri": [],
@@ -7562,7 +7580,8 @@
     "tipo": "track",
     "album": "4Bp9wHXmYsThkGmmKGoCRC",
     "titolo": "Criminal 4 Love",
-    "cosa": null
+    "cosa": null,
+    "alto": false
    },
    "video": null,
    "video_altri": [],
@@ -7606,7 +7625,8 @@
     "tipo": "track",
     "album": "2cXqoBe9L54UZZBGixKmFO",
     "titolo": "Sweet Love",
-    "cosa": null
+    "cosa": null,
+    "alto": false
    },
    "video": null,
    "video_altri": [],
@@ -7650,7 +7670,8 @@
     "tipo": "track",
     "album": "5ye2bBTORol7IveIEqKT3K",
     "titolo": "We Got A Love",
-    "cosa": null
+    "cosa": null,
+    "alto": false
    },
    "video": null,
    "video_altri": [],
@@ -7772,7 +7793,8 @@
     "tipo": "track",
     "album": "6KMvjoLsxlvSanyy9fIql4",
     "titolo": "You Got To Release",
-    "cosa": null
+    "cosa": null,
+    "alto": false
    },
    "video": null,
    "video_altri": [],
@@ -7816,7 +7838,8 @@
     "tipo": "track",
     "album": "23TbHomi5YRr4YJWAbXD9T",
     "titolo": "Party Go! (feat. Wendy D. Lewis)",
-    "cosa": null
+    "cosa": null,
+    "alto": false
    },
    "video": null,
    "video_altri": [],
@@ -7898,7 +7921,8 @@
     "tipo": "track",
     "album": "3ca8Z2Yaepvvn4hSVCBEVE",
     "titolo": "Party Don't Stop",
-    "cosa": null
+    "cosa": null,
+    "alto": false
    },
    "video": {
     "youtube": "4fGULbbGZYo",
@@ -7953,7 +7977,8 @@
     "tipo": "track",
     "album": "6N7G77DLHByQ87st9sF0bZ",
     "titolo": "Breakin' The Heart",
-    "cosa": null
+    "cosa": null,
+    "alto": false
    },
    "video": null,
    "video_altri": [],
@@ -8352,7 +8377,8 @@
     "tipo": "track",
     "album": "17fdADR6a0p3fk3m88bvhn",
     "titolo": "Drop The Bass",
-    "cosa": null
+    "cosa": null,
+    "alto": false
    },
    "video": {
     "youtube": "M82IhJrYdmw",
@@ -8444,7 +8470,8 @@
     "tipo": "track",
     "album": "3188je1TP0EUFtP3GT91kh",
     "titolo": "Canta Canta",
-    "cosa": null
+    "cosa": null,
+    "alto": false
    },
    "video": null,
    "video_altri": [],
@@ -8741,7 +8768,7 @@
   "inediti": 36,
   "con_copertina": 182,
   "con_video": 46,
-  "con_spotify": 67,
+  "con_spotify": 68,
   "con_soundcloud": 12,
   "con_traxsource": 1,
   "con_apple": 2,
