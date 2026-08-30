@@ -6202,7 +6202,12 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2391462900",
+    "secret": "s-Acbx3pz8vKp",
+    "cosa": "Energy Dub Mix",
+    "perche": "l'audio caricato da Amerigo sul suo profilo il 31/08/2026, traccia privata: «1997 I Ragazzi Di Macao - Ahi Limon Limonero (Energy Dub Mix)». Link corto mandato da lui: on.soundcloud.com/Ax3HK9q2AvnMglf1Ox, che risolve su soundcloud.com/provenzano_official/1997-i-ragazzi-di-macao-ahi/s-Acbx3pz8vKp — l'id numerico e il token si tirano fuori dall'oEmbed di SoundCloud. Il disco del 1997 in digitale non esiste, e questo e' l'unico modo per ascoltarlo. ⚠️ E' la loro versione, non una delle altre due del 12\": «noi solo la energy dub» (31/08/2026)."
+   },
    "traxsource": null,
    "apple": null,
    "copertina": null,
@@ -8721,7 +8726,7 @@
   "con_copertina": 181,
   "con_video": 46,
   "con_spotify": 67,
-  "con_soundcloud": 11,
+  "con_soundcloud": 12,
   "con_traxsource": 1,
   "con_apple": 2,
   "in_compilation": 119,
