@@ -12,7 +12,7 @@
 <style>
 @font-face{font-family:'Anton';src:url('../../fonts/Anton-Regular.ttf') format('truetype');font-display:swap}
 @font-face{font-family:'Poppins EB';src:url('../../fonts/Poppins-ExtraBold.ttf') format('truetype');font-display:swap}
-:root{--nero:#000;--rosso:#FF3131;--bianco:#fff;
+:root{--nero:#000;--rosso:#FF3131;--bianco:#fff;--verde:#35C46A;
   --grigio:rgba(255,255,255,.55);--debole:rgba(255,255,255,.35);
   --riga:rgba(255,255,255,.10);--pannello:#0b0b0b;--testata:47px}
 *{margin:0;padding:0;box-sizing:border-box}
@@ -41,10 +41,23 @@ footer .contenitore{display:flex;justify-content:space-between;gap:14px;flex-wra
   border:1px solid var(--riga);border-radius:3px;background:var(--pannello)}
 .disco .da{margin-top:8px;color:var(--debole);font-size:11px;line-height:1.4}
 .disco h1{font-size:clamp(26px,5vw,44px);line-height:1.05}
-.disco .chi{margin-top:8px;color:var(--grigio);font-size:14px}
-.disco .sezione{display:inline-block;margin-bottom:10px;font-size:10px;letter-spacing:.18em;
-  text-transform:uppercase;color:var(--debole);border:1px solid var(--riga);
-  border-radius:20px;padding:2px 10px}
+/* ⚠️ **Il tipo del disco in testa, col suo colore, e un filetto che tiene
+   insieme tipo, titolo e autori** — variante scelta da Amerigo il 30/08/2026
+   fra tre provate. Rosso il singolo (e' il colore del sito), verde il remix,
+   bianco l'alias. Il colore non e' decorazione: e' l'unica cosa che distingue
+   a colpo d'occhio un disco suo da un remix fatto per un altro. */
+.disco .testo{border-left:3px solid var(--riga);padding-left:16px}
+.disco .t-singolo{border-left-color:var(--rosso)}
+.disco .t-remix{border-left-color:var(--verde)}
+.disco .t-alias{border-left-color:var(--bianco)}
+.disco .tipo{display:block;margin-bottom:8px;font-size:11px;letter-spacing:.22em;
+  text-transform:uppercase;font-weight:700}
+.disco .t-singolo .tipo{color:var(--rosso)}
+.disco .t-remix .tipo{color:var(--verde)}
+.disco .t-alias .tipo{color:var(--bianco)}
+/* Gli autori: bianchi come il titolo, ma piu' piccoli — sono la seconda riga
+   di una testata, non una didascalia da leggere in grigio. */
+.disco .autori{margin-top:10px;font-size:15px;line-height:1.5;color:var(--bianco)}
 .fatti{margin-top:18px;display:flex;flex-wrap:wrap;gap:10px 26px}
 .fatto dt{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--debole)}
 .fatto dd{font-size:14px;margin-top:2px}
@@ -97,10 +110,10 @@ footer .contenitore{display:flex;justify-content:space-between;gap:14px;flex-wra
 <main class="contenitore">
   <article class="disco">
     <figure><img src="/compilation/cop/m2ovol30.jpg" alt="Change The World"><div class="da">la copertina è quella di m2o vol.30</div></figure>
-    <div>
-      <span class="sezione">Singoli</span>
+    <div class="testo t-alias">
+      <span class="tipo">alias</span>
       <h1>Change The World</h1>
-      <div class="chi">come Phunkerz</div>
+      <div class="autori">come Phunkerz</div>
       <dl class="fatti"><div class="fatto"><dt>uscita</dt><dd>2012</dd></div></dl>
       <p class="nota"><b>Inedito.</b> Non è mai uscito come disco: è stato pubblicato su m2o vol.30.</p>
     </div>
