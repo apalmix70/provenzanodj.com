@@ -924,8 +924,8 @@
    "spotify": null,
    "video": {
     "youtube": "iGZkM4jfQNA",
-    "tipo": "terzi",
-    "canale": "Davide Fara",
+    "tipo": "ufficiale",
+    "canale": "Davide Farra",
     "titolo": "Sound Is Back",
     "verticale": false,
     "formato": null
@@ -6024,7 +6024,7 @@
    "data": null,
    "anno": 1994,
    "data_esatta": false,
-   "firma": "Amerigo Provenzano, Max Di Mario, Paolo Bolognesi",
+   "firma": "Provenzano, Max Di Mario, Paolo Bolognesi",
    "etichetta": "RCA Italiana",
    "nota": "certificato il 30/08/2026 sul retro fotografato del CD promo, Discogs 9247547: RCA Italiana 74321-25666-2, edizione fuori commercio, Italia 1994. Il CD ha tre tracce ma la sua è solo la terza, «Mi Piace (Remix)» 4:06 — «Remix by Provenzano, Bolognesi & Di Mario for La Radio Srl», Remix Producer Carlo Mancini. Le due «Voglio Che Mi Ami» sono remix di Mike Francis, e per questo il titolo qui è passato da «Voglio Che Mi Ami / Mi Piace» a «Mi Piace» (deciso da Amerigo il 30/08/2026). Non è mai finito in digitale: su Spotify c'è solo l'album «Vitamina», con le versioni originali. ⚠️ Il 12\" «Mi Piace (Remix)» del 1995 su Palmares NON è suo: quei remix sono di Lamby e Canova/Cesaroni/Cifelli/Vecchia",
    "escluso": false,
@@ -6064,9 +6064,9 @@
    "data": null,
    "anno": 1995,
    "data_esatta": false,
-   "firma": "Amerigo Provenzano",
+   "firma": "Provenzano, Paolo Bolognesi",
    "etichetta": null,
-   "nota": null,
+   "nota": "certificato il 30/08/2026 sull'interno fotografato del CD promo, Discogs 8787025: «Remix by BOLOGNESI & PROVENZANO, Arrangiamenti BOLOGNESI & PROVENZANO e LUCA LEONORI, Executive Producer CARLO MANCINI for C&C MUSIC snc». CD Single Promo 74321 331622, «copia fuori commercio», edizioni Micocci Dischitalia / BMG Ricordi. ⚠️ Il remix è di Mi Hai Fatto Perdere La Testa — tracce 2 e 3, Radio Edit e Long Version — non della title track: «Tra Le Gambe Tue» è il titolo del CD",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [],
@@ -6084,7 +6084,16 @@
    },
    "inedito": false,
    "anno_incerto": false,
-   "foto": [],
+   "foto": [
+    {
+     "file": "cop/foto/enrico-sognato-tra-le-gambe-tue-1.jpg",
+     "cosa": "il fronte del CD promo, fuori commercio"
+    },
+    {
+     "file": "cop/foto/enrico-sognato-tra-le-gambe-tue-2.jpg",
+     "cosa": "l'interno: «Remix by BOLOGNESI & PROVENZANO», e il remix è di «Mi Hai Fatto Perdere La Testa», tracce 2 e 3"
+    }
+   ],
    "nota_pubblica": null
   },
   {
@@ -6095,7 +6104,7 @@
    "data": null,
    "anno": 1995,
    "data_esatta": false,
-   "firma": "Amerigo Provenzano, Paolo Bolognesi, I. Leonori",
+   "firma": "Provenzano, Paolo Bolognesi, Luca Leonori",
    "etichetta": "Agile (BMG Ricordi)",
    "nota": "certificato il 30/08/2026 sulla scheda Discogs del CD promo 3279825 e sul retro fotografato: Agile 74321-30767-2, edizione fuori commercio, Italia 1995. Due tracce — «ABC» 3:43 (arr. David Sabiu e Mauro Bandini) e «ABC (Remix) Short Version» 4:24, che è la sua: «Remix by Bolognesi, Provenzano e Leonori per La Radio Srl», Remix Producer Carlo Mancini. Discogs scrive «Luca Leonori»; sul disco è stampato «I. Leonori». Stessa squadra e stesso produttore del remix per Leandro Barsotti",
    "escluso": false,
@@ -6135,9 +6144,9 @@
    "data": null,
    "anno": 1996,
    "data_esatta": false,
-   "firma": "Amerigo Provenzano",
+   "firma": "Provenzano, Paolo Bolognesi",
    "etichetta": "Flying Records Italia",
-   "nota": null,
+   "nota": "certificato il 30/08/2026 sulla scheda Discogs 14706273, CD Single 1996: il remix è la traccia 2, «Remix — Amerigo Provenzano, Paolo Bolognesi». Il disco è prodotto, arrangiato e mixato da Luca Leonori, lo stesso degli altri remix di quegli anni",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [],
