@@ -426,16 +426,13 @@
    ],
    "versioni_uscita": [],
    "spotify": null,
-   "video": {
-    "youtube": "GZhCiflutUk",
-    "tipo": "terzi",
-    "canale": "canale EuroRama95",
-    "titolo": "Take Me Over (D.D. Why)",
-    "verticale": false,
-    "formato": null
-   },
+   "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2391347484",
+    "secret": "s-5uO2EHDWkvB",
+    "perche": "l'audio caricato da Amerigo sul suo profilo il 30/08/2026, traccia PRIVATA: sul sito suona lo stesso, ma non compare sul suo profilo ne' nelle ricerche. Il widget vuole l'indirizzo API della traccia piu' il token, non il link privato della pagina (quello risponde 404). Il link corto che ha mandato — on.soundcloud.com/fT8bTqGuCUWlgOTkyT — porta a soundcloud.com/provenzano_official/d-d-why-take-me-over-1995/s-5uO2EHDWkvB. ⚠️ Se rigenera il link privato, questo player muore e va riscritto."
+   },
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -8542,9 +8539,9 @@
   "remix": 62,
   "inediti": 36,
   "con_copertina": 181,
-  "con_video": 48,
+  "con_video": 47,
   "con_spotify": 66,
-  "con_soundcloud": 6,
+  "con_soundcloud": 7,
   "con_traxsource": 1,
   "con_apple": 2,
   "in_compilation": 120,
