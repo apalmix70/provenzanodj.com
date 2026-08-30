@@ -378,13 +378,17 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2391451755",
+    "secret": "s-kH9l74rmcwz",
+    "perche": "l'audio caricato da Amerigo sul suo profilo il 30/08/2026, traccia privata: è la Club Mix del lato B del 12\" X-Energy XR-12150, estratta dal video E8OkCHllTYM e ricaricata dove la controlla lui. Link corto: on.soundcloud.com/yHkSgbkGWJOZKLGWVk. ⚠️ Le due versioni restano scritte nell'elenco: il player ne fa sentire una.",
+    "cosa": "Club Mix"
+   },
    "traxsource": null,
    "apple": null,
    "copertina": {
-    "tipo": "compilation",
-    "file": "/compilation/cop/hit-mania-dance-3.jpg",
-    "da": "Hit Mania Dance 3"
+    "tipo": "propria",
+    "file": "cop/i-b.jpg"
    },
    "inedito": false,
    "anno_incerto": false,
@@ -8621,7 +8625,7 @@
   "con_copertina": 181,
   "con_video": 46,
   "con_spotify": 67,
-  "con_soundcloud": 10,
+  "con_soundcloud": 11,
   "con_traxsource": 1,
   "con_apple": 2,
   "in_compilation": 119,
