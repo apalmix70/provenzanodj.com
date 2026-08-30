@@ -546,7 +546,10 @@
    "inedito": false,
    "anno_incerto": false,
    "foto": [],
-   "nota_pubblica": null
+   "nota_pubblica": {
+    "forte": "Ogni mix porta la sigla di chi l’ha fatto.",
+    "testo": "Il 12″ del 1996 ha quattro versioni, e ognuna è firmata: la **Post Bone** è di Paolo Bolognesi, la **Add Power** di Amerigo Provenzano — le iniziali dei loro nomi — la **M.B.R.G.** è di Maurizio Braccagni e Roberto Gallo Salsotto, e la **Paradise Orchestra** di Corrado Rizza, Domenico Scuteri e Woody Bianchi. Il brano è quello di Pat Benatar del 1984; la voce qui è di Desy Moore."
+   }
   },
   {
    "tipo": "produzione",
