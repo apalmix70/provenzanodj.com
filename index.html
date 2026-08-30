@@ -101,16 +101,28 @@ a{color:inherit;text-decoration:none}
 /* il punto che batte e' uno solo: tre sarebbero tre cose che chiamano insieme */
 .cartello.secondo .nome .punto{animation:none}
 
-.cartello .tesi{
-  margin:26px auto 0;
+/* ⚠️ La frase sta **sotto il logo**, non in fondo alla pagina appesa a
+   Compilation: e' quello che dice chi e' lui, e si legge per prima (Amerigo,
+   30/08/2026). Il `max-width` largo e il `<br>` a mano tengono
+   «in radio, in pista, sui social» tutto su una riga, che spezzato in due
+   perdeva il ritmo dei tre posti. */
+.tesi{
+  margin:18px auto 0;
   font-size:clamp(11px,1.7vw,14px);
   letter-spacing:.12em;
   line-height:1.7;
   color:rgba(255,255,255,.55);
-  max-width:44ch;
+  max-width:62ch;
   text-transform:none;
+  text-wrap:balance;
 }
-.cartello .tesi em{font-style:normal;color:var(--bianco)}
+.tesi em{font-style:normal;color:var(--bianco);white-space:nowrap}
+@media (max-width:520px){
+  /* su uno schermo stretto i tre posti non ci stanno in fila: si lascia
+     andare a capo il resto, ma «in radio, in pista, sui social» resta intero */
+  .tesi br{display:none}
+  .tesi em{white-space:normal}
+}
 
 /* scrivimi — una domanda sola, tre indirizzi */
 .booking{
@@ -196,6 +208,8 @@ footer{
 
 <main class="pagina">
   <div class="logo">provenzano<span class="punto">.</span></div>
+  <p class="tesi">Da oltre trent&rsquo;anni a scegliere musica, produrla e proporla<br>
+    &mdash; <em>in radio, in pista, sui social</em>.</p>
 
   <section class="cartello">
     <a href="/crossover/puntate/" aria-label="Crossover — tutte le puntate">
@@ -213,7 +227,6 @@ footer{
     <a href="/compilation/" aria-label="Compilation — tutte quelle mixate">
       <h2 class="nome">Compilation<span class="punto">.</span></h2>
     </a>
-    <p class="tesi">Da oltre trent'anni a scegliere musica, produrla e proporla &mdash; <em>in radio, in pista, sui social</em>.</p>
   </section>
 
   <section class="booking">
