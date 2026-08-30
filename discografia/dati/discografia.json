@@ -35,6 +35,10 @@
     3
    ],
    [
+    "Universo",
+    3
+   ],
+   [
     "Do It Yourself",
     2
    ],
@@ -44,10 +48,6 @@
    ],
    [
     "Net's Work International",
-    2
-   ],
-   [
-    "Netswork",
     2
    ]
   ],
@@ -89,7 +89,7 @@
     10
    ],
    [
-    2008,
+    2006,
     9
    ]
   ],
@@ -100,7 +100,7 @@
    ],
    [
     2000,
-    55
+    56
    ],
    [
     2010,
@@ -6582,6 +6582,35 @@
   },
   {
    "tipo": "remix",
+   "slug": "cosmo-inno-di-mameli",
+   "artista": "Cosmo",
+   "titolo": "Inno Di Mameli",
+   "versioni": [],
+   "data": null,
+   "anno": 2006,
+   "data_esatta": false,
+   "firma": "Provenzano",
+   "etichetta": "Universo",
+   "nota": "⭐ Promossa il 31/08/2026 da «solo Wikipedia» a documentata, su domanda di Amerigo. Tre fonti indipendenti, e tutte scrivono il credito per esteso. Discogs 7518789, la compilation «Campioni Del Mondo — Siamo Una Squadra Fortissimi», Universo 80278511461, Italia luglio 2006: traccia 16, «Inno Di Mameli (Provenzano DJ Remix)», con l'extra-credito «Provenzano DJ — Remix». Discogs 7805505, «Hit Mania Club Dance Volume 3», Magika MGK 069/CD, 2006: stessa traccia alla 21, stesso credito. E il sito della Walkman S.r.l., l'etichetta che ha pubblicato la compilation, che nella sua scheda scrive «“Inno Di Mameli” (Provenzano Dj Remix) — Cosmo». Il remix esce dentro le compilation e non ha una release sua: sta anche su «3 Music Compilation Volume 5», Kiver 2006. ⚠️ Cosmo è quello che Discogs disambigua come «Cosmo (29)», non il Cosmo italiano di oggi. ⭐ Ed è lo stesso disco: sulla stessa compilation, alla traccia 1, c'è «Siamo Una Squadra Fortissimi» di Checco Zalone, già in questa tabella come suo remix per Universo. Il progetto Mondiali 2006 è uno solo",
+   "escluso": false,
+   "sezione": "Remix",
+   "in_compilation": [],
+   "artista_diverso": [],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": null,
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "remix",
    "slug": "checco-zalone-siamo-una-squadra-fortissimi",
    "artista": "Checco Zalone",
    "titolo": "Siamo Una Squadra Fortissimi",
@@ -8731,7 +8760,7 @@
   },
   "2006": {
    "singoli": 2,
-   "remix": 6
+   "remix": 7
   },
   "2005": {
    "singoli": 7,
@@ -8764,7 +8793,7 @@
  },
  "totali": {
   "singoli": 123,
-  "remix": 63,
+  "remix": 64,
   "inediti": 36,
   "con_copertina": 182,
   "con_video": 46,
