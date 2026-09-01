@@ -4594,7 +4594,12 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2392596885",
+    "secret": "s-bhPGKvYb6iu",
+    "cosa": "il brano intero",
+    "perche": "caricato da Amerigo sul suo profilo il 01/09/2026, traccia privata, link corto on.soundcloud.com/45lpr5u3KEeFXzaJui che risolve su soundcloud.com/provenzano_official/harder-faster-stress-on-the/s-bhPGKvYb6iu. Titolo sul profilo: «Harder, Faster - Stress On The Mountain (Original Mix) [Metropolitan Promos]». Il file viene dal DJ pool **Selected Recs**, release #1892190. ⭐ **E' il primo ascolto in assoluto del ritorno con Paolo Bolognesi**: in digitale il pezzo c'e' solo su Spotify sotto «Harder & Faster», un nome che non porta da nessuna parte a lui."
+   },
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -9499,7 +9504,7 @@
   "con_copertina": 188,
   "con_video": 46,
   "con_spotify": 69,
-  "con_soundcloud": 23,
+  "con_soundcloud": 24,
   "con_traxsource": 1,
   "con_apple": 2,
   "in_compilation": 117,
