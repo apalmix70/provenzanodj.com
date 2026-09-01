@@ -7978,7 +7978,12 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2392543299",
+    "secret": "s-6hqdaP2EVE5",
+    "cosa": "il remix, dal master del 2011",
+    "perche": "caricato da Amerigo sul suo profilo il 01/09/2026, traccia privata, subito dopo che il remix era stato ritrovato sul disco fisso. Link corto mandato da lui, on.soundcloud.com/2QWpYCbG3rnCvXZDq7, che risolve su soundcloud.com/provenzano_official/jaykay-feat-flo-rida-smokey/s-6hqdaP2EVE5. ⭐ **E' il master del 2011**, quello di `D:\\Storico Provenzano\\[MASTER]\\RELEASE\\JayKay feat Flo rida What girls Like_`: in digitale il remix non esiste da nessuna parte — su Discogs non c'e', e il promo dei remix PM Recordings del 2012 ne porta sei senza la sua. **Prima di oggi non c'era modo di sentirlo.** ⚠️ Su SoundCloud il titolo tiene tutti e due i nomi, «[Provenzano Aka Reder8 Rmx]», come il file di master; **in pagina la firma e' «Provenzano»**, per scelta di Amerigo del 01/09/2026 — «consideralo Provenzano remix, puoi togliere Reder8». Non e' una discordanza: e' il nome del file contro il nome con cui e' conosciuto."
+   },
    "traxsource": null,
    "apple": null,
    "copertina": null,
@@ -9240,7 +9245,7 @@
   "con_copertina": 182,
   "con_video": 46,
   "con_spotify": 68,
-  "con_soundcloud": 18,
+  "con_soundcloud": 19,
   "con_traxsource": 1,
   "con_apple": 2,
   "in_compilation": 117,
