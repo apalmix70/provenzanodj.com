@@ -683,7 +683,7 @@
   {
    "tipo": "produzione",
    "slug": "el-cabron",
-   "titolo": "El Cabron",
+   "titolo": "El Cabrón",
    "versioni": [
     "+ A Matar Radio Edit, A Matar Extended RMX, Farra Electro Extended"
    ],
@@ -693,7 +693,7 @@
    "con": [],
    "firma": "Mr. Ed",
    "etichetta": "Time",
-   "nota": "⚠️ Non è un inedito da compilation: è un singolo vero. Fino al 01/09/2026 la riga diceva «mai uscito a sé, stampato su m2o vol.5»; quel giorno Amerigo ha mandato il link Spotify — «il disco è uscito su Time Records oltre che su la compilation» — e la riga si è riempita da sola. Single El Cabrón, Spotify `67ClD2qoIR0ClWMWY3tZIJ`, 18/03/2004, © Time S.p.A. Unipersonale, tre tracce: A Matar Radio Edit 2:41, A Matar Extended RMX 4:03, Farra Electro Extended 4:41. ⭐ La compilation è uscita prima del singolo: m2o vol.5 è del 13/02/2004, il disco del 18 marzo — un mese dopo. ⭐ E il titolo della terza versione conferma l'alias dall'esterno: «Farra Electro Extended», cioè Davide Farra, che è l'altro dentro Mr. Ed. ⚠️ Su Spotify il titolo ha l'accento — *El Cabrón* — e l'artista si scrive Mr Ed senza punto; qui restano la grafia senza accento e il punto, in attesa che decida lui. Copertina mandata da Amerigo lo stesso giorno, in archivio come `produzioni4 Mr. Ed - El Cabron.jpg`",
+   "nota": "⚠️ Non è un inedito da compilation: è un singolo vero. Fino al 01/09/2026 la riga diceva «mai uscito a sé, stampato su m2o vol.5»; quel giorno Amerigo ha mandato il link Spotify — «il disco è uscito su Time Records oltre che su la compilation» — e la riga si è riempita da sola. Single El Cabrón, Spotify `67ClD2qoIR0ClWMWY3tZIJ`, 18/03/2004, © Time S.p.A. Unipersonale, tre tracce: A Matar Radio Edit 2:41, A Matar Extended RMX 4:03, Farra Electro Extended 4:41. ⭐ La compilation è uscita prima del singolo: m2o vol.5 è del 13/02/2004, il disco del 18 marzo — un mese dopo. ⭐ E il titolo della terza versione conferma l'alias dall'esterno: «Farra Electro Extended», cioè Davide Farra, che è l'altro dentro Mr. Ed. ✅ Il titolo si scrive con l'accento, l'alias col punto: *El Cabrón* e *Mr. Ed*, deciso da Amerigo il 01/09/2026 — «metti accento lascia il punto». Su Spotify l'artista è scritto Mr Ed senza punto, e quella è la grafia che non si segue. ⚠️ Lo slug della pagina resta `el-cabron`: l'accento sparisce nella normalizzazione, quindi l'indirizzo non cambia e non resta nessuna cartella orfana nel repo del sito. Copertina mandata da Amerigo lo stesso giorno, in archivio come `produzioni4 Mr. Ed - El Cabron.jpg`",
    "escluso": false,
    "da_guardare": false,
    "sezione": "1992 → 2009",
@@ -707,10 +707,10 @@
    ],
    "versioni_uscita": [],
    "spotify": {
-    "tipo": "album",
-    "album": "67ClD2qoIR0ClWMWY3tZIJ",
-    "titolo": "El Cabron",
-    "cosa": null,
+    "tipo": "track",
+    "album": "5X1MN753bLM80p1wXfnWwU",
+    "titolo": "El Cabrón",
+    "cosa": "la Farra Electro Extended",
     "alto": false
    },
    "video": null,
