@@ -1644,7 +1644,9 @@
    "tipo": "produzione",
    "slug": "midory-shower",
    "titolo": "Midory Shower",
-   "versioni": [],
+   "versioni": [
+    "+ First Release Mix, Second Release Mix, Acappella"
+   ],
    "data": null,
    "anno": 2008,
    "data_esatta": false,
@@ -1653,7 +1655,7 @@
    ],
    "firma": null,
    "etichetta": "Time",
-   "nota": null,
+   "nota": "riga riempita il 01/09/2026, partendo dal master trovato sul disco fisso in `D:\\Storico Provenzano\\[MASTER]\\RELEASE`. Era una delle righe più nude della tabella — solo anno, titolo, etichetta — e le fonti l'hanno chiusa in pieno. Tre versioni: First Release Mix 8:13, Second Release Mix 8:12 e Acappella 4:22, uguali su Spotify e su Discogs. Esce come Ranucci & Pelusi vs Provenzano, © Time S.p.A. Unipersonale: prima un CDr Single Promo TIME del 2008 — Discogs 29136241 — e poi una riedizione digitale in WAV su T30 nel 2010, Discogs 12919242. Gira anche su m2o vol.19 e sulla m2o X-Mas Box, entrambe del 2008, e sul CD Pool Tech-Mixes 177 del 2009. ⚠️ Il titolo si scrive «Midory» con la y, come su tutte le fonti e su tutte e quattro le schede Discogs: il file di master sul disco fisso lo scrive «Midori», ed è lui a sbagliare. È il motivo per cui l'incrocio del 01/09/2026 l'aveva segnalato come uscita mancante, mentre in tabella c'era da sempre — se n'è accorto Amerigo, «questo dovrebbe esserci già, controlla»",
    "escluso": false,
    "da_guardare": false,
    "sezione": "1992 → 2009",
@@ -1669,7 +1671,9 @@
    "spotify": {
     "tipo": "album",
     "album": "19NCS9bfpa4GoRAd4SXEfI",
-    "titolo": "Midory Shower"
+    "titolo": "Midory Shower",
+    "cosa": null,
+    "alto": false
    },
    "video": null,
    "video_altri": [],
