@@ -9247,11 +9247,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
-   "deezer": {
-    "tipo": "track",
-    "id": "93959028",
-    "perche": "è l'unico posto dove il suo remix si ascolta. ⚠️ **Su Spotify non c'è**: lì sta solo l'originale del 15/07/2013 in quattro versioni, senza la sua. ⚠️ **E su SoundCloud non c'è più**: Amerigo ne aveva mandato il link il 01/09/2026, ma la traccia era stata rimossa — SoundCloud rispondeva «this track was not found» — e lui l'ha confermato. Su Deezer invece l'uscita `9547888` ha **una traccia sola** ed è il suo remix, 5:56. È il disco per cui la leva Deezer è stata costruita: «prova con deezer», «solo per questo provalo»."
-   },
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -9934,7 +9930,7 @@
   "con_video": 49,
   "con_spotify": 75,
   "con_soundcloud": 25,
-  "con_deezer": 1,
+  "con_deezer": 0,
   "con_traxsource": 1,
   "con_apple": 2,
   "in_compilation": 117,
