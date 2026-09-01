@@ -35,6 +35,10 @@
     4
    ],
    [
+    "Respiri Digitali",
+    4
+   ],
+   [
     "Jump Records",
     3
    ],
@@ -45,10 +49,6 @@
    [
     "Time",
     3
-   ],
-   [
-    "Do It Yourself",
-    2
    ]
   ],
   "anni": [
@@ -86,7 +86,7 @@
    ],
    [
     2009,
-    10
+    11
    ],
    [
     2014,
@@ -100,7 +100,7 @@
    ],
    [
     2000,
-    67
+    68
    ],
    [
     2010,
@@ -163,6 +163,10 @@
   ],
   "remixati": [
    [
+    "Be Angel",
+    3
+   ],
+   [
     "Falaska Contest",
     3
    ],
@@ -188,10 +192,6 @@
    ],
    [
     "Danijay",
-    2
-   ],
-   [
-    "Be Angel",
     2
    ],
    [
@@ -1655,7 +1655,7 @@
    ],
    "firma": null,
    "etichetta": "Time",
-   "nota": "riga riempita il 01/09/2026, partendo dal master trovato sul disco fisso in `D:\\Storico Provenzano\\[MASTER]\\RELEASE`. Era una delle righe più nude della tabella — solo anno, titolo, etichetta — e le fonti l'hanno chiusa in pieno. Tre versioni: First Release Mix 8:13, Second Release Mix 8:12 e Acappella 4:22, uguali su Spotify e su Discogs. Esce come Ranucci & Pelusi vs Provenzano, © Time S.p.A. Unipersonale: prima un CDr Single Promo TIME del 2008 — Discogs 29136241 — e poi una riedizione digitale in WAV su T30 nel 2010, Discogs 12919242. Gira anche su m2o vol.19 e sulla m2o X-Mas Box, entrambe del 2008, e sul CD Pool Tech-Mixes 177 del 2009. ⚠️ Il titolo si scrive «Midory» con la y, come su tutte le fonti e su tutte e quattro le schede Discogs: il file di master sul disco fisso lo scrive «Midori», ed è lui a sbagliare. È il motivo per cui l'incrocio del 01/09/2026 l'aveva segnalato come uscita mancante, mentre in tabella c'era da sempre — se n'è accorto Amerigo, «questo dovrebbe esserci già, controlla»",
+   "nota": "riga riempita il 01/09/2026, partendo dal master trovato sul disco fisso in `D:\\Storico Provenzano\\[MASTER]\\RELEASE`. Era una delle righe più nude della tabella — solo anno, titolo, etichetta — e le fonti l'hanno chiusa in pieno. Tre versioni: First Release Mix 8:13, Second Release Mix 8:12 e Acappella 4:22, uguali su Spotify e su Discogs. Esce come Ranucci & Pelusi vs Provenzano, © Time S.p.A. Unipersonale: prima un CDr Single Promo TIME del 2008 — Discogs 29136241 — e poi una riedizione digitale in WAV su T30 nel 2010, Discogs 12919242. Gira anche su m2o vol.19 e sulla m2o X-Mas Box, entrambe del 2008, e sul CD Pool Tech-Mixes 177 del 2009. ⚠️ Il titolo si scrive «Midory» con la y, come su tutte le fonti e su tutte e quattro le schede Discogs: il file di master sul disco fisso lo scriveva «Midori», ed era un refuso di quando è stato salvato — *«avrò sbagliato a scrivere sul master»*, Amerigo, 01/09/2026. Non erano due titoli: era lo stesso disco col nome del file storto. ✅ Corretto sul disco lo stesso giorno, su sua richiesta — «correggilo tu»: rinominati i due file, il .wav in `[MASTER]\\RELEASE` e l'.mp3 in `Discografia mp3`. Adesso archivio e tabella dicono la stessa cosa. È il motivo per cui l'incrocio del 01/09/2026 l'aveva segnalato come uscita mancante, mentre in tabella c'era da sempre — se n'è accorto Amerigo, «questo dovrebbe esserci già, controlla»",
    "escluso": false,
    "da_guardare": false,
    "sezione": "1992 → 2009",
@@ -6936,12 +6936,12 @@
    "artista": "Be Angel",
    "titolo": "Don't Close Your Eyes",
    "versioni": [],
-   "data": "2006-06-12",
+   "data": null,
    "anno": 2006,
-   "data_esatta": true,
+   "data_esatta": false,
    "firma": "Provenzano & Promise Land",
-   "etichetta": null,
-   "nota": "ritrovata nel database delle compilation, stampata su m2o vol.12; anno non confermato",
+   "etichetta": "Respiri Digitali",
+   "nota": "ritrovata nel database delle compilation, stampata su m2o vol.12; anno non confermato. ⭐ Etichetta trovata il 01/09/2026 nello stesso giro di *Child*: il remix sta su No More Angels On Planet Earth Episode 02 — Essential Remixes, Respiri Digitali RD 015, 2009, doppio CD di soli remix del catalogo Be Angel, CD2 traccia 6. ⚠️ Due tracce dopo c'è un Don't Close Your Eyes, Sander Remix: la loro è la 2-06",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [
@@ -6965,8 +6965,7 @@
     "file": "cop/be-angel-don-t-close-your-eyes.jpg"
    },
    "inedito": false,
-   "anno_incerto": false,
-   "data_da_compilation": true,
+   "anno_incerto": true,
    "foto": [],
    "nota_pubblica": null
   },
@@ -7016,12 +7015,12 @@
    "artista": "Be Angel feat. Dee Bee",
    "titolo": "Say You Love Me",
    "versioni": [],
-   "data": "2007-06-22",
+   "data": null,
    "anno": 2007,
-   "data_esatta": true,
+   "data_esatta": false,
    "firma": "Provenzano & Promise Land",
-   "etichetta": null,
-   "nota": null,
+   "etichetta": "Respiri Digitali",
+   "nota": "⭐ Etichetta trovata il 01/09/2026, aprendo il doppio dei remix Be Angel mentre si staccava *Child*: la casella era vuota. Il remix sta su No More Angels On Planet Earth Episode 02 — Essential Remixes, Respiri Digitali RD 015, 2009, doppio CD di soli remix del catalogo Be Angel, CD2 traccia 4. Gira anche su m2o vol.15, 2007, e su un proprio singolo Respiri Digitali con due versioni, Rmx e Radio Cut",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [
@@ -7052,7 +7051,6 @@
    },
    "inedito": false,
    "anno_incerto": false,
-   "data_da_compilation": true,
    "foto": [],
    "nota_pubblica": null
   },
@@ -7517,16 +7515,19 @@
   },
   {
    "tipo": "remix",
-   "slug": "be-angel-sunshine-child",
+   "slug": "be-angel-sunshine",
    "artista": "Be Angel",
-   "titolo": "Sunshine / Child",
-   "versioni": [],
+   "titolo": "Sunshine",
+   "versioni": [
+    "Provenzano + Promiseland Radio",
+    "Extended"
+   ],
    "data": null,
    "anno": 2009,
    "data_esatta": false,
    "firma": "Provenzano & Promise Land",
    "etichetta": "Respiri Digitali",
-   "nota": null,
+   "nota": "⚠️ Riga sdoppiata il 01/09/2026: fino a quel giorno diceva «Sunshine / Child» e teneva due remix diversi su due dischi diversi dentro una casella sola. Se n'è accorto Amerigo chiedendo se *Child* fosse in database. Questa è Sunshine, EP di sei tracce su Respiri Digitali, Discogs 9091404: le loro sono la Provenzano + Promiseland Radio 4:45 e la Extended 9:45; le altre quattro sono le due originali, un Emi L Rmx e una WMP Vrs",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [],
@@ -7540,8 +7541,37 @@
    "apple": null,
    "copertina": {
     "tipo": "propria",
-    "file": "cop/be-angel-sunshine-child.jpg"
+    "file": "cop/be-angel-sunshine.jpg"
    },
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "remix",
+   "slug": "be-angel-child",
+   "artista": "Be Angel",
+   "titolo": "Child",
+   "versioni": [],
+   "data": null,
+   "anno": 2009,
+   "data_esatta": false,
+   "firma": "Provenzano & Promise Land",
+   "etichetta": "Respiri Digitali",
+   "nota": "⭐ Staccata da Sunshine il 01/09/2026, su domanda di Amerigo — «Be Angel Child (Provenzano & Promiseland Remix) è inserito questo?». C'era, ma appiccicato a un'altra uscita. Sta su No More Angels On Planet Earth Episode 02 — Essential Remixes, Respiri Digitali RD 015, 2009, doppio CD di soli remix del catalogo Be Angel, CD1 traccia 3, come «Child (Provenzano & Promiseland Remix)», Discogs 3121195. ⚠️ Sullo stesso doppio c'è anche un Child, Mark Angel Remix alla traccia 2-09: la loro è quella del CD1",
+   "escluso": false,
+   "sezione": "Remix",
+   "in_compilation": [],
+   "artista_diverso": [],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": null,
    "inedito": false,
    "anno_incerto": false,
    "foto": [],
@@ -9239,7 +9269,7 @@
   },
   "2009": {
    "singoli": 3,
-   "remix": 7
+   "remix": 8
   },
   "2008": {
    "singoli": 4,
@@ -9284,7 +9314,7 @@
  },
  "totali": {
   "singoli": 122,
-  "remix": 80,
+  "remix": 81,
   "inediti": 34,
   "con_copertina": 182,
   "con_video": 46,
