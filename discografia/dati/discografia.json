@@ -8482,7 +8482,13 @@
    "in_compilation": [],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "spotify": null,
+   "spotify": {
+    "tipo": "track",
+    "album": "5RquFGxyq4jfTgND5j8VwR",
+    "titolo": "Fiesta",
+    "cosa": null,
+    "alto": false
+   },
    "video": null,
    "video_altri": [],
    "soundcloud": null,
@@ -9278,7 +9284,7 @@
   "inediti": 34,
   "con_copertina": 182,
   "con_video": 46,
-  "con_spotify": 68,
+  "con_spotify": 69,
   "con_soundcloud": 20,
   "con_traxsource": 1,
   "con_apple": 2,
