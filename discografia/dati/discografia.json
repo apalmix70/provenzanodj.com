@@ -722,14 +722,23 @@
    "versioni_uscita": [],
    "spotify": null,
    "video": {
-    "youtube": "U33PJg10D5k",
-    "tipo": "audio",
-    "canale": null,
+    "youtube": "BTnep8cLM_Q",
+    "tipo": "ufficiale",
+    "canale": "dal CD-ROM di m2o vol.5",
     "titolo": "Funny Day",
     "verticale": false,
     "formato": null
    },
-   "video_altri": [],
+   "video_altri": [
+    {
+     "youtube": "U33PJg10D5k",
+     "tipo": "audio",
+     "canale": "versione Roberto Molinaro Fm Concept",
+     "titolo": "Funny Day",
+     "verticale": false,
+     "formato": null
+    }
+   ],
    "soundcloud": null,
    "traxsource": null,
    "apple": null,
