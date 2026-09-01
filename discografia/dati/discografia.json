@@ -57,16 +57,16 @@
     17
    ],
    [
-    2005,
-    16
-   ],
-   [
     2006,
     15
    ],
    [
     2013,
     15
+   ],
+   [
+    2005,
+    14
    ],
    [
     2015,
@@ -100,7 +100,7 @@
    ],
    [
     2000,
-    69
+    67
    ],
    [
     2010,
@@ -268,10 +268,10 @@
     "anno": 2005
    },
    {
-    "titolo": "No Alla Pirateria",
-    "slug": "no-alla-pirateria",
+    "titolo": "Vibe",
+    "slug": "vibe",
     "quante": 2,
-    "anno": 2005
+    "anno": 2006
    }
   ]
  },
@@ -1078,94 +1078,6 @@
    },
    "inedito": false,
    "anno_incerto": false,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "produzione",
-   "slug": "in-your-time",
-   "titolo": "In Your Time",
-   "versioni": [],
-   "data": "2005-02-14",
-   "anno": 2005,
-   "data_esatta": true,
-   "con": [],
-   "firma": "Rumble Pit",
-   "etichetta": null,
-   "nota": "inedito per la compilation: mai uscito a sé, stampato su m2o vol.8",
-   "escluso": false,
-   "da_guardare": false,
-   "sezione": "1992 → 2009",
-   "in_compilation": [
-    {
-     "slug": "m2ovol8",
-     "titolo": "m2o vol.8",
-     "anno": 2005,
-     "come": "In Your Time (Niny & Alby Extended)"
-    }
-   ],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": null,
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "compilation",
-    "file": "/compilation/cop/m2ovol8.jpg",
-    "da": "m2o vol.8"
-   },
-   "inedito": true,
-   "anno_incerto": false,
-   "data_da_compilation": true,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "produzione",
-   "slug": "no-alla-pirateria",
-   "titolo": "No Alla Pirateria",
-   "versioni": [],
-   "data": "2005-10-14",
-   "anno": 2005,
-   "data_esatta": true,
-   "con": [],
-   "firma": "Rumble Pit",
-   "etichetta": null,
-   "nota": "inedito per le compilation: mai uscito a sé, stampato su m2o vol.10 e [Jump]² The Dancefloor Vol. 1",
-   "escluso": false,
-   "da_guardare": false,
-   "sezione": "1992 → 2009",
-   "in_compilation": [
-    {
-     "slug": "jump-2-the-dancefloor-vol-1",
-     "titolo": "[Jump]² The Dancefloor Vol. 1",
-     "anno": 2005,
-     "come": "No Alla Pirateria (Original Extended)"
-    },
-    {
-     "slug": "m2ovol10",
-     "titolo": "m2o vol.10",
-     "anno": 2005,
-     "come": "No Alla Pirateria (Niny & Alby Remix)"
-    }
-   ],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": null,
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "compilation",
-    "file": "/compilation/cop/jump-2-the-dancefloor-vol-1.jpg",
-    "da": "[Jump]² The Dancefloor Vol. 1"
-   },
-   "inedito": true,
-   "anno_incerto": false,
-   "data_da_compilation": true,
    "foto": [],
    "nota_pubblica": null
   },
@@ -9038,7 +8950,7 @@
   {
    "nome": "Italian Deejays",
    "slug": "italian-deejays",
-   "cosa": "Provenzano + Sergio Marini ⚠️ da confermare",
+   "cosa": "Provenzano + Sergio Marini ✅ confermato da Amerigo il 01/09/2026",
    "uscite": [
     "Eurofolk",
     "The Story Goes On"
@@ -9058,7 +8970,7 @@
   {
    "nome": "Rainbowlead",
    "slug": "rainbowlead",
-   "cosa": "Provenzano + Mastro J ⚠️ da confermare",
+   "cosa": "Provenzano + Mastro J ✅ confermato da Amerigo il 01/09/2026",
    "uscite": [
     "Cattivik",
     "Rock Some Noise"
@@ -9068,11 +8980,11 @@
   {
    "nome": "The Fabulous",
    "slug": "the-fabulous",
-   "cosa": "⚠️ chi c'è dentro è da chiarire",
+   "cosa": "Provenzano + Felipe C",
    "uscite": [
     "Mariguana Cha-Cha-Cha (Netswork)"
    ],
-   "nota": "2011"
+   "nota": "deciso da Amerigo il 01/09/2026: *«potrebbe essere considerato un alias con Felipe C, intendilo così»*. ⚠️ Prima aveva detto di non considerarlo, poi ha corretto lui stesso: vale la seconda. Sul disco esce come «Provenzano pres. The Fabulous», e Felipe C è già fra i nomi della riga in sezione 1. 2011"
   },
   {
    "nome": "Blastaar",
@@ -9082,7 +8994,7 @@
     "Stupid!",
     "Chiara Robiony *Monday U Leave Me* rmx"
    ],
-   "nota": "remix, 2007. ⭐ Stesso trio di Remote Zero e Disco Loco"
+   "nota": "⭐ uno dei tre nomi inventati per le compilation (vedi sotto). 2007"
   },
   {
    "nome": "Remote Zero",
@@ -9090,9 +9002,9 @@
    "cosa": "Provenzano + Ranucci e Pelusi, cioè Promise Land",
    "uscite": [
     "Electronique",
-    "Beachball"
+    "Beach Ball"
    ],
-   "nota": "⭐ stesso trio di Blastaar e Disco Loco"
+   "nota": "⭐ uno dei tre nomi per le compilation. 2008 e 2010"
   },
   {
    "nome": "Mr. Potsie",
@@ -9108,25 +9020,26 @@
    "slug": "disco-loco",
    "cosa": "Provenzano + Ranucci e Pelusi, cioè Promise Land",
    "uscite": [
-    "Disfactio Total"
+    "Disfacio Total"
    ],
-   "nota": "⭐ stesso trio di Blastaar e Remote Zero"
+   "nota": "⭐ uno dei tre nomi per le compilation. 2007"
   },
   {
    "nome": "Rumble Pit",
    "slug": "rumble-pit",
-   "cosa": "⚠️ chi c'è dentro è da chiarire",
+   "cosa": "⛔ non è un suo alias: è un alias dei Promise Land",
    "uscite": [
-    "No Alla Pirateria *(solo Wikipedia)*"
+    "No Alla Pirateria",
+    "In Your Time"
    ],
-   "nota": null
+   "nota": "deciso da Amerigo il 01/09/2026, *«rumble pit consideralo un alias dei promise land»*, dopo che Discogs l'aveva dato con i soli Fabio Ranucci e Nazario Pelusi. Resta in questa mappa perché su uno dei due brani lui è coautore e quindi la riga in sezione 1 va spiegata, non perché sia un nome suo. Vedi il riquadro qui sotto. 2005"
   },
   {
    "nome": "Glidness",
    "slug": "glidness",
-   "cosa": "⚠️ chi c'è dentro è da chiarire",
+   "cosa": "⛔ non lo riconosce: *«glidness non so chi sia»*, Amerigo 01/09/2026. Stava qui solo perché lo scrive Wikipedia, e non l'ha mai confermato nessun'altra fonte. Da togliere dal sito, come B.P.M.",
    "uscite": [
-    "Imagination *(solo Wikipedia)*"
+    "Imagination *(solo Wikipedia, e smentito)*"
    ],
    "nota": null
   }
@@ -9217,7 +9130,7 @@
    "remix": 13
   },
   "2005": {
-   "singoli": 7,
+   "singoli": 5,
    "remix": 9
   },
   "2004": {
@@ -9246,16 +9159,16 @@
   }
  },
  "totali": {
-  "singoli": 123,
+  "singoli": 121,
   "remix": 78,
-  "inediti": 36,
-  "con_copertina": 184,
+  "inediti": 34,
+  "con_copertina": 182,
   "con_video": 46,
   "con_spotify": 68,
   "con_soundcloud": 17,
   "con_traxsource": 1,
   "con_apple": 2,
-  "in_compilation": 119,
+  "in_compilation": 117,
   "primo_anno": 1994,
   "ultimo_anno": 2026
  }
