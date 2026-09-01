@@ -211,7 +211,7 @@
     1
    ]
   ],
-  "quante_etichette": 74,
+  "quante_etichette": 75,
   "piu_compilation": [
    {
     "titolo": "I Believe",
@@ -7607,8 +7607,8 @@
    "anno": 2009,
    "data_esatta": true,
    "firma": "Promise Land & Provenzano",
-   "etichetta": "Altra Moda",
-   "nota": null,
+   "etichetta": "Ultra Records",
+   "nota": "⚠️ Cambiata due volte il 01/09/2026. Era ‹Altra Moda›; Amerigo ha prima detto «metti flamingo records», poi — messo davanti al fatto che l'artwork che aveva scelto porta il logo Ultra in basso a destra — ha corretto in «ultra records». Vale la seconda, ed è coerente: in tabella si scrive l'etichetta dell'edizione di cui pubblichiamo la copertina. ⚠️ Flamingo Recordings (con la S, non ‹Records›: controllato su Discogs) resta l'etichetta d'origine, olandese, di Fedde Le Grand. ⚠️ Il disco è uscito su mezza Europa con un'etichetta diversa per paese: Kontor in Germania, Lifted House in Danimarca, Hussle in Australia, Ultra Records negli Stati Uniti e Net's Work International in Italia. Sono licenze della stessa uscita, non uscite diverse. ⚠️ La copertina che pubblichiamo è quella Ultra, presa da Spotify il 01/09/2026 su indicazione sua — «prendi da spotify anche la copertina che è meglio di quella che hai messo tu»: è l'unica che porta scritto in alto il credito del remix, quindi è la copertina del loro pezzo e non del disco di Fedde Le Grand. ⭐ E il refuso ‹Promised Land› è stampato sull'artwork, non solo nei metadati Spotify: confermato refuso da Amerigo lo stesso giorno. Il nome giusto è Promise Land e sul sito resta quello. La copertina precedente — senza il credito del remix — sta in `copertine\\_sostituite\\`",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [
@@ -7628,7 +7628,14 @@
     "cosa": null,
     "alto": false
    },
-   "video": null,
+   "video": {
+    "youtube": "LWU08LUeYwA",
+    "tipo": "ufficiale",
+    "canale": "canale ufficiale di Fedde Le Grand",
+    "titolo": "Scared Of Me",
+    "verticale": false,
+    "formato": null
+   },
    "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
@@ -9479,6 +9486,21 @@
    "nota": "stessa risposta di System3, 01/09/2026. Nove uscite, tutte inediti da compilation, sullo stesso arco 2011–2018: è il secondo nome fisso dello stesso terzetto, non un nome nato per un pezzo solo. 2011–2018"
   },
   {
+   "nome": "Ranucci & Pelusi",
+   "slug": "ranucci-and-pelusi",
+   "cosa": "⛔ non è un suo alias: sono i cognomi dei Promise Land. *«Ranucci e Pelusi sono i cognomi dei Promise Land, hanno usato per un periodo i loro cognomi al posto di Promise Land, possiamo considerarli alla stregua di un alias»*",
+   "uscite": [
+    "No Stress",
+    "I Will Follow",
+    "Last Night A Dj Saved My Life",
+    "Taking Control Of You",
+    "Leave The World Behind",
+    "Enjoy The Silence",
+    "Twilight"
+   ],
+   "nota": "Amerigo, 01/09/2026. Sta qui perché su parecchie sue righe la firma è «Provenzano, Ranucci & Pelusi» (o «Provenzano, Pelusi & Ranucci», o «P-R-P»): senza questa riga sembrano due collaboratori in più, e sono invece gli stessi due di sempre sotto un altro nome. ⚠️ Non prende la riga d'alias in pagina: quelle firme contengono già il suo nome, quindi sono crediti, non nomi di progetto. 2005–2008"
+  },
+  {
    "nome": "Rumble Pit",
    "slug": "rumble-pit",
    "cosa": "⛔ non è un suo alias: è un alias dei Promise Land",
@@ -9626,7 +9648,7 @@
   "remix": 82,
   "inediti": 34,
   "con_copertina": 188,
-  "con_video": 47,
+  "con_video": 48,
   "con_spotify": 71,
   "con_soundcloud": 24,
   "con_traxsource": 1,
