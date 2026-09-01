@@ -31,10 +31,6 @@
     4
    ],
    [
-    "Metropolitan Recordings",
-    4
-   ],
-   [
     "Magika",
     4
    ],
@@ -48,6 +44,10 @@
    ],
    [
     "Net's Work International",
+    3
+   ],
+   [
+    "Time",
     3
    ]
   ],
@@ -104,7 +104,7 @@
    ],
    [
     2010,
-    102
+    101
    ],
    [
     2020,
@@ -4023,38 +4023,6 @@
    "copertina": {
     "tipo": "propria",
     "file": "cop/we-are-one.jpg"
-   },
-   "inedito": false,
-   "anno_incerto": false,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "produzione",
-   "slug": "dark-time",
-   "titolo": "Dark Time",
-   "versioni": [],
-   "data": "2016-08-08",
-   "anno": 2016,
-   "data_esatta": true,
-   "con": [],
-   "firma": "Harder",
-   "etichetta": "Metropolitan Recordings",
-   "nota": "trovata il 01/09/2026 sull'API di Beatport, artista Harder id 129432. ⚠️ Traxsource risponde 403 e non si è potuto guardare; Beatport invece ha dato tutto, ISRC compresi. ⚠️ È techno, non house: Beatport la classifica «Techno, Peak Time / Driving», 125 bpm, Si bemolle minore, 6:52, ISRC DEAR41627934. ⭐ È l'unica techno di tutta la sua discografia, e l'unica uscita Harder che esce anche fuori da Metropolitan: il 24/09/2016 finisce su «Techy Vibes, Vol. 11» di Re:vibe Music. È anche la prima uscita firmata Harder in assoluto",
-   "escluso": false,
-   "da_guardare": false,
-   "sezione": "2010 → 2019",
-   "in_compilation": [],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": null,
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "propria",
-    "file": "cop/dark-time.jpg"
    },
    "inedito": false,
    "anno_incerto": false,
@@ -9286,12 +9254,11 @@
    "slug": "harder",
    "cosa": "Provenzano solo",
    "uscite": [
-    "Dark Time",
     "Your Love",
     "Something About Love *(con Fond8)*",
     "Shine rmx"
    ],
-   "nota": "*«Harder è un alias di Provenzano»*, detto da lui il 01/09/2026. ⭐ Il più recente e il meno noto: nasce nel 2016, quindici anni dopo tutti gli altri, e vive solo dentro Metropolitan Recordings. Amerigo se n'è ricordato guardando lo schermo di un lettore — «mi sono ricordato di questo alias Harder» — e pensava di avere fatto una sola uscita: sono quattro. ⚠️ Ne era spuntata una quinta, «Swayzak — Speak Easy (Harder Mix)» del 2017 su 240 Volts, che Beatport mette sotto lo stesso id artista: non è sua, l'ha escluso Amerigo il 01/09/2026 con un secco «no» dopo averla ascoltata dal link del DJ pool. ⭐ È un omonimo, e Beatport ha unito due artisti diversi sotto lo stesso nome: l'indizio c'era già ed era l'ISRC britannico «UKJR» contro il «DEAR» di tutte le altre. 2016–2019"
+   "nota": "*«Harder è un alias di Provenzano»*, detto da lui il 01/09/2026. ⭐ Il più recente e il meno noto: nasce nel 2018, quindici anni dopo gli altri alias, e vive solo dentro Metropolitan Recordings. Amerigo se n'è ricordato guardando lo schermo di un lettore — «mi sono ricordato di questo alias Harder» — e pensava di avere fatto una sola uscita: sono tre. ⚠️ Ne erano spuntate cinque, e due sono state tolte lo stesso giorno. «Swayzak — Speak Easy (Harder Mix)», 2017 su 240 Volts, è di un omonimo: Beatport la metteva sotto lo stesso id artista, ma l'ISRC è britannico «UKJR» contro il «DEAR» di tutte le altre, e Amerigo l'ha esclusa dopo l'ascolto. «Dark Time», 2016, l'ha tolta lui il 01/09/2026 — *«questo Dark Time 2016 un po' mi puzza»*, poi *«togliamo quella, rimaniamo con tre che sono certe»*: era l'unica techno di tutta la discografia e arrivava due anni prima delle altre. ⚠️ Non è un errore dimostrato, è una scelta di prudenza: Discogs e Beatport la davano sotto lo stesso identico artista delle altre e sulla stessa etichetta italiana. Se un giorno la riconosce, si rimette — il file sta su Selected Recs, release #990397. 2018–2019"
   },
   {
    "nome": "Hard Dance Style",
@@ -9402,7 +9369,7 @@
    "remix": 0
   },
   "2016": {
-   "singoli": 6,
+   "singoli": 5,
    "remix": 2
   },
   "2015": {
@@ -9475,10 +9442,10 @@
   }
  },
  "totali": {
-  "singoli": 124,
+  "singoli": 123,
   "remix": 83,
   "inediti": 34,
-  "con_copertina": 188,
+  "con_copertina": 187,
   "con_video": 46,
   "con_spotify": 69,
   "con_soundcloud": 22,
