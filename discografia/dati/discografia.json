@@ -73,6 +73,10 @@
     13
    ],
    [
+    2008,
+    12
+   ],
+   [
     2015,
     12
    ],
@@ -81,12 +85,8 @@
     11
    ],
    [
-    2008,
-    11
-   ],
-   [
     2009,
-    11
+    10
    ],
    [
     2014,
@@ -6935,13 +6935,16 @@
    "slug": "be-angel-don-t-close-your-eyes",
    "artista": "Be Angel",
    "titolo": "Don't Close Your Eyes",
-   "versioni": [],
+   "versioni": [
+    "Radio Cut",
+    "Extended Remix"
+   ],
    "data": null,
    "anno": 2006,
    "data_esatta": false,
    "firma": "Provenzano & Promise Land",
    "etichetta": "Respiri Digitali",
-   "nota": "ritrovata nel database delle compilation, stampata su m2o vol.12; anno non confermato. ⭐ Etichetta trovata il 01/09/2026 nello stesso giro di *Child*: il remix sta su No More Angels On Planet Earth Episode 02 — Essential Remixes, Respiri Digitali RD 015, 2009, doppio CD di soli remix del catalogo Be Angel, CD2 traccia 6. ⚠️ Due tracce dopo c'è un Don't Close Your Eyes, Sander Remix: la loro è la 2-06",
+   "nota": "riga completata il 01/09/2026 incrociando Discogs col database delle compilation. ⭐ Non è solo una traccia da compilation: ha un singolo suo, Respiri Digitali RD 007, 2006, dove le loro sono due versioni — «Provenzano + Promiseland Radio Cut» alla 3 e «Provenzano + Promiseland Extended Remix» alla 4, Discogs 1336994. Gira poi su m2o vol.12 e sul doppio No More Angels On Planet Earth Episode 02 — Essential Remixes, Respiri Digitali RD 015, 2009, traccia 2-06, dove due tracce dopo c'è un Sander Remix dello stesso brano: la loro è la 2-06",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [
@@ -6965,7 +6968,7 @@
     "file": "cop/be-angel-don-t-close-your-eyes.jpg"
    },
    "inedito": false,
-   "anno_incerto": true,
+   "anno_incerto": false,
    "foto": [],
    "nota_pubblica": null
   },
@@ -7014,13 +7017,16 @@
    "slug": "be-angel-feat-dee-bee-say-you-love-me",
    "artista": "Be Angel feat. Dee Bee",
    "titolo": "Say You Love Me",
-   "versioni": [],
+   "versioni": [
+    "Rmx",
+    "Radio Cut"
+   ],
    "data": null,
    "anno": 2007,
    "data_esatta": false,
    "firma": "Provenzano & Promise Land",
    "etichetta": "Respiri Digitali",
-   "nota": "⭐ Etichetta trovata il 01/09/2026, aprendo il doppio dei remix Be Angel mentre si staccava *Child*: la casella era vuota. Il remix sta su No More Angels On Planet Earth Episode 02 — Essential Remixes, Respiri Digitali RD 015, 2009, doppio CD di soli remix del catalogo Be Angel, CD2 traccia 4. Gira anche su m2o vol.15, 2007, e su un proprio singolo Respiri Digitali con due versioni, Rmx e Radio Cut",
+   "nota": "⭐ Etichetta trovata il 01/09/2026, aprendo il doppio dei remix Be Angel mentre si staccava *Child*: la casella era vuota. Il titolo per esteso è «Say You Love Me, L'Estate Del Mio Cuore», singolo Respiri Digitali RD 010, 2007, Discogs 3103948: le loro sono due versioni, «Provenzano+Promiseland Rmx» alla 4 e «Provenzano+Promiseland Radio Cut» alla 5. ⭐ È il remix Be Angel che ha girato di più: m2o vol.15, m2o vol.30, DJ Zone 48 — Dance Session 21 su Time Records, e il doppio No More Angels On Planet Earth Episode 02 — Essential Remixes, Respiri Digitali RD 015, 2009 alla 2-04",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [
@@ -7184,6 +7190,35 @@
      "slug": "s-p-w-t-wash-the-floor"
     }
    ],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": null,
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "remix",
+   "slug": "be-angel-child",
+   "artista": "Be Angel",
+   "titolo": "Child",
+   "versioni": [],
+   "data": null,
+   "anno": 2008,
+   "data_esatta": false,
+   "firma": "Provenzano & Promise Land",
+   "etichetta": "Respiri Digitali",
+   "nota": "⭐ Staccata da Sunshine il 01/09/2026, su domanda di Amerigo — «Be Angel Child, Provenzano & Promiseland Remix, è inserito questo?». C'era, ma appiccicata a un'altra uscita, e senza una pagina sua sul sito. Sta su No More Angels On Planet Earth Episode 02 — Essential Remixes, Respiri Digitali RD 015, 2009, CD1 traccia 3, Discogs 3121195. ⚠️ L'anno è il 2008, non il 2009, corretto lo stesso giorno: la prima stampa non è quel doppio ma Hit Mania Club Dance Volume 9, Magika, 2008, traccia 16 — il doppio Respiri Digitali è dell'anno dopo e raccoglie remix già usciti. ⚠️ Sullo stesso doppio c'è anche un Child firmato Mark Angel alla 2-09: la loro è quella del CD1",
+   "escluso": false,
+   "sezione": "Remix",
+   "in_compilation": [],
+   "artista_diverso": [],
+   "versioni_uscita": [],
    "spotify": null,
    "video": null,
    "video_altri": [],
@@ -7519,15 +7554,15 @@
    "artista": "Be Angel",
    "titolo": "Sunshine",
    "versioni": [
-    "Provenzano + Promiseland Radio",
-    "Extended"
+    "Radio 4:45",
+    "Extended 9:45"
    ],
    "data": null,
    "anno": 2009,
    "data_esatta": false,
    "firma": "Provenzano & Promise Land",
    "etichetta": "Respiri Digitali",
-   "nota": "⚠️ Riga sdoppiata il 01/09/2026: fino a quel giorno diceva «Sunshine / Child» e teneva due remix diversi su due dischi diversi dentro una casella sola. Se n'è accorto Amerigo chiedendo se *Child* fosse in database. Questa è Sunshine, EP di sei tracce su Respiri Digitali, Discogs 9091404: le loro sono la Provenzano + Promiseland Radio 4:45 e la Extended 9:45; le altre quattro sono le due originali, un Emi L Rmx e una WMP Vrs",
+   "nota": "⚠️ Riga sdoppiata il 01/09/2026: fino a quel giorno diceva «Sunshine / Child» e teneva due remix diversi su due dischi diversi dentro una casella sola. Se n'è accorto Amerigo chiedendo se *Child* fosse in database. Questa è Sunshine, EP di sei tracce su Respiri Digitali, Discogs 9091404: le loro sono la Radio 4:45 e la Extended 9:45; le altre quattro sono le due originali, un Emi L Rmx e una WMP Vrs. ⭐ È l'unico dei quattro remix Be Angel che non entra nel doppio RD 015, uscito lo stesso anno",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [],
@@ -7543,35 +7578,6 @@
     "tipo": "propria",
     "file": "cop/be-angel-sunshine.jpg"
    },
-   "inedito": false,
-   "anno_incerto": false,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "remix",
-   "slug": "be-angel-child",
-   "artista": "Be Angel",
-   "titolo": "Child",
-   "versioni": [],
-   "data": null,
-   "anno": 2009,
-   "data_esatta": false,
-   "firma": "Provenzano & Promise Land",
-   "etichetta": "Respiri Digitali",
-   "nota": "⭐ Staccata da Sunshine il 01/09/2026, su domanda di Amerigo — «Be Angel Child (Provenzano & Promiseland Remix) è inserito questo?». C'era, ma appiccicato a un'altra uscita. Sta su No More Angels On Planet Earth Episode 02 — Essential Remixes, Respiri Digitali RD 015, 2009, doppio CD di soli remix del catalogo Be Angel, CD1 traccia 3, come «Child (Provenzano & Promiseland Remix)», Discogs 3121195. ⚠️ Sullo stesso doppio c'è anche un Child, Mark Angel Remix alla traccia 2-09: la loro è quella del CD1",
-   "escluso": false,
-   "sezione": "Remix",
-   "in_compilation": [],
-   "artista_diverso": [],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": null,
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": null,
    "inedito": false,
    "anno_incerto": false,
    "foto": [],
@@ -9269,11 +9275,11 @@
   },
   "2009": {
    "singoli": 3,
-   "remix": 8
+   "remix": 7
   },
   "2008": {
    "singoli": 4,
-   "remix": 7
+   "remix": 8
   },
   "2007": {
    "singoli": 8,
