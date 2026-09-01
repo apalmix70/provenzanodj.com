@@ -85,11 +85,11 @@
     11
    ],
    [
-    2014,
-    10
+    2018,
+    11
    ],
    [
-    2018,
+    2014,
     10
    ]
   ],
@@ -9118,6 +9118,43 @@
   },
   {
    "tipo": "remix",
+   "slug": "margherita-cecchi-shine",
+   "artista": "Margherita Cecchi",
+   "titolo": "Shine",
+   "versioni": [],
+   "data": "2018-12-16",
+   "anno": 2018,
+   "data_esatta": true,
+   "firma": "Harder",
+   "etichetta": "Metropolitan Recordings",
+   "nota": "trovata il 01/09/2026 sull'API di Beatport, artista Harder id 129432, e completata sul DJ pool Selected Recs. House, 125 bpm, Re diesis maggiore, 6:04, ISRC DEAR41977046. ⚠️ La data è il 16 dicembre 2018, non il 25 febbraio 2019 che dà Beatport: la prima stampa è il singolo Metropolitan Promos — Selected Recs #2109096 — e il 2019 è la riedizione su Metropolitan Recordings. È lo stesso schema di *Something About Love*, promo nel 2018 e recording nel 2019: su questa etichetta Beatport data la ristampa, non l'uscita. ⭐ L'originale di Margherita Cecchi è del luglio 2018 (Selected Recs #1930046, 6:47): il remix arriva cinque mesi dopo, e questo chiude la domanda di Amerigo se il pezzo fosse «fatto insieme» — no, c'era già. Sullo stesso brano esiste anche un Da-Moog Remix del 2019. ⚠️ Il primo file caricato su SoundCloud era l'originale, non il suo: era stato preso da «Metropolitan 10 Years», dove la traccia si chiama solo «Shine» ed è la Original Mix. Amerigo l'ha risostituito il 01/09/2026 sulla stessa traccia — la verifica è la durata, 6:04 contro i 6:47 dell'originale. ⭐ Margherita Cecchi non è solo l'artista remixata: è una collaboratrice ricorrente di Fond8, l'altro nome su *Something About Love*",
+   "escluso": false,
+   "sezione": "Remix",
+   "in_compilation": [],
+   "artista_diverso": [],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2392581939",
+    "secret": "s-hK6zMtOIkG0",
+    "cosa": "il remix intero",
+    "perche": "caricato da Amerigo sul suo profilo il 01/09/2026, traccia privata, link corto on.soundcloud.com/CLamd1qjh4mattl8ym che risolve su soundcloud.com/provenzano_official/margherita-cecchi-harder-shine/s-hK6zMtOIkG0. Titolo sul profilo: «Margherita Cecchi, Harder - Shine (Harder Remix)». Il file viene dal DJ pool **Selected Recs**, dove il remix sta dentro «VA - Metropolitan 10 Years» del 2020: su Spotify e in giro non c'e'."
+   },
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "propria",
+    "file": "cop/margherita-cecchi-shine.jpg"
+   },
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "remix",
    "slug": "joe-berte-daniel-tek-el-3mendo-bailando",
    "artista": "Joe Berte', Daniel Tek, El 3mendo",
    "titolo": "Bailando",
@@ -9154,43 +9191,6 @@
    "inedito": false,
    "anno_incerto": false,
    "data_da_compilation": true,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "remix",
-   "slug": "margherita-cecchi-shine",
-   "artista": "Margherita Cecchi",
-   "titolo": "Shine",
-   "versioni": [],
-   "data": "2019-02-25",
-   "anno": 2019,
-   "data_esatta": true,
-   "firma": "Harder",
-   "etichetta": "Metropolitan Recordings",
-   "nota": "trovata il 01/09/2026 sull'API di Beatport, artista Harder id 129432. ⚠️ Traxsource risponde 403 e non si è potuto guardare; Beatport invece ha dato tutto, ISRC compresi. House, 125 bpm, Re diesis maggiore, 6:04, ISRC DEAR41977046. Ripreso su «Miami Selection», 24/06/2019. ⭐ Margherita Cecchi è dentro lo stesso giro: non è solo l'artista remixata, è anche una collaboratrice ricorrente di Fond8 — ha remixato «Touch Me» per loro nel 2017",
-   "escluso": false,
-   "sezione": "Remix",
-   "in_compilation": [],
-   "artista_diverso": [],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": null,
-   "video_altri": [],
-   "soundcloud": {
-    "url": "https://api.soundcloud.com/tracks/2392581939",
-    "secret": "s-hK6zMtOIkG0",
-    "cosa": "il remix intero",
-    "perche": "caricato da Amerigo sul suo profilo il 01/09/2026, traccia privata, link corto on.soundcloud.com/CLamd1qjh4mattl8ym che risolve su soundcloud.com/provenzano_official/margherita-cecchi-harder-shine/s-hK6zMtOIkG0. Titolo sul profilo: «Margherita Cecchi, Harder - Shine (Harder Remix)». Il file viene dal DJ pool **Selected Recs**, dove il remix sta dentro «VA - Metropolitan 10 Years» del 2020: su Spotify e in giro non c'e'."
-   },
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "propria",
-    "file": "cop/margherita-cecchi-shine.jpg"
-   },
-   "inedito": false,
-   "anno_incerto": false,
    "foto": [],
    "nota_pubblica": null
   }
@@ -9366,11 +9366,11 @@
   },
   "2019": {
    "singoli": 4,
-   "remix": 1
+   "remix": 0
   },
   "2018": {
    "singoli": 8,
-   "remix": 2
+   "remix": 3
   },
   "2017": {
    "singoli": 6,
