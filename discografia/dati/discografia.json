@@ -849,19 +849,24 @@
    "data": null,
    "anno": 2004,
    "data_esatta": false,
-   "con": [
-    "voce EMI"
-   ],
+   "con": [],
    "firma": "m2o's team",
    "etichetta": null,
-   "nota": "l'intro della compilation m2o Vol. 6; è la versione vecchia, quella del 2022 a suo nome è un'altra uscita",
+   "nota": "⚠️ «, voce EMI» tolto dalla colonna il 01/09/2026. Da quel giorno EMI è dentro l'alias — m2o's team sono Provenzano, Nick, Davide Farra e lei — e chi c'è dentro un nome si dice nella riga d'alias, non nel credito: è la regola fissata sullo stesso giorno su *Stress On The Mountain*. Che sia lei a cantare resta scritto nella nota della pagina — l'intro della compilation m2o Vol. 6; è la versione vecchia, quella del 2022 a suo nome è un'altra uscita",
    "escluso": false,
    "da_guardare": false,
    "sezione": "1992 → 2009",
    "in_compilation": [],
    "versioni_uscita": [],
    "spotify": null,
-   "video": null,
+   "video": {
+    "youtube": "GLkT1Bx4FXo",
+    "tipo": "ufficiale",
+    "canale": "Davide Farra",
+    "titolo": "Le Canzoni Dell'Estate",
+    "verticale": false,
+    "formato": null
+   },
    "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
@@ -873,7 +878,10 @@
    "inedito": false,
    "anno_incerto": false,
    "foto": [],
-   "nota_pubblica": null
+   "nota_pubblica": {
+    "forte": null,
+    "testo": "Sta in apertura di **m2o vol.6**, dove nasce come **l'intro della compilation**: è il successo che ha avuto a trasformarla in una canzone. La voce è di **EMI**."
+   }
   },
   {
    "tipo": "produzione",
@@ -9477,11 +9485,11 @@
   {
    "nome": "m2o's team",
    "slug": "m2o-s-team",
-   "cosa": "⛔ non è un alias: è la redazione della radio. Firma l'intro del vol.6, *Le Canzoni Dell'Estate*, con la voce di EMI. Sta in mappa con la lista vuota, che vuol dire *deciso che la riga d'alias non ci va*",
+   "cosa": "Provenzano + Nick + Davide Farra + EMI, che canta",
    "uscite": [
     "Le Canzoni Dell'Estate"
    ],
-   "nota": "e non *non si sa chi c'era dentro*. 2004"
+   "nota": "*«m2o's team era formato da provenzano dj, nick, davide farra ed Emi che ha cantato il brano»*, Amerigo 01/09/2026, e poi *«di fatto m2o's team è un alias»*. ⚠️ Poche ore prima era scritto qui come ‹non è un alias, è la redazione della radio›, con la lista vuota: era una deduzione dal nome, e il nome diceva il falso. Non sono i ventiquattro speaker di m2o, sono quattro persone con nome e cognome. ⭐ È la stessa lezione di *Glideness* e di *It's True*: una voce che sembra chiusa non lo è finché non gliel'hai chiesta. ⚠️ Di ‹Nick› manca il cognome: potrebbe essere Nick Peloso, che firma il remix di *Canzoni Dell'Estate 2022*, ma è un'ipotesi da confermare. 2004"
   },
   {
    "nome": "Glideness",
@@ -9612,7 +9620,7 @@
   "remix": 82,
   "inediti": 34,
   "con_copertina": 188,
-  "con_video": 46,
+  "con_video": 47,
   "con_spotify": 70,
   "con_soundcloud": 24,
   "con_traxsource": 1,
