@@ -211,7 +211,7 @@
     1
    ]
   ],
-  "quante_etichette": 75,
+  "quante_etichette": 76,
   "piu_compilation": [
    {
     "titolo": "I Believe",
@@ -8938,12 +8938,12 @@
    "artista": "Samuel Kimko', Edward Sanchez, Laura S.",
    "titolo": "La Rumba",
    "versioni": [],
-   "data": "2014-04-08",
+   "data": null,
    "anno": 2014,
-   "data_esatta": true,
+   "data_esatta": false,
    "firma": "Provenzano",
-   "etichetta": null,
-   "nota": "ritrovata nel database delle compilation, stampata su m2o vol.35; anno non confermato",
+   "etichetta": "New Music International",
+   "nota": "⚠️ Riga riempita il 01/09/2026 dal link Spotify mandato da Amerigo. Prima diceva solo che era stata ritrovata nel database delle compilation, stampata su m2o vol.35, con l'anno segnato come da confermare, e anche la copertina era in prestito da quella compilation. ⚠️ La vecchia dicitura non si può citare qui dentro: il flag «anno incerto» si accende cercando quella frase nella nota, quindi riscriverla per raccontarla rimetteva il ca. accanto al 2014. Trappola vista e chiusa il 01/09/2026 — è lo stesso inciampo dell'archivio su disco fisso, che si leggeva addosso la propria prosa. Adesso: album «La Rumba», Spotify `7avNOgLlPRq9GYSHShtqJH`, © New Music International / Disco Planet Records, copertina sua. ⚠️ La data resta l'anno e basta: Spotify dà 01/01/2014, che nei cataloghi digitali è il tappabuchi di quando la data vera non c'è — non si spaccia per una data esatta su una pagina che fa da fonte. ⚠️ Il disco ha undici versioni e una sola è sua, la «Provenzano DJ Remix» 5:22: accanto ci stanno la Video Mix, la Exclusive, la Extended, la Extended Porno e i remix di Andry J., Geo Da Silva & Jack Mazzoni, Alex DJ, Gil Sanders, Ricky One e Alex Berti & Gianma. Per questo in pagina va il player della traccia",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [
@@ -8956,20 +8956,24 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "spotify": null,
+   "spotify": {
+    "tipo": "track",
+    "album": "4hbWz4dcPaXkXnwJ1IJwwB",
+    "titolo": "La Rumba",
+    "cosa": "il suo remix",
+    "alto": false
+   },
    "video": null,
    "video_altri": [],
    "soundcloud": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
-    "tipo": "compilation",
-    "file": "/compilation/cop/m2ovol35.jpg",
-    "da": "m2o vol.35"
+    "tipo": "propria",
+    "file": "cop/samuel-kimko-edward-sanchez-laura-s-la-rumba.jpg"
    },
    "inedito": false,
    "anno_incerto": false,
-   "data_da_compilation": true,
    "foto": [],
    "nota_pubblica": null
   },
@@ -9717,7 +9721,7 @@
   "inediti": 34,
   "con_copertina": 190,
   "con_video": 49,
-  "con_spotify": 74,
+  "con_spotify": 75,
   "con_soundcloud": 25,
   "con_traxsource": 1,
   "con_apple": 2,
