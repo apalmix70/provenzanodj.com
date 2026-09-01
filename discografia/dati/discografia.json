@@ -31,6 +31,10 @@
     4
    ],
    [
+    "Net's Work International",
+    4
+   ],
+   [
     "Bang Record",
     4
    ],
@@ -44,10 +48,6 @@
    ],
    [
     "Jump Records",
-    3
-   ],
-   [
-    "Net's Work International",
     3
    ]
   ],
@@ -7680,6 +7680,58 @@
   },
   {
    "tipo": "remix",
+   "slug": "bingo-players-dan-thony-i-will-follow",
+   "artista": "Bingo Players, Dan'thony",
+   "titolo": "I Will Follow",
+   "versioni": [],
+   "data": "2009-11-19",
+   "anno": 2009,
+   "data_esatta": true,
+   "firma": "Provenzano, Pelusi & Ranucci",
+   "etichetta": "Net's Work International",
+   "nota": "⚠️ Riga riempita il 01/09/2026: prima aveva solo «anno non confermato» ed era stata ritrovata nel database delle compilation, stampata su m2o vol.22. Amerigo ha mandato il link Spotify e la data è uscita esatta: 19/11/2009, single «I Will Follow — Theme Fit for Free Dance Parade», Spotify `7HJt8zQlr3VmamQFMU0kqQ`, © Net's Work & Songs Srl. ⚠️ Il disco ha cinque tracce e solo una è loro: Radio Mix, Original Mix, Ranucci, Pelusi, Provenzano Remix 7:16, Alex Colle & Dino Barretta Remix, Instrumental. Per questo in pagina va il player della traccia e non dell'album. ⚠️ L'etichetta è quella dell'edizione italiana, NWI 483, confermata su Discogs; l'originale olandese è su Sneakerz Muzik e in Germania esce su Uptunes. Il copyright Spotify dice «Net's Work & Songs Srl», che è la società dietro l'etichetta. Copertina presa da Spotify lo stesso giorno, su sua indicazione",
+   "escluso": false,
+   "sezione": "Remix",
+   "in_compilation": [
+    {
+     "slug": "m2ovol22",
+     "titolo": "m2o vol.22",
+     "anno": 2009,
+     "come": "I Will Follow (Theme Fit For Free Dance Parade) (Ranucci, Pelusi, Provenzano DJ Remix)"
+    }
+   ],
+   "artista_diverso": [],
+   "versioni_uscita": [],
+   "spotify": {
+    "tipo": "track",
+    "album": "4oFTYXUVvozJpz9hZH9Waq",
+    "titolo": "I Will Follow",
+    "cosa": "il loro remix",
+    "alto": false
+   },
+   "video": {
+    "youtube": "KZbbZ346rcY",
+    "tipo": "audio",
+    "canale": null,
+    "titolo": "I Will Follow",
+    "verticale": false,
+    "formato": null
+   },
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "propria",
+    "file": "cop/bingo-players-dan-thony-i-will-follow.jpg"
+   },
+   "inedito": false,
+   "anno_incerto": true,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "remix",
    "slug": "axwell-ingrosso-angello-laidback-luke-feat-deborah-cox-leave-the-world-behind",
    "artista": "Axwell / Ingrosso / Angello / Laidback Luke feat. Deborah Cox",
    "titolo": "Leave The World Behind",
@@ -7753,47 +7805,6 @@
    },
    "inedito": false,
    "anno_incerto": false,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "remix",
-   "slug": "bingo-players-dan-thony-i-will-follow",
-   "artista": "Bingo Players, Dan'thony",
-   "titolo": "I Will Follow",
-   "versioni": [],
-   "data": "2009-10-30",
-   "anno": 2009,
-   "data_esatta": true,
-   "firma": "Provenzano, Pelusi & Ranucci",
-   "etichetta": null,
-   "nota": "ritrovata nel database delle compilation, stampata su m2o vol.22; anno non confermato",
-   "escluso": false,
-   "sezione": "Remix",
-   "in_compilation": [
-    {
-     "slug": "m2ovol22",
-     "titolo": "m2o vol.22",
-     "anno": 2009,
-     "come": "I Will Follow (Theme Fit For Free Dance Parade) (Ranucci, Pelusi, Provenzano DJ Remix)"
-    }
-   ],
-   "artista_diverso": [],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": null,
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "compilation",
-    "file": "/compilation/cop/m2ovol22.jpg",
-    "da": "m2o vol.22"
-   },
-   "inedito": false,
-   "anno_incerto": false,
-   "data_da_compilation": true,
    "foto": [],
    "nota_pubblica": null
   },
@@ -9648,8 +9659,8 @@
   "remix": 82,
   "inediti": 34,
   "con_copertina": 188,
-  "con_video": 48,
-  "con_spotify": 71,
+  "con_video": 49,
+  "con_spotify": 72,
   "con_soundcloud": 24,
   "con_traxsource": 1,
   "con_apple": 2,
