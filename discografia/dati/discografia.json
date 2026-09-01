@@ -4933,7 +4933,11 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/944307334",
+    "cosa": "l'Ashmere Remix, dal profilo ufficiale di Fond8",
+    "perche": "scelto da Amerigo il 01/09/2026 — «usa questa versione» — dal profilo **Fond8** su SoundCloud, soundcloud.com/fond8/something-about-love-ashmere. ⚠️ **E' una traccia pubblica di terzi, non un suo caricamento**, ed e' l'unico caso finora: gli altri player SoundCloud della discografia sono tracce private caricate da lui. Regge perche' e' **il canale ufficiale dell'altro nome sul disco**, non un fan upload. ⚠️ **In pagina si sente l'Ashmere Remix, non la versione loro**: la didascalia lo dice, perche' un player che non lo dichiara fa credere che il pezzo sia quello. La versione originale Fond8 & Harder sul profilo di Fond8 non c'e'; Amerigo ne ha il WAV in `D:\\MUSIC`, e se un giorno la carica questa voce si sostituisce."
+   },
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -9452,7 +9456,7 @@
   "con_copertina": 187,
   "con_video": 46,
   "con_spotify": 69,
-  "con_soundcloud": 22,
+  "con_soundcloud": 23,
   "con_traxsource": 1,
   "con_apple": 2,
   "in_compilation": 117,
