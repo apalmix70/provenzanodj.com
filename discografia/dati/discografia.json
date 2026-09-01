@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-08-31",
+ "aggiornato": "2026-09-01",
  "numeri": {
   "etichette": [
    [
@@ -23,15 +23,19 @@
     4
    ],
    [
+    "Go Dooria Records",
+    4
+   ],
+   [
     "Bang Record",
     4
    ],
    [
-    "Jump Records",
-    3
+    "Magika",
+    4
    ],
    [
-    "Go Dooria Records",
+    "Jump Records",
     3
    ],
    [
@@ -45,36 +49,40 @@
    [
     "Net's Work International",
     2
-   ],
-   [
-    "Netswork",
-    2
    ]
   ],
   "anni": [
    [
     2012,
+    17
+   ],
+   [
+    2005,
     16
+   ],
+   [
+    2006,
+    15
    ],
    [
     2013,
     15
    ],
    [
-    2005,
-    12
-   ],
-   [
     2015,
     12
    ],
    [
-    2011,
+    2007,
     11
    ],
    [
-    2007,
-    10
+    2008,
+    11
+   ],
+   [
+    2011,
+    11
    ],
    [
     2009,
@@ -83,14 +91,6 @@
    [
     2014,
     10
-   ],
-   [
-    2018,
-    10
-   ],
-   [
-    2006,
-    9
    ]
   ],
   "decadi": [
@@ -100,11 +100,11 @@
    ],
    [
     2000,
-    56
+    69
    ],
    [
     2010,
-    94
+    95
    ],
    [
     2020,
@@ -179,6 +179,18 @@
     2
    ],
    [
+    "Promise Land",
+    2
+   ],
+   [
+    "Afterclub",
+    2
+   ],
+   [
+    "Danijay",
+    2
+   ],
+   [
     "Be Angel",
     2
    ],
@@ -196,18 +208,6 @@
    ],
    [
     "Enrico Sognato",
-    1
-   ],
-   [
-    "Mauro Bandini",
-    1
-   ],
-   [
-    "Liotti",
-    1
-   ],
-   [
-    "I Ragazzi Di Macao",
     1
    ]
   ],
@@ -1526,7 +1526,7 @@
    "con": [],
    "firma": "Blastaar",
    "etichetta": null,
-   "nota": "inedito per le compilation: mai uscito a sé, stampato su m2o vol.14 e [Jump]² The Dancefloor Vol. 4",
+   "nota": "inedito per le compilation: mai uscito a sé, stampato su m2o vol.14 e [Jump]² The Dancefloor Vol. 4. ⭐ Il 01/09/2026 se ne sono trovate altre due sull'API Discogs: Hit Mania Club Dance Volume 6, Magika MGK 096CD 2007, traccia 11 — dove alla 17 c'è anche il suo remix Blastaar per Chiara Robiony — e DJ Selection 131 — Dance Invasion Vol. 36, Do It Yourself, 2007. Sono quattro compilation per un pezzo mai uscito da solo",
    "escluso": false,
    "da_guardare": false,
    "sezione": "1992 → 2009",
@@ -6459,6 +6459,122 @@
   },
   {
    "tipo": "remix",
+   "slug": "dj-nick-hearts-entwine",
+   "artista": "DJ Nick",
+   "titolo": "Hearts Entwine",
+   "versioni": [],
+   "data": null,
+   "anno": 2005,
+   "data_esatta": false,
+   "firma": "Hard Dance Style",
+   "etichetta": "Go Dooria Records",
+   "nota": "trovata il 01/09/2026 sull'API Discogs. ⭐ Riedizione Hard Dance Style, l'alias con Promise Land: nasce per la radio e per le serate, e questa è uscita per davvero. Vale la regola fissata da Amerigo il 01/09/2026 — in discografia entra solo quello che è stato stampato. ⭐ È l'unica della serie ad avere un disco suo, e non solo un posto in compilation: CDr Single Go Dooria Records GDR 0523, Italia 2005, barcode 8 019991 859162, sei tracce — e due sono loro, «Hard Dance Style Cut» 3:50 e «Hard Dance Style Extended» 6:41, accreditate «Promiseland e Provenzano DJ — Arranged By, Mixed By». Le altre versioni sono di David Bacon. Sta anche su «Go Dooria Juice Ep 02», 2005; sull'«Altromondo Compilation Estate 2005», Melodica; e sulla «Hard Dance Compilation», Magika, 2006, traccia 6. Autori del brano Davide Pignataro e Nicola Peloso",
+   "escluso": false,
+   "sezione": "Remix",
+   "in_compilation": [],
+   "artista_diverso": [],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": null,
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "remix",
+   "slug": "roby-rossini-and-maverick-future-mind",
+   "artista": "Roby Rossini & Maverick",
+   "titolo": "Future Mind",
+   "versioni": [],
+   "data": null,
+   "anno": 2005,
+   "data_esatta": false,
+   "firma": "Hard Dance Style",
+   "etichetta": null,
+   "nota": "trovata il 01/09/2026 sull'API Discogs. ⭐ Riedizione Hard Dance Style, l'alias con Promise Land: nasce per la radio e per le serate, e questa è uscita per davvero. Vale la regola fissata da Amerigo il 01/09/2026 — in discografia entra solo quello che è stato stampato. Sull'«Altromondo Compilation Estate 2005», Melodica; e sulla «Hard Dance Compilation», Magika MGK056/CD, 2006, traccia 15. Crediti di traccia «Promiseland — Remix» e «Provenzano DJ — Remix», con Maverick alla voce. Autori Alessandro Bianco e Roberto Paesani",
+   "escluso": false,
+   "sezione": "Remix",
+   "in_compilation": [],
+   "artista_diverso": [],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": null,
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "remix",
+   "slug": "promise-land-live-your-life",
+   "artista": "Promise Land",
+   "titolo": "Live Your Life",
+   "versioni": [],
+   "data": null,
+   "anno": 2005,
+   "data_esatta": false,
+   "firma": "Hard Dance Style",
+   "etichetta": null,
+   "nota": "trovata il 01/09/2026 sull'API Discogs. ⭐ Riedizione Hard Dance Style, l'alias con Promise Land: nasce per la radio e per le serate, e questa è uscita per davvero. Vale la regola fissata da Amerigo il 01/09/2026 — in discografia entra solo quello che è stato stampato, e qui il brano rifatto è dei Promise Land stessi: autori Fabio Ranucci e Nazario Pelusi. Su «DJ Zone 04 — Dance Session 02», TIME Records, 2005, traccia 10 come «Hard Dance Style Extended»; sulla «Danceteque Compilation», Media Records, 2005, traccia 11; e su «Super Italia — Future Sounds Of Italo Dance Vol. 17», Universal / High N-R-G, 2005, traccia 9 nella versione «Hard Dance Style Radio»",
+   "escluso": false,
+   "sezione": "Remix",
+   "in_compilation": [],
+   "artista_diverso": [],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": null,
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "remix",
+   "slug": "gigi-d-agostino-wellfare",
+   "artista": "Gigi D'Agostino",
+   "titolo": "Wellfare",
+   "versioni": [],
+   "data": null,
+   "anno": 2005,
+   "data_esatta": false,
+   "firma": "Hard Dance Style",
+   "etichetta": null,
+   "nota": "trovata il 01/09/2026 sull'API Discogs. ⭐ Riedizione Hard Dance Style, l'alias con Promise Land: nasce per la radio e per le serate, e questa è uscita per davvero. Vale la regola fissata da Amerigo il 01/09/2026 — in discografia entra solo quello che è stato stampato. ⭐ È il pezzo grosso della serie: un remix di Gigi D'Agostino stampato su m2o vol.9, cioè su una compilation mixata da lui, alla traccia 8. Torna poi sulla «Hard Dance Compilation», Magika MGK056/CD, 2006, traccia 7, e sul vol.30 di m2o. Crediti di traccia «Promiseland — Remix» e «Provenzano DJ — Remix», con Diana J alla voce non accreditata. Autori Gigi D'Agostino, Carlo Montagner e Diego Leoni",
+   "escluso": false,
+   "sezione": "Remix",
+   "in_compilation": [],
+   "artista_diverso": [],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": null,
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "remix",
    "slug": "roberto-molinaro-red-code",
    "artista": "Roberto Molinaro",
    "titolo": "Red Code",
@@ -6507,7 +6623,7 @@
    "data": null,
    "anno": 2006,
    "data_esatta": false,
-   "firma": "Hard Dance Style Rmx",
+   "firma": "Hard Dance Style",
    "etichetta": "Universo",
    "nota": null,
    "escluso": false,
@@ -6532,6 +6648,180 @@
     "tipo": "propria",
     "file": "cop/sophie-c-est-l-amour.jpg"
    },
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "remix",
+   "slug": "afterclub-gigi-s-violin",
+   "artista": "Afterclub",
+   "titolo": "Gigi's Violin",
+   "versioni": [],
+   "data": null,
+   "anno": 2006,
+   "data_esatta": false,
+   "firma": "Hard Dance Style",
+   "etichetta": null,
+   "nota": "trovata il 01/09/2026 sull'API Discogs. ⭐ Riedizione Hard Dance Style, l'alias con Promise Land: nasce per la radio e per le serate, e questa è uscita per davvero. Vale la regola fissata da Amerigo il 01/09/2026 — in discografia entra solo quello che è stato stampato. Su «[Jump]² The Dancefloor Vol. 2», Fast Records, 2006, apre il secondo CD; e sulla «Hard Dance Compilation», Magika MGK056/CD, 2006, traccia 10. Crediti di traccia «Promiseland — Remix» e «Provenzano DJ — Remix». Il brano originale è firmato Gigi D'Agostino",
+   "escluso": false,
+   "sezione": "Remix",
+   "in_compilation": [],
+   "artista_diverso": [],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": null,
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "remix",
+   "slug": "afterclub-i-ll-be-missing-you",
+   "artista": "Afterclub",
+   "titolo": "I'll Be Missing You",
+   "versioni": [],
+   "data": null,
+   "anno": 2006,
+   "data_esatta": false,
+   "firma": "Hard Dance Style",
+   "etichetta": null,
+   "nota": "trovata il 01/09/2026 sull'API Discogs. ⭐ Riedizione Hard Dance Style, l'alias con Promise Land: nasce per la radio e per le serate, e questa è uscita per davvero. Vale la regola fissata da Amerigo il 01/09/2026 — in discografia entra solo quello che è stato stampato. Su «[Jump]² The Dancefloor Vol. 3», Fast Records, 2006; e su «Mania Italia Sei», EMI, 2006. Crediti di traccia «Promiseland — Remix» e «Provenzano DJ — Remix». L'originale che sta sotto è di Sting, accreditato come autore",
+   "escluso": false,
+   "sezione": "Remix",
+   "in_compilation": [],
+   "artista_diverso": [],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": null,
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "remix",
+   "slug": "groundbeat-tweak",
+   "artista": "Groundbeat",
+   "titolo": "Tweak",
+   "versioni": [],
+   "data": null,
+   "anno": 2006,
+   "data_esatta": false,
+   "firma": "Hard Dance Style",
+   "etichetta": null,
+   "nota": "trovata il 01/09/2026 sull'API Discogs. ⭐ Riedizione Hard Dance Style, l'alias con Promise Land: nasce per la radio e per le serate, e questa è uscita per davvero. Vale la regola fissata da Amerigo il 01/09/2026 — in discografia entra solo quello che è stato stampato. Su «[Jump]² The Dancefloor Vol. 3», Fast Records, 2006; e su «Mania Italia Sei», EMI, 2006. Crediti di traccia «Promiseland — Remix» e «Provenzano DJ — Remix». Autore del brano Felix Stallings Jr., cioè Felix Da Housecat",
+   "escluso": false,
+   "sezione": "Remix",
+   "in_compilation": [],
+   "artista_diverso": [],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": null,
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "remix",
+   "slug": "trilogy-don-t-leave-me-now",
+   "artista": "Trilogy",
+   "titolo": "Don't Leave Me Now",
+   "versioni": [],
+   "data": null,
+   "anno": 2006,
+   "data_esatta": false,
+   "firma": "Hard Dance Style",
+   "etichetta": null,
+   "nota": "trovata il 01/09/2026 sull'API Discogs. ⭐ Riedizione Hard Dance Style, l'alias con Promise Land: nasce per la radio e per le serate, e questa è uscita per davvero. Vale la regola fissata da Amerigo il 01/09/2026 — in discografia entra solo quello che è stato stampato. Su «[Jump]² The Dancefloor Vol. 3», Fast Records, 2006. Crediti di traccia «Promiseland — Remix» e «Provenzano DJ — Remix». ⚠️ Gli autori del brano sono Fabio Ranucci e Nazario Pelusi, cioè i Promise Land stessi: è una loro produzione che il duo ha poi rifatto in versione hard dance. L'originale sta sulla «Hard Dance Compilation» alla traccia 2",
+   "escluso": false,
+   "sezione": "Remix",
+   "in_compilation": [],
+   "artista_diverso": [],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": null,
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "remix",
+   "slug": "terminal-dream-poem-without-words",
+   "artista": "Terminal Dream",
+   "titolo": "Poem Without Words",
+   "versioni": [],
+   "data": null,
+   "anno": 2006,
+   "data_esatta": false,
+   "firma": "Hard Dance Style",
+   "etichetta": "Magika",
+   "nota": "trovata il 01/09/2026 sull'API Discogs. ⭐ Riedizione Hard Dance Style, l'alias con Promise Land: nasce per la radio e per le serate, e questa è uscita per davvero. Vale la regola fissata da Amerigo il 01/09/2026 — in discografia entra solo quello che è stato stampato. Chiude la «Hard Dance Compilation», Magika MGK056/CD, Italia 2006, traccia 19, con i crediti «Promiseland — Remix» e «Provenzano DJ — Remix»",
+   "escluso": false,
+   "sezione": "Remix",
+   "in_compilation": [],
+   "artista_diverso": [],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": null,
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "remix",
+   "slug": "danijay-l-impazienza",
+   "artista": "Danijay",
+   "titolo": "L'impazienza",
+   "versioni": [],
+   "data": null,
+   "anno": 2006,
+   "data_esatta": false,
+   "firma": "Provenzano",
+   "etichetta": "Magika",
+   "nota": "trovata il 01/09/2026 sull'API Discogs, e non è un Hard Dance Style: qui la firma è sua da sola. Sulla «Hard Dance Compilation», Magika MGK056/CD, Italia 2006, traccia 8, come «L'impazienza (Provenzano DJ Remix)», credito di traccia «Provenzano DJ — Remix». ⭐ È il secondo remix per Danijay, dopo «Dance & Breakfast» che era già in tabella",
+   "escluso": false,
+   "sezione": "Remix",
+   "in_compilation": [],
+   "artista_diverso": [],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": null,
    "inedito": false,
    "anno_incerto": false,
    "foto": [],
@@ -6814,6 +7104,35 @@
   },
   {
    "tipo": "remix",
+   "slug": "chiara-robiony-and-the-axcess-monday-u-leave-me",
+   "artista": "Chiara Robiony & The Axcess",
+   "titolo": "Monday U Leave Me",
+   "versioni": [],
+   "data": null,
+   "anno": 2007,
+   "data_esatta": false,
+   "firma": "Blastaar",
+   "etichetta": "Magika",
+   "nota": "trovata il 01/09/2026 sull'API Discogs, e chiude l'ultima delle dodici voci «solo Wikipedia». ⭐ È un remix d'alias: esce firmato Blastaar, non Provenzano — detto da Amerigo il 01/09/2026, «il remix come blastaar mettilo, è un alias remix». Stampata su Hit Mania Club Dance Volume 6, Magika MGK 096CD, Italia 2007, traccia 17, come «Monday U Leave Me (Blastaar Remix)», con i crediti di traccia «Blastaar — Remix» e «The Axcess — Producer». ⭐ Sulla stessa compilation, alla traccia 11, c'è anche “Stupid!”, il suo inedito firmato Blastaar già in tabella fra le produzioni: il disco porta due volte lo stesso alias, una come autore e una come remixer. ⚠️ La compilation l'ha mixata Promise Land — crediti «Promiseland — DJ Mix, Edited By, Mastered By» — come la Hard Dance Compilation dell'anno prima. Il brano gira anche su «United Colors Of Ego», Ego Music 2007, ma lì c'è la versione Elektro Concept, non la sua",
+   "escluso": false,
+   "sezione": "Remix",
+   "in_compilation": [],
+   "artista_diverso": [],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": null,
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "remix",
    "slug": "haiducii-boom-boom",
    "artista": "Haiducii",
    "titolo": "Boom Boom",
@@ -6992,6 +7311,64 @@
     "tipo": "propria",
     "file": "cop/juice-string-sex-weed.jpg"
    },
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "remix",
+   "slug": "axwell-ingrosso-and-salem-al-fakir-it-s-true",
+   "artista": "Axwell, Ingrosso & Salem Al Fakir",
+   "titolo": "It's True",
+   "versioni": [],
+   "data": null,
+   "anno": 2008,
+   "data_esatta": false,
+   "firma": "Provenzano & Promise Land",
+   "etichetta": null,
+   "nota": "trovata il 01/09/2026 sull'API Discogs. Non ha una release sua: esce solo dentro compilation, e su due nello stesso anno. «Dance Planet 5», Gamma 3000 CD05, Italia 2008, traccia 12; e «Hit Mania Club Dance Volume 8», Magika MGK127/CD, Italia 2008, traccia 13. In tutte e due i crediti di traccia sono espliciti e identici: «Promiseland — Remix» e «Provenzano DJ — Remix». ⚠️ Amerigo l'aveva smentita a memoria il 01/09/2026 — «non mi pare» — e il motivo è probabilmente che Wikipedia la attribuiva a lui da solo: non è sua, è del sodalizio con Promise Land. Rimessa dentro su sua decisione dello stesso giorno: «se sono documentate va benissimo inserirle». ⭐ È la prima delle dodici voci «solo Wikipedia» a rientrare dopo essere stata data per sbagliata",
+   "escluso": false,
+   "sezione": "Remix",
+   "in_compilation": [],
+   "artista_diverso": [],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": null,
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "remix",
+   "slug": "get-far-and-sagi-rei-all-i-need",
+   "artista": "Get Far & Sagi Rei",
+   "titolo": "All I Need",
+   "versioni": [],
+   "data": null,
+   "anno": 2008,
+   "data_esatta": false,
+   "firma": "Provenzano & Promise Land",
+   "etichetta": null,
+   "nota": "trovata il 01/09/2026 sull'API Discogs. Stampata su «Music Space», TIME Records TIME 695 CDDP, Italia 2008, traccia 10, come «All I Need (Provenzano & Promiseland Rmx)», con i crediti di traccia «Promiseland — Remix» e «Provenzano DJ — Remix». ⚠️ Anche questa era stata smentita a memoria il 01/09/2026 — «getfar no» — e anche qui Wikipedia la dava a lui da solo mentre è del duo con Promise Land. Rimessa dentro sulla stessa decisione: «se sono documentate va benissimo inserirle»",
+   "escluso": false,
+   "sezione": "Remix",
+   "in_compilation": [],
+   "artista_diverso": [],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": null,
    "inedito": false,
    "anno_incerto": false,
    "foto": [],
@@ -7759,6 +8136,35 @@
     "tipo": "propria",
     "file": "cop/claudio-caccini-we-got-a-love.jpg"
    },
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "remix",
+   "slug": "sergio-matina-and-gabry-sangineto-sound-of-freedom",
+   "artista": "Sergio Matina & Gabry Sangineto",
+   "titolo": "Sound Of Freedom",
+   "versioni": [],
+   "data": "2012-04-30",
+   "anno": 2012,
+   "data_esatta": true,
+   "firma": "Provenzano",
+   "etichetta": null,
+   "nota": "⭐ Chiusa dal remixato, non da un database. Era una delle dodici voci «solo Wikipedia»; Amerigo l'ha chiesta direttamente a Gabry Sangineto il 01/09/2026 e la risposta è che è un remix ufficiale, firmato da lui da solo. La data d'uscita, 30 aprile 2012, l'ha portata lui lo stesso giorno. Su un'uscita di quindici anni fa la parola dell'artista remixato vale più di una scheda, e qui è l'unica fonte che ce l'ha fatta. ⚠️ Manca l'etichetta, e manca la release che la ospita. Il 01/09/2026 non è saltata fuori da nessuna parte: non sull'API Discogs — dove le schede dei due contano 140 e 74 uscite e nessuna si chiama così — non su Spotify, non fra i file di D:. Su Spotify il titolo esiste per Matina e Sangineto, ma l'unica versione caricata è un remix di Tamashi e Bismark del 2026, dentro «Playa D'en Bossa Ibiza Series Vol. 18»: del 2012 non c'è traccia. ⚠️ Da non confondere con «Freedom In My Mind» dei The Eclectics feat. Tati Pink su Tendenzia Records, che ha remix di Matina e di Sangineto ma non i suoi: il titolo resta «Sound Of Freedom», e non si riscrive per farlo combaciare con una scheda trovata per somiglianza — «non cambiare i titoli ai dischi», Amerigo, 01/09/2026. La strada che resta è Beatport, o di nuovo Sangineto",
+   "escluso": false,
+   "sezione": "Remix",
+   "in_compilation": [],
+   "artista_diverso": [],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": null,
    "inedito": false,
    "anno_incerto": false,
    "foto": [],
@@ -8610,7 +9016,7 @@
   {
    "nome": "Double Dare",
    "slug": "double-dare",
-   "cosa": "il progetto d'esordio italo dance di Paolo Bolognesi e Amerigo Provenzano, 1994–97: la loro prima esperienza discografica",
+   "cosa": "Provenzano + Paolo Bolognesi",
    "uscite": [
     "I Believe (1994)",
     "We Belong (1996)",
@@ -8618,98 +9024,98 @@
     "Believe In Me (1997, Movimento)",
     "Take Me Over"
    ],
-   "nota": null
+   "nota": "il progetto d'esordio italo dance, 1994–97: la loro prima esperienza discografica"
   },
   {
    "nome": "Bolognesi & Provenzano",
    "slug": "bolognesi-and-provenzano",
-   "cosa": "il duo delle compilation anni '90 con Paolo Bolognesi",
+   "cosa": "Provenzano + Paolo Bolognesi",
    "uscite": [
     "32 compilation mixate + *Un altro giorno è già andato*"
    ],
-   "nota": null
+   "nota": "il duo delle compilation anni '90"
   },
   {
    "nome": "Italian Deejays",
    "slug": "italian-deejays",
-   "cosa": "2006, su Jump Records",
+   "cosa": "Provenzano + Sergio Marini ⚠️ da confermare",
    "uscite": [
     "Eurofolk",
     "The Story Goes On"
    ],
-   "nota": "etichetta sua, aperta e poi chiusa dopo qualche anno"
+   "nota": "2006, su Jump Records, etichetta sua, aperta e poi chiusa dopo qualche anno"
   },
   {
    "nome": "Reder8",
    "slug": "reder8",
-   "cosa": "2010",
+   "cosa": "Provenzano solo",
    "uscite": [
     "Amazing (Netswork)",
     "Jaykay feat. Flo Rida *What The Girls Like* rmx"
    ],
-   "nota": null
+   "nota": "2010. Discogs lo registra come alias diretto di Provenzano DJ, senza altri membri"
   },
   {
    "nome": "Rainbowlead",
    "slug": "rainbowlead",
-   "cosa": "2012, Net's Work Digital",
+   "cosa": "Provenzano + Mastro J ⚠️ da confermare",
    "uscite": [
     "Cattivik",
     "Rock Some Noise"
    ],
-   "nota": null
+   "nota": "2012, Net's Work Digital"
   },
   {
    "nome": "The Fabulous",
    "slug": "the-fabulous",
-   "cosa": "2011",
+   "cosa": "⚠️ chi c'è dentro è da chiarire",
    "uscite": [
     "Mariguana Cha-Cha-Cha (Netswork)"
    ],
-   "nota": null
+   "nota": "2011"
   },
   {
    "nome": "Blastaar",
    "slug": "blastaar",
-   "cosa": "remix, 2007",
+   "cosa": "Provenzano + Fabio Ranucci e Nazario Pelusi, cioè Promise Land",
    "uscite": [
     "Stupid!",
     "Chiara Robiony *Monday U Leave Me* rmx"
    ],
-   "nota": null
+   "nota": "remix, 2007. ⭐ Stesso trio di Remote Zero e Disco Loco"
   },
   {
    "nome": "Remote Zero",
    "slug": "remote-zero",
-   "cosa": null,
+   "cosa": "Provenzano + Ranucci e Pelusi, cioè Promise Land",
    "uscite": [
     "Electronique",
     "Beachball"
    ],
-   "nota": null
+   "nota": "⭐ stesso trio di Blastaar e Disco Loco"
   },
   {
    "nome": "Mr. Potsie",
    "slug": "mr-potsie",
-   "cosa": null,
+   "cosa": "Provenzano solo",
    "uscite": [
     "Miracle"
    ],
-   "nota": null
+   "nota": "alias diretto su Discogs"
   },
   {
    "nome": "Disco Loco",
    "slug": "disco-loco",
-   "cosa": null,
+   "cosa": "Provenzano + Ranucci e Pelusi, cioè Promise Land",
    "uscite": [
     "Disfactio Total"
    ],
-   "nota": null
+   "nota": "⭐ stesso trio di Blastaar e Remote Zero"
   },
   {
    "nome": "Rumble Pit",
    "slug": "rumble-pit",
-   "cosa": null,
+   "cosa": "⚠️ chi c'è dentro è da chiarire",
    "uscite": [
     "No Alla Pirateria *(solo Wikipedia)*"
    ],
@@ -8718,7 +9124,7 @@
   {
    "nome": "Glidness",
    "slug": "glidness",
-   "cosa": null,
+   "cosa": "⚠️ chi c'è dentro è da chiarire",
    "uscite": [
     "Imagination *(solo Wikipedia)*"
    ],
@@ -8784,7 +9190,7 @@
   },
   "2012": {
    "singoli": 9,
-   "remix": 7
+   "remix": 8
   },
   "2011": {
    "singoli": 4,
@@ -8800,19 +9206,19 @@
   },
   "2008": {
    "singoli": 4,
-   "remix": 5
+   "remix": 7
   },
   "2007": {
    "singoli": 8,
-   "remix": 2
+   "remix": 3
   },
   "2006": {
    "singoli": 2,
-   "remix": 7
+   "remix": 13
   },
   "2005": {
    "singoli": 7,
-   "remix": 5
+   "remix": 9
   },
   "2004": {
    "singoli": 4,
@@ -8841,7 +9247,7 @@
  },
  "totali": {
   "singoli": 123,
-  "remix": 64,
+  "remix": 78,
   "inediti": 36,
   "con_copertina": 184,
   "con_video": 46,
