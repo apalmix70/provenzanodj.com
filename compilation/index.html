@@ -40,6 +40,15 @@ header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;back
 .cartello h1{font-family:'Anton',Arial,sans-serif;font-weight:400;text-transform:uppercase;
   font-size:clamp(30px,6vw,54px);letter-spacing:.03em;line-height:1}
 .cartello h1 .punto{color:var(--rosso)}
+/* Il conto a fianco del titolo. Sta sul titolo e non nel testo sotto perche'
+   e' il numero che si va a cercare: quante ne ha mixate. Piccolo e in
+   maiuscoletto come il menu, cosi' non litiga con l'Anton. Chiesto da
+   Amerigo il 01/09/2026: «qui puoi scrivere dopo compilation. 90 CD». */
+.cartello h1 .quanti{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
+  font-size:13px;font-weight:600;
+  letter-spacing:.16em;color:var(--grigio);margin-left:16px;vertical-align:middle;
+  white-space:nowrap}
+.cartello h1 .quanti b{color:var(--bianco);font-weight:600}
 .cartello .sotto{margin-top:12px;color:var(--grigio);font-size:14px;line-height:1.6;max-width:62ch}
 .cartello .sotto b{color:var(--bianco);font-weight:600}
 .cartello .sotto a.dentro{color:var(--bianco);border-bottom:1px solid var(--rosso);padding-bottom:1px}
@@ -155,7 +164,7 @@ footer a:hover{color:var(--bianco)}
 <main class="contenitore">
 
   <div class="cartello">
-    <h1>Compilation<span class="punto">.</span></h1>
+    <h1>Compilation<span class="punto">.</span><span class="quanti"><b id="quanti-cd">90</b> CD</span></h1>
     <p class="sotto">In questa pagina trovi tutte le <b><span id="quante">90</span>
       compilation</b> mixate e selezionate da <b>Provenzano</b>: dai <b>40 volumi</b> di
       <b><span class="m2o">m2o</span> compilation</b>, la serie <b><span class="m2o">m2o</span>
@@ -246,6 +255,11 @@ footer a:hover{color:var(--bianco)}
        una cifra vecchia. */
     var $quante = document.getElementById('quante');
     if ($quante) $quante.textContent = p.compilation.length;
+    // Lo stesso numero del testo, scritto anche a fianco del titolo: si legge
+    // dai dati e non a mano, se no il giorno che entra il volume 91 la testata
+    // resta indietro senza che nessuno se ne accorga.
+    var $quanti = document.getElementById('quanti-cd');
+    if ($quanti) $quanti.textContent = p.compilation.length;
 
     // ⚠️ **Il muro cerca anche dentro le tracklist.** *"Qui dice cerca un titolo,
     // forse si dovrebbe poter cercare anche il titolo di un brano"* (Amerigo,
