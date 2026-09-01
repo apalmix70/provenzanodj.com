@@ -7621,7 +7621,13 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "spotify": null,
+   "spotify": {
+    "tipo": "track",
+    "album": "7tGVOindumhsVb6jbKhiN6",
+    "titolo": "Scared Of Me",
+    "cosa": null,
+    "alto": false
+   },
    "video": null,
    "video_altri": [],
    "soundcloud": null,
@@ -9621,7 +9627,7 @@
   "inediti": 34,
   "con_copertina": 188,
   "con_video": 47,
-  "con_spotify": 70,
+  "con_spotify": 71,
   "con_soundcloud": 24,
   "con_traxsource": 1,
   "con_apple": 2,
