@@ -15,6 +15,10 @@
     6
    ],
    [
+    "Net's Work International",
+    5
+   ],
+   [
     "Netswork Digital",
     5
    ],
@@ -28,10 +32,6 @@
    ],
    [
     "Go Dooria Records",
-    4
-   ],
-   [
-    "Net's Work International",
     4
    ],
    [
@@ -7680,6 +7680,51 @@
   },
   {
    "tipo": "remix",
+   "slug": "promise-land-last-night-a-dj-saved-my-life",
+   "artista": "Promise Land",
+   "titolo": "Last Night A Dj Saved My Life",
+   "versioni": [],
+   "data": "2009-10-28",
+   "anno": 2009,
+   "data_esatta": true,
+   "firma": "Provenzano, Pelusi & Ranucci",
+   "etichetta": "Net's Work International",
+   "nota": "⚠️ Riga riempita il 01/09/2026, dal link Spotify mandato da Amerigo. Prima era «anno non confermato», la data veniva dalla compilation su cui è stampata e anche la copertina era in prestito da m2o vol.22. Adesso: single «Last Night a Dj Saved My Life», Spotify `5N188DX6dEpnnTPxwrUe4F`, 28/10/2009, © Net's Work & Songs Srl, copertina sua. ⭐ La data vera è due giorni prima della compilation: il disco è del 28 ottobre, m2o vol.22 del 30 — ecco perché la data dedotta cadeva vicina ma sbagliata. ⚠️ Il single ha due tracce e sono tutte e due loro: «Last Night a Dj Saved My Life — Ranucci, Pelusi, Provenzano Mix» 7:47 e «We Save Your Life — Ranucci, Pelusi, Provenzano Dub Mix». ⭐ La seconda spiega una voce vecchia: *We Save Your Life* girava negli elenchi come se fosse un'uscita a sé e Amerigo l'ha esclusa due volte — «credo sia un refuso», poi «we save your life non esiste». Non era un refuso e non è un disco: è il lato B di questo. Vedi la riga in sezione 5. L'etichetta è la stessa di *I Will Follow*, uscita lo stesso mese sullo stesso marchio",
+   "escluso": false,
+   "sezione": "Remix",
+   "in_compilation": [
+    {
+     "slug": "m2ovol22",
+     "titolo": "m2o vol.22",
+     "anno": 2009,
+     "come": "Last Night A Dj Saved My Life (Ranucci, Pelusi, Provenzano DJ Remix)"
+    }
+   ],
+   "artista_diverso": [],
+   "versioni_uscita": [],
+   "spotify": {
+    "tipo": "album",
+    "album": "5N188DX6dEpnnTPxwrUe4F",
+    "titolo": "Last Night A Dj Saved My Life",
+    "cosa": null,
+    "alto": false
+   },
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "propria",
+    "file": "cop/promise-land-last-night-a-dj-saved-my-life.jpg"
+   },
+   "inedito": false,
+   "anno_incerto": true,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "remix",
    "slug": "bingo-players-dan-thony-i-will-follow",
    "artista": "Bingo Players, Dan'thony",
    "titolo": "I Will Follow",
@@ -7805,47 +7850,6 @@
    },
    "inedito": false,
    "anno_incerto": false,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "remix",
-   "slug": "promise-land-last-night-a-dj-saved-my-life",
-   "artista": "Promise Land",
-   "titolo": "Last Night A Dj Saved My Life",
-   "versioni": [],
-   "data": "2009-10-30",
-   "anno": 2009,
-   "data_esatta": true,
-   "firma": "Provenzano, Pelusi & Ranucci",
-   "etichetta": null,
-   "nota": "ritrovata nel database delle compilation, stampata su m2o vol.22; anno non confermato",
-   "escluso": false,
-   "sezione": "Remix",
-   "in_compilation": [
-    {
-     "slug": "m2ovol22",
-     "titolo": "m2o vol.22",
-     "anno": 2009,
-     "come": "Last Night A Dj Saved My Life (Ranucci, Pelusi, Provenzano DJ Remix)"
-    }
-   ],
-   "artista_diverso": [],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": null,
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "compilation",
-    "file": "/compilation/cop/m2ovol22.jpg",
-    "da": "m2o vol.22"
-   },
-   "inedito": false,
-   "anno_incerto": false,
-   "data_da_compilation": true,
    "foto": [],
    "nota_pubblica": null
   },
@@ -9660,7 +9664,7 @@
   "inediti": 34,
   "con_copertina": 188,
   "con_video": 49,
-  "con_spotify": 72,
+  "con_spotify": 73,
   "con_soundcloud": 24,
   "con_traxsource": 1,
   "con_apple": 2,
