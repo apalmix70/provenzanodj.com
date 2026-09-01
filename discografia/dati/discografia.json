@@ -11,12 +11,12 @@
     8
    ],
    [
-    "Oxyd Records",
+    "Net's Work International",
     6
    ],
    [
-    "Net's Work International",
-    5
+    "Oxyd Records",
+    6
    ],
    [
     "Netswork Digital",
@@ -89,7 +89,7 @@
     11
    ],
    [
-    2014,
+    2009,
     10
    ]
   ],
@@ -100,7 +100,7 @@
    ],
    [
     2000,
-    68
+    69
    ],
    [
     2010,
@@ -119,6 +119,10 @@
    [
     "HJM",
     5
+   ],
+   [
+    "Promise Land",
+    4
    ],
    [
     "Scarlet",
@@ -146,10 +150,6 @@
    ],
    [
     "Daniele Macchi",
-    2
-   ],
-   [
-    "Promise Land",
     2
    ],
    [
@@ -183,10 +183,6 @@
     2
    ],
    [
-    "Promise Land",
-    2
-   ],
-   [
     "Afterclub",
     2
    ],
@@ -208,6 +204,10 @@
    ],
    [
     "Enrico Sognato",
+    1
+   ],
+   [
+    "Mauro Bandini",
     1
    ]
   ],
@@ -1864,6 +1864,97 @@
   },
   {
    "tipo": "produzione",
+   "slug": "last-night-a-dj-saved-my-life",
+   "titolo": "Last Night A Dj Saved My Life",
+   "versioni": [
+    "Ranucci, Pelusi, Provenzano Mix"
+   ],
+   "data": "2009-10-28",
+   "anno": 2009,
+   "data_esatta": true,
+   "con": [
+    "Promise Land"
+   ],
+   "firma": null,
+   "etichetta": "Net's Work International",
+   "nota": "⚠️ Riga riempita il 01/09/2026, dal link Spotify mandato da Amerigo. Prima era «anno non confermato», la data veniva dalla compilation su cui è stampata e anche la copertina era in prestito da m2o vol.22. Adesso: single «Last Night a Dj Saved My Life», Spotify `5N188DX6dEpnnTPxwrUe4F`, 28/10/2009, © Net's Work & Songs Srl, copertina sua. ⭐ La data vera è due giorni prima della compilation: il disco è del 28 ottobre, m2o vol.22 del 30 — ecco perché la data dedotta cadeva vicina ma sbagliata. ⚠️ Il single ha due tracce e sono tutte e due loro: «Last Night a Dj Saved My Life — Ranucci, Pelusi, Provenzano Mix» 7:47 e «We Save Your Life — Ranucci, Pelusi, Provenzano Dub Mix». ⭐ La seconda è diventata un'uscita a sé: *We Save Your Life* è il pezzo che hanno scritto loro perché il lato A è una cover e non si poteva depositare — stesso mestiere di *I.B.* nel 1994. Ha la sua riga in sezione 1. L'etichetta è la stessa di *I Will Follow*, uscita lo stesso mese sullo stesso marchio) ⚠️ Spostata dai remix ai singoli il 01/09/2026: *«meglio due singoli»*. Non è un remix per un altro artista — l'artista sul disco sono i Promise Land, cioè due dei tre che l'hanno fatta, e la «Ranucci, Pelusi, Provenzano Mix» è la versione del disco, non un rifacimento di qualcun altro. È una cover degli Indeep interpretata da loro, e sta accanto al suo lato B come i due pezzi di un 45 giri. ⚠️ Lo slug della pagina cambia da `promise-land-last-night-a-dj-saved-my-life` a `last-night-a-dj-saved-my-life`",
+   "escluso": false,
+   "da_guardare": false,
+   "sezione": "1992 → 2009",
+   "in_compilation": [
+    {
+     "slug": "m2ovol22",
+     "titolo": "m2o vol.22",
+     "anno": 2009,
+     "come": "Last Night A Dj Saved My Life (Ranucci, Pelusi, Provenzano DJ Remix)"
+    }
+   ],
+   "versioni_uscita": [],
+   "spotify": {
+    "tipo": "track",
+    "album": "0w7SjpvZNCWbxAHdsClhjr",
+    "titolo": "Last Night A Dj Saved My Life",
+    "cosa": null,
+    "alto": false
+   },
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "propria",
+    "file": "cop/last-night-a-dj-saved-my-life.jpg"
+   },
+   "inedito": false,
+   "anno_incerto": true,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "produzione",
+   "slug": "we-save-your-life",
+   "titolo": "We Save Your Life",
+   "versioni": [
+    "Ranucci, Pelusi, Provenzano Dub Mix"
+   ],
+   "data": "2009-10-28",
+   "anno": 2009,
+   "data_esatta": true,
+   "con": [
+    "Promise Land"
+   ],
+   "firma": null,
+   "etichetta": "Net's Work International",
+   "nota": "⭐ La versione da firmare. Sta sul lato B del single *Last Night A Dj Saved My Life* — Spotify `5N188DX6dEpnnTPxwrUe4F`, 28/10/2009 — e ci sta per una ragione precisa, spiegata da Amerigo il 01/09/2026: *«il lato B indica che, essendo il lato A una cover, abbiamo fatto la versione da firmare»*. Il lato A è il pezzo degli Indeep del 1982: non è loro, e non si deposita. Questo sì. ⭐ È esattamente quello che avevano già fatto nel 1994 con *I.B.*, nato accanto a *I Believe* per lo stesso motivo — *«I Believe era una cover, abbiamo creato I.B. così l'abbiamo potuta firmare come SIAE»*. Quindici anni dopo, stesso mestiere: se il pezzo che porta il disco non è tuo, il lato B lo è. ⚠️ Era stata respinta due volte — «credo sia un refuso», poi «we save your life non esiste» — e riaperta da lui stesso quando ha visto dov'era: *«questo diventa un'uscita, però non più un brano che non esiste»*, *«cambia tutto»*, *«trattala come singolo»*. ⚠️ Non bastava sapere che il titolo esisteva: quello si vedeva dalla tracklist. A trasformarlo in un'uscita è stato il posto dove sta, che ne spiega il senso. Copertina e player sono quelli del single, che è loro per intero: tutte e due le tracce",
+   "escluso": false,
+   "da_guardare": false,
+   "sezione": "1992 → 2009",
+   "in_compilation": [],
+   "versioni_uscita": [],
+   "spotify": {
+    "tipo": "track",
+    "album": "4olsxh2L4BZDJrnP0h5MVG",
+    "titolo": "We Save Your Life",
+    "cosa": null,
+    "alto": false
+   },
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "propria",
+    "file": "cop/we-save-your-life.jpg"
+   },
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "produzione",
    "slug": "a-r-i-a",
    "titolo": "A.R.I.A.",
    "versioni": [],
@@ -1875,7 +1966,7 @@
    ],
    "firma": null,
    "etichetta": "Time",
-   "nota": null,
+   "nota": "⚠️ Copertina sostituita il 01/09/2026, mandata da Amerigo — «copertina aria migliore»: è la stessa busta promo TIME, ma 1600×1600 invece di 599×574 e quadrata, quindi il ritaglio non taglia più niente e i crediti si leggono. La vecchia sta in `copertine\\_sostituite\\`. ⭐ Sulla busta il credito è ‹Ranucci & Pelusi Vs. Provenzano› e gli autori sono *N. Pelusi — A. Provenzano — F. Ranucci*: è l'esempio stampato della regola che i Promise Land per un periodo hanno firmato coi cognomi. Una sola versione sul disco, la Original Mix",
    "escluso": false,
    "da_guardare": false,
    "sezione": "1992 → 2009",
@@ -7680,51 +7771,6 @@
   },
   {
    "tipo": "remix",
-   "slug": "promise-land-last-night-a-dj-saved-my-life",
-   "artista": "Promise Land",
-   "titolo": "Last Night A Dj Saved My Life",
-   "versioni": [],
-   "data": "2009-10-28",
-   "anno": 2009,
-   "data_esatta": true,
-   "firma": "Provenzano, Pelusi & Ranucci",
-   "etichetta": "Net's Work International",
-   "nota": "⚠️ Riga riempita il 01/09/2026, dal link Spotify mandato da Amerigo. Prima era «anno non confermato», la data veniva dalla compilation su cui è stampata e anche la copertina era in prestito da m2o vol.22. Adesso: single «Last Night a Dj Saved My Life», Spotify `5N188DX6dEpnnTPxwrUe4F`, 28/10/2009, © Net's Work & Songs Srl, copertina sua. ⭐ La data vera è due giorni prima della compilation: il disco è del 28 ottobre, m2o vol.22 del 30 — ecco perché la data dedotta cadeva vicina ma sbagliata. ⚠️ Il single ha due tracce e sono tutte e due loro: «Last Night a Dj Saved My Life — Ranucci, Pelusi, Provenzano Mix» 7:47 e «We Save Your Life — Ranucci, Pelusi, Provenzano Dub Mix». ⭐ La seconda spiega una voce vecchia: *We Save Your Life* girava negli elenchi come se fosse un'uscita a sé e Amerigo l'ha esclusa due volte — «credo sia un refuso», poi «we save your life non esiste». Non era un refuso e non è un disco: è il lato B di questo. Vedi la riga in sezione 5. L'etichetta è la stessa di *I Will Follow*, uscita lo stesso mese sullo stesso marchio",
-   "escluso": false,
-   "sezione": "Remix",
-   "in_compilation": [
-    {
-     "slug": "m2ovol22",
-     "titolo": "m2o vol.22",
-     "anno": 2009,
-     "come": "Last Night A Dj Saved My Life (Ranucci, Pelusi, Provenzano DJ Remix)"
-    }
-   ],
-   "artista_diverso": [],
-   "versioni_uscita": [],
-   "spotify": {
-    "tipo": "album",
-    "album": "5N188DX6dEpnnTPxwrUe4F",
-    "titolo": "Last Night A Dj Saved My Life",
-    "cosa": null,
-    "alto": false
-   },
-   "video": null,
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "propria",
-    "file": "cop/promise-land-last-night-a-dj-saved-my-life.jpg"
-   },
-   "inedito": false,
-   "anno_incerto": true,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "remix",
    "slug": "bingo-players-dan-thony-i-will-follow",
    "artista": "Bingo Players, Dan'thony",
    "titolo": "I Will Follow",
@@ -9614,8 +9660,8 @@
    "remix": 2
   },
   "2009": {
-   "singoli": 3,
-   "remix": 6
+   "singoli": 5,
+   "remix": 5
   },
   "2008": {
    "singoli": 4,
@@ -9659,12 +9705,12 @@
   }
  },
  "totali": {
-  "singoli": 126,
-  "remix": 82,
+  "singoli": 128,
+  "remix": 81,
   "inediti": 34,
-  "con_copertina": 188,
+  "con_copertina": 189,
   "con_video": 49,
-  "con_spotify": 73,
+  "con_spotify": 74,
   "con_soundcloud": 24,
   "con_traxsource": 1,
   "con_apple": 2,
