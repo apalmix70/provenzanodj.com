@@ -23,6 +23,10 @@
     4
    ],
    [
+    "Time",
+    4
+   ],
+   [
     "Go Dooria Records",
     4
    ],
@@ -44,10 +48,6 @@
    ],
    [
     "Net's Work International",
-    3
-   ],
-   [
-    "Time",
     3
    ]
   ],
@@ -682,6 +682,53 @@
   },
   {
    "tipo": "produzione",
+   "slug": "el-cabron",
+   "titolo": "El Cabron",
+   "versioni": [
+    "+ A Matar Radio Edit, A Matar Extended RMX, Farra Electro Extended"
+   ],
+   "data": "2004-03-18",
+   "anno": 2004,
+   "data_esatta": true,
+   "con": [],
+   "firma": "Mr. Ed",
+   "etichetta": "Time",
+   "nota": "⚠️ Non è un inedito da compilation: è un singolo vero. Fino al 01/09/2026 la riga diceva «mai uscito a sé, stampato su m2o vol.5»; quel giorno Amerigo ha mandato il link Spotify — «il disco è uscito su Time Records oltre che su la compilation» — e la riga si è riempita da sola. Single El Cabrón, Spotify `67ClD2qoIR0ClWMWY3tZIJ`, 18/03/2004, © Time S.p.A. Unipersonale, tre tracce: A Matar Radio Edit 2:41, A Matar Extended RMX 4:03, Farra Electro Extended 4:41. ⭐ La compilation è uscita prima del singolo: m2o vol.5 è del 13/02/2004, il disco del 18 marzo — un mese dopo. ⭐ E il titolo della terza versione conferma l'alias dall'esterno: «Farra Electro Extended», cioè Davide Farra, che è l'altro dentro Mr. Ed. ⚠️ Su Spotify il titolo ha l'accento — *El Cabrón* — e l'artista si scrive Mr Ed senza punto; qui restano la grafia senza accento e il punto, in attesa che decida lui. Copertina mandata da Amerigo lo stesso giorno, in archivio come `produzioni4 Mr. Ed - El Cabron.jpg`",
+   "escluso": false,
+   "da_guardare": false,
+   "sezione": "1992 → 2009",
+   "in_compilation": [
+    {
+     "slug": "m2ovol5",
+     "titolo": "m2o vol.5",
+     "anno": 2004,
+     "come": "El Cabron"
+    }
+   ],
+   "versioni_uscita": [],
+   "spotify": {
+    "tipo": "album",
+    "album": "67ClD2qoIR0ClWMWY3tZIJ",
+    "titolo": "El Cabron",
+    "cosa": null,
+    "alto": false
+   },
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "propria",
+    "file": "cop/el-cabron.jpg"
+   },
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "produzione",
    "slug": "funny-day",
    "titolo": "Funny Day",
    "versioni": [
@@ -825,47 +872,6 @@
    },
    "inedito": false,
    "anno_incerto": false,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "produzione",
-   "slug": "el-cabron",
-   "titolo": "El Cabron",
-   "versioni": [],
-   "data": "2004-02-13",
-   "anno": 2004,
-   "data_esatta": true,
-   "con": [],
-   "firma": "Mr. Ed",
-   "etichetta": null,
-   "nota": "inedito per la compilation: mai uscito a sé, stampato su m2o vol.5",
-   "escluso": false,
-   "da_guardare": false,
-   "sezione": "1992 → 2009",
-   "in_compilation": [
-    {
-     "slug": "m2ovol5",
-     "titolo": "m2o vol.5",
-     "anno": 2004,
-     "come": "El Cabron"
-    }
-   ],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": null,
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "compilation",
-    "file": "/compilation/cop/m2ovol5.jpg",
-    "da": "m2o vol.5"
-   },
-   "inedito": true,
-   "anno_incerto": false,
-   "data_da_compilation": true,
    "foto": [],
    "nota_pubblica": null
   },
@@ -9402,12 +9408,12 @@
   {
    "nome": "Mr. Ed",
    "slug": "mr-ed",
-   "cosa": "Provenzano + Davide Farra",
+   "cosa": "Provenzano + Davide Farra + Edward Vargas, che è la voce del disco",
    "uscite": [
     "El Cabron",
     "Disco Sex"
    ],
-   "nota": "*«Mr. Ed è un alias condiviso con Davide Farra»*, Amerigo 28/08/2026, già scritto nel database delle compilation. ⚠️ Era rimasto fuori da questa mappa per quattro giorni e il 01/09/2026 gliel'ho richiesto: la risposta era già nel workspace, e la domanda si poteva evitare. Farra è lo stesso dei minimix e delle sigle m2o. 2004–2005"
+   "nota": "aggiunto da Amerigo il 01/09/2026, *«aggiungi Edward Vargas tra i componenti dell'alias mr.ed è la voce del disco»*. ⚠️ È l'unico alias in cui un cantante è dentro il nome e non solo un featuring: su *El Cabron* non c'è un «feat.» sulla copertina, i tre sono il progetto. — *«Mr. Ed è un alias condiviso con Davide Farra»*, Amerigo 28/08/2026, già scritto nel database delle compilation. ⚠️ Era rimasto fuori da questa mappa per quattro giorni e il 01/09/2026 gliel'ho richiesto: la risposta era già nel workspace, e la domanda si poteva evitare. Farra è lo stesso dei minimix e delle sigle m2o. 2004–2005"
   },
   {
    "nome": "Disco Loco",
@@ -9604,10 +9610,10 @@
  "totali": {
   "singoli": 126,
   "remix": 82,
-  "inediti": 35,
+  "inediti": 34,
   "con_copertina": 188,
   "con_video": 46,
-  "con_spotify": 69,
+  "con_spotify": 70,
   "con_soundcloud": 24,
   "con_traxsource": 1,
   "con_apple": 2,
