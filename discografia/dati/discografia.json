@@ -3455,7 +3455,11 @@
     "formato": null
    },
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/165705432",
+    "cosa": "Sunstars Remix",
+    "perche": "link mandato da Amerigo il 01/09/2026: «da aggiungere alla pagina della release». ⚠️ **Non è un suo caricamento**: sta sul profilo ufficiale di **Alex Gaudino**, che del disco è l'artista, quindi è un audio d'etichetta e non un caricamento di terzi — e non serve il `secret`, che sui suoi upload privati invece è obbligatorio. ⚠️ **È il Sunstars Remix, non la versione del disco**: la didascalia in pagina lo dice, così chi ascolta non crede che il pezzo sia quello. ⚠️ **Va sulla riga del 2014 e non su quella del 1997**: sono due dischi diversi con lo stesso titolo, ed è lo stesso inciampo già successo con i video il 30/08/2026 — vedi `titolo_solo_di`."
+   },
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -9714,7 +9718,7 @@
   "con_copertina": 190,
   "con_video": 49,
   "con_spotify": 74,
-  "con_soundcloud": 24,
+  "con_soundcloud": 25,
   "con_traxsource": 1,
   "con_apple": 2,
   "in_compilation": 117,
