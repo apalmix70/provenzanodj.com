@@ -104,7 +104,7 @@
    ],
    [
     2010,
-    103
+    102
    ],
    [
     2020,
@@ -211,7 +211,7 @@
     1
    ]
   ],
-  "quante_etichette": 74,
+  "quante_etichette": 73,
   "piu_compilation": [
    {
     "titolo": "I Believe",
@@ -9065,38 +9065,6 @@
   },
   {
    "tipo": "remix",
-   "slug": "swayzak-speak-easy",
-   "artista": "Swayzak",
-   "titolo": "Speak Easy",
-   "versioni": [],
-   "data": "2017-11-09",
-   "anno": 2017,
-   "data_esatta": true,
-   "firma": "Harder",
-   "etichetta": "240 Volts",
-   "nota": "trovata il 01/09/2026 sull'API di Beatport, artista Harder id 129432. ⚠️ Traxsource risponde 403 e non si è potuto guardare; Beatport invece ha dato tutto, ISRC compresi. Deep House, 128 bpm, Fa maggiore, 6:03, ISRC UKJR41700084, su «Loops From The Bergerie (Remixes)». ⚠️ È l'unica delle cinque uscite Harder di cui vale la pena dubitare, e va verificata. Beatport la mette sotto lo stesso identico id artista delle altre quattro, il che è l'unica ragione per cui sta qui; ma è l'unica fuori da Metropolitan — etichetta inglese — e l'unica con ISRC britannico «UKJR», mentre tutte le altre hanno prefisso tedesco «DEAR» dell'aggregatore di Metropolitan. Amerigo il 01/09/2026 ha confermato che Harder è un suo alias, ma non si è pronunciato su questa in particolare: se Beatport avesse unito due artisti omonimi sotto lo stesso id, questa sarebbe la riga sbagliata",
-   "escluso": false,
-   "sezione": "Remix",
-   "in_compilation": [],
-   "artista_diverso": [],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": null,
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "propria",
-    "file": "cop/swayzak-speak-easy.jpg"
-   },
-   "inedito": false,
-   "anno_incerto": false,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "remix",
    "slug": "dj-shorty-canta-canta",
    "artista": "DJ Shorty",
    "titolo": "Canta Canta",
@@ -9316,10 +9284,9 @@
     "Dark Time",
     "Your Love",
     "Something About Love *(con Fond8)*",
-    "Shine rmx",
-    "Speak Easy rmx"
+    "Shine rmx"
    ],
-   "nota": "*«Harder è un alias di Provenzano»*, detto da lui il 01/09/2026. ⭐ Il più recente e il meno noto: nasce nel 2016, quindici anni dopo tutti gli altri, e vive dentro Metropolitan Recordings. Amerigo se n'è ricordato guardando lo schermo di un lettore — «mi sono ricordato di questo alias Harder» — e pensava di avere fatto una sola uscita: sono cinque. 2016–2019"
+   "nota": "*«Harder è un alias di Provenzano»*, detto da lui il 01/09/2026. ⭐ Il più recente e il meno noto: nasce nel 2016, quindici anni dopo tutti gli altri, e vive solo dentro Metropolitan Recordings. Amerigo se n'è ricordato guardando lo schermo di un lettore — «mi sono ricordato di questo alias Harder» — e pensava di avere fatto una sola uscita: sono quattro. ⚠️ Ne era spuntata una quinta, «Swayzak — Speak Easy (Harder Mix)» del 2017 su 240 Volts, che Beatport mette sotto lo stesso id artista: non è sua, l'ha escluso Amerigo il 01/09/2026 con un secco «no» dopo averla ascoltata dal link del DJ pool. ⭐ È un omonimo, e Beatport ha unito due artisti diversi sotto lo stesso nome: l'indizio c'era già ed era l'ISRC britannico «UKJR» contro il «DEAR» di tutte le altre. 2016–2019"
   },
   {
    "nome": "Hard Dance Style",
@@ -9427,7 +9394,7 @@
   },
   "2017": {
    "singoli": 6,
-   "remix": 1
+   "remix": 0
   },
   "2016": {
    "singoli": 6,
@@ -9504,9 +9471,9 @@
  },
  "totali": {
   "singoli": 124,
-  "remix": 84,
+  "remix": 83,
   "inediti": 34,
-  "con_copertina": 189,
+  "con_copertina": 188,
   "con_video": 46,
   "con_spotify": 69,
   "con_soundcloud": 21,
