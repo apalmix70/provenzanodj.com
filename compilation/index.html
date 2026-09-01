@@ -41,14 +41,15 @@ header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;back
   font-size:clamp(30px,6vw,54px);letter-spacing:.03em;line-height:1}
 .cartello h1 .punto{color:var(--rosso)}
 /* Il conto a fianco del titolo. Sta sul titolo e non nel testo sotto perche'
-   e' il numero che si va a cercare: quante ne ha mixate. Piccolo e in
-   maiuscoletto come il menu, cosi' non litiga con l'Anton. Chiesto da
-   Amerigo il 01/09/2026: «qui puoi scrivere dopo compilation. 90 CD». */
-.cartello h1 .quanti{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
-  font-size:13px;font-weight:600;
-  letter-spacing:.16em;color:var(--grigio);margin-left:16px;vertical-align:middle;
-  white-space:nowrap}
-.cartello h1 .quanti b{color:var(--bianco);font-weight:600}
+   e' il numero che si va a cercare: quante ne ha mixate. ⚠️ **Grande come
+   «COMPILATION»**, non in piccolo: la prima versione lo scriveva in maiuscoletto
+   di fianco e Amerigo l'ha rifiutata il 01/09/2026 — «90 cd va messo grande come
+   la scritta compilation». Stesso Anton, stessa misura, in grigio: fa parte
+   della testata, non e' una didascalia appesa al titolo. */
+.cartello h1 .quanti{color:var(--grigio);margin-left:.28em;white-space:nowrap}
+/* Il numero e' in <b> solo perche' e' il pezzo che si aggiorna da solo: l'Anton
+   ha un peso unico, e senza questa riga il browser gli metterebbe un finto grassetto. */
+.cartello h1 .quanti b{font-weight:inherit}
 .cartello .sotto{margin-top:12px;color:var(--grigio);font-size:14px;line-height:1.6;max-width:62ch}
 .cartello .sotto b{color:var(--bianco);font-weight:600}
 .cartello .sotto a.dentro{color:var(--bianco);border-bottom:1px solid var(--rosso);padding-bottom:1px}
@@ -164,7 +165,7 @@ footer a:hover{color:var(--bianco)}
 <main class="contenitore">
 
   <div class="cartello">
-    <h1>Compilation<span class="punto">.</span><span class="quanti"><b id="quanti-cd">90</b> CD</span></h1>
+    <h1>Compilation<span class="punto">.</span><span class="quanti"><b id="quanti-cd">90</b>&nbsp;CD</span></h1>
     <p class="sotto">In questa pagina trovi tutte le <b><span id="quante">90</span>
       compilation</b> mixate e selezionate da <b>Provenzano</b>: dai <b>40 volumi</b> di
       <b><span class="m2o">m2o</span> compilation</b>, la serie <b><span class="m2o">m2o</span>
