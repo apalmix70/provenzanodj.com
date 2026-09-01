@@ -9201,7 +9201,12 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2392581939",
+    "secret": "s-hK6zMtOIkG0",
+    "cosa": "il remix intero",
+    "perche": "caricato da Amerigo sul suo profilo il 01/09/2026, traccia privata, link corto on.soundcloud.com/CLamd1qjh4mattl8ym che risolve su soundcloud.com/provenzano_official/margherita-cecchi-harder-shine/s-hK6zMtOIkG0. Titolo sul profilo: «Margherita Cecchi, Harder - Shine (Harder Remix)». Il file viene dal DJ pool **Selected Recs**, dove il remix sta dentro «VA - Metropolitan 10 Years» del 2020: su Spotify e in giro non c'e'."
+   },
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -9476,7 +9481,7 @@
   "con_copertina": 188,
   "con_video": 46,
   "con_spotify": 69,
-  "con_soundcloud": 21,
+  "con_soundcloud": 22,
   "con_traxsource": 1,
   "con_apple": 2,
   "in_compilation": 117,
