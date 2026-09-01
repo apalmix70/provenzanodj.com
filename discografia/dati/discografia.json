@@ -211,7 +211,7 @@
     1
    ]
   ],
-  "quante_etichette": 70,
+  "quante_etichette": 71,
   "piu_compilation": [
    {
     "titolo": "I Believe",
@@ -8059,12 +8059,12 @@
    "artista": "Sergio Matina & Gabry Sangineto",
    "titolo": "Sound Of Freedom",
    "versioni": [],
-   "data": "2012-04-30",
+   "data": "2012-05-14",
    "anno": 2012,
    "data_esatta": true,
    "firma": "Provenzano",
-   "etichetta": null,
-   "nota": "⭐ Chiusa dal remixato, non da un database. Era una delle dodici voci «solo Wikipedia»; Amerigo l'ha chiesta direttamente a Gabry Sangineto il 01/09/2026 e la risposta è che è un remix ufficiale, firmato da lui da solo. La data d'uscita, 30 aprile 2012, l'ha portata lui lo stesso giorno. Su un'uscita di quindici anni fa la parola dell'artista remixato vale più di una scheda, e qui è l'unica fonte che ce l'ha fatta. ⚠️ Manca l'etichetta, e manca la release che la ospita. Il 01/09/2026 non è saltata fuori da nessuna parte: non sull'API Discogs — dove le schede dei due contano 140 e 74 uscite e nessuna si chiama così — non su Spotify, non fra i file di D:. Su Spotify il titolo esiste per Matina e Sangineto, ma l'unica versione caricata è un remix di Tamashi e Bismark del 2026, dentro «Playa D'en Bossa Ibiza Series Vol. 18»: del 2012 non c'è traccia. ⚠️ Da non confondere con «Freedom In My Mind» dei The Eclectics feat. Tati Pink su Tendenzia Records, che ha remix di Matina e di Sangineto ma non i suoi: il titolo resta «Sound Of Freedom», e non si riscrive per farlo combaciare con una scheda trovata per somiglianza — «non cambiare i titoli ai dischi», Amerigo, 01/09/2026. La strada che resta è Beatport, o di nuovo Sangineto",
+   "etichetta": "Ibiza World Records",
+   "nota": "⭐ Chiusa dal remixato, non da un database. Era una delle dodici voci «solo Wikipedia»; Amerigo l'ha chiesta direttamente a Gabry Sangineto il 01/09/2026 e la risposta è che è un remix ufficiale, firmato da lui da solo. ⭐ Etichetta e data vengono dal caricamento di Sangineto stesso su SoundCloud, la cui descrizione dice: «Available from 14.05.2012 on Ibiza World Records / S2G Productions — Chris Montana's Label», e ringrazia «Amerigo Provenzano & Manuela Doriani». ⚠️ Attenzione alle due date, che non sono la stessa cosa. Amerigo aveva dato il 30 aprile 2012: quella è la sera in cui il brano è passato al Provenzano Dj Show, ed è la data stampata nel titolo del rip. L'uscita è due settimane dopo, il 14 maggio. La confusione nasce dalla stessa pagina che porta tutti e due i numeri. ⚠️ L'audio in pagina non è il remix: è il brano come passava nel suo programma, ripreso da Sangineto — non c'è scritto «Provenzano Remix» da nessuna parte, e la didascalia lo dice. La prova del remix resta la parola di Sangineto, e basta quella. ⚠️ Del 2012 non c'è traccia nei cataloghi: né su Discogs, dove le schede dei due contano 140 e 74 uscite, né su Spotify, dove l'unica versione caricata è un remix di Tamashi e Bismark del 2026 dentro «Playa D'en Bossa Ibiza Series Vol. 18», né fra i file di D: ed E:, cercati per intero. Ibiza World Records è la pista che resta. ⚠️ Da non confondere con «Freedom In My Mind» dei The Eclectics feat. Tati Pink su Tendenzia, che ha remix di Matina e di Sangineto ma non i suoi: il titolo resta «Sound Of Freedom» — «non cambiare i titoli ai dischi», Amerigo, 01/09/2026",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [],
@@ -8073,7 +8073,11 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/44884179",
+    "cosa": "il brano come passava al Provenzano Dj Show, 30 aprile 2012",
+    "perche": "mandato da Amerigo il 01/09/2026: e' il rip che Gabry Sangineto ha caricato sul suo profilo dalla puntata del Provenzano Dj Show in cui il brano passava — «e' un rip di uno degli artisti ad un mio programma radiofonico dove passavo il brano, e' una cosa carina da avere». soundcloud.com/djgabrysangineto/sergio-matina-gabry-2, traccia pubblica, titolo per esteso «Sergio Matina & Gabry Sangineto - Sound Of Freedom @ Provenzano Dj Show (April 30th, 2012)». ⚠️ **Non e' la prova del remix, ed e' importante non confonderle**: questo audio documenta che il brano passava nel suo programma, non che la versione sia la sua — nel titolo non c'e' scritto «Provenzano Remix». Che il remix esista lo dice **Sangineto**, chiesto da Amerigo il 01/09/2026. La didascalia in pagina percio' dice cosa e' davvero: il brano al suo show. ⭐ La descrizione del caricamento ha pero' portato i due dati che mancavano — «Available from 14.05.2012 on Ibiza World Records / S2G Productions (Chris Montana's Label)» — e chiude l'etichetta. Si legge anche «Thanks for support to Amerigo Provenzano & Manuela Doriani»."
+   },
    "traxsource": null,
    "apple": null,
    "copertina": null,
@@ -8989,11 +8993,11 @@
   {
    "nome": "Hard Dance Style",
    "slug": "hard-dance-style",
-   "cosa": "Provenzano + Promise Land",
+   "cosa": "Provenzano + Promise Land. ⭐ Un alias artista che ha fatto solo remix",
    "uscite": [
     "10 remix firmati così fra 2005 e 2006, più Move Your Hands Up (2004), dove Hard Dance Style è il nome della versione e la firma è «Provenzano, Promise Land» — è lì che il marchio nasce. Elenco in sezione 2"
    ],
-   "nota": "⭐ confermato da Amerigo il 01/09/2026: *«il marchio hard dance style è un alias nostro con cui si firmavano dei lavori, alcuni ufficiali altri rimasti per l'uso personale»*. È l'unico alias che non nasce per un disco ma per una firma: si applicava a lavori già fatti, e solo una parte è uscita. 2004–2007"
+   "nota": "definizione di Amerigo, 01/09/2026: *«hard dance style è un alias artista che ha fatto solo remix»*, e prima *«è un alias nostro con cui si firmavano dei lavori, alcuni ufficiali altri rimasti per l'uso personale»*. ⚠️ È l'unico dei suoi nomi che non ha mai firmato un pezzo proprio: gli altri alias nascono per un brano, questo esiste solo sopra la musica di qualcun altro. 2004–2006"
   },
   {
    "nome": "Blastaar",
@@ -9174,7 +9178,7 @@
   "con_copertina": 182,
   "con_video": 46,
   "con_spotify": 68,
-  "con_soundcloud": 17,
+  "con_soundcloud": 18,
   "con_traxsource": 1,
   "con_apple": 2,
   "in_compilation": 117,
