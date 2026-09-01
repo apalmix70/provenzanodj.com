@@ -78,7 +78,7 @@
    ],
    [
     2015,
-    12
+    13
    ],
    [
     2018,
@@ -211,7 +211,7 @@
     1
    ]
   ],
-  "quante_etichette": 76,
+  "quante_etichette": 77,
   "piu_compilation": [
    {
     "titolo": "I Believe",
@@ -8979,47 +8979,6 @@
   },
   {
    "tipo": "remix",
-   "slug": "denny-berland-alicia-madison-start-it-over",
-   "artista": "Denny Berland, Alicia Madison",
-   "titolo": "Start It Over",
-   "versioni": [],
-   "data": "2014-07-15",
-   "anno": 2014,
-   "data_esatta": true,
-   "firma": "Provenzano",
-   "etichetta": null,
-   "nota": "ritrovata nel database delle compilation, stampata su m2o vol.36; anno non confermato",
-   "escluso": false,
-   "sezione": "Remix",
-   "in_compilation": [
-    {
-     "slug": "m2ovol36",
-     "titolo": "m2o vol.36",
-     "anno": 2014,
-     "come": "Start It Over (Provenzano DJ Remix)"
-    }
-   ],
-   "artista_diverso": [],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": null,
-   "video_altri": [],
-   "soundcloud": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "compilation",
-    "file": "/compilation/cop/m2ovol36.jpg",
-    "da": "m2o vol.36"
-   },
-   "inedito": false,
-   "anno_incerto": false,
-   "data_da_compilation": true,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "remix",
    "slug": "claudio-caccini-dave-p-white-tone",
    "artista": "Claudio Caccini, Dave P.",
    "titolo": "White Tone",
@@ -9056,6 +9015,45 @@
    "inedito": false,
    "anno_incerto": false,
    "data_da_compilation": true,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "remix",
+   "slug": "denny-berland-alicia-madison-start-it-over",
+   "artista": "Denny Berland, Alicia Madison",
+   "titolo": "Start It Over",
+   "versioni": [],
+   "data": "2015-03-09",
+   "anno": 2015,
+   "data_esatta": true,
+   "firma": "Provenzano",
+   "etichetta": "Contagious Records",
+   "nota": "⚠️ Riga riempita il 01/09/2026. Prima diceva solo che era stata ritrovata nel database delle compilation, stampata su m2o vol.36, con l'anno da confermare e la copertina in prestito da quella compilation. ⚠️ La pagina che ha mandato lui — madnessbeat.club — non si è potuta leggere: risponde 403 a una richiesta secca e mette una verifica Cloudflare anche al browser vero. Il disco però sta su Deezer: album `9547888`, una traccia sola ed è il suo remix (5:56), etichetta Contagious Records, uscita 09/03/2015. ⭐ Quindi la compilation viene prima del disco, come su *El Cabron*: m2o vol.36 è del 2014, l'uscita digitale del marzo 2015 — ed è il motivo per cui l'anno dedotto dalla compilation dava 2014. ⚠️ La riga si sposta dal 2014 al 2015 sul muro. Su Spotify c'è solo l'originale del 15/07/2013 in quattro versioni, senza la sua. ⚠️ Copertina presa da Deezer a 1000×1000: Amerigo ne aveva salvata una a mano da madnessbeat, ma è la stessa immagine a metà risoluzione — 500×500, differenza media 4,9 su 255",
+   "escluso": false,
+   "sezione": "Remix",
+   "in_compilation": [
+    {
+     "slug": "m2ovol36",
+     "titolo": "m2o vol.36",
+     "anno": 2014,
+     "come": "Start It Over (Provenzano DJ Remix)"
+    }
+   ],
+   "artista_diverso": [],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "propria",
+    "file": "cop/denny-berland-alicia-madison-start-it-over.jpg"
+   },
+   "inedito": false,
+   "anno_incerto": false,
    "foto": [],
    "nota_pubblica": null
   },
@@ -9648,11 +9646,11 @@
   },
   "2015": {
    "singoli": 10,
-   "remix": 2
+   "remix": 3
   },
   "2014": {
    "singoli": 7,
-   "remix": 3
+   "remix": 2
   },
   "2013": {
    "singoli": 8,
