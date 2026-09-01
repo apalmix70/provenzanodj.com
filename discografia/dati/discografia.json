@@ -4961,7 +4961,12 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/532648488",
+    "secret": "s-wQQ6O",
+    "cosa": "il brano intero",
+    "perche": "caricato da Amerigo sul suo profilo, traccia privata, e mandato il 01/09/2026 col link corto on.soundcloud.com/WyJTq7gLnNYHcIzTSg, che risolve su soundcloud.com/provenzano_official/harder-your-love/s-wQQ6O. ⚠️ **Il link diretto senza token da' 404 all'oEmbed**: su una traccia privata serve sempre il link corto, che il token se lo porta dietro. Titolo sul profilo: «Harder - Your Love»."
+   },
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -9504,7 +9509,7 @@
   "con_copertina": 189,
   "con_video": 46,
   "con_spotify": 69,
-  "con_soundcloud": 20,
+  "con_soundcloud": 21,
   "con_traxsource": 1,
   "con_apple": 2,
   "in_compilation": 117,
