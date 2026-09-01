@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fiesta — Provenzano Dj</title>
+<meta name="description" content="Fiesta — remix per Peppe Roccaro Dj feat. Dario Tiralongo, Lio Asham &amp; Angela, 27.6.2013.">
+<meta property="og:title" content="Fiesta — Provenzano Dj">
+<meta property="og:description" content="Fiesta — remix per Peppe Roccaro Dj feat. Dario Tiralongo, Lio Asham &amp; Angela, 27.6.2013.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23000'/%3E%3Ccircle cx='32' cy='38' r='14' fill='%23FF3131'/%3E%3C/svg%3E">
+<style>
+@font-face{font-family:'Anton';src:url('../../fonts/Anton-Regular.ttf') format('truetype');font-display:swap}
+@font-face{font-family:'Poppins EB';src:url('../../fonts/Poppins-ExtraBold.ttf') format('truetype');font-display:swap}
+:root{--nero:#000;--rosso:#FF3131;--bianco:#fff;--verde:#35C46A;
+  --grigio:rgba(255,255,255,.55);--debole:rgba(255,255,255,.35);
+  --riga:rgba(255,255,255,.10);--pannello:#0b0b0b;--testata:47px}
+*{margin:0;padding:0;box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--nero);color:var(--bianco);
+  font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
+  min-height:100svh;display:flex;flex-direction:column}
+a{color:inherit;text-decoration:none}
+.contenitore{width:100%;max-width:1080px;margin:0 auto;padding:0 20px}
+header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;background:var(--nero)}
+.testata{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 0}
+.logo{font-family:'Poppins EB',Arial,sans-serif;font-size:19px;letter-spacing:-.04em;line-height:1}
+.logo .punto{color:var(--rosso)}
+.menu{display:flex;gap:18px;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--grigio)}
+.menu a.qui{color:var(--bianco)}
+.menu a:hover{color:var(--bianco)}
+h1,h2,h3{font-family:'Anton',Arial,sans-serif;font-weight:400;text-transform:uppercase;letter-spacing:.03em}
+footer{margin-top:auto;border-top:1px solid var(--riga);padding:22px 0 26px;
+  font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--debole)}
+footer .contenitore{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+
+.disco{padding:30px 0 10px;display:grid;grid-template-columns:minmax(0,300px) minmax(0,1fr);
+  gap:28px;align-items:start}
+@media (max-width:680px){.disco{grid-template-columns:1fr}}
+.disco figure img,.disco .vuota{width:100%;aspect-ratio:1;object-fit:cover;display:block;
+  border:1px solid var(--riga);border-radius:3px;background:var(--pannello)}
+.disco .da{margin-top:8px;color:var(--debole);font-size:11px;line-height:1.4}
+.disco h1{font-size:clamp(26px,5vw,44px);line-height:1.05}
+/* ⚠️ **Il tipo del disco in testa, col suo colore, e un filetto che tiene
+   insieme tipo, titolo e autori** — variante scelta da Amerigo il 30/08/2026
+   fra tre provate. Rosso il singolo (e' il colore del sito), verde il remix,
+   bianco l'alias. Il colore non e' decorazione: e' l'unica cosa che distingue
+   a colpo d'occhio un disco suo da un remix fatto per un altro. */
+.disco .testo{border-left:3px solid var(--riga);padding-left:16px}
+.disco .t-singolo{border-left-color:var(--rosso)}
+.disco .t-remix{border-left-color:var(--verde)}
+.disco .t-alias{border-left-color:var(--bianco)}
+.disco .tipo{display:block;margin-bottom:8px;font-size:11px;letter-spacing:.22em;
+  text-transform:uppercase;font-weight:700}
+.disco .t-singolo .tipo{color:var(--rosso)}
+.disco .t-remix .tipo{color:var(--verde)}
+.disco .t-alias .tipo{color:var(--bianco)}
+/* Gli autori: bianchi come il titolo, ma piu' piccoli — sono la seconda riga
+   di una testata, non una didascalia da leggere in grigio. */
+.disco .autori{margin-top:10px;font-size:15px;line-height:1.5;color:var(--bianco)}
+.fatti{margin-top:18px;display:flex;flex-wrap:wrap;gap:10px 26px}
+.fatto dt{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--debole)}
+.fatto dd{font-size:14px;margin-top:2px}
+.nota{margin-top:16px;color:var(--grigio);font-size:13.5px;line-height:1.6;max-width:60ch}
+.nota b{color:var(--bianco);font-weight:600}
+.blocco{margin-top:30px;border-top:1px solid var(--riga);padding-top:18px}
+.blocco h3{font-size:15px;margin-bottom:10px}
+.blocco ul{list-style:none}
+.blocco li{display:flex;align-items:baseline;gap:10px;padding:6px 0;
+  border-bottom:1px solid rgba(255,255,255,.05);font-size:14px}
+.blocco li .anno{color:var(--debole);font-size:12px;margin-left:auto}
+.blocco li .eti{color:var(--grigio);font-size:12px}
+.compilation li a{border-bottom:1px solid transparent}
+.compilation li a:hover{color:var(--rosso)}
+/* Il video sta come nelle pagine delle compilation: 16:9 a tutta colonna, non
+   un riquadro piccolo in un angolo. Il padding-top e' il vecchio trucco del
+   16:9 che regge ovunque, ed e' quello che usa gia' l'altra sezione. */
+.video{position:relative;padding-top:56.25%;border:1px solid var(--riga);
+  border-radius:6px;overflow:hidden;background:var(--pannello)}
+.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+/* Gli short sono verticali: 9:16 e larghezza contenuta, se no occupano tre
+   schermate di pagina per un video di trenta secondi. */
+.video.verticale{padding-top:min(177.78%,620px);max-width:349px}
+.didascalia{margin-top:7px;color:var(--debole);font-size:11px;letter-spacing:.06em}
+.didascalia a{color:var(--grigio);border-bottom:1px solid rgba(255,49,49,.4)}
+.didascalia a:hover{color:var(--rosso)}
+.spotify{width:100%;border-radius:12px;display:block}
+/* Le foto del disco fisico. Affiancate finche' c'e' spazio, e **non ritagliate**:
+   su una si leggono i crediti stampati, tagliarla vorrebbe dire buttare via
+   proprio la riga che dimostra quello che la pagina dice. */
+.foto{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.foto figure{margin:0}
+.foto img{width:100%;height:auto;display:block;border:1px solid var(--riga);
+  border-radius:3px;background:var(--pannello)}
+.foto figcaption{margin-top:7px;color:var(--debole);font-size:11px;letter-spacing:.06em}
+.soundcloud{width:100%;display:block;border-radius:8px}
+.traxsource{width:100%;display:block;border-radius:8px;background:#111}
+.apple{width:100%;display:block;border:0;border-radius:8px;overflow:hidden;background:#111}
+.torna{display:inline-block;margin:26px 0 6px;font-size:11px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--grigio)}
+.torna:hover{color:var(--rosso)}
+</style>
+</head>
+<body>
+<header><div class="contenitore testata">
+  <a class="logo" href="/">provenzano<span class="punto">.</span></a>
+  <nav class="menu"><a href="/discografia/">Discografia</a><a href="/discografia/archivio/">Archivio</a><a href="/discografia/numeri/">I numeri</a><a href="/">Home</a></nav>
+</div></header>
+
+<main class="contenitore">
+  <article class="disco">
+    <figure><div class="vuota"></div></figure>
+    <div class="testo t-remix">
+      <span class="tipo">remix</span>
+      <h1>Fiesta</h1>
+      <div class="autori">Peppe Roccaro Dj feat. Dario Tiralongo, Lio Asham &amp; Angela · remix di Provenzano</div>
+      <dl class="fatti"><div class="fatto"><dt>etichetta</dt><dd>Smilax Publishing</dd></div><div class="fatto"><dt>uscita</dt><dd>27.6.2013</dd></div></dl>
+      
+    </div>
+  </article>
+
+  
+  
+  
+  
+  
+
+  <a class="torna" href="/discografia/">&larr; tutta la discografia</a>
+</main>
+
+<footer><div class="contenitore">
+  <span>&copy; Provenzano Dj</span>
+  <span>aggiornato il 2026-09-01</span>
+</div></footer>
+
+</body>
+</html>

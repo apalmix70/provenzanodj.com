@@ -57,11 +57,11 @@
     17
    ],
    [
-    2006,
-    15
+    2013,
+    16
    ],
    [
-    2013,
+    2006,
     15
    ],
    [
@@ -104,7 +104,7 @@
    ],
    [
     2010,
-    97
+    98
    ],
    [
     2020,
@@ -211,7 +211,7 @@
     1
    ]
   ],
-  "quante_etichette": 71,
+  "quante_etichette": 72,
   "piu_compilation": [
    {
     "titolo": "I Believe",
@@ -8467,6 +8467,35 @@
   },
   {
    "tipo": "remix",
+   "slug": "peppe-roccaro-dj-feat-dario-tiralongo-lio-asham-and-angela-fiesta",
+   "artista": "Peppe Roccaro Dj feat. Dario Tiralongo, Lio Asham & Angela",
+   "titolo": "Fiesta",
+   "versioni": [],
+   "data": "2013-06-27",
+   "anno": 2013,
+   "data_esatta": true,
+   "firma": "Provenzano",
+   "etichetta": "Smilax Publishing",
+   "nota": "⭐ Ritrovata il 01/09/2026 partendo dai master sul disco fisso: in `D:\\Storico Provenzano\\[MASTER]\\Provenzano master` c'è «Peppe Roccaro Dj Feat Dario Tiralongo, Lio Asham, Angela — Fiesta, Provenzano Rmx MASTER», e Amerigo se la ricordava — «questo me lo ricordo». Il riscontro è arrivato da Spotify, dove il «Fiesta - Provenzano Remix» è la traccia 2 di due release Smilax Publishing del 2013: quella intestata «feat. Dario Tiralongo, Lio Asham & Angela» e quella del 27 giugno. ⚠️ Il disco è uscito due volte, e solo la seconda porta il suo remix: la prima stampa è del 12 febbraio 2013 su Gardenia Records G1048 — cinque versioni più il videoclip, nessuna sua, e infatti su Discogs, che ha solo quella, il suo nome non compare. È il motivo per cui la voce non era mai emersa dai database. ⚠️ Il file di master sul disco è datato 23 luglio 2013, cioè dopo l'uscita: è una data di copia, non di lavorazione",
+   "escluso": false,
+   "sezione": "Remix",
+   "in_compilation": [],
+   "artista_diverso": [],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": null,
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "remix",
    "slug": "andrea-masullo-bringing-me-down",
    "artista": "Andrea Masullo",
    "titolo": "Bringing Me Down",
@@ -9184,7 +9213,7 @@
   },
   "2013": {
    "singoli": 8,
-   "remix": 7
+   "remix": 8
   },
   "2012": {
    "singoli": 9,
@@ -9245,7 +9274,7 @@
  },
  "totali": {
   "singoli": 122,
-  "remix": 79,
+  "remix": 80,
   "inediti": 34,
   "con_copertina": 182,
   "con_video": 46,
