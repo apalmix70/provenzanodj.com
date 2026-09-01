@@ -39,15 +39,15 @@
     3
    ],
    [
+    "Net's Work International",
+    3
+   ],
+   [
     "Time",
     3
    ],
    [
     "Do It Yourself",
-    2
-   ],
-   [
-    "Net's Work International",
     2
    ]
   ],
@@ -70,7 +70,7 @@
    ],
    [
     2011,
-    12
+    13
    ],
    [
     2015,
@@ -104,7 +104,7 @@
    ],
    [
     2010,
-    96
+    97
    ],
    [
     2020,
@@ -2225,6 +2225,39 @@
    "inedito": true,
    "anno_incerto": false,
    "data_da_compilation": true,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "produzione",
+   "slug": "imagination",
+   "titolo": "Imagination",
+   "versioni": [
+    "+ Extended 5:56, Radio Edit 3:39"
+   ],
+   "data": null,
+   "anno": 2011,
+   "data_esatta": false,
+   "con": [
+    "con Majuri"
+   ],
+   "firma": "Glideness",
+   "etichetta": "Net's Work International",
+   "nota": "⭐ Ritrovata il 01/09/2026 nei master sul disco fisso, ed è la voce che ha ribaltato un verdetto dato poche ore prima. Stava fra le «solo Wikipedia» come nome d'alias sconosciuto, e Amerigo aveva risposto *«glideness non so chi sia»*: era stata segnata da togliere. Poi in `D:\\Storico Provenzano\\[MASTER]\\RELEASE` è saltata fuori la cartella «Glideness ft Majuri Imagination», con dentro il pacchetto completo — contratti e SIAE, master audio, MIDI, spartito, testo, voci, e i sample con la loro fattura. ⭐ La scheda d'etichetta lo dice per esteso: «GLIDENESS Feat. MAJURI — Imagination, written and composed by Amerigo Provenzano & Loredana Maiuri, published by Net's Work & Songs / B&P Dance Machine, produced, performed, arranged & mixed by Glideness @ Reder8 Studio, Roma, vocals by Majuri, (P) & © 2011 Net's Work & Songs». ⭐⭐ Reder8 Studio è il suo studio, chiamato col suo alias: è la riga che chiude la questione. L'Heads of Agreement, firmato a Napoli il 25 maggio 2011, mette lui e Loredana Maiuri come «i produttori» e «gli unici autori del master», in licenza a Net's Work & Songs; distribuzione italiana Global Net. In lavorazione il pezzo si chiamava In The City — i progetti Ableton vanno dal 19 al 25 maggio 2011, i master sono del 24. ⚠️ Il nome si scrive Glideness, con la e, come sulla scheda d'etichetta: Wikipedia lo scrive «Glidness». ⚠️ Nei PDF ci sono codici fiscali e indirizzi privati, non riportati qui: resta solo il percorso",
+   "escluso": false,
+   "da_guardare": false,
+   "sezione": "2010 → 2019",
+   "in_compilation": [],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": null,
+   "inedito": false,
+   "anno_incerto": false,
    "foto": [],
    "nota_pubblica": null
   },
@@ -9077,13 +9110,13 @@
    "nota": "deciso da Amerigo il 01/09/2026, *«rumble pit consideralo un alias dei promise land»*, dopo che Discogs l'aveva dato con i soli Fabio Ranucci e Nazario Pelusi. Resta in questa mappa perché su uno dei due brani lui è coautore e quindi la riga in sezione 1 va spiegata, non perché sia un nome suo. Vedi il riquadro qui sotto. 2005"
   },
   {
-   "nome": "Glidness",
-   "slug": "glidness",
-   "cosa": "⛔ non lo riconosce: *«glidness non so chi sia»*, Amerigo 01/09/2026. Stava qui solo perché lo scrive Wikipedia, e non l'ha mai confermato nessun'altra fonte. Da togliere dal sito, come B.P.M.",
+   "nome": "Glideness",
+   "slug": "glideness",
+   "cosa": "Provenzano + Majuri, cioè Loredana Maiuri, che è coautrice e canta",
    "uscite": [
-    "Imagination *(solo Wikipedia, e smentito)*"
+    "Imagination (Net's Work)"
    ],
-   "nota": null
+   "nota": "*«glideness va considerato un alias mio con majuri»*, Amerigo 01/09/2026. ⚠️ Poche ore prima l'aveva smentito — *«glidness non so chi sia»* — e la voce era segnata da togliere dal sito: l'ha rimessa dentro il contratto trovato nei suoi stessi master. ⚠️ Si scrive con la e, come sulla scheda d'etichetta; Wikipedia lo scrive «Glidness». 2011"
   }
  ],
  "anni": {
@@ -9148,7 +9181,7 @@
    "remix": 8
   },
   "2011": {
-   "singoli": 4,
+   "singoli": 5,
    "remix": 8
   },
   "2010": {
@@ -9201,7 +9234,7 @@
   }
  },
  "totali": {
-  "singoli": 121,
+  "singoli": 122,
   "remix": 79,
   "inediti": 34,
   "con_copertina": 182,
