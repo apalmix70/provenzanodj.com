@@ -54,7 +54,7 @@
   "anni": [
    [
     2012,
-    17
+    18
    ],
    [
     2013,
@@ -104,7 +104,7 @@
    ],
    [
     2010,
-    102
+    103
    ],
    [
     2020,
@@ -2533,6 +2533,35 @@
     "file": "cop/rock-some-noise.jpg"
    },
    "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "produzione",
+   "slug": "earthquake",
+   "titolo": "Earthquake",
+   "versioni": [],
+   "data": null,
+   "anno": 2012,
+   "data_esatta": false,
+   "con": [],
+   "firma": "The Redeemerz",
+   "etichetta": null,
+   "nota": "inedito per la compilation: mai uscito a sé, stampato su m2o vol.31 — Ten Years, TIME CDDP31/M2O, alla traccia 2-13. ⭐ Ritrovata il 01/09/2026 nei master su disco fisso — `The Redeemerz_Earthquake (Time).wav`, ottobre 2012, in `D:\\Storico Provenzano\\[MASTER]\\RELEASE` — e chiusa dai Promise Land, a cui Amerigo l'ha chiesta: hanno confermato che The Redeemerz era un loro alias comune. ⚠️ Non bastava il file: la scheda artista su Discogs è vuota, su Spotify non esistono, e l'unico posto dove il nome compare è una compilation sua — lo stesso indizio debole che su Keysernoize aveva portato a un falso positivo. A chiudere è stata la parola dei soci, come per Sangineto e Daniel Chords. ⭐ È il quarto nome dello stesso terzetto, dopo Blastaar, Remote Zero e Disco Loco, e segue la stessa identica regola: un nome nato insieme al pezzo, per riempire una compilation, e mai più usato. ⚠️ Da confermare chi c'è dentro: qui è dato per il trio Provenzano-Ranucci-Pelusi come gli altri tre, ma i Promise Land hanno detto «nostro» e non hanno elencato i nomi",
+   "escluso": false,
+   "da_guardare": false,
+   "sezione": "2010 → 2019",
+   "in_compilation": [],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": null,
+   "inedito": true,
    "anno_incerto": false,
    "foto": [],
    "nota_pubblica": null
@@ -9316,6 +9345,15 @@
    "nota": "definizione di Amerigo, 01/09/2026: *«hard dance style è un alias artista che ha fatto solo remix»*, e prima *«è un alias nostro con cui si firmavano dei lavori, alcuni ufficiali altri rimasti per l'uso personale»*. ⚠️ È l'unico dei suoi nomi che non ha mai firmato un pezzo proprio: gli altri alias nascono per un brano, questo esiste solo sopra la musica di qualcun altro. 2004–2006"
   },
   {
+   "nome": "The Redeemerz",
+   "slug": "the-redeemerz",
+   "cosa": "Provenzano + Ranucci e Pelusi, cioè Promise Land",
+   "uscite": [
+    "Earthquake"
+   ],
+   "nota": "⭐ il quarto nome dello stesso terzetto, confermato dai Promise Land stessi il 01/09/2026, a cui Amerigo l'ha chiesto: *«hanno confermato che era un nostro alias»*. Stessa logica degli altri tre: un nome per un pezzo, dentro una compilation. 2012"
+  },
+  {
    "nome": "Blastaar",
    "slug": "blastaar",
    "cosa": "Provenzano + Fabio Ranucci e Nazario Pelusi, cioè Promise Land",
@@ -9431,7 +9469,7 @@
    "remix": 8
   },
   "2012": {
-   "singoli": 9,
+   "singoli": 10,
    "remix": 8
   },
   "2011": {
@@ -9488,9 +9526,9 @@
   }
  },
  "totali": {
-  "singoli": 125,
+  "singoli": 126,
   "remix": 82,
-  "inediti": 34,
+  "inediti": 35,
   "con_copertina": 188,
   "con_video": 46,
   "con_spotify": 69,
