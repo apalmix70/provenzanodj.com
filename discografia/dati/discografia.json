@@ -347,7 +347,7 @@
    "anno_incerto": false,
    "foto": [],
    "nota_pubblica": {
-    "forte": "La prima uscita in assoluto.",
+    "forte": null,
     "testo": "Il primo progetto discografico di Provenzano, che per l’occasione disegna a mano anche la copertina e il logo."
    }
   },
@@ -9268,6 +9268,15 @@
    "nota": "il progetto d'esordio italo dance, 1994–97: la loro prima esperienza discografica"
   },
   {
+   "nome": "D.D. Why",
+   "slug": "d-d-why",
+   "cosa": "Provenzano + Paolo Bolognesi",
+   "uscite": [
+    "Take Me Over"
+   ],
+   "nota": "*«e' con bolognesi»*, Amerigo 01/09/2026. ⚠️ L'etichetta del 12″ porta quattro autori, non due — *F. Minoia, P. Bolognesi, A. Provenzano, F. Fraschetti* — e gli è stato detto prima che rispondesse: la sigla resta il duo, gli altri due sono coautori del pezzo. È la stessa distinzione di *I Believe*, dove Minoia è produttore aggiuntivo per X-Energy e non un Double Dare. ⭐ Sono le iniziali di Double Dare, e la voce è Yvonne F., la stessa dell'esordio: è il duo sotto un'altra sigla. Amerigo il disco non se lo ricordava — «troppi anni sono passati». 1995"
+  },
+  {
    "nome": "Bolognesi & Provenzano",
    "slug": "bolognesi-and-provenzano",
    "cosa": "Provenzano + Paolo Bolognesi",
@@ -9380,7 +9389,17 @@
    "uscite": [
     "Miracle"
    ],
-   "nota": "alias diretto su Discogs"
+   "nota": "alias diretto su Discogs, e confermato da Amerigo il 01/09/2026: *«da solo»*. ⚠️ Nel database delle compilation compare accanto a Promise Land, e la domanda gli è stata rifatta apposta: quel dato dice chi c'è sui dischi vicini, non chi c'è dentro un alias — è lo stesso indizio debole che su *Rumble Pit* aveva portato fuori strada. Non si riapre."
+  },
+  {
+   "nome": "Mr. Ed",
+   "slug": "mr-ed",
+   "cosa": "Provenzano + Davide Farra",
+   "uscite": [
+    "El Cabron",
+    "Disco Sex"
+   ],
+   "nota": "*«Mr. Ed è un alias condiviso con Davide Farra»*, Amerigo 28/08/2026, già scritto nel database delle compilation. ⚠️ Era rimasto fuori da questa mappa per quattro giorni e il 01/09/2026 gliel'ho richiesto: la risposta era già nel workspace, e la domanda si poteva evitare. Farra è lo stesso dei minimix e delle sigle m2o. 2004–2005"
   },
   {
    "nome": "Disco Loco",
@@ -9392,6 +9411,46 @@
    "nota": "⭐ uno dei tre nomi per le compilation. 2007"
   },
   {
+   "nome": "System3",
+   "slug": "system3",
+   "cosa": "Provenzano + Ranucci e Pelusi, cioè Promise Land",
+   "uscite": [
+    "You're On My Own",
+    "From Paris 2 Rome",
+    "305",
+    "Heartquake",
+    "Overtime",
+    "Way Out",
+    "Pump Up The House",
+    "Be Your",
+    "Without You",
+    "Guitar Hero",
+    "F...ing Beatz",
+    "Get Low",
+    "Dancin'",
+    "Jungle",
+    "In Da House"
+   ],
+   "nota": "*«si»*, Amerigo 01/09/2026, alla domanda «li avete fatti tu e Promise Land?». ⭐ È l'alias con più uscite di tutti: quindici, e sono tutte inediti da compilation — nessuna è mai uscita come disco. ⚠️ Non è un nome usa e getta come i quattro qui sotto: va dal 2011 al 2018 senza interruzioni, cioè è l'insegna fissa degli esclusivi per le compilation dell'era m2o Xperience. 2011–2018"
+  },
+  {
+   "nome": "Phunkerz",
+   "slug": "phunkerz",
+   "cosa": "Provenzano + Ranucci e Pelusi, cioè Promise Land",
+   "uscite": [
+    "Come Into This Side",
+    "Festival",
+    "Change The World",
+    "Seven Days",
+    "Tears",
+    "Oh Song",
+    "Gettin' Up",
+    "GDN",
+    "Dirty"
+   ],
+   "nota": "stessa risposta di System3, 01/09/2026. Nove uscite, tutte inediti da compilation, sullo stesso arco 2011–2018: è il secondo nome fisso dello stesso terzetto, non un nome nato per un pezzo solo. 2011–2018"
+  },
+  {
    "nome": "Rumble Pit",
    "slug": "rumble-pit",
    "cosa": "⛔ non è un suo alias: è un alias dei Promise Land",
@@ -9400,6 +9459,15 @@
     "In Your Time"
    ],
    "nota": "deciso da Amerigo il 01/09/2026, *«rumble pit consideralo un alias dei promise land»*, dopo che Discogs l'aveva dato con i soli Fabio Ranucci e Nazario Pelusi. Resta in questa mappa perché su uno dei due brani lui è coautore e quindi la riga in sezione 1 va spiegata, non perché sia un nome suo. Vedi il riquadro qui sotto. 2005"
+  },
+  {
+   "nome": "m2o's team",
+   "slug": "m2o-s-team",
+   "cosa": "⛔ non è un alias: è la redazione della radio. Firma l'intro del vol.6, *Le Canzoni Dell'Estate*, con la voce di EMI. Sta in mappa con la lista vuota, che vuol dire *deciso che la riga d'alias non ci va*",
+   "uscite": [
+    "Le Canzoni Dell'Estate"
+   ],
+   "nota": "e non *non si sa chi c'era dentro*. 2004"
   },
   {
    "nome": "Glideness",
