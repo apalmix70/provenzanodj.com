@@ -69,6 +69,10 @@
     14
    ],
    [
+    2011,
+    12
+   ],
+   [
     2015,
     12
    ],
@@ -78,10 +82,6 @@
    ],
    [
     2008,
-    11
-   ],
-   [
-    2011,
     11
    ],
    [
@@ -104,7 +104,7 @@
    ],
    [
     2010,
-    95
+    96
    ],
    [
     2020,
@@ -7927,6 +7927,35 @@
   },
   {
    "tipo": "remix",
+   "slug": "jaykay-feat-flo-rida-smokey-and-git-fresh-what-the-girls-like",
+   "artista": "Jaykay feat. Flo Rida, Smokey & Git Fresh",
+   "titolo": "What The Girls Like",
+   "versioni": [],
+   "data": null,
+   "anno": 2011,
+   "data_esatta": false,
+   "firma": "Reder8",
+   "etichetta": null,
+   "nota": "⭐ Chiusa il 01/09/2026 dai file di lavorazione, sul disco fisso. Era l'ultima delle dodici voci «solo Wikipedia» e l'unica che nessuna fonte online confermava: non su Discogs, non su YouTube, non sul promo remix PM Recordings del 2012. Amerigo è stato categorico — *«è sicuro che l'ho fatto, dobbiamo solo trovarlo»* — e ha detto dove cercare: «cercalo sul fisso in D». C'era. ⭐ La prova non è un file ma l'intera lavorazione, in `D:\\Storico Provenzano\\[MASTER]\\RELEASE\\JayKay feat Flo rida What girls Like_`: le parti originali mandate dall'etichetta — «What The Girls Like — RMX Files BPM 128», datate 3 giugno 2011: voce di JayKay, voce di Flo Rida, cori, basso, due lead —, una ventina di progetti Ableton dal 20 luglio all'11 settembre 2011 — starter, piano 1.0-3.5, remix 1.0-4.55 —, e in fondo «Remix Master Finale» del 12 settembre. ⭐ Il nome del file di master scrive l'alias per esteso: «JayKay feat Flo rida Smokey and Git Fresh .What Girls Like [Provenzano Aka Reder8 Rmx Def.].wav» — che è esattamente quello che diceva Wikipedia, «come Reder8», e che nessun database aveva mai confermato. ⭐ Nella stessa cartella c'è anche un video promozionale finito, con le versioni per computer e per iPhone e la paginetta HTML che le conteneva. ⚠️ L'anno in tabella è il 2011, che è quando il remix è stato fatto: la data di pubblicazione non è ancora saltata fuori, perché il remix su Discogs non c'è — il promo dei remix, PM Recordings 2012, ne porta sei e nessuna è la sua. Etichetta e data restano da trovare. ⭐ E la lezione vale oltre questa riga: il disco fisso di casa è una fonte, e va guardato prima di dichiarare che una cosa non esiste",
+   "escluso": false,
+   "sezione": "Remix",
+   "in_compilation": [],
+   "artista_diverso": [],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": null,
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "remix",
    "slug": "jack-ross-ricky-castelli-ldb-la19-criminal-4-love",
    "artista": "Jack Ross, Ricky Castelli, LDB, LA19",
    "titolo": "Criminal 4 Love",
@@ -9120,7 +9149,7 @@
   },
   "2011": {
    "singoli": 4,
-   "remix": 7
+   "remix": 8
   },
   "2010": {
    "singoli": 3,
@@ -9173,7 +9202,7 @@
  },
  "totali": {
   "singoli": 121,
-  "remix": 78,
+  "remix": 79,
   "inediti": 34,
   "con_copertina": 182,
   "con_video": 46,
