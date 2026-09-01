@@ -337,6 +337,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -386,6 +387,7 @@
     "perche": "l'audio caricato da Amerigo sul suo profilo il 30/08/2026, traccia privata: è la Club Mix del lato B del 12\" X-Energy XR-12150, estratta dal video E8OkCHllTYM e ricaricata dove la controlla lui. Link corto: on.soundcloud.com/yHkSgbkGWJOZKLGWVk. ⚠️ Le due versioni restano scritte nell'elenco: il player ne fa sentire una.",
     "cosa": "Club Mix"
    },
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -444,6 +446,7 @@
     "secret": "s-5uO2EHDWkvB",
     "perche": "l'audio caricato da Amerigo sul suo profilo il 30/08/2026, traccia PRIVATA: sul sito suona lo stesso, ma non compare sul suo profilo ne' nelle ricerche. Il widget vuole l'indirizzo API della traccia piu' il token, non il link privato della pagina (quello risponde 404). Il link corto che ha mandato — on.soundcloud.com/fT8bTqGuCUWlgOTkyT — porta a soundcloud.com/provenzano_official/d-d-why-take-me-over-1995/s-5uO2EHDWkvB. ⚠️ Se rigenera il link privato, questo player muore e va riscritto."
    },
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -487,6 +490,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -539,6 +543,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -580,6 +585,7 @@
     "secret": "s-BH3ykT1wXJy",
     "perche": "l'audio caricato da Amerigo sul suo profilo il 31/08/2026, traccia privata: «Bolognesi & Provenzano - Un altro giorno è già andato». Link corto mandato da lui, on.soundcloud.com/h5ZrDdqFPSSgmnbfqs, che risolve su soundcloud.com/provenzano_official/bolognesi-provenzano-un-altro/s-BH3ykT1wXJy — id numerico e token dall'oEmbed. Il pezzo del 1997 in digitale non esiste e su nessuna piattaforma si trova: questo e' l'unico modo per ascoltarlo. L'audio e' stato staccato dal lato A della compilation caricato dal canale «TC84 - Records», fra 8:16 e 12:53, che sono i due silenzi fra le tracce — 4:37."
    },
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -625,6 +631,7 @@
     "cosa": "estratto, 58 secondi",
     "perche": "caricato da Amerigo il 31/08/2026, e da lui stesso intitolato «(estratto)»: del 12\" del 1997 in rete non esiste il brano intero, solo tre video da 58 secondi del canale «Vinylminded», uno per mix. ⚠️ La didascalia in pagina deve dire che e' un estratto: 58 secondi non sono il pezzo, e un player che non lo dichiara fa credere che il disco sia quello. Amerigo: «prendiamoci quello che c'e'»."
    },
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -666,6 +673,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -716,6 +724,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -787,6 +796,7 @@
     }
    ],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -830,6 +840,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -869,6 +880,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -930,6 +942,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -993,6 +1006,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -1040,6 +1054,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -1093,6 +1108,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -1132,6 +1148,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -1181,6 +1198,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -1233,6 +1251,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -1288,6 +1307,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -1346,6 +1366,7 @@
     "perche": "l'audio caricato da Amerigo sul suo profilo il 30/08/2026, traccia privata: è l'unico ascolto del disco. Link corto mandato da lui: on.soundcloud.com/GhUF8kBjVh5ksozPHP, risolto via oEmbed — il widget sull'indirizzo della pagina risponde 404, vuole l'id della traccia più il token in secret_token. ⚠️ Se rigenera il link privato, il player muore.",
     "cosa": null
    },
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -1394,6 +1415,7 @@
     "perche": "l'audio caricato da Amerigo sul suo profilo il 30/08/2026, traccia privata: è l'unico ascolto del disco. Link corto: on.soundcloud.com/AQv1yipvBnE4JXIYBN. ⚠️ È **la versione principale**, non il 12\" intero — sua la frase: «il player fa ascoltare la principale». Le altre tre restano scritte nell'elenco delle versioni, che qui non si toglie: sulla copertina del 12\" ci sono stampate tutte e quattro. ⚠️ Aperto: quale delle quattro sia. Su D:\\MUSIC 2 c'è un file solo, «Provenzano - I'm waiting (2007).mp3», 3:30 a 320 kbps in tre copie identiche, e il tag non porta il nome del mix. Per durata e perché è quella stampata su m2o vol.15 dovrebbe essere la Viaggio Mix, ma nessun file lo dice.",
     "cosa": null
    },
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -1437,6 +1459,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -1484,6 +1507,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -1525,6 +1549,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -1568,6 +1593,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -1609,6 +1635,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -1652,6 +1679,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -1701,6 +1729,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -1748,6 +1777,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -1801,6 +1831,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -1851,6 +1882,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -1900,6 +1932,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -1942,6 +1975,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -1983,6 +2017,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -2024,6 +2059,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -2073,6 +2109,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -2119,6 +2156,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -2158,6 +2196,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -2212,6 +2251,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -2251,6 +2291,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -2292,6 +2333,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -2333,6 +2375,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -2374,6 +2417,7 @@
     "cosa": "il master del 2011",
     "perche": "caricato da Amerigo sul suo profilo il 01/09/2026, traccia privata, il giorno stesso in cui il pezzo e' stato ritrovato nei master su disco fisso. Link corto mandato da lui, on.soundcloud.com/fRNgRjqH7Tahrkw2rW, che risolve su soundcloud.com/provenzano_official/glideness-ft-majuri/s-21UP7KRYIyQ. ⭐ **In digitale non e' mai esistito**: il singolo Net's Work non e' uscito e il pezzo si trova solo dentro m2o vol.27, che e' un CD. Prima di oggi non c'era modo di sentirlo."
    },
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": null,
@@ -2414,6 +2458,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -2466,6 +2511,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -2527,6 +2573,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -2579,6 +2626,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -2640,6 +2688,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -2672,6 +2721,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": null,
@@ -2708,6 +2758,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -2749,6 +2800,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -2790,6 +2842,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -2831,6 +2884,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -2893,6 +2947,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -2953,6 +3008,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -2996,6 +3052,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -3042,6 +3099,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -3090,6 +3148,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -3131,6 +3190,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -3172,6 +3232,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -3213,6 +3274,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -3256,6 +3318,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -3318,6 +3381,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -3352,6 +3416,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": {
     "album": "890307105",
@@ -3401,6 +3466,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -3460,6 +3526,7 @@
     "cosa": "Sunstars Remix",
     "perche": "link mandato da Amerigo il 01/09/2026: «da aggiungere alla pagina della release». ⚠️ **Non è un suo caricamento**: sta sul profilo ufficiale di **Alex Gaudino**, che del disco è l'artista, quindi è un audio d'etichetta e non un caricamento di terzi — e non serve il `secret`, che sui suoi upload privati invece è obbligatorio. ⚠️ **È il Sunstars Remix, non la versione del disco**: la didascalia in pagina lo dice, così chi ascolta non crede che il pezzo sia quello. ⚠️ **Va sulla riga del 2014 e non su quella del 1997**: sono due dischi diversi con lo stesso titolo, ed è lo stesso inciampo già successo con i video il 30/08/2026 — vedi `titolo_solo_di`."
    },
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -3505,6 +3572,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -3560,6 +3628,7 @@
      "cosa": "Mattei & Omich Remix"
     }
    ],
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -3614,6 +3683,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -3669,6 +3739,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -3800,6 +3871,7 @@
     }
    ],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -3854,6 +3926,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -3900,6 +3973,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -3938,6 +4012,7 @@
     "cosa": "il brano su SoundCloud, dal profilo di Alberto Castellari",
     "perche": "il pezzo non e' mai uscito come disco: sta solo qui, caricato da Castellari (KASTE) che l'ha fatto con lui. Link mandato da Amerigo il 29/08/2026, e da questa pagina viene anche la copertina, che prima era un segnaposto."
    },
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -3977,6 +4052,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -4018,6 +4094,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -4059,6 +4136,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -4100,6 +4178,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -4157,6 +4236,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -4208,6 +4288,7 @@
     }
    ],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -4258,6 +4339,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -4297,6 +4379,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -4338,6 +4421,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -4424,6 +4508,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -4478,6 +4563,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -4512,6 +4598,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": {
     "tipo": "track",
     "id": "4497869",
@@ -4563,6 +4650,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -4602,6 +4690,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -4643,6 +4732,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -4699,6 +4789,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -4736,6 +4827,7 @@
     "cosa": "il brano intero",
     "perche": "caricato da Amerigo sul suo profilo il 01/09/2026, traccia privata, link corto on.soundcloud.com/45lpr5u3KEeFXzaJui che risolve su soundcloud.com/provenzano_official/harder-faster-stress-on-the/s-bhPGKvYb6iu. Titolo sul profilo: «Harder, Faster - Stress On The Mountain (Original Mix) [Metropolitan Promos]». Il file viene dal DJ pool **Selected Recs**, release #1892190. ⭐ **E' il primo ascolto in assoluto del ritorno con Paolo Bolognesi**: in digitale il pezzo c'e' solo su Spotify sotto «Harder & Faster», un nome che non porta da nessuna parte a lui."
    },
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -4782,6 +4874,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -4828,6 +4921,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -4867,6 +4961,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -4908,6 +5003,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -4949,6 +5045,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -4990,6 +5087,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -5031,6 +5129,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -5073,6 +5172,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -5113,6 +5213,7 @@
     "cosa": "l'Ashmere Remix, dal profilo ufficiale di Fond8",
     "perche": "scelto da Amerigo il 01/09/2026 — «usa questa versione» — dal profilo **Fond8** su SoundCloud, soundcloud.com/fond8/something-about-love-ashmere. ⚠️ **E' una traccia pubblica di terzi, non un suo caricamento**, ed e' l'unico caso finora: gli altri player SoundCloud della discografia sono tracce private caricate da lui. Regge perche' e' **il canale ufficiale dell'altro nome sul disco**, non un fan upload. ⚠️ **In pagina si sente l'Ashmere Remix, non la versione loro**: la didascalia lo dice, perche' un player che non lo dichiara fa credere che il pezzo sia quello. La versione originale Fond8 & Harder sul profilo di Fond8 non c'e'; Amerigo ne ha il WAV in `D:\\MUSIC`, e se un giorno la carica questa voce si sostituisce."
    },
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -5150,6 +5251,7 @@
     "cosa": "il brano intero",
     "perche": "caricato da Amerigo sul suo profilo, traccia privata, e mandato il 01/09/2026 col link corto on.soundcloud.com/WyJTq7gLnNYHcIzTSg, che risolve su soundcloud.com/provenzano_official/harder-your-love/s-wQQ6O. ⚠️ **Il link diretto senza token da' 404 all'oEmbed**: su una traccia privata serve sempre il link corto, che il token se lo porta dietro. Titolo sul profilo: «Harder - Your Love»."
    },
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -5190,6 +5292,7 @@
     "cosa": "le tre versioni — Mattei & Omich edit, Game Over DJs remix, Tava remix — in anteprima dal profilo di Woof Records",
     "altezza": 300
    },
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -5230,6 +5333,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -5268,6 +5372,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -5308,6 +5413,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -5357,6 +5463,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -5399,6 +5506,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -5442,6 +5550,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -5481,6 +5590,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -5520,6 +5630,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -5566,6 +5677,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -5615,6 +5727,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -5660,6 +5773,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -5699,6 +5813,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -5737,6 +5852,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -5779,6 +5895,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -5822,6 +5939,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -5863,6 +5981,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -5904,6 +6023,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -5944,6 +6064,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -5984,6 +6105,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -6031,6 +6153,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -6078,6 +6201,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -6123,6 +6247,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -6168,6 +6293,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -6206,6 +6332,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -6252,6 +6379,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -6286,6 +6414,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -6327,6 +6456,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -6368,6 +6498,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -6409,6 +6540,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -6453,6 +6585,7 @@
     "cosa": "Energy Dub Mix",
     "perche": "l'audio caricato da Amerigo sul suo profilo il 31/08/2026, traccia privata: «1997 I Ragazzi Di Macao - Ahi Limon Limonero (Energy Dub Mix)». Link corto mandato da lui: on.soundcloud.com/Ax3HK9q2AvnMglf1Ox, che risolve su soundcloud.com/provenzano_official/1997-i-ragazzi-di-macao-ahi/s-Acbx3pz8vKp — l'id numerico e il token si tirano fuori dall'oEmbed di SoundCloud. Il disco del 1997 in digitale non esiste, e questo e' l'unico modo per ascoltarlo. ⚠️ E' la loro versione, non una delle altre due del 12\": «noi solo la energy dub» (31/08/2026)."
    },
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -6500,6 +6633,7 @@
     "cosa": "Provenzano & Promiseland Hard Dance Style Mix",
     "perche": "l'audio caricato da Amerigo sul suo profilo il 31/08/2026, traccia privata. Link corto mandato da lui, on.soundcloud.com/j7aS3OS2jgS8DeHnfL, che risolve su soundcloud.com/provenzano_official/clubraiders-move-your-hands-up/s-0p7Oj1RFXCA. Il 12\" del 2004 in digitale non c'e'. L'audio viene dal canale «La Casa Della Dance» (ZdEtbU-RPSs), che porta la sola A1 col titolo esatto della versione — 6:54, contro i 6:50 stampati sull'etichetta. ⚠️ E' la loro versione, non una delle altre tre del vinile."
    },
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -6542,6 +6676,7 @@
     "perche": "l'audio caricato da Amerigo sul suo profilo il 30/08/2026, traccia privata: il 12\" Moremoney del 2005 non e' mai passato in digitale, e questo e' l'unico ascolto. E' il «Faccio Quello Che Mi Pare Radio Cut» (4:36), non l'Extended da 4:58. Il file viene da D:/MUSIC 2/Discografia. Link corto: on.soundcloud.com/Dzy1egvJ2JFJplD9co.",
     "cosa": "Provenzano & Carlo Marani Remix"
    },
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -6574,6 +6709,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -6606,6 +6742,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -6651,6 +6788,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -6684,6 +6822,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": null,
@@ -6713,6 +6852,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": null,
@@ -6742,6 +6882,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": null,
@@ -6771,6 +6912,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": null,
@@ -6807,6 +6949,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -6848,6 +6991,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -6880,6 +7024,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": null,
@@ -6909,6 +7054,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": null,
@@ -6938,6 +7084,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": null,
@@ -6967,6 +7114,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": null,
@@ -6996,6 +7144,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": null,
@@ -7025,6 +7174,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": null,
@@ -7054,6 +7204,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -7093,6 +7244,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -7130,6 +7282,7 @@
     "secret": "s-sKA3EizoJ0P",
     "perche": "l'audio caricato da Amerigo sul suo profilo il 31/08/2026, traccia privata: «Cosmo - Inno Di Mameli (Provenzano DJ Remix)». Link corto mandato da lui, on.soundcloud.com/QIZM96d9bgGnxfKB54, che risolve su soundcloud.com/provenzano_official/cosmo-inno-di-mameli/s-sKA3EizoJ0P — id numerico e token dall'oEmbed. Il remix del 2006 non ha mai avuto una release sua ed esiste solo dentro tre compilation: in digitale non c'e'. L'audio viene dal canale «DANCE 4 PASSION» (H5FjBSu5IcM), che porta il brano intero col titolo esatto — 2:20 — e da li' e' stato ricaricato dove lo controlla lui."
    },
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -7166,6 +7319,7 @@
     "secret": "s-a0z1pWeuYjo",
     "perche": "l'audio caricato da Amerigo sul suo profilo il 31/08/2026, traccia privata: «Checco Zalone - Siamo Una Squadra Fortissimi (Provenzano & Promise Land Remix)». Link corto mandato da lui, on.soundcloud.com/Ju3I5S6MJM4GHbwcG9, che risolve su soundcloud.com/provenzano_official/checco-zalone-siamo-una/s-a0z1pWeuYjo. Il remix del 2006 esiste solo dentro Hit Mania Club Dance Vol. 4 e in digitale non c'e'. L'audio viene dal canale «Italodance Rare by Mysterioboy84» (djgiONCg2ck), 4:32, col titolo esatto, ed e' stato ricaricato dove lo controlla lui."
    },
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -7213,6 +7367,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -7252,6 +7407,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -7301,6 +7457,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -7333,6 +7490,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": null,
@@ -7369,6 +7527,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -7402,6 +7561,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -7446,6 +7606,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": null,
@@ -7478,6 +7639,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -7510,6 +7672,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -7549,6 +7712,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -7582,6 +7746,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -7614,6 +7779,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": null,
@@ -7643,6 +7809,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": null,
@@ -7679,6 +7846,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -7733,6 +7901,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -7765,6 +7934,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -7817,6 +7987,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -7862,6 +8033,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -7895,6 +8067,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -7934,6 +8107,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -7973,6 +8147,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -8006,6 +8181,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": null,
@@ -8041,6 +8217,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -8079,6 +8256,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -8124,6 +8302,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -8156,6 +8335,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -8188,6 +8368,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -8233,6 +8414,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -8270,6 +8452,7 @@
     "cosa": "il remix, dal master del 2011",
     "perche": "caricato da Amerigo sul suo profilo il 01/09/2026, traccia privata, subito dopo che il remix era stato ritrovato sul disco fisso. Link corto mandato da lui, on.soundcloud.com/2QWpYCbG3rnCvXZDq7, che risolve su soundcloud.com/provenzano_official/jaykay-feat-flo-rida-smokey/s-6hqdaP2EVE5. ⭐ **E' il master del 2011**, quello di `D:\\Storico Provenzano\\[MASTER]\\RELEASE\\JayKay feat Flo rida What girls Like_`: in digitale il remix non esiste da nessuna parte — su Discogs non c'e', e il promo dei remix PM Recordings del 2012 ne porta sei senza la sua. **Prima di oggi non c'era modo di sentirlo.** ⚠️ Su SoundCloud il titolo tiene tutti e due i nomi, «[Provenzano Aka Reder8 Rmx]», come il file di master; **in pagina la firma e' «Provenzano»**, per scelta di Amerigo del 01/09/2026 — «consideralo Provenzano remix, puoi togliere Reder8». Non e' una discordanza: e' il nome del file contro il nome con cui e' conosciuto."
    },
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -8308,6 +8491,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -8353,6 +8537,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -8398,6 +8583,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -8434,6 +8620,7 @@
     "cosa": "il remix in anteprima al Provenzano Dj Show, 30 aprile 2012",
     "perche": "mandato da Amerigo il 01/09/2026: e' il rip che Gabry Sangineto ha caricato sul suo profilo dalla puntata del Provenzano Dj Show in cui il brano passava in anteprima — «e' un rip di uno degli artisti ad un mio programma radiofonico dove passavo il brano, e' una cosa carina da avere». soundcloud.com/djgabrysangineto/sergio-matina-gabry-2, traccia pubblica, titolo per esteso «Sergio Matina & Gabry Sangineto - Sound Of Freedom @ Provenzano Dj Show (April 30th, 2012)». ⭐ **E' anche la conferma ufficiale del remix, non solo un ascolto.** Il titolo del caricamento non lo dice, ma **dentro l'audio il brano viene presentato come Provenzano Remix** — verificato all'ascolto da Amerigo il 01/09/2026: «ho ascoltato l'audio e viene presentato come provenzano remix, abbiamo la conferma ufficiale». Regge da solo, senza appoggiarsi alla sola parola di Sangineto. ⚠️ **La data nel titolo e' l'anteprima, non l'uscita**: il 30 aprile il pezzo passa allo show, il disco esce il 14 maggio. Lo dice la descrizione dello stesso caricamento — «Available from 14.05.2012 on Ibiza World Records / S2G Productions (Chris Montana's Label)» — che e' anche la fonte dell'etichetta. Si legge pure «Thanks for support to Amerigo Provenzano & Manuela Doriani»."
    },
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": null,
@@ -8470,6 +8657,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -8516,6 +8704,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -8554,6 +8743,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -8599,6 +8789,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -8638,6 +8829,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": {
     "album": "1312778616",
@@ -8693,6 +8885,7 @@
     "cosa": "il remix su SoundCloud, dal profilo di Sergio Mauri",
     "perche": "caricato dall'artista del pezzo originale. Link mandato da Amerigo il 29/08/2026: su questa pagina si arriva al terzo modo di ascoltarlo, dopo Spotify e il video di Molto Recordings."
    },
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -8738,6 +8931,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -8776,6 +8970,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": null,
@@ -8805,6 +9000,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -8844,6 +9040,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -8880,6 +9077,7 @@
     "cosa": "il remix su SoundCloud, dal profilo di Henry John Morgan",
     "perche": "caricato da HJM promotion, cioe' uno dei due artisti del pezzo originale. Link mandato da Amerigo il 29/08/2026."
    },
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -8919,6 +9117,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -8966,6 +9165,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -9005,6 +9205,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -9046,6 +9247,11 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": {
+    "tipo": "track",
+    "id": "93959028",
+    "perche": "è l'unico posto dove il suo remix si ascolta. ⚠️ **Su Spotify non c'è**: lì sta solo l'originale del 15/07/2013 in quattro versioni, senza la sua. ⚠️ **E su SoundCloud non c'è più**: Amerigo ne aveva mandato il link il 01/09/2026, ma la traccia era stata rimossa — SoundCloud rispondeva «this track was not found» — e lui l'ha confermato. Su Deezer invece l'uscita `9547888` ha **una traccia sola** ed è il suo remix, 5:56. È il disco per cui la leva Deezer è stata costruita: «prova con deezer», «solo per questo provalo»."
+   },
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -9092,6 +9298,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -9135,6 +9342,7 @@
     "cosa": "il remix su SoundCloud, dal profilo di Claudio Caccini",
     "perche": "caricato da Funkatomic aka Claudio Caccini, cioe' l'artista del pezzo originale. Link mandato da Amerigo il 29/08/2026. L'immagine della traccia su SoundCloud e' solo il logo m2o radio, quindi in pagina resta la copertina di m2o vol.38, il disco dove il remix e' stampato."
    },
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -9182,6 +9390,7 @@
    },
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -9221,6 +9430,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -9268,6 +9478,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -9305,6 +9516,7 @@
     "cosa": "il remix intero",
     "perche": "caricato da Amerigo sul suo profilo il 01/09/2026, traccia privata, link corto on.soundcloud.com/CLamd1qjh4mattl8ym che risolve su soundcloud.com/provenzano_official/margherita-cecchi-harder-shine/s-hK6zMtOIkG0. Titolo sul profilo: «Margherita Cecchi, Harder - Shine (Harder Remix)». Il file viene dal DJ pool **Selected Recs**, dove il remix sta dentro «VA - Metropolitan 10 Years» del 2020: su Spotify e in giro non c'e'."
    },
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -9344,6 +9556,7 @@
    "video": null,
    "video_altri": [],
    "soundcloud": null,
+   "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
@@ -9721,6 +9934,7 @@
   "con_video": 49,
   "con_spotify": 75,
   "con_soundcloud": 25,
+  "con_deezer": 1,
   "con_traxsource": 1,
   "con_apple": 2,
   "in_compilation": 117,
