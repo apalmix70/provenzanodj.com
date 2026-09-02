@@ -703,7 +703,7 @@
    ],
    "firma": null,
    "etichetta": "Do It Yourself",
-   "nota": null,
+   "nota": "⭐ Le stampe sono tre, chieste da Amerigo il 02/09/2026 — «segnala i remix usciti nelle note e carica la copertina dopo il video» — e verificate una per una sull'API Discogs invece che trascritte dalla schermata. Il CD single, DO IT 06 04 CDS, Discogs 1761885: cinque tracce piu' il video — Radio Day 4:03, Funny Edit 3:48, Extended Day 5:23, Funny Mix 5:23, Girasole Rmx 6:30. Il 12\", DO IT 06-04, Discogs 1064001: le stesse quattro versioni del CD meno il Funny Edit. ⭐ E un secondo 12\" che esce solo per i remix, intitolato «Funny Day (Remix)», DO IT 32-04, 29/06/2004, Discogs 1336825 — A1 Promise Land Remix 6:15, A2 Hotel Saint George Remix 4:34, B1 Roberto Molinaro Club Concept 6:34, B2 Extended Day 5:23. La sua busta e' la foto in fondo alla pagina. ⭐ E' la stampa che spiega le compilation: il «Roberto Molinaro Concept» che gira su m2o vol.6 e su m2o vol.30 e' il B1 di questo vinile, non una versione uscita da sola. ⭐⭐ E il B1 non e' solo di Molinaro: i crediti di traccia lo danno a Maurizio Lobina e Roby Molinaro, e Lobina e' il tastierista degli Eiffel 65 — scheda Discogs 195923, dove Eiffel 65 e Bloom 06 stanno fra i suoi gruppi. E' lo stesso giro della Bliss Corporation da cui esce la raccolta di Molinaro dove sta *Running Up*. ⭐ I remixer del CD sono altri due: Funny Edit e Funny Mix sono di Max Boscolo, il Girasole Rmx e' arrangiato e mixato da Mario Gentili e Simone Bucciarelli. ⚠️ Il disco resta suo per intero: i crediti dicono *written-by* e *producer* Amerigo Provenzano, concept di Nunzio Marzulli, voce di Lizzy B., copertina e grafica di Andrea Di Castri. ⭐ E nei ringraziamenti del CD: «special thanks to Davide Farra & Carlo Moggiani for the video» — Davide Farra e' il terzo disco in cui compare, dopo m2o's team e Mr. Ed",
    "escluso": false,
    "da_guardare": false,
    "sezione": "1992 → 2009",
@@ -757,7 +757,12 @@
    },
    "inedito": false,
    "anno_incerto": false,
-   "foto": [],
+   "foto": [
+    {
+     "file": "cop/foto/funny-day-1.jpg",
+     "cosa": "la busta del 12\" dei remix, Do It Yourself DO IT 32-04: sull'etichetta del vinile le quattro versioni una sotto l'altra — A1 Promise Land Remix, A2 Hotel Saint George Remix, B1 Roberto Molinaro Club Concept, B2 Extended Day"
+    }
+   ],
    "nota_pubblica": null
   },
   {
@@ -1457,7 +1462,12 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2393347683",
+    "secret": "s-hpzsos4qlLx",
+    "cosa": "90 Fever Mix",
+    "perche": "l'audio caricato da Amerigo sul suo profilo il 02/09/2026, traccia privata: «Provenzano & Danijay - Ride The Way (fever mix original)». Link corto mandato da lui, on.soundcloud.com/1yejNocSQdENPNiE4K. ⭐ Chiude l'ultima produzione sua rimasta senza ascolto. ⭐ E chiude anche la questione di quale file fosse quello giusto: il caricamento dura 5:11, cioe' l'mp3 preso lo stesso giorno dal sito ufficiale di Danijay (danijay.com/audio/888, l'album *Plug & Play*), non il rip da 8:08 che stava in archivio marcato [RIP]. ⚠️ Le due misure vengono dalla stessa versione di nome — «90 Fever Mix» — ma non dallo stesso montaggio: la scheda Discogs dell'album (20596990) da' la traccia 14 a 5:11, «Danijay vs. Provenzano DJ», e il caricamento combacia al secondo. Il rip resta in archivio, non e' stato toccato."
+   },
    "deezer": null,
    "traxsource": null,
    "apple": null,
@@ -10437,7 +10447,7 @@
   "con_copertina": 207,
   "con_video": 54,
   "con_spotify": 83,
-  "con_soundcloud": 49,
+  "con_soundcloud": 50,
   "con_deezer": 0,
   "con_traxsource": 1,
   "con_apple": 3,
