@@ -99,6 +99,30 @@ footer .contenitore{display:flex;justify-content:space-between;gap:14px;flex-wra
 .deezer{width:100%;display:block;border-radius:8px;background:#111}
 .traxsource{width:100%;display:block;border-radius:8px;background:#111}
 .apple{width:100%;display:block;border:0;border-radius:8px;overflow:hidden;background:#111}
+/* ⭐ **Le frecce fra un disco e l'altro** — prova B, scelta da Amerigo il
+   02/09/2026 fra cinque. Stanno sopra la copertina e portano scritto il titolo
+   del disco che sta di la': con 208 pagine, sapere dove si va e' la differenza
+   fra sfogliare e indovinare. L'ordine e' quello del muro. */
+.colonna-cop{display:flex;flex-direction:column;gap:12px}
+.frecce{display:flex;justify-content:space-between;align-items:stretch;gap:12px;
+  padding-bottom:10px;border-bottom:1px solid var(--riga)}
+/* ⚠️ Il posto resta occupato dove la freccia non c'e' (primo e ultimo disco):
+   se sparisse, l'altra scivolerebbe dall'altra parte della riga. */
+.frecce .vuoto{flex:1}
+.frecce .salto{display:flex;align-items:center;gap:9px;color:var(--grigio);
+  font-size:12.5px;line-height:1.25;transition:color .15s}
+.frecce .salto:hover,.frecce .salto:focus-visible{color:var(--bianco)}
+.frecce .fr{font-size:17px;color:var(--rosso);line-height:1}
+.frecce .nn{display:flex;flex-direction:column;gap:1px;min-width:0}
+.frecce .et{font-size:9px;letter-spacing:.15em;text-transform:uppercase;
+  color:var(--debole)}
+/* ⚠️ Un titolo lungo non manda a capo la riga ne' allarga la colonna: si
+   accorcia con i puntini. La colonna della copertina e' larga quanto la
+   copertina, e una riga che la sfonda spinge fuori il testo del disco. */
+.frecce .tt{font-weight:600;white-space:nowrap;overflow:hidden;
+  text-overflow:ellipsis}
+.frecce .dx{text-align:right}
+.frecce .dx .nn{align-items:flex-end}
 .torna{display:inline-block;margin:26px 0 6px;font-size:11px;letter-spacing:.16em;
   text-transform:uppercase;color:var(--grigio)}
 .torna:hover{color:var(--rosso)}
@@ -112,7 +136,7 @@ footer .contenitore{display:flex;justify-content:space-between;gap:14px;flex-wra
 
 <main class="contenitore">
   <article class="disco">
-    <figure><img src="/compilation/cop/jump-2-the-dancefloor-vol-1.jpg" alt="Eurofolk"><div class="da">la copertina è quella di [Jump]² The Dancefloor Vol. 1</div></figure>
+    <div class="colonna-cop"><nav class="frecce"><a class="salto" href="/discografia/promise-land-live-your-life/" rel="prev"><span class="fr">‹</span><span class="nn"><span class="et">precedente</span><span class="tt">Live Your Life</span></span></a><a class="salto dx" href="/discografia/dj-nick-hearts-entwine/" rel="next"><span class="nn"><span class="et">successivo</span><span class="tt">Hearts Entwine</span></span><span class="fr">›</span></a></nav><figure><img src="/compilation/cop/jump-2-the-dancefloor-vol-1.jpg" alt="Eurofolk"><div class="da">la copertina è quella di [Jump]² The Dancefloor Vol. 1</div></figure></div>
     <div class="testo t-alias">
       <span class="tipo">alias / Italian Deejays</span>
       <h1>Eurofolk</h1>
@@ -130,6 +154,46 @@ footer .contenitore{display:flex;justify-content:space-between;gap:14px;flex-wra
 
   <a class="torna" href="/discografia/">&larr; tutta la discografia</a>
 </main>
+
+<script>
+/* Le frecce della tastiera e lo scorrimento col dito fanno quello che fanno i
+   due link sopra la copertina. Con 208 pagine sono il modo veloce di
+   attraversarle, e sul telefono il dito e' il gesto naturale su una copertina.
+   ⚠️ Le frecce della tastiera si spengono mentre si scrive in un campo, e
+   dentro un player: li' significano un'altra cosa. */
+(function () {
+  var prec = document.querySelector('.frecce a[rel="prev"]');
+  var succ = document.querySelector('.frecce a[rel="next"]');
+  if (!prec && !succ) return;
+
+  document.addEventListener('keydown', function (ev) {
+    if (ev.metaKey || ev.ctrlKey || ev.altKey) return;
+    var a = document.activeElement;
+    if (a && (a.tagName === 'INPUT' || a.tagName === 'TEXTAREA' ||
+              a.tagName === 'IFRAME' || a.isContentEditable)) return;
+    if (ev.key === 'ArrowLeft' && prec) location.href = prec.href;
+    if (ev.key === 'ArrowRight' && succ) location.href = succ.href;
+  });
+
+  var figura = document.querySelector('.disco figure');
+  if (!figura || !window.matchMedia('(pointer:coarse)').matches) return;
+  var x0 = null, y0 = null;
+  figura.addEventListener('touchstart', function (ev) {
+    x0 = ev.changedTouches[0].clientX;
+    y0 = ev.changedTouches[0].clientY;
+  }, {passive: true});
+  figura.addEventListener('touchend', function (ev) {
+    if (x0 === null) return;
+    var dx = ev.changedTouches[0].clientX - x0;
+    var dy = ev.changedTouches[0].clientY - y0;
+    x0 = null;
+    /* orizzontale e deciso, se no e' lo scorrimento della pagina */
+    if (Math.abs(dx) < 60 || Math.abs(dx) < Math.abs(dy) * 1.6) return;
+    if (dx > 0 && prec) location.href = prec.href;
+    if (dx < 0 && succ) location.href = succ.href;
+  }, {passive: true});
+})();
+</script>
 
 <footer><div class="contenitore">
   <span>&copy; Provenzano Dj</span>
