@@ -2049,7 +2049,7 @@
    "con": [],
    "firma": "Reder8",
    "etichetta": "Netswork",
-   "nota": null,
+   "nota": "⭐ Dove è uscito Reder8, chiesto da Amerigo il 02/09/2026 — «controlla dove è uscito reder8» — leggendo la sua pagina Discogs, che è un'identità a sé (artista 2056307). ⚠️ Un singolo suo su Discogs non esiste: le sedici voci sono tutte apparizioni su compilation, e il disco a sé sta solo in digitale, su Spotify. ⭐ E sono quindici stampe in due anni, di cui nove estere. In Italia: ADE (Amsterdam Dance Event) EP Part One, Net's Work International NWI 626, 29/10/2010, dove è la A1 — cioè apre il disco; m2o vol.25 (Time/Elemedia, 23/11/2010); Dj Set Volume 125 (Global Net GLN 173, 2010); For DJs Only 2011/01 (Universal, 2011); Net's Work 10th Anniversary 2001/2011 (NWI 655, 2011); Hit Mania Club Dance Vol.16 (Magika, 03/2011); Elektronica Vol.20 (Atlantis ATL 754). Fuori: 4 DJ's Only 01.2011 (Mostiko, Belgio, 28/01/2011); Essential Clubhouse — The Summer Collection 2011, House Music Top 200 Vol. 2, House Top 100 Volume 14, We Love Electro VII e We Love House (ZYX Music) — tutte Germania; House 2011/2 (ZYX, Europa); Goldbrain Dj — The Dance Factory (Farol, Portogallo). ⭐ La versione che gira di più non è la sua ma il remix: la «Promise Land Remix» da 7:14 sta su otto stampe, l'«Original Mix» da 7:11 su quattro. ⭐ È il disco suo che ha viaggiato di più fuori dall'Italia, e sotto un alias",
    "escluso": false,
    "da_guardare": false,
    "sezione": "2010 → 2019",
@@ -7595,7 +7595,7 @@
    "data_esatta": false,
    "firma": "Provenzano & Promise Land",
    "etichetta": null,
-   "nota": "ritrovata nel database delle compilation, stampata su [Jump]² The Dancefloor Vol. 4; anno non confermato",
+   "nota": "ritrovata nel database delle compilation, stampata su [Jump]² The Dancefloor Vol. 4. ✅ L'anno è confermato dal 02/09/2026, e fino a quel giorno era una deduzione marcata come incerta: la seconda stampa è Hit Mania Club Dance Volume 5, Magika, febbraio 2007, traccia 14, «Boom Boom (ProvenzanoDJ & PromiseLand Remix)» 3:45. Le due stampe sono a un mese l'una dall'altra — febbraio e marzo 2007 — quindi il 2007 non è più dedotto da una riga sola",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [
@@ -7621,7 +7621,7 @@
     "da": "[Jump]² The Dancefloor Vol. 4"
    },
    "inedito": false,
-   "anno_incerto": true,
+   "anno_incerto": false,
    "foto": [],
    "nota_pubblica": null
   },
@@ -7694,7 +7694,11 @@
    "deezer": null,
    "traxsource": null,
    "apple": null,
-   "copertina": null,
+   "copertina": {
+    "tipo": "compilation",
+    "file": "cop/supawet-wash-the-floor.jpg",
+    "da": "Hit Mania Club Dance Volume 5"
+   },
    "inedito": false,
    "anno_incerto": false,
    "foto": [],
@@ -8274,7 +8278,7 @@
    "data_esatta": true,
    "firma": "Promise Land & Provenzano",
    "etichetta": "Altra Moda",
-   "nota": null,
+   "nota": "⭐ Riga aperta il 02/09/2026: era muta e senza niente scritto, e in un pomeriggio ha preso due ascolti e una busta, tutti mandati da Amerigo. ⭐ I due ascolti vengono dall'artista che ha commissionato il remix: l'audio ufficiale sul canale YouTube di Fedde Le Grand — 355.000 iscritti, caricato il 12/04/2010 — e il SoundCloud sul suo profilo, «Back & Forth (Promise Land Provenzano Vocal Remix) [feat. Mr V]». È il secondo disco che entra in pagina da lì, dopo *Scared Of Me*, ed è il primo SoundCloud di questa discografia che non venga dal profilo di Amerigo. ⭐ Il titolo dà anche il nome della versione, che mancava: Vocal Remix — e la parola dice che da qualche parte c'è pure un dub. ⭐ La copertina è cambiata, ed è un cambio che aggiunge fatti: al posto dell'artwork del singolo digitale c'è la busta del promo 12\", «PROMOTIONAL COPY #4 dj's only#», intestata NET'S WORK INTERNATIONAL, e il bollino al centro elenca i tre remixer del disco — «PROMISELAND & PROVENZANO / RENE AMESZ / ERIC CHASE» — col logo Flamingo. L'artwork vecchio, 600px, sta in `copertine\\_sostituite\\`. ⚠️ E rimette in movimento la casella dell'etichetta, che qui dice *Altra Moda*: sulla busta la stampa italiana è Net's Work International e sul bollino c'è Flamingo. È lo stesso groviglio di *Scared Of Me*, dove si era passati da Altra Moda a Flamingo a Ultra guardando l'artwork — con la differenza che stavolta la busta ce l'abbiamo",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [
@@ -8288,9 +8292,20 @@
    "artista_diverso": [],
    "versioni_uscita": [],
    "spotify": null,
-   "video": null,
+   "video": {
+    "youtube": "SSah5HdjoWM",
+    "tipo": "audio",
+    "canale": "canale ufficiale di Fedde Le Grand",
+    "titolo": "Back & Forth (Fedde Le Grand)",
+    "verticale": false,
+    "formato": null
+   },
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/271219607",
+    "cosa": "Promise Land Provenzano Vocal Remix",
+    "perche": "mandato da Amerigo il 02/09/2026 - «inserisci anche player soundcloud sulla pagina» - insieme al video. ⚠️ **Non e' un caricamento suo**: sta sul profilo ufficiale di **Fedde Le Grand**, soundcloud.com/feddelegrand, ed e' il primo SoundCloud in questa discografia che non venga dal profilo di Amerigo. Quindi **non ha secret token**: e' una traccia pubblica, e nella leva ci va solo `url`. ⭐ **E il titolo regala il nome della versione**, che la riga non aveva: «Back & Forth (Promise Land Provenzano **Vocal** Remix) [feat. Mr V]». La parola «Vocal» dice anche che da qualche parte esiste un dub. ⭐ Con questo e il video del canale di Fedde Le Grand la pagina passa da muta a due ascolti, tutti e due dall'artista internazionale che ha commissionato il remix."
+   },
    "deezer": null,
    "traxsource": null,
    "apple": null,
@@ -10128,10 +10143,10 @@
   "singoli": 125,
   "remix": 83,
   "inediti": 31,
-  "con_copertina": 200,
-  "con_video": 51,
+  "con_copertina": 201,
+  "con_video": 52,
   "con_spotify": 79,
-  "con_soundcloud": 33,
+  "con_soundcloud": 34,
   "con_deezer": 0,
   "con_traxsource": 1,
   "con_apple": 3,
