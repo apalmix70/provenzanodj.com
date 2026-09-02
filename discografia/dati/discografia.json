@@ -61,11 +61,11 @@
     16
    ],
    [
-    2006,
+    2005,
     15
    ],
    [
-    2005,
+    2006,
     14
    ],
    [
@@ -179,6 +179,10 @@
     3
    ],
    [
+    "Danijay",
+    2
+   ],
+   [
     "Haiducii",
     2
    ],
@@ -188,10 +192,6 @@
    ],
    [
     "Afterclub",
-    2
-   ],
-   [
-    "Danijay",
     2
    ],
    [
@@ -6341,7 +6341,7 @@
     },
     {
      "file": "cop/foto/leandro-barsotti-mi-piace-2.jpg",
-     "cosa": "il retro: la sua è la traccia 3, «Mi Piace (Remix)»"
+     "cosa": "il retro: la sua è la traccia 3, «MI PIACE (Remix) 4:06 (A. Salerno - L. Barsotti)», e sotto i crediti — «Arranged by Amerigo Provenzano, Paolo Bolognesi & Max Di Mario», «Remix by Provenzano, Bolognesi & Di Mario for La Radio Srl», produttore del remix Carlo Mancini. RCA/BMG 74321-25666-2, © ℗ 1994 BMG Ariola, «edizione fuori commercio»"
     }
    ],
    "nota_pubblica": null
@@ -6508,7 +6508,7 @@
    "foto": [
     {
      "file": "cop/foto/i-ragazzi-di-macao-ahi-limon-limonero-1.jpg",
-     "cosa": "l'etichetta del lato B, dove il remix è accreditato: «Energy Dub Mix»"
+     "cosa": "l'etichetta del lato B: «ENERGY DUB MIX 6:38 — (Bolognesi, Provenzano, Nicormano)», ZAC Records ZAC 195, ℗ 1997 Nuova Fonit Cetra, «recorded and mixed at Nicormano Studio (Roma)», distribuzione ZAC Music"
     }
    ],
    "nota_pubblica": {
@@ -6559,6 +6559,46 @@
      "cosa": "l'etichetta del vinile: «A1. Provenzano&Promiseland Hard Dance Style Rmx 6:50», e sotto «Remixed by Provenzano Dj & Promise Land @ Promiseland Studio - Anzio»"
     }
    ],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "remix",
+   "slug": "danijay-l-impazienza",
+   "artista": "Danijay",
+   "titolo": "L'impazienza",
+   "versioni": [],
+   "data": null,
+   "anno": 2005,
+   "data_esatta": false,
+   "firma": "Provenzano",
+   "etichetta": "Magika",
+   "nota": "trovata il 01/09/2026 sull'API Discogs, e non è un Hard Dance Style: qui la firma è sua da sola. Sulla «Hard Dance Compilation», Magika MGK056/CD, Italia 2006, traccia 8, come «L'impazienza (Provenzano DJ Remix)», credito di traccia «Provenzano DJ — Remix». ⭐ È il secondo remix per Danijay, dopo «Dance & Breakfast» che era già in tabella. ⭐ Player e copertina trovati il 02/09/2026, link mandato da Amerigo: il remix sta su «Dance & Breakfast», l'album di Danijay — Cosmonote srl, 17 tracce — come traccia 15, «L'Impazienza (Provenzano dj rmx)» 5:02, ISRC ITC360500303. ⚠️ In pagina va la traccia e non l'album, e qui il motivo è più forte del solito: la traccia 16 è lo stesso pezzo remixato da Jordi Carreras, quindi il player dell'album avrebbe fatto sentire il rifacimento di un altro accanto al suo. La copertina è quella dell'album, in prestito: prima era quella della Hard Dance Compilation, e questa è il disco che contiene davvero il suo lavoro. ⚠️ E rimette in discussione l'anno: l'album è del 2005 e l'ISRC pure — il *05* in `ITC360500303` — mentre la riga dice 2006 perché la data veniva dalla Hard Dance Compilation, uscita il 03/02/2006. Il remix è quindi del 2005 e la compilation è arrivata dopo, come su *Last Night A Dj Saved My Life* e *Start It Over*. ⚠️ La data esatta però non si prende da Spotify: dà 01/01/2005, che è il tappabuchi dei cataloghi digitali — resta l'anno e basta",
+   "escluso": false,
+   "sezione": "Remix",
+   "in_compilation": [],
+   "artista_diverso": [],
+   "versioni_uscita": [],
+   "spotify": {
+    "tipo": "track",
+    "album": "6eIiq6svitmx6qZLZYsRMz",
+    "titolo": "L'impazienza",
+    "cosa": null,
+    "alto": false
+   },
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "deezer": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "compilation",
+    "file": "cop/danijay-l-impazienza.jpg",
+    "da": "Dance & Breakfast, l'album di Danijay"
+   },
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -6993,12 +7033,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
-   "foto": [
-    {
-     "file": "cop/foto/sophie-c-est-l-amour-1.jpg",
-     "cosa": "il CD promo nella sua custodia: «Sophie - C'est l'amour», UNIVERSO, quattro versioni - «1. Radio Edit 3.22, 2. Mobile Edit 3.30, 3. Hungarian Dance Mix 3.32, 4. Club Mix 5.08» - autore Luigi Mogurno, (P) 2006 Universo S.p.a., (C) 2006 Market Srl"
-    }
-   ],
+   "foto": [],
    "nota_pubblica": null
   },
   {
@@ -7204,40 +7239,6 @@
   },
   {
    "tipo": "remix",
-   "slug": "danijay-l-impazienza",
-   "artista": "Danijay",
-   "titolo": "L'impazienza",
-   "versioni": [],
-   "data": null,
-   "anno": 2006,
-   "data_esatta": false,
-   "firma": "Provenzano",
-   "etichetta": "Magika",
-   "nota": "trovata il 01/09/2026 sull'API Discogs, e non è un Hard Dance Style: qui la firma è sua da sola. Sulla «Hard Dance Compilation», Magika MGK056/CD, Italia 2006, traccia 8, come «L'impazienza (Provenzano DJ Remix)», credito di traccia «Provenzano DJ — Remix». ⭐ È il secondo remix per Danijay, dopo «Dance & Breakfast» che era già in tabella",
-   "escluso": false,
-   "sezione": "Remix",
-   "in_compilation": [],
-   "artista_diverso": [],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": null,
-   "video_altri": [],
-   "soundcloud": null,
-   "deezer": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "compilation",
-    "file": "cop/danijay-l-impazienza.jpg",
-    "da": "Hard Dance Compilation"
-   },
-   "inedito": false,
-   "anno_incerto": false,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "remix",
    "slug": "danijay-dance-and-breakfast",
    "artista": "Danijay",
    "titolo": "Dance & Breakfast",
@@ -7247,7 +7248,7 @@
    "data_esatta": false,
    "firma": "Provenzano",
    "etichetta": null,
-   "nota": null,
+   "nota": "⚠️ Questa riga è quasi certamente un doppione della precedente, e va guardata. Scoperto il 02/09/2026 aprendo l'album per il player di *L'impazienza*: «Dance & Breakfast» non è un brano, è l'ALBUM di Danijay — Cosmonote srl, 2005, diciassette tracce — e fra i suoi titoli non ce n'è nessuno che si chiami così. ⭐ Il suo lavoro dentro quel disco è uno solo: la traccia 15, «L'Impazienza (Provenzano dj rmx)», che in discografia ha già la sua riga. ⚠️ Da dove nasce l'errore: su Discogs il ruolo *Remix* è appeso alla release, non alla traccia, e chi ha letto quell'elenco ha preso il titolo dell'album per il titolo di un remix. È lo stesso inciampo di *Crazy Hits*, dove la riga portava il nome dell'album al posto del *Provenzano DJ Megamix*. ⛔ Non la tolgo da solo: se dentro quell'album c'è un secondo lavoro suo che non abbiamo visto, la riga ha un senso e va solo rinominata. Serve una parola di Amerigo — e la domanda è secca: su Dance & Breakfast hai fatto altro oltre a L'impazienza?",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [],
@@ -10038,11 +10039,11 @@
   },
   "2006": {
    "singoli": 2,
-   "remix": 13
+   "remix": 12
   },
   "2005": {
    "singoli": 5,
-   "remix": 9
+   "remix": 10
   },
   "2004": {
    "singoli": 3,
@@ -10075,7 +10076,7 @@
   "inediti": 31,
   "con_copertina": 199,
   "con_video": 49,
-  "con_spotify": 76,
+  "con_spotify": 77,
   "con_soundcloud": 30,
   "con_deezer": 0,
   "con_traxsource": 1,
