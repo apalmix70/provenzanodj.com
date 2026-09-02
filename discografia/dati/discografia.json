@@ -8447,13 +8447,15 @@
    "slug": "andrea-paci-and-francesco-ienco-feat-andrea-love-twilight",
    "artista": "Andrea Paci & Francesco Ienco feat. Andrea Love",
    "titolo": "Twilight",
-   "versioni": [],
+   "versioni": [
+    "P-R-P Remix"
+   ],
    "data": "2011-02-02",
    "anno": 2011,
    "data_esatta": true,
    "firma": "Provenzano, Ranucci & Pelusi (P-R-P)",
    "etichetta": "Ocean Trax",
-   "nota": null,
+   "nota": "⭐ Riga riempita il 02/09/2026 dalla scheda Beatport, mandata da Amerigo — e con lei arriva la penultima copertina mancante di tutta la discografia, a 1400×1400. Catalogo OCN190. ⭐ La loro versione si chiama «P-R-P Remix», e la sigla la scioglie lui: *«la versione è scritta p+r+p che sarebbe provenzano + ranucci + pelusi»*. Sul disco compaiono solo tre lettere, e senza quella frase non si risalirebbe a nessuno. ⭐ Cinque versioni, e la loro è l'unica fuori passo: le altre quattro — Paci & Ienco Club Mix, ATFC Remix, HOG Remix di House of Glass e il Radio Edit — stanno tutte a 128 BPM, la P-R-P a 96. Non è una variante di grado, è un altro pezzo: trentadue battute in meno al minuto. ⭐ E la presentazione del disco li mette in fila con gli altri: *«including the international remixes of ATFC, House Of Glass and Provenzano, Ranucci e Pelusi»*. ⚠️ La voce è di Andrea Love, che sta nel titolo di tutte e cinque le tracce",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [],
@@ -8466,7 +8468,10 @@
    "deezer": null,
    "traxsource": null,
    "apple": null,
-   "copertina": null,
+   "copertina": {
+    "tipo": "propria",
+    "file": "cop/andrea-paci-and-francesco-ienco-feat-andrea-love-twilight.jpg"
+   },
    "inedito": false,
    "anno_incerto": false,
    "foto": [],
@@ -10223,7 +10228,7 @@
   "singoli": 125,
   "remix": 83,
   "inediti": 31,
-  "con_copertina": 206,
+  "con_copertina": 207,
   "con_video": 52,
   "con_spotify": 80,
   "con_soundcloud": 38,
