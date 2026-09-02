@@ -729,6 +729,16 @@
    ],
    "versioni_uscita": [],
    "spotify": null,
+   "versioni_a_mano": [
+    "Radio Day 4:03",
+    "Extended Day 5:23",
+    "Funny Edit 3:48",
+    "Funny Mix 5:23",
+    "Girasole Rmx 6:30",
+    "Promise Land Remix 6:15",
+    "Hotel Saint George Remix 4:34",
+    "Roberto Molinaro Club Concept 6:34"
+   ],
    "video": {
     "youtube": "BTnep8cLM_Q",
     "tipo": "ufficiale",
@@ -1473,8 +1483,8 @@
    "apple": null,
    "copertina": {
     "tipo": "compilation",
-    "file": "/compilation/cop/m2ovol15.jpg",
-    "da": "m2o vol.15"
+    "file": "cop/ride-the-way.jpg",
+    "da": "Dance Passion 2nd Act"
    },
    "inedito": false,
    "anno_incerto": false,
