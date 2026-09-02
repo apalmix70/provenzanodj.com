@@ -8006,7 +8006,7 @@
    "data_esatta": true,
    "firma": "Provenzano, Pelusi & Ranucci",
    "etichetta": null,
-   "nota": "ritrovata nel database delle compilation, stampata su m2o vol.18; anno non confermato",
+   "nota": "ritrovata nel database delle compilation, stampata su m2o vol.18. ✅ L'anno è confermato dal 02/09/2026, e prima era una deduzione marcata come incerta: quel giorno il CD è stato letto davvero — m2o vol.18, TIME/Elemedia, 06/06/2008 — e da lì è uscito l'audio che adesso è il player. ⭐ È l'unico disco della discografia in cui l'ascolto in pagina è stato estratto dal disco fisico: traccia 11, tirata fuori con VLC, convertita in mp3 e caricata da Amerigo sul suo profilo. Il suo caricamento dura 282,979 secondi contro i 282,984 del file estratto — cinque millesimi, cioè la stessa registrazione. ⭐ Per questo la targhetta dice il nome della versione senza doverlo dedurre da un accostamento di durate, che è invece quello che è servito su *Catch Me* e che su *Chains Of Love* e *Where Did You Go* non è bastato",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [
@@ -8022,7 +8022,12 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2393193969",
+    "secret": "s-edncjDYMZnr",
+    "cosa": "Provenzano, Ranucci e Pelusi Remix",
+    "perche": "l'audio caricato da Amerigo sul suo profilo, traccia privata: «Laurent Wolf - No Stress (Provenzano, Ranucci e Pelusi Remix)», **4:42**. Link corto mandato da lui il 02/09/2026, on.soundcloud.com/9VIUOE4wITTEnKUEmG. ⭐ **E questo e' l'unico player della discografia di cui si sa con certezza da dove viene l'audio, perche' l'abbiamo estratto noi**: e' la traccia 11 del CD **m2o vol.18**, tirata fuori dal disco fisico il 02/09/2026 con VLC (`--cdda-track=11`), convertita in mp3 a 256k e caricata da lui. Il caricamento dura **282,979 secondi** contro i **282,984** del file estratto: cinque millesimi, cioe' lo stesso audio. ⭐ **Per questo la targhetta si scrive senza dedurre niente** - non e' un accostamento di durate come su *Catch Me*, e' la stessa registrazione. ⚠️ Ed e' il contrario di tutti gli altri caricamenti della giornata (*Chains Of Love* 3:21, *Where Did You Go* 4:14, *Right Or Wrong* 3:03), dove il file non combaciava con nessuna stampa e la targhetta e' rimasta vuota."
+   },
    "deezer": null,
    "traxsource": null,
    "apple": null,
@@ -10243,7 +10248,7 @@
   "con_copertina": 207,
   "con_video": 52,
   "con_spotify": 81,
-  "con_soundcloud": 38,
+  "con_soundcloud": 39,
   "con_deezer": 0,
   "con_traxsource": 1,
   "con_apple": 3,
