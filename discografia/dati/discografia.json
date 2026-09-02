@@ -1828,7 +1828,7 @@
    "con": [],
    "firma": null,
    "etichetta": "Netswork Records",
-   "nota": null,
+   "nota": "⭐ Le sei versioni scritte il 02/09/2026, su sua richiesta: «nelle versioni metti tutte le versioni presenti nel player spotify». La riga ne diceva due — Ian Carey e Dr. Kucho! — e il player ne fa sentire sei. Il single su Spotify è `60dyu4NK7HD6T5bRVVe8pL`, sei tracce, ℗ & © 2009 Net's Work & Songs Srl, uscito il 05/08/2009 — cioè la stessa data che la tabella aveva già. ⭐ Quattro versioni non stavano scritte da nessuna parte: la sua Provenzano, Ranucci & Pelusi Pumpin Mix 5:49 — cioè il pezzo, firmato coi tre cognomi come su *Side By Side* e *A.R.I.A.* — più i remix di Martin + Nocera + Montanari 6:40, Martin & Kevin Mayer Minitech 6:42 e Andrea Mazza & Gabriel Cage 5:49. Gli altri due sono Ian Carey Remix 6:23 e Dr. Kucho! Remix 6:40. ⚠️ È il primo disco che tiene insieme il player dell'album e l'elenco delle versioni. La regola del 30/08/2026 lo toglieva — il riquadro le fa già vedere tutte — ma qui vale il criterio più fine del 02/09/2026, *«se ci sono è interessante»*, e l'ha chiesto lui guardando la pagina. ⚠️ E l'elenco non può stare nella parentesi del titolo: il nome della prima versione contiene una virgola, che è il separatore con cui la parentesi viene sciolta, e lì dentro si spezzava in «Provenzano» e «Ranucci & Pelusi Pumpin Mix» — due versioni inventate. Per questo l'elenco sta in `versioni_a_mano` dentro `correzioni-a-mano.json`. ⭐ La stessa trappola è latente su *Side By Side*, che di versioni «Ranucci, Pelusi» ne ha tre: lì non si vede solo perché il player è l'album di Apple e l'elenco resta spento",
    "escluso": false,
    "da_guardare": false,
    "sezione": "1992 → 2009",
@@ -1852,6 +1852,14 @@
     "album": "60dyu4NK7HD6T5bRVVe8pL",
     "titolo": "Life Goes On"
    },
+   "versioni_a_mano": [
+    "Provenzano, Ranucci & Pelusi Pumpin Mix 5:49",
+    "Ian Carey Remix 6:23",
+    "Dr. Kucho! Remix 6:40",
+    "Martin + Nocera + Montanari Remix 6:40",
+    "Martin & Kevin Mayer Minitech Remix 6:42",
+    "Andrea Mazza & Gabriel Cage Remix 5:49"
+   ],
    "video": null,
    "video_altri": [],
    "soundcloud": null,
