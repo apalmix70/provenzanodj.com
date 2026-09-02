@@ -2400,6 +2400,91 @@
   },
   {
    "tipo": "produzione",
+   "slug": "turn-you-on",
+   "titolo": "Turn You On",
+   "versioni": [
+    "+ 7 remix"
+   ],
+   "data": "2012-06-22",
+   "anno": 2012,
+   "data_esatta": true,
+   "con": [
+    "Henry John Morgan (HJM)",
+    "The Audio Dogs"
+   ],
+   "firma": null,
+   "etichetta": "Time",
+   "nota": "data dal profilo Spotify, 30/08/2026: su Beatport la release non risulta. ✅ Le dieci versioni e il secondo player, 02/09/2026 — «scrivi le versioni Spotify». La riga diceva «+ 7 remix», cioè quanti sono e non quali — ed è lo stesso numero che il 30/08/2026 aveva fatto togliere dalla pagina, perché un conto da solo non fa ascoltare niente. Adesso hanno un nome. ⭐ Sul singolo del 22/06/2012: Radio Edit 2:39, Turn You On 5:44, HJM Hook 7:03. ⭐ Sui remix del 21/09/2012: Pizza Brothers 5:34, Formal Monkeys 7:02, Daniel Chord & Provenzano 5:38, Sergio Matina & Gabry Sangineto TendenziA Groovy Mix 8:25, Nicola Zucchi 5:08, Felipe C 6:13, Phunkjump 5:52. ✅ E la data è stata corretta: diceva 21/09/2012, che è la data dei remix — l'unico album che la pagina conosceva. Il singolo esce il 22/06/2012, tre mesi prima, ed è quello il disco. Stessa fonte di prima, release diversa. ⭐ E alla traccia 4 dei remix ci sono Sergio Matina & Gabry Sangineto, cioè il duo di *Sound Of Freedom* — l'unico disco della discografia ancora senza copertina",
+   "escluso": false,
+   "da_guardare": false,
+   "sezione": "2010 → 2019",
+   "in_compilation": [
+    {
+     "slug": "m2ovol30",
+     "titolo": "m2o vol.30",
+     "anno": 2012,
+     "come": "Turn You On"
+    },
+    {
+     "slug": "m2ovol31",
+     "titolo": "m2o vol.31",
+     "anno": 2012,
+     "come": "Turn You On (Pizza Brothers Remix)"
+    }
+   ],
+   "versioni_uscita": [],
+   "spotify": [
+    {
+     "tipo": "album",
+     "album": "2LQeepC2r7jACOeLSJiwtJ",
+     "titolo": "Turn You On",
+     "cosa": "il singolo, tre versioni",
+     "alto": false
+    },
+    {
+     "tipo": "album",
+     "album": "7fdJ3IYtFT0gcFbXX1Y65V",
+     "titolo": "Turn You On",
+     "cosa": "l'album dei remix, sette versioni",
+     "alto": false
+    }
+   ],
+   "versioni_a_mano": [
+    "Radio Edit 2:39",
+    "Turn You On 5:44",
+    "HJM Hook 7:03",
+    "Pizza Brothers Remix 5:34",
+    "Formal Monkeys Remix 7:02",
+    "Daniel Chord & Provenzano Remix 5:38",
+    "Sergio Matina & Gabry Sangineto TendenziA Groovy Mix 8:25",
+    "Nicola Zucchi Remix 5:08",
+    "Felipe C Remix 6:13",
+    "Phunkjump Remix 5:52"
+   ],
+   "video": {
+    "youtube": "bBDpEKCY6gs",
+    "tipo": "ufficiale",
+    "canale": "canale Henry John Morgan",
+    "titolo": "Turn You On",
+    "verticale": false,
+    "formato": null
+   },
+   "video_altri": [],
+   "soundcloud": null,
+   "deezer": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "propria",
+    "file": "cop/turn-you-on.jpg"
+   },
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "produzione",
    "slug": "cattivik",
    "titolo": "Cattivik",
    "versioni": [],
@@ -2489,68 +2574,6 @@
    "copertina": {
     "tipo": "propria",
     "file": "cop/you-re.jpg"
-   },
-   "inedito": false,
-   "anno_incerto": false,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "produzione",
-   "slug": "turn-you-on",
-   "titolo": "Turn You On",
-   "versioni": [
-    "+ 7 remix"
-   ],
-   "data": "2012-09-21",
-   "anno": 2012,
-   "data_esatta": true,
-   "con": [
-    "Henry John Morgan (HJM)",
-    "The Audio Dogs"
-   ],
-   "firma": null,
-   "etichetta": "Time",
-   "nota": "data dal profilo Spotify, 30/08/2026: su Beatport la release non risulta",
-   "escluso": false,
-   "da_guardare": false,
-   "sezione": "2010 → 2019",
-   "in_compilation": [
-    {
-     "slug": "m2ovol30",
-     "titolo": "m2o vol.30",
-     "anno": 2012,
-     "come": "Turn You On"
-    },
-    {
-     "slug": "m2ovol31",
-     "titolo": "m2o vol.31",
-     "anno": 2012,
-     "come": "Turn You On (Pizza Brothers Remix)"
-    }
-   ],
-   "versioni_uscita": [],
-   "spotify": {
-    "tipo": "album",
-    "album": "7fdJ3IYtFT0gcFbXX1Y65V",
-    "titolo": "Turn You On (Remixes)"
-   },
-   "video": {
-    "youtube": "bBDpEKCY6gs",
-    "tipo": "ufficiale",
-    "canale": "canale Henry John Morgan",
-    "titolo": "Turn You On",
-    "verticale": false,
-    "formato": null
-   },
-   "video_altri": [],
-   "soundcloud": null,
-   "deezer": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "propria",
-    "file": "cop/turn-you-on.jpg"
    },
    "inedito": false,
    "anno_incerto": false,
@@ -8228,7 +8251,7 @@
    "data": "2009-10-28",
    "anno": 2009,
    "data_esatta": true,
-   "firma": "Ranucci, Pelusi, Provenzano Mix",
+   "firma": "Ranucci, Pelusi, Provenzano",
    "etichetta": "Net's Work International",
    "nota": "⚠️ Rimessa fra i remix il 02/09/2026, per decisione di Amerigo guardando la pagina: *«questa va considerato un remix non un singolo»*. ⚠️ Il giorno prima era stata spostata nella direzione opposta — dai remix ai singoli, *«meglio due singoli»* — con questo ragionamento: l'artista sul disco sono i Promise Land, cioè due dei tre che l'hanno fatta, quindi la «Ranucci, Pelusi, Provenzano Mix» sarebbe la versione del disco e non il rifacimento di un pezzo altrui. Vale la seconda, ed è la sua: il pezzo è degli Indeep, 1982, e quello che hanno fatto loro sopra è un remix, chiunque sia stampato come artista. ⭐ Il criterio è di chi è il pezzo, non di chi firma il disco — lo stesso che regge la divisione delle copertine fra `produzioni\\` e `remix\\`. ⚠️ L'indirizzo della pagina torna `promise-land-last-night-a-dj-saved-my-life`: il link vecchio, quello di ieri, non risponde più. ⭐ Riga riempita il 01/09/2026 dal link Spotify mandato da lui. Prima era «anno non confermato», la data veniva dalla compilation e anche la copertina era in prestito da m2o vol.22. Adesso: single «Last Night a Dj Saved My Life», Spotify `5N188DX6dEpnnTPxwrUe4F`, 28/10/2009, © Net's Work & Songs Srl, copertina sua. ⭐ La data vera è due giorni prima della compilation: il disco è del 28 ottobre, m2o vol.22 del 30 — ecco perché la data dedotta cadeva vicina ma sbagliata. ⚠️ Il single ha due tracce e sono tutte e due loro: «Last Night a Dj Saved My Life — Ranucci, Pelusi, Provenzano Mix» 7:47 e «We Save Your Life — Ranucci, Pelusi, Provenzano Dub Mix». La seconda ha la sua riga qui sotto. L'etichetta è la stessa di *I Will Follow*, uscita lo stesso mese sullo stesso marchio",
    "escluso": false,
@@ -8274,7 +8297,7 @@
    "data": "2009-10-28",
    "anno": 2009,
    "data_esatta": true,
-   "firma": "Ranucci, Pelusi, Provenzano Dub Mix",
+   "firma": "Ranucci, Pelusi, Provenzano",
    "etichetta": "Net's Work International",
    "nota": "⚠️ Rimessa fra i remix il 02/09/2026, insieme al lato A e per la stessa parola di Amerigo: *«lo stesso questa»*. Il giorno prima era stata trattata da singolo — *«trattala come singolo»* — e sta qui adesso perché segue il disco su cui vive. ⚠️ L'indirizzo torna `promise-land-we-save-your-life`. ⭐ Resta la versione da firmare, ed è il motivo per cui esiste: sta sul lato B del single *Last Night A Dj Saved My Life* — Spotify `5N188DX6dEpnnTPxwrUe4F`, 28/10/2009 — e ci sta per una ragione precisa, spiegata da lui il 01/09/2026: *«il lato B indica che, essendo il lato A una cover, abbiamo fatto la versione da firmare»*. Il lato A è il pezzo degli Indeep del 1982: non è loro, e non si deposita. Questo sì. ⭐ È esattamente quello che avevano già fatto nel 1994 con *I.B.*, nato accanto a *I Believe* per lo stesso motivo — *«I Believe era una cover, abbiamo creato I.B. così l'abbiamo potuta firmare come SIAE»*. Quindici anni dopo, stesso mestiere: se il pezzo che porta il disco non è tuo, il lato B lo è. ⚠️ Era stata respinta due volte — «credo sia un refuso», poi «we save your life non esiste» — e riaperta da lui stesso quando ha visto dov'era: *«cambia tutto»*. ⚠️ Non bastava sapere che il titolo esisteva: quello si vedeva dalla tracklist. A trasformarlo in un'uscita è stato il posto dove sta, che ne spiega il senso. Copertina e player sono quelli del single, che è loro per intero: tutte e due le tracce",
    "escluso": false,
@@ -9396,9 +9419,9 @@
    "data": "2013-07-12",
    "anno": 2013,
    "data_esatta": true,
-   "firma": "Provenzano Rework",
+   "firma": "Provenzano",
    "etichetta": "Netswork Digital",
-   "nota": null,
+   "nota": "✅ Riga aperta all'ascolto il 02/09/2026 col caricamento suo su SoundCloud, traccia privata, 5:29: prima era muta. ⭐ Niente targhetta perché non c'è niente da distinguere: sulla release Netswork Digital la sua versione è una sola, «Bringing Me Down feat. Pryce Oliver ‹Provenzano Rework›», Beatport 12/07/2013, e il caricamento porta esattamente quel nome. ✅ E il credito è stato corretto insieme agli altri tre: nella colonna della firma c'era «Provenzano Rework», e la pagina stampava «remix di Provenzano Rework» — il nome di una versione dentro un credito. Adesso la firma è Provenzano, e il nome della versione non si perde perché il disco *è* quella versione. ⚠️ Sulla stampa c'è anche «feat. Pryce Oliver», che la riga non porta: il titolo resta «Bringing Me Down» perché cambiarlo cambierebbe l'indirizzo della pagina, e il featuring sta scritto qui",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [],
@@ -9407,7 +9430,11 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2393197308",
+    "secret": "s-al1k0gapilO",
+    "perche": "l'audio caricato da Amerigo sul suo profilo, traccia privata: «Andrea Masullo - Bringing Me Down feat. Pryce Oliver (Provenzano Rework)», 5:29. Link corto mandato da lui il 02/09/2026, on.soundcloud.com/rkKmXy7DE6xMsBFIl6. Prima la riga era muta. Niente targhetta perché non c'è niente da distinguere: sulla release Netswork Digital la sua versione è una sola, Beatport 12/07/2013, e il caricamento porta esattamente quel nome."
+   },
    "deezer": null,
    "traxsource": null,
    "apple": null,
@@ -9425,13 +9452,16 @@
    "slug": "don-cash-and-baudo-ahi-na-ma",
    "artista": "Don Cash & Baudo",
    "titolo": "Ahi Na Ma",
-   "versioni": [],
+   "versioni": [
+    "Provenzano Club Mix",
+    "Provenzano Mix Radio Edit"
+   ],
    "data": "2013-09-17",
    "anno": 2013,
    "data_esatta": true,
-   "firma": "Provenzano Club Mix + Radio",
+   "firma": "Provenzano",
    "etichetta": "Dance And Love",
-   "nota": null,
+   "nota": "✅ Riga aperta all'ascolto il 02/09/2026 col caricamento suo su SoundCloud, traccia privata, 5:34: prima era muta. ⭐ Targhetta messa, e vale la pena dire su che base. Il titolo del caricamento non nomina la versione — dice solo «Provenzano Rmx» — e sulla release Dance And Love le sue sono due: «Provenzano Club Mix» e «Provenzano Mix Radio Edit», Beatport 17/09/2013. Di nessuna delle due si conosce la durata pubblicata, quindi non è un confronto al secondo come su *Say You Love Me*: è un confronto di categoria. 5:34 è una lunghezza da club, e un radio edit da 5:34 non esiste — qui la distanza fra le due candidate non è di secondi ma di due minuti e mezzo, ed è il motivo per cui la targhetta regge senza una misura da confrontare. ⚠️ Se sbaglio lo sa lui, e basta una parola. ✅ E il credito è stato corretto lo stesso giorno, visto da lui in pagina: nella colonna della firma c'era scritto «Provenzano Club Mix + Radio», e la riga degli autori usciva «remix di Provenzano Club Mix + Radio» — cioè due nomi di versione infilati dentro un credito. ⭐ *«Scrivi solo provenzano remix?»*: la firma adesso è Provenzano e basta, e i due nomi sono passati dove vanno, nella parentesi delle versioni",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [
@@ -9447,7 +9477,12 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2393243514",
+    "secret": "s-5iK9WmaXZ8P",
+    "cosa": "il Provenzano Club Mix, dal suo profilo",
+    "perche": "l'audio caricato da Amerigo sul suo profilo, traccia privata: «Don Cash & Baudo - Ahi Na Ma - Provenzano Rmx», 5:34. Link corto mandato da lui il 02/09/2026, on.soundcloud.com/BPmsIE3yo56vxV0xrR. Prima la riga era muta. ⭐ TARGHETTA MESSA, e vale la pena dire su che base: il titolo del caricamento NON nomina la versione, e sulla release Dance And Love le sue sono DUE - «Provenzano Club Mix» e «Provenzano Mix Radio Edit», Beatport 17/09/2013. Di nessuna delle due si conosce la durata pubblicata, quindi non è un confronto al secondo come su Say You Love Me: è un confronto di CATEGORIA. 5:34 è una lunghezza da club, e un radio edit da 5:34 non esiste - la distanza fra le due candidate qui non è di secondi ma di due minuti e mezzo, ed è la ragione per cui la targhetta regge senza una misura da confrontare. ⚠️ Se sbaglio lo sa lui: basta una parola e la targhetta cambia."
+   },
    "deezer": null,
    "traxsource": null,
    "apple": null,
@@ -9773,13 +9808,17 @@
    "slug": "robbie-rivera-drop-the-bass",
    "artista": "Robbie Rivera",
    "titolo": "Drop The Bass",
-   "versioni": [],
+   "versioni": [
+    "Provenzano Remix",
+    "Provenzano Extended Remix",
+    "01/11/2016"
+   ],
    "data": "2016-09-09",
    "anno": 2016,
    "data_esatta": true,
-   "firma": "Provenzano (+ Extended, 01/11)",
+   "firma": "Provenzano",
    "etichetta": "Juicy Music (Armada)",
-   "nota": null,
+   "nota": "✅ Credito e versioni rimessi al loro posto il 02/09/2026, dopo la stessa correzione su *Ahi Na Ma*: nella colonna della firma c'era «Provenzano (+ Extended, 01/11)», cioè una parentesi di versioni scritta nella casella del credito — e in pagina la riga degli autori la stampava per intero. Le due versioni sono su Beatport: «Drop The Bass ‹Provenzano Remix›» del 09/09/2016 e «Drop The Bass ‹Provenzano Extended Remix›» del 01/11/2016, tutte e due Juicy Music/Armada — il «01/11» era la data della seconda, scritta a metà",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [],
@@ -10354,7 +10393,7 @@
   "con_copertina": 207,
   "con_video": 53,
   "con_spotify": 82,
-  "con_soundcloud": 43,
+  "con_soundcloud": 45,
   "con_deezer": 0,
   "con_traxsource": 1,
   "con_apple": 3,
