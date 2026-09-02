@@ -7115,7 +7115,11 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2393348460",
+    "secret": "s-SeZE0YrYyUU",
+    "perche": "l'audio caricato da Amerigo sul suo profilo il 02/09/2026, traccia privata: «Gigi D'Agostino - Wellfare (Hard Dance Style)». Link corto mandato da lui, on.soundcloud.com/6G2jBl7zeYqkExL9iH. ⭐⭐ **Chiude il dubbio aperto la notte prima**: il file in archivio si chiamava «Hds-Edit» e stava in tre sue cartelle di edit, quindi era probabile ma non certo che l'Hds fosse Hard Dance Style. Il caricamento dura **219,125 secondi** e il wav in archivio ne dura **219,125**: e' quel file, e il titolo che gli ha dato lui scioglie la sigla. Il nome del file in archivio ha perso il «da verificare». ⚠️ **Ma e' un edit, e le tre stampe sono tutte piu' lunghe**: m2o vol.9 traccia 8, «Wellfare (Hard Dance Style Remix)», **3:54**; Hard Dance Compilation MGK056/CD traccia 7, «Wellfare (Provenzano & Promiseland Hard Dance Style Remix)», **4:31**; m2o vol.30 senza durata. Il caricamento sta a **3:39**, quindici secondi sotto la piu' corta — troppi per l'arrotondamento di una busta, che e' il metro fissato su *It's Gonna Be*. ⭐ In pagina non c'e' nessuna targhetta e nessuna didascalia sullo scarto: la misura si segnala a lui, scriverla in pagina e' una decisione editoriale ed e' sua. Regola fissata il 02/09/2026 su *Start It Over*."
+   },
    "deezer": null,
    "traxsource": null,
    "apple": null,
@@ -10447,7 +10451,7 @@
   "con_copertina": 207,
   "con_video": 54,
   "con_spotify": 83,
-  "con_soundcloud": 50,
+  "con_soundcloud": 51,
   "con_deezer": 0,
   "con_traxsource": 1,
   "con_apple": 3,
