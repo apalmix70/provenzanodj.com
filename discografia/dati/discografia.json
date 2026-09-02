@@ -3882,7 +3882,7 @@
    ],
    "firma": null,
    "etichetta": "Juicy Music (Armada)",
-   "nota": null,
+   "nota": "⭐ Le quattro versioni scritte il 02/09/2026 — «metti le versione del player spotify» — con le durate dal player: Robbie Rivera Tribal Mix 6:01, Sunshine & Happiness 6:04, Chris Sammarco Remix 5:02, Leandro Da Silva Mix 4:42. Il single è `5XsG7457jLYj8KgpEdiOmq`, ℗ & © Vae Victis S.r.l. under exclusive licence from Juicy Music. ⭐ La parentesi le teneva in un blocco solo — «Robbie Rivera / Chris Sammarco / Leandro Da Silva Mix» — che sono tre remixer messi in fila con le barre, e l'originale non era nemmeno nominato. ⚠️ La seconda voce si chiama come il disco, senza sottotitolo: è il pezzo, ed è così che lo scrive il player. ⚠️ E la data non combacia: il player dice 09/10/2015, la tabella 14/09/2015 — venticinque giorni. Non toccata, stesso tipo di scarto di *We Are One*",
    "escluso": false,
    "da_guardare": false,
    "sezione": "2010 → 2019",
@@ -3900,6 +3900,12 @@
     "album": "5XsG7457jLYj8KgpEdiOmq",
     "titolo": "Sunshine & Happiness"
    },
+   "versioni_a_mano": [
+    "Robbie Rivera Tribal Mix 6:01",
+    "Sunshine & Happiness 6:04",
+    "Chris Sammarco Remix 5:02",
+    "Leandro Da Silva Mix 4:42"
+   ],
    "video": {
     "youtube": "_mnxziIunzc",
     "tipo": "ufficiale",
