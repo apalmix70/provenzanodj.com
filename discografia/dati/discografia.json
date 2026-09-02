@@ -906,7 +906,7 @@
    "con": [],
    "firma": "Italian Deejays",
    "etichetta": "Jump Records",
-   "nota": "inedito per le compilation: mai uscito a sé, stampato su [Jump]² The Dancefloor Vol. 1, m2o vol.10 e m2o — m2ALL Shock, tutte e tre del 2005; il foglio diceva 2006, anno spostato indietro da Amerigo il 30/08/2026",
+   "nota": "nato per le compilation — [Jump]² The Dancefloor Vol. 1, m2o vol.10 e m2o — m2ALL Shock, tutte e tre del 2005; il foglio diceva 2006, anno spostato indietro da Amerigo il 30/08/2026 — e poi uscito in digitale. ⭐ Cercato su richiesta sua il 02/09/2026 e trovato su quattro portali: Beatport, traccia 3970195, e poi Spotify, Apple Music e Deezer. Sta su Reload EP Vol. 3, SistemiSolari, catalogo SIS 010, 01/12/2012, come traccia 2 «Eurofolk — Darkangel Travel to Germany Mix», 140 BPM, 5:21, ISRC ITAW61100222 — il *11* dice che la registrazione è del 2011. ⭐ È la versione remixata da Darkangel, cioè lo stesso «Szone vs. Dark Angel Rmx» stampato su m2o — m2ALL Shock: il portale conferma la riga della compilation. ⚠️ L'anno resta il 2005: il 2012 è la riedizione digitale. ⚠️ La data del 01/12 viene da Apple e Deezer, che concordano; Beatport e Spotify danno solo il 2012 o il 01/01/2012, che è il tappabuchi. ⚠️ Attenzione all'omonimo: su Beatport c'è un'altra uscita intitolata *Eurofolk* di Myroslav su Multiza Distribution, che non c'entra niente",
    "escluso": false,
    "da_guardare": false,
    "sezione": "1992 → 2009",
@@ -931,17 +931,21 @@
     }
    ],
    "versioni_uscita": [],
-   "spotify": null,
-   "video": {
-    "youtube": "Vwi1UMyeTYg",
-    "tipo": "audio",
-    "canale": null,
-    "titolo": "Eurofolk (Italian Deejays)",
-    "verticale": false,
-    "formato": null
+   "spotify": {
+    "tipo": "track",
+    "album": "6g3D5kBE2ez6EKtBs7BQFq",
+    "titolo": "Eurofolk",
+    "cosa": null,
+    "alto": false
    },
+   "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2393065791",
+    "secret": "s-2q7XGbsDw5u",
+    "cosa": "Original Extended",
+    "perche": "l'audio caricato da Amerigo sul suo profilo, traccia privata: «Italian Deejays - Eurofolk (Original Ext.)». Link corto mandato da lui il 02/09/2026, on.soundcloud.com/Btcy3EpQMFzpYCsxzJ, che risolve su soundcloud.com/provenzano_official/italian-deejays-eurofolk/s-2q7XGbsDw5u. E' la versione ORIGINALE ESTESA, quella del 2005 stampata su [Jump]2 vol.1 e m2o vol.10 - non la stessa cosa del player Spotify, che e' la 'Darkangel Travel to Germany Mix' uscita sull'EP digitale del 2012. I due player dicono due versioni diverse dello stesso pezzo, ed e' voluto: l'originale ce l'ha solo lui."
+   },
    "deezer": null,
    "traxsource": null,
    "apple": null,
@@ -950,7 +954,7 @@
     "file": "/compilation/cop/jump-2-the-dancefloor-vol-1.jpg",
     "da": "[Jump]² The Dancefloor Vol. 1"
    },
-   "inedito": true,
+   "inedito": false,
    "anno_incerto": false,
    "foto": [],
    "nota_pubblica": null
@@ -1221,7 +1225,7 @@
    "con": [],
    "firma": "Italian Deejays",
    "etichetta": "Jump Records",
-   "nota": "inedito per le compilation: mai uscito a sé, stampato su [Jump]² The Dancefloor Vol. 3, m2o vol.12",
+   "nota": "nato per le compilation — [Jump]² The Dancefloor Vol. 3 e m2o vol.12 — e poi uscito in digitale: trovato su Beatport il 02/09/2026 partendo da *Eurofolk*, sta su Reloaded Vol. 1 — EP, SistemiSolari, catalogo SIS 007, 15/11/2012, come traccia 2 «The Story Goes On — Original Mix», 138 BPM, 6:20. ⭐ È l'originale, non un rifacimento: sul disco è firmato Italian Deejays, cioè lui e Sergio Marini. ⚠️ L'anno resta il 2006, quello della compilation: il 2012 è la riedizione digitale, non l'uscita. ⚠️ La data del 15/11 viene da Deezer, album 6067712, non da Beatport, che su tutta la serie scrive 01/01/2012 — il tappabuchi dei cataloghi digitali. ⚠️ Su Spotify e Apple Music non c'è: la serie Reloaded ci arriva solo in parte, e questo volume no, quindi resta senza player",
    "escluso": false,
    "da_guardare": false,
    "sezione": "1992 → 2009",
@@ -1259,7 +1263,7 @@
     "file": "/compilation/cop/jump-2-the-dancefloor-vol-3.jpg",
     "da": "[Jump]² The Dancefloor Vol. 3"
    },
-   "inedito": true,
+   "inedito": false,
    "anno_incerto": false,
    "foto": [],
    "nota_pubblica": null
@@ -9956,11 +9960,11 @@
  "totali": {
   "singoli": 128,
   "remix": 81,
-  "inediti": 34,
+  "inediti": 32,
   "con_copertina": 197,
-  "con_video": 49,
-  "con_spotify": 75,
-  "con_soundcloud": 25,
+  "con_video": 48,
+  "con_spotify": 76,
+  "con_soundcloud": 26,
   "con_deezer": 0,
   "con_traxsource": 1,
   "con_apple": 2,
