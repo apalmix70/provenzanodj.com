@@ -1890,7 +1890,7 @@
    ],
    "firma": null,
    "etichetta": "Netswork Records",
-   "nota": "⭐ Il disco intero è su Apple Music, link mandato da Amerigo il 02/09/2026: album «Side by Side (feat. Andy P)» `1723367571`, sei versioni, ℗ Net's Work & Songs Srl. In pagina va il player dell'album, così si sentono tutte e sei in fila e la prima è la Radio Edit, cioè il pezzo. ⭐ Il player ha aggiunto una versione che non avevamo: il remix di Michi Fasano & Flowminds, che non stava né nel foglio né nei database. ⚠️ Le tre versioni loro sono accreditate «Ranucci, Pelusi», senza il suo nome, mentre su m2o vol.22 la stessa cosa è stampata «Ranucci & Pelusi Mix»: è la firma coi cognomi dei Promise Land, non due collaboratori in più — vedi la riga in sezione 4. ⚠️ Il copyright dice ℗ 2010 ma la data d'uscita è 01/10/2009: è normale che il ℗ segua l'anno del deposito o di una ristampa, e la data resta quella già documentata. ⚠️ Su Deezer c'è solo la Radio Edit, traccia `2601993562`, ed era una delle dieci trovate il 01/09/2026 quando si valutava quel player: Apple la batte, perché fa sentire il disco e non un pezzo",
+   "nota": "⭐ Il disco intero è su Apple Music, link mandato da Amerigo il 02/09/2026: album «Side by Side (feat. Andy P)» `1723367571`, sei versioni, ℗ Net's Work & Songs Srl. In pagina va il player dell'album, così si sentono tutte e sei in fila e la prima è la Radio Edit, cioè il pezzo. ⭐ Il player ha aggiunto una versione che non avevamo: il remix di Michi Fasano & Flowminds, che non stava né nel foglio né nei database. ⚠️ Le tre versioni loro sono accreditate «Ranucci, Pelusi», senza il suo nome, mentre su m2o vol.22 la stessa cosa è stampata «Ranucci & Pelusi Mix»: è la firma coi cognomi dei Promise Land, non due collaboratori in più — vedi la riga in sezione 4. ⚠️ Il copyright dice ℗ 2010 ma la data d'uscita è 01/10/2009: è normale che il ℗ segua l'anno del deposito o di una ristampa, e la data resta quella già documentata. ⚠️ Su Deezer c'è solo la Radio Edit, traccia `2601993562`, ed era una delle dieci trovate il 01/09/2026 quando si valutava quel player: Apple la batte, perché fa sentire il disco e non un pezzo. ⭐ Le sei versioni scritte in pagina il 02/09/2026, subito dopo *Life Goes On* e con la stessa frase sua — «si anche side by side» — con le durate dal player: Ranucci, Pelusi Radio Edit 3:28, Extended Mix 6:51, Club Mix 6:29, Dimitri Vegas, Like Mike Remix 5:39, Gianni Donzelli Remix 8:25, Michi Fasano, Flowminds Remix 5:46. ⚠️ Questo è il disco che ha fatto scoprire la trappola della virgola: quattro nomi su sei ne contengono una, e la parentesi del titolo viene sciolta spezzando proprio lì — le sei versioni diventavano dieci. Non si vedeva perché col player dell'album l'elenco restava spento. Adesso sta in `versioni_a_mano` dentro `correzioni-a-mano.json`, già sciolto. ⚠️ E i nomi sono quelli del player, virgola compresa: Apple scrive «Dimitri Vegas, Like Mike» e «Michi Fasano, Flowminds» dove il duo si firma con la e commerciale. È la stessa mano che scrive «Ranucci, Pelusi» — la virgola è lo stile Net's Work su tutta l'uscita, non il refuso di una riga",
    "escluso": false,
    "da_guardare": false,
    "sezione": "1992 → 2009",
@@ -1904,6 +1904,14 @@
    ],
    "versioni_uscita": [],
    "spotify": null,
+   "versioni_a_mano": [
+    "Ranucci, Pelusi Radio Edit 3:28",
+    "Ranucci, Pelusi Extended Mix 6:51",
+    "Ranucci, Pelusi Club Mix 6:29",
+    "Dimitri Vegas, Like Mike Remix 5:39",
+    "Gianni Donzelli Remix 8:25",
+    "Michi Fasano, Flowminds Remix 5:46"
+   ],
    "video": {
     "youtube": "LqXXKRjcglw",
     "tipo": "audio",
@@ -4184,7 +4192,7 @@
    ],
    "firma": null,
    "etichetta": "Ego",
-   "nota": null,
+   "nota": "⭐ Le quattro versioni scritte il 02/09/2026, terza pagina di fila dopo *Life Goes On* e *Side By Side* — «anche qui» — con le durate dal player: Gregor Salto Radio RMX 3:02, We Are One 4:01, Gregor Salto Remix 3:35, Instrumental Mix 4:01. Il single su Spotify è `6yGsG7wT7vNuEJHTkhWlUF`, ℗ & © 2016 Ego. ⭐ I remix di Gregor Salto sono due, non uno: la riga diceva «Gregor Salto Rmx» al singolare, e sul disco ci sono il Radio RMX e il Remix lungo. ⚠️ La seconda voce si chiama come il disco, senza sottotitolo: è il pezzo, ed è così che lo scrive il player — non gli si mette un nome che sul disco non c'è. ⚠️ E la data non combacia: il player dice 25/03/2016, la tabella 21/03/2016. Quattro giorni di scarto, non toccati — da chiudere con lui",
    "escluso": false,
    "da_guardare": false,
    "sezione": "2010 → 2019",
@@ -4202,6 +4210,12 @@
     "album": "6yGsG7wT7vNuEJHTkhWlUF",
     "titolo": "We Are One"
    },
+   "versioni_a_mano": [
+    "Gregor Salto Radio RMX 3:02",
+    "We Are One 4:01",
+    "Gregor Salto Remix 3:35",
+    "Instrumental Mix 4:01"
+   ],
    "video": {
     "youtube": "5PLquRNmAPM",
     "tipo": "ufficiale",
@@ -4291,7 +4305,7 @@
    ],
    "firma": null,
    "etichetta": "Bang Record",
-   "nota": null,
+   "nota": "⭐ Undici versioni, e la pagina era senza player, sistemata il 02/09/2026 — «anche qui». Il disco su Spotify sta sotto Provenzano & Masullo, che lì è un'altra identità rispetto alla sua pagina artista, e per questo `fonti/spotify-id.json` non lo vedeva: stesso motivo del caso LEWA. ⭐ E le uscite sono due, a due mesi di distanza, quindi in pagina vanno due player — stesso schema di *Rock Some Noise*: il singolo `5HedcRY1iVmfSHdJWsUgp3` del 01/07/2016, quattro versioni, che apre con la Radio Edit cioè il pezzo; e l'EP What About — Remixes, `5OOl6YsiqEfspt8Zx3aEHi` del 02/09/2016, sette remix che sul singolo non ci sono. ℗ 2016 Ross Srl/Bang Record under license to Pirames International Srl. ⭐ Sul singolo: Radio Edit 3:09, Extended Version 4:10, Remix by Denny Berland 4:37, Remix by Silvio Carrano 5:15. ⭐ Sull'EP: 90 Dub Mix by Luca Guerrieri 4:06, Remix by Paolo Pellegrino 4:18, by Valentini 3:09, by Umberto Balzanelli & Michelle 4:46, by Andry B & JJ 4:27, by Francesco Sparacello & Loris Buono 4:47, by Storm 5:21. La riga ne diceva una. ⚠️ È il primo elenco che cuce due player invece di ripeterne uno: nessuno dei due riquadri, da solo, fa vedere le undici. ✅ Copertina rifatta lo stesso giorno, perché l'ha vista tagliata lui: quella in archivio era 500×500 e chiudeva a metà della scritta WHAT ABOUT, senza il logo bangrec sotto. È lo stesso artwork, non un'altra uscita — guardate affiancate prima di sostituire. La nuova è la 640×640 del singolo su Spotify, intera. La vecchia sta in `copertine\\_sostituite\\`",
    "escluso": false,
    "da_guardare": false,
    "sezione": "2010 → 2019",
@@ -4304,7 +4318,35 @@
     }
    ],
    "versioni_uscita": [],
-   "spotify": null,
+   "spotify": [
+    {
+     "tipo": "album",
+     "album": "5HedcRY1iVmfSHdJWsUgp3",
+     "titolo": "What About",
+     "cosa": "il singolo, quattro versioni",
+     "alto": false
+    },
+    {
+     "tipo": "album",
+     "album": "5OOl6YsiqEfspt8Zx3aEHi",
+     "titolo": "What About",
+     "cosa": "l'EP dei remix, sette versioni",
+     "alto": false
+    }
+   ],
+   "versioni_a_mano": [
+    "Radio Edit 3:09",
+    "Extended Version 4:10",
+    "Remix by Denny Berland 4:37",
+    "Remix by Silvio Carrano 5:15",
+    "90 Dub Mix by Luca Guerrieri 4:06",
+    "Remix by Paolo Pellegrino 4:18",
+    "Remix by Valentini 3:09",
+    "Remix by Umberto Balzanelli & Michelle 4:46",
+    "Remix by Andry B & JJ 4:27",
+    "Remix by Francesco Sparacello & Loris Buono 4:47",
+    "Remix by Storm 5:21"
+   ],
    "video": {
     "youtube": "OFvjfNM-amU",
     "tipo": "ufficiale",
@@ -9548,7 +9590,7 @@
    "data_esatta": true,
    "firma": "Provenzano",
    "etichetta": "Contagious Records",
-   "nota": "⚠️ Riga riempita il 01/09/2026. Prima diceva solo che era stata ritrovata nel database delle compilation, stampata su m2o vol.36, con l'anno da confermare e la copertina in prestito da quella compilation. ⚠️ La pagina che ha mandato lui — madnessbeat.club — non si è potuta leggere: risponde 403 a una richiesta secca e mette una verifica Cloudflare anche al browser vero. Il disco però sta su Deezer: album `9547888`, una traccia sola ed è il suo remix (5:56), etichetta Contagious Records, uscita 09/03/2015. ⭐ Quindi la compilation viene prima del disco, come su *El Cabron*: m2o vol.36 è del 2014, l'uscita digitale del marzo 2015 — ed è il motivo per cui l'anno dedotto dalla compilation dava 2014. ⚠️ La riga si sposta dal 2014 al 2015 sul muro. Su Spotify c'è solo l'originale del 15/07/2013 in quattro versioni, senza la sua. ⚠️ Copertina presa da Deezer a 1000×1000: Amerigo ne aveva salvata una a mano da madnessbeat, ma è la stessa immagine a metà risoluzione — 500×500, differenza media 4,9 su 255",
+   "nota": "⚠️ Riga riempita il 01/09/2026. Prima diceva solo che era stata ritrovata nel database delle compilation, stampata su m2o vol.36, con l'anno da confermare e la copertina in prestito da quella compilation. ⚠️ La pagina che ha mandato lui — madnessbeat.club — non si è potuta leggere: risponde 403 a una richiesta secca e mette una verifica Cloudflare anche al browser vero. Il disco però sta su Deezer: album `9547888`, una traccia sola ed è il suo remix (5:56), etichetta Contagious Records, uscita 09/03/2015. ⭐ Quindi la compilation viene prima del disco, come su *El Cabron*: m2o vol.36 è del 2014, l'uscita digitale del marzo 2015 — ed è il motivo per cui l'anno dedotto dalla compilation dava 2014. ⚠️ La riga si sposta dal 2014 al 2015 sul muro. Su Spotify c'è solo l'originale del 15/07/2013 in quattro versioni, senza la sua. ⚠️ Copertina presa da Deezer a 1000×1000: Amerigo ne aveva salvata una a mano da madnessbeat, ma è la stessa immagine a metà risoluzione — 500×500, differenza media 4,9 su 255. ⭐ Seconda compilation, mandata da lui il 02/09/2026 — «start it over è incluso in questo cd»: For DJs Only 2015/01 — Club Selection, Universal Music 5358340, Italia 2015, doppio CD, ventinove tracce, Discogs 6552113. Il pezzo è la 1-09, stampato «Start It Over — Provenzano Remix», 5:56 — la stessa durata dell'uscita digitale. ⚠️ Discogs non registra il giorno, solo l'anno, e l'anno resta: non si riempie per far numero. ⚠️ E non ha un mixer accreditato: è un servizio DJ, tracce intere e non un mixato, con la lista dei crediti vuota. ⭐ Seconda volta che la serie For DJs Only di Universal compare in discografia, dopo For DJs Only 2011/01 dove sta *Amazing* di Reder8. ⚠️ Sulla busta la versione si chiama «Provenzano Remix», su m2o vol.36 «Provenzano DJ Remix»: due grafie della stessa cosa",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [
@@ -10255,7 +10297,7 @@
   "inediti": 31,
   "con_copertina": 207,
   "con_video": 52,
-  "con_spotify": 81,
+  "con_spotify": 82,
   "con_soundcloud": 39,
   "con_deezer": 0,
   "con_traxsource": 1,
