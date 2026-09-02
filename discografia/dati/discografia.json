@@ -9711,7 +9711,7 @@
    "data_esatta": true,
    "firma": "Provenzano",
    "etichetta": "Contagious Records",
-   "nota": "⚠️ Riga riempita il 01/09/2026. Prima diceva solo che era stata ritrovata nel database delle compilation, stampata su m2o vol.36, con l'anno da confermare e la copertina in prestito da quella compilation. ⚠️ La pagina che ha mandato lui — madnessbeat.club — non si è potuta leggere: risponde 403 a una richiesta secca e mette una verifica Cloudflare anche al browser vero. Il disco però sta su Deezer: album `9547888`, una traccia sola ed è il suo remix (5:56), etichetta Contagious Records, uscita 09/03/2015. ⭐ Quindi la compilation viene prima del disco, come su *El Cabron*: m2o vol.36 è del 2014, l'uscita digitale del marzo 2015 — ed è il motivo per cui l'anno dedotto dalla compilation dava 2014. ⚠️ La riga si sposta dal 2014 al 2015 sul muro. Su Spotify c'è solo l'originale del 15/07/2013 in quattro versioni, senza la sua. ⚠️ Copertina presa da Deezer a 1000×1000: Amerigo ne aveva salvata una a mano da madnessbeat, ma è la stessa immagine a metà risoluzione — 500×500, differenza media 4,9 su 255. ⭐ Seconda compilation, mandata da lui il 02/09/2026 — «start it over è incluso in questo cd»: For DJs Only 2015/01 — Club Selection, Universal Music 5358340, Italia 2015, doppio CD, ventinove tracce, Discogs 6552113. Il pezzo è la 1-09, stampato «Start It Over — Provenzano Remix», 5:56 — la stessa durata dell'uscita digitale. ⚠️ Discogs non registra il giorno, solo l'anno, e l'anno resta: non si riempie per far numero. ⚠️ E non ha un mixer accreditato: è un servizio DJ, tracce intere e non un mixato, con la lista dei crediti vuota. ⭐ Seconda volta che la serie For DJs Only di Universal compare in discografia, dopo For DJs Only 2011/01 dove sta *Amazing* di Reder8. ⚠️ Sulla busta la versione si chiama «Provenzano Remix», su m2o vol.36 «Provenzano DJ Remix»: due grafie della stessa cosa",
+   "nota": "⚠️ Riga riempita il 01/09/2026. Prima diceva solo che era stata ritrovata nel database delle compilation, stampata su m2o vol.36, con l'anno da confermare e la copertina in prestito da quella compilation. ⚠️ La pagina che ha mandato lui — madnessbeat.club — non si è potuta leggere: risponde 403 a una richiesta secca e mette una verifica Cloudflare anche al browser vero. Il disco però sta su Deezer: album `9547888`, una traccia sola ed è il suo remix (5:56), etichetta Contagious Records, uscita 09/03/2015. ⭐ Quindi la compilation viene prima del disco, come su *El Cabron*: m2o vol.36 è del 2014, l'uscita digitale del marzo 2015 — ed è il motivo per cui l'anno dedotto dalla compilation dava 2014. ⚠️ La riga si sposta dal 2014 al 2015 sul muro. Su Spotify c'è solo l'originale del 15/07/2013 in quattro versioni, senza la sua. ⚠️ Copertina presa da Deezer a 1000×1000: Amerigo ne aveva salvata una a mano da madnessbeat, ma è la stessa immagine a metà risoluzione — 500×500, differenza media 4,9 su 255. ⭐ Seconda compilation, mandata da lui il 02/09/2026 — «start it over è incluso in questo cd»: For DJs Only 2015/01 — Club Selection, Universal Music 5358340, Italia 2015, doppio CD, ventinove tracce, Discogs 6552113. Il pezzo è la 1-09, stampato «Start It Over — Provenzano Remix», 5:56 — la stessa durata dell'uscita digitale. ⚠️ Discogs non registra il giorno, solo l'anno, e l'anno resta: non si riempie per far numero. ⚠️ E non ha un mixer accreditato: è un servizio DJ, tracce intere e non un mixato, con la lista dei crediti vuota. ⭐ Seconda volta che la serie For DJs Only di Universal compare in discografia, dopo For DJs Only 2011/01 dove sta *Amazing* di Reder8. ⚠️ Sulla busta la versione si chiama «Provenzano Remix», su m2o vol.36 «Provenzano DJ Remix»: due grafie della stessa cosa. ✅ Riga aperta all'ascolto il 02/09/2026 col caricamento suo su SoundCloud. ⚠️ Ma il caricamento dura 4:31, e non combacia con niente: l'uscita digitale dura 5:56 su Deezer, la stampa su *For DJs Only 2015/01* dice 5:56 anche lei, e il file che stava già in `D:\\Archivio\\discografia\u0007udio\\` dura 5:58, cioè combacia con la stampa a due secondi. ⭐ Quindi quello caricato non è quel file: è un montaggio più corto di un minuto e mezzo che su nessuna delle due fonti risulta. O è un edit mai registrato, o è stato preso il file sbagliato — non si sceglie a indovinare, e intanto la didascalia dice la misura",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [
@@ -9727,7 +9727,12 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2393338845",
+    "secret": "s-IJLod8nbAYD",
+    "cosa": "dal suo profilo — 4:31, più corto della stampa",
+    "perche": "l'audio caricato da Amerigo sul suo profilo il 02/09/2026, link on.soundcloud.com/GMQUT706WboUKvZqAG. ⚠️ ATTENZIONE, MISURATO: il caricamento dura 4:31, ma l'uscita digitale del 09/03/2015 su Contagious Records dura 5:56 (Deezer, album 9547888, una traccia sola) e la stampa su For DJs Only 2015/01 dice 5:56 anche lei. ⭐ E il file che stava GIA' in D:\\Archivio\\discografia\u0007udio\\ dura 5:58, cioe' combacia con la stampa a due secondi. Quindi quello caricato non e' quel file: e' un montaggio piu' corto di un minuto e mezzo, che su nessuna delle due fonti risulta. O e' un edit che non e' mai stato registrato, o e' stato preso il file sbagliato - non si sceglie a indovinare, e la didascalia intanto dice la misura. Se ricarica il 5:58 si sostituisce e la didascalia sparisce."
+   },
    "deezer": null,
    "traxsource": null,
    "apple": null,
@@ -10423,7 +10428,7 @@
   "con_copertina": 207,
   "con_video": 53,
   "con_spotify": 82,
-  "con_soundcloud": 48,
+  "con_soundcloud": 49,
   "con_deezer": 0,
   "con_traxsource": 1,
   "con_apple": 3,
