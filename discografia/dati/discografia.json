@@ -1737,7 +1737,12 @@
    },
    "inedito": false,
    "anno_incerto": false,
-   "foto": [],
+   "foto": [
+    {
+     "file": "cop/foto/midory-shower-1.jpg",
+     "cosa": "la busta del CD promo TIME: «RANUCCI & PELUSI Vs. PROVENZANO — \"Midory Shower\"», gli autori e le tre versioni"
+    }
+   ],
    "nota_pubblica": null
   },
   {
