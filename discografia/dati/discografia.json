@@ -6825,7 +6825,11 @@
    "deezer": null,
    "traxsource": null,
    "apple": null,
-   "copertina": null,
+   "copertina": {
+    "tipo": "compilation",
+    "file": "cop/dj-nick-hearts-entwine.jpg",
+    "da": "Hard Dance Compilation"
+   },
    "inedito": false,
    "anno_incerto": false,
    "foto": [],
@@ -6855,7 +6859,11 @@
    "deezer": null,
    "traxsource": null,
    "apple": null,
-   "copertina": null,
+   "copertina": {
+    "tipo": "compilation",
+    "file": "cop/roby-rossini-and-maverick-future-mind.jpg",
+    "da": "Hard Dance Compilation"
+   },
    "inedito": false,
    "anno_incerto": false,
    "foto": [],
@@ -6915,7 +6923,11 @@
    "deezer": null,
    "traxsource": null,
    "apple": null,
-   "copertina": null,
+   "copertina": {
+    "tipo": "compilation",
+    "file": "cop/gigi-d-agostino-wellfare.jpg",
+    "da": "Hard Dance Compilation"
+   },
    "inedito": false,
    "anno_incerto": false,
    "foto": [],
@@ -7027,7 +7039,11 @@
    "deezer": null,
    "traxsource": null,
    "apple": null,
-   "copertina": null,
+   "copertina": {
+    "tipo": "compilation",
+    "file": "cop/afterclub-gigi-s-violin.jpg",
+    "da": "Hard Dance Compilation"
+   },
    "inedito": false,
    "anno_incerto": false,
    "foto": [],
@@ -7147,7 +7163,11 @@
    "deezer": null,
    "traxsource": null,
    "apple": null,
-   "copertina": null,
+   "copertina": {
+    "tipo": "compilation",
+    "file": "cop/terminal-dream-poem-without-words.jpg",
+    "da": "Hard Dance Compilation"
+   },
    "inedito": false,
    "anno_incerto": false,
    "foto": [],
@@ -7177,7 +7197,11 @@
    "deezer": null,
    "traxsource": null,
    "apple": null,
-   "copertina": null,
+   "copertina": {
+    "tipo": "compilation",
+    "file": "cop/danijay-l-impazienza.jpg",
+    "da": "Hard Dance Compilation"
+   },
    "inedito": false,
    "anno_incerto": false,
    "foto": [],
@@ -9926,7 +9950,7 @@
   "singoli": 128,
   "remix": 81,
   "inediti": 34,
-  "con_copertina": 190,
+  "con_copertina": 196,
   "con_video": 49,
   "con_spotify": 75,
   "con_soundcloud": 25,
