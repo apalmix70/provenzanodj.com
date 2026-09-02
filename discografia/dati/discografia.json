@@ -979,7 +979,9 @@
    "tipo": "produzione",
    "slug": "let-me-be",
    "titolo": "Let Me Be",
-   "versioni": [],
+   "versioni": [
+    "+ Original Cut, Hypertraxx Rmx Cut, Original Extended, Hypertraxx Extended"
+   ],
    "data": null,
    "anno": 2005,
    "data_esatta": false,
@@ -988,7 +990,7 @@
    ],
    "firma": null,
    "etichetta": "Go Dooria Records",
-   "nota": null,
+   "nota": "⭐ Riga riempita il 02/09/2026 dalla busta del CD, mandata da Amerigo insieme al player: prima aveva solo anno ed etichetta. CD single, catalogo GDR 0526, «2005 Go Dooria / Go Records — Made in Italy», distribuzione SELF, e in fondo al retro «Go Dooria is a label of Go Records». Quattro versioni: Original Cut 4:01, Hypertraxx Rmx Cut 3:42, Original Extended 5:38, Hypertraxx Extended 4:54. ⭐ I crediti dicono chi ha fatto cosa: autori *N. Pelusi — F. Ranucci — N. Peloso — A. Provenzano*, prodotto da Provenzano DJ & Promiseland, scritto da Nicola Peloso, voce femminile Lizzy B., voce maschile Orlando Johnson; le versioni 1 e 3 arrangiate e mixate da Pelusi, Ranucci e Provenzano al Promiseland Studio di Anzio, le 2 e 4 da C. Marani e V. Montesano al Noizit Studio di Roma — cioè Hypertraxx sono loro due. ⭐ E questo lega tre dischi vicini: gli stessi Marani e Montesano firmano il «Montsaint e Marani Remix» di *Vibe* e ne sono coautori; Orlando Johnson canta anche su *Live Your Life* dei Promise Land; e Nicola Peloso è il Nick Peloso di m2o's team, terzo disco in due giorni in cui compare accanto a loro. ⚠️ Il player non dice quale delle quattro versioni sia, quindi in pagina non ha targhetta: scriverne una a caso sarebbe peggio che non scriverne. ⚠️ Su Altromondo Compilation è stampata la Hypertraxx Remix, su m2o vol.9 la versione liscia",
    "escluso": false,
    "da_guardare": false,
    "sezione": "1992 → 2009",
@@ -1010,7 +1012,11 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2393071800",
+    "secret": "s-vgDV0EC0GHq",
+    "perche": "l'audio caricato da Amerigo sul suo profilo, traccia privata: «Provenzano & Promiseland - Let Me Be». Link corto mandato da lui il 02/09/2026, on.soundcloud.com/TxjUU0Gl1dN1757yqw. Prima di questo la pagina non aveva nessun ascolto. ⚠️ Niente targhetta di versione, e non e' una dimenticanza: sul CD ci sono QUATTRO versioni - Original Cut 4'01, Hypertraxx Rmx Cut 3'42, Original Extended 5'38, Hypertraxx Extended 4'54 - e il caricamento non dice quale sia. Scriverne una a caso sarebbe peggio di non scrivere niente: la targhetta serve a distinguere, non a riempire. Se lo dice lui si mette, e se e' una Original va anche marcata 'originale': true."
+   },
    "deezer": null,
    "traxsource": null,
    "apple": null,
@@ -1020,7 +1026,16 @@
    },
    "inedito": false,
    "anno_incerto": false,
-   "foto": [],
+   "foto": [
+    {
+     "file": "cop/foto/let-me-be-1.jpg",
+     "cosa": "il retro del CD: le quattro versioni con le durate e i crediti per esteso - «(N. Pelusi - F. Ranucci - N. Peloso - A. Provenzano)», «produced by Provenzano DJ & Promiseland», «written by Nicola Peloso», «woman voice by Lizzy B.», «man voice by Orlando Johnson», e in fondo «Go Dooria is a label of Go Records»"
+    },
+    {
+     "file": "cop/foto/let-me-be-2.jpg",
+     "cosa": "il CD stampato: «2005 GO DOORIA / GO RECORDS - GDR 05 26 - MADE IN ITALY», con la tracklist e i due loghi, Provenzano DJ e Promiseland"
+    }
+   ],
    "nota_pubblica": null
   },
   {
@@ -9885,7 +9900,7 @@
   "con_copertina": 195,
   "con_video": 48,
   "con_spotify": 75,
-  "con_soundcloud": 27,
+  "con_soundcloud": 28,
   "con_deezer": 0,
   "con_traxsource": 1,
   "con_apple": 3,
