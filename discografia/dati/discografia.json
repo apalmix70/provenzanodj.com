@@ -6701,7 +6701,7 @@
    "data_esatta": false,
    "firma": "Provenzano",
    "etichetta": "New Music International",
-   "nota": "⭐ Riga riempita il 02/09/2026 dal retro del 12\", mandato da Amerigo con la scheda Discogs: prima non aveva etichetta. Vinile 12\", Italia 2005, catalogo NMX 2640, ℗ e © New Music International S.r.l., prodotto da Alex Bagnoli, edizioni Pielle Ed. Musicali. Quattro versioni: A1 Original Radio 3:32, A2 Extended 6:01, B1 BPaul & The Plugins Remix Edit Version 5:24, e B2 la sua, «Provenzano Dj Remix» 4:58. ⭐ E il credito della B2 è la cosa migliore di tutta la busta: *«Arranged and Mixed by Provenzano Dj & Hyper Traxx @ www.provenzanodj.com Studio»* — lo studio chiamato col suo indirizzo web, stampato sul retro di un disco del 2005. ⭐ È il secondo disco della stessa giornata con provenzanodj.com stampato sopra, dopo *Haiducii*: il sito che stiamo riempendo stava già sui dischi vent'anni fa. Le altre due versioni sono mixate all'ALBY Studio di Bologna e al Nolift Studio di Roma. ⚠️ Autori del pezzo: A. Bagnoli, M. Gazzotti, M. Fiorillo — sulla busta il secondo è stampato «M. Garzotti», su Discogs è «Mauro Gazzotti», ed è la solita grafia doppia. ⭐ E c'è una conferma di rimbalzo su un altro disco: qui il distributore è Global Net S.r.l., cioè lo stesso nome che su *Vibe* Discogs dava come etichetta. Due dischi diversi, stesso ruolo — Global Net distribuisce, non pubblica. La busta di Vibe l'aveva già detto, questa lo conferma da fuori",
+   "nota": "⭐ Riga riempita il 02/09/2026 dal retro del 12\", mandato da Amerigo con la scheda Discogs: prima non aveva etichetta. Vinile 12\", Italia 2005, catalogo NMX 2640, ℗ e © New Music International S.r.l., prodotto da Alex Bagnoli, edizioni Pielle Ed. Musicali. Quattro versioni: A1 Original Radio 3:32, A2 Extended 6:01, B1 BPaul & The Plugins Remix Edit Version 5:24, e B2 la sua, «Provenzano Dj Remix» 4:58. ⭐ E il credito della B2 è la cosa migliore di tutta la busta: *«Arranged and Mixed by Provenzano Dj & Hyper Traxx @ www.provenzanodj.com Studio»* — lo studio chiamato col suo indirizzo web, stampato sul retro di un disco del 2005. ⭐ È il secondo disco della stessa giornata con provenzanodj.com stampato sopra, dopo *Haiducii*: il sito che stiamo riempendo stava già sui dischi vent'anni fa. Le altre due versioni sono mixate all'ALBY Studio di Bologna e al Nolift Studio di Roma. ⚠️ Autori del pezzo: A. Bagnoli, M. Gazzotti, M. Fiorillo — sulla busta il secondo è stampato «M. Garzotti», su Discogs è «Mauro Gazzotti», ed è la solita grafia doppia. ⭐ E c'è una conferma di rimbalzo su un altro disco: qui il distributore è Global Net S.r.l., cioè lo stesso nome che su *Vibe* Discogs dava come etichetta. Due dischi diversi, stesso ruolo — Global Net distribuisce, non pubblica. La busta di Vibe l'aveva già detto, questa lo conferma da fuori. ⛔ Sui portali il suo remix non c'è — cercato il 02/09/2026 su sua richiesta, su Spotify, Apple Music, Deezer e Beatport. Su Beatport di Manu L.J. non c'è niente del tutto; su Apple nemmeno. ⭐ Ma la ricerca ha trovato un'altra cosa, e vale più del player che cercavamo: New Music International sta rimettendo il suo catalogo in digitale adesso, un titolo per volta e sempre e solo la radio. «Feel Alright — Radio Edit» è uscita il 28/08/2024, ISRC `QZTBA2418748`, traccia sola, 3:32 — cioè la A1 del 12\", non la sua B2. E una settimana dopo, il 04/09/2024, è uscita allo stesso modo «Until The Morning — Radio Edit», `QZTBC2445014`, 3:36: l'altro disco di Manu L.J. che ha remixato, stessa etichetta, stesso trattamento. ⚠️ In tutte e due manca la sua versione. ⭐ Quindi non è una porta chiusa, è una porta aperta: l'etichetta è viva, sta ricaricando il catalogo del 2005 con vent'anni di ritardo, e i suoi due remix sono materiale che potrebbe chiedere di aggiungere — è l'unico caso finora in cui l'ascolto mancante non è perso, è solo non ancora caricato da qualcun altro. ⚠️ Nota sulle date: Spotify data «Until The Morning» 03/11/2006, cioè retrodatata all'uscita originale, mentre Deezer dà il 04/09/2024 vero. Stesso disco, due date, e la seconda è quella del caricamento",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [
@@ -6755,7 +6755,14 @@
    "nota": "trovata il 01/09/2026 sull'API Discogs. ⭐ Riedizione Hard Dance Style, l'alias con Promise Land: nasce per la radio e per le serate, e questa è uscita per davvero. Vale la regola fissata da Amerigo il 01/09/2026 — in discografia entra solo quello che è stato stampato. ⭐ È l'unica della serie ad avere un disco suo, e non solo un posto in compilation: CDr Single Go Dooria Records GDR 0523, Italia 2005, barcode 8 019991 859162, sei tracce — e due sono loro, «Hard Dance Style Cut» 3:50 e «Hard Dance Style Extended» 6:41, accreditate «Promiseland e Provenzano DJ — Arranged By, Mixed By». Le altre versioni sono di David Bacon. Sta anche su «Go Dooria Juice Ep 02», 2005; sull'«Altromondo Compilation Estate 2005», Melodica; e sulla «Hard Dance Compilation», Magika, 2006, traccia 6. Autori del brano Davide Pignataro e Nicola Peloso",
    "escluso": false,
    "sezione": "Remix",
-   "in_compilation": [],
+   "in_compilation": [
+    {
+     "slug": "altromondo-compilation-estate-2005",
+     "titolo": "Altromondo Compilation",
+     "anno": 2005,
+     "come": "Hearts Entwine (Hard Dance Style Remix)"
+    }
+   ],
    "artista_diverso": [],
    "versioni_uscita": [],
    "spotify": null,
@@ -6781,15 +6788,22 @@
    "artista": "Roby Rossini & Maverick",
    "titolo": "Future Mind",
    "versioni": [],
-   "data": null,
+   "data": "2005-07-22",
    "anno": 2005,
-   "data_esatta": false,
+   "data_esatta": true,
    "firma": "Hard Dance Style",
    "etichetta": null,
    "nota": "trovata il 01/09/2026 sull'API Discogs. ⭐ Riedizione Hard Dance Style, l'alias con Promise Land: nasce per la radio e per le serate, e questa è uscita per davvero. Vale la regola fissata da Amerigo il 01/09/2026 — in discografia entra solo quello che è stato stampato. Sull'«Altromondo Compilation Estate 2005», Melodica; e sulla «Hard Dance Compilation», Magika MGK056/CD, 2006, traccia 15. Crediti di traccia «Promiseland — Remix» e «Provenzano DJ — Remix», con Maverick alla voce. Autori Alessandro Bianco e Roberto Paesani",
    "escluso": false,
    "sezione": "Remix",
-   "in_compilation": [],
+   "in_compilation": [
+    {
+     "slug": "altromondo-compilation-estate-2005",
+     "titolo": "Altromondo Compilation",
+     "anno": 2005,
+     "come": "Future Mind (Hard Dance Style Remix)"
+    }
+   ],
    "artista_diverso": [],
    "versioni_uscita": [],
    "spotify": null,
@@ -6806,6 +6820,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "data_da_compilation": true,
    "foto": [],
    "nota_pubblica": null
   },
@@ -6852,15 +6867,28 @@
    "artista": "Gigi D'Agostino",
    "titolo": "Wellfare",
    "versioni": [],
-   "data": null,
+   "data": "2005-06-10",
    "anno": 2005,
-   "data_esatta": false,
+   "data_esatta": true,
    "firma": "Hard Dance Style",
    "etichetta": null,
    "nota": "trovata il 01/09/2026 sull'API Discogs. ⭐ Riedizione Hard Dance Style, l'alias con Promise Land: nasce per la radio e per le serate, e questa è uscita per davvero. Vale la regola fissata da Amerigo il 01/09/2026 — in discografia entra solo quello che è stato stampato. ⭐ È il pezzo grosso della serie: un remix di Gigi D'Agostino stampato su m2o vol.9, cioè su una compilation mixata da lui, alla traccia 8. Torna poi sulla «Hard Dance Compilation», Magika MGK056/CD, 2006, traccia 7, e sul vol.30 di m2o. Crediti di traccia «Promiseland — Remix» e «Provenzano DJ — Remix», con Diana J alla voce non accreditata. Autori Gigi D'Agostino, Carlo Montagner e Diego Leoni",
    "escluso": false,
    "sezione": "Remix",
-   "in_compilation": [],
+   "in_compilation": [
+    {
+     "slug": "m2ovol9",
+     "titolo": "m2o vol.9",
+     "anno": 2005,
+     "come": "Wellfare (Hard Dance Style Remix)"
+    },
+    {
+     "slug": "m2ovol30",
+     "titolo": "m2o vol.30",
+     "anno": 2012,
+     "come": "Wellfare (Hard Dance Style Remix)"
+    }
+   ],
    "artista_diverso": [],
    "versioni_uscita": [],
    "spotify": null,
@@ -6877,6 +6905,7 @@
    },
    "inedito": false,
    "anno_incerto": false,
+   "data_da_compilation": true,
    "foto": [],
    "nota_pubblica": null
   },
@@ -6980,7 +7009,14 @@
    "nota": "trovata il 01/09/2026 sull'API Discogs. ⭐ Riedizione Hard Dance Style, l'alias con Promise Land: nasce per la radio e per le serate, e questa è uscita per davvero. Vale la regola fissata da Amerigo il 01/09/2026 — in discografia entra solo quello che è stato stampato. Su «[Jump]² The Dancefloor Vol. 2», Fast Records, 2006, apre il secondo CD; e sulla «Hard Dance Compilation», Magika MGK056/CD, 2006, traccia 10. Crediti di traccia «Promiseland — Remix» e «Provenzano DJ — Remix». Il brano originale è firmato Gigi D'Agostino",
    "escluso": false,
    "sezione": "Remix",
-   "in_compilation": [],
+   "in_compilation": [
+    {
+     "slug": "jump-2-the-dancefloor-vol-2",
+     "titolo": "[Jump]² The Dancefloor Vol. 2",
+     "anno": 2006,
+     "come": "Gigi's Violin (Hard Dance Style Remix)"
+    }
+   ],
    "artista_diverso": [],
    "versioni_uscita": [],
    "spotify": null,
@@ -7006,15 +7042,22 @@
    "artista": "Afterclub",
    "titolo": "I'll Be Missing You",
    "versioni": [],
-   "data": null,
+   "data": "2006-06-27",
    "anno": 2006,
-   "data_esatta": false,
+   "data_esatta": true,
    "firma": "Hard Dance Style",
    "etichetta": null,
    "nota": "trovata il 01/09/2026 sull'API Discogs. ⭐ Riedizione Hard Dance Style, l'alias con Promise Land: nasce per la radio e per le serate, e questa è uscita per davvero. Vale la regola fissata da Amerigo il 01/09/2026 — in discografia entra solo quello che è stato stampato. Su «[Jump]² The Dancefloor Vol. 3», Fast Records, 2006; e su «Mania Italia Sei», EMI, 2006. Crediti di traccia «Promiseland — Remix» e «Provenzano DJ — Remix». L'originale che sta sotto è di Sting, accreditato come autore",
    "escluso": false,
    "sezione": "Remix",
-   "in_compilation": [],
+   "in_compilation": [
+    {
+     "slug": "jump-2-the-dancefloor-vol-3",
+     "titolo": "[Jump]² The Dancefloor Vol. 3",
+     "anno": 2006,
+     "come": "I'll Be Missing You (Hard Dance Style Remix)"
+    }
+   ],
    "artista_diverso": [],
    "versioni_uscita": [],
    "spotify": null,
@@ -7024,9 +7067,14 @@
    "deezer": null,
    "traxsource": null,
    "apple": null,
-   "copertina": null,
+   "copertina": {
+    "tipo": "compilation",
+    "file": "cop/afterclub-i-ll-be-missing-you.jpg",
+    "da": "Mania Italia Sei"
+   },
    "inedito": false,
    "anno_incerto": false,
+   "data_da_compilation": true,
    "foto": [],
    "nota_pubblica": null
   },
@@ -7036,15 +7084,22 @@
    "artista": "Groundbeat",
    "titolo": "Tweak",
    "versioni": [],
-   "data": null,
+   "data": "2006-06-27",
    "anno": 2006,
-   "data_esatta": false,
+   "data_esatta": true,
    "firma": "Hard Dance Style",
    "etichetta": null,
    "nota": "trovata il 01/09/2026 sull'API Discogs. ⭐ Riedizione Hard Dance Style, l'alias con Promise Land: nasce per la radio e per le serate, e questa è uscita per davvero. Vale la regola fissata da Amerigo il 01/09/2026 — in discografia entra solo quello che è stato stampato. Su «[Jump]² The Dancefloor Vol. 3», Fast Records, 2006; e su «Mania Italia Sei», EMI, 2006. Crediti di traccia «Promiseland — Remix» e «Provenzano DJ — Remix». Autore del brano Felix Stallings Jr., cioè Felix Da Housecat",
    "escluso": false,
    "sezione": "Remix",
-   "in_compilation": [],
+   "in_compilation": [
+    {
+     "slug": "jump-2-the-dancefloor-vol-3",
+     "titolo": "[Jump]² The Dancefloor Vol. 3",
+     "anno": 2006,
+     "come": "Tweak (Hard Dance Style Remix)"
+    }
+   ],
    "artista_diverso": [],
    "versioni_uscita": [],
    "spotify": null,
@@ -7054,9 +7109,14 @@
    "deezer": null,
    "traxsource": null,
    "apple": null,
-   "copertina": null,
+   "copertina": {
+    "tipo": "compilation",
+    "file": "/compilation/cop/jump-2-the-dancefloor-vol-3.jpg",
+    "da": "[Jump]² The Dancefloor Vol. 3"
+   },
    "inedito": false,
    "anno_incerto": false,
+   "data_da_compilation": true,
    "foto": [],
    "nota_pubblica": null
   },
@@ -7066,15 +7126,22 @@
    "artista": "Trilogy",
    "titolo": "Don't Leave Me Now",
    "versioni": [],
-   "data": null,
+   "data": "2006-06-27",
    "anno": 2006,
-   "data_esatta": false,
+   "data_esatta": true,
    "firma": "Hard Dance Style",
    "etichetta": null,
-   "nota": "trovata il 01/09/2026 sull'API Discogs. ⭐ Riedizione Hard Dance Style, l'alias con Promise Land: nasce per la radio e per le serate, e questa è uscita per davvero. Vale la regola fissata da Amerigo il 01/09/2026 — in discografia entra solo quello che è stato stampato. Su «[Jump]² The Dancefloor Vol. 3», Fast Records, 2006. Crediti di traccia «Promiseland — Remix» e «Provenzano DJ — Remix». ⚠️ Gli autori del brano sono Fabio Ranucci e Nazario Pelusi, cioè i Promise Land stessi: è una loro produzione che il duo ha poi rifatto in versione hard dance. L'originale sta sulla «Hard Dance Compilation» alla traccia 2",
+   "nota": "trovata il 01/09/2026 sull'API Discogs. ⭐ Riedizione Hard Dance Style, l'alias con Promise Land, e uscita per davvero: sta su «[Jump]² The Dancefloor Vol. 3», Fast Records, 2006, coi crediti di traccia «Promiseland — Remix» e «Provenzano DJ — Remix». Vale la regola fissata da Amerigo il 01/09/2026 — in discografia entra solo quello che è stato stampato. ⭐ Trilogy è un alias dei Promise Land — *«trilogy è un alias di promise land»*, Amerigo 02/09/2026 — quindi gli autori del brano, Fabio Ranucci e Nazario Pelusi, sono loro stessi: è una loro produzione che il duo ha poi rifatto in versione hard dance. ⚠️ E qui c'è una scelta sua che vale la pena leggere per intero: *«sospetto dal nome che ci fossi anche io ma facciamo finta che non ci sono»*. Il sospetto è fondato — Trilogy dice tre, e i Promise Land sono due — ma resta un sospetto, e sul proprio conto un sospetto non è un credito. ⭐ Sceglie la versione prudente su sé stesso, e su una pagina che fa da fonte l'errore per eccesso costa più di quello per difetto: nella mappa degli alias Trilogy entra con la lista vuota, come *Rumble Pit* e *Ranucci & Pelusi*. Se salta fuori una stampa che lo nomina, la riga si riapre in un minuto. ⚠️ Sulla Hard Dance Compilation c'è, ma non è questa: alla traccia 2 sta l'Original Mix, non il remix — *«non risulta come remix ma original»*, 02/09/2026. Quindi quella compilation documenta il brano dei Promise Land, non il lavoro suo, e non entra fra le sue stampe. L'unica che lo documenta è [Jump]² vol.3. ⭐ Copertina presa in prestito da lì, per sua indicazione — *«usa come copertina la compilation in cui era inserito»*: la riga era una delle dodici senza immagine",
    "escluso": false,
    "sezione": "Remix",
-   "in_compilation": [],
+   "in_compilation": [
+    {
+     "slug": "jump-2-the-dancefloor-vol-3",
+     "titolo": "[Jump]² The Dancefloor Vol. 3",
+     "anno": 2006,
+     "come": "Don't Leave Me Now (Hard Dance Style Remix)"
+    }
+   ],
    "artista_diverso": [],
    "versioni_uscita": [],
    "spotify": null,
@@ -7084,9 +7151,14 @@
    "deezer": null,
    "traxsource": null,
    "apple": null,
-   "copertina": null,
+   "copertina": {
+    "tipo": "compilation",
+    "file": "/compilation/cop/jump-2-the-dancefloor-vol-3.jpg",
+    "da": "[Jump]² The Dancefloor Vol. 3"
+   },
    "inedito": false,
    "anno_incerto": false,
+   "data_da_compilation": true,
    "foto": [],
    "nota_pubblica": null
   },
@@ -9850,6 +9922,15 @@
    "nota": "deciso da Amerigo il 01/09/2026, *«rumble pit consideralo un alias dei promise land»*, dopo che Discogs l'aveva dato con i soli Fabio Ranucci e Nazario Pelusi. Resta in questa mappa perché su uno dei due brani lui è coautore e quindi la riga in sezione 1 va spiegata, non perché sia un nome suo. Vedi il riquadro qui sotto. 2005"
   },
   {
+   "nome": "Trilogy",
+   "slug": "trilogy",
+   "cosa": "⛔ non è un suo alias: è un alias dei Promise Land",
+   "uscite": [
+    "Don't Leave Me Now *(il remix; l'originale è loro)*"
+   ],
+   "nota": "*«trilogy è un alias di promise land»*, Amerigo 02/09/2026. Sta qui perché il rifacimento di *Don't Leave Me Now* è suo, firmato Hard Dance Style, e senza questa riga non si capisce che il brano di partenza è di loro due. ⚠️ E c'è un sospetto che lui stesso ha deciso di non usare: *«sospetto dal nome che ci fossi anche io ma facciamo finta che non ci sono»*. Il nome dice tre e i Promise Land sono due, quindi l'indizio c'è — ma un sospetto sul proprio conto non è un credito, e su una pagina che fa da fonte l'errore per eccesso costa più di quello per difetto. ⭐ La lista resta vuota finché non salta fuori una stampa, e quel giorno si riapre in un minuto. 2006"
+  },
+  {
    "nome": "m2o's team",
    "slug": "m2o-s-team",
    "cosa": "Provenzano + Nick Peloso + Davide Farra + EMI, che canta",
@@ -9986,14 +10067,14 @@
   "singoli": 125,
   "remix": 83,
   "inediti": 31,
-  "con_copertina": 196,
+  "con_copertina": 199,
   "con_video": 49,
   "con_spotify": 76,
   "con_soundcloud": 30,
   "con_deezer": 0,
   "con_traxsource": 1,
   "con_apple": 3,
-  "in_compilation": 116,
+  "in_compilation": 123,
   "primo_anno": 1994,
   "ultimo_anno": 2026
  }
