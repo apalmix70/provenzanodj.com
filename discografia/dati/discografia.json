@@ -9271,10 +9271,7 @@
    },
    "video": null,
    "video_altri": [],
-   "soundcloud": {
-    "url": "https://api.soundcloud.com/tracks/287474558",
-    "perche": "mandato da Amerigo il 02/09/2026 - «player per fiesta soundcloud e prendi anche la copertina». ⚠️ **Non e' un caricamento suo**: sta sul profilo di **Peppe Roccaro Dj**, l'artista del disco - soundcloud.com/pepperoccarodj - quindi e' pubblico e non ha secret token. E' il secondo caso della giornata dopo *Back & Forth* dal profilo di Fedde Le Grand. Titolo per esteso: «Fiesta (feat. Dario Tiralongo, Lio Asham & Angela) [Provenzano Remix]». ⭐ **E da li' viene anche la copertina**, che questa riga non aveva: l'artwork del caricamento a **1500x1500** - la piu' grande di tutta la giornata, contro i 600px che danno Discogs e Spotify. L'indirizzo che l'oEmbed restituisce finisce per `-t500x500.jpg`: cambiando quel pezzo in `-original.jpg` SoundCloud serve il file intero. **Vale la pena ricordarlo per gli altri dischi muti.**"
-   },
+   "soundcloud": null,
    "deezer": null,
    "traxsource": null,
    "apple": null,
@@ -10246,7 +10243,7 @@
   "con_copertina": 207,
   "con_video": 52,
   "con_spotify": 81,
-  "con_soundcloud": 39,
+  "con_soundcloud": 38,
   "con_deezer": 0,
   "con_traxsource": 1,
   "con_apple": 3,
