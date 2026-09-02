@@ -4305,7 +4305,7 @@
    ],
    "firma": null,
    "etichetta": "Bang Record",
-   "nota": "⭐ Undici versioni, e la pagina era senza player, sistemata il 02/09/2026 — «anche qui». Il disco su Spotify sta sotto Provenzano & Masullo, che lì è un'altra identità rispetto alla sua pagina artista, e per questo `fonti/spotify-id.json` non lo vedeva: stesso motivo del caso LEWA. ⭐ E le uscite sono due, a due mesi di distanza, quindi in pagina vanno due player — stesso schema di *Rock Some Noise*: il singolo `5HedcRY1iVmfSHdJWsUgp3` del 01/07/2016, quattro versioni, che apre con la Radio Edit cioè il pezzo; e l'EP What About — Remixes, `5OOl6YsiqEfspt8Zx3aEHi` del 02/09/2016, sette remix che sul singolo non ci sono. ℗ 2016 Ross Srl/Bang Record under license to Pirames International Srl. ⭐ Sul singolo: Radio Edit 3:09, Extended Version 4:10, Remix by Denny Berland 4:37, Remix by Silvio Carrano 5:15. ⭐ Sull'EP: 90 Dub Mix by Luca Guerrieri 4:06, Remix by Paolo Pellegrino 4:18, by Valentini 3:09, by Umberto Balzanelli & Michelle 4:46, by Andry B & JJ 4:27, by Francesco Sparacello & Loris Buono 4:47, by Storm 5:21. La riga ne diceva una. ⚠️ È il primo elenco che cuce due player invece di ripeterne uno: nessuno dei due riquadri, da solo, fa vedere le undici. ✅ Copertina rifatta lo stesso giorno, perché l'ha vista tagliata lui: quella in archivio era 500×500 e chiudeva a metà della scritta WHAT ABOUT, senza il logo bangrec sotto. È lo stesso artwork, non un'altra uscita — guardate affiancate prima di sostituire. La nuova è la 640×640 del singolo su Spotify, intera. La vecchia sta in `copertine\\_sostituite\\`",
+   "nota": "⭐ Undici versioni, e la pagina era senza player, sistemata il 02/09/2026 — «anche qui». Il disco su Spotify sta sotto Provenzano & Masullo, che lì è un'altra identità rispetto alla sua pagina artista, e per questo `fonti/spotify-id.json` non lo vedeva: stesso motivo del caso LEWA. ⭐ E le uscite sono due, a due mesi di distanza, quindi in pagina vanno due player — stesso schema di *Rock Some Noise*: il singolo `5HedcRY1iVmfSHdJWsUgp3` del 01/07/2016, quattro versioni, che apre con la Radio Edit cioè il pezzo; e l'EP What About — Remixes, `5OOl6YsiqEfspt8Zx3aEHi` del 02/09/2016, sette remix che sul singolo non ci sono. ℗ 2016 Ross Srl/Bang Record under license to Pirames International Srl. ⭐ Sul singolo: Radio Edit 3:09, Extended Version 4:10, Denny Berland Remix 4:37, Silvio Carrano Remix 5:15. ⭐ Sull'EP: Luca Guerrieri Remix, 90 Dub Mix 4:06, Paolo Pellegrino Remix 4:18, Valentini Remix 3:09, Umberto Balzanelli & Michelle Remix 4:46, Andry B & JJ Remix 4:27, Francesco Sparacello & Loris Buono Remix 4:47, Storm Remix 5:21. La riga ne diceva una. ⭐ I nomi sono quelli delle due schede Discogs, mandate da lui poco dopo: «Denny Berland Remix» e non «Remix by Denny Berland» come lo scrive Spotify — è la grafia dell'etichetta, ed è quella che si legge. Le due release sono Bang Record BNG16216CDS e BNG17116CDS, File MP3 320 kbps, Italia, Discogs 8723905 e 9006822, con le stesse due date del player. ⚠️ Le durate restano quelle di Spotify, che sono misurate sull'audio: su sei versioni Discogs ne scrive una in meno — 3:08 contro 3:09, 4:09 contro 4:10 — cioè tronca invece di arrotondare. Un secondo di scarto sistematico non è un disaccordo fra le fonti. ⚠️ E «Luca Guerrieri Remix, 90 Dub Mix» ha una virgola dentro, l'ennesimo nome che nella parentesi del titolo si spezzerebbe in due. ⚠️ Sulla scheda dell'EP la traccia 6 è scritta senza il titolo davanti: è un buco della scheda, non un nome diverso. ⚠️ È il primo elenco che cuce due player invece di ripeterne uno: nessuno dei due riquadri, da solo, fa vedere le undici. ✅ Copertina rifatta lo stesso giorno, perché l'ha vista tagliata lui: quella in archivio era 500×500 e chiudeva a metà della scritta WHAT ABOUT, senza il logo bangrec sotto. È lo stesso artwork, non un'altra uscita — guardate affiancate prima di sostituire. ✅ Poi ne ha mandata una lui, `D:\\Archivio\\discografia\\what about.png`, 744×721, ed è quella in archivio adesso: il ritaglio quadrato le toglie 11 pixel per lato e resta sopra i 640 della sorgente precedente. ⚠️ L'unica differenza fra le due è il logo: la sua chiude subito sotto la scritta, quella di Spotify aveva anche la fascia col bangrec sotto. Non è una perdita di risoluzione, è un centimetro di busta in meno — e le due stanno tutte e due in `copertine\\_sostituite\\`, insieme al ritaglio 500×500 di partenza",
    "escluso": false,
    "da_guardare": false,
    "sezione": "2010 → 2019",
@@ -4337,15 +4337,15 @@
    "versioni_a_mano": [
     "Radio Edit 3:09",
     "Extended Version 4:10",
-    "Remix by Denny Berland 4:37",
-    "Remix by Silvio Carrano 5:15",
-    "90 Dub Mix by Luca Guerrieri 4:06",
-    "Remix by Paolo Pellegrino 4:18",
-    "Remix by Valentini 3:09",
-    "Remix by Umberto Balzanelli & Michelle 4:46",
-    "Remix by Andry B & JJ 4:27",
-    "Remix by Francesco Sparacello & Loris Buono 4:47",
-    "Remix by Storm 5:21"
+    "Denny Berland Remix 4:37",
+    "Silvio Carrano Remix 5:15",
+    "Luca Guerrieri Remix, 90 Dub Mix 4:06",
+    "Paolo Pellegrino Remix 4:18",
+    "Valentini Remix 3:09",
+    "Umberto Balzanelli & Michelle Remix 4:46",
+    "Andry B & JJ Remix 4:27",
+    "Francesco Sparacello & Loris Buono Remix 4:47",
+    "Storm Remix 5:21"
    ],
    "video": {
     "youtube": "OFvjfNM-amU",
