@@ -8786,7 +8786,7 @@
    "data_esatta": true,
    "firma": "Provenzano",
    "etichetta": "Netswork Records",
-   "nota": "fonte Beatport, 30/08/2026: il Provenzano Remix esce dentro «Desert Rain (feat. Vika Jigulina)» del 06/12/2011 — ISRC ITD451100976, 128 bpm — insieme ai remix di Pee4Tee e Alex Addea, e torna nella release «Desert Rain» del 10/01/2012. Prima qui era segnato 2012 senza etichetta. Su Spotify il remix non c'è; il caricamento su SoundCloud è di SoundBitMusic, profilo di terzi, quindi niente player. ✅ Verificato il 02/09/2026 su domanda sua — *«questo remix di Provenzano esiste?»* — e la risposta è sì, con la busta. Discogs 3350897: CD singolo «Desert Rain», Net's Work & Songs, catalogo NWI 843 CDS, Italia 2012, sette tracce. La 3 è «Desert Rain ‹Provenzano Remix›», 5:59, e il credito d'autore non dice «Provenzano» generico: dice Amerigo Provenzano, nome e cognome, nel ruolo di Remix. ⭐ E c'è una seconda stampa: *Dj Set Volume 141*, Global Net GLN 189 CD 2012, traccia 9, stessa durata 5:59, credito «Provenzano DJ (Remix)» — Discogs 32101188. ⭐ Le altre sei versioni del CD: Extended Version 6:46, Pee4Tee Remix 6:32, Alex Addea Remix 6:21, Juice Up aka Phoenix Lo & Andrea Zanardi Remix 6:37, Edit Remix 3:46, Radio Edit 4:06. Il Juice Up non era registrato da nessuna parte. ⚠️ I due CD sono del 2012 e la riga resta al 06/12/2011: non è un conflitto, è il digitale che precede la stampa. Beatport resta la fonte sulla data",
+   "nota": "fonte Beatport, 30/08/2026: il Provenzano Remix esce dentro «Desert Rain (feat. Vika Jigulina)» del 06/12/2011 — ISRC ITD451100976, 128 bpm — insieme ai remix di Pee4Tee e Alex Addea, e torna nella release «Desert Rain» del 10/01/2012. Prima qui era segnato 2012 senza etichetta. Su Spotify il remix non c'è; il caricamento su SoundCloud è di SoundBitMusic, profilo di terzi, quindi niente player. ✅ Verificato il 02/09/2026 su domanda sua — *«questo remix di Provenzano esiste?»* — e la risposta è sì, con la busta. Discogs 3350897: CD singolo «Desert Rain», Net's Work & Songs, catalogo NWI 843 CDS, Italia 2012, sette tracce. La 3 è «Desert Rain ‹Provenzano Remix›», 5:59, e il credito d'autore non dice «Provenzano» generico: dice Amerigo Provenzano, nome e cognome, nel ruolo di Remix. ⭐ E c'è una seconda stampa: *Dj Set Volume 141*, Global Net GLN 189 CD 2012, traccia 9, stessa durata 5:59, credito «Provenzano DJ (Remix)» — Discogs 32101188. ⭐ Le altre sei versioni del CD: Extended Version 6:46, Pee4Tee Remix 6:32, Alex Addea Remix 6:21, Juice Up aka Phoenix Lo & Andrea Zanardi Remix 6:37, Edit Remix 3:46, Radio Edit 4:06. Il Juice Up non era registrato da nessuna parte. ⚠️ I due CD sono del 2012 e la riga resta al 06/12/2011: non è un conflitto, è il digitale che precede la stampa. Beatport resta la fonte sulla data — e il retro della busta dà ragione al 2011: dice ℗ & © 2011 Net's Work & Songs S.r.l. under excl. lic. from Mayavin Records. ✅ Le tre scansioni della busta in pagina dal 02/09/2026, chieste da lui: fronte, retro e faccia del CD. ⭐ Sul fronte il suo nome è stampato, nella fascia «includes PEE4TEE ¦ PROVENZANO ¦ ALEX ADDEA ¦ JUICE UP» — che l'artwork digitale usato come copertina non ha: sono due oggetti diversi, non due risoluzioni della stessa immagine. ⭐⭐ E il retro porta il credito per esteso: «Additional production and remix by Amerigo Provenzano @ Reder8 Studio, Roma». È la seconda volta che Reder8 Studio salta fuori come suo studio — la prima fu la scheda d'etichetta di *Imagination* di Glideness, il 01/09/2026, ed è quella riga che chiuse la questione dell'alias. Qui ricompare su un disco che con Glideness non c'entra niente. ⭐ Gli ISRC sono stampati uno per uno, e quello del suo remix è IT D45 11 00976, cioè esattamente l'ISRC che la riga aveva già da Beatport: le due fonti combaciano al carattere. ⭐ E sul retro c'è un giro di nomi noto: il Pee4Tee Remix è masterizzato da Alex Nocera & Maurizio Montanari agli AMS Studios di Rimini — Nocera è quello di *Mash App*, e i due insieme firmano il «Nocera & Montanari Remix» di *I'm Waiting* nel 2007. ⚠️ Una durata non combacia fra busta e Discogs: il Juice Up dura 6.21 sul retro e sulla faccia del CD, 6:37 sulla scheda Discogs. Due superfici della busta dicono la stessa cosa, quindi qui vale 6.21 — ma non si tocca la scheda di qualcun altro",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [],
@@ -8805,7 +8805,20 @@
    },
    "inedito": false,
    "anno_incerto": false,
-   "foto": [],
+   "foto": [
+    {
+     "file": "cop/foto/edward-maya-feat-vika-jigulina-desert-rain-1.jpg",
+     "cosa": "il fronte della busta: sotto il titolo, la fascia «includes PEE4TEE | PROVENZANO | ALEX ADDEA | JUICE UP aka PHOENIX LO & ANDREA ZANARDI — remixes + official video»"
+    },
+    {
+     "file": "cop/foto/edward-maya-feat-vika-jigulina-desert-rain-2.jpg",
+     "cosa": "il retro, con le sette tracce, gli ISRC uno per uno e i crediti per esteso: «03. Additional production and remix by Amerigo Provenzano @ Reder8 Studio, Roma»"
+    },
+    {
+     "file": "cop/foto/edward-maya-feat-vika-jigulina-desert-rain-3.jpg",
+     "cosa": "la faccia del CD, con la tracklist e il catalogo 2012 NWI 843 CDS"
+    }
+   ],
    "nota_pubblica": null
   },
   {
