@@ -1051,7 +1051,7 @@
    ],
    "firma": null,
    "etichetta": "Movimental",
-   "nota": null,
+   "nota": "⭐ Ascolto trovato il 02/09/2026, link mandato da Amerigo: *Running Up* sta su Spotify nella versione «FM Concept», 5:56, traccia `5gBNDA3iOBamgypv8Cbb3k`, ISRC ITD510511101 — il *05* dice 2005, che è l'anno del disco. ⚠️ Ma non sta in un'uscita sua: la traccia vive dentro «Retrospective Avant-Garde: Best Of Molinaro», Bliss Corporation, 11/04/2007 — il best of di Roberto Molinaro, dodici tracce, e la nona è l'unica accreditata «Molinaro & Provenzano». Per questo in pagina va il player della traccia e non dell'album: quello farebbe sentire undici pezzi di un altro. ⚠️ E copre metà riga: questo è un doppio lato A e di *It's Gonna Be* in digitale non c'è niente — resta l'unica delle due senza ascolto. ⚠️ Il 2007 non tocca l'anno del disco: è la data della raccolta che la ospita, non dell'uscita. Sulle compilation sue *Running Up* è stampata liscia su m2o vol.8 e su The Dance Night, mentre *It's Gonna Be* sta su m2ALL Shock come «Cassa No Concept»",
    "escluso": false,
    "da_guardare": false,
    "sezione": "1992 → 2009",
@@ -1076,7 +1076,13 @@
     }
    ],
    "versioni_uscita": [],
-   "spotify": null,
+   "spotify": {
+    "tipo": "track",
+    "album": "5gBNDA3iOBamgypv8Cbb3k",
+    "titolo": "Running Up / It's Gonna Be",
+    "cosa": "Running Up, versione «FM Concept»",
+    "alto": false
+   },
    "video": null,
    "video_altri": [],
    "soundcloud": null,
@@ -9899,7 +9905,7 @@
   "inediti": 31,
   "con_copertina": 195,
   "con_video": 48,
-  "con_spotify": 75,
+  "con_spotify": 76,
   "con_soundcloud": 28,
   "con_deezer": 0,
   "con_traxsource": 1,
