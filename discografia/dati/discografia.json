@@ -9106,7 +9106,10 @@
    "deezer": null,
    "traxsource": null,
    "apple": null,
-   "copertina": null,
+   "copertina": {
+    "tipo": "propria",
+    "file": "cop/sergio-matina-and-gabry-sangineto-sound-of-freedom.jpg"
+   },
    "inedito": false,
    "anno_incerto": false,
    "foto": [],
@@ -10464,7 +10467,7 @@
   "singoli": 125,
   "remix": 83,
   "inediti": 31,
-  "con_copertina": 207,
+  "con_copertina": 208,
   "con_video": 53,
   "con_spotify": 84,
   "con_soundcloud": 51,
