@@ -7888,7 +7888,11 @@
    "deezer": null,
    "traxsource": null,
    "apple": null,
-   "copertina": null,
+   "copertina": {
+    "tipo": "compilation",
+    "file": "cop/axwell-ingrosso-and-salem-al-fakir-it-s-true.jpg",
+    "da": "Hit Mania Club Dance Volume 8"
+   },
    "inedito": false,
    "anno_incerto": false,
    "foto": [],
@@ -10146,7 +10150,7 @@
   "singoli": 125,
   "remix": 83,
   "inediti": 31,
-  "con_copertina": 201,
+  "con_copertina": 202,
   "con_video": 52,
   "con_spotify": 79,
   "con_soundcloud": 35,
