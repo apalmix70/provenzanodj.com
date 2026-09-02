@@ -9075,13 +9075,16 @@
    "slug": "andrea-masullo-chaka-blackmon-dream-girl",
    "artista": "Andrea Masullo, Chaka Blackmon",
    "titolo": "Dream Girl",
-   "versioni": [],
+   "versioni": [
+    "Provenzano Remix",
+    "Provenzano Remix Radio"
+   ],
    "data": "2012-06-27",
    "anno": 2012,
    "data_esatta": true,
    "firma": "Provenzano",
    "etichetta": "Netswork Digital Records",
-   "nota": "ritrovata nel database delle compilation, stampata su m2o vol.30; data, etichetta e copertina confermate su Beatport il 30/08/2026 — Provenzano Remix, ISRC ITU031200282, e c'è anche un suo Remix Radio, ITU031200281, nella riedizione «feat. Chaka Blackmon» del 13/07/2012",
+   "nota": "ritrovata nel database delle compilation, stampata su m2o vol.30; data, etichetta e copertina confermate su Beatport il 30/08/2026 — Provenzano Remix, ISRC ITU031200282, e c'è anche un suo Remix Radio, ITU031200281, nella riedizione «feat. Chaka Blackmon» del 13/07/2012. ✅ Riga aperta all'ascolto il 02/09/2026, e è il primo disco chiuso dalla ricerca sul disco fisso: il master stava in `Storico Provenzano\\Remix` e in `[MASTER]\\RELEASE\\Remix`, segnalato la sera stessa e caricato da lui subito dopo. ⭐ Targhetta messa, e qui non serve indovinare: le sue versioni sono due, e il caricamento si chiama «Provenzano Remix Radio Edit» e dura 3:26 — il nome e la misura dicono la stessa cosa. ⚠️ Resta fuori la versione lunga: il «Provenzano Remix» pieno non è su SoundCloud e sul disco fisso c'era solo il radio edit, quindi la pagina fa sentire l'edit e non il mix",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [
@@ -9097,7 +9100,12 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2393336919",
+    "secret": "s-CZEvDdkWcsd",
+    "cosa": "il Provenzano Remix Radio, dal suo profilo",
+    "perche": "l'audio caricato da Amerigo sul suo profilo, traccia privata: «Andrea Masullo, Chaka Blackmon - Dream Girl (Provenzano Remix Radio Edit)», 3:26. Link corto mandato da lui il 02/09/2026, on.soundcloud.com/g9HoL4e6ihbBJp3uJV. ⭐ E' il primo disco chiuso dalla ricerca sul disco fisso di stasera: il master stava in Storico Provenzano\\Remix e in [MASTER]\\RELEASE\\Remix, l'ho segnalato e lui l'ha caricato. ⭐ TARGHETTA MESSA, e qui non serve indovinare: le sue versioni su Beatport sono DUE - «Provenzano Remix» ISRC ITU031200282 del 27/06/2012 e «Provenzano Remix Radio» ISRC ITU031200281 nella riedizione del 13/07/2012 - e il titolo del caricamento dice Radio Edit, con 3:26 che e' una lunghezza da radio. Il nome e la misura dicono la stessa cosa. ⚠️ RESTA FUORI LA VERSIONE LUNGA: il «Provenzano Remix» pieno non e' su SoundCloud e sul disco fisso c'era solo il radio edit, quindi la pagina fa sentire l'edit e non il mix."
+   },
    "deezer": null,
    "traxsource": null,
    "apple": null,
@@ -10406,7 +10414,7 @@
   "con_copertina": 207,
   "con_video": 53,
   "con_spotify": 82,
-  "con_soundcloud": 45,
+  "con_soundcloud": 46,
   "con_deezer": 0,
   "con_traxsource": 1,
   "con_apple": 3,
