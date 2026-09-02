@@ -2331,7 +2331,14 @@
    "escluso": false,
    "da_guardare": false,
    "sezione": "2010 → 2019",
-   "in_compilation": [],
+   "in_compilation": [
+    {
+     "slug": "m2ovol27",
+     "titolo": "m2o vol.27",
+     "anno": 2011,
+     "come": "Imagination"
+    }
+   ],
    "versioni_uscita": [],
    "spotify": null,
    "video": null,
@@ -2345,7 +2352,11 @@
    "deezer": null,
    "traxsource": null,
    "apple": null,
-   "copertina": null,
+   "copertina": {
+    "tipo": "compilation",
+    "file": "/compilation/cop/m2ovol27.jpg",
+    "da": "m2o vol.27"
+   },
    "inedito": false,
    "anno_incerto": false,
    "foto": [],
@@ -2630,9 +2641,9 @@
    "slug": "earthquake",
    "titolo": "Earthquake",
    "versioni": [],
-   "data": null,
+   "data": "2012-10-23",
    "anno": 2012,
-   "data_esatta": false,
+   "data_esatta": true,
    "con": [],
    "firma": "The Redeemerz",
    "etichetta": null,
@@ -2640,7 +2651,14 @@
    "escluso": false,
    "da_guardare": false,
    "sezione": "2010 → 2019",
-   "in_compilation": [],
+   "in_compilation": [
+    {
+     "slug": "m2ovol31",
+     "titolo": "m2o vol.31",
+     "anno": 2012,
+     "come": "Earthquake"
+    }
+   ],
    "versioni_uscita": [],
    "spotify": null,
    "video": null,
@@ -2649,9 +2667,14 @@
    "deezer": null,
    "traxsource": null,
    "apple": null,
-   "copertina": null,
+   "copertina": {
+    "tipo": "compilation",
+    "file": "/compilation/cop/m2ovol31.jpg",
+    "da": "m2o vol.31"
+   },
    "inedito": true,
    "anno_incerto": false,
+   "data_da_compilation": true,
    "foto": [],
    "nota_pubblica": null
   },
@@ -10150,14 +10173,14 @@
   "singoli": 125,
   "remix": 83,
   "inediti": 31,
-  "con_copertina": 202,
+  "con_copertina": 204,
   "con_video": 52,
   "con_spotify": 79,
   "con_soundcloud": 35,
   "con_deezer": 0,
   "con_traxsource": 1,
   "con_apple": 3,
-  "in_compilation": 123,
+  "in_compilation": 125,
   "primo_anno": 1994,
   "ultimo_anno": 2026
  }
