@@ -8396,7 +8396,7 @@
    "data_esatta": true,
    "firma": "Provenzano, Ranucci & Pelusi",
    "etichetta": null,
-   "nota": null,
+   "nota": "✅ Player Spotify dal 02/09/2026, link mandato da lui: «Leave The World Behind — Ranucci, Pelusi, Provenzano Remix», 6:48, ISRC GBKCF0900087. ⭐ Si mette la traccia e non l'album: «Leave The World Behind ‹Remixes›», Axtone Records, 04/05/2009, ha cinque remix e uno solo è loro — gli altri sono Dimitri Vegas & Like Mike vs SHM, Dirty South, Daddy's Groove e Dabruck & Klein. Col player dell'album la pagina avrebbe fatto sentire per primo il remix di qualcun altro. ⚠️ E arrivando Spotify il video sparisce dalla pagina, giustamente: quello che c'era era il caricamento Topic di Axwell, cioè lo stesso audio, messo poche ore prima. La regola dice che dove c'è Spotify resta solo il videoclip vero, e qui il videoclip vero non esiste. La riga nel file dei video resta scritta, semplicemente non si disegna più",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [
@@ -8415,15 +8415,14 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "spotify": null,
-   "video": {
-    "youtube": "Wqi6rYxLM_k",
-    "tipo": "audio",
-    "canale": "Axwell - Topic",
+   "spotify": {
+    "tipo": "track",
+    "album": "41Cjs59esSAUL2sS0pj0Ao",
     "titolo": "Leave The World Behind",
-    "verticale": false,
-    "formato": null
+    "cosa": "il Ranucci, Pelusi, Provenzano Remix, 6:48",
+    "alto": false
    },
+   "video": null,
    "video_altri": [],
    "soundcloud": null,
    "deezer": null,
@@ -10426,8 +10425,8 @@
   "remix": 83,
   "inediti": 31,
   "con_copertina": 207,
-  "con_video": 53,
-  "con_spotify": 82,
+  "con_video": 52,
+  "con_spotify": 83,
   "con_soundcloud": 49,
   "con_deezer": 0,
   "con_traxsource": 1,
