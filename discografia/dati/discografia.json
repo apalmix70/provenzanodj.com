@@ -211,7 +211,7 @@
     1
    ]
   ],
-  "quante_etichette": 77,
+  "quante_etichette": 78,
   "piu_compilation": [
    {
     "titolo": "I Believe",
@@ -6874,13 +6874,17 @@
    "slug": "promise-land-live-your-life",
    "artista": "Promise Land",
    "titolo": "Live Your Life",
-   "versioni": [],
+   "versioni": [
+    "Hard Dance Style Extended",
+    "Hard Dance Style Radio",
+    "Andamento Lento"
+   ],
    "data": null,
    "anno": 2005,
    "data_esatta": false,
    "firma": "Hard Dance Style",
-   "etichetta": null,
-   "nota": "trovata il 01/09/2026 sull'API Discogs. ⭐ Riedizione Hard Dance Style, l'alias con Promise Land: nasce per la radio e per le serate, e questa è uscita per davvero. Vale la regola fissata da Amerigo il 01/09/2026 — in discografia entra solo quello che è stato stampato, e qui il brano rifatto è dei Promise Land stessi: autori Fabio Ranucci e Nazario Pelusi. Su «DJ Zone 04 — Dance Session 02», TIME Records, 2005, traccia 10 come «Hard Dance Style Extended»; sulla «Danceteque Compilation», Media Records, 2005, traccia 11; e su «Super Italia — Future Sounds Of Italo Dance Vol. 17», Universal / High N-R-G, 2005, traccia 9 nella versione «Hard Dance Style Radio»",
+   "etichetta": "Spy Rec",
+   "nota": "⭐ L'uscita è certificata il 02/09/2026 sulla scheda Discogs 1052154, mandata da Amerigo. È un 12\" vinile, Italia 2005, cat. SPY 83 — Spy Rec, ℗ e © 2005 Spy Srl / Time Srl, marketed by TIME S.r.l., distribuzione SELF. Prima qui non c'era etichetta e la riga si reggeva solo sulle tre compilation che la ospitano. ⚠️ Le compilation non erano l'etichetta: TIME, Media e Universal sono i marchi di quelle raccolte, il disco esce su Spy Rec. ⭐ Tre versioni sul disco, e due portano il nome dell'alias: lato A «Hard Dance Style Extended» 7:50 (ISRC IT-L01-05-00072), lato B «Hard Dance Style Radio» 4:12 (IT-L01-05-00073) e «Andamento Lento» 5:01 (IT-L01-05-00075). ⚠️ E qui c'è la cosa da decidere: sulla busta Provenzano non è stampato da nessuna parte. I crediti dicono *Written by N. Pelusi — N. Peloso — F. Ranucci*, *Arrangia & Mixa: F. Ranucci, N. Pelusi*, ℗ Promise Land Studio (Anzio), voci di Orlando Johnson e Loredana Mongillo, A&R Rossano Prini. Il suo nome sul disco è il nome delle versioni — «Hard Dance Style» — non una firma nei crediti. La riga resta perché Hard Dance Style è il suo alias con Promise Land, ma serve una parola sua: se l'alias su questo disco è solo un'etichetta di versione e non c'è dentro, va trattata come Rumble Pit, cioè fuori. ⭐ N. Peloso è Nick Peloso, lo stesso di m2o's team confermato il 01/09/2026: è la seconda volta in due giorni che salta fuori accanto a loro. ⚠️ Su Discogs l'artista è scritto «Promiseland» attaccato, con «Promise Land» solo come variante — la solita trappola dei nomi. Copertina presa dalla scheda il 02/09/2026, 600×598, e la busta ha anche il retro con la tracklist e le due etichette del vinile",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [],
@@ -6893,7 +6897,10 @@
    "deezer": null,
    "traxsource": null,
    "apple": null,
-   "copertina": null,
+   "copertina": {
+    "tipo": "propria",
+    "file": "cop/promise-land-live-your-life.jpg"
+   },
    "inedito": false,
    "anno_incerto": false,
    "foto": [],
@@ -9950,7 +9957,7 @@
   "singoli": 128,
   "remix": 81,
   "inediti": 34,
-  "con_copertina": 196,
+  "con_copertina": 197,
   "con_video": 49,
   "con_spotify": 75,
   "con_soundcloud": 25,
