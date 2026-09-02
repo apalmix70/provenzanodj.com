@@ -27,10 +27,6 @@
     4
    ],
    [
-    "Time",
-    4
-   ],
-   [
     "Go Dooria Records",
     4
    ],
@@ -49,6 +45,10 @@
    [
     "Jump Records",
     3
+   ],
+   [
+    "Time",
+    3
    ]
   ],
   "anni": [
@@ -66,7 +66,7 @@
    ],
    [
     2005,
-    14
+    13
    ],
    [
     2008,
@@ -100,7 +100,7 @@
    ],
    [
     2000,
-    69
+    67
    ],
    [
     2010,
@@ -690,54 +690,6 @@
   },
   {
    "tipo": "produzione",
-   "slug": "el-cabron",
-   "titolo": "El Cabrón",
-   "versioni": [
-    "+ A Matar Radio Edit, A Matar Extended RMX, Farra Electro Extended"
-   ],
-   "data": "2004-03-18",
-   "anno": 2004,
-   "data_esatta": true,
-   "con": [],
-   "firma": "Mr. Ed",
-   "etichetta": "Time",
-   "nota": "⚠️ Non è un inedito da compilation: è un singolo vero. Fino al 01/09/2026 la riga diceva «mai uscito a sé, stampato su m2o vol.5»; quel giorno Amerigo ha mandato il link Spotify — «il disco è uscito su Time Records oltre che su la compilation» — e la riga si è riempita da sola. Single El Cabrón, Spotify `67ClD2qoIR0ClWMWY3tZIJ`, 18/03/2004, © Time S.p.A. Unipersonale, tre tracce: A Matar Radio Edit 2:41, A Matar Extended RMX 4:03, Farra Electro Extended 4:41. ⭐ La compilation è uscita prima del singolo: m2o vol.5 è del 13/02/2004, il disco del 18 marzo — un mese dopo. ⭐ E il titolo della terza versione conferma l'alias dall'esterno: «Farra Electro Extended», cioè Davide Farra, che è l'altro dentro Mr. Ed. ✅ Il titolo si scrive con l'accento, l'alias col punto: *El Cabrón* e *Mr. Ed*, deciso da Amerigo il 01/09/2026 — «metti accento lascia il punto». Su Spotify l'artista è scritto Mr Ed senza punto, e quella è la grafia che non si segue. ⚠️ Lo slug della pagina resta `el-cabron`: l'accento sparisce nella normalizzazione, quindi l'indirizzo non cambia e non resta nessuna cartella orfana nel repo del sito. Copertina mandata da Amerigo lo stesso giorno, in archivio come `produzioni4 Mr. Ed - El Cabron.jpg`",
-   "escluso": false,
-   "da_guardare": false,
-   "sezione": "1992 → 2009",
-   "in_compilation": [
-    {
-     "slug": "m2ovol5",
-     "titolo": "m2o vol.5",
-     "anno": 2004,
-     "come": "El Cabron"
-    }
-   ],
-   "versioni_uscita": [],
-   "spotify": {
-    "tipo": "track",
-    "album": "5X1MN753bLM80p1wXfnWwU",
-    "titolo": "El Cabrón",
-    "cosa": "la Farra Electro Extended",
-    "alto": false
-   },
-   "video": null,
-   "video_altri": [],
-   "soundcloud": null,
-   "deezer": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "propria",
-    "file": "cop/el-cabron.jpg"
-   },
-   "inedito": false,
-   "anno_incerto": false,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "produzione",
    "slug": "funny-day",
    "titolo": "Funny Day",
    "versioni": [
@@ -1127,51 +1079,11 @@
   },
   {
    "tipo": "produzione",
-   "slug": "disco-sex",
-   "titolo": "Disco Sex",
-   "versioni": [],
-   "data": "2005-02-14",
-   "anno": 2005,
-   "data_esatta": true,
-   "con": [],
-   "firma": "Mr. Ed",
-   "etichetta": null,
-   "nota": "inedito per la compilation: mai uscito a sé, stampato su m2o vol.8",
-   "escluso": false,
-   "da_guardare": false,
-   "sezione": "1992 → 2009",
-   "in_compilation": [
-    {
-     "slug": "m2ovol8",
-     "titolo": "m2o vol.8",
-     "anno": 2005,
-     "come": "Disco Sex"
-    }
-   ],
-   "versioni_uscita": [],
-   "spotify": null,
-   "video": null,
-   "video_altri": [],
-   "soundcloud": null,
-   "deezer": null,
-   "traxsource": null,
-   "apple": null,
-   "copertina": {
-    "tipo": "compilation",
-    "file": "/compilation/cop/m2ovol8.jpg",
-    "da": "m2o vol.8"
-   },
-   "inedito": true,
-   "anno_incerto": false,
-   "data_da_compilation": true,
-   "foto": [],
-   "nota_pubblica": null
-  },
-  {
-   "tipo": "produzione",
    "slug": "vibe",
    "titolo": "Vibe",
-   "versioni": [],
+   "versioni": [
+    "+ Original, Promiseland Remix, Danijay Remix, DJ Ato Remix, Montsaint e Marani Remix"
+   ],
    "data": null,
    "anno": 2006,
    "data_esatta": false,
@@ -1180,7 +1092,7 @@
    ],
    "firma": null,
    "etichetta": "Jump Records",
-   "nota": "Discogs dice Global Net",
+   "nota": "⭐ Etichetta chiusa il 02/09/2026 dal retro del disco, mandato da Amerigo: in fondo alla busta c'è scritto ℗ «2006 [Jump]² a label of Fast Record srl» e, due righe più giù, «distributed by Global Net srl». ⚠️ Quindi non era un conflitto, erano due mestieri diversi: [Jump]² è l'etichetta, Global Net il distributore — Discogs metteva il secondo perché è il nome stampato in fondo, dove di solito sta l'etichetta. Era una delle quattro etichette in conflitto della sezione 6, e a deciderla è stata la stampa, non un database. © 2006 B&P Dance Machine srl / Market srl. ⭐ Le versioni sono cinque, con le durate: Original 6:45, Promiseland Remix 6:52, Danijay Remix 3:46, DJ Ato Remix 5:27, Montsaint e Marani Remix 3:46. ⚠️ Sulle due compilation gira la seconda: sia [Jump]² vol.2 sia m2o vol.11 stampano «Vibe (Promise Land Remix)», mentre il player della pagina è la Original — per questo la targhetta lo dice. ⚠️ Il retro aggiunge tre coautori che non stavano da nessuna parte: *written and produced by A. Provenzano, E. Bolognini, C. Marani, V. Montesano at Noirt Studio of Rome*, e la produzione aggiuntiva della traccia 2 è di F. Ranucci e N. Pelusi al Promiseland Studio di Anzio. ⚠️ E. Bolognini non è Paolo Bolognesi: cognome e iniziale sono diversi, e finché non lo dice lui non si mette il segno di uguale",
    "escluso": false,
    "da_guardare": false,
    "sezione": "1992 → 2009",
@@ -1202,7 +1114,13 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2393069985",
+    "secret": "s-Ycyqrgtz9Sd",
+    "cosa": "Original",
+    "originale": true,
+    "perche": "l'audio caricato da Amerigo sul suo profilo, traccia privata: «PROVENZANO - VIBE (ORIGINAL)». Link corto mandato da lui il 02/09/2026, on.soundcloud.com/NeW94OWbRti0sXeW6L, che risolve su soundcloud.com/provenzano_official/provenzano-vibe-original/s-Ycyqrgtz9Sd. Prima di questo la pagina non aveva NESSUN ascolto: e' uno dei dischi che escono dalla lista dei muti. ⭐ Marcata 'originale': true, e la targhetta dice 'Original', perche' qui la distinzione conta: sulle due compilation che lo ospitano - [Jump]2 vol.2 e m2o vol.11 - il pezzo e' stampato come «Vibe (Promise Land Remix)», quindi la versione che si sente qui NON e' quella che gira sui dischi. Senza la targhetta uno ascolta e crede di sentire il mix della compilation."
+   },
    "deezer": null,
    "traxsource": null,
    "apple": null,
@@ -1212,7 +1130,12 @@
    },
    "inedito": false,
    "anno_incerto": false,
-   "foto": [],
+   "foto": [
+    {
+     "file": "cop/foto/vibe-1.jpg",
+     "cosa": "il retro del disco: le cinque versioni con la durata - «1. Original 6.45, 2. Promiseland Remix 6.52, 3. Danijay Remix 3.46, 4. DJ Ato Remix 5.27, 5. Montsaint e Marani Remix 3.46» - i crediti per esteso, e in fondo «(p) 2006 [Jump]2 a label of Fast Record srl» con «distributed by Global Net srl»"
+    }
+   ],
    "nota_pubblica": null
   },
   {
@@ -9741,12 +9664,12 @@
   {
    "nome": "Mr. Ed",
    "slug": "mr-ed",
-   "cosa": "Provenzano + Davide Farra + Edward Vargas, che è la voce del disco",
+   "cosa": "⛔ non è un suo alias: è di Davide Farra e Edward Vargas. *«Ho riflettuto a fondo e il progetto mr.ed anche se supervisionato da me rimane un alias di davide farra e edward vargas, toglilo dalla mia discografia e dal sito»*",
    "uscite": [
     "El Cabron",
     "Disco Sex"
    ],
-   "nota": "aggiunto da Amerigo il 01/09/2026, *«aggiungi Edward Vargas tra i componenti dell'alias mr.ed è la voce del disco»*. ⚠️ È l'unico alias in cui un cantante è dentro il nome e non solo un featuring: su *El Cabron* non c'è un «feat.» sulla copertina, i tre sono il progetto. — *«Mr. Ed è un alias condiviso con Davide Farra»*, Amerigo 28/08/2026, già scritto nel database delle compilation. ⚠️ Era rimasto fuori da questa mappa per quattro giorni e il 01/09/2026 gliel'ho richiesto: la risposta era già nel workspace, e la domanda si poteva evitare. Farra è lo stesso dei minimix e delle sigle m2o. 2004–2005"
+   "nota": "Amerigo, 02/09/2026. ⚠️ Fino al giorno prima era in mappa come suo, con dentro tutti e tre: era stato lui a dire *«Mr. Ed è un alias condiviso con Davide Farra»* il 28/08/2026 e ad aggiungere Edward Vargas il 01/09/2026, *«è la voce del disco»*. ⭐ Il suo ruolo era la supervisione, e su questo si è corretto ripensandoci: sta qui, come *Rumble Pit* e *Ranucci & Pelusi*, per spiegare perché El Cabrón e Disco Sex sono fuori dal sito invece di essere spariti senza motivo. ⭐ La lezione: una risposta data di getto su chi c'è dentro un nome può cambiare a mente fredda, e quella che vale è l'ultima. Davide Farra è lo stesso dei minimix e delle sigle m2o. 2004–2005"
   },
   {
    "nome": "Disco Loco",
@@ -9927,11 +9850,11 @@
    "remix": 13
   },
   "2005": {
-   "singoli": 5,
+   "singoli": 4,
    "remix": 9
   },
   "2004": {
-   "singoli": 4,
+   "singoli": 3,
    "remix": 1
   },
   "2003": {
@@ -9956,17 +9879,17 @@
   }
  },
  "totali": {
-  "singoli": 126,
+  "singoli": 124,
   "remix": 83,
-  "inediti": 32,
-  "con_copertina": 197,
+  "inediti": 31,
+  "con_copertina": 195,
   "con_video": 48,
-  "con_spotify": 76,
-  "con_soundcloud": 26,
+  "con_spotify": 75,
+  "con_soundcloud": 27,
   "con_deezer": 0,
   "con_traxsource": 1,
   "con_apple": 3,
-  "in_compilation": 117,
+  "in_compilation": 115,
   "primo_anno": 1994,
   "ultimo_anno": 2026
  }
