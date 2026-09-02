@@ -7945,7 +7945,11 @@
    "deezer": null,
    "traxsource": null,
    "apple": null,
-   "copertina": null,
+   "copertina": {
+    "tipo": "compilation",
+    "file": "cop/get-far-and-sagi-rei-all-i-need.jpg",
+    "da": "Hit Mania Club Dance Volume 9"
+   },
    "inedito": false,
    "anno_incerto": false,
    "foto": [],
@@ -10173,7 +10177,7 @@
   "singoli": 125,
   "remix": 83,
   "inediti": 31,
-  "con_copertina": 204,
+  "con_copertina": 205,
   "con_video": 52,
   "con_spotify": 79,
   "con_soundcloud": 35,
