@@ -66,7 +66,7 @@
    ],
    [
     2005,
-    13
+    14
    ],
    [
     2008,
@@ -100,7 +100,7 @@
    ],
    [
     2000,
-    67
+    68
    ],
    [
     2010,
@@ -153,11 +153,11 @@
     2
    ],
    [
-    "Danijay",
+    "Roberto Molinaro",
     2
    ],
    [
-    "Ranucci & Pelusi",
+    "Danijay",
     2
    ]
   ],
@@ -244,12 +244,6 @@
     "anno": 2005
    },
    {
-    "titolo": "Running Up / It's Gonna Be",
-    "slug": "running-up-it-s-gonna-be",
-    "quante": 3,
-    "anno": 2005
-   },
-   {
     "titolo": "Devotion",
     "slug": "devotion",
     "quante": 3,
@@ -264,6 +258,12 @@
    {
     "titolo": "Let Me Be",
     "slug": "let-me-be",
+    "quante": 2,
+    "anno": 2005
+   },
+   {
+    "titolo": "Running Up",
+    "slug": "running-up",
     "quante": 2,
     "anno": 2005
    },
@@ -1040,9 +1040,11 @@
   },
   {
    "tipo": "produzione",
-   "slug": "running-up-it-s-gonna-be",
-   "titolo": "Running Up / It's Gonna Be",
-   "versioni": [],
+   "slug": "running-up",
+   "titolo": "Running Up",
+   "versioni": [
+    "+ FM Concept, Club Concept"
+   ],
    "data": null,
    "anno": 2005,
    "data_esatta": false,
@@ -1051,7 +1053,7 @@
    ],
    "firma": null,
    "etichetta": "Movimental",
-   "nota": "⭐ Ascolto trovato il 02/09/2026, link mandato da Amerigo: *Running Up* sta su Spotify nella versione «FM Concept», 5:56, traccia `5gBNDA3iOBamgypv8Cbb3k`, ISRC ITD510511101 — il *05* dice 2005, che è l'anno del disco. ⚠️ Ma non sta in un'uscita sua: la traccia vive dentro «Retrospective Avant-Garde: Best Of Molinaro», Bliss Corporation, 11/04/2007 — il best of di Roberto Molinaro, dodici tracce, e la nona è l'unica accreditata «Molinaro & Provenzano». Per questo in pagina va il player della traccia e non dell'album: quello farebbe sentire undici pezzi di un altro. ⚠️ E copre metà riga: questo è un doppio lato A e di *It's Gonna Be* in digitale non c'è niente — resta l'unica delle due senza ascolto. ⚠️ Il 2007 non tocca l'anno del disco: è la data della raccolta che la ospita, non dell'uscita. Sulle compilation sue *Running Up* è stampata liscia su m2o vol.8 e su The Dance Night, mentre *It's Gonna Be* sta su m2ALL Shock come «Cassa No Concept»",
+   "nota": "⚠️ Divisa da *It's Gonna Be* il 02/09/2026, per decisione di Amerigo: *«it's gonna be è un singolo diverso da running up, dividili»*. Fino a quel giorno erano una riga sola, letta come un doppio lato A. ⭐ E la busta gli ha dato ragione lo stesso pomeriggio: il retro del CD porta solo *Running Up*, con le sue due versioni, e di *It's Gonna Be* non c'è traccia. L'archivio lo sapeva già — le copertine erano due file separati. ⚠️ Gli slug cambiano: `running-up` e `it-s-gonna-be`, e il vecchio `running-up-it-s-gonna-be` non risponde più. ⭐ Riga riempita dal retro del CD, mandato da Amerigo il 02/09/2026: catalogo MVL025, © e ℗ 2005 — l'anno si chiude dall'interno del disco. Due versioni: «FM Concept 4:13» e «Club Concept 5:56». I crediti: *music by Provenzano — Bolognini — Bufalo*, *lyrics by Fiorentino — Garino — Molinaro*, tutte le versioni mixate da Roberto Molinaro, produzione artistica di Molinaro, Provenzano e Alessandro Bufalo, voce di Lizzy B., cover art di Dorina Xhaxho. ⭐ È il secondo disco in un giorno con un Bolognini accanto a lui, dopo *Vibe* («E. Bolognini»): resta uno da chiedere, e resta diverso da Paolo Bolognesi. ⭐ Ascolto trovato lo stesso giorno, link suo: traccia `5gBNDA3iOBamgypv8Cbb3k`, ISRC ITD510511101 — il *05* dice 2005. ⚠️ Ma il nome della versione non torna: Spotify la chiama «FM Concept» e dura 5:56, che sulla busta è la durata della Club Concept — la FM lì è 4:13. Una delle due fonti sbaglia il nome, non si sa quale, quindi in pagina la targhetta dice solo la durata, che è verificabile. ⚠️ E la traccia non sta in un'uscita sua: vive dentro «Retrospective Avant-Garde: Best Of Molinaro», Bliss Corporation 11/04/2007 — dodici tracce di Roberto Molinaro, e la nona è l'unica «Molinaro & Provenzano». Per questo va il player della traccia. Il 2007 è la raccolta, non l'uscita. Stampata liscia su m2o vol.8 e su m2o — The Dance Night, e sulla Hard Dance Compilation come «Provenzano & Promiseland Hard Dance Style Remix»",
    "escluso": false,
    "da_guardare": false,
    "sezione": "1992 → 2009",
@@ -1067,20 +1069,14 @@
      "titolo": "m2o — The Dance Night",
      "anno": 2005,
      "come": "Running Up"
-    },
-    {
-     "slug": "m2o-m2all-shock",
-     "titolo": "m2o — m2ALL Shock",
-     "anno": 2005,
-     "come": "It's Gonna Be (Cassa No Concept)"
     }
    ],
    "versioni_uscita": [],
    "spotify": {
     "tipo": "track",
     "album": "5gBNDA3iOBamgypv8Cbb3k",
-    "titolo": "Running Up / It's Gonna Be",
-    "cosa": "Running Up, versione «FM Concept»",
+    "titolo": "Running Up",
+    "cosa": "Running Up, la versione da 5:56",
     "alto": false
    },
    "video": null,
@@ -1091,7 +1087,55 @@
    "apple": null,
    "copertina": {
     "tipo": "propria",
-    "file": "cop/running-up-it-s-gonna-be.jpg"
+    "file": "cop/running-up.jpg"
+   },
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [
+    {
+     "file": "cop/foto/running-up-1.jpg",
+     "cosa": "il retro del CD: «1 FM Concept 4'13\"» e «2 Club Concept 5'56\"», il catalogo MVL025, e i crediti - «music by Provenzano - Bolognini - Bufalo», «lyrics by Fiorentino - Garino - Molinaro», «all versions mixed by Roberto Molinaro», «vocals by Lizzy B», produzione artistica di Molinaro, Provenzano e Alessandro Bufalo, cover art di Dorina Xhaxho"
+    }
+   ],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "produzione",
+   "slug": "it-s-gonna-be",
+   "titolo": "It's Gonna Be",
+   "versioni": [],
+   "data": null,
+   "anno": 2005,
+   "data_esatta": false,
+   "con": [
+    "Roberto Molinaro"
+   ],
+   "firma": null,
+   "etichetta": "Movimental",
+   "nota": "⚠️ Divisa da *It's Gonna Be* il 02/09/2026, per decisione di Amerigo: *«it's gonna be è un singolo diverso da running up, dividili»*. Fino a quel giorno erano una riga sola, letta come un doppio lato A. ⭐ E la busta gli ha dato ragione lo stesso pomeriggio: il retro del CD porta solo *Running Up*, con le sue due versioni, e di *It's Gonna Be* non c'è traccia. L'archivio lo sapeva già — le copertine erano due file separati. ⚠️ Gli slug cambiano: `running-up` e `it-s-gonna-be`, e il vecchio `running-up-it-s-gonna-be` non risponde più. ⚠️ Resta senza ascolto: in digitale non c'è da nessuna parte. ⭐ Ma non è più senza niente: sulla Hard Dance Compilation — Magika MGK056/CD, 03/02/2006 — è la traccia 17, «It's Gonna Be (Provenzano & Promiseland Hard Dance Style Remix)», accreditata a Roberto Molinaro, Provenzano DJ e Lizzy B, e da lì prende in prestito la copertina al posto del segnaposto. ⭐ Il credito a Lizzy B. combacia con il retro di *Running Up*, dove è lei la voce: è la stessa cantante sui due dischi gemelli. ⚠️ La sua busta non l'abbiamo: se salta fuori, il segnaposto si butta. ⚠️ L'altra stampa è *m2o — m2ALL Shock*, dove compare come «It's Gonna Be (Cassa No Concept)» — «Cassa No Concept» è il nome della versione, non un altro artista",
+   "escluso": false,
+   "da_guardare": false,
+   "sezione": "1992 → 2009",
+   "in_compilation": [
+    {
+     "slug": "m2o-m2all-shock",
+     "titolo": "m2o — m2ALL Shock",
+     "anno": 2005,
+     "come": "It's Gonna Be (Cassa No Concept)"
+    }
+   ],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "deezer": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "compilation",
+    "file": "/compilation/cop/m2o-m2all-shock.jpg",
+    "da": "m2o — m2ALL Shock"
    },
    "inedito": false,
    "anno_incerto": false,
@@ -9871,7 +9915,7 @@
    "remix": 13
   },
   "2005": {
-   "singoli": 4,
+   "singoli": 5,
    "remix": 9
   },
   "2004": {
@@ -9900,17 +9944,17 @@
   }
  },
  "totali": {
-  "singoli": 124,
+  "singoli": 125,
   "remix": 83,
   "inediti": 31,
-  "con_copertina": 195,
+  "con_copertina": 196,
   "con_video": 48,
   "con_spotify": 76,
   "con_soundcloud": 28,
   "con_deezer": 0,
   "con_traxsource": 1,
   "con_apple": 3,
-  "in_compilation": 115,
+  "in_compilation": 116,
   "primo_anno": 1994,
   "ultimo_anno": 2026
  }
