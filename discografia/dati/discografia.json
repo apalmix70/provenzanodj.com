@@ -2040,7 +2040,9 @@
    "tipo": "produzione",
    "slug": "amazing",
    "titolo": "Amazing",
-   "versioni": [],
+   "versioni": [
+    "+ Radio Edit, Original Mix, Promise Land Remix"
+   ],
    "data": null,
    "anno": 2010,
    "data_esatta": false,
@@ -2060,15 +2062,14 @@
     }
    ],
    "versioni_uscita": [],
-   "spotify": null,
-   "video": {
-    "youtube": "3ah5jPLgQCo",
-    "tipo": "audio",
-    "canale": null,
-    "titolo": "Amazing (Reder8)",
-    "verticale": false,
-    "formato": null
+   "spotify": {
+    "tipo": "album",
+    "album": "4OPA1XKAVawxJv9ZebARWz",
+    "titolo": "Amazing",
+    "cosa": null,
+    "alto": false
    },
+   "video": null,
    "video_altri": [],
    "soundcloud": null,
    "deezer": null,
@@ -10119,8 +10120,8 @@
   "remix": 83,
   "inediti": 31,
   "con_copertina": 200,
-  "con_video": 52,
-  "con_spotify": 77,
+  "con_video": 51,
+  "con_spotify": 78,
   "con_soundcloud": 33,
   "con_deezer": 0,
   "con_traxsource": 1,
