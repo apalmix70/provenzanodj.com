@@ -6696,12 +6696,12 @@
    "artista": "Manu L.J.",
    "titolo": "Feel Alright",
    "versioni": [],
-   "data": "2005-06-10",
+   "data": null,
    "anno": 2005,
-   "data_esatta": true,
+   "data_esatta": false,
    "firma": "Provenzano",
-   "etichetta": null,
-   "nota": null,
+   "etichetta": "New Music International",
+   "nota": "⭐ Riga riempita il 02/09/2026 dal retro del 12\", mandato da Amerigo con la scheda Discogs: prima non aveva etichetta. Vinile 12\", Italia 2005, catalogo NMX 2640, ℗ e © New Music International S.r.l., prodotto da Alex Bagnoli, edizioni Pielle Ed. Musicali. Quattro versioni: A1 Original Radio 3:32, A2 Extended 6:01, B1 BPaul & The Plugins Remix Edit Version 5:24, e B2 la sua, «Provenzano Dj Remix» 4:58. ⭐ E il credito della B2 è la cosa migliore di tutta la busta: *«Arranged and Mixed by Provenzano Dj & Hyper Traxx @ www.provenzanodj.com Studio»* — lo studio chiamato col suo indirizzo web, stampato sul retro di un disco del 2005. ⭐ È il secondo disco della stessa giornata con provenzanodj.com stampato sopra, dopo *Haiducii*: il sito che stiamo riempendo stava già sui dischi vent'anni fa. Le altre due versioni sono mixate all'ALBY Studio di Bologna e al Nolift Studio di Roma. ⚠️ Autori del pezzo: A. Bagnoli, M. Gazzotti, M. Fiorillo — sulla busta il secondo è stampato «M. Garzotti», su Discogs è «Mauro Gazzotti», ed è la solita grafia doppia. ⭐ E c'è una conferma di rimbalzo su un altro disco: qui il distributore è Global Net S.r.l., cioè lo stesso nome che su *Vibe* Discogs dava come etichetta. Due dischi diversi, stesso ruolo — Global Net distribuisce, non pubblica. La busta di Vibe l'aveva già detto, questa lo conferma da fuori",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [
@@ -6733,8 +6733,12 @@
    },
    "inedito": false,
    "anno_incerto": false,
-   "data_da_compilation": true,
-   "foto": [],
+   "foto": [
+    {
+     "file": "cop/foto/manu-l-j-feel-alright-1.jpg",
+     "cosa": "il retro del 12\": le quattro versioni con le durate - «A1. Original Radio 3:32, A2. Extended 6:01, B1. BPaul & The Plugins Remix (Edit Version) 5:24, B2. Provenzano Dj Remix 4:58» - e i crediti: «Produced by ALEX BAGNOLI for NEW MUSIC INTERNATIONAL», e per la sua traccia «B2. Arranged and Mixed by Provenzano Dj & Hyper Traxx @ www.provenzanodj.com Studio». (P) & (C) 2005 New Music International Srl"
+    }
+   ],
    "nota_pubblica": null
   },
   {
