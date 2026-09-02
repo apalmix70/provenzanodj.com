@@ -3059,7 +3059,7 @@
    "con": [],
    "firma": null,
    "etichetta": "Oxyd Records",
-   "nota": null,
+   "nota": "✅ Il pezzo intero in pagina dal 02/09/2026, caricamento suo su SoundCloud, traccia privata, link mandato da lui. ⚠️ La pagina non era muta ma aveva un teaser: il video sul suo canale YouTube è un'anteprima, non il brano — adesso si sente tutto, e il teaser resta sotto come video. ⭐ Niente targhetta di versione, e per una volta non per incertezza: sulla release Oxyd il disco ha una sola versione, «Drop Da Beat ‹Original Mix›». Di solito la targhetta manca perché non si riesce a stabilire quale versione sia; qui manca perché la versione è una. ⭐ Terzo pezzo della stessa fila, dopo *Chains Of Love* e *Just The Way You Are*: master sul disco fisso, caricamento suo, link corto, oEmbed per id e token, player in pagina",
    "escluso": false,
    "da_guardare": false,
    "sezione": "2010 → 2019",
@@ -3082,7 +3082,11 @@
     "formato": null
    },
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2393237424",
+    "secret": "s-0Cbu7qiFzq4",
+    "perche": "l'audio caricato da Amerigo sul suo profilo, traccia privata: «Provenzano - Drop da Beat». Link corto mandato da lui il 02/09/2026, on.soundcloud.com/9xMB3RvwoOchH2lRaJ. ⚠️ La pagina NON era muta ma quello che aveva era un TEASER sul suo canale YouTube: adesso c'è il pezzo intero, e il teaser resta sotto come video. ⭐ Niente targhetta di versione perché non c'è niente da distinguere: sulla release Oxyd Records il disco ha UNA sola versione, «Drop Da Beat (Original Mix)», 22/11/2013. E' il caso più pulito di tutta la giornata - di solito la targhetta manca perché non si riesce a stabilire quale versione sia, qui manca perché la versione è una sola. ⭐ Terzo pezzo della stessa fila: file di master sul disco fisso, caricamento suo, link corto, oEmbed per id e token, player in pagina - come Chains Of Love e Just The Way You Are."
+   },
    "deezer": null,
    "traxsource": null,
    "apple": null,
@@ -3512,7 +3516,7 @@
    "soundcloud": {
     "url": "https://api.soundcloud.com/tracks/165705432",
     "cosa": "Sunstars Remix",
-    "perche": "link mandato da Amerigo il 01/09/2026: «da aggiungere alla pagina della release». ⚠️ **Non è un suo caricamento**: sta sul profilo ufficiale di **Alex Gaudino**, che del disco è l'artista, quindi è un audio d'etichetta e non un caricamento di terzi — e non serve il `secret`, che sui suoi upload privati invece è obbligatorio. ⚠️ **È il Sunstars Remix, non la versione del disco**: la didascalia in pagina lo dice, così chi ascolta non crede che il pezzo sia quello. ⚠️ **Va sulla riga del 2014 e non su quella del 1997**: sono due dischi diversi con lo stesso titolo, ed è lo stesso inciampo già successo con i video il 30/08/2026 — vedi `titolo_solo_di`."
+    "perche": "link mandato da Amerigo il 01/09/2026: «da aggiungere alla pagina della release». ⚠️ **Non è un suo caricamento**: sta sul profilo ufficiale di **Alex Gaudino**, che del disco è l'artista, quindi è un audio d'etichetta e non un caricamento di terzi — e non serve il `secret`, che sui suoi upload privati invece è obbligatorio. ⚠️ **È il Sunstars Remix, non la versione del disco**: la didascalia in pagina lo dice, così chi ascolta non crede che il pezzo sia quello. ⚠️ **Va sulla riga del 2014 e non su quella del 1997**: sono due dischi diversi con lo stesso titolo, ed è lo stesso inciampo già successo con i video il 30/08/2026 — vedi `titolo_solo_di`. ⛔ **Il player resta questo, ed è una scelta chiusa il 02/09/2026.** Quel giorno Amerigo ha mandato anche un caricamento dell'ORIGINALE dal suo profilo, che doveva salire sopra al remix, ma il link non si apriva: «This track was not found», sia col token nel percorso sia scritto come parametro — e non era un problema di metodo, perché nella stessa sessione e nello stesso browser il link di Just The Way You Are, stessa forma e stesso profilo, si apriva. Riferito a lui, che ha risposto «non preoccuparti di believe in me». Quindi la pagina fa sentire il Sunstars Remix e la didascalia lo dice: NON è una svista da correggere, e non si riapre la caccia senza un link nuovo da parte sua."
    },
    "deezer": null,
    "traxsource": null,
@@ -10319,7 +10323,7 @@
   "con_copertina": 207,
   "con_video": 53,
   "con_spotify": 82,
-  "con_soundcloud": 41,
+  "con_soundcloud": 42,
   "con_deezer": 0,
   "con_traxsource": 1,
   "con_apple": 3,
