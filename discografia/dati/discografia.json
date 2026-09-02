@@ -6871,7 +6871,7 @@
    "data_esatta": true,
    "firma": "Provenzano",
    "etichetta": null,
-   "nota": "ritrovata nel database delle compilation, stampata su Altromondo Compilation; anno non confermato",
+   "nota": "ritrovata nel database delle compilation, stampata su Altromondo Compilation; anno non confermato. ⭐ L'audio è stato staccato il 02/09/2026 su richiesta di Amerigo — *«tira giù l'audio che lo passo su soundcloud»* — dal video `_VT0AMm1iW0`, «Roberto Molinaro - Red Code (Provenzano Dj Remix)», 5:30. File in `D:\\Archivio\\discografia\u0007udio\\` come 2005 Roberto Molinaro - Red Code (Provenzano DJ Remix).mp3, 246 kbps, 48 kHz stereo, preso dalla traccia Opus migliore che YouTube serve. ⚠️ Il video è di un canale terzo — fededj90, caricato nel 2011 — e per questo non si embedda: è la regola dei ▫️, un riquadro in prestito che il giorno che quel canale lo toglie diventa un buco nero in pagina. ⭐ E il giro si è chiuso lo stesso pomeriggio: lui l'ha caricato sul suo profilo e ha mandato il link corto, il player è in pagina. È il primo disco che fa tutta la strada dall'inizio alla fine — audio da dove si trova → caricamento suo → link corto → player. ⭐ E il punto non è che adesso si sente: è chi lo tiene in piedi. Prima l'unico ascolto dipendeva da un canale altrui che può sparire quando vuole; adesso il file è suo. Stesso pezzo, stessa qualità, ma il riquadro non è più in prestito — ed è la ragione per cui la strada è questa e non l'embed comodo",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [
@@ -6887,7 +6887,11 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2393090385",
+    "secret": "s-mzMWjhEBIXc",
+    "perche": "⭐ E' il primo disco che fa TUTTO il giro previsto per i muti, dall'inizio alla fine e nello stesso pomeriggio del 02/09/2026: l'unico audio in rete era un video di un canale terzo (fededj90, 2011) che non si poteva embeddare, l'ho staccato con yt-dlp in D:\\Archivio\\discografia\u0007udio, Amerigo l'ha caricato sul suo profilo e ha mandato il link corto on.soundcloud.com/uEXo9WdyatoQKZh51L. ⭐ Il punto non e' che adesso si sente: e' CHI lo tiene in piedi. Prima l'ascolto dipendeva da un canale altrui che puo' sparire quando vuole, adesso il file e' suo. Stesso pezzo, stessa qualita', ma il player non e' piu' in prestito. ⚠️ Niente targhetta: sul disco la sua e' l'unica versione che ci interessa, la «Provenzano DJ Remix» stampata su Altromondo Compilation, e non ce ne sono altre da distinguere."
+   },
    "deezer": null,
    "traxsource": null,
    "apple": null,
@@ -9965,7 +9969,7 @@
   "con_copertina": 196,
   "con_video": 48,
   "con_spotify": 76,
-  "con_soundcloud": 29,
+  "con_soundcloud": 30,
   "con_deezer": 0,
   "con_traxsource": 1,
   "con_apple": 3,
