@@ -6987,12 +6987,18 @@
    "traxsource": null,
    "apple": null,
    "copertina": {
-    "tipo": "propria",
-    "file": "cop/sophie-c-est-l-amour.jpg"
+    "tipo": "compilation",
+    "file": "cop/sophie-c-est-l-amour.jpg",
+    "da": "Mania Italia Sei"
    },
    "inedito": false,
    "anno_incerto": false,
-   "foto": [],
+   "foto": [
+    {
+     "file": "cop/foto/sophie-c-est-l-amour-1.jpg",
+     "cosa": "il CD promo nella sua custodia: «Sophie - C'est l'amour», UNIVERSO, quattro versioni - «1. Radio Edit 3.22, 2. Mobile Edit 3.30, 3. Hungarian Dance Mix 3.32, 4. Club Mix 5.08» - autore Luigi Mogurno, (P) 2006 Universo S.p.a., (C) 2006 Market Srl"
+    }
+   ],
    "nota_pubblica": null
   },
   {
