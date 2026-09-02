@@ -211,7 +211,7 @@
     1
    ]
   ],
-  "quante_etichette": 78,
+  "quante_etichette": 79,
   "piu_compilation": [
    {
     "titolo": "I Believe",
@@ -7819,13 +7819,17 @@
    "slug": "fiorello-and-baldini-chi-siamo-noi",
    "artista": "Fiorello & Baldini",
    "titolo": "Chi Siamo Noi",
-   "versioni": [],
-   "data": "2008-03-10",
+   "versioni": [
+    "Vocal Radio 3:44",
+    "Vocal Mix 6:08",
+    "Dub Mix 6:04"
+   ],
+   "data": null,
    "anno": 2008,
-   "data_esatta": true,
+   "data_esatta": false,
    "firma": "Provenzano & Promise Land",
-   "etichetta": null,
-   "nota": null,
+   "etichetta": "TIME",
+   "nota": "⭐ Riga riempita il 02/09/2026, partendo dal player che ha mandato lui: prima diceva solo titolo e anno, senza etichetta, senza versioni e senza ascolto. È il CD Maxi-Single TIME-502-CDM, Italia 2008, sei tracce — e tre sono loro: «Provenzano & Promise Land Vocal Radio» 3:44 alla 3, «Vocal Mix» 6:08 alla 5 e «Dub Mix» 6:04 alla 6. ⭐ Le altre tre sono l'originale e due remix di Alex Gaudino & Jason Rooney: metà del disco è loro e l'altra metà di Gaudino. ⚠️ In pagina va la traccia e non l'album, proprio per questo — un player d'album farebbe sentire i remix di un altro. ⭐ E chiude l'anno: Spotify dà l'uscita al 2007, il CD è del 2008, e il 2008 in tabella era già giusto. ⚠️ La copertina è stata cambiata e rimessa nello stesso quarto d'ora, ed è un errore che vale la pena lasciare scritto: preso l'artwork da Spotify si era sostituita la busta del CD — le loro facce in verde — con il template digitale Time, quello col logo grande e il titolo sopra. Sembrava un aggiornamento (640px contro 600) ed era una perdita: il verde è la stampa che contiene davvero le tre versioni, il template è la veste della riedizione digitale. Una copertina più grande non è una copertina migliore, se è di un'altra uscita. L'artwork Time sta in `copertine\\_sostituite\\`",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [
@@ -7838,7 +7842,13 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "spotify": null,
+   "spotify": {
+    "tipo": "track",
+    "album": "2lItyzSmPN0FM5HDcPqddW",
+    "titolo": "Chi Siamo Noi",
+    "cosa": "Provenzano & Promise Land Vocal Mix",
+    "alto": false
+   },
    "video": null,
    "video_altri": [],
    "soundcloud": null,
@@ -7851,7 +7861,6 @@
    },
    "inedito": false,
    "anno_incerto": false,
-   "data_da_compilation": true,
    "foto": [],
    "nota_pubblica": null
   },
@@ -10196,7 +10205,7 @@
   "inediti": 31,
   "con_copertina": 206,
   "con_video": 52,
-  "con_spotify": 79,
+  "con_spotify": 80,
   "con_soundcloud": 36,
   "con_deezer": 0,
   "con_traxsource": 1,
