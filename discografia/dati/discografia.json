@@ -11,12 +11,12 @@
     7
    ],
    [
-    "Ego",
+    "Oxyd Records",
     7
    ],
    [
-    "Oxyd Records",
-    6
+    "Ego",
+    7
    ],
    [
     "Netswork Digital",
@@ -2897,7 +2897,7 @@
    ],
    "firma": null,
    "etichetta": "Oxyd Records",
-   "nota": null,
+   "nota": "✅ Le otto versioni scritte il 02/09/2026 — «inserisci le versioni spotify». La riga diceva i quattro nomi dei remixer, non le versioni, e il player ne fa sentire otto: Radio Edit 2:35, Original Mix 5:08, Donati & Amato Remix 5:19, Donati & Amato Radio Edit 3:08, Federico Scavo Remix 6:17, Federico Scavo Instrumental Dub 6:17, Luca Guerrieri Remix 6:26, Retrohandz Remix 5:12. ⭐ Le quattro che mancavano sono le due del disco e due edit: mancava perfino l'Original Mix. ⭐ L'album Spotify tiene insieme due uscite Beatport: il singolo del 04/02/2013, Original Mix e Radio Edit, e il REMIX PACK del 04/03/2013 con le altre sei — tutte Oxyd Records. ⚠️ Spotify data quell'album 01/01/2010, ed è rumore di metadati: il copyright sullo stesso album dice ℗ 2013 Oxyd Records, e Beatport dà 04/02/2013, che è la data in tabella. Non è un conflitto da chiudere",
    "escluso": false,
    "da_guardare": false,
    "sezione": "2010 → 2019",
@@ -2921,6 +2921,16 @@
     "album": "5X7Uqzo61VVTySpMWyiBgB",
     "titolo": "Touch the Sky"
    },
+   "versioni_a_mano": [
+    "Radio Edit 2:35",
+    "Original Mix 5:08",
+    "Donati & Amato Remix 5:19",
+    "Donati & Amato Radio Edit 3:08",
+    "Federico Scavo Remix 6:17",
+    "Federico Scavo Instrumental Dub 6:17",
+    "Luca Guerrieri Remix 6:26",
+    "Retrohandz Remix 5:12"
+   ],
    "video": {
     "youtube": "8uL56sZs0tM",
     "tipo": "ufficiale",
@@ -2958,7 +2968,7 @@
    ],
    "firma": null,
    "etichetta": "Netswork Records",
-   "nota": null,
+   "nota": "✅ Le sei versioni e il secondo player, 02/09/2026 — «inserisci le versioni spotify». La riga diceva «+ The Remixes», che è il nome di un'uscita e non delle versioni. ⭐ E la pagina aveva solo l'EP dei remix, scelto in automatico dalle fonti: faceva sentire tre remix senza il pezzo — lo stesso difetto che aveva visto lui su *Something About Love* poche ore prima. Adesso ci sono due player, il singolo per primo. ⭐ Sul singolo del 20/05/2013: Provenzano Club Mix 5:46, Alex Nocera & Holly Extended Mix 6:31, Alex Nocera & Holly Radio Edit 3:34. ⭐ Sull'EP del 09/10/2013: Provenzano Rework 5:46, Andrea Montorsi Remix 6:01, Donzelli & Sanders Remix 5:09. ⚠️ Una coppia sembra un doppione e non si è chiusa: «Provenzano Club Mix» sul singolo e «Provenzano Rework» sull'EP durano tutte e due 5:46, e su Beatport lo stesso pezzo gira anche come «Provenzano Re-Work» e «Provenzano Remix» dentro tre compilation Netswork. Che sia lo stesso montaggio è possibile ma non dimostrato: restano scritte come stanno sulle due release",
    "escluso": false,
    "da_guardare": false,
    "sezione": "2010 → 2019",
@@ -2977,11 +2987,30 @@
     }
    ],
    "versioni_uscita": [],
-   "spotify": {
-    "tipo": "album",
-    "album": "3KD1pDSg04ZWxkoHIY1vog",
-    "titolo": "Mash App (The Remixes)"
-   },
+   "spotify": [
+    {
+     "tipo": "album",
+     "album": "6oeyoNo5WUfHaCyfQh7yZQ",
+     "titolo": "Mash App",
+     "cosa": "il singolo, tre versioni",
+     "alto": false
+    },
+    {
+     "tipo": "album",
+     "album": "3KD1pDSg04ZWxkoHIY1vog",
+     "titolo": "Mash App",
+     "cosa": "l'EP dei remix, tre versioni",
+     "alto": false
+    }
+   ],
+   "versioni_a_mano": [
+    "Provenzano Club Mix 5:46",
+    "Alex Nocera & Holly Extended Mix 6:31",
+    "Alex Nocera & Holly Radio Edit 3:34",
+    "Provenzano Rework 5:46",
+    "Andrea Montorsi Remix 6:01",
+    "Donzelli & Sanders Remix 5:09"
+   ],
    "video": {
     "youtube": "bu48mapsTj8",
     "tipo": "ufficiale",
@@ -3104,15 +3133,15 @@
    "slug": "be-like-me",
    "titolo": "Be Like Me",
    "versioni": [],
-   "data": "2013-07-09",
+   "data": null,
    "anno": 2013,
-   "data_esatta": true,
+   "data_esatta": false,
    "con": [
     "Eako"
    ],
    "firma": null,
-   "etichetta": null,
-   "nota": "ritrovata nel database delle compilation, stampata su m2o vol.33; anno non confermato. Esiste un teaser sul suo canale YouTube, firmato «Dj Eako And Provenzano», messo in pagina il 29/08/2026",
+   "etichetta": "Oxyd Records",
+   "nota": "ritrovata nel database delle compilation, stampata su m2o vol.33; anno non confermato. Esiste un teaser sul suo canale YouTube, firmato «Dj Eako And Provenzano», messo in pagina il 29/08/2026. ✅ Copertina sua dal 02/09/2026, mandata da lui: prima la pagina prendeva in prestito quella di m2o vol.33. È un muro nero graffiato con «DJ EAKO AND PROVENZANO» scritto a spray e il titolo in rosso al centro. ⭐ Ed è la busta a dare l'etichetta, che la riga non aveva: in alto a sinistra c'è il marchio OXYD, ruotato di novanta gradi. Scritta «Oxyd Records» come sulle altre due righe dello stesso giro — *Drop Da Beat* del novembre 2013 e *Just The Way You Are* del febbraio 2014, tutti e tre a pochi mesi l'uno dall'altro. ⚠️ Il file è 715×670, non quadrato: il ritaglio del sito toglie 22 pixel per lato, e il marchio OXYD resta dentro",
    "escluso": false,
    "da_guardare": false,
    "sezione": "2010 → 2019",
@@ -3140,13 +3169,11 @@
    "traxsource": null,
    "apple": null,
    "copertina": {
-    "tipo": "compilation",
-    "file": "/compilation/cop/m2ovol33.jpg",
-    "da": "m2o vol.33"
+    "tipo": "propria",
+    "file": "cop/be-like-me.jpg"
    },
    "inedito": false,
-   "anno_incerto": false,
-   "data_da_compilation": true,
+   "anno_incerto": true,
    "foto": [],
    "nota_pubblica": null
   },
