@@ -6610,15 +6610,31 @@
    "data_esatta": false,
    "firma": "Provenzano",
    "etichetta": "Magika",
-   "nota": "⭐ Non è un remix: è un megamix, e il titolo era sbagliato. Aperto da Amerigo il 02/09/2026 — *«si parla di crazy frog che non è stato un remix a quanto pare ma un megamix, approfondiamo prima di considerarlo un remix»* — mandando la [Crazy Frog Wiki](https://annoyingthing.net/wiki/Provenzano_DJ_Megamix). Ha ragione, e le due fonti dicono la stessa cosa. ⚠️ Fino a quel giorno la riga si chiamava «Crazy Hits (Crazy Christmas Edition)», cioè col nome dell'album: sembrava che avesse remixato un disco intero. Il pezzo suo si chiama «Provenzano DJ Megamix» e lo slug diventa `crazy-frog-provenzano-dj-megamix`. ⭐ Cos'è davvero: la traccia 14 di «Crazy Hits — Crazy Christmas Edition», Magika S.r.l. MGK053/CD, Italia 2005, Box Set — e sulla tracklist sta sotto l'intestazione «Bonus Track», staccata dalle altre tredici. Dura 8:41, ed è *«the longest Crazy Frog track»*: dentro ci sono otto pezzi mixati, e alcuni suonano insieme — Pump Up the Jam, Dirty Frog, Popcorn, Don't You Want Me, Pinocchio, Wonderland, I Like To Move It, Axel F. ⭐ Esce solo in Italia — *«released exclusively on the Crazy Christmas Edition of Crazy Hits in Italy»* — quindi è un lavoro fatto per l'edizione italiana. ⚠️ Su Discogs il credito dice «Remix», ma è il campo generico che quel database usa per tutto quello che non è l'esecuzione originale: non è una smentita, è un'etichetta di comodo. ⭐ Magika è la stessa etichetta della Hard Dance Compilation: MGK053/CD contro MGK056/CD, tre numeri di catalogo di distanza. ⚠️ In pagina la targhetta dice «megamix», non «remix» — scritta a mano come per *Feel The Force*: non si apre un tipo nuovo per un disco solo, si corregge la parola — quindi nei conti resta fra i remix, e la targhetta fa storia a sé. Se va contato altrove, è una parola sua",
+   "nota": "⭐ Non è un remix: è un megamix, e il titolo era sbagliato. Aperto da Amerigo il 02/09/2026 — *«si parla di crazy frog che non è stato un remix a quanto pare ma un megamix, approfondiamo prima di considerarlo un remix»* — mandando la [Crazy Frog Wiki](https://annoyingthing.net/wiki/Provenzano_DJ_Megamix). Ha ragione, e le due fonti dicono la stessa cosa. ⚠️ Fino a quel giorno la riga si chiamava «Crazy Hits (Crazy Christmas Edition)», cioè col nome dell'album: sembrava che avesse remixato un disco intero. Il pezzo suo si chiama «Provenzano DJ Megamix» e lo slug diventa `crazy-frog-provenzano-dj-megamix`. ⭐ Cos'è davvero: la traccia 14 di «Crazy Hits — Crazy Christmas Edition», Magika S.r.l. MGK053/CD, Italia 2005, Box Set — e sulla tracklist sta sotto l'intestazione «Bonus Track», staccata dalle altre tredici. Dura 8:41, ed è *«the longest Crazy Frog track»*: dentro ci sono otto pezzi mixati, e alcuni suonano insieme — Pump Up the Jam, Dirty Frog, Popcorn, Don't You Want Me, Pinocchio, Wonderland, I Like To Move It, Axel F. ⭐ Esce solo in Italia — *«released exclusively on the Crazy Christmas Edition of Crazy Hits in Italy»* — quindi è un lavoro fatto per l'edizione italiana. ⚠️ Su Discogs il credito dice «Remix», ma è il campo generico che quel database usa per tutto quello che non è l'esecuzione originale: non è una smentita, è un'etichetta di comodo. ⭐ Magika è la stessa etichetta della Hard Dance Compilation: MGK053/CD contro MGK056/CD, tre numeri di catalogo di distanza. ⚠️ In pagina la targhetta dice «megamix», non «remix» — scritta a mano come per *Feel The Force*: non si apre un tipo nuovo per un disco solo, si corregge la parola — quindi nei conti resta fra i remix, e la targhetta fa storia a sé. ✅ E così ha deciso lui il 02/09/2026, chiuso in una riga: *«consideriamolo un remix anche se è un megamix»*. ⭐ Le due metà della frase stanno tutte e due in pagina: si conta fra i remix, si chiama megamix. È la stessa separazione dei colori sul muro — il conteggio va per tipo, la parola descrive il disco. ⭐ In pagina ci sono i due video, per sua richiesta — *«metti i link al video»*, 02/09/2026: `fDeO4_1ZrQ0` del canale Chuck the yellow bird e `QWg4jz--fiM` di Crazy Frog Archive, 8:43 e 8:45, cioè il megamix intero. Nessun canale d'etichetta lo ha mai caricato, e per questo è la seconda eccezione `video_di_terzi` dopo *Take Me Over*. ⚠️ Il primo si intitola «Official Audio» e non lo è: 1.150 iscritti, caricato nel 2022, è un canale di fan. La parola «official» messa nel titolo da chi carica non certifica niente — si guarda sempre il canale, ed è una trappola da ricordare mentre si cercano gli ascolti degli altri dischi muti. Il secondo almeno si dichiara «UNOfficial». ⭐ Copertina sostituita lo stesso giorno, mandata da lui: la busta vera della *Crazy Christmas Edition* a 1468×1462 al posto dei 600×585 di prima. La vecchia in `copertine\\_sostituite\\`. ⭐ Audio staccato il 02/09/2026 in `D:\\Archivio\\discografia\u0007udio\\` come 2005 Crazy Frog - Provenzano DJ Megamix.mp3, 257 kbps, 48 kHz stereo, in attesa del caricamento sul suo profilo — stesso giro di *Red Code*",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [],
    "artista_diverso": [],
    "versioni_uscita": [],
    "spotify": null,
-   "video": null,
-   "video_altri": [],
+   "video": {
+    "youtube": "fDeO4_1ZrQ0",
+    "tipo": "terzi",
+    "canale": "canale Chuck the yellow bird",
+    "titolo": "Provenzano DJ Megamix (Crazy Frog)",
+    "verticale": false,
+    "formato": null
+   },
+   "video_altri": [
+    {
+     "youtube": "QWg4jz--fiM",
+     "tipo": "terzi",
+     "canale": "canale Crazy Frog Archive",
+     "titolo": "Provenzano DJ Megamix (Crazy Frog)",
+     "verticale": false,
+     "formato": null
+    }
+   ],
    "soundcloud": null,
    "deezer": null,
    "traxsource": null,
@@ -9967,7 +9983,7 @@
   "remix": 83,
   "inediti": 31,
   "con_copertina": 196,
-  "con_video": 48,
+  "con_video": 49,
   "con_spotify": 76,
   "con_soundcloud": 30,
   "con_deezer": 0,
