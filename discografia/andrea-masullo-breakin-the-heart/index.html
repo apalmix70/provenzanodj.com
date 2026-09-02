@@ -103,25 +103,38 @@ footer .contenitore{display:flex;justify-content:space-between;gap:14px;flex-wra
    02/09/2026 fra cinque. Stanno sopra la copertina e portano scritto il titolo
    del disco che sta di la': con 208 pagine, sapere dove si va e' la differenza
    fra sfogliare e indovinare. L'ordine e' quello del muro. */
-.colonna-cop{display:flex;flex-direction:column;gap:12px}
+.colonna-cop{display:flex;flex-direction:column;gap:12px;min-width:0}
 .frecce{display:flex;justify-content:space-between;align-items:stretch;gap:12px;
-  padding-bottom:10px;border-bottom:1px solid var(--riga)}
+  padding-bottom:10px;border-bottom:1px solid var(--riga);overflow:hidden}
 /* ⚠️ Il posto resta occupato dove la freccia non c'e' (primo e ultimo disco):
    se sparisse, l'altra scivolerebbe dall'altra parte della riga. */
-.frecce .vuoto{flex:1}
-.frecce .salto{display:flex;align-items:center;gap:9px;color:var(--grigio);
+.frecce .vuoto{flex:1 1 0;min-width:0}
+/* ⚠️ **`flex:1 1 0` e `min-width:0` sono la riga che tiene in piedi tutto.**
+   Senza, un elemento flex non scende sotto la larghezza del suo contenuto - e'
+   il `min-width:auto` di default - e i puntini di sospensione qui sotto non si
+   attivano mai: il titolo esce dalla colonna della copertina e finisce sopra il
+   testo del disco. Visto da Amerigo il 02/09/2026 su *We Save Your Life*, che
+   ha per vicini «Last Night A Dj Saved My Life» e «Leave The World Behind»,
+   cioe' i due titoli piu' lunghi che si potessero incontrare. */
+.frecce .salto{flex:1 1 0;min-width:0;display:flex;align-items:center;gap:9px;color:var(--grigio);
   font-size:12.5px;line-height:1.25;transition:color .15s}
 .frecce .salto:hover,.frecce .salto:focus-visible{color:var(--bianco)}
-.frecce .fr{font-size:17px;color:var(--rosso);line-height:1}
-.frecce .nn{display:flex;flex-direction:column;gap:1px;min-width:0}
+.frecce .fr{font-size:17px;color:var(--rosso);line-height:1;flex:none}
+.frecce .nn{display:flex;flex-direction:column;gap:1px;min-width:0;overflow:hidden}
 .frecce .et{font-size:9px;letter-spacing:.15em;text-transform:uppercase;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
   color:var(--debole)}
-/* ⚠️ Un titolo lungo non manda a capo la riga ne' allarga la colonna: si
-   accorcia con i puntini. La colonna della copertina e' larga quanto la
-   copertina, e una riga che la sfonda spinge fuori il testo del disco. */
-.frecce .tt{font-weight:600;white-space:nowrap;overflow:hidden;
-  text-overflow:ellipsis}
-.frecce .dx{text-align:right}
+/* ⚠️ **Un titolo lungo VA A CAPO, non si taglia.** Prima erano i puntini di
+   sospensione, e su *We Save Your Life* hanno fatto un disastro: a sinistra
+   «Last Night A Dj Save...», a destra la «L» di «Leave The World Behind» tagliata
+   a meta' dal bordo, perche' `text-overflow` mette i puntini in fondo al testo
+   e con l'allineamento a destra il troncamento avviene dalla parte opposta.
+   Visto da Amerigo il 02/09/2026: *«il nome esce fuori si sovrappone»*.
+   ⭐ Andare a capo costa una riga di altezza e non toglie una lettera a
+   nessuno: e' meglio di qualsiasi trucco per far cadere i puntini dal lato
+   giusto, e i titoli qui sono corti abbastanza da stare in due righe. */
+.frecce .tt{font-weight:600;overflow-wrap:anywhere}
+.frecce .dx{text-align:right;justify-content:flex-end}
 .frecce .dx .nn{align-items:flex-end}
 .torna{display:inline-block;margin:26px 0 6px;font-size:11px;letter-spacing:.16em;
   text-transform:uppercase;color:var(--grigio)}
@@ -149,7 +162,7 @@ footer .contenitore{display:flex;justify-content:space-between;gap:14px;flex-wra
   
   <section class="blocco"><h3>Inserita in una compilation</h3><ul class="compilation"><li><a href="/compilation/m2ovol32/">m2o vol.32</a><span class="anno">2013</span></li></ul></section>
   <section class="blocco"><h3>Ascolta</h3><iframe class="spotify" loading="lazy" src="https://open.spotify.com/embed/track/6N7G77DLHByQ87st9sF0bZ" height="152" frameborder="0" allow="encrypted-media"></iframe></section>
-  
+  <section class="blocco"><h3>Il video</h3><div class="video"><iframe src="https://www.youtube-nocookie.com/embed/dA3NZiomjqU" title="Breakin&#x27; The Heart (Provenzano Remix)" loading="lazy" frameborder="0" allowfullscreen allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe></div><div class="didascalia">audio ufficiale · Andrea Masullo - Topic</div></section>
   
 
   <a class="torna" href="/discografia/">&larr; tutta la discografia</a>
