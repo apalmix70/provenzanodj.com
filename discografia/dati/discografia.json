@@ -9565,7 +9565,7 @@
    "data_esatta": true,
    "firma": "Provenzano",
    "etichetta": null,
-   "nota": "ritrovata nel database delle compilation, stampata su m2o vol.36; anno non confermato",
+   "nota": "ritrovata nel database delle compilation, stampata su m2o vol.36; anno non confermato. ✅ Riga aperta all'ascolto il 02/09/2026, link mandato da lui: traccia pubblica sul profilo di Claudio Caccini — «Funkatomic aka Claudio Caccini» — che del pezzo è l'artista, quindi è un caricamento d'autore e non di terzi, e non serve il token. ⭐ È un altro caso della regola vista tutto il giorno: quando il disco è un remix, l'ascolto sta sul canale di chi il pezzo l'ha fatto — come i quattro Be Angel, i due Fedde Le Grand, Peppe Roccaro e il Topic di Axwell. ⚠️ Niente targhetta di versione perché non serve: il caricamento si chiama «Caccini_White Tone ‹Provenzano Rmx›», cioè esattamente il disco che la pagina descrive",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [
@@ -9581,7 +9581,11 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://soundcloud.com/claudiocaccini/caccini_white-tone-provenzano-rmx",
+    "cosa": "dal profilo ufficiale di Claudio Caccini",
+    "perche": "Link mandato da Amerigo il 02/09/2026. Traccia PUBBLICA sul profilo di Claudio Caccini - «Funkatomic aka Claudio Caccini», soundcloud.com/claudiocaccini - che del pezzo è l'artista: è un caricamento d'autore e non di terzi, e non serve il secret. ⭐ E' un altro caso della regola vista tutto il giorno: quando il disco è un remix, l'ascolto sta sul canale di chi il pezzo l'ha fatto - come i quattro Be Angel, i due Fedde Le Grand, Peppe Roccaro e il Topic di Axwell. ⚠️ Niente targhetta di versione perché non serve: il titolo del caricamento è «Caccini_White Tone (Provenzano Rmx)», cioè esattamente il disco che la pagina descrive. Prima la riga era muta e la copertina la prendeva in prestito da m2o vol.36."
+   },
    "deezer": null,
    "traxsource": null,
    "apple": null,
@@ -10315,7 +10319,7 @@
   "con_copertina": 207,
   "con_video": 53,
   "con_spotify": 82,
-  "con_soundcloud": 40,
+  "con_soundcloud": 41,
   "con_deezer": 0,
   "con_traxsource": 1,
   "con_apple": 3,
