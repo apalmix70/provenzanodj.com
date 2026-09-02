@@ -1652,7 +1652,9 @@
    "tipo": "produzione",
    "slug": "chains-of-love",
    "titolo": "Chains Of Love",
-   "versioni": [],
+   "versioni": [
+    "+ Suonino Mix 6:24, Phunk Investigation Remix 7:05, The House Keepers Remix 6:21, Maurizio Gubellini Remix 7:13"
+   ],
    "data": null,
    "anno": 2008,
    "data_esatta": false,
@@ -1661,7 +1663,7 @@
    ],
    "firma": null,
    "etichetta": "Netswork",
-   "nota": null,
+   "nota": "⭐ Riga riempita il 02/09/2026 dalle due facce del 12\", fotografate da Amerigo: prima diceva solo titolo, anno ed etichetta. È Net's Work & Songs S.r.l., catalogo NWI 295 Mix 2008, distribuito da Global Net, ℗ & © 2008 — e porta quattro versioni, tutte con l'ISRC stampato sull'etichetta. ⭐ Scritto e composto da A. Provenzano, N. Pelusi, F. Ranucci, A. Ciotola e Charles E. Salter; prodotto, arrangiato e masterizzato dai primi tre al Promise Land Studio di Roma; lead vocal di Max'C. ⭐ E i remixer hanno un nome e cognome: Phunk Investigation sono Dj Dino & Stef, The House Keepers sono Umile Nicoletti, Antonio Ciotola, Giuseppe Maresca e Vincenzo Martino — che hanno arrangiato e mixato ai Musicology Studios di Napoli. ⚠️ Antonio Ciotola compare due volte: fra gli autori del brano e fra gli House Keepers che lo remixano. ⭐ E Maurizio Gubellini è il terzo disco della giornata in cui compare, dopo il 12\" di *I'm Waiting* e *Right Or Wrong* — qui col cognome scritto giusto, al contrario del retro di Hit Mania Club Dance Volume 6 che lo storpiava in «Giubellini». ⭐ Gli House Keepers tornano anche su *Devotion*, sempre nel 2008. ⚠️ Sull'etichetta c'è www.provenzanodj.com: terzo disco che porta stampato il suo sito, dopo *Feel Alright* e *Sex Weed*",
    "escluso": false,
    "da_guardare": false,
    "sezione": "1992 → 2009",
@@ -1687,7 +1689,12 @@
    },
    "inedito": false,
    "anno_incerto": false,
-   "foto": [],
+   "foto": [
+    {
+     "file": "cop/foto/chains-of-love-1.jpg",
+     "cosa": "il lato B del 12\": le quattro versioni con durate e ISRC, i crediti e lo studio"
+    }
+   ],
    "nota_pubblica": null
   },
   {
