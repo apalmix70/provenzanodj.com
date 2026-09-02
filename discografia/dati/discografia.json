@@ -8308,7 +8308,10 @@
    "slug": "dabruck-and-klein-feat-michael-feiner-the-feeling",
    "artista": "Dabruck & Klein feat. Michael Feiner",
    "titolo": "The Feeling",
-   "versioni": [],
+   "versioni": [
+    "Promiseland & Provenzano Remix",
+    "Radio Edit"
+   ],
    "data": "2010-03-26",
    "anno": 2010,
    "data_esatta": true,
@@ -8327,7 +8330,13 @@
    ],
    "artista_diverso": [],
    "versioni_uscita": [],
-   "spotify": null,
+   "spotify": {
+    "tipo": "track",
+    "album": "2fuH7ApjNbfWdkok3jlkKk",
+    "titolo": "The Feeling",
+    "cosa": "il loro remix, la versione da 7:47",
+    "alto": false
+   },
    "video": null,
    "video_altri": [],
    "soundcloud": null,
@@ -10121,7 +10130,7 @@
   "inediti": 31,
   "con_copertina": 200,
   "con_video": 51,
-  "con_spotify": 78,
+  "con_spotify": 79,
   "con_soundcloud": 33,
   "con_deezer": 0,
   "con_traxsource": 1,
