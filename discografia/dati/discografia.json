@@ -1679,7 +1679,11 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2393172330",
+    "secret": "s-94G42aiGOGw",
+    "perche": "l'audio caricato da Amerigo sul suo profilo, traccia privata: «Provenzano feat. Max C - Chains of love», **3:21**. Link corto mandato da lui il 02/09/2026, on.soundcloud.com/huZKvoUwBTdobKdDv7. Prima la pagina era muta: in rete c'era solo `9S_8mdxeTK4`, un caricamento di terzi che per regola non si embedda. ⚠️ **Niente targhetta di versione, e stavolta e' un no argomentato**: **nessuna delle versioni conosciute dura 3:21**. Sul 12\" NWI 295 le quattro vanno da 6:21 a 7:13 - «Suonino Mix» 6:24, «Phunk Investigation Remix» 7:05, «The House Keepers Remix» 6:21, «Maurizio Gubellini Remix» 7:13 - e la stampa su m2o vol.18, che e' gia' un edit, fa **3:45**. Il caricamento e' **24 secondi piu' corto anche di quello**. E' un taglio radio che non risulta da nessuna parte: se ha un nome lo sa solo lui."
+   },
    "deezer": null,
    "traxsource": null,
    "apple": null,
@@ -1978,7 +1982,7 @@
    ],
    "firma": null,
    "etichetta": null,
-   "nota": null,
+   "nota": "⭐ Riga aperta il 02/09/2026 col player caricato da lui: prima era muta e senza niente scritto. ⭐ E aprendo la stampa su m2o vol.19 si è visto che è il gemello di *Chains Of Love*: gli autori sono gli stessi cinque — Amerigo Provenzano, Nazario Pelusi, Fabio Ranucci, Antonio Ciotola e Charles Salter — la voce è la stessa, Max'C, e i due dischi sono a pochi mesi l'uno dall'altro. Non sono due pezzi vicini per caso: è la stessa squadra due volte. ⚠️ Su m2o vol.19, 24/10/2008, è la traccia 7 e si chiama «Where Did You Go (Ya Mix)», 5:02 — mentre il caricamento dura 4:14, 48 secondi meno. Quindi niente targhetta: è un taglio che non risulta stampato, esattamente come su *Chains Of Love*",
    "escluso": false,
    "da_guardare": false,
    "sezione": "1992 → 2009",
@@ -1994,7 +1998,11 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2393174076",
+    "secret": "s-b2E9f07yCoA",
+    "perche": "l'audio caricato da Amerigo sul suo profilo, traccia privata: «Provenzano feat. Max - Where did you go», **4:14**. Link corto mandato da lui il 02/09/2026, on.soundcloud.com/dsGSnZSj8gwikTkdAZ. Prima la pagina era muta: in rete c'era solo `D98iMcdAKU0`, un caricamento di terzi che per regola non si embedda. ⚠️ Niente targhetta: l'unica versione con un nome che conosciamo e' la «Ya Mix» stampata su m2o vol.19, che dura **5:02** - **48 secondi piu' della sua**. E' lo stesso caso di *Chains Of Love* mezz'ora prima, dove il caricamento e' piu' corto anche dell'edit da compilation: **su questi due dischi lui ha caricato dei tagli che non risultano stampati da nessuna parte.**"
+   },
    "deezer": null,
    "traxsource": null,
    "apple": null,
@@ -10218,7 +10226,7 @@
   "con_copertina": 206,
   "con_video": 52,
   "con_spotify": 80,
-  "con_soundcloud": 36,
+  "con_soundcloud": 38,
   "con_deezer": 0,
   "con_traxsource": 1,
   "con_apple": 3,
