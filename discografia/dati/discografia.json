@@ -12,7 +12,7 @@
    ],
    [
     "Net's Work International",
-    6
+    7
    ],
    [
     "Oxyd Records",
@@ -7784,7 +7784,7 @@
    "data_esatta": false,
    "firma": "Provenzano & Promise Land",
    "etichetta": "Respiri Digitali",
-   "nota": "⭐ Staccata da Sunshine il 01/09/2026, su domanda di Amerigo — «Be Angel Child, Provenzano & Promise Land Remix, è inserito questo?». C'era, ma appiccicata a un'altra uscita, e senza una pagina sua sul sito. Sta su No More Angels On Planet Earth Episode 02 — Essential Remixes, Respiri Digitali RD 015, 2009, CD1 traccia 3, Discogs 3121195. ⚠️ L'anno è il 2008, non il 2009, corretto lo stesso giorno: la prima stampa non è quel doppio ma Hit Mania Club Dance Volume 9, Magika, 2008, traccia 16 — il doppio Respiri Digitali è dell'anno dopo e raccoglie remix già usciti. ⚠️ Sullo stesso doppio c'è anche un Child firmato Mark Angel alla 2-09: la loro è quella del CD1 ⭐ Ascolto trovato il 02/09/2026 leggendo per intero il canale Be Angel (85 video): `FxYpekjO8DQ`, «BE ANGEL CHILD RMX PROVENZANO DJ+PROMISE LAND», caricato il 22/06/2008. ⭐ E la descrizione conferma da sola questa riga: «OFFICIAL RMX BE ANGEL CHILD PROVENZANO DJ + PROMISE LAND INCLUDED ON HITMANIA CLUB DANCE VOL.09» — cioè la prima stampa scritta qui sopra, detta dall'artista. Marcato 🎧 e non ⭐: non è un videoclip ma una sequenza di fermi immagine, verificata staccando due fotogrammi — a 15 secondi il logo Be Angel, a 90 la copertina Respiri Digitali.",
+   "nota": "⭐ Staccata da Sunshine il 01/09/2026, su domanda di Amerigo — «Be Angel Child, Provenzano & Promise Land Remix, è inserito questo?». C'era, ma appiccicata a un'altra uscita, e senza una pagina sua sul sito. Sta su No More Angels On Planet Earth Episode 02 — Essential Remixes, Respiri Digitali RD 015, 2009, CD1 traccia 3, Discogs 3121195. ⚠️ L'anno è il 2008, non il 2009, corretto lo stesso giorno: la prima stampa non è quel doppio ma Hit Mania Club Dance Volume 9, Magika, 2008, traccia 16 — il doppio Respiri Digitali è dell'anno dopo e raccoglie remix già usciti. ⚠️ Sullo stesso doppio c'è anche un Child firmato Mark Angel alla 2-09: la loro è quella del CD1 ⭐ Ascolto trovato il 02/09/2026 leggendo per intero il canale Be Angel (85 video): `FxYpekjO8DQ`, «BE ANGEL CHILD RMX PROVENZANO DJ+PROMISE LAND», caricato il 22/06/2008. ⭐ E la descrizione conferma da sola questa riga: «OFFICIAL RMX BE ANGEL CHILD PROVENZANO DJ + PROMISE LAND INCLUDED ON HITMANIA CLUB DANCE VOL.09» — cioè la prima stampa scritta qui sopra, detta dall'artista. Marcato 🎧 e non ⭐: non è un videoclip ma una sequenza di fermi immagine, verificata staccando due fotogrammi — a 15 secondi il logo Be Angel, a 90 la copertina Respiri Digitali. ⭐ Copertina cambiata la sera dello stesso giorno, per sua richiesta — «Hit Mania Club Dance Volume 9 usala come copertina per be child remix» — e il cambio mette la riga d'accordo con sé stessa: prima c'era l'artwork del doppio RD 015, che è del 2009 e che questa stessa nota indica come *non* la prima stampa, per giunta a 167px. Adesso c'è la busta di Hit Mania Club Dance Volume 9, Magika, maggio 2008, traccia 16 — cioè la prima stampa, quella che aveva spostato l'anno dal 2009 al 2008, e a 599px. ⭐ Ed è la stessa che la descrizione del video sul canale di Be Angel nominava da sola: «INCLUDED ON HITMANIA CLUB DANCE VOL.09». La vecchia sta in `copertine\\_sostituite\\`.",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [],
@@ -7805,8 +7805,9 @@
    "traxsource": null,
    "apple": null,
    "copertina": {
-    "tipo": "propria",
-    "file": "cop/be-angel-child.jpg"
+    "tipo": "compilation",
+    "file": "cop/be-angel-child.jpg",
+    "da": "Hit Mania Club Dance Volume 9"
    },
    "inedito": false,
    "anno_incerto": false,
@@ -7859,13 +7860,18 @@
    "slug": "juice-string-sex-weed",
    "artista": "Juice String",
    "titolo": "Sex Weed",
-   "versioni": [],
+   "versioni": [
+    "Laidback Luke Remix",
+    "Provenzano & Promise Land Remix 7:57",
+    "Sidekick Massive Club Remix",
+    "Roger's Release Mix"
+   ],
    "data": null,
    "anno": 2008,
    "data_esatta": false,
    "firma": "Provenzano & Promise Land",
-   "etichetta": null,
-   "nota": null,
+   "etichetta": "Net's Work International",
+   "nota": "⭐ Riga riempita il 02/09/2026 dalla busta del 12\", fotografata da Amerigo: prima diceva solo «Juice String — Sex Weed», 2008, senza etichetta e senza versioni. È Net's Work International NWI 235, 12\" italiano del 2008, «℗ & © 2008 Net's Work & Songs S.r.l. under exclusive license from Stealth Records», distribuito da Global Net. La loro è la A2. ⭐ E la compagnia sul disco dice qualcosa: sullo stesso vinile ci sono Laidback Luke alla A1 e Roger Sanchez alla B2 — la Stealth è l'etichetta di Sanchez, ed è da lì che il pezzo arriva in licenza. ⛔ La copertina che stava in pagina era la prova sbagliata: era l'etichetta di un altro 12\", Stealth49 del 2007, la cui tracklist è Club Mix / Roger's Release Mix / Laidback Luke Remix / Jnr J's White Widow Mix — il loro remix lì dentro non c'è. Stessa trappola di *Sophie — C'est L'Amour*: una foto che non fa leggere il suo nome non è neutra, toglie credibilità alla riga. La vecchia sta in `copertine\\_sostituite\\`. ⭐ Sulla busta anche «Remixed & Mixed @ Promise Land Studio, Roma (Italy) www.provenzanodj.com» — il suo sito stampato sul disco, come su *Feel Alright*. ⚠️ Scritto da Jeremy Sylvester, Mark James e Charlotte Hudson, prodotto e remixato da Sylvester: «Juice String» è il nome che si è dato per questo disco, non un gruppo a sé — sulla busta e su Suburbia Unmixed 4 il credito per esteso è «Jeremy Sylvester pres. Juice String». ⚠️ In colonna resta «Juice String» lo stesso, e non è una svista: Discogs intesta il 12\" così, e allungare il nome allunga lo slug, cioè cambia l'indirizzo della pagina — provato e rimesso a posto il 02/09/2026, quando il controllo delle leve morte ha subito segnalato che `foto_disco` e `compilation_di_terzi` puntavano allo slug vecchio. Il credito per esteso sta qui, dove non rompe niente",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [],
@@ -7884,7 +7890,12 @@
    },
    "inedito": false,
    "anno_incerto": false,
-   "foto": [],
+   "foto": [
+    {
+     "file": "cop/foto/juice-string-sex-weed-1.jpg",
+     "cosa": "il lato B del 12\": le quattro versioni con le durate, e la A2 e' «Provenzano & Promise Land Remix» 7'57\""
+    }
+   ],
    "nota_pubblica": null
   },
   {
