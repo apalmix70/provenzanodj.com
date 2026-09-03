@@ -74,6 +74,18 @@ footer .contenitore{display:flex;justify-content:space-between;gap:14px;flex-wra
 .blocco li .eti{color:var(--grigio);font-size:12px}
 .compilation li a{border-bottom:1px solid transparent}
 .compilation li a:hover{color:var(--rosso)}
+/* ⭐ **Le presenze su compilation di altri: una riga di conto qui, i titoli in
+   fondo alla pagina** — scelta di Amerigo il 03/09/2026 fra cinque prove
+   renderizzate sulla pagina vera di *Amazing*. Sono testo che scorre, non un
+   elenco incolonnato: una frase si salta con l'occhio, una lista chiede di
+   essere scandita. E stanno in grigio debole perche' non sono navigazione. */
+.riga-conto{margin-top:11px;color:var(--debole);font-size:12.5px;line-height:1.6}
+.riga-conto b{color:var(--grigio);font-weight:600}
+.giu{color:var(--grigio);border-bottom:1px solid var(--riga);margin-left:6px}
+.giu:hover{color:var(--rosso)}
+.coda-note{margin-top:2px;color:var(--debole);font-size:12.5px;line-height:1.65;max-width:70ch}
+.coda-note b{color:var(--grigio);font-weight:600}
+.coda-note i{font-style:italic}
 /* Il video sta come nelle pagine delle compilation: 16:9 a tutta colonna, non
    un riquadro piccolo in un angolo. Il padding-top e' il vecchio trucco del
    16:9 che regge ovunque, ed e' quello che usa gia' l'altra sezione. */
@@ -161,6 +173,7 @@ footer .contenitore{display:flex;justify-content:space-between;gap:14px;flex-wra
   <section class="blocco"><h3>Le versioni</h3><ul class="versioni"><li><span class="tit">Provenzano Remix</span></li><li><span class="tit">Provenzano Remix Radio</span></li></ul></section>
   <section class="blocco"><h3>Inserita in una compilation</h3><ul class="compilation"><li><a href="/compilation/m2ovol30/">m2o vol.30</a><span class="anno">2012</span></li></ul></section>
   <section class="blocco"><h3>Ascolta</h3><div class="didascalia">il Provenzano Remix Radio, dal suo profilo</div><iframe class="soundcloud" loading="lazy" height="166" frameborder="0" scrolling="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F2393336919&secret_token=s-CZEvDdkWcsd&color=%23FF3131&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false"></iframe></section>
+  
   
   
 
