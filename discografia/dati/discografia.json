@@ -296,24 +296,28 @@
      "slug": "hit-mania-dance-2",
      "titolo": "Hit Mania Dance 2",
      "anno": 1994,
+     "data": "1994",
      "come": "I Believe (Rmx)"
     },
     {
      "slug": "hit-parade-dance-7",
      "titolo": "Hit Parade Dance 7",
      "anno": 1994,
+     "data": "1994",
      "come": "I Believe (Rmx)"
     },
     {
      "slug": "radio-cipolla-party-compilation",
      "titolo": "Radio Cipolla Party Compilation",
      "anno": 1994,
+     "data": "1994",
      "come": "I Believe"
     },
     {
      "slug": "studio-dance-5",
      "titolo": "Studio Dance 5",
      "anno": 1995,
+     "data": "1995",
      "come": "I Believe"
     }
    ],
@@ -374,6 +378,7 @@
      "slug": "hit-mania-dance-3",
      "titolo": "Hit Mania Dance 3",
      "anno": 1995,
+     "data": "1995-02",
      "come": "I.B."
     }
    ],
@@ -422,18 +427,21 @@
      "slug": "hit-mania-dance-estate",
      "titolo": "Hit Mania Dance Estate",
      "anno": 1995,
+     "data": "1995",
      "come": "Take Me Over"
     },
     {
      "slug": "rds-dance-compilation",
      "titolo": "RDS Dance Compilation",
      "anno": 1995,
+     "data": "1995",
      "come": "Take Me Over"
     },
     {
      "slug": "studio-dance-9",
      "titolo": "Studio Dance 9",
      "anno": 1995,
+     "data": "1995",
      "come": "Take Me Over"
     }
    ],
@@ -478,6 +486,7 @@
      "slug": "rds-dance-estate-volumequattro",
      "titolo": "RDS Dance Estate Vol. 4",
      "anno": 1996,
+     "data": "1996",
      "come": "Take Me To The River"
     }
    ],
@@ -525,12 +534,14 @@
      "slug": "rds-dance-compilation-vol-3",
      "titolo": "RDS Dance Compilation Vol. 3",
      "anno": 1996,
+     "data": "1996",
      "come": "We Belong"
     },
     {
      "slug": "top-tendance",
      "titolo": "Top Tendance",
      "anno": 1996,
+     "data": "1996",
      "come": "We Belong"
     }
    ],
@@ -712,18 +723,21 @@
      "slug": "m2ovol5",
      "titolo": "m2o vol.5",
      "anno": 2004,
+     "data": "2004-02-13",
      "come": "Funny Day"
     },
     {
      "slug": "m2ovol6",
      "titolo": "m2o vol.6",
      "anno": 2004,
+     "data": "2004-05-28",
      "come": "Funny Day (Roberto Molinaro Concept)"
     },
     {
      "slug": "m2ovol30",
      "titolo": "m2o vol.30",
      "anno": 2012,
+     "data": "2012-06-26",
      "come": "Funny Day (Roberto Molinaro Concept)"
     }
    ],
@@ -888,18 +902,21 @@
      "slug": "jump-2-the-dancefloor-vol-1",
      "titolo": "[Jump]² The Dancefloor Vol. 1",
      "anno": 2005,
+     "data": "2005-12-18",
      "come": "Eurofolk (Original)"
     },
     {
      "slug": "m2ovol10",
      "titolo": "m2o vol.10",
      "anno": 2005,
+     "data": "2005-10-14",
      "come": "Eurofolk (Original Extended)"
     },
     {
      "slug": "m2o-m2all-shock",
      "titolo": "m2o — m2ALL Shock",
      "anno": 2005,
+     "data": "2005-12-02",
      "come": "Eurofolk (Szone vs. Dark Angel Rmx)"
     }
    ],
@@ -957,18 +974,21 @@
      "slug": "altromondo-compilation-estate-2005",
      "titolo": "Altromondo Compilation",
      "anno": 2005,
+     "data": "2005-07-22",
      "come": "Sound Is Back (Roberto Molinaro Remix)"
     },
     {
      "slug": "m2ovol8",
      "titolo": "m2o vol.8",
      "anno": 2005,
+     "data": "2005-02-14",
      "come": "Sound Is Back"
     },
     {
      "slug": "m2o-the-dance-night",
      "titolo": "m2o — The Dance Night",
      "anno": 2005,
+     "data": "2005-05-00",
      "come": "Sound Is Back"
     }
    ],
@@ -1020,12 +1040,14 @@
      "slug": "altromondo-compilation-estate-2005",
      "titolo": "Altromondo Compilation",
      "anno": 2005,
+     "data": "2005-07-22",
      "come": "Let Me Be (Hypertraxx Remix)"
     },
     {
      "slug": "m2ovol9",
      "titolo": "m2o vol.9",
      "anno": 2005,
+     "data": "2005-06-10",
      "come": "Let Me Be"
     }
    ],
@@ -1084,12 +1106,14 @@
      "slug": "m2ovol8",
      "titolo": "m2o vol.8",
      "anno": 2005,
+     "data": "2005-02-14",
      "come": "Running Up"
     },
     {
      "slug": "m2o-the-dance-night",
      "titolo": "m2o — The Dance Night",
      "anno": 2005,
+     "data": "2005-05-00",
      "come": "Running Up"
     }
    ],
@@ -1144,6 +1168,7 @@
      "slug": "m2o-m2all-shock",
      "titolo": "m2o — m2ALL Shock",
      "anno": 2005,
+     "data": "2005-12-02",
      "come": "It's Gonna Be (Cassa No Concept)"
     }
    ],
@@ -1194,12 +1219,14 @@
      "slug": "jump-2-the-dancefloor-vol-2",
      "titolo": "[Jump]² The Dancefloor Vol. 2",
      "anno": 2006,
+     "data": "2006",
      "come": "Vibe (Promise Land Remix)"
     },
     {
      "slug": "m2ovol11",
      "titolo": "m2o vol.11",
      "anno": 2006,
+     "data": "2006-02-10",
      "come": "Vibe (Promise Land Remix)"
     }
    ],
@@ -1251,12 +1278,14 @@
      "slug": "jump-2-the-dancefloor-vol-3",
      "titolo": "[Jump]² The Dancefloor Vol. 3",
      "anno": 2006,
+     "data": "2006-06-27",
      "come": "The Story Goes On (Original Extended)"
     },
     {
      "slug": "m2ovol12",
      "titolo": "m2o vol.12",
      "anno": 2006,
+     "data": "2006-06-12",
      "come": "The Story Goes On (Original Extended)"
     }
    ],
@@ -1309,12 +1338,14 @@
      "slug": "jump-2-the-dancefloor-vol-4",
      "titolo": "[Jump]² The Dancefloor Vol. 4",
      "anno": 2007,
+     "data": "2007-03-00",
      "come": "Right Or Wrong (Original Version)"
     },
     {
      "slug": "m2ovol14",
      "titolo": "m2o vol.14",
      "anno": 2007,
+     "data": "2007-03-09",
      "come": "Right Or Wrong"
     }
    ],
@@ -1361,18 +1392,21 @@
      "slug": "m2ovol16",
      "titolo": "m2o vol.16",
      "anno": 2007,
+     "data": "2007-10-15",
      "come": "Devotion"
     },
     {
      "slug": "m2o-m2all-shock-4",
      "titolo": "m2o — m2ALL Shock 4",
      "anno": 2007,
+     "data": "2007-12-07",
      "come": "Devotion (The House Keepers Remix)"
     },
     {
      "slug": "m2ovol30",
      "titolo": "m2o vol.30",
      "anno": 2012,
+     "data": "2012-06-26",
      "come": "Devotion"
     }
    ],
@@ -1422,6 +1456,7 @@
      "slug": "m2ovol15",
      "titolo": "m2o vol.15",
      "anno": 2007,
+     "data": "2007-06-22",
      "come": "I'm Waiting (Viaggio Mix)"
     }
    ],
@@ -1471,6 +1506,7 @@
      "slug": "m2ovol15",
      "titolo": "m2o vol.15",
      "anno": 2007,
+     "data": "2007-06-22",
      "come": "Ride The Way (90 Fever Mix)"
     }
    ],
@@ -1518,12 +1554,14 @@
      "slug": "jump-2-the-dancefloor-vol-4",
      "titolo": "[Jump]² The Dancefloor Vol. 4",
      "anno": 2007,
+     "data": "2007-03-00",
      "come": "Stupid!"
     },
     {
      "slug": "m2ovol14",
      "titolo": "m2o vol.14",
      "anno": 2007,
+     "data": "2007-03-09",
      "come": "Stupid!"
     }
    ],
@@ -1566,6 +1604,7 @@
      "slug": "m2ovol15",
      "titolo": "m2o vol.15",
      "anno": 2007,
+     "data": "2007-06-22",
      "come": "Disfacio Total"
     }
    ],
@@ -1610,6 +1649,7 @@
      "slug": "m2ovol16",
      "titolo": "m2o vol.16",
      "anno": 2007,
+     "data": "2007-10-15",
      "come": "Miracle"
     }
    ],
@@ -1652,6 +1692,7 @@
      "slug": "m2ovol17",
      "titolo": "m2o vol.17",
      "anno": 2008,
+     "data": "2008-03-10",
      "come": "Electronique"
     }
    ],
@@ -1698,6 +1739,7 @@
      "slug": "m2ovol18",
      "titolo": "m2o vol.18",
      "anno": 2008,
+     "data": "2008-06-06",
      "come": "Chains Of Love (Suonino Mix)"
     }
    ],
@@ -1751,6 +1793,7 @@
      "slug": "m2ovol19",
      "titolo": "m2o vol.19",
      "anno": 2008,
+     "data": "2008-10-24",
      "come": "Midory Shower (First Release Mix)"
     }
    ],
@@ -1807,12 +1850,14 @@
      "slug": "jump-2-the-dancefloor-vol-4",
      "titolo": "[Jump]² The Dancefloor Vol. 4",
      "anno": 2007,
+     "data": "2007-03-00",
      "come": "Catch Me (Original Mix)"
     },
     {
      "slug": "m2ovol14",
      "titolo": "m2o vol.14",
      "anno": 2007,
+     "data": "2007-03-09",
      "come": "Catch Me"
     }
    ],
@@ -1863,12 +1908,14 @@
      "slug": "m2ovol20",
      "titolo": "m2o vol.20",
      "anno": 2009,
+     "data": "2009-03-20",
      "come": "Life Goes On (Ranucci & Pelusi Pumpin' Mix)"
     },
     {
      "slug": "m2ovol21",
      "titolo": "m2o vol.21",
      "anno": 2009,
+     "data": "2009-07-03",
      "come": "Life Goes On (Ian Carey Remix)"
     }
    ],
@@ -1925,6 +1972,7 @@
      "slug": "m2ovol22",
      "titolo": "m2o vol.22",
      "anno": 2009,
+     "data": "2009-10-30",
      "come": "Side By Side (Ranucci & Pelusi Mix)"
     }
    ],
@@ -1987,6 +2035,7 @@
      "slug": "m2ovol20",
      "titolo": "m2o vol.20",
      "anno": 2009,
+     "data": "2009-03-20",
      "come": "A.R.I.A. (To The Floor Remix)"
     }
    ],
@@ -2033,6 +2082,7 @@
      "slug": "m2ovol19",
      "titolo": "m2o vol.19",
      "anno": 2008,
+     "data": "2008-10-24",
      "come": "Where Did You Go (Ya Mix)"
     }
    ],
@@ -2083,6 +2133,7 @@
      "slug": "m2ovol23",
      "titolo": "m2o vol.23",
      "anno": 2010,
+     "data": "2010-03-26",
      "come": "You Can't Stop The Love (Klub Mix)"
     }
    ],
@@ -2129,6 +2180,7 @@
      "slug": "m2ovol25",
      "titolo": "m2o vol.25",
      "anno": 2010,
+     "data": "2010-11-23",
      "come": "Amazing (Promise Land Remix)"
     }
    ],
@@ -2175,6 +2227,7 @@
      "slug": "m2ovol24",
      "titolo": "m2o vol.24",
      "anno": 2010,
+     "data": "2010-07-14",
      "come": "Beach Ball"
     }
    ],
@@ -2219,6 +2272,7 @@
      "slug": "m2ovol27",
      "titolo": "m2o vol.27",
      "anno": 2011,
+     "data": "2011-06-28",
      "come": "Mariguana Cha-Cha-Cha (Felipe C Remix)"
     }
    ],
@@ -2270,6 +2324,7 @@
      "slug": "m2ovol27",
      "titolo": "m2o vol.27",
      "anno": 2011,
+     "data": "2011-06-28",
      "come": "You're On My Own"
     }
    ],
@@ -2312,6 +2367,7 @@
      "slug": "m2ovol28",
      "titolo": "m2o vol.28",
      "anno": 2011,
+     "data": "2011-11-29",
      "come": "From Paris 2 Rome"
     }
    ],
@@ -2354,6 +2410,7 @@
      "slug": "m2ovol28",
      "titolo": "m2o vol.28",
      "anno": 2011,
+     "data": "2011-11-29",
      "come": "Come Into This Side"
     }
    ],
@@ -2396,6 +2453,7 @@
      "slug": "m2ovol27",
      "titolo": "m2o vol.27",
      "anno": 2011,
+     "data": "2011-06-28",
      "come": "Imagination"
     }
    ],
@@ -2447,12 +2505,14 @@
      "slug": "m2ovol30",
      "titolo": "m2o vol.30",
      "anno": 2012,
+     "data": "2012-06-26",
      "come": "Turn You On"
     },
     {
      "slug": "m2ovol31",
      "titolo": "m2o vol.31",
      "anno": 2012,
+     "data": "2012-10-23",
      "come": "Turn You On (Pizza Brothers Remix)"
     }
    ],
@@ -2527,6 +2587,7 @@
      "slug": "m2ovol30",
      "titolo": "m2o vol.30",
      "anno": 2012,
+     "data": "2012-06-26",
      "come": "Cattivik (Provenzano DJ & Mastro J Edit)"
     }
    ],
@@ -2573,6 +2634,7 @@
      "slug": "m2ovol30",
      "titolo": "m2o vol.30",
      "anno": 2012,
+     "data": "2012-06-26",
      "come": "You're"
     }
    ],
@@ -2626,6 +2688,7 @@
      "slug": "m2ovol31",
      "titolo": "m2o vol.31",
      "anno": 2012,
+     "data": "2012-10-23",
      "come": "Tiger"
     }
    ],
@@ -2677,6 +2740,7 @@
      "slug": "m2ovol31",
      "titolo": "m2o vol.31",
      "anno": 2012,
+     "data": "2012-10-23",
      "come": "Rock Some Noise (Provenzano DJ & Mastro J Edit)"
     }
    ],
@@ -2739,6 +2803,7 @@
      "slug": "m2ovol31",
      "titolo": "m2o vol.31",
      "anno": 2012,
+     "data": "2012-10-23",
      "come": "Earthquake"
     }
    ],
@@ -2781,6 +2846,7 @@
      "slug": "m2ovol29",
      "titolo": "m2o vol.29",
      "anno": 2012,
+     "data": "2012-03-20",
      "come": "Festival"
     }
    ],
@@ -2823,6 +2889,7 @@
      "slug": "m2ovol29",
      "titolo": "m2o vol.29",
      "anno": 2012,
+     "data": "2012-03-20",
      "come": "305"
     }
    ],
@@ -2865,6 +2932,7 @@
      "slug": "m2ovol30",
      "titolo": "m2o vol.30",
      "anno": 2012,
+     "data": "2012-06-26",
      "come": "Change The World"
     }
    ],
@@ -2907,6 +2975,7 @@
      "slug": "m2ovol31",
      "titolo": "m2o vol.31",
      "anno": 2012,
+     "data": "2012-10-23",
      "come": "Seven Days"
     }
    ],
@@ -2953,12 +3022,14 @@
      "slug": "m2ovol31",
      "titolo": "m2o vol.31",
      "anno": 2012,
+     "data": "2012-10-23",
      "come": "Touch The Sky"
     },
     {
      "slug": "m2ovol32",
      "titolo": "m2o vol.32",
      "anno": 2013,
+     "data": "2013-03-26",
      "come": "Touch The Sky (Donati & Amato Extended Remix)"
     }
    ],
@@ -3024,12 +3095,14 @@
      "slug": "m2ovol32",
      "titolo": "m2o vol.32",
      "anno": 2013,
+     "data": "2013-03-26",
      "come": "Mash App (Provenzano DJ Club Mix)"
     },
     {
      "slug": "m2ovol33",
      "titolo": "m2o vol.33",
      "anno": 2013,
+     "data": "2013-07-09",
      "come": "Mash App (Provenzano DJ Rework)"
     }
    ],
@@ -3144,6 +3217,7 @@
      "slug": "m2ovol34",
      "titolo": "m2o vol.34",
      "anno": 2013,
+     "data": "2013-11-26",
      "come": "Drop Da Beat"
     }
    ],
@@ -3197,6 +3271,7 @@
      "slug": "m2ovol33",
      "titolo": "m2o vol.33",
      "anno": 2013,
+     "data": "2013-07-09",
      "come": "Be Like Me (Main Room Mix)"
     }
    ],
@@ -3244,6 +3319,7 @@
      "slug": "m2ovol32",
      "titolo": "m2o vol.32",
      "anno": 2013,
+     "data": "2013-03-26",
      "come": "Tears"
     }
    ],
@@ -3286,6 +3362,7 @@
      "slug": "m2ovol32",
      "titolo": "m2o vol.32",
      "anno": 2013,
+     "data": "2013-03-26",
      "come": "Heartquake"
     }
    ],
@@ -3328,6 +3405,7 @@
      "slug": "m2ovol34",
      "titolo": "m2o vol.34",
      "anno": 2013,
+     "data": "2013-11-26",
      "come": "Overtime"
     }
    ],
@@ -3372,6 +3450,7 @@
      "slug": "m2ovol34",
      "titolo": "m2o vol.34",
      "anno": 2013,
+     "data": "2013-11-26",
      "come": "Just The Way You Are (Club Extended)"
     }
    ],
@@ -3420,12 +3499,14 @@
      "slug": "m2ovol34",
      "titolo": "m2o vol.34",
      "anno": 2013,
+     "data": "2013-11-26",
      "come": "You And Me"
     },
     {
      "slug": "m2ovol36",
      "titolo": "m2o vol.36",
      "anno": 2014,
+     "data": "2014-07-15",
      "come": "You And Me (Stefano Pain E Marcello Marcel Lepore Remix)"
     }
    ],
@@ -3520,6 +3601,7 @@
      "slug": "m2ovol36",
      "titolo": "m2o vol.36",
      "anno": 2014,
+     "data": "2014-07-15",
      "come": "Gorbaciov"
     }
    ],
@@ -3567,12 +3649,14 @@
      "slug": "m2ovol35",
      "titolo": "m2o vol.35",
      "anno": 2014,
+     "data": "2014-04-08",
      "come": "Believe In Me"
     },
     {
      "slug": "m2ovol36",
      "titolo": "m2o vol.36",
      "anno": 2014,
+     "data": "2014-07-15",
      "come": "Believe In Me (Dyson Kellerman Remix)"
     }
    ],
@@ -3624,12 +3708,14 @@
      "slug": "m2ovol36",
      "titolo": "m2o vol.36",
      "anno": 2014,
+     "data": "2014-07-15",
      "come": "Way Out"
     },
     {
      "slug": "m2ovol37",
      "titolo": "m2o vol.37",
      "anno": 2014,
+     "data": "2014-11-24",
      "come": "Way Out"
     }
    ],
@@ -3677,6 +3763,7 @@
      "slug": "m2ovol37",
      "titolo": "m2o vol.37",
      "anno": 2014,
+     "data": "2014-11-24",
      "come": "Starlight (Provenzano DJ Rework)"
     }
    ],
@@ -3730,6 +3817,7 @@
      "slug": "m2ovol38",
      "titolo": "m2o vol.38",
      "anno": 2015,
+     "data": "2015-04-14",
      "come": "Take Your Breath"
     }
    ],
@@ -3786,6 +3874,7 @@
      "slug": "m2ovol39",
      "titolo": "m2o vol.39",
      "anno": 2015,
+     "data": "2015-07-17",
      "come": "Party With You (Provenzano DJ Rework)"
     }
    ],
@@ -3842,12 +3931,14 @@
      "slug": "ego-in-amsterdam",
      "titolo": "Ego In Amsterdam",
      "anno": 2015,
+     "data": "2015-10-09",
      "come": "Ain't No Sunshine (Dave Silcox Remix)"
     },
     {
      "slug": "m2ovol39",
      "titolo": "m2o vol.39",
      "anno": 2015,
+     "data": "2015-07-17",
      "come": "Ain't No Sunshine"
     }
    ],
@@ -3869,12 +3960,14 @@
        "slug": "ego-in-amsterdam",
        "titolo": "Ego In Amsterdam",
        "anno": 2015,
+       "data": "2015-10-09",
        "come": "Ain't No Sunshine (Dave Silcox Remix)"
       },
       {
        "slug": "m2ovol39",
        "titolo": "m2o vol.39",
        "anno": 2015,
+       "data": "2015-07-17",
        "come": "Ain't No Sunshine"
       }
      ],
@@ -3901,12 +3994,14 @@
        "slug": "ego-in-amsterdam",
        "titolo": "Ego In Amsterdam",
        "anno": 2015,
+       "data": "2015-10-09",
        "come": "Ain't No Sunshine (Dave Silcox Remix)"
       },
       {
        "slug": "m2ovol39",
        "titolo": "m2o vol.39",
        "anno": 2015,
+       "data": "2015-07-17",
        "come": "Ain't No Sunshine"
       }
      ],
@@ -3973,6 +4068,7 @@
      "slug": "m2ovol40",
      "titolo": "m2o vol.40",
      "anno": 2015,
+     "data": "2015-10-30",
      "come": "Sunshine & Happiness (Leandro Da Silva Mix)"
     }
    ],
@@ -4116,6 +4212,7 @@
      "slug": "m2ovol38",
      "titolo": "m2o vol.38",
      "anno": 2015,
+     "data": "2015-04-14",
      "come": "Oh Song"
     }
    ],
@@ -4158,6 +4255,7 @@
      "slug": "m2ovol38",
      "titolo": "m2o vol.38",
      "anno": 2015,
+     "data": "2015-04-14",
      "come": "Pump Up The House"
     }
    ],
@@ -4200,6 +4298,7 @@
      "slug": "m2ovol39",
      "titolo": "m2o vol.39",
      "anno": 2015,
+     "data": "2015-07-17",
      "come": "Gettin' Up"
     }
    ],
@@ -4242,6 +4341,7 @@
      "slug": "m2ovol40",
      "titolo": "m2o vol.40",
      "anno": 2015,
+     "data": "2015-10-30",
      "come": "Be Your"
     }
    ],
@@ -4289,6 +4389,7 @@
      "slug": "m2o-music-xperience",
      "titolo": "m2o Music Xperience",
      "anno": 2016,
+     "data": "2016-03-25",
      "come": "We Are One (Gregor Salto Remix)"
     }
    ],
@@ -4402,6 +4503,7 @@
      "slug": "m2o-summer-xperience",
      "titolo": "m2o Summer Xperience",
      "anno": 2016,
+     "data": "2016-07-29",
      "come": "What About"
     }
    ],
@@ -4477,6 +4579,7 @@
      "slug": "m2o-music-xperience",
      "titolo": "m2o Music Xperience",
      "anno": 2016,
+     "data": "2016-03-25",
      "come": "Without You"
     }
    ],
@@ -4519,6 +4622,7 @@
      "slug": "m2o-winter-xperience",
      "titolo": "m2o Winter Xperience",
      "anno": 2016,
+     "data": "2016-12-02",
      "come": "Guitar Hero"
     }
    ],
@@ -4563,12 +4667,14 @@
      "slug": "m2o-dance-xperience",
      "titolo": "m2o Dance Xperience",
      "anno": 2017,
+     "data": "2017-03-31",
      "come": "Saxophone"
     },
     {
      "slug": "m2o-summer-xperience-2017",
      "titolo": "m2o Summer Xperience",
      "anno": 2017,
+     "data": "2017-07-28",
      "come": "Saxophone (Wlady Remix)"
     }
    ],
@@ -4588,12 +4694,14 @@
        "slug": "m2o-dance-xperience",
        "titolo": "m2o Dance Xperience",
        "anno": 2017,
+       "data": "2017-03-31",
        "come": "Saxophone"
       },
       {
        "slug": "m2o-summer-xperience-2017",
        "titolo": "m2o Summer Xperience",
        "anno": 2017,
+       "data": "2017-07-28",
        "come": "Saxophone (Wlady Remix)"
       }
      ],
@@ -4650,6 +4758,7 @@
      "slug": "m2o-summer-xperience-2017",
      "titolo": "m2o Summer Xperience",
      "anno": 2017,
+     "data": "2017-07-28",
      "come": "Folegandros (Kryder Mix)"
     }
    ],
@@ -4788,6 +4897,7 @@
      "slug": "m2o-summer-xperience-2017",
      "titolo": "m2o Summer Xperience",
      "anno": 2017,
+     "data": "2017-07-28",
      "come": "F...ing Beatz"
     }
    ],
@@ -4830,6 +4940,7 @@
      "slug": "m2o-winter-xperience-2017",
      "titolo": "m2o Winter Xperience",
      "anno": 2017,
+     "data": "2017-12-01",
      "come": "Get Low"
     }
    ],
@@ -4876,6 +4987,7 @@
      "slug": "m2o-dance-xperience-2018",
      "titolo": "m2o Dance Xperience",
      "anno": 2018,
+     "data": "2018-04-20",
      "come": "Babele"
     }
    ],
@@ -4965,6 +5077,7 @@
      "slug": "m2o-winter-xperience-2018",
      "titolo": "m2o Winter Xperience",
      "anno": 2018,
+     "data": "2018-12-07",
      "come": "A Little Higher"
     }
    ],
@@ -5015,6 +5128,7 @@
      "slug": "m2o-winter-xperience-2018",
      "titolo": "m2o Winter Xperience",
      "anno": 2018,
+     "data": "2018-12-07",
      "come": "Gig"
     }
    ],
@@ -5059,6 +5173,7 @@
      "slug": "m2o-dance-xperience-2018",
      "titolo": "m2o Dance Xperience",
      "anno": 2018,
+     "data": "2018-04-20",
      "come": "Dancin'"
     }
    ],
@@ -5101,6 +5216,7 @@
      "slug": "m2o-dance-xperience-2018",
      "titolo": "m2o Dance Xperience",
      "anno": 2018,
+     "data": "2018-04-20",
      "come": "GDN"
     }
    ],
@@ -5143,6 +5259,7 @@
      "slug": "m2o-summer-xperience-2018",
      "titolo": "m2o Summer Xperience",
      "anno": 2018,
+     "data": "2018-08-03",
      "come": "Jungle"
     }
    ],
@@ -5185,6 +5302,7 @@
      "slug": "m2o-winter-xperience-2018",
      "titolo": "m2o Winter Xperience",
      "anno": 2018,
+     "data": "2018-12-07",
      "come": "Dirty"
     }
    ],
@@ -5227,6 +5345,7 @@
      "slug": "m2o-winter-xperience-2018",
      "titolo": "m2o Winter Xperience",
      "anno": 2018,
+     "data": "2018-12-07",
      "come": "In Da House"
     }
    ],
@@ -6944,12 +7063,14 @@
      "slug": "altromondo-compilation-estate-2005",
      "titolo": "Altromondo Compilation",
      "anno": 2005,
+     "data": "2005-07-22",
      "come": "Feel Alright (Provenzano DJ Remix)"
     },
     {
      "slug": "m2ovol9",
      "titolo": "m2o vol.9",
      "anno": 2005,
+     "data": "2005-06-10",
      "come": "Feel Alright (Provenzano DJ Remix)"
     }
    ],
@@ -6995,6 +7116,7 @@
      "slug": "altromondo-compilation-estate-2005",
      "titolo": "Altromondo Compilation",
      "anno": 2005,
+     "data": "2005-07-22",
      "come": "Hearts Entwine (Hard Dance Style Remix)"
     }
    ],
@@ -7036,6 +7158,7 @@
      "slug": "altromondo-compilation-estate-2005",
      "titolo": "Altromondo Compilation",
      "anno": 2005,
+     "data": "2005-07-22",
      "come": "Future Mind (Hard Dance Style Remix)"
     }
    ],
@@ -7115,12 +7238,14 @@
      "slug": "m2ovol9",
      "titolo": "m2o vol.9",
      "anno": 2005,
+     "data": "2005-06-10",
      "come": "Wellfare (Hard Dance Style Remix)"
     },
     {
      "slug": "m2ovol30",
      "titolo": "m2o vol.30",
      "anno": 2012,
+     "data": "2012-06-26",
      "come": "Wellfare (Hard Dance Style Remix)"
     }
    ],
@@ -7167,6 +7292,7 @@
      "slug": "altromondo-compilation-estate-2005",
      "titolo": "Altromondo Compilation",
      "anno": 2005,
+     "data": "2005-07-22",
      "come": "Red Code (Provenzano DJ Remix)"
     }
    ],
@@ -7213,6 +7339,7 @@
      "slug": "jump-2-the-dancefloor-vol-3",
      "titolo": "[Jump]² The Dancefloor Vol. 3",
      "anno": 2006,
+     "data": "2006-06-27",
      "come": "C'est L'Amour (Provenzano DJ + Promise Land Hard Dance Remix)"
     }
    ],
@@ -7254,6 +7381,7 @@
      "slug": "jump-2-the-dancefloor-vol-2",
      "titolo": "[Jump]² The Dancefloor Vol. 2",
      "anno": 2006,
+     "data": "2006",
      "come": "Gigi's Violin (Hard Dance Style Remix)"
     }
    ],
@@ -7295,6 +7423,7 @@
      "slug": "jump-2-the-dancefloor-vol-3",
      "titolo": "[Jump]² The Dancefloor Vol. 3",
      "anno": 2006,
+     "data": "2006-06-27",
      "come": "I'll Be Missing You (Hard Dance Style Remix)"
     }
    ],
@@ -7337,6 +7466,7 @@
      "slug": "jump-2-the-dancefloor-vol-3",
      "titolo": "[Jump]² The Dancefloor Vol. 3",
      "anno": 2006,
+     "data": "2006-06-27",
      "come": "Tweak (Hard Dance Style Remix)"
     }
    ],
@@ -7379,6 +7509,7 @@
      "slug": "jump-2-the-dancefloor-vol-3",
      "titolo": "[Jump]² The Dancefloor Vol. 3",
      "anno": 2006,
+     "data": "2006-06-27",
      "come": "Don't Leave Me Now (Hard Dance Style Remix)"
     }
    ],
@@ -7455,6 +7586,7 @@
      "slug": "m2ovol11",
      "titolo": "m2o vol.11",
      "anno": 2006,
+     "data": "2006-02-10",
      "come": "Until The Morning (Provenzano DJ Rmx)"
     }
    ],
@@ -7575,6 +7707,7 @@
      "slug": "m2ovol12",
      "titolo": "m2o vol.12",
      "anno": 2006,
+     "data": "2006-06-12",
      "come": "Don't Close Your Eyes (Provenzano DJ + Promise Land Remix)"
     }
    ],
@@ -7622,6 +7755,7 @@
      "slug": "jump-2-the-dancefloor-vol-2",
      "titolo": "[Jump]² The Dancefloor Vol. 2",
      "anno": 2006,
+     "data": "2006",
      "come": "Speed Of Sound (Provenzano DJ Remix)"
     }
    ],
@@ -7709,12 +7843,14 @@
      "slug": "m2ovol15",
      "titolo": "m2o vol.15",
      "anno": 2007,
+     "data": "2007-06-22",
      "come": "Say You Love Me (Provenzano DJ + Promise Land Rmx)"
     },
     {
      "slug": "m2ovol30",
      "titolo": "m2o vol.30",
      "anno": 2012,
+     "data": "2012-06-26",
      "come": "Say You Love Me (Provenzano DJ + Promise Land Rmx)"
     }
    ],
@@ -7837,6 +7973,7 @@
      "slug": "jump-2-the-dancefloor-vol-4",
      "titolo": "[Jump]² The Dancefloor Vol. 4",
      "anno": 2007,
+     "data": "2007-03-00",
      "come": "Boom Boom (Provenzano DJ & Promise Land Remix)"
     }
    ],
@@ -7996,6 +8133,7 @@
      "slug": "m2ovol17",
      "titolo": "m2o vol.17",
      "anno": 2008,
+     "data": "2008-03-10",
      "come": "Chi Siamo Noi (Provenzano DJ & Promise Land Vocal Mix)"
     }
    ],
@@ -8153,6 +8291,7 @@
      "slug": "m2ovol18",
      "titolo": "m2o vol.18",
      "anno": 2008,
+     "data": "2008-06-06",
      "come": "No Stress (Provenzano DJ, Ranucci & Pelusi Remix)"
     }
    ],
@@ -8200,6 +8339,7 @@
      "slug": "m2ovol21",
      "titolo": "m2o vol.21",
      "anno": 2009,
+     "data": "2009-07-03",
      "come": "Scared Of Me (Promise Land & Provenzano DJ Remix)"
     }
    ],
@@ -8291,6 +8431,7 @@
      "slug": "m2ovol22",
      "titolo": "m2o vol.22",
      "anno": 2009,
+     "data": "2009-10-30",
      "come": "Last Night A Dj Saved My Life (Ranucci, Pelusi, Provenzano DJ Remix)"
     }
    ],
@@ -8376,6 +8517,7 @@
      "slug": "m2ovol22",
      "titolo": "m2o vol.22",
      "anno": 2009,
+     "data": "2009-10-30",
      "come": "I Will Follow (Theme Fit For Free Dance Parade) (Ranucci, Pelusi, Provenzano DJ Remix)"
     }
    ],
@@ -8429,12 +8571,14 @@
      "slug": "m2ovol21",
      "titolo": "m2o vol.21",
      "anno": 2009,
+     "data": "2009-07-03",
      "come": "Leave The World Behind (Ranucci, Pelusi, Provenzano DJ Remix)"
     },
     {
      "slug": "m2ovol30",
      "titolo": "m2o vol.30",
      "anno": 2012,
+     "data": "2012-06-26",
      "come": "Leave The World Behind (Ranucci, Pelusi, Provenzano DJ Remix)"
     }
    ],
@@ -8522,6 +8666,7 @@
      "slug": "m2ovol23",
      "titolo": "m2o vol.23",
      "anno": 2010,
+     "data": "2010-03-26",
      "come": "Back & Forth (Promise Land & Provenzano DJ Remix)"
     }
    ],
@@ -8576,6 +8721,7 @@
      "slug": "m2ovol23",
      "titolo": "m2o vol.23",
      "anno": 2010,
+     "data": "2010-03-26",
      "come": "The Feeling (Promise Land & Provenzano DJ Remix)"
     }
    ],
@@ -8745,6 +8891,7 @@
      "slug": "m2ovol27",
      "titolo": "m2o vol.27",
      "anno": 2011,
+     "data": "2011-06-28",
      "come": "Fantasy (Provenzano DJ Remix)"
     }
    ],
@@ -8880,6 +9027,7 @@
      "slug": "m2ovol28",
      "titolo": "m2o vol.28",
      "anno": 2011,
+     "data": "2011-11-29",
      "come": "I Like It (Provenzano DJ Remix)"
     }
    ],
@@ -9003,6 +9151,7 @@
      "slug": "m2ovol29",
      "titolo": "m2o vol.29",
      "anno": 2012,
+     "data": "2012-03-20",
      "come": "Sweet Love (Provenzano DJ & Felipe C. Remix)"
     }
    ],
@@ -9049,6 +9198,7 @@
      "slug": "m2ovol29",
      "titolo": "m2o vol.29",
      "anno": 2012,
+     "data": "2012-03-20",
      "come": "We Gotta A Love (Provenzano DJ Remix)"
     }
    ],
@@ -9135,6 +9285,7 @@
      "slug": "m2ovol30",
      "titolo": "m2o vol.30",
      "anno": 2012,
+     "data": "2012-06-26",
      "come": "Dream Girl (Provenzano DJ Remix)"
     }
    ],
@@ -9180,6 +9331,7 @@
      "slug": "m2ovol30",
      "titolo": "m2o vol.30",
      "anno": 2012,
+     "data": "2012-06-26",
      "come": "I Can Change (Provenzano DJ Remix)"
     }
    ],
@@ -9266,6 +9418,7 @@
      "slug": "m2ovol31",
      "titolo": "m2o vol.31",
      "anno": 2012,
+     "data": "2012-10-23",
      "come": "Party Go (Provenzano DJ Remix)"
     }
    ],
@@ -9312,6 +9465,7 @@
      "slug": "m2ovol32",
      "titolo": "m2o vol.32",
      "anno": 2013,
+     "data": "2013-03-26",
      "come": "Fly Away (Provenzano DJ Remix)"
     }
    ],
@@ -9408,6 +9562,7 @@
      "slug": "m2ovol32",
      "titolo": "m2o vol.32",
      "anno": 2013,
+     "data": "2013-03-26",
      "come": "Breakin' The Heart (Provenzano DJ Remix)"
     }
    ],
@@ -9540,6 +9695,7 @@
      "slug": "m2ovol33",
      "titolo": "m2o vol.33",
      "anno": 2013,
+     "data": "2013-07-09",
      "come": "Ahi Na Ma (Provenzano DJ Remix)"
     }
    ],
@@ -9622,6 +9778,7 @@
      "slug": "m2ovol34",
      "titolo": "m2o vol.34",
      "anno": 2013,
+     "data": "2013-11-26",
      "come": "Ready For Love (Provenzano DJ Remix)"
     }
    ],
@@ -9668,6 +9825,7 @@
      "slug": "m2ovol35",
      "titolo": "m2o vol.35",
      "anno": 2014,
+     "data": "2014-04-08",
      "come": "La Rumba (Provenzano DJ Remix)"
     }
    ],
@@ -9714,6 +9872,7 @@
      "slug": "m2ovol36",
      "titolo": "m2o vol.36",
      "anno": 2014,
+     "data": "2014-07-15",
      "come": "White Tone (Provenzano DJ Remix)"
     }
    ],
@@ -9760,6 +9919,7 @@
      "slug": "m2ovol36",
      "titolo": "m2o vol.36",
      "anno": 2014,
+     "data": "2014-07-15",
      "come": "Start It Over (Provenzano DJ Remix)"
     }
    ],
@@ -9804,6 +9964,7 @@
      "slug": "m2ovol39",
      "titolo": "m2o vol.39",
      "anno": 2015,
+     "data": "2015-07-17",
      "come": "Carry On (Provenzano DJ Rmx)"
     }
    ],
@@ -9851,6 +10012,7 @@
      "slug": "m2ovol38",
      "titolo": "m2o vol.38",
      "anno": 2015,
+     "data": "2015-04-14",
      "come": "Waterfall (Provenzano DJ Remix)"
     }
    ],
@@ -9947,6 +10109,7 @@
      "slug": "m2o-summer-xperience",
      "titolo": "m2o Summer Xperience",
      "anno": 2016,
+     "data": "2016-07-29",
      "come": "Abusadora (Provenzano DJ Remix)"
     }
    ],
@@ -9989,6 +10152,7 @@
      "slug": "m2o-summer-xperience-2018",
      "titolo": "m2o Summer Xperience",
      "anno": 2018,
+     "data": "2018-08-03",
      "come": "Canta Canta (Provenzano DJ & Gian Nobilee Remix)"
     }
    ],
@@ -10073,6 +10237,7 @@
      "slug": "m2o-summer-xperience-2018",
      "titolo": "m2o Summer Xperience",
      "anno": 2018,
+     "data": "2018-08-03",
      "come": "Bailando (Provenzano DJ & Gian Nobilee Remix)"
     }
    ],
