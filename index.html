@@ -193,19 +193,17 @@ a{color:inherit;text-decoration:none}
    batte. Senza questa riga la fila resta visibile anche da chiusa — con
    `aria-expanded="false"`, cioe' dicendo il contrario di quello che si vede. */
 .booking .mails[hidden]{display:none}
+/* ⚠️ **Gli indirizzi in colonna, senza spiegazione** (Amerigo, 03/09/2026).
+   Prima ognuno aveva la sua etichetta — «una data», «un remix», «altro» —
+   e stavano in fila. Ma la parola sopra dice gia' «Scrivimi»: chi ha aperto
+   sa cosa sta guardando, e tre indirizzi che si leggono da soli non hanno
+   bisogno che glielo si spieghi. Tre righe, niente altro. */
 .booking .mails{
   margin-top:14px;
   display:flex;
-  flex-wrap:wrap;
-  align-items:baseline;
-  gap:6px 16px;
-}
-.booking .voce{display:inline-flex;align-items:baseline;gap:7px}
-.booking .eti{
-  font-family:Arial,sans-serif;
-  font-size:9px;
-  letter-spacing:.2em;
-  color:rgba(255,255,255,.4);
+  flex-direction:column;
+  align-items:flex-start;
+  gap:9px;
 }
 .booking .mail{
   display:inline-block;
@@ -342,18 +340,9 @@ footer{
         <span>Scrivimi<span class="punto">.</span></span><span class="verso" aria-hidden="true"></span>
       </button>
       <div class="mails" id="mails" hidden>
-        <span class="voce">
-          <span class="eti">una data</span>
-          <a class="mail" href="mailto:booking@provenzanodj.com">booking@provenzanodj.com</a>
-        </span>
-        <span class="voce">
-          <span class="eti">un remix</span>
-          <a class="mail" href="mailto:remix@provenzanodj.com">remix@provenzanodj.com</a>
-        </span>
-        <span class="voce">
-          <span class="eti">altro</span>
-          <a class="mail" href="mailto:info@provenzanodj.com">info@provenzanodj.com</a>
-        </span>
+        <a class="mail" href="mailto:booking@provenzanodj.com">booking@provenzanodj.com</a>
+        <a class="mail" href="mailto:remix@provenzanodj.com">remix@provenzanodj.com</a>
+        <a class="mail" href="mailto:info@provenzanodj.com">info@provenzanodj.com</a>
       </div>
       <div class="copiato" id="copiato">copiato negli appunti &#10003;</div>
     </section>
