@@ -150,6 +150,63 @@ a{color:inherit;text-decoration:none}
 @media (prefers-reduced-motion:reduce){.cartello .nome .punto{animation:none}}
 .cartello.secondo{margin-top:clamp(1px,0.6vh,5px)}
 
+/* ⚠️ **Volume Visivo sta DOPO le quattro voci, e non e' la quinta.**
+   Amerigo, 03/09/2026: *«deve capirsi che e' una mia creatura nata per
+   evolvermi ma che non cancella quello che sono»*. Da li' vengono tutte e
+   tre le scelte di questo blocco:
+
+   **Il posto.** Le quattro voci sono quello che e'. Se Volume Visivo si
+   infila prima o in mezzo, sembra che le sostituisca; arrivando dopo, e' la
+   posizione stessa a dire «non cancella» — e il testo puo' quasi darlo per
+   scontato invece di doverlo difendere.
+
+   **La misura.** Meta' delle altre, e con una riga di spiegazione sotto che
+   le altre non hanno. Non e' una porta declassata: e' un'altra cosa. Della
+   stessa misura sarebbe una quinta porta, e le quattro non sarebbero piu'
+   quattro modi di entrare nello stesso archivio.
+
+   **La freccia.** Porta fuori dal sito, ed e' l'unica voce che lo fa: si
+   dice prima di cliccare.
+
+   ⚠️ E la voce resta la sua, prima persona — «l'ho creato io». Volume Visivo
+   parla al plurale, ma parla a casa sua: qui e' lui che la nomina. Vedi
+   `context/tono-di-voce.md`, che tiene le due voci separate apposta. */
+.visivo{
+  margin-top:clamp(26px,4.5vh,44px);
+  padding-top:clamp(18px,3vh,26px);
+  border-top:1px solid rgba(255,255,255,.12);
+  max-width:34ch;
+}
+.visivo .nome{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  font-size:clamp(16px,2.4vw,24px);
+  line-height:1;
+  letter-spacing:.045em;
+  text-transform:uppercase;
+  border-bottom:1.5px solid transparent;
+  padding-bottom:4px;
+  transition:border-color .18s;
+}
+.visivo .nome .punto{color:var(--rosso)}
+.visivo .fuori{
+  font-family:Arial,sans-serif;
+  font-size:11px;
+  color:var(--rosso);
+  transform:translateY(-2px);
+}
+.visivo a:hover .nome{border-bottom-color:var(--rosso)}
+.visivo .riga{
+  margin-top:11px;
+  font-size:clamp(10px,1.5vw,12px);
+  letter-spacing:.1em;
+  line-height:1.75;
+  color:rgba(255,255,255,.5);
+  text-transform:none;
+}
+.visivo .riga b{color:rgba(255,255,255,.8);font-weight:600}
+
 /* ⚠️ **Scrivimi si apre solo se lo chiedi** (Amerigo, 03/09/2026): *«se
    clikko su scrivimi si apre una riga con gli indirizzi, qualcosa di piu'
    discreto»*. Prima i tre indirizzi stavano sempre aperti, con l'etichetta
@@ -336,6 +393,14 @@ footer{
       <a href="/crossover/puntate/" aria-label="Crossover — tutte le puntate">
         <h2 class="nome">Crossover<span class="punto">.</span></h2>
       </a>
+    </section>
+
+    <section class="visivo">
+      <a href="https://www.volumevisivo.com" aria-label="Volume Visivo — si apre volumevisivo.com">
+        <span class="nome"><span>Volume Visivo<span class="punto">.</span></span><span class="fuori" aria-hidden="true">&#8599;</span></span>
+      </a>
+      <p class="riga">L&rsquo;ho creato io <b>per evolvermi, non per voltare pagina</b>: video
+      con l&rsquo;intelligenza artificiale per etichette e artisti.</p>
     </section>
 
     <section class="booking">
