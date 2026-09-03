@@ -150,27 +150,57 @@ a{color:inherit;text-decoration:none}
 @media (prefers-reduced-motion:reduce){.cartello .nome .punto{animation:none}}
 .cartello.secondo{margin-top:clamp(1px,0.6vh,5px)}
 
-/* scrivimi — una domanda sola, tre indirizzi */
+/* ⚠️ **Scrivimi si apre solo se lo chiedi** (Amerigo, 03/09/2026): *«se
+   clikko su scrivimi si apre una riga con gli indirizzi, qualcosa di piu'
+   discreto»*. Prima i tre indirizzi stavano sempre aperti, con l'etichetta
+   sopra ciascuno: sei righe di roba amministrativa sotto ai quattro titoli.
+   Adesso e' una parola sola, e gli indirizzi arrivano al click su una riga.
+   La parola resta la stessa: la grammatica del sito e' «Vuoi X? Scrivimi.». */
 .booking{
   margin-top:clamp(30px,5vh,54px);
   text-transform:uppercase;
 }
 .booking .domanda{
+  /* e' un <button>, quindi va ripulito di tutto quello che il browser ci mette */
+  appearance:none;
+  background:none;
+  border:0;
+  padding:0;
+  font-family:'Anton',Arial,sans-serif;
   font-size:clamp(13px,1.9vw,17px);
   letter-spacing:.08em;
+  text-transform:uppercase;
+  color:var(--bianco);
+  cursor:pointer;
+  display:inline-flex;
+  align-items:center;
+  gap:9px;
 }
 .booking .domanda .punto{color:var(--rosso)}
+/* la freccia dice che c'e' qualcosa sotto, e girando dice che e' aperto */
+.booking .domanda .verso{
+  width:7px;height:7px;
+  border-right:1.5px solid var(--rosso);
+  border-bottom:1.5px solid var(--rosso);
+  transform:rotate(45deg) translate(-1px,-1px);
+  transition:transform .2s;
+}
+.booking .domanda[aria-expanded="true"] .verso{
+  transform:rotate(-135deg) translate(-2px,-2px);
+}
+/* ⚠️ Serve, e non e' ridondante: l'attributo `hidden` vale `display:none`
+   ma arriva dal foglio del browser, e qualsiasi `display` scritto qui lo
+   batte. Senza questa riga la fila resta visibile anche da chiusa — con
+   `aria-expanded="false"`, cioe' dicendo il contrario di quello che si vede. */
+.booking .mails[hidden]{display:none}
 .booking .mails{
-  margin-top:16px;
+  margin-top:14px;
   display:flex;
   flex-wrap:wrap;
-  gap:14px 26px;
+  align-items:baseline;
+  gap:6px 16px;
 }
-.booking .voce{
-  display:flex;
-  flex-direction:column;
-  gap:6px;
-}
+.booking .voce{display:inline-flex;align-items:baseline;gap:7px}
 .booking .eti{
   font-family:Arial,sans-serif;
   font-size:9px;
@@ -179,13 +209,14 @@ a{color:inherit;text-decoration:none}
 }
 .booking .mail{
   display:inline-block;
-  font-size:clamp(11px,1.5vw,13px);
-  letter-spacing:.12em;
+  font-size:clamp(10px,1.3vw,12px);
+  letter-spacing:.1em;
   color:var(--rosso);
-  border-bottom:1px solid var(--rosso);
-  padding-bottom:3px;
+  border-bottom:1px solid rgba(255,49,49,.5);
+  padding-bottom:2px;
 }
 .booking .mail:hover{color:var(--bianco);border-color:var(--bianco)}
+@media (prefers-reduced-motion:reduce){.booking .domanda .verso{transition:none}}
 .copiato{
   margin-top:14px;
   font-family:Arial,sans-serif;
@@ -199,8 +230,39 @@ a{color:inherit;text-decoration:none}
 .copiato.si{opacity:1}
 
 /* social */
+/* ⚠️ **Il nome del social esce sopra le icone al passaggio del mouse**
+   (Amerigo, 03/09/2026). Non un tooltip per icona che spunta ognuno al suo
+   posto — nove cose che si muovono — ma **una parola sola, sempre nello
+   stesso punto**, che cambia a seconda di dove sei.
+   Fatto in CSS e non in JavaScript: ogni link si porta dietro la propria
+   etichetta con `content:attr(aria-label)`, tutte e nove appoggiate nello
+   stesso angolo, e si accende solo quella sotto il mouse. Cosi' non c'e' un
+   secondo elenco di nomi da tenere allineato (il nome sta gia' nell'aria-label,
+   che serve anche a chi legge con la voce) e non ci sono eventi che possono
+   sfuggire — la prima versione era a eventi e l'etichetta restava spenta.
+   Lo spazio sopra la fila e' riservato sempre: se no le icone saltano su e
+   giu' ogni volta che ci passi sopra. */
+.social-blocco{margin-top:clamp(28px,5vh,50px);position:relative;padding-top:22px}
+.social a::after{
+  content:attr(aria-label);
+  position:absolute;
+  top:0;
+  left:0;
+  font-family:Arial,sans-serif;
+  font-size:10px;
+  line-height:1;
+  letter-spacing:.2em;
+  text-transform:uppercase;
+  color:var(--bianco);
+  white-space:nowrap;
+  opacity:0;
+  transition:opacity .15s;
+  pointer-events:none;
+}
+.social a:hover::after,
+.social a:focus-visible::after{opacity:1}
+@media (prefers-reduced-motion:reduce){.social a::after{transition:none}}
 .social{
-  margin-top:clamp(28px,5vh,50px);
   display:flex;
   flex-wrap:wrap;
   gap:20px 24px;
@@ -276,24 +338,27 @@ footer{
     </section>
 
     <section class="booking">
-      <p class="domanda">Scrivimi<span class="punto">.</span></p>
-      <div class="mails">
-        <div class="voce">
+      <button type="button" class="domanda" id="apri-mail" aria-expanded="false" aria-controls="mails">
+        <span>Scrivimi<span class="punto">.</span></span><span class="verso" aria-hidden="true"></span>
+      </button>
+      <div class="mails" id="mails" hidden>
+        <span class="voce">
           <span class="eti">una data</span>
           <a class="mail" href="mailto:booking@provenzanodj.com">booking@provenzanodj.com</a>
-        </div>
-        <div class="voce">
+        </span>
+        <span class="voce">
           <span class="eti">un remix</span>
           <a class="mail" href="mailto:remix@provenzanodj.com">remix@provenzanodj.com</a>
-        </div>
-        <div class="voce">
+        </span>
+        <span class="voce">
           <span class="eti">altro</span>
           <a class="mail" href="mailto:info@provenzanodj.com">info@provenzanodj.com</a>
-        </div>
+        </span>
       </div>
       <div class="copiato" id="copiato">copiato negli appunti &#10003;</div>
     </section>
 
+    <div class="social-blocco">
     <nav class="social" aria-label="Canali social">
       <a href="https://www.instagram.com/provenzanodj/" aria-label="Instagram"><img src="icons/instagram.svg" alt="Instagram"></a>
       <a href="https://www.mixcloud.com/provenzanodj/" aria-label="Mixcloud"><img src="icons/mixcloud.svg" alt="Mixcloud"></a>
@@ -305,11 +370,25 @@ footer{
       <a href="https://www.tiktok.com/@provenzanodj_official" aria-label="TikTok"><img src="icons/tiktok.svg" alt="TikTok"></a>
       <a href="https://www.facebook.com/provenzanodj" aria-label="Facebook"><img src="icons/facebook.svg" alt="Facebook"></a>
     </nav>
+    </div>
   </div>
 
 </main>
 
 <script>
+// Scrivimi apre e chiude la riga degli indirizzi. Parte chiusa: e' scritto
+// nell'HTML con `hidden`, non da qui, cosi' non c'e' il lampo del blocco
+// aperto prima che parta lo script.
+(function () {
+  var bottone = document.getElementById('apri-mail');
+  var riga = document.getElementById('mails');
+  bottone.addEventListener('click', function () {
+    var aperto = bottone.getAttribute('aria-expanded') === 'true';
+    bottone.setAttribute('aria-expanded', aperto ? 'false' : 'true');
+    riga.hidden = aperto;
+  });
+})();
+
 // Il mailto sul desktop spesso apre il popup "scegli un'app" invece della
 // posta: il click copia l'indirizzo negli appunti e lo dice. Il mailto resta
 // nell'href per chi ci arriva senza JavaScript o col client configurato
