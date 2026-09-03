@@ -4,11 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Provenzano Dj</title>
-<meta name="description" content="Dj e produttore. Trent&rsquo;anni a scegliere musica, produrla e proporla — in radio, in pista, sui social. Crossover, il New Music Friday: tutte le puntate. Booking: booking@provenzanodj.com">
+<meta name="description" content="Dj e produttore. Trent&rsquo;anni a scegliere musica, produrla e proporla — in radio, in pista, sui social. Biografia, discografia, compilation e Crossover, il New Music Friday. Booking: booking@provenzanodj.com">
 <meta property="og:title" content="Provenzano Dj">
 <meta property="og:description" content="Da oltre trent'anni a scegliere musica, produrla e proporla in radio, in pista, sui social.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.provenzanodj.com/">
+<meta property="og:image" content="https://www.provenzanodj.com/foto/hero-v3.jpg">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23000'/%3E%3Ccircle cx='32' cy='38' r='14' fill='%23FF3131'/%3E%3C/svg%3E">
 <style>
 @font-face{
@@ -38,15 +39,53 @@ body{
 }
 a{color:inherit;text-decoration:none}
 
+/* ⚠️ **Le voci stanno a sinistra, la foto tiene il centro** (Amerigo,
+   03/09/2026). Prima era tutto incolonnato al centro: con la figura in mezzo
+   le due cose si contendevano lo stesso asse. Adesso il testo e' una colonna
+   sola allineata a sinistra e la foto sta al centro dello schermo, come nel
+   prototipo.
+   Il testo puo' passare sopra al bordo della foto e non e' un problema: la
+   foto e' nata con lo sfondo nero pieno, quindi i suoi bordi sono lo stesso
+   #000 della pagina e la sovrapposizione non si vede. E' anche il motivo per
+   cui la figura non e' scontornata — si immerge nel nero invece di essere
+   incollata sopra. */
 .pagina{
   flex:1;
+  position:relative;
   display:flex;
-  flex-direction:column;
-  justify-content:center;
   align-items:center;
-  text-align:center;
-  padding:48px 24px 32px;
-  gap:0;
+  text-align:left;
+  padding:36px clamp(20px,5vw,72px) 28px;
+}
+.colonna{
+  position:relative;
+  z-index:2;
+  width:min(100%,480px);
+}
+
+/* la figura: centrata sullo schermo, appoggiata in basso */
+.figura{
+  position:absolute;
+  inset:0;
+  z-index:1;
+  display:flex;
+  align-items:flex-end;
+  justify-content:center;
+  pointer-events:none;
+  /* ⚠️ Serve: su schermo stretto la figura e' piu' larga della finestra e
+     senza questo la pagina scrolla in orizzontale. */
+  overflow:hidden;
+}
+.figura img{
+  height:100%;
+  width:auto;
+  display:block;
+  /* ⚠️ **Nessuna maschera CSS: la sfumatura e' gia' cotta dentro il file.**
+     La foto esce dal modello con un nero che non e' proprio #000 — abbastanza
+     da far vedere il rettangolo sulla pagina — quindi in fase di preparazione
+     il punto di nero viene schiacciato a zero e i bordi portati a nero pieno.
+     Una seconda sfumatura qui mangerebbe due volte lo stesso bordo. Se un
+     giorno la foto cambia, va rifatto quel passaggio, non aggiunta una mask. */
 }
 
 /* logo — l'unica cosa minuscola della pagina */
@@ -59,47 +98,18 @@ a{color:inherit;text-decoration:none}
 }
 .logo .punto{color:var(--rosso)}
 
-/* cartello — sotto il logo c'e' Crossover, la cosa che il sito ha davvero */
-.cartello{
-  margin-top:clamp(28px,6vh,56px);
-  text-transform:uppercase;
+/* ⚠️ La frase sta **sotto il logo**, non in fondo alla pagina: e' quello che
+   dice chi e' lui, e si legge per prima (Amerigo, 30/08/2026). */
+.tesi{
+  margin-top:16px;
+  font-size:clamp(11px,1.7vw,13px);
+  letter-spacing:.12em;
+  line-height:1.75;
+  color:rgba(255,255,255,.55);
+  max-width:34ch;
+  text-transform:none;
 }
-.cartello .nome{
-  display:inline-block;
-  /* ⚠️ Le voci sono **quattro** dal 03/09/2026 (aggiunta Biografia): la misura
-     e' scesa da 66px a 52px e i margini si sono stretti, altrimenti la quarta
-     finiva sotto la piega — lo stesso problema che a suo tempo aveva fatto
-     scendere da 88px a 66px con tre voci. Restano tutte della stessa misura:
-     sono quattro porte sullo stesso archivio, non una classifica. */
-  font-size:clamp(27px,5.8vw,52px);
-  font-weight:400;
-  line-height:1;
-  letter-spacing:.045em;
-  border-bottom:2px solid transparent;
-  padding-bottom:6px;
-  transition:border-color .18s;
-}
-.cartello .nome .punto{color:var(--rosso)}
-/* ⚠️ **Il punto che batte e' uno solo, e sta sulla cosa viva.** Non e' piu'
-   "il primo della lista" ma Crossover, che esce ogni venerdi': il battito
-   dice «qui succede qualcosa adesso», e su una voce che non cambia mai
-   sarebbe una promessa falsa. Quattro punti che battono insieme sarebbero
-   quattro cose che chiamano tutte, cioe' nessuna. */
-.cartello.vivo .nome .punto{
-  animation:batte 2.4s ease-in-out infinite;
-}
-.cartello a:hover .nome{border-bottom-color:var(--rosso)}
-.cartello .invito{
-  margin-top:14px;
-  font-family:Arial,sans-serif;
-  font-size:11px;
-  letter-spacing:.2em;
-  color:rgba(255,255,255,.45);
-  transition:color .15s;
-}
-.cartello a:hover .invito{color:var(--rosso)}
-@keyframes batte{0%,100%{opacity:1}50%{opacity:.25}}
-@media (prefers-reduced-motion:reduce){.cartello .nome .punto{animation:none}}
+.tesi em{font-style:normal;color:var(--bianco)}
 
 /* I cartelli sono porte sullo stesso archivio e stanno in colonna, tutte
    della stessa misura: prima Compilation era un gradino sotto Crossover, ma
@@ -109,73 +119,77 @@ a{color:inherit;text-decoration:none}
    da Amerigo il 03/09/2026. E' l'ordine con cui uno che non lo conosce lo
    incontra: prima chi e', poi cosa ha prodotto, poi cosa ha mixato, poi cosa
    fa adesso. Non e' l'ordine di importanza. */
-.cartello.secondo{margin-top:clamp(15px,2.6vh,26px)}
-
-/* ⚠️ La frase sta **sotto il logo**, non in fondo alla pagina appesa a
-   Compilation: e' quello che dice chi e' lui, e si legge per prima (Amerigo,
-   30/08/2026). Il `max-width` largo e il `<br>` a mano tengono
-   «in radio, in pista, sui social» tutto su una riga, che spezzato in due
-   perdeva il ritmo dei tre posti. */
-.tesi{
-  margin:18px auto 0;
-  font-size:clamp(11px,1.7vw,14px);
-  letter-spacing:.12em;
-  line-height:1.7;
-  color:rgba(255,255,255,.55);
-  max-width:62ch;
-  text-transform:none;
-  text-wrap:balance;
+.cartello{
+  margin-top:clamp(26px,5vh,48px);
+  text-transform:uppercase;
 }
-.tesi em{font-style:normal;color:var(--bianco);white-space:nowrap}
-@media (max-width:520px){
-  /* su uno schermo stretto i tre posti non ci stanno in fila: si lascia
-     andare a capo il resto, ma «in radio, in pista, sui social» resta intero */
-  .tesi br{display:none}
-  .tesi em{white-space:normal}
+.cartello .nome{
+  display:inline-block;
+  /* ⚠️ Quattro voci in colonna a sinistra: la misura sta sotto ai 52px perche'
+     la colonna e' larga meno di mezza pagina e «DISCOGRAFIA.» e' la parola
+     lunga che detta il limite. Restano tutte della stessa misura. */
+  font-size:clamp(26px,4.4vw,46px);
+  font-weight:400;
+  line-height:1;
+  letter-spacing:.04em;
+  border-bottom:2px solid transparent;
+  padding-bottom:5px;
+  transition:border-color .18s;
 }
+.cartello .nome .punto{color:var(--rosso)}
+.cartello a:hover .nome{border-bottom-color:var(--rosso)}
+/* ⚠️ **Il punto che batte e' uno solo, e sta sulla cosa viva.** Non e' piu'
+   "il primo della lista" ma Crossover, che esce ogni venerdi': il battito
+   dice «qui succede qualcosa adesso», e su una voce che non cambia mai
+   sarebbe una promessa falsa. Quattro punti che battono insieme sarebbero
+   quattro cose che chiamano tutte, cioe' nessuna. */
+.cartello.vivo .nome .punto{
+  animation:batte 2.4s ease-in-out infinite;
+}
+@keyframes batte{0%,100%{opacity:1}50%{opacity:.25}}
+@media (prefers-reduced-motion:reduce){.cartello .nome .punto{animation:none}}
+.cartello.secondo{margin-top:clamp(10px,1.8vh,18px)}
 
 /* scrivimi — una domanda sola, tre indirizzi */
 .booking{
-  margin-top:clamp(32px,6vh,62px);
+  margin-top:clamp(30px,5vh,54px);
   text-transform:uppercase;
 }
 .booking .domanda{
-  font-size:clamp(14px,2.2vw,19px);
+  font-size:clamp(13px,1.9vw,17px);
   letter-spacing:.08em;
 }
 .booking .domanda .punto{color:var(--rosso)}
 .booking .mails{
-  margin-top:20px;
+  margin-top:16px;
   display:flex;
   flex-wrap:wrap;
-  justify-content:center;
-  gap:18px 34px;
+  gap:14px 26px;
 }
 .booking .voce{
   display:flex;
   flex-direction:column;
-  align-items:center;
-  gap:7px;
+  gap:6px;
 }
 .booking .eti{
   font-family:Arial,sans-serif;
-  font-size:10px;
+  font-size:9px;
   letter-spacing:.2em;
   color:rgba(255,255,255,.4);
 }
 .booking .mail{
   display:inline-block;
-  font-size:clamp(12px,1.8vw,14px);
-  letter-spacing:.14em;
+  font-size:clamp(11px,1.5vw,13px);
+  letter-spacing:.12em;
   color:var(--rosso);
   border-bottom:1px solid var(--rosso);
   padding-bottom:3px;
 }
 .booking .mail:hover{color:var(--bianco);border-color:var(--bianco)}
 .copiato{
-  margin-top:16px;
+  margin-top:14px;
   font-family:Arial,sans-serif;
-  font-size:11px;
+  font-size:10px;
   letter-spacing:.18em;
   text-transform:uppercase;
   color:rgba(255,255,255,.55);
@@ -186,21 +200,21 @@ a{color:inherit;text-decoration:none}
 
 /* social */
 .social{
-  margin-top:clamp(32px,6vh,58px);
+  margin-top:clamp(28px,5vh,50px);
   display:flex;
   flex-wrap:wrap;
-  justify-content:center;
-  gap:26px 30px;
-  max-width:520px;
+  gap:20px 24px;
+  max-width:360px;
 }
 .social a{display:block;line-height:0;opacity:.6;transition:opacity .15s}
 .social a:hover{opacity:1}
-.social img{width:18px;height:18px}
+.social img{width:17px;height:17px}
 
 footer{
-  padding:20px 24px 26px;
+  position:relative;
+  z-index:2;
+  padding:18px clamp(20px,5vw,72px) 24px;
   display:flex;
-  justify-content:center;
   align-items:center;
   gap:14px;
   font-family:Arial,sans-serif;
@@ -212,69 +226,87 @@ footer{
 .stats-link{display:block;line-height:0;opacity:.3;transition:opacity .15s}
 .stats-link:hover{opacity:1}
 .stats-link svg{width:13px;height:13px}
+
+/* ⚠️ Sotto gli 860px la colonna prende tutta la larghezza e la figura non ha
+   piu' un centro libero da occupare: passa dietro al testo, sfumata, e resta
+   presente senza ostacolare. Stessa soluzione del prototipo. */
+@media (max-width:860px){
+  .colonna{width:100%}
+  .figura{justify-content:center;opacity:.26}
+  .figura img{height:88%}
+  .tesi{max-width:40ch}
+}
 </style>
 </head>
 <body>
 
 <main class="pagina">
-  <div class="logo">provenzano<span class="punto">.</span></div>
-  <p class="tesi">Da oltre trent&rsquo;anni a scegliere musica, produrla e proporla<br>
-    <em>in radio, in pista, sui social</em>.</p>
 
-  <section class="cartello">
-    <a href="/biografia/" aria-label="Biografia — come è andata">
-      <h1 class="nome">Biografia<span class="punto">.</span></h1>
-    </a>
-  </section>
+  <div class="figura" aria-hidden="true">
+    <img src="foto/hero-v3.jpg" alt="">
+  </div>
 
-  <section class="cartello secondo">
-    <a href="/discografia/" aria-label="Discografia — tutte le uscite">
-      <h2 class="nome">Discografia<span class="punto">.</span></h2>
-    </a>
-  </section>
+  <div class="colonna">
+    <div class="logo">provenzano<span class="punto">.</span></div>
+    <p class="tesi">Da oltre trent&rsquo;anni a scegliere musica, produrla e proporla
+      <em>in radio, in pista, sui social</em>.</p>
 
-  <section class="cartello secondo">
-    <a href="/compilation/" aria-label="Compilation — tutte quelle mixate">
-      <h2 class="nome">Compilation<span class="punto">.</span></h2>
-    </a>
-  </section>
+    <section class="cartello">
+      <a href="/biografia/" aria-label="Biografia — come è andata">
+        <h1 class="nome">Biografia<span class="punto">.</span></h1>
+      </a>
+    </section>
 
-  <section class="cartello secondo vivo">
-    <a href="/crossover/puntate/" aria-label="Crossover — tutte le puntate">
-      <h2 class="nome">Crossover<span class="punto">.</span></h2>
-    </a>
-  </section>
+    <section class="cartello secondo">
+      <a href="/discografia/" aria-label="Discografia — tutte le uscite">
+        <h2 class="nome">Discografia<span class="punto">.</span></h2>
+      </a>
+    </section>
 
-  <section class="booking">
-    <p class="domanda">Scrivimi<span class="punto">.</span></p>
-    <div class="mails">
-      <div class="voce">
-        <span class="eti">una data</span>
-        <a class="mail" href="mailto:booking@provenzanodj.com">booking@provenzanodj.com</a>
+    <section class="cartello secondo">
+      <a href="/compilation/" aria-label="Compilation — tutte quelle mixate">
+        <h2 class="nome">Compilation<span class="punto">.</span></h2>
+      </a>
+    </section>
+
+    <section class="cartello secondo vivo">
+      <a href="/crossover/puntate/" aria-label="Crossover — tutte le puntate">
+        <h2 class="nome">Crossover<span class="punto">.</span></h2>
+      </a>
+    </section>
+
+    <section class="booking">
+      <p class="domanda">Scrivimi<span class="punto">.</span></p>
+      <div class="mails">
+        <div class="voce">
+          <span class="eti">una data</span>
+          <a class="mail" href="mailto:booking@provenzanodj.com">booking@provenzanodj.com</a>
+        </div>
+        <div class="voce">
+          <span class="eti">un remix</span>
+          <a class="mail" href="mailto:remix@provenzanodj.com">remix@provenzanodj.com</a>
+        </div>
+        <div class="voce">
+          <span class="eti">altro</span>
+          <a class="mail" href="mailto:info@provenzanodj.com">info@provenzanodj.com</a>
+        </div>
       </div>
-      <div class="voce">
-        <span class="eti">un remix</span>
-        <a class="mail" href="mailto:remix@provenzanodj.com">remix@provenzanodj.com</a>
-      </div>
-      <div class="voce">
-        <span class="eti">altro</span>
-        <a class="mail" href="mailto:info@provenzanodj.com">info@provenzanodj.com</a>
-      </div>
-    </div>
-    <div class="copiato" id="copiato">copiato negli appunti &#10003;</div>
-  </section>
+      <div class="copiato" id="copiato">copiato negli appunti &#10003;</div>
+    </section>
 
-  <nav class="social" aria-label="Canali social">
-    <a href="https://www.instagram.com/provenzanodj/" aria-label="Instagram"><img src="icons/instagram.svg" alt="Instagram"></a>
-    <a href="https://www.mixcloud.com/provenzanodj/" aria-label="Mixcloud"><img src="icons/mixcloud.svg" alt="Mixcloud"></a>
-    <a href="https://open.spotify.com/intl-it/artist/0X31zioYkeZFA3GBQR937K" aria-label="Spotify"><img src="icons/spotify.svg" alt="Spotify"></a>
-    <a href="https://music.apple.com/it/artist/provenzano/278152767" aria-label="Apple Music"><img src="icons/applemusic.svg" alt="Apple Music"></a>
-    <a href="https://www.beatport.com/it/artist/provenzano/43592" aria-label="Beatport"><img src="icons/beatport.svg" alt="Beatport"></a>
-    <a href="https://soundcloud.com/provenzano_official" aria-label="SoundCloud"><img src="icons/soundcloud.svg" alt="SoundCloud"></a>
-    <a href="https://www.youtube.com/@provenzanodj_official" aria-label="YouTube"><img src="icons/youtube.svg" alt="YouTube"></a>
-    <a href="https://www.tiktok.com/@provenzanodj_official" aria-label="TikTok"><img src="icons/tiktok.svg" alt="TikTok"></a>
-    <a href="https://www.facebook.com/provenzanodj" aria-label="Facebook"><img src="icons/facebook.svg" alt="Facebook"></a>
-  </nav>
+    <nav class="social" aria-label="Canali social">
+      <a href="https://www.instagram.com/provenzanodj/" aria-label="Instagram"><img src="icons/instagram.svg" alt="Instagram"></a>
+      <a href="https://www.mixcloud.com/provenzanodj/" aria-label="Mixcloud"><img src="icons/mixcloud.svg" alt="Mixcloud"></a>
+      <a href="https://open.spotify.com/intl-it/artist/0X31zioYkeZFA3GBQR937K" aria-label="Spotify"><img src="icons/spotify.svg" alt="Spotify"></a>
+      <a href="https://music.apple.com/it/artist/provenzano/278152767" aria-label="Apple Music"><img src="icons/applemusic.svg" alt="Apple Music"></a>
+      <a href="https://www.beatport.com/it/artist/provenzano/43592" aria-label="Beatport"><img src="icons/beatport.svg" alt="Beatport"></a>
+      <a href="https://soundcloud.com/provenzano_official" aria-label="SoundCloud"><img src="icons/soundcloud.svg" alt="SoundCloud"></a>
+      <a href="https://www.youtube.com/@provenzanodj_official" aria-label="YouTube"><img src="icons/youtube.svg" alt="YouTube"></a>
+      <a href="https://www.tiktok.com/@provenzanodj_official" aria-label="TikTok"><img src="icons/tiktok.svg" alt="TikTok"></a>
+      <a href="https://www.facebook.com/provenzanodj" aria-label="Facebook"><img src="icons/facebook.svg" alt="Facebook"></a>
+    </nav>
+  </div>
+
 </main>
 
 <script>

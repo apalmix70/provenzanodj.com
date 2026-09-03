@@ -23,6 +23,13 @@ Brief, decisioni e archivio del progetto: `02-PROVENZANO-DJ/sito/` nel workspace
   **Non si modificano a mano**: sono generati dal workspace privato
   (`02-PROVENZANO-DJ/instagram/crossover/database/`, comando `python aggiorna.py`),
   che ogni settimana ci riversa la puntata nuova
+- `foto/` — la figura della home. **Generata con GPT Image 2** (Higgsfield) partendo dalla
+  foto di riferimento del volto, non ripresa da un servizio fotografico: total black su fondo
+  nero, una sola luce rossa di taglio lungo il braccio. In pagina c'è `hero-v3.jpg`; le altre
+  tre restano come alternative. ⚠️ **Il nero della foto è già portato a `#000` e i bordi sono
+  già sfumati nel file** — è quello che la fa sparire dentro la pagina invece di lasciare un
+  rettangolo visibile. Se si cambia foto va rifatto quel passaggio, non aggiunta una maschera
+  CSS. Originali a piena risoluzione in `D:\VIDEO - PROVENZANO\sito\hero-home\`
 - `fonts/` — Anton e Poppins ExtraBold (OFL)
 - `icons/` — icone social da [simple-icons](https://simpleicons.org) (CC0)
 - `CNAME` — arriverà quando il dominio Aruba viene puntato su GitHub Pages
