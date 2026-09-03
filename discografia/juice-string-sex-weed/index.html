@@ -74,6 +74,13 @@ footer .contenitore{display:flex;justify-content:space-between;gap:14px;flex-wra
 .blocco li .eti{color:var(--grigio);font-size:12px}
 .compilation li a{border-bottom:1px solid transparent}
 .compilation li a:hover{color:var(--rosso)}
+/* ⭐ **Le versioni in riga, non incolonnate** — scelta di Amerigo il
+   03/09/2026: *«per migliorare l'impatto visivo mettiamole in righe
+   orizzontali non verticali cosi' recuperiamo spazio»*. Su Life Goes On sei
+   versioni erano sei righe sopra al player; qui ne bastano due. Il separatore
+   e' scritto dal generatore, virgola o punto in mezzo secondo i nomi. */
+.versioni{font-size:14px;line-height:1.9;max-width:74ch}
+.versioni .v{white-space:nowrap}
 /* ⭐ **Le presenze su compilation di altri: una riga di conto qui, i titoli in
    fondo alla pagina** — scelta di Amerigo il 03/09/2026 fra cinque prove
    renderizzate sulla pagina vera di *Amazing*. Sono testo che scorre, non un
@@ -170,7 +177,7 @@ footer .contenitore{display:flex;justify-content:space-between;gap:14px;flex-wra
     </div>
   </article>
 
-  <section class="blocco"><h3>Le versioni</h3><ul class="versioni"><li><span class="tit">Laidback Luke Remix</span></li><li><span class="tit">Provenzano &amp; Promise Land Remix 7:57</span></li><li><span class="tit">Sidekick Massive Club Remix</span></li><li><span class="tit">Roger&#x27;s Release Mix</span></li></ul></section>
+  <section class="blocco"><h3>Le versioni</h3><p class="versioni"><span class="v">Laidback Luke Remix</span>, <span class="v">Provenzano &amp; Promise Land Remix</span>, <span class="v">Sidekick Massive Club Remix</span>, <span class="v">Roger&#x27;s Release Mix</span></p></section>
   <section class="blocco"><h3>Inserita in una compilation</h3><ul class="compilation"><li><span class="tit">Suburbia Unmixed 4</span><span class="anno">0.0.2008</span></li></ul></section>
   
   

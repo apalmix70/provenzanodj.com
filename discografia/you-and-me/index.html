@@ -74,6 +74,13 @@ footer .contenitore{display:flex;justify-content:space-between;gap:14px;flex-wra
 .blocco li .eti{color:var(--grigio);font-size:12px}
 .compilation li a{border-bottom:1px solid transparent}
 .compilation li a:hover{color:var(--rosso)}
+/* ⭐ **Le versioni in riga, non incolonnate** — scelta di Amerigo il
+   03/09/2026: *«per migliorare l'impatto visivo mettiamole in righe
+   orizzontali non verticali cosi' recuperiamo spazio»*. Su Life Goes On sei
+   versioni erano sei righe sopra al player; qui ne bastano due. Il separatore
+   e' scritto dal generatore, virgola o punto in mezzo secondo i nomi. */
+.versioni{font-size:14px;line-height:1.9;max-width:74ch}
+.versioni .v{white-space:nowrap}
 /* ⭐ **Le presenze su compilation di altri: una riga di conto qui, i titoli in
    fondo alla pagina** — scelta di Amerigo il 03/09/2026 fra cinque prove
    renderizzate sulla pagina vera di *Amazing*. Sono testo che scorre, non un
@@ -170,7 +177,7 @@ footer .contenitore{display:flex;justify-content:space-between;gap:14px;flex-wra
     </div>
   </article>
 
-  <section class="blocco"><h3>Le versioni</h3><ul class="versioni"><li><span class="tit">Remix Stefano Pain &amp; Marcello Lepore</span><span class="anno">18.11.2014</span></li></ul></section>
+  <section class="blocco"><h3>Le versioni</h3><p class="versioni"><span class="v">Remix Stefano Pain &amp; Marcello Lepore</span></p></section>
   <section class="blocco"><h3>Inserita in 2 compilation</h3><ul class="compilation"><li><a href="/compilation/m2ovol34/">m2o vol.34</a><span class="anno">2013</span></li><li><a href="/compilation/m2ovol36/">m2o vol.36</a><span class="anno">2014</span></li></ul></section>
   <section class="blocco"><h3>Ascolta</h3><iframe class="spotify" loading="lazy" src="https://open.spotify.com/embed/track/6m7BUzVvsLDY2WXkSSW0OL" height="152" frameborder="0" allow="encrypted-media"></iframe></section>
   <section class="blocco"><h3>Il video</h3><div class="video"><iframe src="https://www.youtube-nocookie.com/embed/PQA05XdI3yw" title="You And Me" loading="lazy" frameborder="0" allowfullscreen allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe></div><div class="didascalia">videoclip ufficiale · Bang Record</div></section>

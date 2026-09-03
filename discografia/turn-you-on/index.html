@@ -74,6 +74,13 @@ footer .contenitore{display:flex;justify-content:space-between;gap:14px;flex-wra
 .blocco li .eti{color:var(--grigio);font-size:12px}
 .compilation li a{border-bottom:1px solid transparent}
 .compilation li a:hover{color:var(--rosso)}
+/* ⭐ **Le versioni in riga, non incolonnate** — scelta di Amerigo il
+   03/09/2026: *«per migliorare l'impatto visivo mettiamole in righe
+   orizzontali non verticali cosi' recuperiamo spazio»*. Su Life Goes On sei
+   versioni erano sei righe sopra al player; qui ne bastano due. Il separatore
+   e' scritto dal generatore, virgola o punto in mezzo secondo i nomi. */
+.versioni{font-size:14px;line-height:1.9;max-width:74ch}
+.versioni .v{white-space:nowrap}
 /* ⭐ **Le presenze su compilation di altri: una riga di conto qui, i titoli in
    fondo alla pagina** — scelta di Amerigo il 03/09/2026 fra cinque prove
    renderizzate sulla pagina vera di *Amazing*. Sono testo che scorre, non un
@@ -170,7 +177,7 @@ footer .contenitore{display:flex;justify-content:space-between;gap:14px;flex-wra
     </div>
   </article>
 
-  <section class="blocco"><h3>Le versioni</h3><ul class="versioni"><li><span class="tit">Radio Edit 2:39</span></li><li><span class="tit">Turn You On 5:44</span></li><li><span class="tit">HJM Hook 7:03</span></li><li><span class="tit">Pizza Brothers Remix 5:34</span></li><li><span class="tit">Formal Monkeys Remix 7:02</span></li><li><span class="tit">Daniel Chord &amp; Provenzano Remix 5:38</span></li><li><span class="tit">Sergio Matina &amp; Gabry Sangineto TendenziA Groovy Mix 8:25</span></li><li><span class="tit">Nicola Zucchi Remix 5:08</span></li><li><span class="tit">Felipe C Remix 6:13</span></li><li><span class="tit">Phunkjump Remix 5:52</span></li></ul></section>
+  <section class="blocco"><h3>Le versioni</h3><p class="versioni"><span class="v">Radio Edit</span>, <span class="v">Turn You On</span>, <span class="v">HJM Hook</span>, <span class="v">Pizza Brothers Remix</span>, <span class="v">Formal Monkeys Remix</span>, <span class="v">Daniel Chord &amp; Provenzano Remix</span>, <span class="v">Sergio Matina &amp; Gabry Sangineto TendenziA Groovy Mix</span>, <span class="v">Nicola Zucchi Remix</span>, <span class="v">Felipe C Remix</span>, <span class="v">Phunkjump Remix</span></p></section>
   <section class="blocco"><h3>Inserita in 2 compilation</h3><ul class="compilation"><li><a href="/compilation/m2ovol30/">m2o vol.30</a><span class="anno">2012</span></li><li><a href="/compilation/m2ovol31/">m2o vol.31</a><span class="anno">2012</span></li></ul></section>
   <section class="blocco"><h3>Ascolta</h3><div class="didascalia">il singolo, tre versioni</div><iframe class="spotify" loading="lazy" src="https://open.spotify.com/embed/album/2LQeepC2r7jACOeLSJiwtJ" height="152" frameborder="0" allow="encrypted-media"></iframe><div class="didascalia">l&#x27;album dei remix, sette versioni</div><iframe class="spotify" loading="lazy" src="https://open.spotify.com/embed/album/7fdJ3IYtFT0gcFbXX1Y65V" height="152" frameborder="0" allow="encrypted-media"></iframe></section>
   <section class="blocco"><h3>Il video</h3><div class="video"><iframe src="https://www.youtube-nocookie.com/embed/bBDpEKCY6gs" title="Turn You On" loading="lazy" frameborder="0" allowfullscreen allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe></div><div class="didascalia">videoclip ufficiale · canale Henry John Morgan</div></section>

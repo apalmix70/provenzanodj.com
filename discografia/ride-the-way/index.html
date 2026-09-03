@@ -74,6 +74,13 @@ footer .contenitore{display:flex;justify-content:space-between;gap:14px;flex-wra
 .blocco li .eti{color:var(--grigio);font-size:12px}
 .compilation li a{border-bottom:1px solid transparent}
 .compilation li a:hover{color:var(--rosso)}
+/* ⭐ **Le versioni in riga, non incolonnate** — scelta di Amerigo il
+   03/09/2026: *«per migliorare l'impatto visivo mettiamole in righe
+   orizzontali non verticali cosi' recuperiamo spazio»*. Su Life Goes On sei
+   versioni erano sei righe sopra al player; qui ne bastano due. Il separatore
+   e' scritto dal generatore, virgola o punto in mezzo secondo i nomi. */
+.versioni{font-size:14px;line-height:1.9;max-width:74ch}
+.versioni .v{white-space:nowrap}
 /* ⭐ **Le presenze su compilation di altri: una riga di conto qui, i titoli in
    fondo alla pagina** — scelta di Amerigo il 03/09/2026 fra cinque prove
    renderizzate sulla pagina vera di *Amazing*. Sono testo che scorre, non un
@@ -170,7 +177,7 @@ footer .contenitore{display:flex;justify-content:space-between;gap:14px;flex-wra
     </div>
   </article>
 
-  <section class="blocco"><h3>Le versioni</h3><ul class="versioni"><li><span class="tit">90 Fever Mix</span></li></ul></section>
+  <section class="blocco"><h3>Le versioni</h3><p class="versioni"><span class="v">90 Fever Mix</span></p></section>
   <section class="blocco"><h3>Inserita in 3 compilation</h3><ul class="compilation"><li><a href="/compilation/m2ovol15/">m2o vol.15</a><span class="anno">2007</span></li><li><span class="tit">Dance Passion 2nd Act</span> <span class="eti">mixata da Danijay e Luca Zeta</span><span class="anno">13.7.2007</span></li><li><span class="tit">Plug &amp; Play</span> <span class="eti">mixata da Danijay</span><span class="anno">23.6.2008</span></li></ul></section>
   <section class="blocco"><h3>Ascolta</h3><div class="didascalia">90 Fever Mix</div><iframe class="soundcloud" loading="lazy" height="166" frameborder="0" scrolling="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F2393347683&secret_token=s-hpzsos4qlLx&color=%23FF3131&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false"></iframe></section>
   

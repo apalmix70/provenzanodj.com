@@ -74,6 +74,13 @@ footer .contenitore{display:flex;justify-content:space-between;gap:14px;flex-wra
 .blocco li .eti{color:var(--grigio);font-size:12px}
 .compilation li a{border-bottom:1px solid transparent}
 .compilation li a:hover{color:var(--rosso)}
+/* ⭐ **Le versioni in riga, non incolonnate** — scelta di Amerigo il
+   03/09/2026: *«per migliorare l'impatto visivo mettiamole in righe
+   orizzontali non verticali cosi' recuperiamo spazio»*. Su Life Goes On sei
+   versioni erano sei righe sopra al player; qui ne bastano due. Il separatore
+   e' scritto dal generatore, virgola o punto in mezzo secondo i nomi. */
+.versioni{font-size:14px;line-height:1.9;max-width:74ch}
+.versioni .v{white-space:nowrap}
 /* ⭐ **Le presenze su compilation di altri: una riga di conto qui, i titoli in
    fondo alla pagina** — scelta di Amerigo il 03/09/2026 fra cinque prove
    renderizzate sulla pagina vera di *Amazing*. Sono testo che scorre, non un
@@ -170,7 +177,7 @@ footer .contenitore{display:flex;justify-content:space-between;gap:14px;flex-wra
     </div>
   </article>
 
-  <section class="blocco"><h3>Le versioni</h3><ul class="versioni"><li><span class="tit">Radio Edit 2:35</span></li><li><span class="tit">Original Mix 5:08</span></li><li><span class="tit">Donati &amp; Amato Remix 5:19</span></li><li><span class="tit">Donati &amp; Amato Radio Edit 3:08</span></li><li><span class="tit">Federico Scavo Remix 6:17</span></li><li><span class="tit">Federico Scavo Instrumental Dub 6:17</span></li><li><span class="tit">Luca Guerrieri Remix 6:26</span></li><li><span class="tit">Retrohandz Remix 5:12</span></li></ul></section>
+  <section class="blocco"><h3>Le versioni</h3><p class="versioni"><span class="v">Radio Edit</span>, <span class="v">Original Mix</span>, <span class="v">Donati &amp; Amato Remix</span>, <span class="v">Donati &amp; Amato Radio Edit</span>, <span class="v">Federico Scavo Remix</span>, <span class="v">Federico Scavo Instrumental Dub</span>, <span class="v">Luca Guerrieri Remix</span>, <span class="v">Retrohandz Remix</span></p></section>
   <section class="blocco"><h3>Inserita in 2 compilation</h3><ul class="compilation"><li><a href="/compilation/m2ovol31/">m2o vol.31</a><span class="anno">2012</span></li><li><a href="/compilation/m2ovol32/">m2o vol.32</a><span class="anno">2013</span></li></ul></section>
   <section class="blocco"><h3>Ascolta</h3><iframe class="spotify" loading="lazy" src="https://open.spotify.com/embed/album/5X7Uqzo61VVTySpMWyiBgB" height="152" frameborder="0" allow="encrypted-media"></iframe></section>
   <section class="blocco"><h3>Il video</h3><div class="video"><iframe src="https://www.youtube-nocookie.com/embed/8uL56sZs0tM" title="Touch The Sky" loading="lazy" frameborder="0" allowfullscreen allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe></div><div class="didascalia">videoclip ufficiale · tuo canale, Official Video</div></section>
