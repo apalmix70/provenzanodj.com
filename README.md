@@ -12,7 +12,12 @@ quella che avrà.
 Brief, decisioni e archivio del progetto: `02-PROVENZANO-DJ/sito/` nel workspace privato
 (`apalmix70/provenzano-workspace`). Questo repo contiene **solo** ciò che va online.
 
-- `index.html` — la home, senza build: si modifica e si pusha
+- `index.html` — la home, senza build: si modifica e si pusha. Le quattro voci in colonna
+  sono, in quest'ordine: **Biografia, Discografia, Compilation, Crossover** (Amerigo, 03/09/2026)
+- `biografia/` — la storia in prima persona, dal 1970 a oggi. **Scritta a mano, non generata**:
+  è testo, si modifica direttamente qui. Le fonti e le regole di voce stanno nel workspace
+  privato (`context/chi-sono.md` e `02-PROVENZANO-DJ/sito/brief.md`): prima persona,
+  «tu» al visitatore, poche parole e molti fatti
 - `crossover/` — l'archivio dei dischi passati in Crossover: `index.html` è la pagina di
   ricerca, `numeri/index.html` le statistiche, `dati/` i due JSON che le alimentano.
   **Non si modificano a mano**: sono generati dal workspace privato

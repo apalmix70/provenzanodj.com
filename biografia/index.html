@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Biografia — come è andata</title>
+<meta name="description" content="La storia di Provenzano Dj raccontata da lui: dal corso Midifonico a RDS, la nascita di m2o nel 2002, oltre 90 compilation mixate, i dischi dal 1992, i club, il Crossover.">
+<meta property="og:title" content="Biografia — come è andata">
+<meta property="og:description" content="Dal corso Midifonico a RDS, la nascita di m2o nel 2002, oltre 90 compilation mixate, i dischi dal 1992, i club, il Crossover. Raccontata in prima persona.">
+<meta property="og:type" content="profile">
+<meta property="og:url" content="https://www.provenzanodj.com/biografia/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23000'/%3E%3Ccircle cx='32' cy='38' r='14' fill='%23FF3131'/%3E%3C/svg%3E">
+<style>
+@font-face{font-family:'Anton';src:url('../fonts/Anton-Regular.ttf') format('truetype');font-display:swap}
+@font-face{font-family:'Poppins EB';src:url('../fonts/Poppins-ExtraBold.ttf') format('truetype');font-display:swap}
+:root{--nero:#000;--rosso:#FF3131;--bianco:#fff;
+  --grigio:rgba(255,255,255,.55);--debole:rgba(255,255,255,.35);
+  --riga:rgba(255,255,255,.10);--pannello:#0b0b0b;--testata:47px}
+*{margin:0;padding:0;box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{background:var(--nero);color:var(--bianco);
+  font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
+  min-height:100svh;display:flex;flex-direction:column}
+a{color:inherit;text-decoration:none}
+.contenitore{width:100%;max-width:1080px;margin:0 auto;padding:0 20px}
+header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;background:var(--nero)}
+.testata{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 0}
+.logo{font-family:'Poppins EB',Arial,sans-serif;font-size:19px;letter-spacing:-.04em;line-height:1}
+.logo .punto{color:var(--rosso)}
+.menu{display:flex;gap:18px;flex-wrap:wrap;font-size:11px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--grigio)}
+.menu a.qui{color:var(--bianco)}
+.menu a:hover{color:var(--bianco)}
+h1,h2,h3{font-family:'Anton',Arial,sans-serif;font-weight:400;text-transform:uppercase;letter-spacing:.03em}
+/* ⚠️ m2o si scrive minuscolo anche dentro una testata in maiuscolo — stessa
+   regola del resto del sito (vedi la classe .m2o in /discografia/). */
+.m2o{text-transform:lowercase}
+footer{margin-top:auto;border-top:1px solid var(--riga);padding:22px 0 26px;
+  font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--debole)}
+footer .contenitore{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+
+.cartello{padding:26px 0 18px}
+.cartello h1{font-size:clamp(30px,6vw,54px);line-height:1}
+.cartello h1 .punto{color:var(--rosso)}
+.cartello .sotto{margin-top:12px;color:var(--grigio);font-size:14px;line-height:1.6;max-width:58ch}
+.cartello .sotto b{color:var(--bianco);font-weight:600}
+
+/* ⚠️ **La biografia si legge in avanti, dal 1970 a oggi.** Non e' una svista
+   rispetto alla home, che invece scorre all'indietro: la home e' una linea del
+   tempo e li' scendere vuol dire tornare indietro, questa e' una storia e le
+   storie si raccontano dall'inizio. Se un giorno la timeline per anni prende il
+   posto di questa pagina, il verso torna quello della home. */
+
+/* la spina: l'anno a sinistra, il racconto a destra */
+.capitolo{display:grid;grid-template-columns:132px 1fr;gap:0 34px;
+  padding:30px 0;border-top:1px solid var(--riga)}
+.capitolo:first-of-type{border-top:none}
+.capitolo .quando{font-family:'Anton',Arial,sans-serif;font-size:clamp(20px,3vw,26px);
+  line-height:1.05;color:var(--rosso);letter-spacing:.02em;
+  position:sticky;top:calc(var(--testata) + 16px);align-self:start}
+.capitolo .quando small{display:block;margin-top:7px;font-family:system-ui,sans-serif;
+  font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--debole)}
+.capitolo .corpo{max-width:60ch}
+.capitolo h2{font-size:clamp(18px,2.6vw,23px);line-height:1.15;margin-bottom:12px}
+.capitolo p{font-size:15px;line-height:1.75;color:rgba(255,255,255,.78);margin-bottom:13px}
+.capitolo p:last-child{margin-bottom:0}
+.capitolo b{color:var(--bianco);font-weight:600}
+.capitolo em{font-style:normal;color:var(--rosso)}
+/* i link dentro il racconto portano agli archivi: sono la prova di quello che
+   il paragrafo dice, non decorazione */
+.capitolo a.dentro{color:var(--bianco);border-bottom:1px solid rgba(255,49,49,.55);
+  padding-bottom:1px}
+.capitolo a.dentro:hover{border-bottom-color:var(--bianco)}
+@media (max-width:720px){
+  .capitolo{grid-template-columns:1fr;gap:10px}
+  .capitolo .quando{position:static;font-size:19px}
+  .capitolo .quando small{display:inline;margin-left:10px}
+}
+
+/* la citazione: una sola, in chiusura. Se diventano tre non le legge nessuno */
+.detto{padding:34px 0;border-top:1px solid var(--riga)}
+.detto blockquote{font-family:'Anton',Arial,sans-serif;text-transform:uppercase;
+  font-size:clamp(20px,3.6vw,34px);line-height:1.18;letter-spacing:.02em;max-width:20ch}
+.detto blockquote .punto{color:var(--rosso)}
+
+/* le tre porte — «Vuoi X? Verbo.», la grammatica delle CTA del sito */
+.porte{padding:8px 0 40px;border-top:1px solid var(--riga);display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.porta{display:block;border:1px solid var(--riga);border-radius:4px;padding:16px 17px;
+  background:var(--pannello);transition:border-color .15s,background .15s}
+.porta:hover{border-color:#3a3a3a;background:#101010}
+.porta .dom{font-size:12px;letter-spacing:.06em;color:var(--grigio)}
+.porta .ris{margin-top:7px;font-family:'Anton',Arial,sans-serif;text-transform:uppercase;
+  font-size:19px;letter-spacing:.03em}
+.porta .ris .punto{color:var(--rosso)}
+.porte-testa{padding:30px 0 6px;border-top:1px solid var(--riga)}
+.porte-testa h2{font-size:clamp(18px,2.6vw,23px)}
+.porte-testa h2 .punto{color:var(--rosso)}
+</style>
+</head>
+<body>
+
+<header><div class="contenitore testata">
+  <a class="logo" href="/">provenzano<span class="punto">.</span></a>
+  <nav class="menu">
+    <a class="qui" href="/biografia/">Biografia</a>
+    <a href="/discografia/">Discografia</a>
+    <a href="/compilation/">Compilation</a>
+    <a href="/crossover/puntate/">Crossover</a>
+    <a href="/">Home</a>
+  </nav>
+</div></header>
+
+<main class="contenitore">
+
+  <div class="cartello">
+    <h1>Biografia<span class="punto">.</span></h1>
+    <p class="sotto">Roma, 12 ottobre 1970. Trent&rsquo;anni a scegliere musica, produrla e
+    proporla — in radio, in pista, sui social. Qui c&rsquo;è <b>come è andata</b>, dall&rsquo;inizio.</p>
+  </div>
+
+  <article>
+
+    <section class="capitolo">
+      <div class="quando">1970<small>Roma</small></div>
+      <div class="corpo">
+        <h2>Un computer e una radio accesa</h2>
+        <p>Il primo computer l&rsquo;ho comprato con mio padre: un <b>Commodore VIC-20</b>. La
+        musica e i cavi sono partiti insieme, e da allora non si sono più separati — è ancora
+        il motivo per cui oggi mi trovate a smontare un modello di intelligenza artificiale
+        invece che a lamentarmene.</p>
+        <p>Dopo il diploma all&rsquo;Istituto Tecnico Industriale Hertz sento per caso alla radio
+        Anna Pettinelli che annuncia un corso della Regione Lazio con un nome che non diceva
+        niente a nessuno: <b>Midifonico</b>. Elettronica e musica, in anni in cui le due parole
+        non stavano ancora nella stessa frase. Una trentina di posti. Entro. A fine corso ci
+        smistano nelle aziende del settore, e a me tocca <b>RDS</b>.</p>
+      </div>
+    </section>
+
+    <section class="capitolo">
+      <div class="quando">1990<small>RDS</small></div>
+      <div class="corpo">
+        <h2>Dodici anni in regia</h2>
+        <p>In RDS divento quello che chiamavano il jolly: regia, diretta, fonico, montaggio,
+        pubblicità. Poi responsabile della post-produzione e della gestione degli spot. Nei
+        primi anni Novanta sono quello che spinge per il passaggio dall&rsquo;analogico al
+        digitale — <b>Pro Tools</b>, i DAT — quando in radio si tagliava ancora il nastro con
+        la lametta.</p>
+        <p>Sul sabato sera nasce <b>TOP TEN DANCE</b>, che nel <b>1995</b> vince un
+        <em>Telegatto</em>. Negli stessi anni comincio a mixare <b>Hit Mania Dance</b>: è lì
+        che imparo che una compilation non è una fila di dischi, è un discorso con un ordine.</p>
+        <p>Il mestiere l&rsquo;ho imparato lì, e non da solo. <b>Paolo Bolognesi</b>, sei anni
+        più di me, mi ha insegnato l&rsquo;etica del lavoro e il rispetto molto prima delle
+        tecniche.</p>
+      </div>
+    </section>
+
+    <section class="capitolo">
+      <div class="quando">2002<small>la radio senza nome</small></div>
+      <div class="corpo">
+        <h2>Costruire una radio da zero</h2>
+        <p>A febbraio mi chiama <b>Fabrizio Tamburini</b>: c&rsquo;è da trasformare Italia
+        Radio, la terza emittente del Gruppo Espresso, in qualcosa per un pubblico giovane. Ci
+        trasferiamo in tre, io, Paolo Bolognesi e Davide Fara.</p>
+        <p>Il progetto parte davvero da niente. Non esistevano nemmeno gli studi: li abbiamo
+        disegnati e allestiti noi. E non esisteva il nome — per mesi la radio va in onda in
+        prova mentre si scartano ipotesi come <i>Lemon Radio</i> e <i>Radio Londra</i>. Poi
+        arriva <b class="m2o">m2o</b>, <i>musica allo stato puro</i>, e appena lo sentiamo
+        finisce la discussione.</p>
+        <p>La prima compilation esce insieme al lancio, venduta nei negozi di dischi a un
+        prezzo che per l&rsquo;epoca era una provocazione. Va esaurita in poco tempo. È lì che
+        capiamo tutti che la cosa funziona.</p>
+      </div>
+    </section>
+
+    <section class="capitolo">
+      <div class="quando">2002<small>&mdash;&nbsp;2019</small></div>
+      <div class="corpo">
+        <h2>Diciassette anni di <span class="m2o">m2o</span></h2>
+        <p>Per diciassette anni sono di fatto l&rsquo;immagine artistica della radio: invento
+        format, do la linea musicale, porto dentro artisti, conduco nelle fasce di punta del
+        pomeriggio, e sono headliner agli eventi live del marchio.</p>
+        <p>E mixo. <b>Oltre 90 compilation</b> in tutto, <b>53 solo per <span class="m2o">m2o</span></b>:
+        i quaranta volumi numerati, i quattro DualDisc — un disco a due facce, CD da una parte e
+        DVD dall&rsquo;altra, con dentro una partita di calcio fra il cast della radio e una gara
+        di auto — e le nove <i>Xperience</i>. A un certo punto il CD smette di uscire da solo e
+        viene abbinato a <i>Pianeta <span class="m2o">m2o</span></i>: da lì entra in edicola, che
+        è un altro campionato rispetto ai negozi di dischi.
+        <a class="dentro" href="/compilation/">Il muro delle copertine è qui</a>.</p>
+        <p>Nel mezzo c&rsquo;è anche la televisione: un programma di video mixati per
+        <b>All Music</b>, selezione musicale mixata dal vivo con videoclip sincronizzati ed
+        effetti. Il primo posto in cui il mio mestiere ha incontrato il linguaggio visivo —
+        vent&rsquo;anni prima di rifarlo con l&rsquo;intelligenza artificiale.</p>
+      </div>
+    </section>
+
+    <section class="capitolo">
+      <div class="quando">1992<small>i dischi</small></div>
+      <div class="corpo">
+        <h2>Il produttore</h2>
+        <p>Comincio con <b>Double Dare</b> — <i>I Believe</i>, <i>We Belong</i> — dentro
+        l&rsquo;italo dance delle origini. Da lì non ho più smesso: singoli miei, remix per
+        altri, e i pezzi nati dentro le compilation e mai usciti altrove.</p>
+        <p>Nei Duemila arrivano i remix che mi portano fuori dall&rsquo;Italia:
+        <i>Leave The World Behind</i> di Steve Angello, Sebastian Ingrosso, Axwell &amp;
+        Laidback Luke feat. Deborah Cox, e <i>Scared of Me</i> di Fedde Le Grand feat. Mitch
+        Crown. Nel <b>2017</b> <i>Folegandros</i> con <b>Federico Scavo</b>, che è ancora oggi
+        il pezzo con cui mi riconoscono. Poi <i>La Trompeta</i> con Paul Jockey,
+        <i>Run Run Run</i> con Fedo Mora e Adam Clay, <i>Barranquilla</i>,
+        <i>Super Paradise</i>.
+        <a class="dentro" href="/discografia/">Tutte le uscite, anno per anno, stanno qui</a>.</p>
+        <p><i>Anima Libera</i> è un caso a parte: non è un mio brano. L&rsquo;ho aperta in una
+        compilation quando non la conosceva nessuno ed è diventata il pezzo che mi chiedono
+        ovunque suoni in Italia. Per farne una mia versione ho dovuto inseguire per anni
+        l&rsquo;autorizzazione degli aventi diritto. È arrivata da poco.</p>
+      </div>
+    </section>
+
+    <section class="capitolo">
+      <div class="quando">La pista<small>i club</small></div>
+      <div class="corpo">
+        <h2>Dove ho suonato</h2>
+        <p><b>Cocoricò</b> e <b>Peter Pan</b> a Riccione, <b>Baia Imperiale</b> a Gabicce Mare,
+        <b>Praja</b> a Gallipoli, <b>Altromondo Studios</b> a Rimini, <b>Privilege</b> a Ibiza.
+        E le altre trecento sere che non stanno in un elenco.</p>
+        <p>Non ho una risposta fissa su cosa suonare: dipende dal posto, dall&rsquo;età di chi
+        hai davanti, dal periodo. L&rsquo;obiettivo è sempre lo stesso, e non è far vedere cosa
+        so fare — è far divertire chi è venuto.</p>
+      </div>
+    </section>
+
+    <section class="capitolo">
+      <div class="quando">Oggi<small>2019&nbsp;&mdash;</small></div>
+      <div class="corpo">
+        <h2>Il venerdì, e il resto</h2>
+        <p>Dal novembre 2019 ogni venerdì esce <b>Crossover</b>: i dischi nuovi della settimana,
+        scelti uno per uno e mixati. È il mestiere di sempre — scegliere musica — fatto con i
+        mezzi di adesso invece che con quelli della radio.
+        <a class="dentro" href="/crossover/puntate/">Tutte le puntate, con le tracklist</a>.</p>
+        <p>In parallelo c&rsquo;è <b>Volume Visivo</b>, il lavoro sui contenuti video fatti con
+        l&rsquo;intelligenza artificiale per etichette e artisti. Non è un cambio di mestiere:
+        è la stessa doppia natura di quando compravo il VIC-20 e mi facevo le copertine da
+        solo. La storia si ripete a ogni cambio di strumento — quando arrivò il computer, chi
+        suonava dal vivo diceva che fare musica al computer era una fregatura.</p>
+      </div>
+    </section>
+
+  </article>
+
+  <section class="detto">
+    <blockquote>Non è la bravura. È la capacità di comunicare qualcosa a chi ti
+    ascolta<span class="punto">.</span></blockquote>
+  </section>
+
+  <div class="porte-testa">
+    <h2>Scrivimi<span class="punto">.</span></h2>
+  </div>
+  <section class="porte">
+    <a class="porta" href="mailto:booking@provenzanodj.com">
+      <div class="dom">Vuoi una data?</div>
+      <div class="ris">Scrivimi<span class="punto">.</span></div>
+    </a>
+    <a class="porta" href="mailto:remix@provenzanodj.com">
+      <div class="dom">Vuoi un remix?</div>
+      <div class="ris">Scrivimi<span class="punto">.</span></div>
+    </a>
+    <a class="porta" href="/crossover/puntate/">
+      <div class="dom">Vuoi la musica?</div>
+      <div class="ris">Ascolta il Crossover<span class="punto">.</span></div>
+    </a>
+  </section>
+
+</main>
+
+<footer class="contenitore">
+  <span>&copy; Provenzano Dj</span>
+  <span>Roma, 12.10.1970</span>
+</footer>
+
+</body>
+</html>
