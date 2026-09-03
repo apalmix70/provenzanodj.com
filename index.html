@@ -263,8 +263,11 @@ a{color:inherit;text-decoration:none}
 .social{
   display:flex;
   flex-wrap:wrap;
-  gap:20px 24px;
-  max-width:360px;
+  gap:20px 22px;
+  /* ⚠️ Le icone sono **dieci** da quando c'e' Wikipedia: con 360px Facebook
+     andava a capo da solo. 10 icone da 17px + 9 spazi da 22px = 368px, e la
+     colonna del testo ne e' larga 480 — ci stanno tutte su una riga. */
+  max-width:400px;
 }
 .social a{display:block;line-height:0;opacity:.6;transition:opacity .15s}
 .social a:hover{opacity:1}
@@ -348,7 +351,15 @@ footer{
     </section>
 
     <div class="social-blocco">
-    <nav class="social" aria-label="Canali social">
+    <nav class="social" aria-label="Canali">
+      <!-- ⚠️ **Wikipedia sta in testa alla fila, e non e' un social**
+           (aggiunta chiesta da Amerigo il 03/09/2026: *«non molti dj sono su
+           Wikipedia»*). E' l'unica voce della riga che **non ha scritto lui**:
+           tutte le altre sono profili suoi, questa e' una voce di
+           un'enciclopedia. Per il sito, che deve rispondere a «posso fidarmi
+           di questo», e' l'unica prova esterna della fila — quindi sta
+           davanti, non in coda dopo Facebook. -->
+      <a href="https://it.wikipedia.org/wiki/Amerigo_Provenzano" aria-label="Wikipedia"><img src="icons/wikipedia.svg" alt="Wikipedia"></a>
       <a href="https://www.instagram.com/provenzanodj/" aria-label="Instagram"><img src="icons/instagram.svg" alt="Instagram"></a>
       <a href="https://www.mixcloud.com/provenzanodj/" aria-label="Mixcloud"><img src="icons/mixcloud.svg" alt="Mixcloud"></a>
       <a href="https://open.spotify.com/intl-it/artist/0X31zioYkeZFA3GBQR937K" aria-label="Spotify"><img src="icons/spotify.svg" alt="Spotify"></a>
