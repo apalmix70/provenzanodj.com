@@ -168,12 +168,17 @@ a{color:inherit;text-decoration:none}
    **La freccia.** Porta fuori dal sito, ed e' l'unica voce che lo fa: si
    dice prima di cliccare.
 
-   ⚠️ E la voce resta la sua, prima persona — «l'ho creato io». Volume Visivo
+   ⚠️ E la voce resta la sua, prima persona — «l'ho creata io». volumevisivo
    parla al plurale, ma parla a casa sua: qui e' lui che la nomina. Vedi
-   `context/tono-di-voce.md`, che tiene le due voci separate apposta. */
+   `context/tono-di-voce.md`, che tiene le due voci separate apposta.
+
+   ⚠️ **Il nome si scrive `volumevisivo`, tutto attaccato** (Amerigo,
+   03/09/2026), come `m2o`: e' il nome, non una descrizione di due parole.
+   E il verbo va al **femminile** — «creata» — perche' il referente e'
+   l'agenzia, non la parola. */
 .visivo{
-  margin-top:clamp(26px,4.5vh,44px);
-  padding-top:clamp(18px,3vh,26px);
+  margin-top:clamp(20px,3.4vh,34px);
+  padding-top:clamp(15px,2.4vh,22px);
   border-top:1px solid rgba(255,255,255,.12);
   max-width:34ch;
 }
@@ -214,7 +219,7 @@ a{color:inherit;text-decoration:none}
    Adesso e' una parola sola, e gli indirizzi arrivano al click su una riga.
    La parola resta la stessa: la grammatica del sito e' «Vuoi X? Scrivimi.». */
 .booking{
-  margin-top:clamp(30px,5vh,54px);
+  margin-top:clamp(20px,3.2vh,34px);
   text-transform:uppercase;
 }
 .booking .domanda{
@@ -245,11 +250,6 @@ a{color:inherit;text-decoration:none}
 .booking .domanda[aria-expanded="true"] .verso{
   transform:rotate(-135deg) translate(-2px,-2px);
 }
-/* ⚠️ Serve, e non e' ridondante: l'attributo `hidden` vale `display:none`
-   ma arriva dal foglio del browser, e qualsiasi `display` scritto qui lo
-   batte. Senza questa riga la fila resta visibile anche da chiusa — con
-   `aria-expanded="false"`, cioe' dicendo il contrario di quello che si vede. */
-.booking .mails[hidden]{display:none}
 /* ⚠️ **Gli indirizzi in colonna, senza spiegazione** (Amerigo, 03/09/2026).
    Prima ognuno aveva la sua etichetta — «una data», «un remix», «altro» —
    e stavano in fila. Ma la parola sopra dice gia' «Scrivimi»: chi ha aperto
@@ -261,7 +261,23 @@ a{color:inherit;text-decoration:none}
   flex-direction:column;
   align-items:flex-start;
   gap:9px;
+  /* ⚠️ **Gli indirizzi si accendono, non compaiono** (Amerigo, 03/09/2026:
+     *«non mi piace che quando premo scrivimi si allunga tutto il sito e
+     cambia forma»*). Prima erano `hidden`, cioe' fuori dal flusso: aprendo,
+     tutto quello sotto — icone e piede — scendeva di ottanta pixel e la
+     pagina cominciava a scorrere. Adesso il blocco **occupa il suo spazio
+     anche da chiuso** e cambia solo opacita': la pagina ha la stessa forma
+     aperta e chiusa, e non si muove niente.
+     `visibility` e non solo `opacity`: cosi' da chiusi gli indirizzi non si
+     cliccano per sbaglio, non finiscono nel giro del tasto Tab e non li
+     legge il sintetizzatore vocale. Il vuoto che resta non costa niente —
+     e' nero su nero. */
+  visibility:hidden;
+  opacity:0;
+  transition:opacity .18s;
 }
+.booking .mails.si{visibility:visible;opacity:1}
+@media (prefers-reduced-motion:reduce){.booking .mails{transition:none}}
 .booking .mail{
   display:inline-block;
   font-size:clamp(10px,1.3vw,12px);
@@ -297,7 +313,7 @@ a{color:inherit;text-decoration:none}
    sfuggire — la prima versione era a eventi e l'etichetta restava spenta.
    Lo spazio sopra la fila e' riservato sempre: se no le icone saltano su e
    giu' ogni volta che ci passi sopra. */
-.social-blocco{margin-top:clamp(28px,5vh,50px);position:relative;padding-top:22px}
+.social-blocco{margin-top:clamp(18px,3vh,32px);position:relative;padding-top:22px}
 .social a::after{
   content:attr(aria-label);
   position:absolute;
@@ -396,19 +412,19 @@ footer{
     </section>
 
     <section class="visivo">
-      <a href="https://www.volumevisivo.com" aria-label="Volume Visivo — si apre volumevisivo.com">
-        <span class="nome"><span>Volume Visivo<span class="punto">.</span></span><span class="fuori" aria-hidden="true">&#8599;</span></span>
+      <a href="https://www.volumevisivo.com" aria-label="volumevisivo — si apre volumevisivo.com">
+        <span class="nome"><span>volumevisivo<span class="punto">.</span></span><span class="fuori" aria-hidden="true">&#8599;</span></span>
       </a>
-      <p class="riga">L&rsquo;ho creato io <b>per evolvermi, non per voltare pagina</b>:
-      un&rsquo;agenzia creativa basata sull&rsquo;intelligenza artificiale per etichette,
-      artisti e contenuti social.</p>
+      <p class="riga">L&rsquo;ho creata io <b>per evolvermi, non per voltare pagina</b>:
+      contenuti visivi creati con l&rsquo;IA, al servizio di etichette, artisti, dj e
+      creator.</p>
     </section>
 
     <section class="booking">
       <button type="button" class="domanda" id="apri-mail" aria-expanded="false" aria-controls="mails">
         <span>Scrivimi<span class="punto">.</span></span><span class="verso" aria-hidden="true"></span>
       </button>
-      <div class="mails" id="mails" hidden>
+      <div class="mails" id="mails">
         <a class="mail" href="mailto:booking@provenzanodj.com">booking@provenzanodj.com</a>
         <a class="mail" href="mailto:remix@provenzanodj.com">remix@provenzanodj.com</a>
         <a class="mail" href="mailto:info@provenzanodj.com">info@provenzanodj.com</a>
@@ -442,16 +458,15 @@ footer{
 </main>
 
 <script>
-// Scrivimi apre e chiude la riga degli indirizzi. Parte chiusa: e' scritto
-// nell'HTML con `hidden`, non da qui, cosi' non c'e' il lampo del blocco
-// aperto prima che parta lo script.
+// Scrivimi accende e spegne gli indirizzi. Lo spazio e' sempre occupato, per
+// non far cambiare forma alla pagina: qui si tocca solo la classe.
 (function () {
   var bottone = document.getElementById('apri-mail');
   var riga = document.getElementById('mails');
   bottone.addEventListener('click', function () {
     var aperto = bottone.getAttribute('aria-expanded') === 'true';
     bottone.setAttribute('aria-expanded', aperto ? 'false' : 'true');
-    riga.hidden = aperto;
+    riga.classList.toggle('si', !aperto);
   });
 })();
 
