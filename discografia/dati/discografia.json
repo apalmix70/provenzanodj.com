@@ -104,7 +104,7 @@
    ],
    [
     2010,
-    104
+    105
    ],
    [
     2020,
@@ -211,7 +211,7 @@
     1
    ]
   ],
-  "quante_etichette": 80,
+  "quante_etichette": 81,
   "piu_compilation": [
    {
     "titolo": "I Believe",
@@ -9847,6 +9847,39 @@
   },
   {
    "tipo": "remix",
+   "slug": "anna-f-dna",
+   "artista": "Anna F.",
+   "titolo": "DNA",
+   "versioni": [],
+   "data": "2014-06-17",
+   "anno": 2014,
+   "data_esatta": true,
+   "firma": "Provenzano vs Denny Berland",
+   "etichetta": "Polydor / Universal",
+   "nota": "⭐ Ritrovata il 12/09/2026, e la prova è arrivata dall'archivio Facebook: la mail promo di Universal Music Group – Dance Department, firmata Andrea Corelli, salvata come foto — «Anna F. \"DNA (Italian Remixes)\" — Out on: 17-06-2014 (Polydor)», con la sua versione electro/progressive house insieme a Denny Berland e quella di Paul Richard. ⚠️ Undici giorni prima era stata chiusa con un «lasciamolo stare», e per come si era cercato la chiusura era giusta: si cercava un'uscita da store, e da store non esce niente — Spotify, Apple Music e Deezer non hanno il disco, Beatport risponde 403 a chiunque non sia un browser vero, e su Discogs c'è solo il promo francese a quattro tracce senza remix (release 9390951). ⭐ Era un servizio promo radio, che è un'altra filiera: la conferma sta su EarOne, il database degli airplay delle radio italiane, che ha in scheda «DNA (Provenzano Vs Denny Berland Radio Remix)», 3:06, genere Dance, etichetta Universal — song card `be7d9ffb08`, versione `13666`. ⭐ E c'è il dettaglio che lo dimostra: su EarOne le quattro versioni internazionali portano ISRC austriaci `ATWD213000xx`, mentre le due italiane — la sua e quella di Paul Richard — sono le uniche due senza ISRC. È l'impronta di un disco servito alle radio e mai messo in vendita. ⚠️ Quello che è uscito è la Radio Remix, non l'Extended: il master sul fisso è l'Extended ed è datato 27/06/2014, dieci giorni dopo l'uscita — o è una rifinitura successiva, o è la data di un render. ⚠️ Il remixer di fianco non si chiama «Paul Ricard» come lo scrive la mail, ma Paul Richard. ⚠️ Copertina presa da EarOne a 1600×1600: è l'artwork del singolo *DNA*, non quello dell'album *King In The Mirror* che si vede nella mail",
+   "escluso": false,
+   "sezione": "Remix",
+   "in_compilation": [],
+   "artista_diverso": [],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "deezer": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "propria",
+    "file": "cop/anna-f-dna.jpg"
+   },
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "remix",
    "slug": "samuel-kimko-edward-sanchez-laura-s-la-rumba",
    "artista": "Samuel Kimko', Edward Sanchez, Laura S.",
    "titolo": "La Rumba",
@@ -10602,7 +10635,7 @@
   },
   "2014": {
    "singoli": 7,
-   "remix": 2
+   "remix": 3
   },
   "2013": {
    "singoli": 8,
@@ -10667,9 +10700,9 @@
  },
  "totali": {
   "singoli": 125,
-  "remix": 84,
+  "remix": 85,
   "inediti": 31,
-  "con_copertina": 209,
+  "con_copertina": 210,
   "con_video": 53,
   "con_spotify": 85,
   "con_soundcloud": 51,
