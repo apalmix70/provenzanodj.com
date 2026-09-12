@@ -65,15 +65,15 @@
     15
    ],
    [
+    2011,
+    14
+   ],
+   [
     2006,
     13
    ],
    [
     2007,
-    13
-   ],
-   [
-    2011,
     13
    ],
    [
@@ -104,7 +104,7 @@
    ],
    [
     2010,
-    103
+    104
    ],
    [
     2020,
@@ -8921,6 +8921,45 @@
   },
   {
    "tipo": "remix",
+   "slug": "dj-falaska-nobody",
+   "artista": "DJ Falaska",
+   "titolo": "Nobody",
+   "versioni": [],
+   "data": "2011-06-29",
+   "anno": 2011,
+   "data_esatta": true,
+   "firma": "Provenzano, Ranucci & Pelusi",
+   "etichetta": "Smilax Publishing",
+   "nota": "⭐ Ritrovata il 12/09/2026 partendo da una copertina spaiata. Il file `2011 DJ Falaska - Nobody.jpg` stava in archivio senza un disco a cui attaccarsi, e dietro c'era un remix che in questa tabella non c'era mai stato — né fra le righe né fra i candidati scartati. P.R.P. sono Provenzano, Ranucci e Pelusi: Discogs non si ferma alla sigla, elenca i tre nomi come Remix e Producer. Lo stesso terzetto di *Enjoy The Silence* e di *A.R.I.A.* — e l'artista è Fabio Falasca. ⭐ Due stampe: il 12\" SPV109, dove sta al lato B1 come «Nobody, P.R.P.», e il digitale a 9 tracce SP1347 del 29/06/2011, traccia 4, «Nobody, P.R.P. Remix». ⚠️ Sulla data le fonti litigavano: Amazon dava 23/10/2012, Discogs 29/06/2011. Decide Beatport, che conferma il 29/06/2011 a 127-128 bpm su Smilax Records: quella del 2012 è un ricaricamento. L'anno del 12\" resta da chiudere, su Discogs non c'è. ⭐ Sul disco c'è anche Maurizio Gubellini, quarta volta accanto a lui dopo *I'm Waiting*, *Right Or Wrong* e *Chains Of Love*",
+   "escluso": false,
+   "sezione": "Remix",
+   "in_compilation": [],
+   "artista_diverso": [],
+   "versioni_uscita": [],
+   "spotify": {
+    "tipo": "track",
+    "album": "0UsXaqSxKbFtxt314Y2hth",
+    "titolo": "Nobody",
+    "cosa": null,
+    "alto": false
+   },
+   "video": null,
+   "video_altri": [],
+   "soundcloud": null,
+   "deezer": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "propria",
+    "file": "cop/dj-falaska-nobody.jpg"
+   },
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "remix",
    "slug": "luca-ruco-feat-sherrita-just-believe",
    "artista": "Luca Ruco feat. Sherrita",
    "titolo": "Just Believe",
@@ -10575,7 +10614,7 @@
   },
   "2011": {
    "singoli": 5,
-   "remix": 8
+   "remix": 9
   },
   "2010": {
    "singoli": 3,
@@ -10628,11 +10667,11 @@
  },
  "totali": {
   "singoli": 125,
-  "remix": 83,
+  "remix": 84,
   "inediti": 31,
-  "con_copertina": 208,
+  "con_copertina": 209,
   "con_video": 53,
-  "con_spotify": 84,
+  "con_spotify": 85,
   "con_soundcloud": 51,
   "con_deezer": 0,
   "con_traxsource": 1,
