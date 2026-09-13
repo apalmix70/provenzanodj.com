@@ -12,8 +12,15 @@ quella che avrà.
 Brief, decisioni e archivio del progetto: `02-PROVENZANO-DJ/sito/` nel workspace privato
 (`apalmix70/provenzano-workspace`). Questo repo contiene **solo** ciò che va online.
 
-- `index.html` — la home, senza build: si modifica e si pusha. Le quattro voci in colonna
-  sono, in quest'ordine: **Biografia, Discografia, Compilation, Crossover** (Amerigo, 03/09/2026)
+- `index.html` — la home, senza build: si modifica e si pusha. Le cinque voci in colonna
+  sono, in quest'ordine: **Biografia, Eventi, Discografia, Compilation, Crossover** (Amerigo,
+  03/09/2026; Eventi subito dopo Biografia dal 13/09/2026)
+- `eventi/` — **oltre 1000 eventi**: la mappa dei posti, il tabellone dell'estero, un flyer a caso,
+  tutti i locali, gli artisti con cui ha diviso il palco. Pagina a sé, non dentro Biografia
+  (Amerigo, 13/09/2026). **Non si modifica a mano**: la genera il workspace privato
+  (`02-PROVENZANO-DJ/storico/`, comando `python pagina-mappa.py --sito`), che ci copia accanto
+  i flyer in `eventi/flyer/`. Niente anni sulla pagina, e niente fatture né clienti: quelli
+  restano nell'archivio privato
 - `biografia/` — la storia in prima persona, dal 1970 a oggi. **Scritta a mano, non generata**:
   è testo, si modifica direttamente qui. Le fonti e le regole di voce stanno nel workspace
   privato (`context/chi-sono.md` e `02-PROVENZANO-DJ/sito/brief.md`): prima persona,
