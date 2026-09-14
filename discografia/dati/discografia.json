@@ -3553,7 +3553,7 @@
    ],
    "firma": null,
    "etichetta": "Believe House Records",
-   "nota": null,
+   "nota": "⭐ Dal 14/09/2026 l'ascolto in pagina è il suo SoundCloud, traccia privata `2400260568` «Provenzano and Digital Bounze - Mundoo», al posto del player Apple Music — chiesto da Amerigo: *«sostituisci questo audio ad apple music per mundoo»*. La voce Apple resta spenta in `correzioni-a-mano.json` come `_mundoo`",
    "escluso": false,
    "da_guardare": false,
    "sezione": "2010 → 2019",
@@ -3562,16 +3562,14 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2400260568",
+    "secret": "s-S8EaYjGVHl4",
+    "perche": "l'audio caricato da Amerigo sul suo profilo, traccia privata: «Provenzano and Digital Bounze - Mundoo». Link corto mandato da lui il 14/09/2026, on.soundcloud.com/0tEVE5RoWWdtF9hkcq, con «sostituisci questo audio ad apple music per mundoo». ⭐ **Prende il posto di Apple Music**, che era l'unico ascolto trovato il 29/08/2026: quel player dipendeva dal catalogo di un altro, questo e' un file suo. La voce Apple resta spenta col trattino basso, _mundoo."
+   },
    "deezer": null,
    "traxsource": null,
-   "apple": {
-    "album": "890307105",
-    "traccia": "890307110",
-    "nome": "mundoo",
-    "cosa": "il brano su Apple Music",
-    "perche": "unico ascolto trovato per Mundoo: su Apple e' 'Mundoo - Single' di Provenzano & Digital Bounze, 02/07/2014. Link mandato da Amerigo il 29/08/2026, e da li' viene anche la copertina a 1400px che ha sostituito quella da 500."
-   },
+   "apple": null,
    "copertina": {
     "tipo": "propria",
     "file": "cop/mundoo.jpg"
@@ -10750,10 +10748,10 @@
   "con_copertina": 211,
   "con_video": 54,
   "con_spotify": 85,
-  "con_soundcloud": 52,
+  "con_soundcloud": 53,
   "con_deezer": 0,
   "con_traxsource": 1,
-  "con_apple": 3,
+  "con_apple": 2,
   "in_compilation": 125,
   "primo_anno": 1994,
   "ultimo_anno": 2026
