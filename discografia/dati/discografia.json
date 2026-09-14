@@ -9110,7 +9110,14 @@
    "artista_diverso": [],
    "versioni_uscita": [],
    "spotify": null,
-   "video": null,
+   "video": {
+    "youtube": "pa33q34PPMg",
+    "tipo": "ufficiale",
+    "canale": "tuo canale",
+    "titolo": "What The Girls Like",
+    "verticale": false,
+    "formato": null
+   },
    "video_altri": [],
    "soundcloud": {
     "url": "https://api.soundcloud.com/tracks/2392543299",
@@ -10746,7 +10753,7 @@
   "remix": 86,
   "inediti": 31,
   "con_copertina": 211,
-  "con_video": 54,
+  "con_video": 55,
   "con_spotify": 85,
   "con_soundcloud": 53,
   "con_deezer": 0,
