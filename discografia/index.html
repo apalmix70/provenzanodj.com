@@ -23,12 +23,26 @@ body{background:var(--nero);color:var(--bianco);
 a{color:inherit;text-decoration:none}
 .contenitore{width:100%;max-width:1080px;margin:0 auto;padding:0 20px}
 header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;background:var(--nero)}
-.testata{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 0}
+/* ⚠️ padding-block e non «padding:14px 0»: la testata e' anche .contenitore, e lo 0 cancellava i 20px ai lati —
+   sul telefono il logo e il menu toccavano i bordi dello schermo (misurato a 400px il 14/09/2026). */
+.testata{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:14px}
 .logo{font-family:'Poppins EB',Arial,sans-serif;font-size:19px;letter-spacing:-.04em;line-height:1}
 .logo .punto{color:var(--rosso)}
 .menu{display:flex;gap:18px;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--grigio)}
 .menu a.qui{color:var(--bianco)}
 .menu a:hover{color:var(--bianco)}
+.menu a{white-space:nowrap}
+/* ⚠️ Sul telefono il menu usciva dallo schermo e la pagina scorreva di lato (misurato a 400px il 14/09/2026:
+   menu largo 294px accanto al logo, documento largo 426). Resta su una riga sola, perche' il pannello dei
+   filtri si aggancia sotto la testata a un'altezza fissa (--testata): si stringe invece di andare a capo. */
+@media (max-width:600px){
+  /* Home sparisce, come sulle pagine delle compilation: il logo porta gia' alla home. Stretto e basta,
+     «HOME» restava attaccata al bordo destro (controllato a 400px il 14/09/2026). */
+  .menu a[href="/"]{display:none}
+  .testata{gap:10px}
+  .logo{font-size:16px}
+  .menu{gap:12px;font-size:10px;letter-spacing:.08em}
+}
 h1,h2,h3{font-family:'Anton',Arial,sans-serif;font-weight:400;text-transform:uppercase;letter-spacing:.03em}
 /* ⚠️ m2o si scrive minuscolo anche dentro una testata in maiuscolo: vedi nome(). */
 .m2o{text-transform:lowercase}
@@ -78,7 +92,7 @@ footer .contenitore{display:flex;justify-content:space-between;gap:14px;flex-wra
 @media (max-width:640px){
   .griglia.muro{gap:12px 6px}
   .tessera .etichetta{height:20px;margin-bottom:4px}
-  .tessera .etichetta .conto,.tessera .chi,.tessera .segni{display:none}
+  .tessera .etichetta .conto{display:none}
   .tessera .nome{font-size:9px;overflow-wrap:anywhere}
 }
 .tessera figure{aspect-ratio:1;background:var(--pannello);border:1px solid var(--riga);
@@ -98,6 +112,9 @@ footer .contenitore{display:flex;justify-content:space-between;gap:14px;flex-wra
 .segno{font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--debole);
   border:1px solid var(--riga);border-radius:20px;padding:1px 7px}
 .segno.video{color:var(--rosso);border-color:rgba(255,49,49,.35)}
+/* Sul telefono, con sei copertine larghe ~52px, sotto resta solo il titolo. ⚠️ Deve stare **dopo** le regole di
+   .chi e .segni: messa prima, il display:flex dei segni la scavalcava e «VIDEO» restava visibile (14/09/2026). */
+@media (max-width:640px){.tessera .chi,.tessera .segni{display:none}}
 .via{display:none!important}
 </style>
 </head>
