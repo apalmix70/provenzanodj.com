@@ -89,8 +89,8 @@
     12
    ],
    [
-    2009,
-    10
+    2014,
+    11
    ]
   ],
   "decadi": [
@@ -104,7 +104,7 @@
    ],
    [
     2010,
-    105
+    106
    ],
    [
     2020,
@@ -211,7 +211,7 @@
     1
    ]
   ],
-  "quante_etichette": 81,
+  "quante_etichette": 82,
   "piu_compilation": [
    {
     "titolo": "I Believe",
@@ -9856,7 +9856,7 @@
    "data_esatta": true,
    "firma": "Provenzano vs Denny Berland",
    "etichetta": "Polydor / Universal",
-   "nota": "⭐ Ritrovata il 12/09/2026, e la prova è arrivata dall'archivio Facebook: la mail promo di Universal Music Group – Dance Department, firmata Andrea Corelli, salvata come foto — «Anna F. \"DNA (Italian Remixes)\" — Out on: 17-06-2014 (Polydor)», con la sua versione electro/progressive house insieme a Denny Berland e quella di Paul Richard. ⚠️ Undici giorni prima era stata chiusa con un «lasciamolo stare», e per come si era cercato la chiusura era giusta: si cercava un'uscita da store, e da store non esce niente — Spotify, Apple Music e Deezer non hanno il disco, Beatport risponde 403 a chiunque non sia un browser vero, e su Discogs c'è solo il promo francese a quattro tracce senza remix (release 9390951). ⭐ Era un servizio promo radio, che è un'altra filiera: la conferma sta su EarOne, il database degli airplay delle radio italiane, che ha in scheda «DNA (Provenzano Vs Denny Berland Radio Remix)», 3:06, genere Dance, etichetta Universal — song card `be7d9ffb08`, versione `13666`. ⭐ E c'è il dettaglio che lo dimostra: su EarOne le quattro versioni internazionali portano ISRC austriaci `ATWD213000xx`, mentre le due italiane — la sua e quella di Paul Richard — sono le uniche due senza ISRC. È l'impronta di un disco servito alle radio e mai messo in vendita. ⚠️ Quello che è uscito è la Radio Remix, non l'Extended: il master sul fisso è l'Extended ed è datato 27/06/2014, dieci giorni dopo l'uscita — o è una rifinitura successiva, o è la data di un render. ⚠️ Il remixer di fianco non si chiama «Paul Ricard» come lo scrive la mail, ma Paul Richard. ⚠️ Copertina presa da EarOne a 1600×1600: è l'artwork del singolo *DNA*, non quello dell'album *King In The Mirror* che si vede nella mail",
+   "nota": "⭐ Ritrovata il 12/09/2026, e la prova è arrivata dall'archivio Facebook: la mail promo di Universal Music Group – Dance Department, firmata Andrea Corelli, salvata come foto — «Anna F. \"DNA (Italian Remixes)\" — Out on: 17-06-2014 (Polydor)», con la sua versione electro/progressive house insieme a Denny Berland e quella di Paul Richard. ⚠️ Undici giorni prima era stata chiusa con un «lasciamolo stare», e per come si era cercato la chiusura era giusta: si cercava un'uscita da store, e da store non esce niente — Spotify, Apple Music e Deezer non hanno il disco, Beatport risponde 403 a chiunque non sia un browser vero, e su Discogs c'è solo il promo francese a quattro tracce senza remix (release 9390951). ⭐ Era un servizio promo radio, che è un'altra filiera: la conferma sta su EarOne, il database degli airplay delle radio italiane, che ha in scheda «DNA (Provenzano Vs Denny Berland Radio Remix)», 3:06, genere Dance, etichetta Universal — song card `be7d9ffb08`, versione `13666`. ⭐ E c'è il dettaglio che lo dimostra: su EarOne le quattro versioni internazionali portano ISRC austriaci `ATWD213000xx`, mentre le due italiane — la sua e quella di Paul Richard — sono le uniche due senza ISRC. È l'impronta di un disco servito alle radio e mai messo in vendita. ⚠️ Quello che è uscito è la Radio Remix, non l'Extended: il master sul fisso è l'Extended ed è datato 27/06/2014, dieci giorni dopo l'uscita — o è una rifinitura successiva, o è la data di un render. ⚠️ Il remixer di fianco non si chiama «Paul Ricard» come lo scrive la mail, ma Paul Richard. ⚠️ Copertina presa da EarOne a 1600×1600: è l'artwork del singolo *DNA*, non quello dell'album *King In The Mirror* che si vede nella mail. ⭐ Dal 14/09/2026 si sente: Amerigo l'ha caricato sul suo SoundCloud, traccia privata `2400259857` — «Anna F - DNA (Provenzano Vs DennyBerland Remix)» — e il player sta in pagina con la leva `soundcloud` di `correzioni-a-mano.json`. Era un disco senza ascolto, perché da store non è mai uscito",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [],
@@ -9865,13 +9865,58 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2400259857",
+    "secret": "s-XLnskc7rDXU",
+    "cosa": "Provenzano Vs Denny Berland Remix",
+    "perche": "l'audio caricato da Amerigo sul suo profilo, traccia privata: «Anna F - DNA (Provenzano Vs DennyBerland Remix)». Link corto mandato da lui il 14/09/2026, on.soundcloud.com/64nEXy4amaXUmUfVrv, con «inserisci nella scheda anna f dna remix». ⭐ **E' il primo ascolto di questo disco**: il remix e' uscito solo come promo radio, su Spotify, Apple Music e Deezer non c'e', quindi la pagina era muta. ⚠️ **Nel titolo del caricamento «DennyBerland» e' attaccato**: il nome resta «Denny Berland» in tabella e in pagina."
+   },
    "deezer": null,
    "traxsource": null,
    "apple": null,
    "copertina": {
     "tipo": "propria",
     "file": "cop/anna-f-dna.jpg"
+   },
+   "inedito": false,
+   "anno_incerto": false,
+   "foto": [],
+   "nota_pubblica": null
+  },
+  {
+   "tipo": "remix",
+   "slug": "emy-lee-love-reign-on-me",
+   "artista": "Emy Lee",
+   "titolo": "Love Reign On Me",
+   "versioni": [],
+   "data": null,
+   "anno": 2014,
+   "data_esatta": false,
+   "firma": "Provenzano",
+   "etichetta": "Warner",
+   "nota": "⭐ Ritrovata il 14/09/2026 da Amerigo su EarOne, scheda `9e4dafeb08`, versione `15745` «Love Reign On Me (Provenzano Remix)». Era l'ultimo master orfano della sezione 2-bis: il file «DEF» del 31/07/2014 sul fisso, e un disco — Al Festa Factory Productions / Warner, 03/06/2014 — che su store elenca sette versioni e nessuna è la sua. ⭐ Era un servizio promo radio, come Anna F. — DNA, e l'impronta è la stessa: su EarOne le cinque versioni del disco — Radio 3:45, Mix 6:03, A Capella 2:13, Hippy '70 5:21, Electro 7:18 — portano ISRC italiani `ITD0114000xx`, e la Provenzano Remix è l'unica senza ISRC e senza durata. Un disco servito alle radio e mai messo in vendita. ⭐ E c'è il video, sul canale di chi il pezzo l'ha fatto: `uj1Nzz6UdXU`, «EMY LEE - LOVE REIGN ON ME - PROVENZANO REMIX», canale AlFesta1, caricato il 05/08/2014, 6:20 — cinque giorni dopo il master, ed è la data più vicina a un'uscita che si abbia. ⚠️ In pagina resta l'anno secco: EarOne ha la radio date vuota («0000-00-00») e il 05/08 è il giorno del video, non quello dell'invio alle radio. Autore del brano Al Festa, genere Dance. Su Discogs il disco non c'è. ⚠️ Su Spotify non c'è, controllato il 14/09/2026 su richiesta di Amerigo: il singolo *Love Reign On Me* (`3RGvVHL16PVsE0nmICPdup`, 03/06/2014) ha sette versioni — Radio, Mix, Minimal, A Capella, Hippy '70, Dance Mix, Electro — e nessuna è la sua; su Apple Music il «Remixes» (id 881168024) è lo stesso disco, con Dance Mix ed Electro firmate Devid Morrison. Sul profilo di Emy Lee il resto sono dischi di Joe Bertè in cui canta. Niente player Spotify: l'ascolto in pagina è il video. Copertina presa da EarOne a 1600×1600",
+   "escluso": false,
+   "sezione": "Remix",
+   "in_compilation": [],
+   "artista_diverso": [],
+   "versioni_uscita": [],
+   "spotify": null,
+   "video": {
+    "youtube": "uj1Nzz6UdXU",
+    "tipo": "ufficiale",
+    "canale": "Al Festa",
+    "titolo": "Love Reign On Me",
+    "verticale": false,
+    "formato": null
+   },
+   "video_altri": [],
+   "soundcloud": null,
+   "deezer": null,
+   "traxsource": null,
+   "apple": null,
+   "copertina": {
+    "tipo": "propria",
+    "file": "cop/emy-lee-love-reign-on-me.jpg"
    },
    "inedito": false,
    "anno_incerto": false,
@@ -10635,7 +10680,7 @@
   },
   "2014": {
    "singoli": 7,
-   "remix": 3
+   "remix": 4
   },
   "2013": {
    "singoli": 8,
@@ -10700,12 +10745,12 @@
  },
  "totali": {
   "singoli": 125,
-  "remix": 85,
+  "remix": 86,
   "inediti": 31,
-  "con_copertina": 210,
-  "con_video": 53,
+  "con_copertina": 211,
+  "con_video": 54,
   "con_spotify": 85,
-  "con_soundcloud": 51,
+  "con_soundcloud": 52,
   "con_deezer": 0,
   "con_traxsource": 1,
   "con_apple": 3,
