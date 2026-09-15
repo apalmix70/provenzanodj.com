@@ -2814,7 +2814,11 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2401004085",
+    "secret": "s-pVwO1hD03XU",
+    "perche": "caricato il 15/09/2026 dalla skill discografia-soundcloud sul profilo provenzano_official, traccia privata «The Redeemerz - Earthquake»; link corto da Condividi → Accorcia link: on.soundcloud.com/CptLo4IiCdtuytpHJx. File: The Redeemerz_Earthquake (Time).wav, da [MASTER]/RELEASE del disco Mac #4."
+   },
    "deezer": null,
    "traxsource": null,
    "apple": null,
@@ -2986,7 +2990,11 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2401004595",
+    "secret": "s-8JtLTiMVN0D",
+    "perche": "caricato il 15/09/2026 dalla skill discografia-soundcloud sul profilo provenzano_official, traccia privata «Phunkerz - Seven Days»; link corto da Condividi → Accorcia link: on.soundcloud.com/kQHb1TUgDZLsvqCFEU. File: Phunkerz_Seven Days (Time).aif, da [MASTER]/RELEASE del disco Mac #4."
+   },
    "deezer": null,
    "traxsource": null,
    "apple": null,
@@ -3330,7 +3338,11 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2401003440",
+    "secret": "s-H4lrWOTvJYu",
+    "perche": "caricato il 15/09/2026 dalla skill discografia-soundcloud sul profilo provenzano_official, traccia privata «Phunkerz - Tears»; nel lotto il pulsante Condividi non era comparso entro 30 secondi, link corto ripreso subito dopo col comando link: on.soundcloud.com/XQsEqNaUseHcX0nC2V. File: Phunkerz - Tears (Original Mix) - 8A.wav, dai master della m2o vol.32 sul disco Mac #6."
+   },
    "deezer": null,
    "traxsource": null,
    "apple": null,
@@ -3356,7 +3368,7 @@
    "con": [],
    "firma": "System3",
    "etichetta": null,
-   "nota": "inedito per la compilation: mai uscito a sé, stampato su m2o vol.32",
+   "nota": "inedito per la compilation: mai uscito a sé, stampato su m2o vol.32. ⭐ Dal 15/09/2026 l'ascolto in pagina è il suo SoundCloud, traccia privata `2400991332` «System3 - Heartquake», caricata dalla skill `discografia-soundcloud` — il file è `System 3_Heartquake - 9A.mp3` dei master della m2o vol.32 sul disco Mac #6, solo mp3",
    "escluso": false,
    "da_guardare": false,
    "sezione": "2010 → 2019",
@@ -7172,7 +7184,12 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2400999489",
+    "secret": "s-JaWfrseUU6g",
+    "cosa": "HDS Edit",
+    "perche": "caricato il 15/09/2026 dalla skill discografia-soundcloud sul profilo provenzano_official, traccia privata «Roby Rossini & Maverick - Future Mind»; link corto da Condividi → Accorcia link: on.soundcloud.com/I7aUqooYrUIOpEfp10. File: RRossini-FutureMind(HDSEdit).wav, dal disco Mac #6 (bomba 265/Live Folder/Playlist); scelta la versione corta, regola di Amerigo del 15/09/2026."
+   },
    "deezer": null,
    "traxsource": null,
    "apple": null,
@@ -7399,7 +7416,11 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2401000785",
+    "secret": "s-YmxopplyJcU",
+    "perche": "caricato il 15/09/2026 dalla skill discografia-soundcloud sul profilo provenzano_official, traccia privata «Afterclub - Gigi's Violin»; link corto da Condividi → Accorcia link: on.soundcloud.com/rV0g57cZfPKWR7Z6JM. File: 05 Afterclub-Gigi'sViolin(Master).wav, dal disco Mac #6 (bomba 265/Itune Convert)."
+   },
    "deezer": null,
    "traxsource": null,
    "apple": null,
@@ -7488,7 +7509,11 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2401001481",
+    "secret": "s-xZKe9QmuuK8",
+    "perche": "caricato il 15/09/2026 dalla skill discografia-soundcloud sul profilo provenzano_official, traccia privata «Groundbeat - Tweak»; link corto da Condividi → Accorcia link: on.soundcloud.com/ytkZo4E8RpqpZl5tv7. File: 02 GroundBeat-Tweek.wav (scritto Tweek), dal CD2 di [Jump]² The Dancefloor Vol. 3 (disco Mac #6)."
+   },
    "deezer": null,
    "traxsource": null,
    "apple": null,
@@ -7531,7 +7556,11 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2401000185",
+    "secret": "s-99vw3zaIvKv",
+    "perche": "caricato il 15/09/2026 dalla skill discografia-soundcloud sul profilo provenzano_official, traccia privata «Trilogy - Don't Leave Me Now»; link corto da Condividi → Accorcia link: on.soundcloud.com/4tuJ9LNwEljdY82ZxR. File: 03 Trilogy-Don'tleavemenow.wav, dal CD2 di [Jump]² The Dancefloor Vol. 3 (disco Mac #6, bomba 100); scelta la versione corta fra questa e la (Master)."
+   },
    "deezer": null,
    "traxsource": null,
    "apple": null,
@@ -7777,7 +7806,11 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2401002114",
+    "secret": "s-hQb0Z2JyZAM",
+    "perche": "caricato il 15/09/2026 dalla skill discografia-soundcloud sul profilo provenzano_official, traccia privata «Club House - Speed Of Sound»; link corto da Condividi → Accorcia link: on.soundcloud.com/lfRmP9NmrZ4FRwO8jD. File: ClubHouse-SpeedOfSound.wav, dal disco Mac #6 (bomba 265/Live Folder/Playlist/01 Nuove)."
+   },
    "deezer": null,
    "traxsource": null,
    "apple": null,
@@ -10255,7 +10288,11 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2401002807",
+    "secret": "s-RKvtHx62KwB",
+    "perche": "caricato il 15/09/2026 dalla skill discografia-soundcloud sul profilo provenzano_official, traccia privata «Don Cash - Abusadora»; link corto da Condividi → Accorcia link: on.soundcloud.com/KpxGak7KVAo6OeJC4r. File: [HOU] Don Cash - Abusadora (Provenzano rmx).wav, dal disco Mac #6 (Settembre 2012/Older)."
+   },
    "deezer": null,
    "traxsource": null,
    "apple": null,
@@ -10770,7 +10807,7 @@
   "con_copertina": 211,
   "con_video": 54,
   "con_spotify": 85,
-  "con_soundcloud": 57,
+  "con_soundcloud": 66,
   "con_deezer": 0,
   "con_traxsource": 1,
   "con_apple": 2,
