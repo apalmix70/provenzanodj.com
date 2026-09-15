@@ -7431,7 +7431,11 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2400953667",
+    "secret": "s-v1BOGtOmgXo",
+    "perche": "l'audio caricato da Amerigo sul suo profilo, traccia privata: «Afterclub - I'll Be Missing You». Link corto mandato da lui il 15/09/2026, on.soundcloud.com/zOfXJs3AEBKXDcCSum. Prima la pagina era senza ascolto."
+   },
    "deezer": null,
    "traxsource": null,
    "apple": null,
@@ -10756,7 +10760,7 @@
   "con_copertina": 211,
   "con_video": 54,
   "con_spotify": 85,
-  "con_soundcloud": 55,
+  "con_soundcloud": 56,
   "con_deezer": 0,
   "con_traxsource": 1,
   "con_apple": 2,
