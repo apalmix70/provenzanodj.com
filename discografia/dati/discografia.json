@@ -948,7 +948,10 @@
    "inedito": false,
    "anno_incerto": false,
    "foto": [],
-   "nota_pubblica": null
+   "nota_pubblica": {
+    "forte": "Prima dei dischi, un programma radio.",
+    "testo": "Il nome viene dal programma che facevano insieme fra il 2004 e il 2006 per le radio brasiliane, a partire da **Spaço FM 100.9** di Farroupilha. Ebbe un discreto successo, e diventò questo progetto discografico."
+   }
   },
   {
    "tipo": "produzione",
@@ -1309,7 +1312,10 @@
    "inedito": false,
    "anno_incerto": false,
    "foto": [],
-   "nota_pubblica": null
+   "nota_pubblica": {
+    "forte": "Prima dei dischi, un programma radio.",
+    "testo": "Il nome viene dal programma che facevano insieme fra il 2004 e il 2006 per le radio brasiliane, a partire da **Spaço FM 100.9** di Farroupilha. Ebbe un discreto successo, e diventò questo progetto discografico."
+   }
   },
   {
    "tipo": "produzione",
