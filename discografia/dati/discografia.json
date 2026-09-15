@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-14",
+ "aggiornato": "2026-09-15",
  "numeri": {
   "etichette": [
    [
@@ -1269,7 +1269,7 @@
    "con": [],
    "firma": "Italian Deejays",
    "etichetta": "Jump Records",
-   "nota": "nato per le compilation — [Jump]² The Dancefloor Vol. 3 e m2o vol.12 — e poi uscito in digitale: trovato su Beatport il 02/09/2026 partendo da *Eurofolk*, sta su Reloaded Vol. 1 — EP, SistemiSolari, catalogo SIS 007, 15/11/2012, come traccia 2 «The Story Goes On — Original Mix», 138 BPM, 6:20. ⭐ È l'originale, non un rifacimento: sul disco è firmato Italian Deejays, cioè lui e Sergio Marini. ⚠️ L'anno resta il 2006, quello della compilation: il 2012 è la riedizione digitale, non l'uscita. ⚠️ La data del 15/11 viene da Deezer, album 6067712, non da Beatport, che su tutta la serie scrive 01/01/2012 — il tappabuchi dei cataloghi digitali. ⚠️ Su Spotify e Apple Music non c'è: la serie Reloaded ci arriva solo in parte, e questo volume no, quindi resta senza player",
+   "nota": "nato per le compilation — [Jump]² The Dancefloor Vol. 3 e m2o vol.12 — e poi uscito in digitale: trovato su Beatport il 02/09/2026 partendo da *Eurofolk*, sta su Reloaded Vol. 1 — EP, SistemiSolari, catalogo SIS 007, 15/11/2012, come traccia 2 «The Story Goes On — Original Mix», 138 BPM, 6:20. ⭐ È l'originale, non un rifacimento: sul disco è firmato Italian Deejays, cioè lui e Sergio Marini. ⚠️ L'anno resta il 2006, quello della compilation: il 2012 è la riedizione digitale, non l'uscita. ⚠️ La data del 15/11 viene da Deezer, album 6067712, non da Beatport, che su tutta la serie scrive 01/01/2012 — il tappabuchi dei cataloghi digitali. ⚠️ Su Spotify e Apple Music non c'è: la serie Reloaded ci arriva solo in parte, e questo volume no. ⭐ Il player è il suo caricamento su SoundCloud, dal 15/09/2026, al posto del video YouTube",
    "escluso": false,
    "da_guardare": false,
    "sezione": "1994 → 2009",
@@ -1291,16 +1291,13 @@
    ],
    "versioni_uscita": [],
    "spotify": null,
-   "video": {
-    "youtube": "sYT0QvA_078",
-    "tipo": "audio",
-    "canale": null,
-    "titolo": "The Story Goes On (Italian Deejays)",
-    "verticale": false,
-    "formato": null
-   },
+   "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2400952881",
+    "secret": "s-EklrToDBEBA",
+    "perche": "l'audio caricato da Amerigo sul suo profilo, traccia privata: «Italian Deejays - The Story Goes On». Link corto mandato da lui il 15/09/2026, on.soundcloud.com/l1TFHV9urrVgcUIsBU, con la richiesta di sostituirlo al video in pagina."
+   },
    "deezer": null,
    "traxsource": null,
    "apple": null,
@@ -7346,7 +7343,11 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2400953277",
+    "secret": "s-ts7FsurqNFu",
+    "perche": "l'audio caricato da Amerigo sul suo profilo, traccia privata: «Sophie - C'est L'amour HDS remix». Link corto mandato da lui il 15/09/2026, on.soundcloud.com/JahgcbEmr0s2EF7sIU. Prima la pagina era senza ascolto."
+   },
    "deezer": null,
    "traxsource": null,
    "apple": null,
@@ -10753,9 +10754,9 @@
   "remix": 86,
   "inediti": 31,
   "con_copertina": 211,
-  "con_video": 55,
+  "con_video": 54,
   "con_spotify": 85,
-  "con_soundcloud": 53,
+  "con_soundcloud": 55,
   "con_deezer": 0,
   "con_traxsource": 1,
   "con_apple": 2,
