@@ -3373,7 +3373,11 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2400991332",
+    "secret": "s-vwk6dLJA2yq",
+    "perche": "caricato il 15/09/2026 dalla skill discografia-soundcloud (prima prova) sul profilo provenzano_official, traccia privata «System3 - Heartquake»; link corto preso da Condividi → Accorcia link: on.soundcloud.com/B5VmXcLWZHHOxrpRNk. Il file è «System 3_Heartquake - 9A.mp3» dalla cartella m2oVol32_MASTERS4MIXER del disco Mac #6: esiste solo in mp3. ⚠️ Se su SoundCloud si preme «Reimposta il link segreto», il player muore."
+   },
    "deezer": null,
    "traxsource": null,
    "apple": null,
@@ -10766,7 +10770,7 @@
   "con_copertina": 211,
   "con_video": 54,
   "con_spotify": 85,
-  "con_soundcloud": 56,
+  "con_soundcloud": 57,
   "con_deezer": 0,
   "con_traxsource": 1,
   "con_apple": 2,
