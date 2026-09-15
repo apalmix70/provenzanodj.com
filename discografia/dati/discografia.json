@@ -2238,7 +2238,11 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2401012305",
+    "secret": "s-ZwDsiZ2fGKo",
+    "perche": "caricato sul profilo Provenzano il 15/09/2026, traccia privata «Remote Zero - Beach Ball by Provenzano». Link: https://on.soundcloud.com/PkhPj9SWXwGfHyZd9M"
+   },
    "deezer": null,
    "traxsource": null,
    "apple": null,
@@ -2797,7 +2801,7 @@
    "con": [],
    "firma": "The Redeemerz",
    "etichetta": null,
-   "nota": "inedito per la compilation: mai uscito a sé, stampato su m2o vol.31 — Ten Years, TIME CDDP31/M2O, alla traccia 2-13. ⭐ Ritrovata il 01/09/2026 nei master su disco fisso — `The Redeemerz_Earthquake (Time).wav`, ottobre 2012, in `D:\\Storico Provenzano\\[MASTER]\\RELEASE` — e chiusa dai Promise Land, a cui Amerigo l'ha chiesta: hanno confermato che The Redeemerz era un loro alias comune. ⚠️ Non bastava il file: la scheda artista su Discogs è vuota, su Spotify non esistono, e l'unico posto dove il nome compare è una compilation sua — lo stesso indizio debole che su Keysernoize aveva portato a un falso positivo. A chiudere è stata la parola dei soci, come per Sangineto e Daniel Chords. ⭐ È il quarto nome dello stesso terzetto, dopo Blastaar, Remote Zero e Disco Loco, e segue la stessa identica regola: un nome nato insieme al pezzo, per riempire una compilation, e mai più usato. ⚠️ Da confermare chi c'è dentro: qui è dato per il trio Provenzano-Ranucci-Pelusi come gli altri tre, ma i Promise Land hanno detto «nostro» e non hanno elencato i nomi",
+   "nota": "inedito per la compilation: mai uscito a sé, stampato su m2o vol.31 — Ten Years, TIME CDDP31/M2O, alla traccia 2-13. ⭐ Ritrovata il 01/09/2026 nei master su disco fisso — `The Redeemerz_Earthquake (Time).wav`, ottobre 2012, in `D:\\Storico Provenzano\\[MASTER]\\RELEASE` — e chiusa dai Promise Land, a cui Amerigo l'ha chiesta: hanno confermato che The Redeemerz era un loro alias comune. ⚠️ Non bastava il file: la scheda artista su Discogs è vuota, su Spotify non esistono, e l'unico posto dove il nome compare è una compilation sua — lo stesso indizio debole che su Keysernoize aveva portato a un falso positivo. A chiudere è stata la parola dei soci, come per Sangineto e Daniel Chords. ⭐ È il quarto nome dello stesso terzetto, dopo Blastaar, Remote Zero e Disco Loco, e segue la stessa identica regola: un nome nato insieme al pezzo, per riempire una compilation, e mai più usato. ⚠️ Da confermare chi c'è dentro: qui è dato per il trio Provenzano-Ranucci-Pelusi come gli altri tre, ma i Promise Land hanno detto «nostro» e non hanno elencato i nomi. ⭐ Dal 15/09/2026 l'ascolto in pagina è il suo SoundCloud, traccia privata `2401004085` «The Redeemerz - Earthquake», caricata dalla skill `discografia-soundcloud` dallo stesso master",
    "escluso": false,
    "da_guardare": false,
    "sezione": "2010 → 2019",
@@ -2973,7 +2977,7 @@
    "con": [],
    "firma": "Phunkerz",
    "etichetta": null,
-   "nota": "inedito per la compilation: mai uscito a sé, stampato su m2o vol.31",
+   "nota": "inedito per la compilation: mai uscito a sé, stampato su m2o vol.31. ⭐ Dal 15/09/2026 l'ascolto in pagina è il suo SoundCloud, traccia privata `2401004595` «Phunkerz - Seven Days», caricata dalla skill `discografia-soundcloud` — il file è `Phunkerz_Seven Days (Time).aif` di `[MASTER]/RELEASE` sul disco Mac #4",
    "escluso": false,
    "da_guardare": false,
    "sezione": "2010 → 2019",
@@ -3321,7 +3325,7 @@
    "con": [],
    "firma": "Phunkerz",
    "etichetta": null,
-   "nota": "inedito per la compilation: mai uscito a sé, stampato su m2o vol.32",
+   "nota": "inedito per la compilation: mai uscito a sé, stampato su m2o vol.32. ⭐ Dal 15/09/2026 l'ascolto in pagina è il suo SoundCloud, traccia privata `2401003440` «Phunkerz - Tears», caricata dalla skill `discografia-soundcloud` — il file è `Phunkerz - Tears (Original Mix) - 8A.wav` dei master della m2o vol.32 sul disco Mac #6",
    "escluso": false,
    "da_guardare": false,
    "sezione": "2010 → 2019",
@@ -4647,7 +4651,11 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2401012560",
+    "secret": "s-IvLZcGxK8SJ",
+    "perche": "caricato sul profilo Provenzano il 15/09/2026, traccia privata «System3 - Guitar Hero by Provenzano». Link: https://on.soundcloud.com/vdEpgPtXb90OVfhH3C"
+   },
    "deezer": null,
    "traxsource": null,
    "apple": null,
@@ -7167,7 +7175,7 @@
    "data_esatta": true,
    "firma": "Hard Dance Style",
    "etichetta": null,
-   "nota": "trovata il 01/09/2026 sull'API Discogs. ⭐ Riedizione Hard Dance Style, l'alias con Promise Land: nasce per la radio e per le serate, e questa è uscita per davvero. Vale la regola fissata da Amerigo il 01/09/2026 — in discografia entra solo quello che è stato stampato. Sull'«Altromondo Compilation Estate 2005», Melodica; e sulla «Hard Dance Compilation», Magika MGK056/CD, 2006, traccia 15. Crediti di traccia «Promise Land — Remix» e «Provenzano DJ — Remix», con Maverick alla voce. Autori Alessandro Bianco e Roberto Paesani",
+   "nota": "trovata il 01/09/2026 sull'API Discogs. ⭐ Riedizione Hard Dance Style, l'alias con Promise Land: nasce per la radio e per le serate, e questa è uscita per davvero. Vale la regola fissata da Amerigo il 01/09/2026 — in discografia entra solo quello che è stato stampato. Sull'«Altromondo Compilation Estate 2005», Melodica; e sulla «Hard Dance Compilation», Magika MGK056/CD, 2006, traccia 15. Crediti di traccia «Promise Land — Remix» e «Provenzano DJ — Remix», con Maverick alla voce. Autori Alessandro Bianco e Roberto Paesani. ⭐ Dal 15/09/2026 l'ascolto in pagina è il suo SoundCloud, traccia privata `2400999489` «Roby Rossini & Maverick - Future Mind», con la didascalia «HDS Edit»: è `RRossini-FutureMind(HDSEdit).wav` (4:03), scelto sul disco Mac #6 al posto della `(HDS)` lunga da 6:23 — *«usa le versioni corte quando le trovi»*",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [
@@ -7399,7 +7407,7 @@
    "data_esatta": false,
    "firma": "Hard Dance Style",
    "etichetta": null,
-   "nota": "trovata il 01/09/2026 sull'API Discogs. ⭐ Riedizione Hard Dance Style, l'alias con Promise Land: nasce per la radio e per le serate, e questa è uscita per davvero. Vale la regola fissata da Amerigo il 01/09/2026 — in discografia entra solo quello che è stato stampato. Su «[Jump]² The Dancefloor Vol. 2», Fast Records, 2006, apre il secondo CD; e sulla «Hard Dance Compilation», Magika MGK056/CD, 2006, traccia 10. Crediti di traccia «Promise Land — Remix» e «Provenzano DJ — Remix». Il brano originale è firmato Gigi D'Agostino",
+   "nota": "trovata il 01/09/2026 sull'API Discogs. ⭐ Riedizione Hard Dance Style, l'alias con Promise Land: nasce per la radio e per le serate, e questa è uscita per davvero. Vale la regola fissata da Amerigo il 01/09/2026 — in discografia entra solo quello che è stato stampato. Su «[Jump]² The Dancefloor Vol. 2», Fast Records, 2006, apre il secondo CD; e sulla «Hard Dance Compilation», Magika MGK056/CD, 2006, traccia 10. Crediti di traccia «Promise Land — Remix» e «Provenzano DJ — Remix». Il brano originale è firmato Gigi D'Agostino. ⭐ Dal 15/09/2026 l'ascolto in pagina è il suo SoundCloud, traccia privata `2401000785` «Afterclub - Gigi's Violin», caricata dalla skill `discografia-soundcloud` dal file `05 Afterclub-Gigi'sViolin(Master).wav` del disco Mac #6",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [
@@ -7492,7 +7500,7 @@
    "data_esatta": true,
    "firma": "Hard Dance Style",
    "etichetta": null,
-   "nota": "trovata il 01/09/2026 sull'API Discogs. ⭐ Riedizione Hard Dance Style, l'alias con Promise Land: nasce per la radio e per le serate, e questa è uscita per davvero. Vale la regola fissata da Amerigo il 01/09/2026 — in discografia entra solo quello che è stato stampato. Su «[Jump]² The Dancefloor Vol. 3», Fast Records, 2006; e su «Mania Italia Sei», EMI, 2006. Crediti di traccia «Promise Land — Remix» e «Provenzano DJ — Remix». Autore del brano Felix Stallings Jr., cioè Felix Da Housecat. ⭐ Dettagli aggiunti il 02/09/2026 su indicazione di Amerigo: su [Jump]² vol.3 sta sul CD 1 e dura 5:45. ⚠️ Sulla Hard Dance Compilation il pezzo dei Groundbeat non è questo: alla traccia 13 c'è *Style*, non *Tweak*. Quindi le stampe di questo remix restano due, [Jump]² vol.3 e Mania Italia Sei",
+   "nota": "trovata il 01/09/2026 sull'API Discogs. ⭐ Riedizione Hard Dance Style, l'alias con Promise Land: nasce per la radio e per le serate, e questa è uscita per davvero. Vale la regola fissata da Amerigo il 01/09/2026 — in discografia entra solo quello che è stato stampato. Su «[Jump]² The Dancefloor Vol. 3», Fast Records, 2006; e su «Mania Italia Sei», EMI, 2006. Crediti di traccia «Promise Land — Remix» e «Provenzano DJ — Remix». Autore del brano Felix Stallings Jr., cioè Felix Da Housecat. ⭐ Dettagli aggiunti il 02/09/2026 su indicazione di Amerigo: su [Jump]² vol.3 sta sul CD 1 e dura 5:45. ⚠️ Sulla Hard Dance Compilation il pezzo dei Groundbeat non è questo: alla traccia 13 c'è *Style*, non *Tweak*. Quindi le stampe di questo remix restano due, [Jump]² vol.3 e Mania Italia Sei. ⭐ Dal 15/09/2026 l'ascolto in pagina è il suo SoundCloud, traccia privata `2401001481` «Groundbeat - Tweak», caricata dalla skill `discografia-soundcloud` dal file del CD2 di [Jump]² vol.3 trovato sul disco Mac #6, dove è scritto «Tweek»",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [
@@ -7539,7 +7547,7 @@
    "data_esatta": true,
    "firma": "Hard Dance Style",
    "etichetta": null,
-   "nota": "trovata il 01/09/2026 sull'API Discogs. ⭐ Riedizione Hard Dance Style, l'alias con Promise Land, e uscita per davvero: sta su «[Jump]² The Dancefloor Vol. 3», Fast Records, 2006, coi crediti di traccia «Promise Land — Remix» e «Provenzano DJ — Remix». Vale la regola fissata da Amerigo il 01/09/2026 — in discografia entra solo quello che è stato stampato. ⭐ Trilogy è un alias dei Promise Land — *«trilogy è un alias di promise land»*, Amerigo 02/09/2026 — quindi gli autori del brano, Fabio Ranucci e Nazario Pelusi, sono loro stessi: è una loro produzione che il duo ha poi rifatto in versione hard dance. ⚠️ E qui c'è una scelta sua che vale la pena leggere per intero: *«sospetto dal nome che ci fossi anche io ma facciamo finta che non ci sono»*. Il sospetto è fondato — Trilogy dice tre, e i Promise Land sono due — ma resta un sospetto, e sul proprio conto un sospetto non è un credito. ⭐ Sceglie la versione prudente su sé stesso, e su una pagina che fa da fonte l'errore per eccesso costa più di quello per difetto: nella mappa degli alias Trilogy entra con la lista vuota, come *Rumble Pit* e *Ranucci & Pelusi*. Se salta fuori una stampa che lo nomina, la riga si riapre in un minuto. ⚠️ Sulla Hard Dance Compilation c'è, ma non è questa: alla traccia 2 sta l'Original Mix, non il remix — *«non risulta come remix ma original»*, 02/09/2026. Quindi quella compilation documenta il brano dei Promise Land, non il lavoro suo, e non entra fra le sue stampe. L'unica che lo documenta è [Jump]² vol.3. ⭐ Copertina presa in prestito da lì, per sua indicazione — *«usa come copertina la compilation in cui era inserito»*: la riga era una delle dodici senza immagine",
+   "nota": "trovata il 01/09/2026 sull'API Discogs. ⭐ Riedizione Hard Dance Style, l'alias con Promise Land, e uscita per davvero: sta su «[Jump]² The Dancefloor Vol. 3», Fast Records, 2006, coi crediti di traccia «Promise Land — Remix» e «Provenzano DJ — Remix». Vale la regola fissata da Amerigo il 01/09/2026 — in discografia entra solo quello che è stato stampato. ⭐ Trilogy è un alias dei Promise Land — *«trilogy è un alias di promise land»*, Amerigo 02/09/2026 — quindi gli autori del brano, Fabio Ranucci e Nazario Pelusi, sono loro stessi: è una loro produzione che il duo ha poi rifatto in versione hard dance. ⚠️ E qui c'è una scelta sua che vale la pena leggere per intero: *«sospetto dal nome che ci fossi anche io ma facciamo finta che non ci sono»*. Il sospetto è fondato — Trilogy dice tre, e i Promise Land sono due — ma resta un sospetto, e sul proprio conto un sospetto non è un credito. ⭐ Sceglie la versione prudente su sé stesso, e su una pagina che fa da fonte l'errore per eccesso costa più di quello per difetto: nella mappa degli alias Trilogy entra con la lista vuota, come *Rumble Pit* e *Ranucci & Pelusi*. Se salta fuori una stampa che lo nomina, la riga si riapre in un minuto. ⚠️ Sulla Hard Dance Compilation c'è, ma non è questa: alla traccia 2 sta l'Original Mix, non il remix — *«non risulta come remix ma original»*, 02/09/2026. Quindi quella compilation documenta il brano dei Promise Land, non il lavoro suo, e non entra fra le sue stampe. L'unica che lo documenta è [Jump]² vol.3. ⭐ Copertina presa in prestito da lì, per sua indicazione — *«usa come copertina la compilation in cui era inserito»*: la riga era una delle dodici senza immagine. ⭐ Dal 15/09/2026 l'ascolto in pagina è il suo SoundCloud, traccia privata `2401000185` «Trilogy - Don't Leave Me Now», caricata dalla skill `discografia-soundcloud`: è il file del CD2 di [Jump]² vol.3 (5:56), scelto fra i due trovati sul disco Mac #6 perché più corto della «(Master)» da 6:20 — *«usa le versioni corte quando le trovi»*",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [
@@ -7789,7 +7797,7 @@
    "data_esatta": false,
    "firma": "Provenzano",
    "etichetta": null,
-   "nota": "ritrovata nel database delle compilation, stampata su [Jump]² The Dancefloor Vol. 2; anno non confermato",
+   "nota": "ritrovata nel database delle compilation, stampata su [Jump]² The Dancefloor Vol. 2; anno non confermato. ⭐ Dal 15/09/2026 l'ascolto in pagina è il suo SoundCloud, traccia privata `2401002114` «Club House - Speed Of Sound», dal file `ClubHouse-SpeedOfSound.wav` del disco Mac #6",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [
@@ -7856,7 +7864,11 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2401012086",
+    "secret": "s-Qrub0MTXL5A",
+    "perche": "caricato sul profilo Provenzano il 15/09/2026, traccia privata «Supawet - Wash The Floor by Provenzano». Link: https://on.soundcloud.com/s5n9mSnDwLBo22MbCs"
+   },
    "deezer": null,
    "traxsource": null,
    "apple": null,
@@ -8270,7 +8282,11 @@
    "spotify": null,
    "video": null,
    "video_altri": [],
-   "soundcloud": null,
+   "soundcloud": {
+    "url": "https://api.soundcloud.com/tracks/2401012866",
+    "secret": "s-iHzhln34MLl",
+    "perche": "caricato sul profilo Provenzano il 15/09/2026, traccia privata «Axwell, Ingrosso & Salem Al Fakir - It's True by Provenzano». Link: https://on.soundcloud.com/4ogUrre5XwPtYM6riJ"
+   },
    "deezer": null,
    "traxsource": null,
    "apple": null,
@@ -10271,7 +10287,7 @@
    "data_esatta": true,
    "firma": "Provenzano",
    "etichetta": null,
-   "nota": "Traxsource exclusive — solo archivio social",
+   "nota": "Traxsource exclusive — solo archivio social. ⭐ Dal 15/09/2026 l'ascolto in pagina è il suo SoundCloud, traccia privata `2401002807` «Don Cash - Abusadora», dal file `[HOU] Don Cash - Abusadora (Provenzano rmx).wav` del disco Mac #6",
    "escluso": false,
    "sezione": "Remix",
    "in_compilation": [
@@ -10807,7 +10823,7 @@
   "con_copertina": 211,
   "con_video": 54,
   "con_spotify": 85,
-  "con_soundcloud": 66,
+  "con_soundcloud": 70,
   "con_deezer": 0,
   "con_traxsource": 1,
   "con_apple": 2,
