@@ -32,6 +32,7 @@ header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;back
 .menu a.qui{color:var(--bianco)}
 .menu a:hover{color:var(--bianco)}
 .menu a{white-space:nowrap}
+.menu .corto{display:none}
 /* ⚠️ Sul telefono il menu usciva dallo schermo e la pagina scorreva di lato (misurato a 400px il 14/09/2026:
    menu largo 294px accanto al logo, documento largo 426). Resta su una riga sola, perche' il pannello dei
    filtri si aggancia sotto la testata a un'altezza fissa (--testata): si stringe invece di andare a capo. */
@@ -42,6 +43,8 @@ header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;back
   .testata{gap:10px}
   .logo{font-size:16px}
   .menu{gap:12px;font-size:10px;letter-spacing:.08em}
+  .menu .lungo{display:none}
+  .menu .corto{display:inline}
 }
 h1,h2,h3{font-family:'Anton',Arial,sans-serif;font-weight:400;text-transform:uppercase;letter-spacing:.03em}
 /* ⚠️ m2o si scrive minuscolo anche dentro una testata in maiuscolo: vedi nome(). */
@@ -113,7 +116,7 @@ footer .contenitore{display:flex;justify-content:space-between;gap:14px;flex-wra
 <body>
 <header><div class="contenitore testata">
   <a class="logo" href="/">provenzano<span class="punto">.</span></a>
-  <nav class="menu"><a href="/discografia/">Discografia</a><a class="qui" href="/discografia/archivio/">Archivio</a><a href="/discografia/numeri/">I numeri</a><a href="/">Home</a></nav>
+  <nav class="menu"><a href="/discografia/">Discografia</a><a href="/discografia/hard-dance-style/"><span class="lungo">Hard Dance Style</span><span class="corto">HDS</span></a><a class="qui" href="/discografia/archivio/">Archivio</a><a href="/discografia/numeri/">I numeri</a><a href="/">Home</a></nav>
 </div></header>
 
 <main class="contenitore">

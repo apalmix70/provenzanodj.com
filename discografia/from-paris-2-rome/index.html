@@ -32,6 +32,7 @@ header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;back
 .menu a.qui{color:var(--bianco)}
 .menu a:hover{color:var(--bianco)}
 .menu a{white-space:nowrap}
+.menu .corto{display:none}
 /* ⚠️ Sul telefono il menu usciva dallo schermo e la pagina scorreva di lato (misurato a 400px il 14/09/2026:
    menu largo 294px accanto al logo, documento largo 426). Resta su una riga sola, perche' il pannello dei
    filtri si aggancia sotto la testata a un'altezza fissa (--testata): si stringe invece di andare a capo. */
@@ -42,6 +43,8 @@ header{border-bottom:1px solid var(--riga);position:sticky;top:0;z-index:20;back
   .testata{gap:10px}
   .logo{font-size:16px}
   .menu{gap:12px;font-size:10px;letter-spacing:.08em}
+  .menu .lungo{display:none}
+  .menu .corto{display:inline}
 }
 h1,h2,h3{font-family:'Anton',Arial,sans-serif;font-weight:400;text-transform:uppercase;letter-spacing:.03em}
 /* ⚠️ m2o si scrive minuscolo anche dentro una testata in maiuscolo: vedi nome(). */
@@ -176,7 +179,7 @@ footer .contenitore{display:flex;justify-content:space-between;gap:14px;flex-wra
 <body>
 <header><div class="contenitore testata">
   <a class="logo" href="/">provenzano<span class="punto">.</span></a>
-  <nav class="menu"><a href="/discografia/">Discografia</a><a href="/discografia/archivio/">Archivio</a><a href="/discografia/numeri/">I numeri</a><a href="/">Home</a></nav>
+  <nav class="menu"><a href="/discografia/">Discografia</a><a href="/discografia/hard-dance-style/"><span class="lungo">Hard Dance Style</span><span class="corto">HDS</span></a><a href="/discografia/archivio/">Archivio</a><a href="/discografia/numeri/">I numeri</a><a href="/">Home</a></nav>
 </div></header>
 
 <main class="contenitore">
@@ -193,7 +196,7 @@ footer .contenitore{display:flex;justify-content:space-between;gap:14px;flex-wra
 
   
   <section class="blocco"><h3>Inserita in una sua compilation</h3><ul class="compilation"><li><a href="/compilation/m2ovol28/">m2o vol.28</a><span class="anno">29.11.2011</span></li></ul><p class="riga-conto">e su <b>un&rsquo;altra</b> di un&rsquo;altra etichetta<a class="giu" href="#stampata">in fondo alla pagina</a></p></section>
-  
+  <section class="blocco"><h3>Ascolta</h3><iframe class="soundcloud" loading="lazy" height="166" frameborder="0" scrolling="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F2401018314&secret_token=s-EA26yueJXoR&color=%23FF3131&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false"></iframe></section>
   
   
   <section class="blocco" id="stampata"><h3>Dove &egrave; uscito</h3><p class="coda-note">Il pezzo compare anche su un&rsquo;altra compilation del 2012: Hit Mania Club Dance Vol.18.</p></section>
